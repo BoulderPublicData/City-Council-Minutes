@@ -37,5 +37,63 @@ A `hearing` document is a dictionary with information about hearings:
 * nays - the last names of council members voting Nay/No as a list of strings
 * absent - the last names of council members voting absent or abstaining as a list of strings
 
+### Example meeting document
+```
+// A document for a meeting
+  {
+  // Enter the date of the meeting as a YYYY-MM-DD string
+  date: 
+  
+  // Enter the URL where the meeting minutes live as a string
+  minutes_url: 
+  
+  // Enter the last names of the city council members in attendance as a list
+  attendees:[
+
+    ]
+    
+  // Enter the names and topics of speakers during open comment as a list of dictionaries
+  open_comment:[
+      {
+      name: 
+      topic: 
+      }
+    ]
+    
+  // Enter the topics of the consent agenda as a dictionary with items, yeas, nays, absences
+  consent_agenda:{
+    items:[]
+    yeas:[]
+    nays:[]
+    absent:[]
+    }
+    
+  // Enter the items called up from other boards and commissions as a list of strings
+  callup_checkin:[
+
+    ]
+    
+  // Enter the public hearings as a list of dictionaries
+  public_hearings:[
+
+      // The first hearing dictionary
+      {
+      name: 
+      description: 
+      opened: 
+      closed: 
+      speakers: [
+        
+        ],
+      motion: 
+      seconded: 
+      yeas: []
+      nays: []
+    }
+    ]
+    ]
+}
+```
+
 ## Validation
 A [HJSON](https://hjson.github.io/) file is hosted [here](https://json.link/D6f2H0KntI) that generates the [JSON file](https://json.link/wGiTx3N5w2.json).
