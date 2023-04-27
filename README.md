@@ -91,7 +91,6 @@ A `hearing` document is a dictionary with information about hearings:
       nays: []
     }
     ]
-    ]
 }
 ```
 
