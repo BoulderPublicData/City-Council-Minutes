@@ -1,0 +1,3335 @@
+{
+ "entry_id": 151977,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "dfms9LglGhjO5xvVNDFLPQ",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 3.15
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Mock moved, seconded by Morzel, to approve Consent Agenda items 3-A through 3-E.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7079",
+     "7081",
+     "7082"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "Vote was taken on the motion to approve Consent Agenda items 3-A through 3-E. The motion carried: 7-0, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/3/Text/5"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/5"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/3/Text/5"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/5"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Text/5"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Toor",
+     "Corson",
+     "Mock",
+     "Lopez",
+     "Morzel",
+     "Poinsatte",
+     "Riggle"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/3/Text/5"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/3/Text/5"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Morzel moved, seconded by Riggle, to request that Planning Board evaluate the elimination of the Planning Reserve by changing it to a Rural Preserve in addition to the current proposal to change to 159 acres of Planning Reserve to Rural Preserve adopted by Council on September 5, 2000.",
+    "motion_text_citations": [
+     "/page/2/Text/4"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/2/Text/4"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Riggle",
+    "seconded_by_citations": [
+     "/page/2/Text/4"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "Vote was taken on the motion to request that Planning Board evaluate the elimination of the Planning Reserve by changing it to a Rural Preserve in addition to the current proposal to change to 159 acres of Planning Reserve to Rural Preserve adopted by Council on September 5, 2000. The motion carried: 5-2, Corson and Lopez opposed, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/6"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/3/Text/6"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Toor",
+     "Mock",
+     "Lopez",
+     "Poinsatte",
+     "Riggle"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/3/Text/6"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [
+     "Corson",
+     "Lopez"
+    ],
+    "no_votes_citations": [
+     "/page/3/Text/6"
+    ],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/3/Text/6"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Morzel moved, seconded by Mock , to adopt Option No. 3, to defer Land Use Map changes for Area Plans.",
+    "motion_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "Vote was taken on the motion to adopt Option No. 3, to defer Land Use Map changes for Area Plans. The motion carried: 4-3, Corson, Lopez and Poinsatte opposed, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/7"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/3/Text/7"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Toor",
+     "Mock",
+     "Lopez",
+     "Riggle"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/3/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [
+     "Corson",
+     "Lopez",
+     "Poinsatte"
+    ],
+    "no_votes_citations": [
+     "/page/3/Text/7"
+    ],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/3/Text/7"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Morzel moved, seconded by Poinsatte, to direct staff to look at the potential for reducing Commercial Land Use Designations in Area 1 (including options for reducing job growth).",
+    "motion_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "direction_to_staff",
+    "action_type_citations": [
+     "/page/2/Text/6"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Poinsatte",
+    "seconded_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "Vote was taken on the motion to direct staff to look at the potential for reducing Commercial Land Use Designations in Area 1 (including options for reducing job growth). The motion carried: 6 - 1, Lopez opposed, Eldridge and Havlick.",
+    "vote_text_citations": [
+     "/page/3/Text/8"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/8"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/3/Text/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Toor",
+     "Corson",
+     "Mock",
+     "Morzel",
+     "Poinsatte",
+     "Riggle"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/3/Text/8"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [
+     "Lopez"
+    ],
+    "no_votes_citations": [
+     "/page/3/Text/8"
+    ],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/3/Text/8"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Mock moved, seconded by Morzel, to adopt Resolution No. 862. encouraging the citizens of the City of Boulder to oppose Amendment No. 21 also known as “Taxcut 2000,” when voting in the November 7, 2000 election.",
+    "motion_text_citations": [
+     "/page/2/Text/10"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [
+     "862"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/2/Text/10"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/2/Text/10"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "Vote was taken on the motion to adopt Resolution No. 862, encouraging the citizens of the City of Boulder to oppose Amendment No. 21 also known as \"Taxcut 2000,\" when voting in the November 7, 2000 election. The motion carried: 7-0, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/0"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/4/Text/0"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/0"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Toor",
+     "Corson",
+     "Mock",
+     "Lopez",
+     "Morzel",
+     "Poinsatte",
+     "Riggle"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/4/Text/0"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/4/Text/0"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Corson moved, seconded by Morzel, to support Boulder County Ballot Question 1B authorizing the extension of the County's existing .10% recycling and composting sales and use tax for eight years and for the issuance of up to $80,800,000 in bonds, for the purchase and maintenance of open space.",
+    "motion_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [
+     "1B"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "Vote was taken on the motion to support Boulder County Ballot Question 1B authorizing the extension of the County's existing .10% recycling and composting sales and use tax for eight years and for the issuance of up to $80,800,000 in bonds, for the purchase and maintenance of open space. The motion carried: 7-0, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/4/Text/1"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/1"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/4/Text/1"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/1"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Toor",
+     "Mock",
+     "Lopez",
+     "Morzel",
+     "Poinsatte",
+     "Riggle",
+     "Corson"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/4/Text/1"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/4/Text/1"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Mayor Toor moved, seconded by Mock, to adopt Ordinance No.7078, adopting Chapter 6-12, B.R.C. 1981, regulating trash haulers and recyclable materials as amended.",
+    "motion_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7078"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Toor",
+    "moved_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "The motion carried: 7-0, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/7"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/7"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Corson",
+     "Mock",
+     "Lopez",
+     "Morzel",
+     "Poinsatte",
+     "Riggle",
+     "Toor"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/4/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/4/Text/7"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Morzel moved, seconded by Riggle, to approve the Greenways Master Plan projects and opportunities.",
+    "motion_text_citations": [
+     "/page/5/Text/3"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/3"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Riggle",
+    "seconded_by_citations": [
+     "/page/5/Text/3"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "The motion carried: 7-0. Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/5/Text/3"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/3"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/3"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/3"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/5/Text/3"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Corson",
+     "Mock",
+     "Lopez",
+     "Morzel",
+     "Poinsatte",
+     "Riggle",
+     "Toor"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/5/Text/3"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/5/Text/3"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "motion_text": "Councilmember Mock moved, seconded by Lopez, to introduce and order published by title only Ordinance No.7083, amending Sections 5-6-2 and 5-6-6, B.R.C. 1981, concerning blank cartridges, fireworks, and exempting certain devices for ceremonial or other purposes as amended.",
+    "motion_text_citations": [
+     "/page/5/Text/6"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7083"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/5/Text/6"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "seconded_by": "Lopez",
+    "seconded_by_citations": [
+     "/page/5/Text/6"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "vote_text": "The motion carried: 7-0, Eldridge and Havlick absent.",
+    "vote_text_citations": [
+     "/page/5/Text/6"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/6"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/6"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/6"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/5/Text/6"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "yes_votes": [
+     "Corson",
+     "Mock",
+     "Lopez",
+     "Morzel",
+     "Poinsatte",
+     "Riggle",
+     "Toor"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/3",
+     "/page/5/Text/6"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    },
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Havlick"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/5/Text/6"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, information accuracy is flawed: 'stated_unanimous' is incorrectly set to true for motions with 5-2 and 4-3 votes. Additionally, 'yes_votes' lists are hallucinated/inferred rather than explicitly named in the text, violating the schema's 'n"
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Deborah Ordway",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Parking meters, handicap parking spaces, and Little Jewel sidewalk sale.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Ardie Sehulster",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Supports Ballot Issue 201.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Mike McSweeney",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Opposition to GID Eco Pass proposals.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Doretta Hultquist",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "South Boulder Flood Plain Study.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Lancene Candora",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Planning Reserve for small properties near Gateway Park.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Boulder Commuter Meeting and alternative transportation access.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Cosima Krueger",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7081.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Garland Campbell",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Affordable Housing Tax.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Robert Sharpe",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Affordable Housing Tax and development fees.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Ricky Weiser",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Ordinance 7081, Gunbarrel Hill purchase, and Greenways Master Plan.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Peggy Wrenn",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ballot Issue 201.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Amendment 24 and road through Crossroads.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Doretta Hultquist",
+    "name_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Resolution 862 and 6B motion.",
+    "topic_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Leo Hollby",
+    "name_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Planning Reserve motion.",
+    "topic_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Chuck Palmer",
+    "name_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Opposition to growth and support for County Open Space.",
+    "topic_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Garland Campbell",
+    "name_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Mixed use in Table Mesa/ Base Mar areas.",
+    "topic_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Philip (Mick) Mahoney",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Opposed to Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Daniel Ziskin",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Edwin Crow",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Beth Williamson",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Karl Williamson",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Eric Lombardi",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Al Gunter",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Ordinance 7078.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Chuck Palmer",
+    "name_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Construction and commercial waste.",
+    "topic_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Ned Levine",
+    "name_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Support for Greenways Master Plan.",
+    "topic_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Dick Ross",
+    "name_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Concerns about Greenways Master Plan impacts.",
+    "topic_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Lori Thompson",
+    "name_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Greenways Master Plan and school access.",
+    "topic_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Al Gunter",
+    "name_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Greenways Master Plan conditions.",
+    "topic_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Teri Girtmaker",
+    "name_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Greenways Master Plan and public notification.",
+    "topic_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   },
+   {
+    "name": "Jim Snow",
+    "name_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    },
+    "topic": "Ecological impacts of Greenways Master Plan.",
+    "topic_citations": [
+     "/page/5/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "Citations are incorrect; the extracted speakers are from 'Citizen Participation' (Section 2) and 'Public Comment' (Section 7), but the citations point to 'Public Hearings' (Sections 9 and 10). The extracted names and topics are accurate to the text, but the block IDs used for citation (/page/4/List/"
+    }
+   }
+  ],
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "9:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/6/Text/1"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "1. CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "1. CALL TO ORDER AND ROLL CALL - 6:00 p.m.",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "2. CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "2. CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE - 6:50 p.m.",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "7081",
+     "7083"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [
+     {
+      "name": "Deborah Ordway",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Ardie Sehulster",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Mike McSweeney",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Doretta Hultquist",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Lancene Candora",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Cosima Krueger",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Garland Campbell",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Robert Sharpe",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Ricky Weiser",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Peggy Wrenn",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     }
+    ],
+    "outcome_summary": "Council received public comments and provided staff responses on various issues including parking, housing, and flood plain studies.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1",
+     "/page/1/Text/2",
+     "/page/1/Text/3",
+     "/page/1/Text/4"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "3. CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "A. APPROVAL OF THE CITY COUNCIL MEETING MINUTES FROM SEPTEMBER 5, 2000.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Approved.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "3. CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "B. THIRD READING AND CONSIDERATION OF ORDINANCE NO. 7079 AMENDING CHAPTERS 9-1, 9-3.2, 9-3.3, 9-3.4, 9-3.5, 9-3.6, 9-4 AND 9-8 OF TITLE 9, LAND USE REGULATIONS, B.R.C. 1981.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "7079"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Approved.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "3. CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "C. SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7081, AN ORDINANCE AMENDING SECTION 6-2-5, B.R.C. 1981, IN ORDER TO COMPLY WITH REQUIREMENTS OF THE COLORADO NOXIOUS WEED ACT, AND ADDING SECTION 6-2-10, B.R.C. 1981, DESIGNATING CITY COUNCIL AS THE LOCAL ADVISORY BOARD.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "7081"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Approved.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "3. CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "D. SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7082 APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2000 BUDGET.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "7082"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Approved.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "3. CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "E. CONSIDERATION OF A MOTION APPROVING THE JOINT PURCHASE WITH BOULDER COUNTY OF 148.73 ACRES OWNED BY THE CITO COMPANY LOCATED ON GUNBARREL HILL, JUST SOUTH OF MINERAL ROAD AND EAST OF 79TH STREET FOR OPEN SPACE PURPOSES.",
+    "title_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Approved.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "4.A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "4. MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "A. REPORT ON THE BOULDER VALLEY COMPREHENSIVE PLAN UPDATE PROCESS.",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council directed staff to look at reducing Commercial Land Use Designations in Area 1.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "6. MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "A. CONSIDERATION OF A RESOLUTION ENCOURAGING THE CITIZENS OF THE CITY OF BOULDER TO OPPOSE AMENDMENT NO. 21 ALSO KNOWN A“TAXCUT 2000,” WHEN VOTING IN THE NOVEMBER 7, 2000 ELECTION. - 7:55 p.m.",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "862"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted Resolution No. 862.",
+    "outcome_summary_citations": [
+     "/page/2/Text/10"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "6.B",
+    "item_number_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "6. MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "B. CONSIDERATION OF A MOTION TO SUPPORT BOULDER COUNTY BALLOT QUESTION 1B AUTHORIZING THE EXTENSION OF THE COUNTY'S EXISTING .10% RECYCLING AND COMPOSTING SALES AND USE TAX FOR EIGHT YEARS AND FOR THE ISSUANCE OF UP TO $80,800,000 IN BONDS, FOR THE PURCHASE AND MAINTENANCE OF OPEN SPACE.- 7:58 p.m.",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Supported Boulder County Ballot Question 1B.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "9. SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7078, ADOPTING CHAPTER 6-12, B.R.C. 1981, REGULATING TRASH HAULERS AND RECYCLABLE MATERIALS, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "7078"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": "8:24 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [
+     {
+      "name": "Philip (Mick) Mahoney",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Daniel Ziskin",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Edwin Crow",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Beth Williamson",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Karl Williamson",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Eric Lombardi",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Al Gunter",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Chuck Palmer",
+      "name_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     }
+    ],
+    "outcome_summary": "Adopted Ordinance No. 7078.",
+    "outcome_summary_citations": [
+     "/page/4/Text/7"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "ORDER OF BUSINESS",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "10. CONSIDERATION OF A MOTION ACCEPTING THE GREENWAYS MASTER PLAN PROJECTS AND OPPORTUNITIES. - 9:05 p.m.",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": "9:05 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [
+     {
+      "name": "Ned Levine",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Dick Ross",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Lori Thompson",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Al Gunter",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Teri Girtmaker",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     },
+     {
+      "name": "Jim Snow",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+      }
+     }
+    ],
+    "outcome_summary": "Approved the Greenways Master Plan projects and opportunities.",
+    "outcome_summary_citations": [
+     "/page/5/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "title": "11. INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING SECTIONS 5-6-2 AND 5-6-6, B.R.C. 1981, CONCERNING BLANK CARTRIDGES, FIREWORKS, AND EXEMPTING CERTAIN DEVICES USED FOR CEREMONIAL OR OTHER PURPOSES.",
+    "title_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "ordinance_or_resolution_numbers": [
+     "7083"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/Text/6"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Introduced and ordered published by title only Ordinance No. 7083.",
+    "outcome_summary_citations": [
+     "/page/5/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. Information is mostly accurate but contains a hallucination: Item 3.B title incorrectly lists '9-3.6' instead of the HTML's '9-3.5'. Also, Item 2 incorrectly infers ordinance numbers 7081/7083 from citizen comments rather than the agenda item itself."
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   },
+   {
+    "name": "Corson",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   },
+   {
+    "name": "Mock",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   },
+   {
+    "name": "Lopez",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate based on the roll call text. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. Citations are correct for the block containing the list, but the title extraction is flawed."
+    }
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names (Eldridge, Havlick) and status (absent) are accurate per /page/0/Text/3. However, the extraction cites the same block 4 times instead of listing unique blocks. The field is complete as no other blocks mention these members as absent."
+    },
+    "note": "absent",
+    "note_citations": [
+     "/page/0/Text/3"
+    ],
+    "note_score": {
+     "score": 4,
+     "reasoning": "The extracted names (Eldridge, Havlick) and status (absent) are accurate per /page/0/Text/3. However, the extraction cites the same block 4 times instead of listing unique blocks. The field is complete as no other blocks mention these members as absent."
+    }
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names (Eldridge, Havlick) and status (absent) are accurate per /page/0/Text/3. However, the extraction cites the same block 4 times instead of listing unique blocks. The field is complete as no other blocks mention these members as absent."
+    },
+    "note": "absent",
+    "note_citations": [
+     "/page/0/Text/3"
+    ],
+    "note_score": {
+     "score": 4,
+     "reasoning": "The extracted names (Eldridge, Havlick) and status (absent) are accurate per /page/0/Text/3. However, the extraction cites the same block 4 times instead of listing unique blocks. The field is complete as no other blocks mention these members as absent."
+    }
+   }
+  ],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2000-09-19",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2000-09-19' is accurate and matches the heading and footers. The citation '/page/0/SectionHeader/0' correctly points to the block containing the date. No contradictions or missing relevant blocks were found."
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  }
+ }
+}
