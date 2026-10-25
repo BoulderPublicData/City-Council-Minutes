@@ -46,6 +46,7 @@ from scripts.config import (
     SAMPLE_CSV,
 )
 from scripts.extraction_schema import SCHEMA_VERSION, schema_json
+from scripts.gold import gold_entry_ids
 
 log = logging.getLogger(__name__)
 
@@ -164,6 +165,8 @@ def _targets(scope: str, limit: int | None, entry_ids: list[int] | None) -> pd.D
     if scope == "sample":
         ids = pd.read_csv(SAMPLE_CSV)["entry_id"]
         man = man[man["entry_id"].isin(ids)]
+    elif scope == "gold":
+        man = man[man["entry_id"].isin(gold_entry_ids())]
     if entry_ids:
         man = man[man["entry_id"].isin(entry_ids)]
     man = man.sort_values("entry_id")

@@ -22,6 +22,7 @@ import pandas as pd
 from pypdf import PdfReader
 
 from scripts.config import INVENTORY_CSV, LF_DIR, LF_PDF, MANIFEST_CSV, SAMPLE_CSV
+from scripts.gold import gold_entry_ids
 from scripts.laserfiche import LaserficheClient, LaserficheError, docview_url
 
 log = logging.getLogger(__name__)
@@ -34,6 +35,8 @@ def _targets(scope: str, limit: int | None, entry_ids: list[int] | None) -> pd.D
     inv = pd.read_csv(INVENTORY_CSV)
     if scope == "sample":
         inv = inv[inv["entry_id"].isin(pd.read_csv(SAMPLE_CSV)["entry_id"])]
+    elif scope == "gold":
+        inv = inv[inv["entry_id"].isin(gold_entry_ids())]
     if entry_ids:
         inv = inv[inv["entry_id"].isin(entry_ids)]
     return inv.head(limit) if limit else inv

@@ -36,7 +36,8 @@ def _build_parser() -> argparse.ArgumentParser:
 
     for name in ("fetch", "convert", "extract", "run"):
         sp = sub.add_parser(name)
-        sp.add_argument("--scope", choices=["sample", "all"], default="sample")
+        sp.add_argument("--scope", choices=["sample", "gold", "all"], default="sample",
+                        help="sample = quarterly sample; gold = the 41 hand-transcribed meetings")
         sp.add_argument("--limit", type=int, help="Process at most N documents (for testing)")
         sp.add_argument("--entry-ids", type=int, nargs="*", help="Only these entry ids")
         sp.add_argument("--mode", choices=["fast", "balanced", "accurate"], default="balanced",

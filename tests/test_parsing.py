@@ -10,6 +10,7 @@ def test_parse_name_date_across_eras():
     assert parse_name_date("City Council Minutes - 12.01.20") == date(2020, 12, 1)
     assert parse_name_date("City Council Minutes - 12.14.2021") == date(2021, 12, 14)
     assert parse_name_date("Special Meeting January 5, 2010") == date(2010, 1, 5)
+    assert parse_name_date("City Council Minutes - 2017 -10-24") == date(2017, 10, 24)
     assert parse_name_date("Index") is None
 
 

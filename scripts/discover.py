@@ -32,7 +32,7 @@ def parse_name_date(name: str) -> date | None:
     """Best-effort meeting date from a document name; None when ambiguous."""
     s = name.strip()
     candidates: list[tuple[int, int, int]] = []
-    for y, m, d in re.findall(r"(?<!\d)(\d{4})[-._](\d{1,2})[-._](\d{1,2})(?!\d)", s):
+    for y, m, d in re.findall(r"(?<!\d)(\d{4}) ?[-._] ?(\d{1,2}) ?[-._] ?(\d{1,2})(?!\d)", s):
         candidates.append((int(y), int(m), int(d)))
     if not candidates:
         for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?[- ](\d{1,2})(?:st|nd|rd|th)?[-, ]+(\d{4})", s):

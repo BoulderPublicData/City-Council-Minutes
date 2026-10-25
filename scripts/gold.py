@@ -48,6 +48,10 @@ def load_gold() -> list[dict[str, Any]]:
     return records
 
 
+def gold_entry_ids() -> list[int]:
+    return [g["entry_id"] for g in load_gold() if g.get("entry_id")]
+
+
 def write_gold() -> None:
     GOLD_JSON.parent.mkdir(parents=True, exist_ok=True)
     if GOLD_JSON.exists():
