@@ -57,6 +57,10 @@ RUN_FIELDS = ["entry_id", "step", "request_id", "status", "mode", "page_count", 
               "error"]
 
 
+class BillingLimitError(RuntimeError):
+    """The key is at its Datalab spending limit; every further job would fail."""
+
+
 class _RateLimiter:
     """One shared gate so polls from every worker stay under the per-minute cap."""
 
@@ -97,6 +101,8 @@ def _call(method: str, url: str, **kw: Any) -> dict[str, Any]:
             log.warning("datalab %s → %s; backing off", url, r.status_code)
             time.sleep(30 * (attempt + 1))
             continue
+        if r.status_code == 402:
+            raise BillingLimitError(f"datalab 402: {r.text[:300]}")
         if r.status_code >= 400:
             raise RuntimeError(f"datalab {r.status_code}: {r.text[:400]}")
         return r.json()
@@ -275,6 +281,12 @@ def _run(fn, scope: str, limit: int | None, entry_ids: list[int] | None,
             try:
                 status = fut.result()
                 counts[status] = counts.get(status, 0) + 1
+            except BillingLimitError as exc:
+                log.error("stopping: %s", exc)
+                for f in futs:
+                    f.cancel()
+                print(f"{fn.__name__}: {counts} — stopped at the Datalab billing limit")
+                return 2
             except Exception as exc:  # noqa: BLE001
                 errors += 1
                 log.error("%s %s failed: %s", fn.__name__, futs[fut], exc)
