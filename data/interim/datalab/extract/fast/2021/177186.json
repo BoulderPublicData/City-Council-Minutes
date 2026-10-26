@@ -1,0 +1,954 @@
+{
+ "entry_id": 177186,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "dTEKEMcxPBJdmEzik7GdMA",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 0.9
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "motion_text": "Motion to REMOVE 2A from the Consent Agenda",
+    "motion_text_citations": [
+     "/page/0/Table/11"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/0/Table/11"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "moved_by": "Nagle",
+    "moved_by_citations": [
+     "/page/0/Table/11"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "seconded_by": "Mayor Weaver",
+    "seconded_by_citations": [
+     "/page/0/Table/11"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "vote_text": "1:6 – Motion DID NOT Carry – NAY -",
+    "vote_text_citations": [
+     "/page/0/Table/11"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "result": "failed",
+    "result_citations": [
+     "/page/0/Table/11"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "yes_count": 1,
+    "yes_count_citations": [
+     "/page/0/Table/11"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/0/Table/11"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/0/Table/11"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "no_votes": [
+     "Brockett",
+     "Friend",
+     "Swetlik",
+     "Wallach",
+     "Weaver",
+     "Young"
+    ],
+    "no_votes_citations": [
+     "/page/1/Table/0"
+    ],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/0/Text/6"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    }
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "motion_text": "Motion to APPROVE Item 2A(2) as submitted on HOTLINE – Ordinance 8483",
+    "motion_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/Table/1"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8483"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/Table/1"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "vote_text": "6:1 NAY - Nagle",
+    "vote_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Table/1"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/1/Table/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Swetlik",
+     "Wallach",
+     "Weaver",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/1/Table/0"
+    ],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "no_votes": [
+     "Nagle"
+    ],
+    "no_votes_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/0/Text/6"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    }
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "motion_text": "Motion to APPROVE Item 2A(1) – Resolution 1289",
+    "motion_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/Table/2"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "ordinance_or_resolution_numbers": [
+     "1289"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/Table/2"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "vote_text": "6:1 NAY - Nagel",
+    "vote_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Table/2"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/1/Table/2"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Swetlik",
+     "Wallach",
+     "Weaver",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/1/Table/0"
+    ],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "no_votes": [
+     "Nagle"
+    ],
+    "no_votes_citations": [
+     "/page/1/Table/2"
+    ],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    },
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/0/Text/6"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the three motions, vote counts, and outcomes. However, the 'no_votes' and 'yes_votes' arrays cite /page/1/Table/0, which only lists names without specifying 'NAY' or 'YES' votes. The HTML explicitly states 'NAY - Nagle' in the vote columns of Tables 1 and 2, but /p"
+    }
+   }
+  ],
+  "open_comment_speakers": [],
+  "location": "City of Boulder, Via Video Conferencing",
+  "location_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "location_score": {
+   "score": 3,
+   "reasoning": "The extracted value 'City of Boulder, Via Video Conferencing' is partially accurate but misleading. The HTML explicitly states 'Via Video Conferencing' in the header, implying a virtual location, not a physical one at 'City of Boulder'. The header block /page/0/SectionHeader/1 is the correct source,"
+  },
+  "adjourned_time": "6:21 p.m.",
+  "adjourned_time_citations": [
+   "/page/1/Text/6"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "open_comment_speakers_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "2.A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7",
+     "/page/0/Text/8"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "title": "Consideration of the following items related to the annexation and initial zoning of a 308.15-acre parcel generally known as CU South at 4886 and 5278 Table Mesa Drive; 718 Marshall Road; 0 Hwy 36 (2 parcels); and 4745 W. Moorhead with an initial zoning designation of Public (P) (LUR2019-00010).",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "ordinance_or_resolution_numbers": [
+     "Resolution 1289",
+     "Ordinance 8483"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to remove 2A from the Consent Agenda did not carry; however, the items were subsequently approved by the Council.",
+    "outcome_summary_citations": [
+     "/page/0/Table/11",
+     "/page/1/Table/1",
+     "/page/1/Table/2"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "section": "DISCUSSION ITEMS",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No specific items or actions were recorded for this section.",
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "section": "DEBRIEF",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No specific items or actions were recorded for this section.",
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Weaver at 6:21 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, correctly identifying agenda items, numbers, and outcomes. However, the extraction misses the specific sub-items (Resolution 1289 and Ordinance 8483) as separate agenda entries under item 2.A, which are listed in "
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted names and virtual attendance status are accurate per Text/5. However, the 'title' field is incorrect for all members; the HTML only lists names under 'Council Members present virtually' without assigning specific titles like 'Mayor' or 'Council Member' to individuals in that line. The "
+    }
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and notes are accurate based on Text/6 and Text/10. However, the citation list contains duplicates (Text/6 cited 4 times) and lacks the specific block ID for the 'Absent' label itself (Text/6), though the content is there. The extraction is factually correct but the citation list"
+    },
+    "note": "absent; recusal",
+    "note_citations": [
+     "/page/0/Text/6",
+     "/page/0/Text/10"
+    ],
+    "note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and notes are accurate based on Text/6 and Text/10. However, the citation list contains duplicates (Text/6 cited 4 times) and lacks the specific block ID for the 'Absent' label itself (Text/6), though the content is there. The extraction is factually correct but the citation list"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and notes are accurate based on Text/6 and Text/10. However, the citation list contains duplicates (Text/6 cited 4 times) and lacks the specific block ID for the 'Absent' label itself (Text/6), though the content is there. The extraction is factually correct but the citation list"
+    },
+    "note": "absent; recusal",
+    "note_citations": [
+     "/page/0/Text/6",
+     "/page/0/Text/10"
+    ],
+    "note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and notes are accurate based on Text/6 and Text/10. However, the citation list contains duplicates (Text/6 cited 4 times) and lacks the specific block ID for the 'Absent' label itself (Text/6), though the content is there. The extraction is factually correct but the citation list"
+    }
+   }
+  ],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2021-08-10",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2021-08-10' is accurate and matches the heading in block /page/0/SectionHeader/1. The citation is correct and sufficient."
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL SPECIAL MEETING Via Video Conferencing",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:02 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/4"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/4"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  }
+ }
+}

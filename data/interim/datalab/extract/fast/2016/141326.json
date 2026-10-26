@@ -1,0 +1,1592 @@
+{
+ "entry_id": 141326,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "WNGGEibfp3TT6vkuI6HimQ",
+ "page_count": 3,
+ "cost_breakdown": {
+  "final_cost_cents": 1.35
+ },
+ "extraction": {
+  "motions": [],
+  "open_comment_speakers": [
+   {
+    "name": "Kristen Uitto",
+    "name_citations": [
+     "/page/0/Text/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Naropa University",
+    "topic_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Beth Fleming",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Don Olsen",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Patty Angerer",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Juliana Bellepanni",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Mike Dominick",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Paul Chang",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Chuck Palmer",
+    "name_citations": [
+     "/page/1/Text/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "385 Broadway",
+    "topic_citations": [
+     "/page/0/SectionHeader/14"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Bill Reynolds",
+    "name_citations": [
+     "/page/1/Text/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Table Mesa Shopping Center",
+    "topic_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Jeff Winger",
+    "name_citations": [
+     "/page/1/Text/6"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Table Mesa Shopping Center",
+    "topic_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Michael Soucie",
+    "name_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Table Mesa Shopping Center",
+    "topic_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Patrick Armitage",
+    "name_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Table Mesa Shopping Center",
+    "topic_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Joan Shepherd",
+    "name_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Table Mesa Shopping Center",
+    "topic_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Tina Soucie",
+    "name_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "Table Mesa Shopping Center",
+    "topic_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Doug Reeve",
+    "name_citations": [
+     "/page/2/Text/1"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Jeremy Duran",
+    "name_citations": [
+     "/page/2/Text/1"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Tim Johnson",
+    "name_citations": [
+     "/page/2/Text/1"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Ann Fenerty",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Mike Fenerty",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Marie Blaney",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Bruce Bowlin",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Greg Hefferdink",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Sandy Stewart",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Ellen Taxman",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   },
+   {
+    "name": "Tim Gormley",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    },
+    "topic": "3485 Stanford Court",
+    "topic_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extraction incorrectly labels public hearing speakers as 'open_comment_speakers'. The schema defines this field for non-hearing comments, but the HTML shows all listed speakers occurred during 'PUBLIC HEARING' items (2.A, 2.B, 2.C, 2.D). The data is factually accurate regarding names and topics,"
+    }
+   }
+  ],
+  "location": "Municipal Building, 1777 Broadway, Boulder, Colorado 80302",
+  "location_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted location matches the HTML text exactly. The citation points to the correct block containing the address. No contradictions or missing relevant blocks found."
+  },
+  "adjourned_time": "9:03 P.M.",
+  "adjourned_time_citations": [
+   "/page/2/Text/6"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "motions_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "title": "1. CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Jones called the meeting to order at 6:02 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "section": "PUBLIC HEARING",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "title": "Joint Public Hearing with Planning Board to address public request for changes to the BVCP land use map for four properties within city limits (Area I)",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_opened_time": "6:16 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/9"
+    ],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_closed_time": "9:02 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/4"
+    ],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Kristen Uitto",
+      "name_citations": [
+       "/page/0/Text/10"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/Text/10"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Chuck Palmer",
+      "name_citations": [
+       "/page/1/Text/0"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/Text/0"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Beth Fleming",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Helen Goldman",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Tom Angerer",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Don Olsen",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Patty Angerer",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Juliana Bellepanni",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Mike Dominick",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Paul Chang",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Bill Reynolds",
+      "name_citations": [
+       "/page/1/Text/6"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/Text/6"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Jeff Winger",
+      "name_citations": [
+       "/page/1/Text/6"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/Text/6"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Michael Soucie",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Patrick Armitage",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Joan Shepherd",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Tina Soucie",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Doug Reeve",
+      "name_citations": [
+       "/page/2/Text/1"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/Text/1"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Jeremy Duran",
+      "name_citations": [
+       "/page/2/Text/1"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/Text/1"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Tim Johnson",
+      "name_citations": [
+       "/page/2/Text/1"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/Text/1"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Ann Fenerty",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Mike Fenerty",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Marie Blaney",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Bruce Bowlin",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Greg Hefferdink",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Sandy Stewart",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Ellen Taxman",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     },
+     {
+      "name": "Tim Gormley",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "name_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position_score": {
+       "score": 2,
+       "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+      }
+     }
+    ],
+    "outcome_summary": "Joint Public Hearing with Planning Board to address public request for changes to the BVCP land use map for four properties within city limits (Area I).",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "title": "3. ADJOURNMENT",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned on October 13, 2017 at 9:03 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct blocks. However, the extracted agenda items are incomplete. The HTML contains four distinct public hearing sub-items (A. Naropa, B. 385 Broadway, C. Table Mesa, D. 3485 Stanford) which are missing from the extraction. The extraction incorrectly groups all 28"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Jones",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "called the meeting to order at 6:02 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Gerstle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Planning Board Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Gray",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Planning Board Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "May",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Planning Board Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Payton",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Planning Board Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Putnam",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Planning Board Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   },
+   {
+    "name": "Zuckerman",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "title": "Planning Board Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 2,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the HTML. However, it incorrectly assigns the title 'Council Member' to Mayor Jones (who is Mayor) and 'Planning Board Member' to the council members. It also fails to cite the block containing the absent member (Bowen), a"
+    }
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Bowen",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted value correctly identifies 'Bowen' as absent based on the text in block /page/0/Text/4. The citation is accurate and complete as no other absent members are mentioned in the provided HTML."
+    },
+    "note": "absent",
+    "note_citations": [
+     "/page/0/Text/4"
+    ],
+    "note_score": {
+     "score": 5,
+     "reasoning": "The extracted value correctly identifies 'Bowen' as absent based on the text in block /page/0/Text/4. The citation is accurate and complete as no other absent members are mentioned in the provided HTML."
+    }
+   }
+  ],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2016-10-13",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 4,
+   "reasoning": "The extracted date 2016-10-13 matches the meeting date in the header. However, the citation points to the header block which contains the date, but the adjournment text on page 2 (block /page/2/Text/6) incorrectly states the adjournment date as 2017, creating a contradiction in the document's own '2"
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL JOINT SPECIAL MEETING WITH PLANNING BOARD",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:02 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Jones",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  }
+ }
+}

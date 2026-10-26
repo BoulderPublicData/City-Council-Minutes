@@ -1,0 +1,710 @@
+{
+ "entry_id": 131726,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "WWHd74Vb3dUg_EnRKOYI2g",
+ "page_count": 1,
+ "cost_breakdown": {
+  "final_cost_cents": 0.45
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "motion_text": "Council Member Yates moved to go into Executive Session for Legal Advice and Discussion Regarding Municipalization Strategy and negotiation strategy. Council Member Weaver seconded the motion which carried 9:0 at 7:25 p.m.",
+    "motion_text_citations": [
+     "/page/0/Text/6"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "action_type": "executive_session",
+    "action_type_citations": [
+     "/page/0/Text/5",
+     "/page/0/Text/6"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "moved_by": "Council Member Yates",
+    "moved_by_citations": [
+     "/page/0/Text/6"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "seconded_by": "Council Member Weaver",
+    "seconded_by_citations": [
+     "/page/0/Text/6"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "vote_text": "which carried 9:0 at 7:25 p.m.",
+    "vote_text_citations": [
+     "/page/0/Text/6"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/6"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Text/6"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/6"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/0/Text/6"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "motion_text": "BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on January 26, 2016 at 11:04 p.m.",
+    "motion_text_citations": [
+     "/page/0/Text/11"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/0/Text/11"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "moved_by": null,
+    "moved_by_citations": [],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "vote_text": null,
+    "vote_text_citations": [],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/11"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "yes_count": null,
+    "yes_count_citations": [],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "no_count": null,
+    "no_count_citations": [],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "stated_unanimous": null,
+    "stated_unanimous_citations": [],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'stated_unanimous' is incorrectly set to true; the text says '9:0' not 'unanimous'. 'moved_by' and 'seconded_by' include 'Council Member' prefix, violating 'last names only' instruction. Adjournment motion lacks mover/seconder as expected."
+    }
+   }
+  ],
+  "open_comment_speakers": [],
+  "location": "Council Chambers, Municipal Building, 1777 Broadway",
+  "location_citations": [
+   "/page/0/SectionHeader/0",
+   "/page/0/Text/2"
+  ],
+  "location_score": {
+   "score": 4,
+   "reasoning": "The extracted location combines the address from the header with the specific room from the text. However, the text states the meeting was called to order in 'Council Chambers' while the address '1777 Broadway' is in the header. The extraction conflates these into a single string not explicitly as a"
+  },
+  "adjourned_time": "11:04 p.m.",
+  "adjourned_time_citations": [
+   "/page/0/Text/11"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "open_comment_speakers_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "section": "1. CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "title": "1. CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Jones called the meeting to order at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    }
+   },
+   {
+    "item_number": "2.A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4",
+     "/page/0/Text/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "section": "2. MATTERS FROM CITY ATTORNEY",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "title": "A. Consideration of a motion to go into Executive Session for Legal Advice and Discussion Regarding Municipalization Strategy and negotiation strategy",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The council moved into executive session at 7:25 p.m. and reconvened at 10:55 p.m. to hear from the City Attorney.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6",
+     "/page/0/Text/7",
+     "/page/0/Text/8",
+     "/page/0/Text/9"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "section": "3. ADJOURNMENT",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "title": "3. ADJOURNMENT",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned at 11:04 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/11"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete for the 3 agenda items found. However, the extracted 'section' field for item 1 incorrectly uses the item title '1. CALL TO ORDER...' instead of a standard section name like 'CALL TO ORDER'. The outcome summary for item 2 is slightly imprecise regarding the City's"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Suzanne Jones",
+    "name_citations": [
+     "/page/0/Text/2",
+     "/page/0/Text/3",
+     "/page/0/Text/14"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/2",
+     "/page/0/Text/14"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Burton",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the text in block /page/0/Text/3. However, the schema requires 'title' (e.g., 'Mayor', 'Council Member') as a separate field, but the extraction incorrectly places the full name 'Suzanne Jones' in the 'name' field instead of just 'Jones' or 'Mayor Jones' depending on the "
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2016-01-26",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2016-01-26' is accurate and matches the heading. The citation points to the correct block containing the date. No contradictions or missing relevant blocks found."
+  },
+  "meeting_title": "SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "7:25 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Suzanne Jones",
+  "presiding_officer_citations": [
+   "/page/0/Text/2",
+   "/page/0/Text/14"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

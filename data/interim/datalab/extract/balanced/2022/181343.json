@@ -1,0 +1,1647 @@
+{
+ "entry_id": 181343,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "anL8fKXGuR0XRhKr3_t4Dw",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 22.0
+ },
+ "extraction": {
+  "meeting_date": "2022-12-01",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Thursday, December 1, 2022” in /page/0/Text/3, supporting the normalized meeting date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 reads “CITY COUNCIL MEETING,” which supports the extraction's other meeting type classification. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify “Council Chambers” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the mayor called the meeting to order at 6:01 p.m. in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:50 p.m.",
+  "adjourned_time_citations": [
+   "/page/8/Text/7"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at 10:50 p.m. in /page/8/Text/7. Conclusion: the value at /page/8/Text/7 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state in /page/0/Text/6 that Mayor Brockett called the meeting to order. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "Water Service Agreement with the Mapleton Home Association",
+   "Concept Plan Review and Comment for the redevelopment of a 2.33 acre area including the properties generally known as 2504, 2506, 2536, and 2546 Spruce St., 2055 26th St., and 2537 Pearl St., with 101 residential units and 160 Parking spaces and amenities for residents. The proposal includes 88 market rate and 13 affordable on-site condominiums. Reviewed under case no. LUR2022-0003",
+   "Vacation of a shared access easement at 5330 Sterling Drive (ADR2022-00270)"
+  ],
+  "call_up_items_citations": [
+   "/page/4/SectionHeader/2",
+   "/page/4/SectionHeader/5",
+   "/page/4/SectionHeader/8"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/SectionHeader/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is stated in /page/4/SectionHeader/2. Conclusion: the value at /page/4/SectionHeader/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/SectionHeader/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is stated in /page/4/SectionHeader/5. Conclusion: the value at /page/4/SectionHeader/5 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/SectionHeader/8"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is stated in /page/4/SectionHeader/8. Conclusion: the value at /page/4/SectionHeader/8 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The Call-Up Check-In section contains three items, in /page/4/SectionHeader/2, /page/4/SectionHeader/5, and /page/4/SectionHeader/8; all three are present in the extraction. Conclusion: the value at /page/4/SectionHeader/2, /page/4/SectionHeader/5, and /page/4/SectionHeader/8 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/6"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:01 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Declaration in Solidarity with Victims of Club Q Shooting Presented by Mayor Brockett - ADDED",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "International Day of Persons with Disabilities Declaration presented by Council Member Tara Winer",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/Table/0"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to approve the election returns from the 2022 Coordinated Special Municipal Election held on November 8, 2022 – REMOVED",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "• Item 1B – Consideration of a motion to approve the election returns from the 2022 Coordinated Special Municipal Election held on November 8, 2022 – MOVED to December 15th meeting due to the certification of the election not being received from the Boulder County Clerk until yesterday, Nov. 30th.",
+    "outcome_summary_citations": [
+     "/page/1/Table/0"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to Suspend the Council Rules of Procedures IV.a(5) to allow for 3 substantive public hearings – ADDED",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Suspend the Council Rules of Procedures IV.a(5) to allow for 3 substantive public hearing",
+    "outcome_summary_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:44 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/4/Table/0"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/4/Table/0"
+    ],
+    "title": "Consideration of a motion to accept the November 10, 2022 Study Session Summary regarding the Transportation Core Arterial Network (CAN) Update",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt Resolution 1325 establishing the Boulder Public Library District, appoint two members of City Council , Aaron Brockett and Nicole Speer, to the Board of Trustee Selection Committee, and authorize the Chief of Staff to the Board of County Commissioners of Boulder County to notify the Board of County Commissioners of the District’s initial certification of the mill levy approved by the electors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "1325"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/4/Table/0"
+    ],
+    "title": "Introduction, first reading and consideration of a motion to order published by title only Ordinance 8556 Use Table and Standards Phase 2 Module 2; and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8556"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/4/Table/0"
+    ],
+    "title": "Introduction, first reading, and consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8564 reestablishing the City of Boulder Property Tax Mill Levies for 2022; providing that said levy be certified to the Boulder County Assessor; and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8564"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8561, updating transportation design standards by amending the City of Boulder Design and Construction Standards (D.C.S.) , originally adopted pursuant to Ordinance 5986; and setting forth related details. Consideration of this ordinance is Transportation Standards Update (Phase 2) of the Design and Construction Standards AND Second reading and consideration of a motion to adopt Ordinance 8560, updating Section 6-6-6 , “Protection of Trees and Plants,” B.R.C. 1981 and Section 9-9-7 , “Sight Triangles,” B.R.C. 1981;and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8561",
+     "5986",
+     "8560"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/4/Table/0"
+    ],
+    "title": "Consideration of a motion to accept the October 27, 2022 Study Session Summary regarding Boards and Commissions Process Discussion",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "Water Service Agreement with the Mapleton Home Association",
+    "title_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "Concept Plan Review and Comment for the redevelopment of a 2.33 acre area including the properties generally known as 2504, 2506, 2536, and 2546 Spruce St., 2055 26th St., and 2537 Pearl St., with 101 residential units and 160 Parking spaces and amenities for residents. The proposal includes 88 market rate and 13 affordable on-site condominiums. Reviewed under case no. LUR2022-0003",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "CALLED-UP – to be scheduled for a public hearing.",
+    "outcome_summary_citations": [
+     "/page/4/Text/7"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "Vacation of a shared access easement at 5330 Sterling Drive (ADR2022-00270)",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "DRCOG Board Update and Consideration of a motion to approve the proposed list of projects for submittal to the Denver Regional Council of Governments for the 2024-2027 Transportation Improvement Program subregional process",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:50 p.m.",
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": "7:50 p.m.",
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the proposed list of projects for submittal to the Denver Regional Council of Governments for the 2024-2027 Transportation Improvement Program subregional process",
+    "outcome_summary_citations": [
+     "/page/5/ListGroup/1"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8558 approving supplemental appropriations to the 2022 Budget and discussion of the ARPA funding priorities ; and setting forth related details",
+    "title_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8558"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:13 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/10"
+    ],
+    "hearing_closed_time": "9:26 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/2"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "David Fulker",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kari Palazzari",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Julie Van Domelen",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Motion to ADOPT Ordinance 8558 approving supplemental appropriations to the 2022 Budget and discussion of the ARPA funding priorities; and setting forth related details",
+    "outcome_summary_citations": [
+     "/page/6/Table/3"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/8/Text/5"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [],
+    "title": "Mayor Pro Tem Election",
+    "title_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:48 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/7"
+    ],
+    "hearing_closed_time": "10:19 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/2"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Chase Cromwell",
+      "name_citations": [
+       "/page/6/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Matt Hess",
+      "name_citations": [
+       "/page/6/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Claudia Thiem",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jeremy Reynolds",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Farnan",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Schuyler Bailey",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Hollweg",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Martha Palmer",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Schreiner",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jorge Boone",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Doug Hamilton",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Spalding",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Schuchard",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kristian Kerr",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sarah Silver",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Matt Bissonette",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lucy Carlson-Krakoff",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chelsea Castellano",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council member Wallach was elected as Mayor Pro-Tem for a 1-year term.",
+    "outcome_summary_citations": [
+     "/page/8/Text/5"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:50 p.m.",
+    "outcome_summary_citations": [
+     "/page/8/Text/7"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: ADD: • Item 1A – Colorado Springs LGBTQ+ Community Support Declaration presented by Mayor Brockett • Item 1C – Consideration of a motion to Suspend the Council Rules of Procedures IV.a(5) to allow for 3 substantive public hearings REMOVE: • Item 1B – Consideration of a motion to approve the election returns from the 2022 Coordinated Special Municipal Election held on November 8, 2022 – MOVED to December 15th meeting due to the certification of the election not being received from the Boulder County Clerk until yesterday, Nov. 30th.",
+    "motion_text_citations": [],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Brockett",
+    "moved_by_citations": [],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/1/Table/2"
+    ],
+    "motion_text": "Suspend the Council Rules of Procedures IV.a(5) to allow for 3 substantive public hearing",
+    "motion_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "motion_text": "Motion to PASS consent agenda items A - F with the appointment of Nicole Speer and Aaron Brocket for item 3B , as well as the amendment to bring forth community stakeholder engagement in for item 3C and, the language that was proposed to staff in regard to the crash studies and final language being consistent with vision zero, racial equity plan and transportation master plan goals for item 3D",
+    "motion_text_citations": [
+     "/page/4/Table/0"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "1325",
+     "8556",
+     "8564",
+     "8561",
+     "8560"
+    ],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/4/Table/0"
+    ],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/4/Table/0"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/4/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/4/Text/6"
+    ],
+    "motion_text": "Motion to call up made by Council Member Friend and seconded by Council Member Folkerts.",
+    "motion_text_citations": [
+     "/page/4/Text/6"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/4/Text/6"
+    ],
+    "seconded_by": "Folkerts",
+    "seconded_by_citations": [
+     "/page/4/Text/6"
+    ],
+    "vote_text": "Motion Carried 9:0.",
+    "vote_text_citations": [
+     "/page/4/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/5/Table/6"
+    ],
+    "motion_text": "Motion to APPROVE the proposed list of projects for submittal to the Denver Regional Council of Governments for the 2024-2027 Transportation Improvement Program subregional process",
+    "motion_text_citations": [
+     "/page/5/Table/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Speer",
+    "moved_by_citations": [
+     "/page/5/Table/6"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/5/Table/6"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/5/Table/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Table/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Table/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/6/Table/3"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8558 approving supplemental appropriations to the 2022 Budget and discussion of the ARPA funding priorities; and setting forth related details",
+    "motion_text_citations": [
+     "/page/6/Table/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Table/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8558"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/6/Table/3"
+    ],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/6/Table/3"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/6/Table/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Table/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Table/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/8/Text/3"
+    ],
+    "motion_text": "Council Member Yates nominated Council Member Wallach.",
+    "motion_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Results: 3 Council Members (Folkerts, Speer and Joseph), raised their hand in favor for Council Member Speer and 6 Council Members (Benjamin, Brockett, Friend, Wallach, Winer, and Yates), raised their hands in favor for Council member Wallach.",
+    "vote_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Benjamin",
+     "Brockett",
+     "Friend",
+     "Wallach",
+     "Winer",
+     "Yates"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/8/Text/3"
+    ],
+    "motion_text": "Council Member Folkerts nominated Council Member Speer.",
+    "motion_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Folkerts",
+    "moved_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Results: 3 Council Members (Folkerts, Speer and Joseph), raised their hand in favor for Council Member Speer and 6 Council Members (Benjamin, Brockett, Friend, Wallach, Winer, and Yates), raised their hands in favor for Council member Wallach.",
+    "vote_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "result": "failed",
+    "result_citations": [],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Folkerts",
+     "Speer",
+     "Joseph"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/7/Text/6"
+    ],
+    "motion_text": "Council Member Friend made a motion to close the nominations.",
+    "motion_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "seconded_by": "Joseph",
+    "seconded_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "vote_text": "Motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/7/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/8/ListGroup/6"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:50 p.m.",
+    "motion_text_citations": [
+     "/page/8/Text/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:50 p.m.",
+    "vote_text_citations": [
+     "/page/8/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Kent Welley",
+    "note": "not present"
+   },
+   {
+    "name": "Christy Gunter",
+    "note": "not present"
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Friend",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Speer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Winer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Yates",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Jess Liu",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "small businesses",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Van Bruce Arrant",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "gun ordinances",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Tod Hatfield",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "public safety",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Mary Wright",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "public safety",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Lindsey Boyd",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "public safety",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Lawrie Boyd",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "public safety",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "police oversight panel",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Alex Cassidy",
+    "name_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "topic": "the 6500 Arapahoe Annexation",
+    "topic_citations": [
+     "/page/2/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Vicky Sama",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "topic": "motorized vehicles",
+    "topic_citations": [
+     "/page/2/ListGroup/3"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "topic": "affordable housing",
+    "topic_citations": [
+     "/page/2/ListGroup/3"
+    ]
+   },
+   {
+    "name": "Chuck Hardesty",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "topic": "the 6500 Arapahoe Annexation",
+    "topic_citations": [
+     "/page/2/ListGroup/3"
+    ]
+   },
+   {
+    "name": "Clay Thompson",
+    "name_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "topic": "the 6500 Arapahoe Annexation",
+    "topic_citations": [
+     "/page/2/ListGroup/3"
+    ]
+   }
+  ]
+ }
+}

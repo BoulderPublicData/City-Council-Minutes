@@ -1,0 +1,1323 @@
+{
+ "entry_id": 178615,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "ucw0YoYhJe3vFgM88ql3Qw",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 17.0
+ },
+ "extraction": {
+  "meeting_date": "2021-11-30",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/3 states “Tuesday, November 30, 2021,” supporting the extracted date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/SectionHeader/1 provides the meeting heading supporting the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/SectionHeader/1 identifies the meeting as a special meeting. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states the meeting location, supporting the extraction. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/6 states that the meeting was called to order at the extracted time. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:33 p.m.",
+  "adjourned_time_citations": [
+   "/page/4/Text/14"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/14"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/4/Text/14 states that the meeting was adjourned at the extracted time. Conclusion: the value at /page/4/Text/14 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/6 identifies Mayor Brockett as the person who called the meeting to order. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Call-Up Item: Vacation of a 17,489 square-foot utility and drainage easement at 2200 Kohler Drive (ADR2021-00133)",
+   "B. Call-Up Item: Concept Plan Review (LUR2021-00033) for input on a proposal to demolish the existing hotel at 1345 28th Street and redevelop the property with three 4-story buildings up to 55-feet in height. The development is proposed to contain 295 residential apartments, in a mix of one-, two-, three-, and four-bedroom configurations. A 46% parking reduction is proposed to allow for 387 parking spaces, where 712 are required per the underlying zoning. The applicant intends to maintain a portion of the existing tennis facilities on the south side of the creek"
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/3",
+   "/page/2/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "Block /page/2/ListGroup/3 supports the extracted call-up item. Conclusion: the value at /page/2/ListGroup/3 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "Block /page/2/ListGroup/5 supports the extracted call-up item. Conclusion: the value at /page/2/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Blocks /page/2/ListGroup/3 and /page/2/ListGroup/5 show the two call-up items in the document, matching the two extracted entries. Conclusion: the value at /page/2/ListGroup/3 and /page/2/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.; Council amended the agenda by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the election returns and consent agenda item 2B.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "Consideration of a motion to approve the election returns from the 2021 Coordinated Municipal Election held on November 2, 2021",
+    "title_citations": [
+     "/page/0/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The General Canvassing and Election Board approved the election returns by a 4:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.1",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "Motion to convene as the General Canvassing and Election Board for the City of Boulder Coordinated Municipal Election",
+    "title_citations": [
+     "/page/0/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to convene as the General Canvassing and Election Board carried 4:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.2",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Roll call of the General Canvassing and Election Board",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Administration of oath and signing of same by Board members",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.4",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion nominating a member to chair the Board",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to nominate Mayor Brockett as board chair carried 4:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.5",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Submission of the following to the Board found in Attachments: A. Statement of Votes B. Summary of Votes C. Boulder County Audit, Reconciliation Report and Certification D. Statement of Election Results and Certification for the Colorado Department of Local Affairs",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.6",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to approve the election returns and, if approved, signing of the Certificate of the General Canvassing and Election Board",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the election returns carried 4:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A.7",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Motion to adjourn from the General Canvassing and Election Board for the City of Boulder Coordinated Municipal Election and reconvene as the Boulder City Council",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to adjourn as the board and reconvene as the Boulder City Council carried 4:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.B",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Table/1"
+    ],
+    "title": "Consideration of a motion to approve, and authorize the city manager to execute any documents necessary related to, the extinguishment of a 60-foot-wide nonexclusive easement for underground utilities , and a right-of-way for ingress and egress, to the City of Boulder’s Kassler Open Space property pursuant to the disposal procedures of Article XII, Section 177, of the Boulder City Charter, and conditioned upon release of private interests in the same and a City of Boulder-approved development plan for the Canyonside Office Park Lots 1-3 that includes agreed-upon provisions related to burying utilities and boundary fencing",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve consent agenda item 2B carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Call-Up Item: Vacation of a 17,489 square-foot utility and drainage easement at 2200 Kohler Drive (ADR2021-00133)",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Call-Up Item: Concept Plan Review (LUR2021-00033) for input on a proposal to demolish the existing hotel at 1345 28th Street and redevelop the property with three 4-story buildings up to 55-feet in height. The development is proposed to contain 295 residential apartments, in a mix of one-, two-, three-, and four-bedroom configurations. A 46% parking reduction is proposed to allow for 387 parking spaces, where 712 are required per the underlying zoning. The applicant intends to maintain a portion of the existing tennis facilities on the south side of the creek",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to defer this item to the Transportation Advisory Board and Design Advisory Board for review and input carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.A",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8511 approving supplemental appropriations to the 2021 Budget ; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8511"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:43 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/1"
+    ],
+    "hearing_closed_time": "7:46 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/3"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion to adopt Ordinance 8511 carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.B",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "Consideration of a Concept Plan Review and Comment for the redevelopment of a 2.33 acre parcel that includes the addresses noted below, located primarily at 2504 Spruce Street , with 63 residential units, and an exercise room for residents. The proposal is for a two-phased project. Phase 1 is planned with 16 townhomes and two apartments. Phase 2 would include up to 45 apartments of varying sizes and bedroom counts. Reviewed under case no. LUR2021-00016",
+    "title_citations": [
+     "/page/3/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:45 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/8"
+    ],
+    "hearing_closed_time": "9:23 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/10"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Andrew Harris",
+      "name_citations": [
+       "/page/3/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Laurel Herndon",
+      "name_citations": [
+       "/page/3/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Janet Heimer",
+      "name_citations": [
+       "/page/3/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Philip Ogren",
+      "name_citations": [
+       "/page/3/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kurt Nordback",
+      "name_citations": [
+       "/page/3/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Freirich",
+      "name_citations": [
+       "/page/3/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Friend moved to defer the item to Design Advisory Board for review and input, with no second or vote recorded.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Update from City Manager on occupancy enforcement",
+    "title_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Nuria Rivera- Vandermyde, City Manager, and Jacob Lindsay, Planning Director, provided an update and answered questions from Council",
+    "outcome_summary_citations": [
+     "/page/4/Text/4"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7.A",
+    "item_number_citations": [],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "title": "Council discussion on board and committee assignments",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council deferred to another meeting due to the lateness of the evening.",
+    "outcome_summary_citations": [
+     "/page/4/Text/8"
+    ]
+   },
+   {
+    "item_number": "7.B",
+    "item_number_citations": [],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "title": "Council check-in on CAC time adjustment",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the CAC time change from 8:00 a.m. to 9:00 a.m.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/4/SectionHeader/13"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/4/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 11:33 p.m.",
+    "outcome_summary_citations": [
+     "/page/4/Text/14"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: x MOVE item 2B to 2A - Approve the election returns from the 2021 Coordinated Municipal Election held on November 2, 2021 x MOVE item 2B to 2A - Approve, and authorize the city manager to execute any documents necessary related to, the extinguishment of a 60-foot-wide nonexclusive easement to the City of Boulder’s Kassler Open Space property x ADD item 5A – Update from City Manager on occupancy enforcement x ADD item 7B – Council check-in on CAC time adjustment",
+    "motion_text_citations": [],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A.1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to CONVENE as the General Canvassing and Election Board for the City of Boulder Coordinated Municipal Election (Brockett, Friend, Joseph & Yates – previously seated council members not up for re-election)",
+    "motion_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/4/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "vote_text": "Carried 4:0",
+    "vote_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A.4",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to NOMINATE Mayor Brockett to service as the board chair",
+    "motion_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "vote_text": "Carried 4:0",
+    "vote_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A.6",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to APPROVE the election returns from the 2021 Coordinated Municipal Election held on November 2, 2021 And",
+    "motion_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/4/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "vote_text": "Carried 4:0",
+    "vote_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A.7",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AJOURN as the General Canvassing and Election Boulder and reconvene as the Boulder City Council",
+    "motion_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "vote_text": "Carried 4:0",
+    "vote_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to APPROVE consent agenda item 2B",
+    "motion_text_citations": [
+     "/page/2/Table/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/2/Table/1"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/2/Table/1"
+    ],
+    "vote_text": "Carried: 9:0",
+    "vote_text_citations": [
+     "/page/2/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to defer this item to the Transportation Advisory Board and Design Advisory Board for review and input",
+    "motion_text_citations": [
+     "/page/2/Table/8"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/2/Table/8"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/2/Table/8"
+    ],
+    "vote_text": "Carried: 9:0",
+    "vote_text_citations": [
+     "/page/2/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Ordinance 8511 approving supplemental appropriations to the 2021 Budget; and setting forth related details",
+    "motion_text_citations": [
+     "/page/3/Table/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Table/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8511"
+    ],
+    "moved_by": "Winer",
+    "moved_by_citations": [
+     "/page/3/Table/4"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/3/Table/4"
+    ],
+    "vote_text": "Carried: 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to DEFER this item to Design Advisory Board for review and input",
+    "motion_text_citations": [
+     "/page/3/Table/11"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/3/Table/11"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Folkerts"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 11:33 p.m.",
+    "motion_text_citations": [
+     "/page/4/Text/14"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Lynn Segal",
+    "topic": ""
+   },
+   {
+    "name": "David Adamson",
+    "topic": "did not show"
+   },
+   {
+    "name": "Andrew Harris",
+    "topic": ""
+   },
+   {
+    "name": "Jerry Greene",
+    "topic": "did not show"
+   },
+   {
+    "name": "Laurel Herndon",
+    "topic": ""
+   },
+   {
+    "name": "Janet Heimer",
+    "topic": ""
+   },
+   {
+    "name": "Lynn Segal",
+    "topic": ""
+   },
+   {
+    "name": "Philip Ogren",
+    "topic": ""
+   },
+   {
+    "name": "Kurt Nordback",
+    "topic": ""
+   },
+   {
+    "name": "Evan Freirich",
+    "topic": ""
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/3/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/3/Text/5"
+    ],
+    "attendance_note": "RECUSED herself from item 4B and left the meeting at 7:44 p.m.",
+    "attendance_note_citations": [
+     "/page/3/Text/5"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/1/Table/1"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Table/1"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/1/Table/1"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Table/1"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Winer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Yates",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

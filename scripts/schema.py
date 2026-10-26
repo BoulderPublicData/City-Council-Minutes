@@ -39,9 +39,11 @@ meetings = pa.DataFrameSchema({
     "adjourned_time": _nullable_str,
     "presiding_officer": _nullable_str,
     # Nine seats, but transition meetings after an election can list outgoing and
-    # incoming members together (e.g. 2001-11-13 lists ten); the audit flags > 9.
-    "n_members_present": pa.Column(int, pa.Check.in_range(0, 12)),
-    "n_members_absent": pa.Column(int, pa.Check.in_range(0, 12)),
+    # incoming members together (2001-11-13 lists ten), and joint meetings tempt the
+    # extractor to count the other board's members. The audit flags > 9 for review
+    # rather than failing the build, so mode comparisons can see the error.
+    "n_members_present": pa.Column(int, pa.Check.in_range(0, 30)),
+    "n_members_absent": pa.Column(int, pa.Check.in_range(0, 30)),
     "n_agenda_items": pa.Column(int),
     "n_motions": pa.Column(int),
     "page_count": pa.Column(float, nullable=True),

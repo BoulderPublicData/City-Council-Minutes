@@ -1,0 +1,1242 @@
+{
+ "entry_id": 179931,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "eBvpkcYBVJJFiM-G1yASpA",
+ "page_count": 3,
+ "cost_breakdown": {
+  "final_cost_cents": 1.35
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "motion_text": "Motion to AMEND the agenda to ADD: Item 1B - Queer Asterisk’s Birthday Declaration presented by Council Member Speer; Item 3A - Discussion on virtual vs. hybrid council meetings during times of “Medium” COVID risk",
+    "motion_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "moved_by": "Folkerts",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Table/8"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "yes_votes": [
+     "Benjamin",
+     "Brockett",
+     "Folkerts",
+     "Friend",
+     "Joseph",
+     "Speer",
+     "Wallach",
+     "Winer",
+     "Yates"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    }
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "motion_text": "Motion to APPROVE consent agenda item A",
+    "motion_text_citations": [
+     "/page/2/Table/0"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/2/Table/0"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8494",
+     "8525",
+     "8526",
+     "8527",
+     "8528",
+     "8529"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/Text/12",
+     "/page/1/Text/2",
+     "/page/1/Text/4",
+     "/page/1/Text/6",
+     "/page/1/Text/8",
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/2/Table/0"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/2/Table/0"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/2/Table/0"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Table/0"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/0"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/0"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/Table/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "yes_votes": [
+     "Benjamin",
+     "Brockett",
+     "Folkerts",
+     "Friend",
+     "Joseph",
+     "Speer",
+     "Wallach",
+     "Winer",
+     "Yates"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction accurately captures the two motions, their text, movers, seconds, and vote results. Citations correctly point to the table rows containing the motion details and the text block listing present members. However, the 'yes_votes' array lists all 9 members, but the HTML only explicitly 'c"
+    }
+   }
+  ],
+  "open_comment_speakers": [],
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "6:38 p.m.",
+  "adjourned_time_citations": [
+   "/page/2/Text/7"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "open_comment_speakers_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m. and the agenda was amended to add items 1B and 3A.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6",
+     "/page/0/Table/8"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "1A",
+    "item_number_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Pride Month Awareness Declaration to be presented by Council Member Speer",
+    "title_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "1B",
+    "item_number_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Queer Asterisk’s Birthday Declaration to be presented by Council Member Speer",
+    "title_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8494",
+     "8525",
+     "8526",
+     "8527",
+     "8528",
+     "8529"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/Text/12",
+     "/page/1/Text/2",
+     "/page/1/Text/4",
+     "/page/1/Text/6",
+     "/page/1/Text/8",
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Continued first reading and consideration of a motion to order published by title only for ordinances 8494, 8525, 8526, 8527, 8528, and 8529.",
+    "outcome_summary_citations": [
+     "/page/0/Text/12",
+     "/page/1/Text/2",
+     "/page/1/Text/4",
+     "/page/1/Text/6",
+     "/page/1/Text/8",
+     "/page/1/Text/10"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "2A",
+    "item_number_citations": [
+     "/page/2/Table/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Consideration of the following proposed ordinances related to firearm restrictions in the City of Boulder",
+    "title_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8494",
+     "8525",
+     "8526",
+     "8527",
+     "8528",
+     "8529"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/Text/12",
+     "/page/1/Text/2",
+     "/page/1/Text/4",
+     "/page/1/Text/6",
+     "/page/1/Text/8",
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to approve consent agenda item A carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Table/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council decided to remain virtual and requested a formal update from Boulder County Public Health to be scheduled at CAC.",
+    "outcome_summary_citations": [
+     "/page/2/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "3A",
+    "item_number_citations": [
+     "/page/0/Table/8"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Discussion on virtual vs. hybrid council meetings during time of “medium” COVID risks",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council decided to remain virtual and requested a formal update from Boulder County Public Health to be scheduled at CAC.",
+    "outcome_summary_citations": [
+     "/page/2/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Debrief",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Brockett at 6:38 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and complete. However, the extracted agenda items are structurally flawed: Item 1 is incorrectly labeled as 'Call to Order' instead of 'Amend Agenda', and Item 2 is a section header, not an agenda item. Sub-items 1A/1B are listed under the wrong section. The extraction fails '"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted names and virtual attendance status are accurate. However, the 'title' field for Brockett is incorrectly cited to Text/6 (which only mentions 'Mayor Brockett' in a sentence) instead of Text/7 (the roll call list). The schema requires titles 'as printed' in the context of the member's '"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2022-05-24",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2022-05-24' is accurate and directly supported by the citation '/page/0/Text/3' which states 'Tuesday, May 24, 2022'. No contradictions or missing relevant citations were found."
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

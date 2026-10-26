@@ -1,0 +1,1175 @@
+{
+ "entry_id": 179599,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "whxdRKjcsABRbA-mJv7bKQ",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 18.0
+ },
+ "extraction": {
+  "meeting_date": "2022-03-15",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, March 15, 2022” in /page/0/Text/3, supporting the extracted normalized date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading “CITY COUNCIL MEETING” appears in /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [],
+   "verification": {
+    "status": "FAIL_CITATIONS",
+    "feedback": "The heading identifies the meeting as “CITY COUNCIL MEETING” in /page/0/SectionHeader/1; under the available meeting-type options, “other” is appropriate. The extraction does not cite this supporting block. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction; the citations are wrong or insufficient."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Via Video Conferencing” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 6:00 p.m. in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:04 p.m.",
+  "adjourned_time_citations": [
+   "/page/4/Text/10"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/10"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at 10:04 p.m. in /page/4/Text/10. Conclusion: the value at /page/4/Text/10 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Mayor Brockett called the meeting to order” in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Vacations of a 1,965 square-foot portion and 2,742 square-foot portion of two utility easements at 3300 Penrose Place (ADR2021-00257)",
+   "B. Vacation of a 6,572 square-foot portion of a utility easement at 1112 Gapter Road (ADR2021-00313)",
+   "C. Concept Plan review and comment for a redevelopment of the property located at 2900 E. College Ave., into a multi-unit student housing project with 39 dwelling units, which includes a mix of 1-, 3- and 4-bedroom units. Parking is proposed to be provided in a two-level parking structure, primarily below grade. The proposed building is four stories above grade with a rooftop deck. Reviewed under case LUR2021-00046"
+  ],
+  "call_up_items_citations": [
+   "/page/3/ListGroup/2",
+   "/page/3/ListGroup/4",
+   "/page/3/ListGroup/6"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item appears in /page/3/ListGroup/2. Conclusion: the value at /page/3/ListGroup/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item appears in /page/3/ListGroup/4. Conclusion: the value at /page/3/ListGroup/4 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item appears in /page/3/ListGroup/6. Conclusion: the value at /page/3/ListGroup/6 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains exactly three call-up check-in entries, A through C, in /page/3/ListGroup/2, /page/3/ListGroup/4, and /page/3/ListGroup/6. Conclusion: the value at /page/3/ListGroup/2, /page/3/ListGroup/4, and /page/3/ListGroup/6 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/10"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Boulder Day of Remembrance Declaration 2022",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett read the declaration and highlighted the City's activities surrounding the day of remembrance.",
+    "outcome_summary_citations": [
+     "/page/0/Text/10"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/1"
+    ],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:32 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/0"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/3/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the February 22, 2022 Study Session Summary regarding Financial and Revenue Strategies for Climate Work",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a proposed annexation agreement amendment for the property at 1422 55th Street to modify the affordable housing requirements and facilitate the development of the site with for-sale homes. Case # LUR2021-00045",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to remove item from consent and send to CAC for future scheduling made by Council Member Benjamin and seconded by Council Member Wallach – Motion carried 8:0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/4"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to authorize the City Manager to submit a grant application to the Colorado Department of Local Affairs Innovative Housing Strategies: Incentives Grant Program in the amount of $1,288,890 for use in the development of affordable housing",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/3/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/0"
+    ],
+    "title": "Council Retreat Follow-Up",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/3/Table/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/0"
+    ],
+    "title": "Consideration of a motion to approve the 2022 Boards and Commissions appointments",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction, first reading and consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8498 adopting Supplement 150 which codifies previously adopted ordinances as amendments to the Boulder Revised Code, 1981; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8498"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Third reading and consideration of a motion to adopt Ordinance 8499 granting authority to the approving authority under Title 9, “Land Use Code,” B.R.C. 1981, to approve a development at the Ball Aerospace campus that exceeds the floor area ratio standards in the Industrial – General zoning district, granting a 15 year vesting period for the approved site specific development plan, extending the expiration date of a landmark alteration certificate and historic preservation demolition approval related to this development, and authorizing the city manager to execute documents that will secure payment of an increased linkage fee for additional floor area, and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8499"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "outcome_summary_citations": [
+     "/page/3/Table/0"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to DEFER this item to the Transportation Advisory Board",
+    "outcome_summary_citations": [
+     "/page/3/Table/8"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "Vacations of a 1,965 square-foot portion and 2,742 square-foot portion of two utility easements at 3300 Penrose Place (ADR2021-00257)",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "Vacation of a 6,572 square-foot portion of a utility easement at 1112 Gapter Road (ADR2021-00313)",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/3/ListGroup/6"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "Concept Plan review and comment for a redevelopment of the property located at 2900 E. College Ave. , into a multi-unit student housing project with 39 dwelling units, which includes a mix of 1-, 3- and 4-bedroom units. Parking is proposed to be provided in a two-level parking structure, primarily below grade. The proposed building is four stories above grade with a rooftop deck. Reviewed under case LUR2021-00046",
+    "title_citations": [
+     "/page/3/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to DEFER this item to the Transportation Advisory Board",
+    "outcome_summary_citations": [
+     "/page/3/Table/8"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to introduce, first reading and consideration of a motion to order published by title only, Ordinance 8500 Special Adjustment to Base for 2022 Supplemental Appropriations: ARPA, Marshall Fire and Wind Disaster Expenditures, and 2022 Community, Culture, Resilience, and Safety Tax",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "Introduction, first reading and consideration of a motion to order published by title only, Ordinance 8500 Special Adjustment to Base for 2022 Supplemental Appropriations: ARPA, Marshall Fire and Wind Disaster Expenditures, and 2022 Community, Culture, Resilience, and Safety Tax and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8500"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:10 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/12"
+    ],
+    "hearing_closed_time": "7:15 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/14"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/3/ListGroup/13"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Farnan",
+      "name_citations": [
+       "/page/3/ListGroup/13"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Motion to introduce, first reading and consideration of a motion to order published by title only, Ordinance 8500 Special Adjustment to Base for 2022 Supplemental Appropriations: ARPA, Marshall Fire and Wind Disaster Expenditures, and 2022 Community, Culture, Resilience, and Safety Tax",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Text/4"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "Discussion on draft Library District IGA and key issues from the February 8, 2022 Study Session",
+    "title_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Library Director David Farnan provided a presentation and answered questions from council. He was supported by Deputy City Manager Chris Meschuk, Interim Planning Director David Gehr and Senior City Attorney Janet Michels.",
+    "outcome_summary_citations": [
+     "/page/4/Text/4"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:04 p.m.",
+    "outcome_summary_citations": [
+     "/page/4/Text/10"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/1/Text/4"
+    ],
+    "motion_text": "Motion to remove item from consent and send to CAC for future scheduling",
+    "motion_text_citations": [
+     "/page/1/Text/4"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/1/Text/4"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/1/Text/4"
+    ],
+    "vote_text": "Motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/1/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/1/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to APPROVE the consent agenda items A, C thru G with noted removal and recusals",
+    "motion_text_citations": [
+     "/page/3/Table/0"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/3/Table/0"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/3/Table/0"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/3/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Brockett",
+     "Yates"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/3/Table/8"
+    ],
+    "motion_text": "Motion to DEFER this item to the Transportation Advisory Board",
+    "motion_text_citations": [
+     "/page/3/Table/8"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/3/Table/8"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/3/Table/8"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/3/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "motion_text": "Motion to introduce, first reading and consideration of a motion to order published by title only, Ordinance 8500 Special Adjustment to Base for 2022 Supplemental Appropriations: ARPA, Marshall Fire and Wind Disaster Expenditures, and 2022 Community, Culture, Resilience, and Safety Tax",
+    "motion_text_citations": [
+     "/page/4/Table/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8500"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/4/Table/0"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/4/Table/0"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/4/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:04 p.m.",
+    "motion_text_citations": [
+     "/page/4/Text/10"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:04 p.m.",
+    "vote_text_citations": [
+     "/page/4/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Ramzy Abueita",
+    "name_citations": [
+     "/page/0/ListGroup/15"
+    ],
+    "topic": "Decrim nature initiative",
+    "topic_citations": [
+     "/page/0/ListGroup/15"
+    ]
+   },
+   {
+    "name": "Leslie Glustrom",
+    "name_citations": [
+     "/page/0/ListGroup/15"
+    ],
+    "topic": "greenhouse gas emissions",
+    "topic_citations": [
+     "/page/0/ListGroup/15"
+    ]
+   },
+   {
+    "name": "Teddy Weverka",
+    "name_citations": [
+     "/page/0/ListGroup/15"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Max Gould-Meisel",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "CU South",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Steve Whitaker",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Boulder Xcel partnership agreement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jill Grano",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the library district",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ]
+ }
+}

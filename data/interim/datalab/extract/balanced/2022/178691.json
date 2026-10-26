@@ -1,0 +1,1195 @@
+{
+ "entry_id": 178691,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "EjaYnJN4aNBM5eo4bX34Cg",
+ "page_count": 5,
+ "cost_breakdown": {
+  "final_cost_cents": 17.0
+ },
+ "extraction": {
+  "meeting_date": "2022-01-04",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, January 4, 2022” in /page/0/Text/3, supporting the extracted normalized date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/4/Text/9"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/9"
+   ],
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes heading identifies a “CITY COUNCIL MEETING” but do not state that it was regular; no document block supports the extracted meeting type. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated in /page/0/Text/2, supporting the extraction. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/Text/6 states that the mayor called the meeting to order at the extracted time. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/4/Text/9"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/9"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/4/Text/9 states that the meeting was adjourned at the extracted time. Conclusion: the value at /page/4/Text/9 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/Text/6 identifies Mayor Brockett as calling the meeting to order. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Call Up Consideration for the following items related to the redevelopment of a portion of the property located at 1820 15th Street (main church campus), Grace Commons Church (formerly known as First Presbyterian Church) along with redevelopment of property located at 1603 Walnut Street (annex): 1. Site Review: For church property that includes a three-story addition to the main church campus of approximately 43,854 square feet for recreation space, meeting rooms, and church offices. Also proposed is a new four-story mixed-use building on the annex property with ground floor cafe and assembly space, a parking garage, and 30 permanently affordable residential units on the second and third floor, and an event space on the fourth floor, case no. LUR2020-00064; 2. Use Review: For the use of the fourth story within the planned building at 1603 Walnut Street as an event space (“indoor amusement establishment” use), case no LUR2021-00001; and 3. Use Review: For proposed efficiency living unit apartments that are greater than 40 percent of the residential units, case no. LUR2021-00015"
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/4",
+   "/page/3/Text/0"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/4",
+      "/page/3/Text/0"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The extracted call-up item is supported by /page/2/ListGroup/4 and its continuation in /page/3/Text/0. Conclusion: the value at /page/2/ListGroup/4 and /page/3/Text/0 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one call-up item under “Call-Up Check-In” in /page/2/ListGroup/4, continuing in /page/3/Text/0, and the extraction contains that one item. Conclusion: the value at /page/2/ListGroup/4 and /page/3/Text/0 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Update on the Marshall Fire Transition to Recovery",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Various staff answered questions from Council.",
+    "outcome_summary_citations": [
+     "/page/1/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/8"
+    ],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 7:52 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consent Agenda",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the December 7, 2021 Study Session Summary regarding the Overview of the City’s Racial Equity Efforts",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the December 7, 2021 Study Session Summary regarding the Annual Snow and Ice Control Program Update",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the December 7, 2021 Study Session Summary regarding the TMP Implementation Update: Vision Zero Update on the Safe Streets Boulder Report and Corresponding Evaluation",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading, and consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8495 amending Section 5-6-17, “Fur Products,” B.R.C. 1981, related to the manufacture and sale of fur products; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8495"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion authorizing the city manager to enter into a settlement agreement in the claim asserted against the city by Sammie Lawrence, IV",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to ratify the City of Boulder Declaration of Local Disaster Emergency dated January 2, 2022",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the Consent Agenda items A-F carried 8:0, with Joseph absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/3/SectionHeader/2"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "Call Up Consideration for the following items related to the redevelopment of a portion of the property located at 1820 15th Street (main church campus), Grace Commons Church (formerly known as First Presbyterian Church) along with redevelopment of property located at 1603 Walnut Street (annex): 1. Site Review: For church property that includes a three-story addition to the main church campus of approximately 43,854 square feet for recreation space, meeting rooms, and church offices. Also proposed is a new four-story mixed-use building on the annex property with ground floor cafe and assembly space, a parking garage, and 30 permanently affordable residential units on the second and third floor, and an event space on the fourth floor, case no. LUR2020-00064; 2. Use Review: For the use of the fourth story within the planned building at 1603 Walnut Street as an event space (“indoor amusement establishment” use), case no LUR2021-00001; and 3. Use Review: For proposed efficiency living unit apartments that are greater than 40 percent of the residential units, case no. LUR2021-00015",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/3/SectionHeader/2"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to adopt Ordinance 8491 carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8491 , designating the building and a portion of the property at 1902 Walnut St. , City of Boulder, Colorado, also known as the September School, a landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981, and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8491"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:38 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/6"
+    ],
+    "hearing_closed_time": "8:59 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/8"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Peter Cutter",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sean Scanlan",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Hillary Griffith",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kelly Molinet",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion to adopt Ordinance 8491 carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "REMOVED FROM AGENDA",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/11"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "title": "Staff presentation of 2021 Accomplishments, 2022 City Workplan and Carryover Projects, Board and Commission Letters, and Community Connector Feedback – REMOVED FROM AGENDA",
+    "title_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "REMOVED FROM AGENDA",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/11"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The “Nod of Five” was given by all of Council unanimously.",
+    "outcome_summary_citations": [
+     "/page/4/Text/3"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "Request for a “Nod of Five” for staff to develop a comprehensive ordinance regulating firearms and firearm related issues broadly relying on model legislation provided by regional partners and national gun restriction advocates. Separate and apart from the request for a Nod of Five, staff will be bringing forward an ordinance on January 18, 2022 to specifically address the city's current assault weapons ordinance to bring it into compliance with the new state statute",
+    "title_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The “Nod of Five” was given by all of Council unanimously.",
+    "outcome_summary_citations": [
+     "/page/4/Text/3"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "Winter/Emergency Sheltering Options",
+    "title_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:45 p.m.",
+    "outcome_summary_citations": [
+     "/page/4/Text/9"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "note": "ABSENT"
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Sam Becker",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "camping ban",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Mike Homner",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "homelessness",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "Xcel agreement",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "David Ensign",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "ERC initiative",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Rebecca Davies",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "emergency shelters",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "occupation tax/carbon tax",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Jake Brady",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "homelessness",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Hope Michaelsen",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "the Hill Revitalization Working Group",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Annie Kurtz",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "camping ban",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Sean Scanlan",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "drug rehabilitation",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Jacob Walker",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "rental prices",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Ray Bambha",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "the Hill Revitalization Working Group",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "homelessness",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Dan Glaser",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "affordable housing",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Neshana Abraham",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "homelessness",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Pete Cutter",
+    "name_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "topic": "quasi-judicial hearings",
+    "topic_citations": [
+     "/page/1/ListGroup/7"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/Table/8"
+    ],
+    "motion_text": "Motion to AMEND the agenda to: ADD: • Item 1A – Update on the Marshall Fire Transition to Recovery • Item 3F - Consideration of a motion to ratify the City of Boulder Declaration of Local Disaster Emergency dated January 2, 2022 • Item 8A – Winter/Emergency Sheltering Options REMOVE: • Item 6A – Staff Presentation of 2021 Accomplishments, 2022 City Workplan and Carryover Projects, Board and Commission Letters, and Community Connector Feedback",
+    "motion_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to APPROVE the Consent Agenda items A-F",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8495"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/2/Table/2"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/2/Table/2"
+    ],
+    "vote_text": "Carried: 8:0 Joseph ABSENT",
+    "vote_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "5A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Ordinance 8491 designating the building and a portion of the property at 1902 Walnut St. , City of Boulder, Colorado, also known as the September School, a landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981, and setting forth related details",
+    "motion_text_citations": [
+     "/page/3/Table/9"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Table/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8491"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/3/Table/9"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/3/Table/9"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:45 p.m.",
+    "motion_text_citations": [
+     "/page/4/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ]
+ }
+}

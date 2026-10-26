@@ -1,0 +1,2495 @@
+{
+ "entry_id": 172545,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "NVV7TNBsGYsy1nfA7JsbMQ",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 2.7
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "motion_text": "COUNCIL MEMBER BROCKETT MOVED TO AMEND THE AGENDA ADDING ITEM 8D- SEVERE WEATHER SHELTER POLICY DISCUSSION. COUNCIL MEMBER FRIEND SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 6:02 P.M.",
+    "motion_text_citations": [
+     "/page/0/Text/5"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/0/Text/5"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/0/Text/5"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/0/Text/5"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 6:02 P.M.",
+    "vote_text_citations": [
+     "/page/0/Text/5"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/5"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Text/5"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/5"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/0/Text/5"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "motion_text": "COUNCIL MEMBER YATES MOVED TO APPROVE THE CONSENT AGENDA ITEMS 3A-3E. COUNCIL MEMBER FRIEND SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 6:30 P.M.",
+    "motion_text_citations": [
+     "/page/1/Text/4"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/Text/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "ordinance_or_resolution_numbers": [
+     "1277",
+     "8378"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Text/4"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Text/4"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 6:30 P.M.",
+    "vote_text_citations": [
+     "/page/1/Text/4"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/4"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Text/4"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/4"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/1/Text/4"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    }
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "motion_text": "COUNCIL MEMBER BROCKETT MOVED TO AMEND AND PASS ORDINANCE 8366 AMENDING TITLE 10, “STRUCTURES,” B.R.C. 1981 BY ADOPTING AND MODIFYING INTERNATIONAL CODES REGARDING PROPERTY MAINTENANCE, RENTAL LICENSES, BUILDING, ELECTRICAL, ENERGY CONSERVATION, COMMERCIAL AND INDUSTRIAL ENERGY EFFICIENCY, FIRE, WILDLAND, MECHANICAL, FUEL GAS, AND PLUMBING; ADOPTING THE 2020 CITY OF BOULDER ENERGY CONSERVATION CODE; AND SETTING FORTH RELATED DETAILS WITH THE FOLLOWING AMENDMENT: 1) NEW EFFECTIVE DATE OF JULY 1, 2020 (AS PROVIDED IN THE BLUE SHEET ON THE DAIS); AND REQUESTED THAT, UPON THIRD READING, STAFF PROVIDE INFORMATION REGARDING: 1) COMMERCIAL OFFSETS FOR OUTDOOR HEATING, ESPECIALLY POOLS, AND 2) PROVISIONS FOR TINY HOMES ON PERMANENT FOUNDATIONS. COUNCIL MEMBER YATES SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 7:59 P.M.",
+    "motion_text_citations": [
+     "/page/2/Text/10",
+     "/page/3/SectionHeader/0"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/10"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "ordinance_or_resolution_numbers": [
+     "8366"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/2/Text/10"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 7:59 P.M.",
+    "vote_text_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    }
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "motion_text": "COUNCIL MEMBER SWETLIK MOVED TO ADOPT ORDINANCE 8376 RELATING TO THE TOBACCO SALES IN THE CITY OF BOULDER BY ADDING A NEW CHAPTER 3-19 “ELECTRONIC SMOKING PRODUCT TAX,” B.R.C. 1981; ADDING A NEW SECTION 4-20-72 “TOBACCO RETAILER LICENSE FEE,” B.R.C. 1981; ADDING A NEW CHAPTER 4-32 “TOBACCO RETAILERS,” B.R.C. 1981, REQUIRING THE LICENSING OF TOBACCO RETAILERS; AMENDING THE DEFINITIONS IN SECTION 6-4.5-1 “DEFINITIONS,” AND PROHIBITED ACTS IN SECTION 6-4.5-2 “PROHIBITED ACTS,” B.R.C. 1981; AND SETTING FORTH RELATED DETAILS. COUNCIL MEMBER FRIEND SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 8:08 P.M.",
+    "motion_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/6"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "ordinance_or_resolution_numbers": [
+     "8376"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/Text/6"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "moved_by": "Swetlik",
+    "moved_by_citations": [
+     "/page/3/Text/6"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/3/Text/6"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 8:08 P.M.",
+    "vote_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/6"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Text/6"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    }
+   },
+   {
+    "agenda_item_number": "8",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "motion_text": "COUNCIL MEMBER BROCKETT MOVED TO CONTINUE SEVERE WEATHER SHELTERING NIGHTLY THROUGH MARCH 31, 2020 WITH CONSIDERATION TO TEMPERATURE THRESHOLDS, AND TO INCORPORATE THE SAME FOR THE NEXT SEASON BEGINNING NOVEMBER 15, 2020 TO MARCH 31, 2021, PENDING ANALYSIS FROM THIS SEASON. COUNCIL MEMBER FRIEND SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 9:01 P.M.",
+    "motion_text_citations": [
+     "/page/4/Text/13"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [
+     "/page/4/Text/13"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/4/Text/13"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/4/Text/13"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 9:01 P.M.",
+    "vote_text_citations": [
+     "/page/4/Text/13"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/13"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/13"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/13"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/13"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    }
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "motion_text": "THERE BEING NO FURTHER BUSINESS TO COME BEFORE COUNCIL AT THIS TIME, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED ON JANUARY 21, 2020 AT 9:17 P.M.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "moved_by": null,
+    "moved_by_citations": [],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "vote_text": null,
+    "vote_text_citations": [],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/2"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_count": null,
+    "yes_count_citations": [],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_count": null,
+    "no_count_citations": [],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "stated_unanimous": null,
+    "stated_unanimous_citations": [],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to HTML blocks. However, the extracted 'agenda_item_number' for the first motion is '1', while the HTML header clearly states '8D' (Item 8D). The schema requires the item number as printed, making this extraction inaccurate."
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "landmark alteration certificate for 311 Mapleton",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "James Feeney",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "dark sky ordinance and enforcement",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "removing the city attorney and city manager from office",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Steven Newman",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "housing occupancy limits",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "municipalization",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Elizabeth Black",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "soil health",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Leslie Glustrom",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "municipalization",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "David Prowell III",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "keeping the severe weather shelter open all year",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Cindy Schmidt",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "Colorado Chautauqua Association",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Daniel Haarburger",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "landmark designation of the Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Henry Beer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "updated bylaws for the Colorado Chautauqua Association",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Deborah van den Honert",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "updated bylaws for the Colorado Chautauqua Association",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Alex Cassidy",
+    "name_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "Ordinance 8366 adopting and modifying the international building and energy codes",
+    "topic_citations": [
+     "/page/2/Text/7"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Byron Fears",
+    "name_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "Ordinance 8366 adopting and modifying the international building and energy codes",
+    "topic_citations": [
+     "/page/2/Text/7"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Michal Duffy",
+    "name_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "Ordinance 8366 adopting and modifying the international building and energy codes",
+    "topic_citations": [
+     "/page/2/Text/7"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "Ordinance 8366 adopting and modifying the international building and energy codes",
+    "topic_citations": [
+     "/page/2/Text/7"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "Ordinance 8376 regarding tobacco regulations",
+    "topic_citations": [
+     "/page/3/Text/3"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "Isabelle McDevitt",
+    "name_citations": [
+     "/page/4/ListGroup/11"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "severe weather sheltering policy",
+    "topic_citations": [
+     "/page/4/Text/10"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   },
+   {
+    "name": "James Feeney",
+    "name_citations": [
+     "/page/4/ListGroup/11"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    },
+    "topic": "severe weather sheltering policy",
+    "topic_citations": [
+     "/page/4/Text/10"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes public hearing speakers (Alex Cassidy, Byron Fears, etc.) in the 'open_comment_speakers' field. Open Comment (Item 2) only includes speakers 1-12. Public hearings (Items 5 & 8) are distinct. Citations for hearing speakers are correct for the hearing context but do"
+    }
+   }
+  ],
+  "location": "Municipal Building, 1777 Broadway, Boulder, Colorado 80302",
+  "location_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted location includes the full address found in the header. The citation correctly points to the block containing this text. No contradictions or missing relevant blocks exist."
+  },
+  "adjourned_time": "9:17 P.M.",
+  "adjourned_time_citations": [
+   "/page/5/Text/2"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "1. Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "1. Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m. and the agenda was amended to add Item 8D.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3",
+     "/page/0/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "2. Open Comment",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "2. Open Comment",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": "6:04 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/8"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": "6:28 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/1"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "James Feeney",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Steven Newman",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Patrick Murphy",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Elizabeth Black",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Leslie Glustrom",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "David Prowell III",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Cindy Schmidt",
+      "name_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Daniel Haarburger",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Henry Beer",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Deborah van den Honert",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     }
+    ],
+    "outcome_summary": "Open comment period for public testimony on various city issues.",
+    "outcome_summary_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "3. Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "3. Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [
+     "1277",
+     "8378"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda items 3A-3E.",
+    "outcome_summary_citations": [
+     "/page/1/Text/4"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "4. Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "4. Call-Up Check-In",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the call-up items.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8",
+     "/page/2/Text/0",
+     "/page/2/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "5. Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "A. Second reading and consideration of a motion to adopt Ordinance 8366 amending Title 10, “Structures,” B.R.C. 1981 by adopting and modifying international codes regarding property maintenance, rental licenses, building, electrical, energy conservation, commercial and industrial energy efficiency, fire, wildland, mechanical, fuel gas, and plumbing; adopting the 2020 City of Boulder Energy Conservation Code; and setting forth related details",
+    "title_citations": [
+     "/page/2/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8366"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/Text/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": "7:18 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/7"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": "7:32 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/9"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Alex Cassidy",
+      "name_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Byron Fears",
+      "name_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Michal Duffy",
+      "name_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "James Feeney",
+      "name_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     }
+    ],
+    "outcome_summary": "Council amended and passed Ordinance 8366 with a new effective date of July 1, 2020.",
+    "outcome_summary_citations": [
+     "/page/2/Text/10",
+     "/page/3/SectionHeader/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "5. Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "B. Second Reading and consideration of a motion to adopt Ordinance 8376 relating to the tobacco sales in the City of Boulder by adding a new Chapter 3-19 “Electronic Smoking Product Tax,” B.R.C. 1981; adding a new Section 4-20-72 “Tobacco Retailer License Fee,” B.R.C. 1981; adding a new Chapter 4-32 “Tobacco Retailers,” B.R.C. 1981, requiring the licensing of tobacco retailers; amending the definitions in Section 6-4.5-1 “Definitions,” and prohibited acts in Section 6-4.5-2 “Prohibited Acts,” B.R.C. 1981; and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8376"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": "8:04 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/3"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": "8:05 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/5"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8376 regarding tobacco sales and licensing.",
+    "outcome_summary_citations": [
+     "/page/3/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "6. Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "A. Alpine-Balsam Implementation and Report on City/County Working Group",
+    "title_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "City/County Working Group provided a summary of attempts to accommodate Boulder County facilities at Alpine-Balsam.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "7. Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "7. Matters from the City Attorney",
+    "title_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No items were listed for this section.",
+    "outcome_summary_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "8. Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "8. Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/4/Text/10"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": "8:50 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/10"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": "8:59 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/12"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/4/ListGroup/11"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/11"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "Isabelle McDevitt",
+      "name_citations": [
+       "/page/4/ListGroup/11"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/11"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     },
+     {
+      "name": "James Feeney",
+      "name_citations": [
+       "/page/4/ListGroup/11"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/11"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+      }
+     }
+    ],
+    "outcome_summary": "Council continued the severe weather sheltering policy through March 31, 2020, with consideration for temperature thresholds.",
+    "outcome_summary_citations": [
+     "/page/4/Text/13"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "9. Discussion Items",
+    "section_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "9. Discussion Items",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No items were listed for this section.",
+    "outcome_summary_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "10. Debrief",
+    "section_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "10. Debrief",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No items were listed for this section.",
+    "outcome_summary_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "section": "11. Adjournment",
+    "section_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "title": "11. Adjournment",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned on January 21, 2020, at 9:17 p.m.",
+    "outcome_summary_citations": [
+     "/page/5/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 2 (Open Comment) is incorrectly marked as a public hearing (is_public_hearing: true) and assigned hearing times/speakers, whereas the text explicitly distinguishes 'Open Comment' from 'Public Hearings' (e"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Swetlik",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members match the roll call list in Text/4. However, the citation for Mayor Weaver is incorrect; Text/3 states 'Mayor Weaver called the meeting to order' but does not list him as present on the roll call. The roll call list in Text/4 does not include the Mayor's name, only the council."
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [
+   "311 Mapleton Avenue; Landmark Alteration Certificate (see Item 8A)",
+   "903 Pine Street; Landmark Alteration Certificate (see Item 8B)",
+   "6025 Arapahoe Avenue; Easement Vacation (see Item 8C)"
+  ],
+  "call_up_items_citations": [
+   "/page/1/ListGroup/6",
+   "/page/1/ListGroup/9",
+   "/page/2/Text/1"
+  ],
+  "call_up_items_score": {
+   "score": 5,
+   "reasoning": "The extracted call-up items are accurate and match the HTML content. However, the citations are incorrect. The first item is in /page/1/ListGroup/6 (correct), but the second is in /page/1/ListGroup/9 (correct), and the third is in /page/2/Text/1 (correct). Wait, re-reading the HTML: Item 11-14 are a"
+  },
+  "meeting_date": "2020-01-21",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2020-01-21' is accurate and matches the heading and footers. The citation points to the correct block containing the date. No contradictions or missing relevant blocks found."
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_score": {
+   "score": 4,
+   "reasoning": "The extracted value 'regular' is accurate as the footer explicitly states 'Regular Meeting'. However, the citation '/page/0/SectionHeader/0' points to the header 'CITY COUNCIL MEETING', which lacks the word 'Regular'. The correct citation should be the footer blocks (e.g., /page/0/PageFooter/10) or/"
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

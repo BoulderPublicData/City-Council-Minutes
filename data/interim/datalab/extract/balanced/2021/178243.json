@@ -1,0 +1,980 @@
+{
+ "entry_id": 178243,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "khNubQwqv96Fh9h7zTgtgg",
+ "page_count": 4,
+ "cost_breakdown": {
+  "final_cost_cents": 15.0
+ },
+ "extraction": {
+  "meeting_date": "2021-09-21",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/Text/3 gives the meeting date in a form correctly normalized to YYYY-MM-DD. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 supports the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 reads “CITY COUNCIL MEETING” and does not identify a regular, special, study session, or other specifically enumerated meeting type; “other” is supported. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:25 p.m.",
+  "adjourned_time_citations": [
+   "/page/3/Text/2"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/3/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment text at /page/3/Text/2 states the extracted time. Conclusion: the value at /page/3/Text/2 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order statement at /page/0/Text/6 identifies the presiding officer. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "Call Up Consideration Item: Community and Environmental Assessment Process for the East Arapahoe Multi-Use Path & Transit Stop Enhancement Project"
+  ],
+  "call_up_items_citations": [
+   "/page/1/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/1/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item is listed at /page/1/ListGroup/5. Conclusion: the value at /page/1/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one call-up check-in item, and the extraction includes that item from /page/1/ListGroup/5. Conclusion: the value at /page/1/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "climate change – carbon reduction",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "CU South and jobs/housing balance",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Ashlynn Manning",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "waste receptacles along Boulder Creek trail",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Kevin Teng",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "Boulder Creek",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Kathie Joyner",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "CU South Annexation",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Jim McMillan",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "CU South annexation",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Riley Mancuso",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "housing construction",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/0"
+    ],
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/1/Text/0"
+    ],
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/1/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:22 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/0"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consent Agenda",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to MOVE the Consent Agenda A-D carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to approve the July 13, 2021 Special Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the Consent Agenda A-D, which carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to approve the July 20, 2021 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the Consent Agenda A-D, which carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt Resolution 1294 to amend Section 3-6 of the Beverage Licensing Authority Rules of Procedure to allow online alcohol server training in a live streaming format, in addition to in-person trainings",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1294"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the Consent Agenda A-D, which carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8502 adopting Supplement 148 which codifies previously adopted ordinances and Appendix Council Procedures, as amendments to the Boulder Revised Code, 1981; and setting forth related details",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8502"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the Consent Agenda A-D, which carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   },
+   {
+    "item_number": "4.A",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "Call Up Consideration Item: Community and Environmental Assessment Process for the East Arapahoe Multi-Use Path & Transit Stop Enhancement Project",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   },
+   {
+    "item_number": "4.B",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "Call-up Consideration: 2504 Spruce Street",
+    "title_citations": [
+     "/page/0/Table/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Removed from the agenda by a motion that carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "Continued public hearing and consideration of the following items related to a petition to annex a 308.15-acre parcel generally known as CU South at 4886 and 5278 Table Mesa Drive; 718 Marshall Road; 0 Hwy 36 (2 parcels); and 4745 W. Moorhead with an initial zoning designation of Public (P) (LUR2019-00010): Consideration of a motion to adopt Resolution 1295, setting forth Findings of Fact and Conclusions regarding the annexation of approximately 308.15 acres of land generally known as CU South and located at 4886 and 5278 Table Mesa Drive, 0 Highway 36 (2 parcels), 718 Marshall Road, and 4745 W. Moorhead; AND , if Resolution 1295 is adopted by council finding that the area may be annexed: Continued second reading and consideration of a motion to adopt Ordinance 8483, annexing to the City of Boulder approximately 308.15 acres of land generally known as CU South located at 4886 and 5278 Table Mesa Drive, 0 Highway 36 (2 parcels), 718 Marshall Road, and 4745 W. Moorhead with an initial zoning classification of Public (P) as described in Chapter 9-5, “Modular Zone System,” B.R.C. 1981; amending the Zoning District Map forming a part of said Chapter to include the property in the above-mentioned zoning district; and setting forth related details; OR Continued second reading and consideration of a motion to adopt by emergency measure, Ordinance 8483, annexing to the City of Boulder approximately 308.15 acres of land generally known as CU South located at 4886 and 5278 Table Mesa Drive, 0 Highway 36 (2 parcels), 718 Marshall Road, and 4745 W. Moorhead with an initial zoning classification of Public (P) as described in Chapter 9-5, “Modular Zone System,” B.R.C. 1981; amending the Zoning District Map forming a part of said Chapter to include the property in the above-mentioned zoning district; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1295",
+     "8483"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Resolution 1295 and adopted Ordinance 8483 by emergency measure; each motion carried 6:1, with Nagle voting nay.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 9:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/2"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: • REMOVE item 4B – Call-up Consideration: 2504 Spruce Street",
+    "motion_text_citations": [
+     "/page/0/Table/9"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/0/Table/9"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/0/Table/9"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/0/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Table/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to MOVE the Consent Agenda A-D",
+    "motion_text_citations": [
+     "/page/1/Table/3"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Table/3"
+    ],
+    "seconded_by": "Young",
+    "seconded_by_citations": [
+     "/page/1/Table/3"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/1/Table/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/1/Table/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Resolution 1295, setting forth Findings of Fact and Conclusions regarding the annexation of approximately 308.15 acres of land generally known as CU South and located at 4886 and 5278 Table Mesa Drive, 0 Highway 36 (2 parcels), 718 Marshall Road, and 4745 W. Moorhead;",
+    "motion_text_citations": [
+     "/page/2/Table/9"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/2/Table/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1295"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/2/Table/9"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/2/Table/9"
+    ],
+    "vote_text": "Carried 6:1 Nay: Nagle",
+    "vote_text_citations": [
+     "/page/2/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/2/Table/9"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/2/Table/9"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Nagle"
+    ],
+    "abstained": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ]
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT by emergency measure, Ordinance 8483, annexing to the City of Boulder approximately 308.15 acres of land generally known as CU South located at 4886 and 5278 Table Mesa Drive, 0 Highway 36 (2 parcels), 718 Marshall Road, and 4745 W. Moorhead with an initial zoning classification of Public (P) as described in Chapter 9-5, “Modular Zone System,” B.R.C. 1981; amending the Zoning District Map forming a part of said Chapter to include the property in the above-mentioned zoning district; and setting forth related details",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8483"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/2/Table/9"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/2/Table/9"
+    ],
+    "vote_text": "Carried 6:1 Nay: Nagle",
+    "vote_text_citations": [
+     "/page/2/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Nagle"
+    ],
+    "abstained": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 9:25 p.m.",
+    "motion_text_citations": [
+     "/page/3/Text/2"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/3/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/1/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/7"
+    ],
+    "attendance_note": "left the meeting at 6:30 p.m. due to his recusal of Item 5A.",
+    "attendance_note_citations": [
+     "/page/1/Text/7"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "note": "due to recusal on 5A",
+    "note_citations": [
+     "/page/0/Text/8"
+    ]
+   }
+  ]
+ }
+}

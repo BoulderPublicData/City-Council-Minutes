@@ -63,15 +63,17 @@ Kept in the inventory; check whether any are not council minutes.
 | 2005s |         14 |           8.29 |              0 |          11.64 |        31.07 |                0 |
 | 2010s |         20 |           8.70 |              0 |           7.65 |        28.30 |                1 |
 | 2015s |          3 |           8.67 |              0 |           3.00 |        13.00 |                0 |
+| 2020s |         41 |           8.54 |              0 |           5.39 |        23.29 |                1 |
 
 ### How each motion's per-member votes were obtained (share of motions)
 
-| era   |   inconsistent_not_inferred |   inferred_from_roll_call |   no_vote_recorded |   partial_stated_only |
-|:------|----------------------------:|--------------------------:|-------------------:|----------------------:|
-| 2000s |                        0.13 |                      0.73 |               0.13 |                  0.01 |
-| 2005s |                        0.08 |                      0.80 |               0.08 |                  0.04 |
-| 2010s |                        0.14 |                      0.65 |               0.20 |                  0.02 |
-| 2015s |                        0.00 |                      0.56 |               0.44 |                  0.00 |
+| era   |   inconsistent_not_inferred |   inferred_from_roll_call |   inferred_with_item_exceptions |   no_vote_recorded |   partial_stated_only |
+|:------|----------------------------:|--------------------------:|--------------------------------:|-------------------:|----------------------:|
+| 2000s |                        0.12 |                      0.73 |                            0.01 |               0.13 |                  0.01 |
+| 2005s |                        0.07 |                      0.80 |                            0.01 |               0.08 |                  0.04 |
+| 2010s |                        0.12 |                      0.65 |                            0.02 |               0.20 |                  0.02 |
+| 2015s |                        0.00 |                      0.56 |                            0.00 |               0.44 |                  0.00 |
+| 2020s |                        0.05 |                      0.73 |                            0.03 |               0.18 |                  0.02 |
 
 ### Missing motion fields (share of motions)
 
@@ -81,6 +83,7 @@ Kept in the inventory; check whether any are not council minutes.
 | 2005s |       163 |               0.19 |               0.28 |                0.07 |
 | 2010s |       153 |               0.15 |               0.22 |                0.20 |
 | 2015s |         9 |               0.33 |               0.33 |                0.44 |
+| 2020s |       221 |               0.24 |               0.29 |                0.21 |
 
 ### Meetings to check by hand
 
@@ -88,20 +91,21 @@ Kept in the inventory; check whether any are not council minutes.
 |-----------:|:---------------|:----------------------------------|--------------------:|:---------------------------|
 |     126340 | 2014-08-01     | City Council Minutes - 2014-08-05 |                   9 | True                       |
 |     152022 | 2001-11-13     | Minutes - Nov-13-2001             |                  10 | False                      |
+|     179146 | 2022-02-01     | City Council Minutes - 02.02.2022 |                   9 | True                       |
 
 ## Datalab cost and full-run projection
 
-Spent so far (all runs, including retries and tests): **$19.49**.
+Spent so far (all runs, including retries and tests): **$30.42**.
 Full archive: **771 documents, ~5,453 pages** (page counts from the portal listing; missing counts filled with the median).
 
-- convert + **balanced** extraction, whole archive: **≈ $184**
-- convert + **fast** extraction, whole archive: **≈ $49**
+- convert + **balanced** extraction, whole archive: **≈ $183**
+- convert + **fast** extraction, whole archive: **≈ $42**
 
 | step    | mode     |   docs |   pages |   cost_usd |   usd_per_1k_pages |   projected_full_archive_usd |
 |:--------|:---------|-------:|--------:|-----------:|-------------------:|-----------------------------:|
 | convert | balanced |    140 | 1023.00 |       3.01 |               2.94 |                        16.06 |
-| extract | balanced |     57 |  492.00 |      15.16 |              30.82 |                       168.06 |
-| extract | fast     |     29 |  217.00 |       1.32 |               6.08 |                        33.13 |
+| extract | balanced |     98 |  735.00 |      22.46 |              30.56 |                       166.66 |
+| extract | fast     |    140 | 1023.00 |       4.95 |               4.83 |                        26.36 |
 
 Sample: 106 meetings, 811 pages, 7 with a hand-transcribed reference.
 

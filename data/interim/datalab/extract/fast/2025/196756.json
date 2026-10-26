@@ -1,0 +1,934 @@
+{
+ "entry_id": 196756,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "A8hPa9FVTE3dMAiCD6mORg",
+ "page_count": 4,
+ "cost_breakdown": {
+  "final_cost_cents": 1.8
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "motion_text": "Motion to APPROVE consent agenda items B-F",
+    "motion_text_citations": [
+     "/page/1/Table/4"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8710",
+     "8711",
+     "8702",
+     "8706",
+     "8696"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/Text/13",
+     "/page/1/Text/2",
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "moved_by": "Speer",
+    "moved_by_citations": [
+     "/page/1/Table/4"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "seconded_by": "Schuchard",
+    "seconded_by_citations": [
+     "/page/1/Table/4"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "vote_text": "APPROVED 9:0",
+    "vote_text_citations": [
+     "/page/1/Table/4"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Table/4"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/4"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/4"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/1/Table/4"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    }
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "agenda_item_number_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "motion_text": "Consideration of a motion to amend the Council Rules of Procedure Sec. II. Communication with Council, Sec. IV. Council Meeting Agenda and Sec. XVI. Rules of Decorum AND Introduction, first reading, consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8709 amending Section 2-1-2, “Council Meetings,” B.R.C. 1981, to update open comment format and rules to improve meeting functionality",
+    "motion_text_citations": [
+     "/page/2/SectionHeader/0",
+     "/page/2/Text/2"
+    ],
+    "motion_text_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "action_type_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8709"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/Text/2"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "moved_by": "Speer",
+    "moved_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "moved_by_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "seconded_by_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "vote_text": "The motion was approved with vote of 8:1. NAY: Adams",
+    "vote_text_citations": [
+     "/page/2/Text/3"
+    ],
+    "vote_text_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Text/3"
+    ],
+    "result_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/3"
+    ],
+    "yes_count_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/2/Text/3"
+    ],
+    "no_count_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/2/Text/3"
+    ],
+    "stated_unanimous_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "no_votes": [
+     "Adams"
+    ],
+    "no_votes_citations": [
+     "/page/2/Text/3"
+    ],
+    "no_votes_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 5,
+     "reasoning": "The extraction correctly identifies two motions: the consent agenda approval and the separate vote on Ordinance 8709. Citations for the consent agenda (Table/4) and the Ordinance 8709 motion (Text/3) are accurate. The extracted vote counts and names match the text. However, the schema requires 'st'c"
+    }
+   }
+  ],
+  "open_comment_speakers": [],
+  "location": "Virtual Via Zoom",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "7:59 p.m.",
+  "adjourned_time_citations": [
+   "/page/2/Text/13"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "open_comment_speakers_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8709",
+     "8710",
+     "8711",
+     "8702",
+     "8706",
+     "8696"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/Text/11",
+     "/page/0/Text/13",
+     "/page/1/Text/2",
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Items B-F were approved 9:0; Ordinance 8709 was approved 8:1 after being removed from the consent agenda.",
+    "outcome_summary_citations": [
+     "/page/1/Table/4",
+     "/page/2/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Presentations and Q&A were held for the Manufactured Housing Strategy and Economic Development Policy Initiatives.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6",
+     "/page/2/Text/7",
+     "/page/2/Text/9"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "section": "Debrief",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/2/SectionHeader/12"
+    ],
+    "item_number_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/2/SectionHeader/12"
+    ],
+    "section_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/2/SectionHeader/12"
+    ],
+    "title_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Brockett at 7:59 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/Text/13"
+    ],
+    "outcome_summary_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 2,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda items are incomplete: Item 1 is mislabeled as 'Call to Order' instead of 'Consent Agenda' (which contains the actual numbered items A-F). The extraction misses the sub-items (A-F) as separate entries and incorrectly"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Adams",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Marquis",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Schuchard",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    },
+    "attendance_note": null,
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted names and titles are accurate and match the HTML. However, the schema requires a 'title' field, but the HTML only lists names (e.g., 'Adams, Benjamin...') without explicit titles like 'Council Member' or 'Mayor'. The extraction incorrectly infers titles not present in the source text, "
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2025-07-24",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2025-07-24' is accurate and matches the text in block /page/0/Text/3. The citation is correct and complete as this is the only location stating the meeting date."
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

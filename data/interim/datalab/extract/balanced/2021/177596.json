@@ -1,0 +1,1170 @@
+{
+ "entry_id": 177596,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "FSnHxzyWvielW8qSU7iBQA",
+ "page_count": 5,
+ "cost_breakdown": {
+  "final_cost_cents": 16.0
+ },
+ "extraction": {
+  "meeting_date": "2021-09-09",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Thursday, September 9, 2021” at /page/0/Text/3, supporting the normalized date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 supports the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [],
+   "verification": {
+    "status": "FAIL_CITATIONS",
+    "feedback": "The heading at /page/0/SectionHeader/1 identifies this as a City Council Meeting, consistent with the extraction's “other” category. The extraction does not cite that heading. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction; the citations are wrong or insufficient."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/7"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting was called to order at the extracted time in /page/0/Text/7. Conclusion: the value at /page/0/Text/7 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:35 p.m.",
+  "adjourned_time_citations": [
+   "/page/3/Text/16"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/3/Text/16"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment sentence at /page/3/Text/16 supports the extraction. Conclusion: the value at /page/3/Text/16 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/7"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting was called to order by Mayor Weaver at /page/0/Text/7. Conclusion: the value at /page/0/Text/7 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Call-Up Item: Site Review (case no. LUR2020-00052) to partially redevelop a portion of the property at 3485 Stanford Court with sixty permanently affordable apartments for seniors (age 55+) in one new building. The proposed units include 54 one-bedroom units and 6 two-bedroom units. The original sanctuary building is proposed to be landmarked and renovated for the existing childcare (Rainbow Childcare Center) on the lower level and new community space for residents on the upper level. The proposal includes a request for an increase in maximum allowable building height to allow a height of 45’-10” for the proposed building",
+   "B. Vacation of a 20’ utility easement in the rear yard at 2100 Emerald Rd. in order to allow for an ADU. Associated with AUR2021-00003. (ADR2021-00083)"
+  ],
+  "call_up_items_citations": [
+   "/page/1/ListGroup/7",
+   "/page/2/Text/0",
+   "/page/2/ListGroup/3"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/1/ListGroup/7",
+      "/page/2/Text/0"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is stated across /page/1/ListGroup/7 and /page/2/Text/0. Conclusion: the value at /page/1/ListGroup/7 and /page/2/Text/0 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is stated at /page/2/ListGroup/3. Conclusion: the value at /page/2/ListGroup/3 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two call-up check-in items: item A spans /page/1/ListGroup/7 and /page/2/Text/0, and item B appears at /page/2/ListGroup/3. Both are present in the extraction. Conclusion: the value at /page/1/ListGroup/7, /page/2/Text/0, and /page/2/ListGroup/3 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/7"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:01 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "Declaration for 2021 Pollinator Appreciation Month to be presented by Council Member Swetlik",
+    "title_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/Text/12"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "Presentation & Questions; Comprehensive Annual Financial Report Acceptance & Auditor Selection",
+    "title_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "David Gross, who serves on Boulder City Council Audit Subcommittee, provided a brief description of the process.",
+    "outcome_summary_citations": [
+     "/page/0/Text/12"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/2"
+    ],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/0/SectionHeader/13"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/0/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:32 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/Table/5"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/Table/5"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/Table/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the August 10, 2021 Study Session Summary regarding the Facilities Master Plan",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the August 10, 2021 Study Session Summary regarding Joint Concept Plan Meetings with Planning Board, Design Advisory Board and Transportation Advisory Board",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to call a Special Council Meeting on September 14, 2021 , to hold the “Public Hearing” on Ordinance 8483 related to the CU South annexation",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8483"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt Resolution 1290 accepting the City of Boulder’s 2020 Comprehensive Annual Financial Report (CAFR) and Independent Auditor’s Reports",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1290"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt Resolution 1291 appointing the firm of CliftonLarsonAllen to examine the financial accounts of the City of Boulder for the year ended December 31, 2021",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1291"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8501 amending the 2014 intergovernmental agreement for hazardous materials management; and setting forth related details",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8501"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "outcome_summary_citations": [
+     "/page/1/Table/5"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Call-Up Item: Site Review (case no. LUR2020-00052) to partially redevelop a portion of the property at 3485 Stanford Court with sixty permanently affordable apartments for seniors (age 55+) in one new building. The proposed units include 54 one-bedroom units and 6 two-bedroom units. The original sanctuary building is proposed to be landmarked and renovated for the existing childcare (Rainbow Childcare Center) on the lower level and new community space for residents on the upper level. The proposal includes a request for an increase in maximum allowable building height to allow a height of 45’-10” for the proposed building",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Vacation of a 20’ utility easement in the rear yard at 2100 Emerald Rd. in order to allow for an ADU. Associated with AUR2021-00003. (ADR2021-00083)",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only, Ordinance 8488 approving supplemental appropriations to the 2021 Budget including appropriations of American Rescue Plan Act funds.",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8488"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:10 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/8"
+    ],
+    "hearing_closed_time": "7:13 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/10"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 8:0",
+    "outcome_summary_citations": [
+     "/page/2/Table/11"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/Table/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Discussion and input on the proposed 2022 Policy Statement on Regional, State and Federal Issues",
+    "title_citations": [
+     "/page/2/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:06 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/0"
+    ],
+    "hearing_closed_time": "8:09 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/2"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "NO ACTION – Staff will bring item forward with suggested amendments on consent at a later meeting",
+    "outcome_summary_citations": [
+     "/page/3/Table/3"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/Text/6"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Update on Boulder Business Recovery Program and exploration of Downtown Boulder Outdoor Dining Program",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Yvette Bowden, Director of Community Vitality, provided a presentation with background information on the program.",
+    "outcome_summary_citations": [
+     "/page/3/Text/6"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/ListGroup/7"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "City Clerk’s confirmation of approval from the three initiative petition committees, to move forward with submitting their measures to the electors on the ballot at the November 2, 2021 Municipal Coordinated Election",
+    "title_citations": [
+     "/page/3/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Elesha Johnson, City Clerk informed Council of the confirmed approval from the three initiative petition committees.",
+    "outcome_summary_citations": [
+     "/page/3/Text/8"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "title": "Discussion regarding timing of Ordinance 8485 2020 Midterm Update to BVCP scheduled for 1st Reading on September 21 and 2nd Reading on October 5",
+    "title_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8485"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "title": "Discussion on appointments to the Council Employee Evaluation Committee",
+    "title_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/SectionHeader/13"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/3/SectionHeader/13"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/3/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/3/SectionHeader/14"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/3/SectionHeader/14"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/3/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/3/SectionHeader/15"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/3/SectionHeader/15"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/3/SectionHeader/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 9:35 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/16"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: • ADD item 8B - Discussion on appointments to the Council Employee Evaluation Committee",
+    "motion_text_citations": [
+     "/page/0/Table/10"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/3/Table/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/0/Table/10"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/0/Table/10"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/0/Table/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Table/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Nagle"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/Table/5"
+    ],
+    "motion_text": "Motion to MOVE the consent agenda Items A-F",
+    "motion_text_citations": [
+     "/page/1/Table/5"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/1/Table/5"
+    ],
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/1/Table/5"
+    ],
+    "vote_text": "Carried 6:0 Yates and Joseph RECUSED on item 3C",
+    "vote_text_citations": [
+     "/page/1/Table/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/1/Table/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Yates",
+     "Joseph"
+    ],
+    "absent_or_not_voting": [
+     "Nagle"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Table/11"
+    ],
+    "motion_text": "Motion to order published by title only, Ordinance 8488 approving supplemental appropriations to the 2021 Budget including appropriations of American Rescue Plan Act funds",
+    "motion_text_citations": [
+     "/page/2/Table/11"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Table/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8488"
+    ],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/2/Table/11"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/2/Table/11"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/2/Table/11"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Table/11"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/11"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Nagle"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/15"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 9:35 p.m.",
+    "motion_text_citations": [
+     "/page/3/Text/16"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/3/Text/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Nagle"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/9"
+    ],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Gary Urling",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "Outdoor Dining",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "CU South",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   }
+  ]
+ }
+}

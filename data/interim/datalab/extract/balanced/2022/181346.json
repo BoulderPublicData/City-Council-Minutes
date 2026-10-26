@@ -1,0 +1,1480 @@
+{
+ "entry_id": 181346,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "2dAQGJc860fNUvq9gc17hg",
+ "page_count": 12,
+ "cost_breakdown": {
+  "final_cost_cents": 25.0
+ },
+ "extraction": {
+  "meeting_date": "2022-08-18",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Thursday, August 18, 2022” in /page/0/Text/3, supporting the extracted date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [],
+   "verification": {
+    "status": "FAIL_CITATIONS",
+    "feedback": "The heading identifies the event as “CITY COUNCIL MEETING” in /page/0/SectionHeader/1, consistent with the extraction's use of the catch-all meeting type. The extraction does not cite that supporting block. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction; the citations are wrong or insufficient."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Via Video Conferencing” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:02 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Brockett called the meeting to order at 6:02 p.m. in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:18 p.m.",
+  "adjourned_time_citations": [
+   "/page/10/Text/6"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/10/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at 10:18 p.m. in /page/10/Text/6. Conclusion: the value at /page/10/Text/6 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Mayor Brockett as presiding when the meeting was called to order in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes include a “Call-Up Check-In” section in /page/2/SectionHeader/2 but list no call-up items beneath it. Conclusion: the value at /page/2/SectionHeader/2 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended the agenda to add Items 6B and 8A.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment",
+    "section_citations": [],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment opened at 6:10 p.m. and closed at 6:32 p.m.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consent Agenda",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved consent agenda A-I, including the alternate Ordinance 8545 sent out on HOTLINE, 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the July 28, 2022 Study Session Summary regarding the Hill Revitalization Working Group Update",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the July 28, 2022 Study Session Summary regarding the Hill Revitalization Working Group Update as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the July 28, 2022 Study Session Summary regarding Reimagining Policing Update",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the July 28, 2022 Study Session Summary regarding Reimagining Policing Update as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the July 28, 2022 Study Session Summary regarding Xcel Energy Streetlight Acquisition and LED Conversion",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the July 28, 2022 Study Session Summary regarding Xcel Energy Streetlight Acquisition and LED Conversion as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the May 10, 2022 Special City Council Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the May 10, 2022 Special City Council Meeting Minutes as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the May 17, 2022 Regular City Council Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the May 17, 2022 Regular City Council Meeting Minutes as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to accept the May 24, 2022 Special City Council Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the May 24, 2022 Special City Council Meeting Minutes as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Table/1"
+    ],
+    "title": "Consideration of the following items related to a petition to annex a 0.9-acre enclave property located at 1021 Gapter Road with an initial zoning designation of Residential – Rural (RR-2) (LUR2021-00054): Consideration of a motion to adopt Resolution 1308 setting forth Findings of Fact and Conclusions regarding the annexation of the 0.9-acre enclave property; AND Second reading and consideration of a motion to adopt Ordinance 8532 annexing a 0.9-acre enclave property with an initial zoning designation of Residential - Rural 2 (RR-2) as described in Chapter 9-5, “Modular Zone System,” B.R.C. 1981; amending the Zoning District Map forming a part of said Chapter to include the property in the above-mentioned zoning district; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1308",
+     "8532"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Resolution 1308 and Ordinance 8532 as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Table/1"
+    ],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only of Ordinance 8544 Amending Section 9-2-19, “Rezoning,” B.R.C. 1981, by adding rezoning standards to implement the East Boulder Subcommunity Plan and Setting Forth Related Details",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8544"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council ordered Ordinance 8544 published by title only on first reading as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Table/1"
+    ],
+    "title": "Second Reading and consideration of a motion to adopt by emergency measure Ordinance 8545 amending Sections 2-1-2, “Council Meetings,” 2-2.5-11, “Location and Special Procedures for Governing Body Meetings and Departments,” and 2-3-1, “General Provisions,” B.R.C 1981, allowing for boards, commissions, and City Council members to attend meetings virtually or in-person; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8545"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the alternate Ordinance 8545 sent out on HOTLINE as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council considered the continued ballot ordinances and adopted the Arapahoe Avenue annexation items.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Continued second reading of the following ballot items:",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended and passed Ordinances 8534, 8546 and 8542 and continued Ordinances 8539 and 8540.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/Text/2"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Continued second reading and consideration of a motion to amend and pass Ordinance 8534 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to repeal Ordinance 8483 regarding the annexation of CU South ; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/3/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8534",
+     "8483"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended and passed Ordinance 8534; the recorded vote was 9:0 with Speer listed as abstaining.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/Text/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Continued second reading and consideration of a motion to continue Ordinance 8539 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 65, 102 and 130 and repeal Sections 69, 132, 133, and 134 from the Boulder Home Rule Charter if the initiative to create a library district on the Boulder County Ballot is approved at this election ; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8539"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued Ordinance 8539 by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/Text/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Continued second reading and consideration of a motion to continue Ordinance 8540 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5 and 9 of the Boulder Home Rule Charter to prohibit running for more than one office at an election, allow a council member whose term does not expire at the election to run for mayor in the election, fill a vacancy for the expired term, and change the swearing-in date of newly elected officials ; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/3/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8540"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued Ordinance 8540 by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Continued second reading and consideration of a motion to amend and pass Ordinance 8546 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5, 14 and 22 of the Boulder Home Rule Charter to change the regular municipal elections of candidates to even-numbered years beginning in 2026; implement the transition by reducing the terms of the council members elected in 2023 and 2025 to three years and increasing the term of the mayor elected in 2023 to three years; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8546"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended and passed Ordinance 8546, then reconsidered it and amended and passed it with the requested amendments, each by a 6:3 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/Text/1"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Continued second reading and consideration of a motion to amend and pass Ordinance 8542 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the questions of authorizing the City Council to replace the existing utility occupation tax and climate action plan excise tax with a new climate tax beginning January 1, 2023, and expiring December 31, 2040, and authorizing debt to be repaid from such tax up to a principal amount of $52,900,000 to meet the city’s climate goals; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/4/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8542"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended and passed Ordinance 8542 by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "Public hearing and consideration of the following items related to a petition to annex a 1.087-acre property generally located at 302 Arapahoe Ave. and 334 Arapahoe Ave. (LUR2021-00003): Consideration of a motion to adopt Resolution 1314 setting forth Findings of Fact and conclusions regarding the annexation of a 1.087-acre property; AND Second reading and consideration of a motion to adopt Ordinance 8522 annexing to the City of Boulder a 1.087-acre property with an initial zoning designation of Residential Medium - 3 (RM-3) as described in Chapter 9-5, “Modular Zone System,” B.R.C. 1981; amending the Zoning District Map forming a part of said Chapter to include the property in the above-mentioned zoning district; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1314",
+     "8522"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:42 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/7/Text/6"
+    ],
+    "hearing_closed_time": "7:46 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/8"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Resolution 1314 and Ordinance 8522 by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/9/Text/3"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "Outdoor Dining Update",
+    "title_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Chris Jones, Community Vitality Director, provided a presentation and answered questions from Council.",
+    "outcome_summary_citations": [
+     "/page/9/Text/3"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/9/Text/7"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "Disposable Bag Fee Changes and Single-Use Plastics",
+    "title_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Jonathan Koehn, Climate Initiatives Director and Jamie Harkins, Sustainability Senior Manager provided a presentation and answered questions from Council.",
+    "outcome_summary_citations": [
+     "/page/9/Text/7"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/9/SectionHeader/9"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/9/SectionHeader/9"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/9/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/9/SectionHeader/9"
+    ],
+    "title": "Living Wage Update",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council unanimously supported engaging staff and continuing work on the project.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/10/SectionHeader/3"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/10/SectionHeader/3"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/10/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/10/SectionHeader/5"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/10/SectionHeader/5"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/10/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:18 p.m.",
+    "outcome_summary_citations": [
+     "/page/10/Text/6"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: • ADD Item 6B – Disposable Bag Fee and Single Use Plastics Options • ADD Item 8A – Living Wage Update",
+    "motion_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Speer",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "motion_text": "Motion to APPROVE the consent agenda A-I including the ALTERNATE Ordinance 8545 as sent out on HOTLINE",
+    "motion_text_citations": [
+     "/page/2/Table/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8545"
+    ],
+    "moved_by": "Folkerts",
+    "moved_by_citations": [
+     "/page/2/Table/1"
+    ],
+    "seconded_by": "Speer",
+    "seconded_by_citations": [
+     "/page/2/Table/1"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/2/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/4/Table/4"
+    ],
+    "motion_text": "Motion to amend and pass Ordinance 8534 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to repeal Ordinance 8483 regarding the annexation of CU South; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8534",
+     "8483"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "vote_text": "Carried 9:0 ABSTAINED: Speer",
+    "vote_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Speer"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/5/Table/0"
+    ],
+    "motion_text": "Motion to continue Ordinance 8539 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 65, 102 and 130 and repeal Sections 69, 132, 133, and 134 from the Boulder Home Rule Charter if the initiative to create a library district on the Boulder County Ballot is approved at this election; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/5/Table/0"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8539"
+    ],
+    "moved_by": "Folkerts",
+    "moved_by_citations": [
+     "/page/5/Table/0"
+    ],
+    "seconded_by": "Speer",
+    "seconded_by_citations": [
+     "/page/5/Table/0"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/5/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/5/Table/0"
+    ],
+    "motion_text": "Motion to continue Ordinance 8540 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5 and 9 of the Boulder Home Rule Charter to prohibit running for more than one office at an election, allow a council member whose term does not expire at the election to run for mayor in the election, fill a vacancy for the expired term, and change the swearing-in date of newly elected officials; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/5/Table/0"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8540"
+    ],
+    "moved_by": "Joseph",
+    "moved_by_citations": [
+     "/page/5/Table/0"
+    ],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/5/Table/0"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/5/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to amend and pass Ordinance 8546 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5, 14 and 22 of the Boulder Home Rule Charter to change the regular municipal elections of candidates to even-numbered years beginning in 2026 on the same date of the State general election; implement the transition by reducing the terms of the council members elected in 2023 and 2025 to three years and increasing the term of the mayor elected in 2023 to three years; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8546"
+    ],
+    "moved_by": "Speer",
+    "moved_by_citations": [],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 6:3 NAY: Wallach, Winer, and Yates",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 3,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Wallach",
+     "Winer",
+     "Yates"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/6/Table/0"
+    ],
+    "motion_text": "Motion to amend and pass Ordinance 8542 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the questions of authorizing the City Council to replace the existing utility occupation tax and climate action plan excise tax with a new climate tax beginning January 1, 2023, and expiring December 31, 2040, and authorizing debt to be repaid from such tax up to a principal amount of $52,900,000 to meet the city’s climate goals; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/6/Table/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8542"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/6/Table/0"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/6/Table/0"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/6/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Resolution 1314 setting forth Findings of Fact and conclusions regarding the annexation of a 1.087-acre property generally located at 302 Arapahoe Ave. and 334 Arapahoe Ave.; AND Second reading and consideration of a motion to adopt Ordinance 8522 annexing to the City of Boulder a 1.087-acre property at 302 Arapahoe Ave. and 334 Arapahoe Ave. with an initial zoning designation of Residential Medium - 3 (RM-3) as described in Chapter 9-5, “Modular Zone System,” B.R.C. 1981; amending the Zoning District Map forming a part of said Chapter to include the property in the above-mentioned zoning district; and setting forth related details",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1314",
+     "8522"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [],
+    "vote_text": "Adopted 9:0",
+    "vote_text_citations": [
+     "/page/7/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [
+     "/page/8/Table/3"
+    ],
+    "motion_text": "Motion to reconsider Ordinance 8546",
+    "motion_text_citations": [
+     "/page/8/Table/3"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8546"
+    ],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/8/Table/3"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/8/Table/3"
+    ],
+    "vote_text": "Carried 6:3",
+    "vote_text_citations": [
+     "/page/8/Table/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/8/Table/3"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/8/Table/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to amend and pass Ordinance 8546 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5, 14 and 22 of the Boulder Home Rule Charter be amended to change the regular municipal election date to even-numbered years on the same date as the State general election beginning in 2026; implement the transition by reducing the terms of the council members elected in 2023 and 2025 to three years and increasing the term of the mayor elected in 2023 to three years; specifying the form of the ballot and other election procedures; and setting forth related details and to include the requested amendments",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8546"
+    ],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [],
+    "seconded_by": "Speer",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 6:3 NAY: Wallach, Winer, and Yates",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 3,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Wallach",
+     "Winer",
+     "Yates"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/10/Text/2"
+    ],
+    "motion_text": "Council Member Folkerts requested a “nod of five” to engage staff and continue the work on this project.",
+    "motion_text_citations": [
+     "/page/10/Text/2"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Folkerts",
+    "moved_by_citations": [
+     "/page/10/Text/2"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Council support given by unanimous agreement.",
+    "vote_text_citations": [
+     "/page/10/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/10/SectionHeader/5"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:18 p.m.",
+    "motion_text_citations": [
+     "/page/10/Text/6"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/10/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/9"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/9"
+    ],
+    "attendance_note": "may need to step away for 15-20 minutes to attend the Geographic Naming Board but would be present the rest of the night.",
+    "attendance_note_citations": [
+     "/page/0/Text/9"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Winer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Yates",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Ari Aal",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "legalizing psychedelics",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Justin Weiss",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "decriminalization of scheduled drugs",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Kyle Castleberry",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "decriminalization of entheogenic plants",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Tammy Brannen",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "decriminalization",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "climate inaction",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Shari Hack",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "Boulder",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "wealth inequity",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Darren O’Connor",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "police budget",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": "title for referendum ballot measure",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

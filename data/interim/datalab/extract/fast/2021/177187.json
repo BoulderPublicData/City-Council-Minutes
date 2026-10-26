@@ -1,0 +1,2532 @@
+{
+ "entry_id": 177187,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "GTDF_tEeqxi_pqhKoKIrwg",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 4.05
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "motion_text": "Motion to AMEND the agenda to: ADD – Item 3P - motion to call a Special Council Meeting on August 24, 2021 to approve the order of the City’s ballot measures in the 2021 Municipal Coordinated Election REMOVE – Items 1B, 3G, & 3H from the agenda",
+    "motion_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Table/8"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "motion_text": "Motion to APPROVE the consent agenda A – P, as amended to remove items 3G & 3H",
+    "motion_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Table/1"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Table/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    }
+   },
+   {
+    "agenda_item_number": "5A",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "motion_text": "Motion to ADOPT Ordinance 8474 submitting to the qualified registered electors of the City of Boulder at the municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall adopt changes to the Boulder Revised Code to require that any agreement with the University of Colorado regarding terms of annexation for the land known as CU South include certain specific details, and that the annexation agreement gain voter approval in an election prior to provision of city utilities and services other than flood control facilities to or on any portion of CU South; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/4"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8474"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/Table/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "moved_by": "Nagle",
+    "moved_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Table/4"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Table/4"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    }
+   },
+   {
+    "agenda_item_number": "5B",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "motion_text": "Motion to ADOPT Ordinance 8475 submitting to the qualified electors of the City of Boulder at the municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall expand access to housing by allowing all housing units to be occupied by a number of people equal to the number of legal bedrooms, plus one additional person per home, provided that relevant health and safety codes are met; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/6/Table/2"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Table/2"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8475"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/6/Table/2"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/6/Table/2"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/6/Table/2"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/6/Table/2"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Table/2"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Table/2"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Table/2"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/6/Table/2"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    }
+   },
+   {
+    "agenda_item_number": "5C",
+    "agenda_item_number_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "motion_text": "Motion to ADOPT Ordinance 8480 submitting to the qualified electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall prohibit the sale and manufacture for sale of certain fur products; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/7/Table/1"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Table/1"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8480"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/7/Table/1"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/7/Table/1"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "seconded_by": "Nagle",
+    "seconded_by_citations": [
+     "/page/7/Table/1"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/7/Table/1"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/7/Table/1"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/7/Table/1"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Table/1"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/7/Table/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct table rows and text blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the motion tables, which contradicts the schema instruction to 'never infer votes that are not written.' The schema"
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Stephen Haydel",
+    "name_citations": [
+     "/page/0/ListGroup/14"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    },
+    "topic": "Vehicle Violence",
+    "topic_citations": [
+     "/page/0/ListGroup/14"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    }
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/14"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    },
+    "topic": "Request for news article in Daily Camera regarding “smoke free backrooms” / Online Petitioning",
+    "topic_citations": [
+     "/page/0/ListGroup/14"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    }
+   },
+   {
+    "name": "Shirley Jin",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    },
+    "topic": "Small cells",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    }
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    },
+    "topic": "Climate change – Carbon reduction",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    }
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    },
+    "topic": "Outdoor/Indoor Dining",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction misses two speakers (Sammie Lawrence IV, Patrick Murphy's topic is correct but Sammie is missing). Sammie Lawrence IV is listed as 'WITHDREW' but should be included in the list of those who spoke or were scheduled. The citations correctly point to the list items but miss the withdrawn"
+    }
+   }
+  ],
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "10:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/7/Text/3"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "item_number_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "section_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "title_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/Text/13"
+    ],
+    "is_public_hearing_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_opened_time": "7:40 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/13"
+    ],
+    "hearing_opened_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_closed_time": "7:52 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/1"
+    ],
+    "hearing_closed_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Stephen Haydel",
+      "name_citations": [
+       "/page/0/ListGroup/14"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/14"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/0/ListGroup/14"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/14"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Shirley Jin",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Patrick Murphy",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     }
+    ],
+    "outcome_summary": "Public comments were taken from 7:40 p.m. to 7:52 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/13",
+     "/page/1/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "ordinance_or_resolution_numbers": [
+     "1290",
+     "1291",
+     "1292",
+     "1293",
+     "8501",
+     "8476",
+     "8487",
+     "8486",
+     "8477"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/3",
+     "/page/2/ListGroup/0",
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The consent agenda was approved as amended to remove items 3G and 3H.",
+    "outcome_summary_citations": [
+     "/page/3/Table/1"
+    ],
+    "outcome_summary_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the call-up items.",
+    "outcome_summary_citations": [
+     "/page/3/Text/4",
+     "/page/3/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "item_number_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8474",
+     "8475",
+     "8480"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/ListGroup/8",
+     "/page/4/ListGroup/5",
+     "/page/6/Text/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/4/Text/1",
+     "/page/5/Text/1",
+     "/page/6/Text/5"
+    ],
+    "is_public_hearing_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_opened_time": "8:12 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/1"
+    ],
+    "hearing_opened_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_closed_time": "10:32 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/0"
+    ],
+    "hearing_closed_time_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Sarah Dawn Haynes",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Margaret LeCompte",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Gary Urling",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Jim McMillan",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Nicholas Lenssen",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Alan Delamere",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "James Morris",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Steven Telleen",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Neesha Schnepf",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Fiona Pigott",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Philip Ogren",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Eric Budd",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Blake Stone",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Sarah Dawn Haynes",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Pierce Delahunt",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Anna Vernier",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Rebecca Davies",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Nick Grossman",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Chelsea Castellano",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Maria Colvin",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Theodore Koenig",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Maeve Phelan",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Michael Diamond",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Mel La",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Sarah Wise",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Morteza Karimzadeh",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Katie Farnan",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lindsay Sworski",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Macon Cowles",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Olivia Cecil",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Thomas Rogers",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Kurt Nordback",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lila Hickey",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Joy Rohde",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Ray Bambha",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Hope Michelsen",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Adalyn Fyhrie",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Ana Fernandez Frank",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Joel Loomis",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Michael Parrish",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "RJ Boyle",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Ryan Schuchard",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lisa Spalding",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Bryan Bowen",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Claudia Thiem",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Ora Goldman",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lincoln Miller",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Eva Hamer",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Alexander Sage",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Eva Hamer",
+      "name_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Alexander Sage",
+      "name_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Brent Johannes",
+      "name_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     },
+     {
+      "name": "Ora Goldman",
+      "name_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 1,
+       "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+      }
+     }
+    ],
+    "outcome_summary": "Ordinances 8474, 8475, and 8480 were adopted following public hearings.",
+    "outcome_summary_citations": [
+     "/page/4/Table/4",
+     "/page/6/Table/2",
+     "/page/7/Table/1"
+    ],
+    "outcome_summary_score": {
+     "score": 1,
+     "reasoning": "The extraction incorrectly labels 'Open Comment' as a public hearing and includes Open Comment speakers in the Public Hearing speakers list. It also incorrectly groups multiple distinct public hearings (5A, 5B, 5C) into a single agenda item '5' with a combined speaker list, failing to distinguish by"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted list of 9 members present is accurate and matches the roll call in /page/0/Text/7. However, the extraction incorrectly assigns the title 'Council Member' to Mayor Weaver, who is explicitly listed as 'Mayor' in the source text. All citations point to the correct block, but the title for"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [
+   "Landmark Alteration Certificate for installation of a 11.88 kW roof mounted solar PV system at 845 14th St., a contributing property in the University Place Historic District",
+   "Three- Year Extension of Development Approval for the Use Review (LUR2016 00020) for attached residential in an industrial zoning district associated amenities located at 3289 Airport Boulevard"
+  ],
+  "call_up_items_citations": [
+   "/page/3/ListGroup/3",
+   "/page/3/ListGroup/5"
+  ],
+  "call_up_items_score": {
+   "score": 5,
+   "reasoning": "The extracted call-up items accurately reflect the content of the two cited blocks. However, the extraction is incomplete as it omits the 'Call-Up Check-In' section header (data-block-id: /page/3/SectionHeader/2) which introduces the list, and potentially other structural context. The citations for "
+  },
+  "meeting_date": "2021-08-17",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2021-08-17' is accurate and matches the HTML content. The citation '/page/0/Text/3' correctly points to the date 'Tuesday, August 17, 2021'. No contradictions or missing relevant citations were found."
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 4,
+   "reasoning": "The extracted value 'regular' is accurate as the footer explicitly states 'Regular Meeting'. However, the citation '/page/0/SectionHeader/1' points to 'CITY COUNCIL MEETING', which lacks the 'Regular' descriptor. The correct citation should be the footer '/page/0/PageFooter/15' or '/page/1/PageFloor"
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}
