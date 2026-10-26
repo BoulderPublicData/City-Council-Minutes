@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 # ─── Paths ──────────────────────────────────────────────────────────────────
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+# Long runs (hours of fetching or Datalab jobs) can write somewhere outside the git
+# working tree, so a commit-on-stop hook, editor, or watcher doesn't churn on partial
+# output. Copy `data/` there first; copy it back and commit once when the run finishes.
+DATA = Path(os.environ.get("CCM_DATA_DIR", ROOT / "data")).resolve()
 DATA_ORIGINAL = DATA / "original"
 DATA_INTERIM = DATA / "interim"
 DATA_PROCESSED = DATA / "processed"

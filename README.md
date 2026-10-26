@@ -5,10 +5,13 @@ city's [Laserfiche records portal](https://documents.bouldercolorado.gov/WebLink
 into a harmonized dataset: one row per meeting, per member's attendance, per agenda
 item, per public speaker, per motion, and per member's vote on each motion.
 
-> **Status: quarterly sample.** The pipeline has been run on one meeting per quarter
-> per year (see `data/lookups/sample_quarterly.csv`) and scored against the 41
-> hand-transcribed 2021–22 meetings. The full archive run waits on review of
-> `data/audit/accuracy.md` and the cost projection in `data/audit/summary.md`.
+> **Status: quarterly sample done; full archive pending.** 140 meetings have been
+> fetched and OCR'd: one per quarter per year (`data/lookups/sample_quarterly.csv`) plus
+> the 41 hand-transcribed 2021–22 meetings. `data/processed/` holds 98 of them in
+> balanced extraction. Dates and attendance match the minutes in every scored
+> meeting. Findings, accuracy, and the cost of the full run (≈ $150 more in Datalab
+> credit) are in [`data/audit/sample_report.md`](data/audit/sample_report.md); the
+> retrospective is in [`docs/aar/`](docs/aar/).
 
 ## Why
 
@@ -68,17 +71,24 @@ uv sync
 export DATALAB_API_KEY=...            # https://www.datalab.to/app/keys
 uv run python -m scripts discover     # slow: the portal is rate limited (cached, resumable)
 uv run python -m scripts sample       # one meeting per quarter per year
-uv run python -m scripts fetch        # --scope all for the whole archive
+uv run python -m scripts fetch        # --scope sample | gold | all
 uv run python -m scripts convert
-uv run python -m scripts extract --mode balanced
+uv run python -m scripts extract --mode balanced   # reference meetings run first
 uv run python -m scripts tidy --mode balanced
 uv run python -m scripts score
 uv run python -m scripts audit
 uv run pytest
 ```
 
-PDFs are stored with [Git LFS](https://git-lfs.com); run `git lfs pull` after cloning
-to get them. See [`AGENTS.md`](AGENTS.md) for architecture and gotchas.
+`--scope gold` is the 41 hand-transcribed meetings that `score` checks against. Datalab
+bills per page; the key's spend limit stops a run cleanly (HTTP 402), so check the
+projection in `data/audit/summary.md` first. For runs that take hours, set
+`CCM_DATA_DIR` to a copy of `data/` outside the repo and copy it back when done
+(`AGENTS.md`, gotcha 10).
+
+PDFs are stored with [Git LFS](https://git-lfs.com) (~2.4 MB each; ~1.8 GB for the full
+archive); run `git lfs pull` after cloning to get them. See [`AGENTS.md`](AGENTS.md)
+for architecture and gotchas.
 
 ## Legacy hand-transcribed format
 
