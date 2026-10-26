@@ -1,0 +1,1558 @@
+{
+ "entry_id": 152048,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "etkRoJbrNoCZKOGeDK3z1Q",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 29.0
+ },
+ "extraction": {
+  "meeting_date": "2006-03-20",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives “March 20, 2006” in /page/0/SectionHeader/0, corresponding to the extracted date. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "AGENDA",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 is “AGENDA,” agreeing with the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes describe this as the “regular March 20, 2006 meeting” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was held “in the Council Chambers” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “6:00 p.m.” and /page/0/Text/3 confirms the meeting was called to order at that time. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:38 p.m.",
+  "adjourned_time_citations": [
+   "/page/8/Text/4"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting “WAS ADJOURNED AT 10:38 P.M.” in /page/8/Text/4, agreeing with the extraction. Conclusion: the value at /page/8/Text/4 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Ruzzin",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Mayor Ruzzin called” the meeting to order in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "1. VACATION OF A 5 FOOT BY 117 FOOT AREA (585 SQ. FT.) ON THE SOUTHWESTERN SIDE OF AN EXISTING 10-FOOT UTILITY EASEMENT LOCATED ALONG THE NORTHEASTERN SIDE PROPERTY LINE OF 4405 OSAGE DRIVE. WIP DATE: 3/9/06. LAST OPPORTUNITY FOR CALL-UP: 4/4/06. ACTION: STAFF APPROVAL ON 3/6/06.",
+   "2. LANDMARK ALTERATION CERTIFICATE FOR 2121 11TH STREET, HOWE MORTUARY. LAST OPPORTUNITY FOR CALL-UP: MARCH 20, 2006. W.I.P. DATE: 3/16/06. ACTION: CONDITIONAL APPROVAL BY THE L.A.B. BY A VOTE OF 4-1 (RORY SALANCE DISSENTING)"
+  ],
+  "call_up_items_citations": [
+   "/page/6/ListGroup/11"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/ListGroup/11"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first potential call-up item is fully stated in /page/6/ListGroup/11 and agrees with the extraction. Conclusion: the value at /page/6/ListGroup/11 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/ListGroup/11"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second potential call-up item is fully stated in /page/6/ListGroup/11 and agrees with the extraction. Conclusion: the value at /page/6/ListGroup/11 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains exactly two potential call-up items in /page/6/ListGroup/11, matching the two extracted entries. Conclusion: the value at /page/6/ListGroup/11 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Ruzzin called the regular March 20, 2006 meeting of the Boulder City Council to order at 6:00p.m.in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Bruno noted that items addressed during public participation would be addressed during the meeting.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "CONSENT AGENDA: (to include first reading of ordinances) Vote to be taken on the motion at this time.",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM MARCH 7, 2006.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE A 20 YEAR LEASE AGREEMENT WITH MEALS ON WHEELS OF BOULDER, INC., FOR THE OPERATIONS OF THE KITCHEN AND DINING ROOM AT THE WEST SENIOR CENTER.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION OF APPROVING AN AMENDMENT TO THE MEMORANDUM OF UNDERSTANDING WITH THE BOULDER VALLEY SCHOOL DISTRICT, REGARDING THE DISPOSAL OF THE WASHINGTON SCHOOL PROPERTY LOCATED AT 1215 CEDAR AVENUE.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BOULDER, COLORADO, DECLARING ITS OFFICIAL INTENT TO REIMBURSE ITSELF WITH THE PROCEEDS OF A FUTURE BORROWING FOR CERTAIN CAPITAL EXPENDITURES AND OPEN SPACE LAND PURCHASES TO BE UNDERTAKEN BY THE CITY; IDENTIFYING SAID CAPITAL EXPENDITURES AND THE FUNDS TO BE USED FOR SUCH PAYMENT; AND PROVIDING CERTAIN OTHER MATTERS IN CONNECTION THEREWITH.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF ORDINANCE NO. 7451 DESIGNATING THE 700 AND 800 BLOCKS OF 14 TH STREET TO BE KNOWN AS THE “UNIVERSITY PLACE HISTORIC DISTRICT,” UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7451"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF ORDINANCE NO. 7457 AMENDING SECTION 2-3-3 OF THE BOULDER REVISED CODE RELATING TO THE CITY OF BOULDER BEVERAGES LICENSING AUTHORITY AND ITS RULES OF PROCEDURE.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7457"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "CALL-UP CHECK IN",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "CALL-UP CHECK IN: Opportunity for Council to indicate possible interest in the call-up of an item listed under agenda Item 8-A1.",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Gray indicated she would make a motion to call up the Howe Mortuary item 8A-2, Eldridge will recuse.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "PUBLIC HEARINGS:",
+    "title_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No.7455 FOR ANNEXATION, INITIAL ZONING, AND A BOULDER VALLEY COMPREHENSIVE PLAN AREA CHANGE (FROM AREA IIB TO AREA IIA) ON A 37,211 SQUARE FOOT PROPERTY LOCATED AT 2435 TOPAZ DRIVE. CITY ZONING REQUESTED IS RURAL RESIDENTIAL-ESTABLISHED (R-RE) (LUR2004-00069).",
+    "title_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7455"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0.",
+    "outcome_summary_citations": [
+     "/page/5/Text/9"
+    ]
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A MOTION ADOPTING THE LONG-TERM WEST NILE VIRUS MOSQUITO MANAGEMENT PLAN.",
+    "title_citations": [
+     "/page/5/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/5/Text/15"
+    ]
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "ITEMS PERTAINING TO THE 2005 MAJOR UPDATE TO THE BOULDER VALLEY COMPREHENSIVE PLAN (BVCP):",
+    "title_citations": [
+     "/page/5/ListGroup/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A MOTION ON THE FOLLOWING PROPOSED MAP CHANGES AS PART OF THE YEAR 2005 MAJOR UPDATE TO THE BOULDER VALLEY COMPREHENSIVE PLAN (BVCP):",
+    "title_citations": [
+     "/page/5/ListGroup/17"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/5/Text/15"
+    ]
+   },
+   {
+    "item_number": "5.C.1.a",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "PUBLIC REQUESTS FOR CHANGES TO THE AREA I, II, III MAP AND LAND USE MAP;",
+    "title_citations": [
+     "/page/5/ListGroup/17"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/5/Text/15"
+    ]
+   },
+   {
+    "item_number": "5.C.1.b",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [],
+    "title": "CHANGES TO THE OPEN SPACE DESIGNATIONS ON THE LAND USE MAP: AND",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C.1.c",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [],
+    "title": "CHANGES TO THE TRAILS MAP.",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE BOULDER VALLEY COMPREHENSIVE PLAN IMPLEMENTATION PLAN.",
+    "title_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER:",
+    "title_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "PRESENTATION AND DISCUSSION RELATING TO THE IMPLEMENTATION OF THE OPEN SPACE AND MOUNTAIN PARKS VISITOR MASTER PLAN AS IT PERTAINS TO COMMERCIAL AND SPECIAL USE PERMITS, COMPETITIVE EVENTS, RELATED MANAGEMENT ACTIONS AND HABITAT CONSERVATION AREA DESIGNATIONS.",
+    "title_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item is scheduled for 1 st and 2 nd reading of an ordinance approving the implementation of the OSMP Visitor Master Plan on April 4 th and April 18 th .",
+    "outcome_summary_citations": [
+     "/page/6/Text/7"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/6/SectionHeader/8"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/6/SectionHeader/8"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - none",
+    "title_citations": [
+     "/page/6/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "title_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "title": "POTENTIAL CALL-UPS:",
+    "title_citations": [
+     "/page/6/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.1",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/6/SectionHeader/10"
+    ],
+    "title": "VACATION OF A 5 FOOT BY 117 FOOT AREA (585 SQ. FT.) ON THE SOUTHWESTERN SIDE OF AN EXISTING 10-FOOT UTILITY EASEMENT LOCATED ALONG THE NORTHEASTERN SIDE PROPERTY LINE OF 4405 OSAGE DRIVE. WIP DATE: 3/9/06. LAST OPPORTUNITY FOR CALL-UP: 4/4/06. ACTION: STAFF APPROVAL ON 3/6/06.",
+    "title_citations": [
+     "/page/6/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.2",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/6/SectionHeader/10"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE FOR 2121 11TH STREET, HOWE MORTUARY. LAST OPPORTUNITY FOR CALL-UP: MARCH 20, 2006. W.I.P. DATE: 3/16/06. ACTION: CONDITIONAL APPROVAL BY THE L.A.B. BY A VOTE OF 4-1 (RORY SALANCE DISSENTING)",
+    "title_citations": [
+     "/page/6/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion failed, 2:6, Ageton, Bohannan, McGrath, Polk, Ruzzin, and Stoakes opposed, Eldridge recused.",
+    "outcome_summary_citations": [
+     "/page/8/Text/1"
+    ]
+   },
+   {
+    "item_number": "8.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "title": "ANNUAL APPOINTMENTS TO BOARDS AND COMMISSIONS",
+    "title_citations": [
+     "/page/6/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Nominations for each board were opened: Below are listed nominated candidates and the vote history.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "8.C",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "title": "COUNCIL DISCUSSION OF PROPOSED ANNEXATION INITIATIVE AND STAFF RESPONSES TO COUNCIL QUESTIONS.",
+    "title_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion failed, 3:6, Ageton, Bohannan, Eldridge, Polk, Ruzzin and Stoakes opposed.",
+    "outcome_summary_citations": [
+     "/page/8/Text/2"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: (15 min.) Public comment on any motions made under Matters.",
+    "title_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:38 P.M.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Gray",
+    "note": "absent"
+   },
+   {
+    "name": "McGrath",
+    "note": "absent"
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Bohannan",
+    "name_citations": [
+     "/page/8/Text/2"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "McGrath",
+    "name_citations": [
+     "/page/8/Text/1"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Polk",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/8/Text/6"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Schultheiss",
+    "name_citations": [
+     "/page/8/Text/2"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Stoakes",
+    "name_citations": [
+     "/page/8/Text/2"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Lisa Carter",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "importance of making balanced and moderate board appointments",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Pat Shanks",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "annexation by vote",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "several points that the group would be willing to negotiate on",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Dick Harris",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "support for citizens' votes for major annexations",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Sue Anderson",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "place the annexation initiative on the November ballot",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Ruth Schrock",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "continued support for 700-800 blocks of University Place Historic District",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Joe de Raismes",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Council call-up the Mapleton Place/Howe Mortuary proposal",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Nancy Pierce",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "opposition to the landmark alteration certificate for Howe Mortuary",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Gordon Reinert",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "in favor of a call-up of the Howe Mortuary Landmark Alteration",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "David Hose",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "support of a call-up of the Howe Mortuary Alteration",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Matt McConnell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "necessary checks and balances when allegations of improper process have taken place",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Brett Farkas",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "opposition to the How Mortuary proposal",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jeff McWhitter",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "place this on the ballot",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Bruce Dierking",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "continue its support of the Landmarks Board",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Catherine Schweiger",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "call-up the Howe Mortuary proposal",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Adrian Sopher",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "opposed to having the initiative placed on the ballot",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Peter Richards",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "support of placing the annexation initiative on the November ballot",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Dave Secunda",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Open Space and Mountain Parks commercial use",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "topic": "direct the ordinance to come back at the next meeting",
+    "topic_citations": [
+     "/page/7/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Chuck Sanders",
+    "name_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "topic": "all information and measurements are correct and have been consistent throughout the process",
+    "topic_citations": [
+     "/page/7/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Brad Farkas",
+    "name_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "topic": "disagreed with the previous speaker",
+    "topic_citations": [
+     "/page/7/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Joe de Raismes",
+    "name_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "topic": "copy of the plan that clearly shows the discrepancy",
+    "topic_citations": [
+     "/page/7/ListGroup/7"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "motion_text": "to approve consent items 3A through 3F.",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7451",
+     "7457"
+    ],
+    "moved_by": "Schultheiss",
+    "moved_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "vote_text": "The motion carried, 9:0.",
+    "vote_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "to adopt Ordinance No. 7455 for annexation, initial zoning the property located at 2435 Topaz Drive.",
+    "motion_text_citations": [
+     "/page/5/Text/9"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7455"
+    ],
+    "moved_by": "Schultheiss",
+    "moved_by_citations": [
+     "/page/5/Text/9"
+    ],
+    "seconded_by": "Polk",
+    "seconded_by_citations": [
+     "/page/5/Text/9"
+    ],
+    "vote_text": "The motion carried 7:0. Gray and McGrath absent.",
+    "vote_text_citations": [
+     "/page/5/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Gray",
+     "McGrath"
+    ]
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "to adopt the Long-term West Nile Virus Mosquito Management Plan.",
+    "motion_text_citations": [
+     "/page/5/Text/15"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/5/Text/15"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/5/Text/15"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/5/Text/15"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/15"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/15"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C.1",
+    "agenda_item_number_citations": [],
+    "motion_text": "to accept the proposed map changes as part of the year 2005 Major Update to the Boulder Valley Comprehensive Plan (BVCP), incorporating items a, b, & c in the agenda packet as approved by the Planning Board.",
+    "motion_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C.2",
+    "agenda_item_number_citations": [],
+    "motion_text": "to approve the BVCP Implementation Plan as amended through council discussion.",
+    "motion_text_citations": [
+     "/page/6/Text/4"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/6/Text/4"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/6/Text/4"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/6/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8A-2",
+    "agenda_item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "motion_text": "to call-up the landmark alteration certificate for 2121 11 th Street, Howe Mortuary.",
+    "motion_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [],
+    "seconded_by": "Schultheiss",
+    "seconded_by_citations": [
+     "/page/8/Text/2"
+    ],
+    "vote_text": "The motion failed, 2:6, Ageton, Bohannan, McGrath, Polk, Ruzzin, and Stoakes opposed, Eldridge recused.",
+    "vote_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/8/Text/1"
+    ],
+    "yes_count": 2,
+    "yes_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Bohannan",
+     "McGrath",
+     "Polk",
+     "Ruzzin",
+     "Stoakes"
+    ],
+    "abstained": [
+     "Eldridge"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "to direct staff to bring back the annexation initiative ordinance for Council consideration for the November 7, 2006 ballot, to include amendments proposed by Steve Pomerance, including the petitioning process outlined by Councilmember Schultheiss, and exempting the BVSD property.",
+    "motion_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "McGrath",
+    "moved_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "seconded_by": "Schultheiss",
+    "seconded_by_citations": [
+     "/page/8/Text/2"
+    ],
+    "vote_text": "The motion failed, 3:6, Ageton, Bohannan, Eldridge, Polk, Ruzzin and Stoakes opposed.",
+    "vote_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/8/Text/2"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/8/Text/2"
+    ],
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/8/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Bohannan",
+     "Eldridge",
+     "Polk",
+     "Ruzzin",
+     "Stoakes"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:38 P.M.",
+    "motion_text_citations": [
+     "/page/8/Text/4"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ]
+ }
+}

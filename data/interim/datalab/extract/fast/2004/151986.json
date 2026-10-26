@@ -1,0 +1,2188 @@
+{
+ "entry_id": 151986,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "AWr9qkewnVHrXNUyoqdo_w",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 3.15
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "motion_text": "Councilmember Eldridge moved, seconded by McGrath to approve consent agenda items 3A through 3I with 3H removed.",
+    "motion_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7320",
+     "7346",
+     "7347"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/ListGroup/0",
+     "/page/2/ListGroup/2",
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "vote_text": "The motion carried 8:0. Toor and Gray opposed to item 3F. Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Text/5"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/5"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/5"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/2/Text/5"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_votes": [
+     "Toor",
+     "Gray"
+    ],
+    "no_votes_citations": [
+     "/page/2/Text/5"
+    ],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/2/Text/5"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    }
+   },
+   {
+    "agenda_item_number": "3H",
+    "agenda_item_number_citations": [
+     "/page/3/Text/3"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "motion_text": "Councilmember Ruzzin moved, seconded by Riggle to adopt Emergency Ordinance No 7347 extending the provisions of interim Ordinance No. 7322 until August 18, 2004, by amending Section 6-1-12.5, “Limitation on Lethal Means of Control for Prairie Dogs and Birds and Requirement for the use of Humane Methods of Relocation for Prairie Dogs,” B R C, 1981, and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/3"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7347",
+     "7322"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "moved_by": "Ruzzin",
+    "moved_by_citations": [
+     "/page/3/Text/7"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "seconded_by": "Riggle",
+    "seconded_by_citations": [
+     "/page/3/Text/7"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "vote_text": "The motion carried 8-0, Schultheiss absent",
+    "vote_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/7"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Text/7"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/3/Text/7"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    }
+   },
+   {
+    "agenda_item_number": "6A",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "motion_text": "Councilmember McGrath moved, seconded by Eldridge to approve settlement of the James Guercio lawsuit, pursuant to Section 2-2-14, B R C 1981,",
+    "motion_text_citations": [
+     "/page/4/Text/2"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "moved_by": "McGrath",
+    "moved_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "vote_text": "The motion carried 8:0, Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/5/Text/11"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/11"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/11"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/11"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/5/Text/11"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/5/Text/11"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    }
+   },
+   {
+    "agenda_item_number": "7B",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "motion_text": "Councilmember Gray moved, seconded by Eldridge to approve Resolution No. 942 to support equitable transportation funding for the Denver Regional Council of Governments (DRCOG) region.",
+    "motion_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "ordinance_or_resolution_numbers": [
+     "942"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "vote_text": "The motion carried 8.0; Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/5/Text/12"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/12"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/12"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/12"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/5/Text/12"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    },
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/5/Text/12"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is incorrectly set to true for the first motion (3) where Toor and Gray opposed item 3F, contradicting a unanimous vote. The schema definition for 'stated_unanimous' requires 'all present"
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Tim Thomas",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Need for greater public interaction and presentation of positions to the Council.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "John Spitzer",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Design proposal for the Southern Gateway; requested postponement of 28th Street project implementation.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Water rate structure and design principles.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Stacy Balcom",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "City interference with event planning (Boulder Creek Festival, Freedom Fest).",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Sean Kendall",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Open Space/Mtn Parks Board acquisitions in Agenda items 3D & 3E.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Bill Flinchbaugh",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Services to community as CATV board member; financial load of channel 54.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Mike Kabjian",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Volunteer-a-thon on channel 8; support for both channel 8 and 54.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Lindsey Sterling",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Wild Places update on prairie dog protection efforts.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Jill Bielawski",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Rocky Mountain Animal Defense; restrictions on poisoning and state pesticide law.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Mark Swanholm",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "CATV board member; urged full funding for CATV.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Lowell Campbell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Open Records request regarding University Hill residents.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Legal commitment of cable access fees to fund Channel 54.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Jessica Sandler",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Lack of protection for wildlife.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Laurie Thayer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Increase protection measures for prairie dogs.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Robert Sharpe",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Vote to allow 55 feet dwellings in Gunbarrel Community.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Susan Honeycutt",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Wild Places; thanked council for Ordinance #7347 extension and suggested amendments.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Deb Jones",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Strengthening the interim wildlife protection ordinance using Broomfield ordinance.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Bob Carter",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Support for channel 54.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Lindsey Sterling",
+    "name_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Poisoning of prairie dogs and development at Valmont Butte and water treatment plant.",
+    "topic_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Jessica Sandler",
+    "name_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Concerns about current ordinance allowing killing of prairie dogs.",
+    "topic_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Jill Bielawski",
+    "name_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Open Space policy regarding prairie dog removal for ferrets.",
+    "topic_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   },
+   {
+    "name": "Pam Wanek",
+    "name_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    },
+    "topic": "Contacting Department of Local Affairs regarding state extermination.",
+    "topic_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "topic_score": {
+     "score": 3,
+     "reasoning": "The extraction incorrectly includes speakers from the Public Hearing (Page 3) in the 'open_comment_speakers' field. The schema explicitly excludes public hearing speakers. Citations for Page 3 blocks are valid for the content but incorrect for this specific field definition."
+    }
+   }
+  ],
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "9:15 P M",
+  "adjourned_time_citations": [
+   "/page/6/Text/1"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value '9:15 P M' matches the text in block /page/6/Text/1 exactly. The citation is correct, the information is accurate, and the citation is complete for this specific field."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "John Spitzer",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Stacy Balcom",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Sean Kendall",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Bill Flinchbaugh",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Mike Kabjian",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Jim Rettew",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Lindsey Sterling",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Jill Bielawski",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Mark Swanholm",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Lowell Campbell",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Jessica Sandler",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Laurie Thayer",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Robert Sharpe",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Susan Honeycutt",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Deb Jones",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Bob Carter",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     }
+    ],
+    "outcome_summary": "City Manager Frank Bruno responded to public comments.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7320",
+     "7346",
+     "7347"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/ListGroup/0",
+     "/page/2/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Items 3A through 3I were approved with 3H removed.",
+    "outcome_summary_citations": [
+     "/page/2/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "3H",
+    "item_number_citations": [
+     "/page/3/Text/3"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7347 EXTENDING THE PROVISIONS OF INTERIM ORDINANCE No. 7322 UNTIL AUGUST 18, 2004, BY AMENDING SECTION 6-1-12.5, “LIMITATION ON LETHAL MEANS OF CONTROL FOR PRAIRIE DOGS AND BIRDS AND REQUIREMENT FOR THE USE OF HUMANE METHODS OF RELOCATION FOR PRAIRIE DOGS,” B.R.C. 1981, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/3/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7347",
+     "7322"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/3/Text/1"
+    ],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": "7:20p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/2"
+    ],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lindsey Sterling",
+      "name_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Jessica Sandler",
+      "name_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Jill Bielawski",
+      "name_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     },
+     {
+      "name": "Pam Wanek",
+      "name_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/5"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+      }
+     }
+    ],
+    "outcome_summary": "Emergency Ordinance No. 7347 was adopted 8-0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/7"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/Text/8"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/Text/8"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/3/Text/8"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Bruno provided an update to Council regarding Council Retreat follow-up.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved settlement of the James Guercio lawsuit.",
+    "outcome_summary_citations": [
+     "/page/4/Text/2",
+     "/page/5/Text/11"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [
+     "942"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Resolution No. 942 to support equitable transportation funding for the Denver Regional Council of Governments (DRCOG) region.",
+    "outcome_summary_citations": [
+     "/page/5/Text/0",
+     "/page/5/Text/12"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "UPDATE TO COUNCIL ON STATUS OF CONSOLIDATION DISCUSSIONS BETWEEN CHANNEL 8 AND CHANNEL 54.",
+    "title_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council expressed concern regarding merger options and requested budget trade-offs.",
+    "outcome_summary_citations": [
+     "/page/5/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "title": "UPDATE TO COUNCIL ON STATUS OF FIRE PROTECTION ENHANCEMENTS WITH FOUR MILE FIRE PROTECTION DISTRICT.",
+    "title_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Staff was directed to continue discussion and analysis to determine if a ballot measure is warranted.",
+    "outcome_summary_citations": [
+     "/page/5/Text/7"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted agenda_items list is incomplete: it omits items 3A-3G, 3I, 4 (Public Hearings header), 5 (Matters from City Manager), 6A-6C (Call-ups), 7A (Resolution), 8 (Public Comment), and 9 (Final Decisions). The extraction only gran"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Bohannan",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "Gray",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "McGrath",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "Stoakes",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   },
+   {
+    "name": "Toor",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of present members is accurate and matches the text in block /page/0/Text/4. However, the extraction incorrectly assigns the title 'Mayor' to 'Toor' based on the same block which only lists 'Mayor Toor' as a single phrase, not explicitly defining 'Toor' as the title. The schema's "
+    }
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Schultheiss",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted value correctly identifies Councilmember Schultheiss as absent, matching the text in block /page/0/Text/4. The citation is accurate and the information is precise. No other absent members are mentioned in the text, so the extraction is complete."
+    },
+    "note": "absent",
+    "note_citations": [
+     "/page/0/Text/4"
+    ],
+    "note_score": {
+     "score": 5,
+     "reasoning": "The extracted value correctly identifies Councilmember Schultheiss as absent, matching the text in block /page/0/Text/4. The citation is accurate and the information is precise. No other absent members are mentioned in the text, so the extraction is complete."
+    }
+   }
+  ],
+  "call_up_items": [
+   "1. LANDMARK ALTERATION CERTIFICATE FOR AN ADDITION TO THE RESIDENCE AT 504 MAXWELL AVENUE.",
+   "2. LANDMARK ALTERATION CERTIFICATE FOR INSTALLATION OF CURBS, GUTTERS AND OTHER IMPROVEMENTS FOR ALLEYS WITHIN THE CHAUTAUQUA PARK HISTORIC DISTRICT.",
+   "3. FLOODPLAIN DEVELOPMENT PERMIT FOR ELMER'S TWO MILE CREEK AT IRIS AVENUE."
+  ],
+  "call_up_items_citations": [
+   "/page/4/ListGroup/5",
+   "/page/4/ListGroup/7",
+   "/page/4/ListGroup/9"
+  ],
+  "call_up_items_score": {
+   "score": 5,
+   "reasoning": "The extracted call-up items accurately reflect the content of the three cited blocks on page 4. The citations correctly map to the specific list groups containing the items. No relevant blocks were missed, and no contradictions exist in the source text."
+  },
+  "meeting_date": "2004-02-17",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2004-02-17' is accurate and matches the heading and footers. However, the citation '/page/0/Text/1' points to the date 'FEBRUARY 17, 2004' which is correct, but the schema expects the date from the heading. The citation is valid as it contains the date, though '/page/0/Text/1' is"
+  },
+  "meeting_title": "CITY OF BOULDER COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  }
+ }
+}

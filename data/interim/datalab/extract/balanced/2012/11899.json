@@ -1,0 +1,2037 @@
+{
+ "entry_id": 11899,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "wAlx3f4EGG-Pm7_FDDGJSw",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 24.0
+ },
+ "extraction": {
+  "meeting_date": "2012-01-03",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 provides the meeting date in the required format.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the extracted meeting title.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular at /page/0/Text/2.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/2.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "5:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/2.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:05 P.M.",
+  "adjourned_time_citations": [
+   "/page/6/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/6/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/6/Text/1.\nConclusion: the value at /page/6/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The person presiding and calling the meeting to order is identified at /page/0/Text/2.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "POTENTIAL CALL-UP OF A SITE REVIEW APPLICATION TO AMEND A PREVIOUS SITE REVIEW APPROVAL AT 4747 ARAPAHOE. LAST OPPORTUNITY FOR CALL-UP: 01/03/12. PLANNING BOARD VOTE: APPROVED 6-0.",
+   "POTENTIAL CALL-UP OF A SITE REVIEW APPLICATION FOR A THIRD STORY ADDITION OF 18,309 SQUARE FEET TO AN EXISTING BUILDING LOCATED AT 1600 PEARL LAST OPPORTUNITY FOR CALL-UP: 01/03/12 PLANNING BOARD VOTE: APPROVED 4-1, M. YOUNG OPPOSED, A. SHOEMAKER RECUSED.",
+   "LANDMARK ALTERATION CERTIFICATE TO CONSTRUCT A 380 SQ. FT., TWO-CAR CARPORT AT THE LANDMARKED CHAMBERS PROPERTY AT 3231 11TH STREET PER SECTION 9-11-18 OF THE BOULDER REVISED CODE (HIS2011-00236). LAST OPPORTUNITY FOR CALL-UP: 01/03/12. VOTE: NOT APPROVED, 4-0, L. PAYTON ABSENT.",
+   "LANDMARK ALTERATION CERTIFICATE TO INSTALL A FIXED SKYLIGHT ON THE WEST FACING ROOF AREA OF THE CONTRIBUTING HOUSE AT 432 PINE STREET IN THE MAPLETON HILL HISTORIC DISTRICT PER SECTION 9-11-18 OF THE BOULDER REVISED CODE (HIS2011-00235). LAST OPPORTUNITY FOR CALL-UP: 01/03/12. LANDMARKS VOTE: 3-1, L. PODMAJERSKY OPPOSED, L. PAYTON ABSENT.",
+   "EXPANSION TO THE UNIVERSITY HILL NEIGHBORHOOD PARKING PERMIT ZONES. LAST OPPORTUNITY FOR CALL-UP: 01/03/2012. TAB VOTE 3-1, AT THE TRANSPORTATION ADVISORY BOARD (TAB) PUBLIC HEARING ON DECEMBER 12, 2011, THE ADVISORY BOARD VOTED 3 TO 1 TO SUPPORT THE STAFF RECOMMENDATION. SPENSER HAVLICK WAS THE DISSENTING VOTE BASED ON HIS STANDING POSITION OF THE NPP ENCOURAGED THE USE OF CARS AS OPPOSED TO OTHER MODES OF TRANSPORTATION."
+  ],
+  "call_up_items_citations": [
+   "/page/4/ListGroup/2",
+   "/page/4/ListGroup/4",
+   "/page/4/ListGroup/6",
+   "/page/4/ListGroup/8",
+   "/page/4/ListGroup/10"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first call-up item is supported by /page/4/ListGroup/2.\nConclusion: the value at /page/4/ListGroup/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second call-up item is supported by /page/4/ListGroup/4.\nConclusion: the value at /page/4/ListGroup/4 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The third call-up item is supported by /page/4/ListGroup/6.\nConclusion: the value at /page/4/ListGroup/6 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/8"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The fourth call-up item is supported by /page/4/ListGroup/8.\nConclusion: the value at /page/4/ListGroup/8 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/10"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The fifth call-up item is supported by /page/4/ListGroup/10.\nConclusion: the value at /page/4/ListGroup/10 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains five potential call-up items, and the extraction contains all five at /page/4/ListGroup/2, /page/4/ListGroup/4, /page/4/ListGroup/6, /page/4/ListGroup/8, and /page/4/ListGroup/10.\nConclusion: the value at /page/4/ListGroup/2, /page/4/ListGroup/4, /page/4/ListGroup/6, /page/4/ListGroup/8, and /page/4/ListGroup/10 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the regular January 3, 2012 City Council meeting to order at 5:00 p.m. in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE: (limited to 45 min.) Public may address any city business for which a public hearing is not scheduled later in the meeting (this includes the consent agenda and first readings). After all public hearings have taken place, any remaining speakers will be allowed to address council. All speakers are limited to three minutes.",
+    "title_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further speakers, Open Comment was closed.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/2/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Cowles moved, seconded by Council Member Morzel, to approve Consent Agenda Items 3A – 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE DECEMBER 1, 2011 COUNCIL MEETING MINUTES.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE DECEMBER 6, 2011 COUNCIL MEETING MINUTES.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE SUMMARY OF THE NOVEMBER 29, 2011 STUDY SESSION ON THE 2012 STATE AND FEDERAL LEGISLATIVE AGENDA.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY OF BOULDER'S 2012 STATE AND FEDERAL LEGISLATIVE AGENDA.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO AUTHORIZE THE CITY MANAGER TO APPROVE AND EXECUTE A 20-YEAR LEASE OF CITY-OWNED LAND TO PUBLIC SERVICE COMPANY OF COLORADO (XCEL ENERGY) FOR THE LOCATION OF UNDERGROUND GAS AND ELECTRIC UTILITIES ALONG PEARL PARKWAY RIGHT OF WAY BETWEEN 30 TH STREET AND THE BURLINGTON NORTHERN/SANTA FE RAILROAD LINE.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT RESOLUTION NO. 1104 ALLOWING FOR CONTINUATION OF THE ROCKY FLATS STEWARDSHIP COUNCIL AND APPROVAL OF AN AMENDMENT TO THE INTERGOVERNMENTAL AGREEMENT ESTABLISHING THAT PUBLIC ENTITY.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1104"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [
+     "/page/3/Text/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT RESOLUTION NO. 1105 AUTHORIZING AND APPROVING A THIRD PHASE TO AN ENERGY PERFORMANCE CONTRACT EXPECTED TO REDUCE ENERGY CONSUMPTION AND RESULT IN COST SAVINGS TO THE CITY; AUTHORIZING AND APPROVING A LEASE-PURCHASE FINANCING FOR THE FUNDING OF THE ENERGY CONSERVATION MEASURES UNDER THE ENERGY PERFORMANCE CONTRACT AND OTHER CAPITAL ASSETS; AND, PROVIDING OTHER MATTERS RELATING THERETO.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1105"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.H",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "TWO ITEMS RELATED TO THE APPOINTMENT OF TEMPORARY ALTERNATES TO BOARDS AND COMMISSIONS:",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7827"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.H.1",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7827, AMENDING SECTION 2-3-11, \"PLANNING BOARD,\" B.R.C. 1981, TO ALLOW FOR APPOINTMENT OF TEMPORARY ALTERNATES TO THE PLANNING BOARD DUE TO AN APPEARANCE OF IMPROPRIETY OR A CONFLICT OF INTEREST UNDER CHAPTER 2-7, \"CODE OF CONDUCT,\" B.R.C. 1981, OR AN ANTICIPATED ABSENCE, AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7827"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.H.2",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO AMEND THE CITY COUNCIL RULES OF PROCEDURE TO ADOPT A PROCEDURE FOR APPOINTING TEMPORARY ALTERNATE BOARD MEMBERS.",
+    "title_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.I",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7829, AUTHORIZING AND DIRECTING THE ACQUISITION OF PROPERTY INTERESTS LOCATED AT 5864 RUSTIC KNOLLS DR., BY PURCHASE OR EMINENT DOMAIN PROCEEDINGS.",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7829"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "section": "POTENTIAL CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "POTENTIAL CALL- UP CHECK IN: Opportunity for City Council to indicate possible interest in the call- up of an item listed under agenda Item 8A.",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Interest was expressed in 1600 Pearl St. Site Review and in 3231 11 th St., denial for construction of a carport.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7828 AMENDING TITLE 3, “REVENUE AND TAXATION,” B.R.C. 1981, TO CLARIFY THE DEFINITION OF “TAXABLE SERVICES” WITH RESPECT TO DOWNLOADED SOFTWARE AND ON-LINE DATA BASES.",
+    "title_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7828"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was removed from the agenda, to be rescheduled at a later date.",
+    "outcome_summary_citations": [
+     "/page/2/Text/8"
+    ]
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7824 AMENDING TITLE 7, B.R.C. 1981, CONCERNING REGULATION OF VEHICLES AND TRAFFIC AND PARKING INFRACTIONS.",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7824"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Mike Ellis",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Allen Streater",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lexie Delgato",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council Member Cowles moved, seconded by Council Member Wilson to approve Ordinance No. 7824 as presented on the Blue handout from the City Attorney.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [],
+    "title": "DISCUSSION REGARDING THE PARK CLOSURES PROPOSED RULE.",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Kitty Melville",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Stephen Keenan",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Matt Nicodemus",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "VJ Deutsch",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Ted Garrison",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Basit Mustafa",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Amanda",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Paul Siegler",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Mike Ellis",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Dara Rotunno",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Susan Hall",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Fran Kornfeld",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Josh Maynard",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Andrew Rose",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Stuart Chase",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Bross",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Kate Josephson",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Daniel Thorson",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Elicia Arwen",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Aster Arwen La-fountain",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Elan Sherman",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Ginger Ikeder",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Aaron Sanford",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Judy Amabile",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "James Duncan",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Chris Weaver",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Wilson",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Lexi Delgado",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Fiore Grey",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Cummins",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Mildrien Horton",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Cliff Smedley",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Guy Benintendi",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Prowell",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Lori Hopkins",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Turnbull",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Alan Rosenfeld",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Ken Bonetti",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "David Prowell",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Carolyn Bninski",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Foster Goodwill",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Cheri Hoffer",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Raziel Sherman",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Shelley Partridge",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Maggie Weaver",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jessee Williams",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Calvin Calek",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Mariya Roy",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Laurel Herndon",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Carrie Donahue",
+      "name_citations": [
+       "/page/3/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council Member Morzel moved, seconded by Council Member Cowles, to accept the proposed park closure rule in accordance with 8-3-3.G(11) as reflected on page 6, in Attattachment A of the staff memo.",
+    "outcome_summary_citations": [
+     "/page/3/Text/6"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "title": "FASTRACKS UPDATE.",
+    "title_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Update provided from Mayor Appelbaum that summarized his Hotline summary regarding the Northwest Rail and potential ballot measures. Continual updates will be forthcoming as they unfold.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "title": "MEDICAL MARIJUANA LICENSE ISSUES.",
+    "title_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7834"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Becker moved, seconded by Council Member Ageton, to adopt an Emergency Ordinance for a moratorium on new medical marijuana business applications until 8:00 a.m. on February 7, 2012.",
+    "outcome_summary_citations": [
+     "/page/3/Text/14"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL ",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "Potential Call-ups",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.1",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "POTENTIAL CALL-UP OF A SITE REVIEW APPLICATION TO AMEND A PREVIOUS SITE REVIEW APPROVAL AT 4747 ARAPAHOE. LAST OPPORTUNITY FOR CALL-UP: 01/03/12. PLANNING BOARD VOTE: APPROVED 6-0.",
+    "title_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.2",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "POTENTIAL CALL-UP OF A SITE REVIEW APPLICATION FOR A THIRD STORY ADDITION OF 18,309 SQUARE FEET TO AN EXISTING BUILDING LOCATED AT 1600 PEARL LAST OPPORTUNITY FOR CALL-UP: 01/03/12 PLANNING BOARD VOTE: APPROVED 4-1, M. YOUNG OPPOSED, A. SHOEMAKER RECUSED.",
+    "title_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Morzel moved, seconded by Council Member Cowles, to call-up the site review for 1600 Pearl Street.",
+    "outcome_summary_citations": [
+     "/page/4/Text/5"
+    ]
+   },
+   {
+    "item_number": "8.A.3",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE TO CONSTRUCT A 380 SQ. FT., TWO-CAR CARPORT AT THE LANDMARKED CHAMBERS PROPERTY AT 3231 11TH STREET PER SECTION 9-11-18 OF THE BOULDER REVISED CODE (HIS2011-00236). LAST OPPORTUNITY FOR CALL-UP: 01/03/12. VOTE: NOT APPROVED, 4-0, L. PAYTON ABSENT.",
+    "title_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Morzel moved, seconded by Council Member Karakehian, to call up the Landmark Alteration Certificate denial for the construction of a two-car carport at 3231 11 th Street.",
+    "outcome_summary_citations": [
+     "/page/4/Text/7"
+    ]
+   },
+   {
+    "item_number": "8.A.4",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE TO INSTALL A FIXED SKYLIGHT ON THE WEST FACING ROOF AREA OF THE CONTRIBUTING HOUSE AT 432 PINE STREET IN THE MAPLETON HILL HISTORIC DISTRICT PER SECTION 9-11-18 OF THE BOULDER REVISED CODE (HIS2011-00235). LAST OPPORTUNITY FOR CALL-UP: 01/03/12. LANDMARKS VOTE: 3-1, L. PODMAJERSKY OPPOSED, L. PAYTON ABSENT.",
+    "title_citations": [
+     "/page/4/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.5",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "EXPANSION TO THE UNIVERSITY HILL NEIGHBORHOOD PARKING PERMIT ZONES. LAST OPPORTUNITY FOR CALL-UP: 01/03/2012. TAB VOTE 3-1, AT THE TRANSPORTATION ADVISORY BOARD (TAB) PUBLIC HEARING ON DECEMBER 12, 2011, THE ADVISORY BOARD VOTED 3 TO 1 TO SUPPORT THE STAFF RECOMMENDATION. SPENSER HAVLICK WAS THE DISSENTING VOTE BASED ON HIS STANDING POSITION OF THE NPP ENCOURAGED THE USE OF CARS AS OPPOSED TO OTHER MODES OF TRANSPORTATION.",
+    "title_citations": [
+     "/page/4/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "ANNUAL COUNCIL COMMITTEE APPOINTMENTS DISCUSSION AND RATIFICATION.",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Cowles moved, seconded by Council Member Appelbaum to ratify the Council Committee appointments as presented.",
+    "outcome_summary_citations": [
+     "/page/5/Text/1"
+    ]
+   },
+   {
+    "item_number": "8.C",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "SECTION 16 UPDATE - Council Member Morzel.",
+    "title_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was pulled from the agenda",
+    "outcome_summary_citations": [
+     "/page/5/Text/3"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: (15 min.) Public comment on any motions made under Matters",
+    "title_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further speakers public comment was closed.",
+    "outcome_summary_citations": [
+     "/page/5/Text/7"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/6/Text/1"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:05 P.M.",
+    "outcome_summary_citations": [
+     "/page/6/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Morzel, to approve Consent Agenda Items 3A – 3I.",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "1104",
+     "1105",
+     "7827",
+     "7829"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Wilson to approve Ordinance No. 7824 as presented on the Blue handout from the City Attorney.",
+    "motion_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7824"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Council Member Cowles, to accept the proposed park closure rule in accordance with 8-3-3.G(11) as reflected on page 6, in Attattachment A of the staff memo.",
+    "motion_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/3/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/3/Text/6"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/3/Text/6"
+    ],
+    "vote_text": "The motion carried 7:2, Becker and Jones opposed.",
+    "vote_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Becker",
+     "Jones"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "7.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Becker moved, seconded by Council Member Ageton, to adopt an Emergency Ordinance for a moratorium on new medical marijuana business applications until 8:00 a.m. on February 7, 2012.",
+    "motion_text_citations": [
+     "/page/3/Text/14"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/14"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7834"
+    ],
+    "moved_by": "Becker",
+    "moved_by_citations": [
+     "/page/3/Text/14"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/3/Text/14"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/14"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.A.2",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Council Member Cowles, to call-up the site review for 1600 Pearl Street.",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text": "The motion carried: 5:3 Ageton, Karakehian and Wilson opposed.",
+    "vote_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [],
+    "no_count": 3,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Karakehian",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.A.3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Council Member Karakehian, to call up the Landmark Alteration Certificate denial for the construction of a two-car carport at 3231 11 th Street.",
+    "motion_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "seconded_by": "Karakehian",
+    "seconded_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "vote_text": "The motion carried 5:3, Council Members Appelbaum, Cowles and Plass opposed.",
+    "vote_text_citations": [
+     "/page/5/Text/11"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Appelbaum",
+     "Cowles",
+     "Plass"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Appelbaum to ratify the Council Committee appointments as presented.",
+    "motion_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/5/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/5/Text/1"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/5/Text/1"
+    ],
+    "vote_text": "The motion carried: 9:0 at 11:02 p.m.",
+    "vote_text_citations": [
+     "/page/5/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/5/Text/5"
+    ],
+    "motion_text": "Council Member Morzel moved, seconded by Wilson to suspend the rules and continue the meeting at 10:30 p.m.",
+    "motion_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/6/Text/1"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:05 P.M.",
+    "motion_text_citations": [
+     "/page/6/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/6/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Plass",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Carla Selby",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "Need for a Science Museum",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Harriet Barker",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "requested call-up of 1600 Pearl Street Site Review",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Mark Lauder",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "spoke in support of acquisition of 5864 Rustic Knolls Dr",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "re: civil Liberties",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Kitty Melville",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "opposed to proposed Parks and Open Space closure at night",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Steve Keenan",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "re: Bison Donation",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Dan Frazier",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "re: censorship of Channel 8 Coverage",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Martin Spector",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "Suggested a city campground be established similar to a KOA campground",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Grant Coach",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "requested call-up of 1600 Pearl Street site review",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Patty Pertre",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "supported call-up of 1600 Pearl; street site review",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Elizabeth Allen",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "supported 1600 Pearl Street site review call-up",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Bob Carmichael",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "requested call-up of 3231 11 th St carport construction denial by the Landmarks Preservation Advisory Board",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/4"
+    ],
+    "topic": "supported call-up of carport denial for 3231 11 th St. Thanked council and staff for the work on item 3G, Energy Performance contract. Urged council to get moving on the Civic Use pad at St. Julien’s before time ran out",
+    "topic_citations": [
+     "/page/0/ListGroup/4"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

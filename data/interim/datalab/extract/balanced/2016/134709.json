@@ -1,0 +1,438 @@
+{
+ "entry_id": 134709,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "8RUtMDt9A1ToioK0CoyT3g",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 8.0
+ },
+ "extraction": {
+  "meeting_date": "2016-05-16",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Supported by the meeting heading in /page/0/SectionHeader/0.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Supported by the meeting heading in /page/0/SectionHeader/0.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies this as a special meeting in /page/0/SectionHeader/0.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "location": "MUNICIPAL BUILDING, 1777 BROADWAY",
+  "location_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting heading gives the location in /page/0/SectionHeader/0.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order sentence in /page/0/Text/2 supports the extraction.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "8:20 p.m.",
+  "adjourned_time_citations": [
+   "/page/1/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment notice in /page/1/Text/1 supports the extraction.\nConclusion: the value at /page/1/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Jones",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order sentence identifies Mayor Jones in /page/0/Text/2.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no call-up items or call-up check-ins; no document block supports entries for this list.\nConclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Jones called the meeting to order at 6:01 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/Text/8"
+    ],
+    "section": "MATTERS FROM CITY ATTORNEY",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM CITY ATTORNEY",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion passed 8:0 with Council Member Brockett absent at 6:02 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM CITY ATTORNEY",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Consideration of a motion to go into Executive Session for Legal Advice and Discussion regarding Municipalization Strategy",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion passed 8:0 with Council Member Brockett absent at 6:02 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on May 16, 2016 at 8:20 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/0/Text/8"
+    ],
+    "motion_text": "Council Member Morzel moved to go into executive session to obtain and discuss legal advice, including negotiation strategy, with respect to Boulder’s electric utility.",
+    "motion_text_citations": [
+     "/page/0/Text/8"
+    ],
+    "action_type": "executive_session",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/0/Text/8"
+    ],
+    "seconded_by": "Burton",
+    "seconded_by_citations": [
+     "/page/0/Text/8"
+    ],
+    "vote_text": "The motion passed 8:0 with Council Member Brockett absent at 6:02 p.m.",
+    "vote_text_citations": [
+     "/page/0/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/8"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Brockett"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on May 16, 2016 at 8:20 p.m.",
+    "motion_text_citations": [
+     "/page/1/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/8"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Burton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": "arrived shortly thereafter",
+    "attendance_note_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": "arrived shortly thereafter",
+    "attendance_note_citations": [
+     "/page/0/Text/3"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "note": "absent at roll call but arrived shortly thereafter",
+    "note_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "note": "absent at roll call but arrived shortly thereafter",
+    "note_citations": [
+     "/page/0/Text/3"
+    ]
+   }
+  ],
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  }
+ }
+}

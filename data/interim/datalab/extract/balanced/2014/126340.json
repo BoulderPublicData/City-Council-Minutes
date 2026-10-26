@@ -1,0 +1,1668 @@
+{
+ "entry_id": 126340,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "xdh43s2HjQEV2UWq_bmXqA",
+ "page_count": 11,
+ "cost_breakdown": {
+  "final_cost_cents": 32.0
+ },
+ "extraction": {
+  "meeting_date": "2014-08-01",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “August 1, 2014” in /page/0/SectionHeader/0, supporting the extracted date. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “CITY COUNCIL PROCEEDINGS” in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes call this a “regular” meeting in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chamber",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was held “in Council Chamber” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "5:40 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 5:40 PM in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:00 AM",
+  "adjourned_time_citations": [
+   "/page/10/Text/11"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/10/Text/11"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment entry states that the meeting was adjourned at 12:00 AM in /page/10/Text/11. Conclusion: the value at /page/10/Text/11 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Mayor Appelbaum as calling the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "VACATION OF A 174 SQUARE FOOT UTILITY EASEMENT AT 1650 LOOKOUT ROAD"
+  ],
+  "call_up_items_citations": [
+   "/page/9/SectionHeader/8"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/9/SectionHeader/8"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The potential call-up item is stated in /page/9/SectionHeader/8. Conclusion: the value at /page/9/SectionHeader/8 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes list one potential call-up item, “VACATION OF A 174 SQUARE FOOT UTILITY EASEMENT AT 1650 LOOKOUT ROAD,” in /page/9/SectionHeader/8; the extraction contains that one item. Conclusion: the value at /page/9/SectionHeader/8 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the regular August 1, 2014 City Council meeting to order at 5:40 PM in Council Chamber.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "BOULDER COUNTY REPORT ON CHILDREN, PRESENTED BY STEPHANIE GREENBERG",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Director of Human Services, Karen Rahn introduced Stephanie Greenberg who presented the Boulder County Report on Children.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "AUDIT SUMMARY, PRESENTED BY DAVID FREDERICK",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Cowles introduced David Frederick from BND, LLP who gave the presentation on The Audit Summary.",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section": "OPEN COMMENT AND COUNCIL STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "OPEN COMMENT AND COUNCIL STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Members Morzel and Weaver urged those members of the public interested in density and growth issues to attend Planning Board meetings.",
+    "outcome_summary_citations": [
+     "/page/1/Text/7"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/Text/12"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/Text/12"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1134",
+     "1135"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/12"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PURCHASED BY ITLE ONLY AN ORDINANCE APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2014 BUDGET RELATED TO FLOOD INSURANCE PROCEEDS",
+    "title_citations": [
+     "/page/1/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/12"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/Text/10"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT RESOLUTION NO. 1134 APPOINTING THE FIRM BETL, LLC TO EXAMINE THE FINANCIAL ACCOUNTS OF THE CITY OF BOULDER FOR THE YEAR ENDING DECEMBER 31, 2014",
+    "title_citations": [
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1134"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/12"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/Text/11"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT RESOLUTION NO. 1135 ACCEPTING THE CITY OF BOULDER 2013 COMPREHENSIVE ANNUAL FINANCIAL REPORT AND THE ENCLOSED AUDITOR'S REPORTS",
+    "title_citations": [
+     "/page/1/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1135"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/12"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-LIP CHECK-IN",
+    "section_citations": [
+     "/page/1/SectionHeader/13"
+    ],
+    "title": "POTENTIAL CALL-LIP CHECK-IN",
+    "title_citations": [
+     "/page/1/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up item [A-1].",
+    "outcome_summary_citations": [
+     "/page/2/Text/0"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 790 SUBMITTING TO THE REGISTERED ELECTORS OF THE CITY OF BOWLING GREEN AT THE SPECIAL, MUNICIPAL COORDINATED ELECTION TO BE HELD ON TUESDAY, NOVEMBER 4, 2014, THE QUESTION OF AFFIRMING THE CITY'S RIGHT TO PROVIDE HIGH-SPEED INTERNET SERVICES (ADVANCED SERVICES), TELECOMMUNICATIONS SERVICES, AND/OR CABLE TELEVISION SERVICES TO RESIDENTS, BUSINESSES, LIBRARIES, NONPROFIT ENTITIES AND OTHER USERS OF SUCH SERVICES AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "790"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:34 PM",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/5"
+    ],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 792 SUBMITTING TO THE REGISTERED ELECTORS OF THE CITY OF BOWLING GREEN AT THE SPECIAL, COORDINATED MUNICIPAL ELECTION TO BE HELD ON TUESDAY, NOVEMBER 4, 2014, THE QUESTION OF AMENDING CITY CHARTER SECTION 9 TO PROVIDE THAT THE CITY COUNCIL MAY MEET IN EXECUTIVE SESSION ONLY FOR THE PURPOSE OF DISCUSSING LEGAL ADVICE AND NEGOTIATION STRATEGY RELATING TO THE CREATION OF A MUNICIPAL ELECTRIC UTILITY, WITH SUCH AUTHORITY ENDING DECEMBER 31, 2017; SETTING FORTH THE DATES, TIMELINES, AND SPECIFYING THE FORM OF AGREEMENT AND OTHER RELATED DETAILS",
+    "title_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "792",
+     "7982"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 PM",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/3"
+    ],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 94.",
+    "outcome_summary_citations": [
+     "/page/4/Text/0"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/4/Text/1"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7983 SUBMITTING TO THE REGISTERED ELECTORS OF THE CITY OF BOUNDER, AT THE SPECIAL MUNICIPAL COORDINATED ELECTION TO BE HELD ON TUESDAY, NOVEMBER 4, 2014, THE QUESTION OF AUTHORIZING THE CITY COUNCIL TO INCREASE THE SALES AND INS TAX BY 0.333 CENT ON EVERY DOLLAR, EFFECTIVE FROM JANUARY 1, 2015 THROUGH DECEMBER 31, 2017 FOR THE PURPOSE OF FUNDING A VARIETY OF CAPITAL IMPROVEMENT PROJECTS, GIVING APPROVAL FOR THE COLLECTION, RETENTION AND EXPENDITURE OF THE FULL TAX PROCEEDS AND ANY RELATED EARNINGS, NOTWITHSTANDING ANY STATE REVENUE OR EXPENDITURE LIMITATION, AND SETTING FORTH THE EFFECTIVE DATE, TITLE OF TITLE, AMENDMENTS TO SECTION 1-2-1, \"RATE OF TAX,\" R.R.C. 1-28 AND RELATED DETAILS",
+    "title_citations": [
+     "/page/4/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7983",
+     "793"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:44 PM",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/4"
+    ],
+    "hearing_closed_time": "8:47 PM",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/6"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Doreen Soffer",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 90%.",
+    "outcome_summary_citations": [
+     "/page/5/Text/10"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/11"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF THE FOLLOWING ITEMS RELATIVE TO THE ANNEXATION AND INITIAL ZONING OF THE FOLLOWING PROPERTIES: A) 1.18 ACRE PROPERTY IDENTIFIED AS 1270 19 TH ST. AND B) 1.97 ACRE PROPERTY IDENTIFIED AS 2131 TAMARACK AVE. 1. ADOPTING RESOLUTION NO. 1168 AND RESOLUTION NO. 1147 FINDING THE PROPERTIES TO BE IN ENCLAVES, FINDING COMPLIANCE WITH STATE/LOCAL REQUIREMENTS APPLICABLE TO THESE ANNEXATIONS, AND ESTABLISHING AUGUST 4, 2014 AS DEADLINE FOR COUNCIL ACTION 2. ADOPTING EMERGENCY ORDINANCE NO. 7981 AND EMERGENCY ORDINANCE NO. 7985 ANNEXING THE PROPERTIES WITH AN INITIAL ZONING CLASSIFICATION OF RESIDENTIAL - R-2 (RE)",
+    "title_citations": [
+     "/page/5/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1168",
+     "1147",
+     "7981",
+     "7985",
+     "1136",
+     "1137",
+     "7984"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:29 PM",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/3"
+    ],
+    "hearing_closed_time": "9:35 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Elaine Schuman",
+      "name_citations": [
+       "/page/6/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Cindy Baker",
+      "name_citations": [
+       "/page/6/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sue Pratt",
+      "name_citations": [
+       "/page/6/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 7-1 with Councilman absent at 9:47 PM.",
+    "outcome_summary_citations": [
+     "/page/6/Text/10"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/11"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "ADOPTING RESOLUTION NO. 1168 AND RESOLUTION NO. 1147 FINDING THE PROPERTIES TO BE IN ENCLAVES, FINDING COMPLIANCE WITH STATE/LOCAL REQUIREMENTS APPLICABLE TO THESE ANNEXATIONS, AND ESTABLISHING AUGUST 4, 2014 AS DEADLINE FOR COUNCIL ACTION",
+    "title_citations": [
+     "/page/5/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1168",
+     "1147"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7-1 with Councilman absent at 9:47 PM.",
+    "outcome_summary_citations": [
+     "/page/6/Text/10"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/5/ListGroup/11"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "ADOPTING EMERGENCY ORDINANCE NO. 7981 AND EMERGENCY ORDINANCE NO. 7985 ANNEXING THE PROPERTIES WITH AN INITIAL ZONING CLASSIFICATION OF RESIDENTIAL - R-2 (RE)",
+    "title_citations": [
+     "/page/5/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7981",
+     "7985"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7-1 with Councilman absent at 9:47 PM.",
+    "outcome_summary_citations": [
+     "/page/6/Text/10"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE 2014 TRANSPORTATION MASTER PLAN AND TO ACCEPT THE REVISED TRANSPORTATION MASTER PLAN SUMMARY FOR INCLUSION IN THE BOULDER VALLEY COMPREHENSIVE PLAN",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "10:50 PM",
+    "hearing_opened_time_citations": [
+     "/page/7/Text/7"
+    ],
+    "hearing_closed_time": "11:07 PM",
+    "hearing_closed_time_citations": [
+     "/page/8/Text/0"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "David McMillan",
+      "name_citations": [
+       "/page/7/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/8"
+      ]
+     },
+     {
+      "name": "Tim Ben",
+      "name_citations": [
+       "/page/7/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/8"
+      ]
+     },
+     {
+      "name": "Lenna Krotka",
+      "name_citations": [
+       "/page/7/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/8"
+      ]
+     },
+     {
+      "name": "Sue Drum",
+      "name_citations": [
+       "/page/7/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/8"
+      ]
+     },
+     {
+      "name": "Jared Hall",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Aaron Brockett",
+      "name_citations": [
+       "/page/7/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/8"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 24-0 (Unanimous).",
+    "outcome_summary_citations": [
+     "/page/9/Text/0"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Jane Bramlage gave Council an update regarding how the grant funds would be utilized.",
+    "outcome_summary_citations": [
+     "/page/9/Text/3"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/9/Text/3"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "CDBG-DR PLANNING GRANT DISCUSSION",
+    "title_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Jane Bramlage gave Council an update regarding how the grant funds would be utilized.",
+    "outcome_summary_citations": [
+     "/page/9/Text/3"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/9/Text/5"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-6.",
+    "outcome_summary_citations": [
+     "/page/10/Text/7"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/9/Text/9"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "title": "Potential Call-Ups",
+    "title_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up Item 8A.1.",
+    "outcome_summary_citations": [
+     "/page/9/Text/9"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "section": "Potential Call-Ups",
+    "section_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "title": "VACATION OF A 174 SQUARE FOOT UTILITY EASEMENT AT 1650 LOOKOUT ROAD",
+    "title_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up Item 8A.1.",
+    "outcome_summary_citations": [
+     "/page/9/Text/9"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "title": "BOARD AND COMMISSION APPOINTMENTS",
+    "title_citations": [
+     "/page/9/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-6.",
+    "outcome_summary_citations": [
+     "/page/10/Text/7"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/10/Text/5"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/10/SectionHeader/6"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/10/SectionHeader/6"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/10/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-6.",
+    "outcome_summary_citations": [
+     "/page/10/Text/7"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [],
+    "section": "DRIBER",
+    "section_citations": [
+     "/page/10/SectionHeader/8"
+    ],
+    "title": "DRIBER",
+    "title_citations": [
+     "/page/10/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council did not enjoy the meal catered for the evening.",
+    "outcome_summary_citations": [
+     "/page/10/Text/9"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/10/Text/11"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/10/SectionHeader/10"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/10/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on August 6, 2014 at 12:00 AM.",
+    "outcome_summary_citations": [
+     "/page/10/Text/11"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "I",
+    "agenda_item_number_citations": [
+     "/page/0/Text/9"
+    ],
+    "motion_text": "Mayor Appelbaum moved, seconded by Council Member Morze, to approve the agenda as amended.",
+    "motion_text_citations": [
+     "/page/0/Text/9"
+    ],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/0/Text/9"
+    ],
+    "seconded_by": "Morze",
+    "seconded_by_citations": [
+     "/page/0/Text/9"
+    ],
+    "vote_text": "The motion carried 7-0.",
+    "vote_text_citations": [
+     "/page/0/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/0/Text/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/Text/12"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Morzel, to approve Consent Agenda Item 3A through 3C.",
+    "motion_text_citations": [
+     "/page/1/Text/12"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "1134",
+     "1135"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/1/Text/12"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/1/Text/12"
+    ],
+    "vote_text": "The motion carried 9-0.",
+    "vote_text_citations": [
+     "/page/1/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Text/12"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/12"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "motion_text": "Council Member Jones moved, seconded by Council Member Weaver, to adopt Ordinance No. 790 submitting to the registered electors of the City of Bowling Green at the special municipal coordinated election to be held on Tuesday, November 4, 2014, the question of affirming the city's right to provide high-speed internet services (advanced services), telecommunications services, and/or cable television services to residents, businesses, schools, libraries, non-profit entities and other users of such services and setting forth related details.",
+    "motion_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "790"
+    ],
+    "moved_by": "Jones",
+    "moved_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "seconded_by": "Weaver",
+    "seconded_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "motion_text": "Mayor Appelhorn moved, seconded by Council Member Weaver, to continue this item until the regular meeting on August 19, 2014.",
+    "motion_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "790"
+    ],
+    "moved_by": "Appelhorn",
+    "moved_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "seconded_by": "Weaver",
+    "seconded_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "vote_text": "The motion carried 20.",
+    "vote_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/4"
+    ],
+    "motion_text": "Council Member Plass moved, seconded by Council Member Shoemaker, to adopt Ordinance No. 7982 submitting to the registered elections of the City of Boulder a the Special Coordinated Municipal Election to be held on Tuesday, November 4, 2014, the question of amending City Charter Section 9 to provide that the city council may meet in executive session only for the purpose of discussing legal advice and negotiation strategy relating to the creation of a municipal electric utility with such authority ending December 31, 2017, setting forth the ballot title and specifying the form of the ballot and all ancillary items.",
+    "motion_text_citations": [
+     "/page/3/Text/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7982"
+    ],
+    "moved_by": "Plass",
+    "moved_by_citations": [
+     "/page/3/Text/4"
+    ],
+    "seconded_by": "Shoemaker",
+    "seconded_by_citations": [
+     "/page/3/Text/4"
+    ],
+    "vote_text": "The motion carried 94.",
+    "vote_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/7"
+    ],
+    "motion_text": "Mayor Applebaum offered a friendly amendment, accepted by both the maker and seconder of the motion, to include that the amendment at the end of (o).",
+    "motion_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/3/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7982"
+    ],
+    "moved_by": "Applebaum",
+    "moved_by_citations": [
+     "/page/3/Text/7"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/4/Text/7"
+    ],
+    "motion_text": "Council Member Karakenian moved seconded by Council Member Shoemaker to approve Ordinance No. 7983 as amended by the minor corrections presented by the City Attorney on the peach colored handout and by amending the short title of the ballot issue to read \"temporary tax increase for Community Culture and Safety.\"",
+    "motion_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7983"
+    ],
+    "moved_by": "Karakenian",
+    "moved_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "seconded_by": "Shoemaker",
+    "seconded_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "vote_text": "The motion carried 90%.",
+    "vote_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/6/Text/10"
+    ],
+    "motion_text": "Council Member Murra moved, seconded by Council Member Weaver, to adopt Resolution No. 1136 and Resolution No. 1137, finding the properties located at 4270 19 th St and 2130 Tamarack Ave. to be unlivable, finding compliance with statutory requirements applicable to these annexations and establishing August 3, 2014 is the date for Council action and to adopt Emergency Ordinance No. 7984 and Emergency Ordinance No. 7985 amending the properties with a final zoning classification of Residential - Estate4 (RB).",
+    "motion_text_citations": [
+     "/page/6/Text/10"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1136",
+     "1137",
+     "7984",
+     "7985"
+    ],
+    "moved_by": "Murra",
+    "moved_by_citations": [
+     "/page/6/Text/10"
+    ],
+    "seconded_by": "Weaver",
+    "seconded_by_citations": [
+     "/page/6/Text/10"
+    ],
+    "vote_text": "The motion carried 7-1 with Councilman absent at 9:47 PM.",
+    "vote_text_citations": [
+     "/page/6/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/10"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/6/Text/10"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "E",
+    "agenda_item_number_citations": [
+     "/page/7/Text/6"
+    ],
+    "motion_text": "Mayor Appelbaum moved, seconded by Council Member Wertz, to suspend the rules and continue the meeting.",
+    "motion_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "seconded_by": "Wertz",
+    "seconded_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "vote_text": "The motion carried 34, with Council Member Morzel opposed.",
+    "vote_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Morzel"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "E",
+    "agenda_item_number_citations": [
+     "/page/8/Text/4"
+    ],
+    "motion_text": "Council Member Weaver moved, seconded by Council Member Jones, to accept the 2017 Transportation Master Plan and to accept the revised Transportation Master Plan Summary for inclusion in the Boulder Valley Comprehensive Plan.",
+    "motion_text_citations": [
+     "/page/8/Text/4"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Weaver",
+    "moved_by_citations": [
+     "/page/8/Text/4"
+    ],
+    "seconded_by": "Jones",
+    "seconded_by_citations": [
+     "/page/8/Text/4"
+    ],
+    "vote_text": "The motion carried 24-0 (Unanimous).",
+    "vote_text_citations": [
+     "/page/9/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 24,
+    "yes_count_citations": [
+     "/page/9/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/10/Text/3"
+    ],
+    "motion_text": "Mayor Appelbaum moved, seconded by Council Member Pass, to ratify the Board and Commission appointments.",
+    "motion_text_citations": [
+     "/page/10/Text/3"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/10/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/10/Text/3"
+    ],
+    "seconded_by": "Pass",
+    "seconded_by_citations": [
+     "/page/10/Text/3"
+    ],
+    "vote_text": "The motion carried 6-6.",
+    "vote_text_citations": [
+     "/page/10/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 6,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/10/Text/11"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on August 6, 2014 at 12:00 AM.",
+    "motion_text_citations": [
+     "/page/10/Text/11"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/10/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Kalakeniah",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morze",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Plass",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Young",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "growth of the city and the need to provide quality services to citizens",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Sondra Snyder",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "growth of the city and her concern that over-growth would decrease the quality of life for citizens in Boulder by creating density that was not supported by services",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Paula Moscley",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "density and growth within the city",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Richard Harris",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "concern that no public hearing had been held on the Comprehensive Housing Strategy (CHS)",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Kathleen Adam",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "the issues that could arise if high density housing continued without a growth management plan",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Patrick Dillard",
+    "name_citations": [
+     "/page/1/Text/0"
+    ],
+    "topic": "high density housing and the negative impacts it could have on Boulder",
+    "topic_citations": [
+     "/page/1/Text/0"
+    ]
+   },
+   {
+    "name": "Carl Norby",
+    "name_citations": [
+     "/page/1/Text/1"
+    ],
+    "topic": "his experience related to the September 2013 flood event",
+    "topic_citations": [
+     "/page/1/Text/1"
+    ]
+   },
+   {
+    "name": "Alice McDonald",
+    "name_citations": [
+     "/page/1/Text/2"
+    ],
+    "topic": "the proposed tax measure as a funding mechanism for improved lighting at Chautauque",
+    "topic_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "name": "Bob Coleman",
+    "name_citations": [
+     "/page/1/Text/3"
+    ],
+    "topic": "the September 2013 flood event and concerns regarding the sanitary sewer system in Boulder",
+    "topic_citations": [
+     "/page/1/Text/3"
+    ]
+   },
+   {
+    "name": "Leslie Young",
+    "name_citations": [
+     "/page/1/Text/4"
+    ],
+    "topic": "statistics related to restaurant businesses in the city of Boulder",
+    "topic_citations": [
+     "/page/1/Text/4"
+    ]
+   },
+   {
+    "name": "Lincoln Miller",
+    "name_citations": [
+     "/page/1/Text/5"
+    ],
+    "topic": "a potential early win related to script co-op housing",
+    "topic_citations": [
+     "/page/1/Text/5"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

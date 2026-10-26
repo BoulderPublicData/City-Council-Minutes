@@ -1,0 +1,1481 @@
+{
+ "entry_id": 124495,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "du2LkRAJL3Gt6wB8qtiOKg",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 20.0
+ },
+ "extraction": {
+  "meeting_date": "2013-12-03",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/SectionHeader/0, and the extraction correctly normalizes it to YYYY-MM-DD. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 identifies the proceedings as CITY COUNCIL PROCEEDINGS. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/1/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as the regular December 3, 2013 City Council meeting in /page/1/Text/3. Conclusion: the value at /page/1/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Library Canyon Theater",
+  "location_citations": [
+   "/page/1/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/1/Text/3. Conclusion: the value at /page/1/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:05 PM",
+  "called_to_order_time_citations": [
+   "/page/1/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/1/Text/3. Conclusion: the value at /page/1/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "8:50 PM",
+  "adjourned_time_citations": [
+   "/page/5/Text/7"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/5/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/5/Text/7. Conclusion: the value at /page/5/Text/7 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelbaum",
+  "presiding_officer_citations": [
+   "/page/1/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Mayor Appelbaum is identified as calling the meeting to order in /page/1/Text/3. Conclusion: the value at /page/1/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "1. VACATION OF A 2,570 SQUARE FOOT PORTION OF AN EXISTING PUBLIC UTILITY EASEMENT LOCATED AT THE BASEMAR SHOPPING CENTER (ADR2013-00161)",
+   "2. VACATION OF A 10,788 SQUARE FOOT PORTION OF AN EXISTING DRAINAGE EASEMENT LOCATED ALONG THE NORTH PROPERTY LINE AT 5555 AIRPORT BLVD. (ADR2013-00194)",
+   "3. SITE REVIEW FOR 1738 PEARL STREET FOR A THREE STORY, 38 FOOT TALL BUILDING ADDITION"
+  ],
+  "call_up_items_citations": [
+   "/page/4/SectionHeader/5",
+   "/page/4/SectionHeader/7",
+   "/page/4/SectionHeader/9"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/SectionHeader/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first potential call-up item is stated in /page/4/SectionHeader/5. Conclusion: the value at /page/4/SectionHeader/5 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/SectionHeader/7"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second potential call-up item is stated in /page/4/SectionHeader/7. Conclusion: the value at /page/4/SectionHeader/7 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/SectionHeader/9"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The third potential call-up item is stated in /page/4/SectionHeader/9. Conclusion: the value at /page/4/SectionHeader/9 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes list three potential call-up items in /page/4/SectionHeader/5, /page/4/SectionHeader/7, and /page/4/SectionHeader/9; all three are present in the extraction. Conclusion: the list is complete in the cited blocks."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/1/Text/1"
+    ],
+    "section": "5:00 PM MEETING OF THE 2013 GENERAL ELECTION AND CANVASSING BOARD",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "5:00 PM MEETING OF THE 2013 GENERAL ELECTION AND CANVASSING BOARD",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business the General Election and Canvassing Board adjourned at 5:15 PM.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section": "5:00 PM MEETING OF THE 2013 GENERAL ELECTION AND CANVASSING BOARD",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/4"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "ROLL CALL OF THE CITY OF BOULDER GENERAL CANVASSING AND ELECTION BOARD",
+    "title_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Clerk Lewis called the 2013 General Canvassing and Election Board to order at 5:05 p.m. in the Library Canyon Theater on December 3, 2013.",
+    "outcome_summary_citations": [
+     "/page/0/Text/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "ADMINISTRATION OF OATH AND SIGNING BY BOARD MEMBERS",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Secretary Lewis administered the oath of office to the General Canvassing and Election Board.",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion nominating a member to chair the Board",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Hearing no other nominations, Board Member Karakehian was appointed chair by acclamation.",
+    "outcome_summary_citations": [
+     "/page/0/Text/9"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "SUBMISSION TO THE BOARD BY THE SECRETARY OF THE FOLLOWING:",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "i",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section": "SUBMISSION TO THE BOARD BY THE SECRETARY OF THE FOLLOWING:",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "CERTIFICATE OF THE OFFICIAL BALLOT",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "ii",
+    "item_number_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "section": "SUBMISSION TO THE BOARD BY THE SECRETARY OF THE FOLLOWING:",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "CERTIFICATES OF THE OFFICIAL PUBLIC NOTICES OF THE NOVEMBER 5, 2013 ELECTION",
+    "title_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "iii",
+    "item_number_citations": [
+     "/page/0/SectionHeader/13"
+    ],
+    "section": "SUBMISSION TO THE BOARD BY THE SECRETARY OF THE FOLLOWING:",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "CERTIFICATE OF ELECTION RETURNS",
+    "title_citations": [
+     "/page/0/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "PUBLIC HEARING",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The public hearing was opened, there being no speakers, the public hearing was closed.",
+    "outcome_summary_citations": [
+     "/page/0/Text/15"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/0/SectionHeader/16"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 5, 2013:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION THAT THE ABSTRACT AND RESULT SHEETS BE APPROVED AND SIGNED",
+    "title_citations": [
+     "/page/0/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6:0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/Text/6"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL – 6:00 PM CITY COUNCIL MEETING",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "FLOOD CLEANUP AND RECOVERY UPDATE BY KATHLEEN TIERNEY, UNIVERSITY OF COLORADO",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Jane Brautigam introduced Director of the Natural Hazards Center Kathleen Tierney with the University of Colorado to present an update on research and other flood related work being done at the university.",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "section": "OPEN COMMENT AND COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "title": "OPEN COMMENT AND COUNCIL/STAFF RESPONSE – 6:20 PM",
+    "title_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "1. Shawn Coleman spoke to legislation relating to recreational marijuana and the State Department of Revenue’s approach to accepting license applications beginning January 2, 2014.",
+    "outcome_summary_citations": [
+     "/page/1/ListGroup/8"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSENT AGENDA – 6:23 PM",
+    "title_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM OCTOBER 22, 2013",
+    "title_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/SectionHeader/12"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM NOVEMBER 12, 2013",
+    "title_citations": [
+     "/page/1/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/SectionHeader/13"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7950 APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2013 BUDGET",
+    "title_citations": [
+     "/page/1/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7950"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/SectionHeader/15"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION AMENDING THE 2013 DOWNTOWN COMMERCIAL DISTRICT FUND (FORMERLY CAGID FUND) BUDGET",
+    "title_citations": [
+     "/page/1/SectionHeader/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION AMENDING THE 2013 BUDGET FOR THE BOULDER MUNICIPAL PROPERTY AUTHORITY",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT EMERGENCY ORDINANCE No. 7949 AMENDING SECTION 3-2-5, “RATE OF TAX,” B.R.C. 1981 TO IMPLEMENT THE TAXATION RATES, REVENUE SPENDING LIMITATIONS AND OTHER REQUIREMENTS APPROVED BY THE VOTERS PURSUANT TO ORDINANCE Nos. 7912, 7913 AND 7922 AT THE NOVEMBER 5, 2013 ELECTION, AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7949",
+     "7912",
+     "7913",
+     "7922"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING THE CABLE TELEVISION FRANCHISE AGREEMENT BETWEEN THE CITY OF BOULDER AND COMCAST OF COLORADO IV, LLC, TO EXTEND THE TERM OF THE AGREEMENT BY ONE YEAR",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE DESIGNATING THE BUILDING AND PROPERTY AT 2003 PINE ST., TO BE KNOWN AS THE WHEELER-MACDONALD HOUSE, AS AN INDIVIDUAL LANDMARK UNDER THE CITY’S HISTORIC PRESERVATION ORDINANCE",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE DESIGNATING THE BUILDING AND PROPERTY AT 1922 20 TH ST., TO BE KNOWN AS THE MACKENZIE HOUSE, AS AN INDIVIDUAL LANDMARK UNDER THE CITY’S HISTORIC PRESERVATION ORDINANCE",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO AUTHORIZE THE CITY MANAGER TO ENTER INTO A LONG-TERM AIR RIGHTS LEASE FOR AN ALLEY BRIDGE ASSOCIATED WITH REDEVELOPMENT OF THE FORMER DAILY CAMERA SITE (1048 PEARL AND 1023 WALNUT), #REV2012-00029",
+    "title_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "K",
+    "item_number_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/10"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE PROPOSED 2014 STATE AND FEDERAL LEGISLATIVE AGENDA",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "POTENTIAL CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up items 8A -1 through 8A-3.",
+    "outcome_summary_citations": [
+     "/page/3/Text/5"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "section": "FLOOD CLEANUP AND RECOVERY COMPREHENSIVE UPDATE BY STAFF",
+    "section_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "title": "FLOOD CLEANUP AND RECOVERY COMPREHENSIVE UPDATE BY STAFF – 6:45 PM",
+    "title_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Jane Brautigam introduced this item.",
+    "outcome_summary_citations": [
+     "/page/3/Text/8"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/SectionHeader/16"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/16"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/3/Text/17"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/18"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/18"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER – 8:2 PM",
+    "title_citations": [
+     "/page/3/SectionHeader/18"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Text/0"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/18"
+    ],
+    "title": "COUNCIL CHAMBERS REMODEL UPDATE",
+    "title_citations": [
+     "/page/3/SectionHeader/19"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Jane Brautigam presented on this item and informed Council that there would be a slight delay in the remodeling of Council Chambers and it would likely be February before meetings were able to resume in that space.",
+    "outcome_summary_citations": [
+     "/page/4/Text/0"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/4/Text/2"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "VACATION OF A 2,570 SQUARE FOOT PORTION OF AN EXISTING PUBLIC UTILITY EASEMENT LOCATED AT THE BASEMAR SHOPPING CENTER (ADR2013-00161)",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "VACATION OF A 10,788 SQUARE FOOT PORTION OF AN EXISTING DRAINAGE EASEMENT LOCATED ALONG THE NORTH PROPERTY LINE AT 5555 AIRPORT BLVD. (ADR2013-00194)",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "SITE REVIEW FOR 1738 PEARL STREET FOR A THREE STORY, 38 FOOT TALL BUILDING ADDITION",
+    "title_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "DISCUSSION OF PLANNING BOARD VACANCIES AND 2014 BOARD & COMMISSION RECRUITMENT",
+    "title_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "They chose to make no interim appointments at this time.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/4/Text/15"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "APPOINTMENT OF COUNCIL LIAISON TO BOULDER HOUSING PARTNERS",
+    "title_citations": [
+     "/page/4/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Shoemaker was appointed as the liaison to Boulder Housing Partners.",
+    "outcome_summary_citations": [
+     "/page/4/Text/15"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/SectionHeader/16"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/4/SectionHeader/16"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/4/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/4/Text/2"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "section": "DEBRIEF",
+    "section_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "title": "DEBRIEF",
+    "title_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Jones asked that the setup be changed for future meetings so Council was able to see one another.",
+    "outcome_summary_citations": [
+     "/page/5/Text/4"
+    ]
+   },
+   {
+    "item_number": "13",
+    "item_number_citations": [
+     "/page/5/Text/7"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on December 3, 2013 at 8:50 PM.",
+    "outcome_summary_citations": [
+     "/page/5/Text/7"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Board Member Wilson moved, seconded by Board Member Plass to nominate Board Member Karakehian to chair the meeting.",
+    "motion_text_citations": [
+     "/page/0/Text/9"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/0/Text/9"
+    ],
+    "seconded_by": "Plass",
+    "seconded_by_citations": [
+     "/page/0/Text/9"
+    ],
+    "vote_text": "Hearing no other nominations, Board Member Karakehian was appointed chair by acclamation.",
+    "vote_text_citations": [
+     "/page/0/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [
+     "/page/1/Text/0"
+    ],
+    "motion_text": "Board Member Morzel moved, seconded by Board Member Plass, to approve the election abstract and result sheets as presented.",
+    "motion_text_citations": [
+     "/page/1/Text/0"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/1/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/1/Text/0"
+    ],
+    "seconded_by": "Plass",
+    "seconded_by_citations": [
+     "/page/1/Text/0"
+    ],
+    "vote_text": "The motion carried 6:0.",
+    "vote_text_citations": [
+     "/page/1/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/1/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Plass moved, seconded by Council Member Jones, to approve Consent Agenda items 3A through 3K as amended by the errata sheet for the Legislative Agenda and an amendment to the October 22, 2013 minutes.",
+    "motion_text_citations": [],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Plass",
+    "moved_by_citations": [],
+    "seconded_by": "Jones",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "13",
+    "agenda_item_number_citations": [
+     "/page/5/Text/7"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on December 3, 2013 at 8:50 PM.",
+    "motion_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [
+     "/page/1/Text/4"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [
+     "/page/1/Text/4"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Plass",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Young",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Shawn Coleman",
+    "name_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "topic": "legislation relating to recreational marijuana and the State Department of Revenue’s approach to accepting license applications beginning January 2, 2014",
+    "topic_citations": [
+     "/page/1/ListGroup/8"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

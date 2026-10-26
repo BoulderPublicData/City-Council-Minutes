@@ -1,0 +1,1226 @@
+{
+ "entry_id": 151899,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "Oq0XSg6oaOowcUN2EKu5uw",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 21.0
+ },
+ "extraction": {
+  "meeting_date": "2003-08-05",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/Text/1 supports the extracted meeting date. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:59 P.M.",
+  "adjourned_time_citations": [
+   "/page/5/Text/8"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/5/Text/8"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/5/Text/8. Conclusion: the value at /page/5/Text/8 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Havlick",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Havlick as calling the meeting to order at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "WONDERLAND CREEK TRAIL CONNECTION, WONDERLAND CREEK, SOUTH OF ELKS CLUB – FLOODPLAIN DEVELOPMENT PERMIT. WIP\nDATE: 7/24/03, LAST OPPORTUNITY FOR CALL-UP: AUG. 5, 2003, STAFF APPROVAL."
+  ],
+  "call_up_items_citations": [
+   "/page/4/ListGroup/13"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/13"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item is stated at /page/4/ListGroup/13. Conclusion: the value at /page/4/ListGroup/13 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one potential call-up item, and it appears at /page/4/ListGroup/13. Conclusion: the value at /page/4/ListGroup/13 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Tim Thomas",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Library parking issue, applauded the six month trial honor system, concerned about what happens in 6 months. Re: Firefighters, expressed appreciation for work but does not want to see additional staff cuts",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Marilynnne Tarrall",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Spoke of the benefit of the initiative which would allow for 6 district representatives, 2 at large representatives and direct election of the Mayor.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Adrian Sopher",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "also in support of the initiative. Spoke to the benefits of the initiative.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Elisabeth Patterson",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "also speaking in favor of the Districting.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Julie Cavalier",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "The Junior golf program at Flatirons golf course - concerned that elimination of 2 full time golf professionals will force the elimination of this program - urged Council to reconsider this action.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Michael Steiner",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "YOAB annual grants award program. Thanks Council for its support and explained the grant process that resulted in tonight's recommendation",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Kevin Lander",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "outlined the specific programs to be funded if approved by Council",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "district initiative, stated he was not willing to give up 5 votes for Councilmembers. Re: CU South, raised concerns about the content of the memo, indicating that there seems to be numerous holes in both process and content",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Ruth Blackmore",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "agreed with comments from Steve Pomerance and also noted that the city and CU cannot go around the 1041 rules nor can any development occur until after the hydrology as directed by CCHE.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Dave Albee",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "agreed that nothing should happen before completion of the hydrology study at CU South",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Claire Levy",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "CU South 1) Hydrology study must be completed 2) Boulder Valley Comprehensive Plan needs to be upheld - include County and 3) 1041 rules must be maintained.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Ellen Willis",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "CU south - don't put the cart before the horse Wait for the hydrology study.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Doug Yager",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "CU South - disappointed with the current status of the project and the continuing secret meetings",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jeanne Lavendar",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "very concerned about the road going in above Marshall Rd. Expressed grave concern that citizens have no voice",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Doretta Hultquist",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "CU South - agreed with all other speakers that the MOU in the agenda packet is a complete NO GO! Citizen input is non-existent",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Gilbert White",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Federal standard for 100 year flood damage is no longer affective as is evident that more frequent flood damage is now occurring Wait for hydrology study",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Connie Mansour",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "opposed to lighting at the CU tennis courts indicating that it is visible from her house",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jann Scott",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Channel 54 - opposed to potential budget cuts noting that it would basically eliminate Public Access T.V",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "opposed to CU South MOA - Everyone needs to stop and think",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Alison Buchell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "summarized a host of issues related to the flawed MOA for CU South. Also indicated that the lack of public inclusion after being promised should negate moving forward",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "topic": "stop everything with CU and cancel August 21 st forum as well",
+    "topic_citations": [
+     "/page/5/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Rick Woodsome",
+    "name_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "topic": "suggested that the Council direct the Manager rather than the other way around Encouraged further Council discussions and even encouraged continuing dialogue with CU, however felt that the forum is flawed",
+    "topic_citations": [
+     "/page/5/ListGroup/4"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Acting Mayor Havlick called the meeting to order at 6:00 p.m. and attendance was recorded.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION AND COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "PUBLIC PARTICIPATION AND COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard public participation and City Manager Bruno responded.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved consent items 3A through 3G, 5 0, Eldridge, Morzel and Toor absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM JULY 15, 2003.",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE YOUTH OPPORTUNITIES PROGRAM ANNUAL GRANTS FUND 2003-2004 ALLOCATIONS.",
+    "title_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO GRANT A TEN YEAR LEASE TO MUSTARD’S LAST STAND, INC. FOR 757 SQUARE FEET LOCATED AT 1719 BROADWAY STREET FOR RESTAURANT PURPOSES.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING SECTIONS 2-10-8, 2-10-12, 2-10-13, AND 2-10-14, B.R.C. 1981 CONCERNING INVESTMENT OF CITY FUNDS, TO REFLECT CHANGES IN STATE LAW, IN THE TERMINOLOGY USED FOR FEDERAL SECURITIES AND BY SECURITIES RATING AGENCIES.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE DESIGNATING THE STRUCTURES AND THEIR SITE LOCATED AT 2045 WALNUT, ALSO KNOWN AS THE GUTFELDER HOUSE AND MASON TERRACE, AS INDIVIDUAL LANDMARKS UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE. APPLICANT: SUE MUNDINGER.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE CONCERNING THE LOCAL AMENDMENTS TO B.R.C. 1981, TITLE 10 “STRUCTURES ADOPTING THE 2003 INTERNATIONAL CODES,” AND THE 2002 NATIONAL ELECTRICAL CODE AND REVISING CHAPTER 10-5 “BUILDING CODE,” 10-6 “ELECTRICAL CODE,” 10-8 “FIRE PREVENTION CODE,” 10-9 “MECHANICAL CODE,” 10-10 “PLUMBING CODE,” AND ADDING CHAPTERS 10-5.5 “INTERNATIONAL RESIDENTIAL CODE,” AND 10-9.5 “INTERNATIONAL FUEL GAS CODE.”",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE SUBMITTING TO THE QUALIFIED ELECTORS OF THE CITY OF BOULDER AT THE GENERAL MUNICIPAL ELECTION TO BE HELD ON TUESDAY, NOVEMBER 4, 2003, THE COUNCIL DISTRICTING AND DIRECT ELECTION OF THE MAYOR CHARTER INITIATIVE, SETTING FORTH THE BALLOT TITLE, AND PROVIDING OTHER DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council considered Ordinance No. 7299 and the IAFF arbitration report.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7299 AMENDING CHAPTER 5-8, “WEAPONS,” B.R.C. 1981, TO CONFORM TO CHANGES IN STATE LAW, ALLOW THE CITY MANAGER TO PROHIBIT DEADLY WEAPONS IN CITY BUILDINGS, AND REPEAL PROVISIONS CONCERNING CONCEALED WEAPONS PERMITS.",
+    "title_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7299"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7299, 6:0, Eldridge and Toor absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION REGARDING THE INTERNATIONAL ASSOCIATION OF FIREFIGHTERS (IAFF) ARBITRATION REPORT.",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "John Nunez",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Buescher",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/4"
+      ]
+     }
+    ],
+    "outcome_summary": "Council voted 6 0 to implement the last best offer by the City to IAFF Local 900, Eldridge and Toor absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received updates on Floral Drive speed bumps, water supplies and CU South.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "UPDATE REGARDING FLORAL DRIVE SPEED BUMPS.",
+    "title_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council concurred with accepting the neighborhood petition indicating 82% approval for retaining the devices.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "DROUGHT UPDATE AND REPORT ON WATER SUPPLIES.",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received the water supply and water rate study updates and requested the current level of water reserves.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "REPORT ON DISCUSSIONS CONCERNING THE FLATIRONS PROPERTY/CU SOUTH.",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council discussed CU South; the motion to invite the CU Regents to an initial dialogue later failed 2 4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NONE",
+    "outcome_summary_citations": [
+     "/page/4/Text/10"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the potential call-up, and Havlick asked about the Shanahan Ridge loop Skip route.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the Wonderland Creek Trail connection permit.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7.A.1",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "title": "WONDERLAND CREEK TRAIL CONNECTION, WONDERLAND CREEK, SOUTH OF ELKS CLUB – FLOODPLAIN DEVELOPMENT PERMIT. WIP DATE: 7/24/03, LAST OPPORTUNITY FOR CALL-UP: AUG. 5, 2003, STAFF APPROVAL.",
+    "title_citations": [
+     "/page/4/ListGroup/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item",
+    "outcome_summary_citations": [
+     "/page/5/Text/0"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard comments from Lynn Segal and Rick Woodsome on CU matters.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to invite the CU Regents to an initial dialogue failed 2 4; Corson, Poinsatte, Riggle and Ruzzin opposed; Eldridge and Toor absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned at 9:59 P.M. by motion regularly adopted.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Ruzzin to approve consent items 3A through 3G",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by": "Ruzzin",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "The motion carried 5 0, Eldridge, Morzel and Toor absent",
+    "vote_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Morzel",
+     "Toor"
+    ]
+   },
+   {
+    "agenda_item_number": "4.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Morzel moved, seconded by Corson to adopt Ordinance No. 7299 amending Chapter 5-8, \"Weapons,\" B.R.C. 1981, to conform to changes in state law, allow the city manager to prohibit deadly weapons in city buildings, and repeal provisions concerning concealed weapons permits.",
+    "motion_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7299"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "vote_text": "The motion carried 6:0, Eldridge and Toor absent",
+    "vote_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Toor"
+    ]
+   },
+   {
+    "agenda_item_number": "4.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Corson moved, seconded by Riggie, to implement the last best offer by the City to IAFF Local 900.",
+    "motion_text_citations": [
+     "/page/3/Text/8"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/3/Text/8"
+    ],
+    "seconded_by": "Riggie",
+    "seconded_by_citations": [
+     "/page/3/Text/8"
+    ],
+    "vote_text": "The motion carried 6 0; Eldridge and Toor absent.",
+    "vote_text_citations": [
+     "/page/3/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Toor"
+    ]
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Havlick moved, seconded by Morzel to invite the CU Regents to participate in an initial dialogue with hopes of re-establishing regular interactions.",
+    "motion_text_citations": [
+     "/page/4/Text/8"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/4/Text/8"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/8"
+    ],
+    "vote_text": "The motion failed 2 4; Corson, Poinsatte, Riggle and Ruzzin opposed; Eldridge and Toor absent",
+    "vote_text_citations": [
+     "/page/5/Text/6"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/5/Text/6"
+    ],
+    "yes_count": 2,
+    "yes_count_citations": [],
+    "no_count": 4,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Corson",
+     "Poinsatte",
+     "Riggle",
+     "Ruzzin"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Toor"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:59 P.M..",
+    "motion_text_citations": [
+     "/page/5/Text/8"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Acting Mayor",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Moizel",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note": "arrived at 7:10 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ]
+ }
+}

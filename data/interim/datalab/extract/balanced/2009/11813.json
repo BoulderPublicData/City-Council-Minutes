@@ -1,0 +1,1944 @@
+{
+ "entry_id": 11813,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "R7gmqMpHQBR9yjzhVIO86w",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 31.0
+ },
+ "extraction": {
+  "meeting_date": "2009-02-03",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the extracted meeting date. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is identified as regular at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:05 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:03 A.M.",
+  "adjourned_time_citations": [
+   "/page/9/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/9/Text/1. Conclusion: the value at /page/9/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "McGrath",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The presiding officer is identified at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "Washington Village II Site Review #LUR2008-00083: Redevelopment of the existing Washington Elementary School Site as a mixed-use co-housing community consisting of 33 dwelling units, approximately 2,950 square feet of commercial/office space, and accessory co-housing facilities on the three-acre site zoned both Residential High Density – 2 (RH-2) and Residential Low Density – 1 (RL -1). The applicant also requests vested rights pursuant to Section 9-2-19, B.R.C. 1981. WIP date: January 28, 2009. Last opportunity for call up is February 8, 2009. Approved with conditions (4-1, E. Jones opposed, A. Sopher recused, A. Shoemaker absent) – 10:20 pm"
+  ],
+  "call_up_items_citations": [
+   "/page/7/Text/3"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/7/Text/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item is stated at /page/7/Text/3. Conclusion: the value at /page/7/Text/3 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one call-up item, shown at /page/7/Text/3, and the extraction contains that item. Conclusion: the value at /page/7/Text/3 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor McGrath called the regular February 3, 2009 meeting of the Boulder City Council to order at 6:05 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "Council discussion regarding revised agenda.",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion failed 3:6, Ageton, Espinoza and Wilson in support.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The Mayor indicated that public participation would re-open at the conclusion of item 5B and that item 8A-1 (the potential call-up of the use and site review for Washington Village) would then be addressed by council prior to other matters.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/6"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/2/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/6"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM JANUARY 13, 2009.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO RATIFY COUNCIL REGIONAL COMMITTEE APPOINTMENTS AND OTHER ASSIGNMENTS FOR 2009.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was rescheduled for February 17 to address vacancies created by the resignation of Shaun McGrath.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE FINDINGS OF FACT AND CONCLUSIONS OF LAW FOR THE DENIAL OF THE SITE REVIEW APPLICATION FOR THE 1580 CANYON BOULEVARD PROJECT.",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Members Espinoza and Wilson voted in opposition to this item.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7638, APPROVING CERTAIN BENEFIT CHANGES AND TAX COMPLIANCE AMENDMENTS CONTINGENT UPON FIRE AND POLICE PENSION ASSOCIATION (FPPA) APPROVAL AND REQUESTING FPPA APPROVAL OF THE CHANGES TO THE CITY OF BOULDER “OLD HIRE” FIRE DEFINED BENEFIT PLAN (OHFDBP).",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7638"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO.7639 TO ESTABLISH A BUSINESS INCENTIVE REBATE PROGRAM BY AMENDING CHAPTERS 3-2, “SALES AND USE TAX,” 3-8, “DEVELOPMENT EXCISE TAX,” AND 4-20, “FEES,” B.R.C. 1981 AUTHORIZING THE CITY MANAGER TO GRANT TAX AND FEE REBATES TO PROMOTE ECONOMIC VITALITY AND TO MAKE RULES RELATED THERETO AS PART OF A BUSINESS INCENTIVE PROGRAM, INCLUDING A PROPOSED BUSINESS MICROLOAN PROGRAM AND THE ONGOING PARKS AND RECREATION EMPLOYEE DISCOUNT PROGRAM.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7639"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE DESIGNATING THE BUILDING AND SITE AT 896 17 TH STREET, TO BE KNOWN ALSO AS THE HAMPTON-BARNES HOUSE, AS AN INDIVIDUAL LANDMARK UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF MOTION TO PUBLISH BY TITLE ONLY AN ORDINANCE TO PERMIT USEABLE OPEN SPACE AND PARKING WITHIN THE PUBLIC RIGHTS-OF-WAY TO BE INCLUDED IN THE SITE ZONING CALCULATIONS FOR THE PURPOSE OF PERMITTING THE PROPOSED DENSITY FOR THE BOULDER MOBILE MANOR PROJECT LOCATED AT 2637 VALMONT ROAD WITHIN THE RH-4 (HIGH DENSITY RESIDENTIAL) ZONING DISTRICT. THE ORDINANCE IS REQUESTED AS A RESULT OF THE REQUIRED DEDICATION OF PUBLIC RIGHTS-OF-WAY THROUGH THE PROPERTY CONNECTING VALMONT ROAD WITH ARNETT ROAD.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray indicated an interest in calling up the Washington Village site review.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7640 DESIGNATING THE BUILDING AND A PORTION OF THE SITE AT 1777 BROADWAY STREET, TO BE KNOWN ALSO AS THE MUNICIPAL BUILDING, AS AN INDIVIDUAL LANDMARK UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE.",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7640"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Abby Daniels",
+      "name_citations": [
+       "/page/3/ListGroup/10"
+      ],
+      "position": "for",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ]
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO PROVIDE DIRECTION TO STAFF ON NEXT STEPS IN PLANNING FOR THE POTENTIAL REVITALIZATION OF THE UNIVERSITY HILL BUSINESS DISTRICT.",
+    "title_citations": [
+     "/page/3/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Nicholas Nagle",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nick Johansson",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eva Hueber",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Jane Stoyva",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tracey Jennings",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Mary Street",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Natalie Smithson",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bill Shrum",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Elizabeth Allen",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Miller",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Ron Roschke",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tim Plass",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Wesley Robison",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Zane Blackmer",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "title": "GRANDVIEW UPDATE",
+    "title_citations": [
+     "/page/6/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Brautigam reviewed the correspondence that had taken place to date with CU regarding the proposed building on Grandview.",
+    "outcome_summary_citations": [
+     "/page/6/Text/4"
+    ]
+   },
+   {
+    "item_number": "6.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "title": "UPDATE ON FEDERAL LOBBYING EFFORTS, BILLS INTRODUCED IN THE COLORADO GENERAL ASSEMBLY AND CONSIDERATION OF AMENDMENTS TO THE CITY’S 2009 STATE AND FEDERAL LEGISLATIVE AGENDA.",
+    "title_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/6/Text/5"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/Text/0"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/7/Text/0"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - None.",
+    "title_citations": [
+     "/page/7/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/7/Text/0"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.1",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "title": "Washington Village II Site Review #LUR2008-00083: Redevelopment of the existing Washington Elementary School Site as a mixed-use co-housing community consisting of 33 dwelling units, approximately 2,950 square feet of commercial/office space, and accessory co-housing facilities on the three-acre site zoned both Residential High Density – 2 (RH-2) and Residential Low Density – 1 (RL -1). The applicant also requests vested rights pursuant to Section 9-2-19, B.R.C. 1981. WIP date: January 28, 2009. Last opportunity for call up is February 8, 2009. Approved with conditions (4-1, E. Jones opposed, A. Sopher recused, A. Shoemaker absent)",
+    "title_citations": [
+     "/page/7/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 5:4; Ageton, Espinoza, McGrath and Wilson opposed.",
+    "outcome_summary_citations": [
+     "/page/7/Text/11"
+    ]
+   },
+   {
+    "item_number": "8.C",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO CALL A SPECIAL COUNCIL MEETING AT 5:00 P.M. ON MARCH 10, 2009 TO MAKE FORMAL BOARDS AND COMMISSIONS APPOINTMENTS.",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: None",
+    "title_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/8/ListGroup/3"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Action on motions made under Matters.",
+    "outcome_summary_citations": [
+     "/page/8/ListGroup/3"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "section": "ITEMS RELATING TO THE MAYOR",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "ITEMS RELATING TO THE MAYOR",
+    "title_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11.A",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE MAYOR",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "Formal resignation of the Mayor",
+    "title_citations": [
+     "/page/8/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor McGrath said a few parting words as he formally resigned from the Boulder City Council to take a position as part of President Obama’s team in Washington D.C.",
+    "outcome_summary_citations": [
+     "/page/8/Text/8"
+    ]
+   },
+   {
+    "item_number": "11.B",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE MAYOR",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "Appointment of Mayor and Deputy Mayor",
+    "title_citations": [
+     "/page/8/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Appelbaum was elected to serve as Mayor through the term that expires November of 2009.",
+    "outcome_summary_citations": [
+     "/page/8/Text/16"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/9/Text/1"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/9/SectionHeader/0"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/9/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 12:03 A.M.",
+    "outcome_summary_citations": [
+     "/page/9/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Wilson moved, seconded by Ageton, to remove item 11B from the agenda and bring it back on February 17.",
+    "motion_text_citations": [
+     "/page/0/Text/5"
+    ],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/0/Text/5"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/0/Text/5"
+    ],
+    "vote_text": "The motion failed 3:6, Ageton, Espinoza and Wilson in support.",
+    "vote_text_citations": [
+     "/page/0/Text/5"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/0/Text/5"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/0/Text/5"
+    ],
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/0/Text/5"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Ageton",
+     "Espinoza",
+     "Wilson"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Morzel to approve consent agenda items 3A and 3C through 3G with item 3B pulled to allow appointments to positions vacated by Mayor McGrath to come back at the next meeting.",
+    "motion_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7638",
+     "7639"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "vote_text": "The motion carried 9:0 with council members Espinoza and Wilson opposed to item 3C.",
+    "vote_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Osborne, to adopt Ordinance No. 7640 designating the building and a portion of the site at 1777 Broadway Street, to be known also as the Municipal Building, as an individual landmark under the city of Boulder Historic Preservation Code.",
+    "motion_text_citations": [
+     "/page/3/Text/13"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7640"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/3/Text/13"
+    ],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [
+     "/page/3/Text/13"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/3/Text/13"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/13"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/13"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Appelbaum to approve the staff recommended motion on page 2 of the agenda memo as follows: Motion directing staff to move forward on planning for the revitalization of the Uni-Hill Business District as follows: A. Initiate a short-term effort to be completed by June 2009: 1. Refine the draft problem statement, goals and objectives (see page 15 for initial draft) based on Planning Board's December 18, 2008 feedback and City Council's feedback February 3, 2009 to provide direction for the work plan in item 4 below. 2. Continue with the work underway to address use/alcohol issues (scheduled for an April 2009 City Council study session). 3. Make minor changes to the Land Use Code for presentation to Planning Board for recommendation and City Council for action including: • Exempt all below grade space from the Floor Area Ratio (FAR) calculations (currently 50 % of habitable below grade space is calculated in the allowable FAR). • Consider minor changes to the Business Main Street (BMS) zone and the University Hill General Improvement District (UHGID) boundary 4. Prepare a work plan and schedule for a comprehensive revitalization strategy for direction from Planning Board and City Council, that includes those key issues identified by Planning Board, listed on page 3 of this memo. This would require consulting with the New Hill Company and other stakeholders. B. Initiate development of a comprehensive revitalization strategy, process and schedule, as developed in item d-4 above (to be initiated in 2010).",
+    "motion_text_citations": [],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton offered a friendly amendment to amend the recommendation to state no later than 2010.",
+    "motion_text_citations": [
+     "/page/5/Text/4"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/5/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/5/Text/4"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The friendly amendment was accepted.",
+    "vote_text_citations": [
+     "/page/5/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Morzel to suspend the rules and continue the meeting at 11:05 p.m.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Espinoza to amend the city’s 2009 State and Federal Legislative Agenda as outlined in attachment B of the staff memo.",
+    "motion_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "seconded_by": "Espinoza",
+    "seconded_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.A.1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Morzel to call-up the Washington Village II Site Review.",
+    "motion_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "vote_text": "The motion carried 5:4; Ageton, Espinoza, McGrath and Wilson opposed.",
+    "vote_text_citations": [
+     "/page/7/Text/11"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/7/Text/4"
+    ],
+    "no_count": 4,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Espinoza",
+     "McGrath",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Appelbaum to call a special meeting on March 10 at 5:00 p.m. to make formal Boards and Commissions appointments.",
+    "motion_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Appelbaum to suspend the rules and continue the meeting at 11:30 p.m.",
+    "motion_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/8/Text/2"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/8/Text/2"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/8/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Cowles to open the nominations for Mayor.",
+    "motion_text_citations": [
+     "/page/8/Text/10"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/8/Text/10"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/8/Text/10"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/8/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/8/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Deputy Mayor Gray nominated Matt Appelbaum for Mayor.",
+    "motion_text_citations": [
+     "/page/8/Text/12"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/8/Text/14"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Votes for Matt Appelbaum - 5 ( Appelbaum Cowles, Gray, Morzel, and Osborne).",
+    "vote_text_citations": [
+     "/page/8/Text/14"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/8/Text/14"
+    ],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Appelbaum",
+     "Cowles",
+     "Gray",
+     "Morzel",
+     "Osborne"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton nominated Ken Wilson for Mayor.",
+    "motion_text_citations": [
+     "/page/8/Text/12"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/8/Text/12"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Vote for Ken Wilson - 3 (Wilson, Ageton and Espinoza)",
+    "vote_text_citations": [
+     "/page/8/Text/15"
+    ],
+    "result": "failed",
+    "result_citations": [],
+    "yes_count": 3,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Wilson",
+     "Ageton",
+     "Espinoza"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/9/Text/1"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 12:03 A.M.",
+    "motion_text_citations": [
+     "/page/9/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 12:03 A.M.",
+    "vote_text_citations": [
+     "/page/9/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "McGrath",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Espinoza",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Rick Levine",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "spoke in support of consent agenda item 3E the Business Incentive Rebate program.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Stacey Denton",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "spoke to the increased number of assaults on the Boulder Creek Path. She urged caution to the general public against providing money to transients.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Arthur Okner",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "urged council not to call-up the Washington Village site review.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Ann Carson",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "voiced support of the Washington Village project. She asked council not to call-up this site review.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Mary Young",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "acknowledged that the Washington Village project was better but requested council call-up of the item. She addressed specific concerns relating to parking and the retention pond location.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Carl Worthington",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "asked council not call-up the Washington Village project.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Bette Hadler",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "expressed appreciation for the community process around the Washington Village project but resptfully indicated it was time to let the current proposal move forward.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Diane Dvorin",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "spoke in support of the Washington Village proposal and urged council not to call-up this item.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "topic": "wished the very best for Shaun McGrath moving to Washington D.C. He expressed concern that everything is for sale for the right price.",
+    "topic_citations": [
+     "/page/0/ListGroup/9"
+    ]
+   },
+   {
+    "name": "Robert Sharpe",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke to the visual impact of development within the current compatible development standards.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Stephen Vosper",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "requested that council not call-up the revised site review.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Steven Toot",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "asked council to not call-up the new site review.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Stacey Balcom",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "reminded council they are still under citizen arrest for illegal conduct of the Boulder Creek Festival.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jerry Allen",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke to his concern regarding the safety issues from the denied access through Vista Village to the Valmont Park site.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Michael Hibner",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "wished the mayor well and then requested council call-up the Washington Village item.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Geof Cahoon",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "also urged call-up of the Washington Village item and noted the importance of council appointing new Planning Board members with a broader sense of community values.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Kevin Cook",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke to the blocked access in Vista Village and to Thunderbird Lake. He suggested using the funds identified for the lake to litigate re-opening the fence (attachment).",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Cara Priem",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke to a Martin Acres proposal for a special street design painting project and asked for council support.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Henry Kroll",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "urged council not to call-up the Washington Village project but allow this thoughtful project to move forward.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Mikkie Rainey",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "asked where was the accountability? He expressed disappointment in Boulder's development process and urged council to call-up the Washington site review.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Teresa Mann",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "expressed concern regarding parking impacts from Washington Village and requested that council call-up the site review.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Robert Poeschl",
+    "name_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "topic": "expressed that due to process concerns, he felt council should call-up the Washington Village site review.",
+    "topic_citations": [
+     "/page/5/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Elizabeth Allen",
+    "name_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "topic": "spoke to Vista Village, indicating that she disagreed with the staff recommendation. She urged council to direct staff to pursue re-opening the Vista Village access.",
+    "topic_citations": [
+     "/page/5/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "topic": "spoke regarding Washington Village expressing that the Recommendation Group's charge. was not met. She asked council to call-up the site review.",
+    "topic_citations": [
+     "/page/5/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Jim Leach",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "addressed the process issues raised by previous speakers.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Tanya Petty",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "addressed safety concerns such as people who were climbing over the fence after dropping their dogs or bikes over the fence first.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Elizabeth Petty",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "asked the council to find a way to re-open the fence.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "John Gless",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "expressed that he regretted coming to ask council to call-up the Washington Village site review. He had hoped this could have been avoided. However, given concerns relating to parking issues and the retention pond, he felt it was critical to have council call-up the site review for Washington Village.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Libby Brown",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "indicated the reason for meeting after meeting after meeting was because the developer had yet to come forward with an acceptable plan. She urged council call-up.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Debra Ordway",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "wished the Mayor luck in his new position in Washington and voiced her conviction that the next Mayor would also be an advocate for the community.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Fred Rubin",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "indicated the Planning Board failed their purpose in 2007 and again this past January. He asked council to call-up the Planning Board decision. He noted the charge to the R.G. had not been fulfilled.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Chris Halteman",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "noted that speakers who support the project should not take the credit for a better design as it only happened through the citizen petition process. The proposed location for the retaining pond was not safe and should be addressed.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Mike Barrow",
+    "name_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "topic": "thanked council for its work and congratulated the Mayor on his new job.",
+    "topic_citations": [
+     "/page/6/ListGroup/0"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

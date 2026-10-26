@@ -1,0 +1,3940 @@
+{
+ "entry_id": 126875,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "aNtb3X-N4x4ysPmjxTzTfA",
+ "page_count": 16,
+ "cost_breakdown": {
+  "final_cost_cents": 40.0
+ },
+ "extraction": {
+  "meeting_date": "2014-10-21",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in block /page/0/SectionHeader/0.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in block /page/0/SectionHeader/0 identifies the proceedings.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [],
+   "verification": {
+    "status": "FAIL_CITATIONS",
+    "feedback": "The heading in block /page/0/SectionHeader/0 does not identify the meeting as regular, special, study session, retreat, joint, continued, adjourned, or executive session; “other” is supported, but the extraction cites no block.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction; the citations are wrong or insufficient."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was held in Council Chambers.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:06 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was called to order at 6:06 PM.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "1:59 PM",
+  "adjourned_time_citations": [
+   "/page/15/Text/4"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/15/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/15/Text/4 states that the meeting was adjourned at 1:59 PM.\nConclusion: the value at /page/15/Text/4 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 identifies Mayor Appelbaum as the person who called the meeting to order.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "LAND USE REVIEW FOR 1750 13TH STREET FOR A FOUR STORY, 52 FOOT TALL, MIXED USE BUILDING WITHIN THE DOWNTOWN (DT-5) ZONING DISTRICT. BOARD VOTE 6-1 (PAYTON OPPOSED). IN DATE: OCTOBER 2. LAST OPPORTUNITY FOR CALL: 14 OCTOBER."
+  ],
+  "call_up_items_citations": [
+   "/page/13/Text/0"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/13/Text/0"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "Block /page/13/Text/0 contains the extracted call-up item, including the land use review, building description, board vote, date, and last opportunity for call.\nConclusion: the value at /page/13/Text/0 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one call-up item, and the extraction contains that one item from block /page/13/Text/0.\nConclusion: the value at /page/13/Text/0 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Greg Wilkerson",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "Asked that Council commission a survey of Boulder citizens regarding the target population for the city at large. He proposed a target population of 120,000 by the year 2100.",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "John Herofort",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "Thanked the Council for their work on the electric assist bicycle pilot and in favor of removing the sunset date.",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Carl Norby",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "Spoke about the environmental problems caused by leaking wastewater pipes. He was primarily concerned about the rising water table. He presented Council with a letter signed by citizens living in Brasier Meadows supporting the views he presented.",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Patricia Multhaul",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "Thanked Council for increasing the utility budget in 2015 to continue flood recovery efforts. She echoed Mr. Norby's concerns regarding ground and wastewater.",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/Text/8"
+    ],
+    "motion_text": "Court Member Never moved, seconded by Court Member. Motion to approve House Agenda Items 8A thru 3C. Bill Item 34 amended.",
+    "motion_text_citations": [
+     "/page/1/Text/8"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Never",
+    "moved_by_citations": [
+     "/page/1/Text/8"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 3/0.",
+    "vote_text_citations": [
+     "/page/1/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/1/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/6/Text/2"
+    ],
+    "motion_text": "Motion Pass moved, seconded by Council Member Morzel to adopt Ordinance No. 8001 that adopted a change for the city of Boulder, Colorado, for the fiscal year, commencing on the first day of January 2016 and ending on the last day of December 2016; Ordinance No. 8002 that established the 2012 City of Boulder Project/ New Mill Lanes; Ordinance No. 8003 that authorizes money to defray expenses and liabilities for the 2013 fiscal year; and Ordinance No. 8004, which sets certain fees.",
+    "motion_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8001",
+     "8002",
+     "8003",
+     "8004"
+    ],
+    "moved_by": "Pass",
+    "moved_by_citations": [
+     "/page/6/Text/2"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/6/Text/2"
+    ],
+    "vote_text": "The motion carried 9/4.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 4,
+    "no_count_citations": [
+     "/page/6/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/6/Text/8"
+    ],
+    "motion_text": "Council Member Jones moved, seconded by Council Member Karakohian to approve Resolution Nos. 267, 268 and 269 relating to the adoption of the CACD Initiative for 2015.",
+    "motion_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/6/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 267",
+     "Res. 268",
+     "Res. 269"
+    ],
+    "moved_by": "Jones",
+    "moved_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "seconded_by": "Karakohian",
+    "seconded_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "vote_text": "The motion carried 9/4.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/8"
+    ],
+    "no_count": 4,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/7/Text/1"
+    ],
+    "motion_text": "Council Member Weaver moved, seconded by Council Member Young to approve Resolution Nos. 192, 193 and 194 relating to the adoption of the UACID budget for 2015.",
+    "motion_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 192",
+     "Res. 193",
+     "Res. 194"
+    ],
+    "moved_by": "Weaver",
+    "moved_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "seconded_by": "Young",
+    "seconded_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "vote_text": "The motion carried 20.",
+    "vote_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [
+     "/page/7/Text/6"
+    ],
+    "motion_text": "Council Member Young moved, seconded by Council Member Press to approve Resolution No. 138 relating to the adoption of the Boulder Municipal Property Authority budget for 2015.",
+    "motion_text_citations": [
+     "/page/7/Text/2"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 138"
+    ],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/7/Text/2"
+    ],
+    "seconded_by": "Press",
+    "seconded_by_citations": [
+     "/page/7/Text/2"
+    ],
+    "vote_text": "The motion carried 20.",
+    "vote_text_citations": [
+     "/page/7/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/7/Text/3"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Jones to approve Resolution Nos. 46, 47 and 48 relating to the adoption of the Boulder Forest Glen Transit Pass General Improvement District budget for 2015.",
+    "motion_text_citations": [
+     "/page/7/Text/3"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 46",
+     "Res. 47",
+     "Res. 48"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/7/Text/3"
+    ],
+    "seconded_by": "Jones",
+    "seconded_by_citations": [
+     "/page/7/Text/3"
+    ],
+    "vote_text": "The motion carried 90.",
+    "vote_text_citations": [
+     "/page/7/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/7/Text/4"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Morzel to approve Resolution Nos. 11, 12 and 13 relating to the adoption of the Boulder Junction Access Commission Parking Fund budget for 2015.",
+    "motion_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 11",
+     "Res. 12",
+     "Res. 13"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "vote_text": "The motion carried 20.",
+    "vote_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Shoemaker moved, seconded by Council Member Weaver to approve Resolution Nos. 11, 12 and 13 relating to the adoption of the Boulder Junction Access District Travel Demand Management budget for 2015.",
+    "motion_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 11",
+     "Res. 12",
+     "Res. 13"
+    ],
+    "moved_by": "Shoemaker",
+    "moved_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "seconded_by": "Weaver",
+    "seconded_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "vote_text": "The motion carried 10.",
+    "vote_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Plass moved, seconded by Council Member Morze, to adopt the memorandum and its findings and to deny the application for the demolition of the contributing accessory building finding that it would have a damaging effect on the property within the Mapleton Hill Historic District per Section 9-11-18(b)(1)(A) BRC 98. Approves with conditions an Alteration certificate for the construction of a rear deck, porch, and fence. Finding the proposal meets the standards for the issuance of a Landmark Alteration Certificate in Section 2-1-3.4.R.C. and Conditions of Approval 1. The applicant shall: a. Reconstruct the demolished accessory building in its original location based upon photographic evidence; b. Remove a sufficient amount of the current hardscape such that no more than 50% of the hardscape as defined as the area between the back plane of the home and the front of the alley is covered by hardscape; c. Remove the fire pit, retaining walls and plan for retaining walls; d. Revise fence design to a maximum height of 7'0\"; • Submission/Review by Design Review Committee materials, color and pattern mapping. 2. The applicant shall submit the details for the work as described above. These design details shall be reviewed (and approved) by the Landmarks Design Review Committee prior to the issuance of a building permit. The applicant shall demonstrate that the design details are in compliance with the intent of this approval and the Mapleton Hill Historic District Design Guidelines and the General Design Guidelines . 3. The applicant shall be responsible for completing the work as shown on plans that have been approved.",
+    "motion_text_citations": [],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Plass",
+    "moved_by_citations": [],
+    "seconded_by": "Morze",
+    "seconded_by_citations": [
+     "/page/9/Text/4"
+    ],
+    "vote_text": "The motion carried 8-0, with Council Member Karikerian recused.",
+    "vote_text_citations": [
+     "/page/12/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Karikerian"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel offered a friendly amendment, which was accepted by Council Member Glass, to require all work to be completed by a date approved by staff.",
+    "motion_text_citations": [
+     "/page/10/Text/9"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/10/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/10/Text/9"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Weaver offered a friendly amendment, which was accepted by Council. Members Plass and Morzel, to allow the fence height up to a maximum height of 5'6\".",
+    "motion_text_citations": [
+     "/page/11/Text/0"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/11/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Weaver",
+    "moved_by_citations": [
+     "/page/11/Text/0"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Young offered a friendly amendment to require the deck be reduced to the original 88 square feet approved.",
+    "motion_text_citations": [
+     "/page/11/Text/4"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/11/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/11/Text/4"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "withdrawn",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "He offered a friendly amendment that required the concrete be replaced with pavers and sand so the surface would no longer be impervious.",
+    "motion_text_citations": [
+     "/page/11/Text/9"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/11/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/11/Text/9"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "withdrawn",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Apselbaum moved, seconded by Council Member Morzel, to suspend the rules and continue the meeting.",
+    "motion_text_citations": [
+     "/page/11/Text/10"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Apselbaum",
+    "moved_by_citations": [
+     "/page/11/Text/10"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/11/Text/10"
+    ],
+    "vote_text": "The motion carried 3-0, with Council Member Karakshian absent.",
+    "vote_text_citations": [
+     "/page/11/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/11/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/11/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Karakshian"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/12/Text/12"
+    ],
+    "motion_text": "Council Member Shoemaker moved, seconded by Mayor Appelbaum, to direct the City Manager to negotiate a contract for June 2015 in 2015 and 2016.",
+    "motion_text_citations": [
+     "/page/12/Text/12"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Shoemaker",
+    "moved_by_citations": [
+     "/page/12/Text/12"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/12/Text/12"
+    ],
+    "vote_text": "The motion carried 9-0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/12/Text/12"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/13/Text/3"
+    ],
+    "motion_text": "Mayor Appellaum moved, seconded by Council Member Cowles, to appoint a 2 member sub-committee to conduct a peer review of compensation to the 3 Council employees.",
+    "motion_text_citations": [
+     "/page/13/Text/3"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appellaum",
+    "moved_by_citations": [
+     "/page/13/Text/3"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/13/Text/3"
+    ],
+    "vote_text": "The motion passed 9-0.",
+    "vote_text_citations": [
+     "/page/14/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "II",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Appellaum moved, seconded by Council Member Karakahan, to ratify the Board and Commission appointments.",
+    "motion_text_citations": [
+     "/page/13/Text/13"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/13/Text/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appellaum",
+    "moved_by_citations": [
+     "/page/13/Text/13"
+    ],
+    "seconded_by": "Karakahan",
+    "seconded_by_citations": [
+     "/page/13/Text/13"
+    ],
+    "vote_text": "The motion carried 9-0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "III",
+    "agenda_item_number_citations": [
+     "/page/13/SectionHeader/14"
+    ],
+    "motion_text": "Council Member Morzel moved, seconded by Council Member Plass, to support Council Member Morzel's request to propose a motion to the Rocky Plains Stewardship Council requesting the Department of Fish and Wildlife to hold the proposed controlled hunt.",
+    "motion_text_citations": [
+     "/page/14/Text/12"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/14/Text/12"
+    ],
+    "seconded_by": "Plass",
+    "seconded_by_citations": [
+     "/page/14/Text/12"
+    ],
+    "vote_text": "The motion carried 9-0.",
+    "vote_text_citations": [
+     "/page/14/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/14/Text/12"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/14/Text/12"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/14/Text/5"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Morzel, to authorize the City Manager to sign a Memorandum of Understanding and legal sponsorship agreement formalizing the existence of a regional group known as \"Making Local Foods Work.\"",
+    "motion_text_citations": [
+     "/page/14/Text/5"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/14/Text/5"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/14/Text/5"
+    ],
+    "vote_text": "The motion carried 9-0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/15/SectionHeader/3"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on October 21, 2014 at 1:59 PM.",
+    "motion_text_citations": [
+     "/page/15/Text/4"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/15/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/14/Text/10"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the October 21, 2014 City Council meeting to order at 6:06 PM in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "Report from Fire and Police on Mobile Home Fire",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Police Chief Greg Festa and Interim Fire Chief Michael Calderazzo gave an update to Council regarding the response to a recent mobile home fire in Boulder Meadows.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/Text/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "Consideration of a motion to accept the study session summary on the a proposal to ban smoking on all city properties from September 23, 2014",
+    "title_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/Text/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, AN ORDINANCE TO REMOVE THE PROPERTY LOCATED AT 1400 SINE ROAD, FROM INDUSTRIAL - GENERAL TO BUSINESS COMMUNITY, CONSISTENT WITH THE BOULDER VALLEY COMPREHENSIVE PLAN AND THE DESIGNATION OF COMMUNITY DISTRICTS",
+    "title_citations": [
+     "/page/1/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, THE FOLLOWING ORDINANCES:",
+    "title_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/1/Text/2"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "AN ORDINANCE AMENDING TITLE 9 \"LAND USE CODE\" I.R.C. 1981, TO (1) SIMPLIFY VARIOUS VEHICLE PARKING STANDARDS AND REDUCE QUANTITATIVE REQUIREMENTS FOR WAREHOUSES, STORAGE FACILITIES, AND AIRPORTS AND (2) CREATE NEW LAND USE- BASED BICYCLE PARKING STANDARDS, ETC.",
+    "title_citations": [
+     "/page/1/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "AN ORDINANCE AMENDING THE DESIGN AND CONSTRUCTION STANDARDS (DCS) RELATED TO BICYCLE PARKING ETC. STANDARDS",
+    "title_citations": [
+     "/page/1/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/Text/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO PUBLISHED BY TITLE ONLY, AN ORDINANCE TO REMOVE THE SUNSET PROVISION TO ORDINANCE NO. 1941 ALLOWING ELECTRIC ASSISTED BICYCLES ON CERTAIN HARD-SURFACED, MULTI-USE PATHS, BUT EXCLUDING THOSE ON OPEN SPACE AND MOUNTAIN PARK PROPERTY",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1941"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/Text/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, AN ORDINANCE VACATING AND AUTHORIZING THE CITY MANAGER TO EXECUTE A DEED OF VACATION FOR FOUR SIDEWALK EASEMENTS AND ONE PUBLIC ROADWAY EASEMENT AT 18 TH KNEE CANYON (LUR2014-0075)",
+    "title_citations": [
+     "/page/1/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/Text/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, AN ORDINANCE DESIGNATING THE BUILDING AND PROPERTY AT 1919 14 TH ST., TO BE KNOWN AS THE COLORADO BUILDING, AS AN INDIVIDUAL LANDMARK UNDER THE CITY'S HISTORIC PRESERVATION ORDINANCE OWNERSHIP AT 1919 14 TH STREET, L.L.C.",
+    "title_citations": [
+     "/page/1/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/Text/7"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE PROPOSED 2015 BRIDGE OPERATING PLAN AND BOARD NOMINATIONS FOR THE DOWNTOWN BOULDER BUSINESS IMPROVEMENT DISTRICT (BBD)",
+    "title_citations": [
+     "/page/1/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 3/0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "POTENTIAL CAJ. UP-CHECK",
+    "section_citations": [
+     "/page/1/Text/9"
+    ],
+    "title": "POTENTIAL CAJ. UP-CHECK",
+    "title_citations": [
+     "/page/1/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up Item 8A.C.",
+    "outcome_summary_citations": [
+     "/page/1/Text/10"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "PUBLIC HEARING.",
+    "title_citations": [
+     "/page/2/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF THE FOLLOWING ITEMS RELATING TO THE 2015 BUDGET:",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8001",
+     "8002",
+     "8003",
+     "8004"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/Text/3"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "PUBLIC HEARING ON THE PROPOSED 2015 CITY OF BOULDER BUDGET; AND",
+    "title_citations": [
+     "/page/2/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 8001 THAT ADOPTS A BUDGET FOR THE CITY OF BOULDER, COLORADO, FOR THE FISCAL YEAR COMMENCING ON THE FIRST DAY OF JANUARY 2015 AND ENDING ON THE LAST DAY OF DECEMBER 2015, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/2/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8001"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/5"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 8002 THAT ESTABLISHES THE 2014 CITY OF BOULDER PROPERTY TAX TITLE LEVELS WHICH ARE TO BE COLLECTED BY THE COUNTY OF BOULDER, STATE OF COLORADO, WITHIN THE CITY OF BOULDER IN 2015 FOR PAYMENT OF EXPENDITURES BY THE CITY OF BOULDER, COUNTY OF BOULDER, STATE OF COLORADO, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/2/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8002"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 8003 THAT APPROPRIATES MONEY IT DEBAY EXPENSES AND LIEN TITLE OF THE CITY OF BOULDER, COLORADO, FOR THE 2015 FISCAL YEAR OF THE CITY OF BOULDER, COMMENCING ON THE FIRST DAY OF JANUARY 2014, AND ENDING ON THE LAST DAY OF DECEMBER 2014, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/2/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8003"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 8004 THAT AMENDS CHAPTERS 8-1 AND 4-10 OF THE P.R.C. 2011 CHANGES CERTAIN FEES, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/2/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8004"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT THREE RESOLUTIONS PERTAINING TO THE 2015 BUDGET OF THE CITY OF BOULDER TOWNTOWN COMMERCIAL DISTRICT FUND (COMMONLY KNOWN AS THE CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FUND).",
+    "title_citations": [
+     "/page/2/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 267",
+     "Res. 268",
+     "Res. 269"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/Text/10"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION CONGRUING THE CITY OF BOULDER TOWNTOWN COMMERCIAL DISTRICT FUND (COMMONLY KNOWN AS THE CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FUND), ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2015, AND",
+    "title_citations": [
+     "/page/2/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/Text/0"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2014 CITY OF BOULDER CENTRAL HILL GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE 2013 FISCAL YEAR, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/3/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFER THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER TOWN-TOWN COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE CENTRAL HILL GENERAL IMPROVEMENT DISTRICT FUND) FOR THE 2013 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/3/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9/4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/3/Text/3"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT THREE RESOLUTIONS PERTAINING TO THE 2013 BUDGET OF THE CITY OF BOULDER UNIVERSITY HILL COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FUND).",
+    "title_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 192",
+     "Res. 193",
+     "Res. 194"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/Text/4"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER UNIVERSITY HILL COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FUND) ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2013; AND",
+    "title_citations": [
+     "/page/3/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/Text/5"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2014 CITY OF BOULDER UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE 2013 FISCAL YEAR, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/3/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/Text/6"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFER THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER UNIVERSITY HILL COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE UNIVERSITY HILL COMMERCIAL DISTRICT FUND) FOR THE 2013 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/3/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_closed_time": "8:25 PM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Shaur Oslman",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Tim Men",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Betty Ardes",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Nino Vallo",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christine Rendel",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shella Horton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gordon",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [
+     "/page/3/Text/8"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION FORMALLY ADOPTING THE 2013 BUDGET FOR THE BOULDER MUNICIPAL PROPERTY AUTHORITY, AND",
+    "title_citations": [
+     "/page/3/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 138"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/Text/0"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT THREE RESOLUTIONS PERTAINING TO THE 2015 BUDGET OF THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT FUND:",
+    "title_citations": [
+     "/page/4/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 46",
+     "Res. 47",
+     "Res. 48"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 90.",
+    "outcome_summary_citations": [
+     "/page/7/Text/3"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/Text/1"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2015; AND",
+    "title_citations": [
+     "/page/4/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 90.",
+    "outcome_summary_citations": [
+     "/page/7/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/Text/2"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2014 CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE 2015 FISCAL YEAR, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/4/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 90.",
+    "outcome_summary_citations": [
+     "/page/7/Text/3"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/Text/3"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT FOR THE 2015 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/4/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 90.",
+    "outcome_summary_citations": [
+     "/page/7/Text/3"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/Text/5"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT THREE RESOLUTIONS PERTAINING TO THE 2015 BUDGET OF THE CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - PARKING FUND:",
+    "title_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 11",
+     "Res. 12",
+     "Res. 13"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/Text/6"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - PARKING FUND, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2015; AND",
+    "title_citations": [
+     "/page/4/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/Text/7"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2014 CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - PARKING PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE 2015 FISCAL YEAR, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/4/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/Text/8"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - PARKING FUND FOR THE 2015 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/4/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 20.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT THREE RESOLUTIONS PERTAINING TO THE 2015 BUDGET OF THE CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - TRAVEL DEMAND MANAGEMENT FUND.",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 11",
+     "Res. 12",
+     "Res. 13"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 10.",
+    "outcome_summary_citations": [
+     "/page/7/Text/5"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - TRAVEL DEMAND MANAGEMENT FUND, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2015, AND.",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 10.",
+    "outcome_summary_citations": [
+     "/page/7/Text/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2014 City of Boulder, Boulder Junction Access Commission General Improvement District - Travel Demand Management Property Tax Mill Levy for payments of expenditures in part of the District during the 2015 fiscal year and setting forth details in relation thereto, and.",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 10.",
+    "outcome_summary_citations": [
+     "/page/7/Text/5"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO COVER THE EXPENSES AND FACILITIES OF THE CITY OF BOULDER, BOULDER JUNCTION ACCESS COMMISSION GENERAL IMPROVEMENT DISTRICT - TRAVEL DEMAND MANAGEMENT FUND FOR THE 2015 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO, AND.",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 10.",
+    "outcome_summary_citations": [
+     "/page/7/Text/5"
+    ]
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [
+     "/page/7/Text/6"
+    ],
+    "section": "PUBLIC HEARING.",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A LANDMARK ALTERATION CERTIFICATE TO BOURBON CONTRIBUTING ACCESSORY FILLING; CONSTRUCT A 6' X 6' HEARTBECK, FLAGS ON PATIO, AND BASKETBALL COURT; RETAINING WALLS AND FIRE PIT WITH CONCRETE BASE AT 437 HIGH LAND LAYERS EILE MALLON ON HILL HISTORIC DISTRICT PER SECTION 9-1-16 OF THE BOURBON REVISED CODE (BRS2014-01176). THIS HEARING WILL BE HELD UNDER THE ODA'S JUDICIAL HEARING PROCEDURES OF THE BOULDER REVISED CODE.",
+    "title_citations": [
+     "/page/7/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:30 PM",
+    "hearing_opened_time_citations": [
+     "/page/8/Text/7"
+    ],
+    "hearing_closed_time": "10:23 PM",
+    "hearing_closed_time_citations": [
+     "/page/9/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Kad Abuta",
+      "name_citations": [
+       "/page/8/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Abby Tanlet",
+      "name_citations": [
+       "/page/8/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/8/ListGroup/8"
+      ]
+     },
+     {
+      "name": "Sue Grauerholz",
+      "name_citations": [
+       "/page/8/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kels Sustronk",
+      "name_citations": [
+       "/page/8/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Dyer",
+      "name_citations": [
+       "/page/9/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Ward",
+      "name_citations": [
+       "/page/9/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Beverly Rotter",
+      "name_citations": [
+       "/page/9/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen Barth",
+      "name_citations": [
+       "/page/9/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Horning",
+      "name_citations": [
+       "/page/9/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Maiden",
+      "name_citations": [
+       "/page/9/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 8-0, with Council Member Karikerian recused.",
+    "outcome_summary_citations": [
+     "/page/12/Text/8"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/12/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/12/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/12/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/12/SectionHeader/10"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/12/SectionHeader/9"
+    ],
+    "title": "Update to City Council on 2014 City-Wide Special Events",
+    "title_citations": [
+     "/page/12/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/12/SectionHeader/13"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/12/SectionHeader/13"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/12/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/13/Text/1"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/12/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up Item 3A-1.",
+    "outcome_summary_citations": [
+     "/page/13/Text/1"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/13/Text/0"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/12/SectionHeader/16"
+    ],
+    "title": "LAND USE REVIEW FOR 1750 13 TH STREET FOR A FOUR STORY, 52 FOOT TALL, MIXED USE BUILDING WITHIN THE DOWNTOWN (DT-5) ZONING DISTRICT. BOARD VOTE 6-1 (PAYTON OPPOSED). IN DATE: OCTOBER 2. LAST OPPORTUNITY FOR CALL: 14 OCTOBER.",
+    "title_citations": [
+     "/page/13/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up Item 3A-1.",
+    "outcome_summary_citations": [
+     "/page/13/Text/1"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/13/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "title": "CONSIDERATION OF A MOTION DIRECTING A COMPENSATION STUDY FOR THE THREE CITY COUNCIL EMPLOYEES",
+    "title_citations": [
+     "/page/13/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion passed 9-0.",
+    "outcome_summary_citations": [
+     "/page/14/Text/10"
+    ]
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "title": "BOARD AND COMMISSION APPOINTMENTS",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further nominations, Alicia Gibb was appointed to an unexpired term ending March 31, 2013, vote 5-1, with Council Members Morzel and Young voting for Laura Kennedy and Council Members Plass and Weaver voting for Florie Slater.",
+    "outcome_summary_citations": [
+     "/page/13/Text/12"
+    ]
+   },
+   {
+    "item_number": "III",
+    "item_number_citations": [
+     "/page/13/SectionHeader/14"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "title": "DISCUSSION OF PROPOSED CONTROLLED BURNS AT ROCKY FLATS",
+    "title_citations": [
+     "/page/13/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/14/SectionHeader/1"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/12/SectionHeader/15"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO AUTHORIZE THE CITY MANAGER TO SIGN AGREEMENTS FORMALIZING THE EXISTENCE OF A REGIONAL GROUP KNOWN AS \"MAKING LOCAL FOODS WORK\"",
+    "title_citations": [
+     "/page/14/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/14/SectionHeader/6"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/14/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "11:51 PM",
+    "hearing_opened_time_citations": [
+     "/page/14/Text/7"
+    ],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The public hearing was opened at 11:51 PM, there being no speakers present. The public hearing was immediately closed.",
+    "outcome_summary_citations": [
+     "/page/14/Text/7"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/14/SectionHeader/8"
+    ],
+    "section": "FINANCIAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/14/SectionHeader/8"
+    ],
+    "title": "FINANCIAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/14/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/15/SectionHeader/1"
+    ],
+    "section": "DEBRIEF",
+    "section_citations": [
+     "/page/15/SectionHeader/1"
+    ],
+    "title": "DEBRIEF",
+    "title_citations": [
+     "/page/15/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "He requested the City Attorney investigate the matter further to determine if there was a violation and what should be done to address the violation if there was one.",
+    "outcome_summary_citations": [
+     "/page/15/Text/2"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/15/SectionHeader/3"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/15/SectionHeader/3"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/15/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on October 21, 2014 at 1:59 PM.",
+    "outcome_summary_citations": [
+     "/page/15/Text/4"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakelian",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Plass",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Young",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

@@ -1,0 +1,1399 @@
+{
+ "entry_id": 125303,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "JtB7-EUaGiDju1gNrP-xgw",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 23.0
+ },
+ "extraction": {
+  "meeting_date": "2014-04-01",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/SectionHeader/0 states “April 1, 2014,” supporting the extracted normalized date.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/SectionHeader/0 prints the heading “CITY COUNCIL PROCEEDINGS.”\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/Text/2 describes this as the “regular April 1, 2014 City Council meeting.”\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/Text/2 states that the meeting was held “in Council Chambers.”\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/Text/2 states that the meeting was called to order at 6:00 PM.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:14 AM",
+  "adjourned_time_citations": [
+   "/page/8/Text/15"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/15"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/8/Text/15 states that the meeting was adjourned at 12:14 AM.\nConclusion: the value at /page/8/Text/15 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "/page/0/Text/2 states that Mayor Appelbaum called the meeting to order.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "item 87-1",
+   "Site Review at 1715 and 1725 16th STREET"
+  ],
+  "call_up_items_citations": [
+   "/page/2/Text/4",
+   "/page/8/Text/7"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/Text/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "/page/2/Text/4 identifies item 87-1 as the potential call-up check-in.\nConclusion: the value at /page/2/Text/4 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/8/Text/7"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "/page/8/Text/7 lists the Site Review at 1715 and 1725 16th STREET as a potential call-up.\nConclusion: the value at /page/8/Text/7 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two call-up entries: item 87-1 at /page/2/Text/4 and the Site Review at /page/8/Text/7. Both entries are present in the extraction.\nConclusion: the value at /page/2/Text/4 and /page/8/Text/7 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Sarah McGain",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke on behalf of PLAN Boulder County and applauded the work the Council had done on affordable housing.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "James Cody",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke in favor of raising the occupancy limits for rental housing in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Brook Studdiford",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Also spoke in favor of raising occupancy limits for rental housing and commented on the number of people forced to leave Boulder to live in a more affordable community.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Michael Fitzgerald",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke against the recently adopted ordinances regarding staying on medians that he thought were directed at the homeless.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ellen Taxman",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Also spoke in favor of raising the occupancy limits for rental housing from the viewpoint of senior citizens.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Aiyana Bell",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke in favor of raising the occupancy limits in place for rental housing and also in favor of allowing cooperative housing.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Mike Bellier",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke on behalf of senior citizens in favor of raising the occupancy limits on rental housing. He specifically pointed out the financial difficulties facing widows and widowers.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Lisa Darby",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke on behalf of SHAN (Searchouse Progressive Alliance for Nonviolence) and the transitional services offered to victims of violence in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Michael Goodhue",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke against the recent regulations adopted by Council to deal with the problem of over-consumption of alcohol and alleged findings made by the Beverages Licensing Authority.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Amy Silva Avendano-Duda",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke on behalf of SHAN and the transitional services offered to victims of domestic violence in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Amy Conville",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke in favor of raising the rental housing occupancy limits.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Zane Silvans",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke about the County Sustainability Tax as it related to renewable energy.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Francoise Poinsett",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Asked Council to support the sustainability tax that the county planned to place on the ballot in 2014. She also urged Council to consider updating the occupancy limits for rental housing in Boulder.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Robert Smart",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke in opposition to the use of negotiated bond sales.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Neshanta Abraham",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke in favor of allowing the elderly an exemption from occupancy limits related to rental housing.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Steve Keenan",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Commented that Boulder would benefit from the establishment of a Sister City relationship with another city in the Ukraine.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Darren O'Connor",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke about homeless issues in Boulder and opposed to the recent regulations adopted by Council.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Kate Loan",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke against the smoking ban and recent alcohol regulations adopted by City Council.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Sabrina Sideris",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke in favor of raising or repealing occupancy limits for rental housing.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Christian Nedel",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke against government in general citing the American Constitution.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Doug Millar",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Spoke about the Jon Hunt Ramsey case and his research regarding her murder.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "b",
+    "agenda_item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "motion_text": "Council Member Pass moved, seconded by Council Member Moroz, to approve Council Agenda items 2A through 3D.",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Pass",
+    "moved_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "seconded_by": "Moroz",
+    "seconded_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "vote_text": "The motion carried 30.",
+    "vote_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "E",
+    "agenda_item_number_citations": [
+     "/page/6/Text/4"
+    ],
+    "motion_text": "Mayor Appelbaum moved, seconded by Council Member Flass to continue this item to a future meeting to be scheduled by the Council Agenda Committee.",
+    "motion_text_citations": [
+     "/page/6/Text/4"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7067"
+    ],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/6/Text/4"
+    ],
+    "seconded_by": "Flass",
+    "seconded_by_citations": [
+     "/page/6/Text/4"
+    ],
+    "vote_text": "The motion carried 9-0.",
+    "vote_text_citations": [
+     "/page/6/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/8/Text/15"
+    ],
+    "motion_text": "There being no further business to cover before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on April 2, 2014 at 12:14 AM.",
+    "motion_text_citations": [
+     "/page/8/Text/15"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the regular April 1, 2014 City Council meeting to order at 6:00 PM in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "b",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE MARCH 20, 2014 SPECIAL SESSION SUMMARY INCLUDING POTENTIAL REVISIONS TO CHAPTER 13.7 “CAMPAIGN FINANCIAL DISCLOSURE” B.R.C. 1981",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING CHAPTER 13.2, “CAMPAIGN FINANCING DISCLOSURE” B.R.C. 1981 INCLUDING MODIFYING THE FINANCIAL REPORTING REQUIREMENT, ADDING ADDITIONAL REPORTING REQUIREMENTS FOR CITY COUNCIL MEMBERS, SETTING NORTH REPORTING PERIODS AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/Text/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE DISPOSAL OF OPEN SPACE AND MOUNTAIN PARKS LAND DESCRIBED AS A PERMANENT BASEMENT ON APPROXIMATELY $500,000.00 IN C.101 AT THE COST OF $67,500 TO THE CITY AND COUNTY OF DENVER ACTING BY AND THROUGH ITS BOARD OF WATER COMMISSIONERS FOR A SIPHON DRAIN ON LINDSAY OPEN SPACE AT SIPHON #4 OF THE DENVER WATER CANAL SYSTEM. THIS IS A DISPOSAL OF OPEN SPACE LAND UNDER THE CITY CHARTER SECTION 17.",
+    "title_citations": [
+     "/page/2/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO RESCHEDULE THE REGULAR MEETING OF CITY COUNCIL ON APRIL 15, 2014 TO APRIL 16, 2014.",
+    "title_citations": [
+     "/page/2/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-OUT CHECK-IN",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "POTENTIAL CALL-OUT CHECK-IN",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up item 87-1.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7067 AMENDING SECTIONS 6-21-601 \"VOICE AND SIGHT CONTROL EVIDENCE TAG FEES,\" 6-1-16 \"DOGS RUNNING AT LARGE PROHIBITED,\" 6-13-2 \"VOICE AND SIGHT CONTROL EVIDENCE TAG REQUIRED,\" 6-13-4 \"VOICE AND SIGHT CONTROL EVIDENCE TAG REQUIREMENTS,\" AND 6-13-5 \"SUSPENSION AND REINSTATEMENT OF VOICE AND SIGHT CONTROL EVIDENCE TAGS UPON VIOLATIONS,\" AND ADDING A NEW SECTION 6-13-4.5, \"TERMS OF VOICE AND SIGHT CONTROL EVIDENCE TAG,\" D.R.C. 1981, AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/2/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7067"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:00 PM",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/9"
+    ],
+    "hearing_closed_time": "9:24 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Jim Cooney",
+      "name_citations": [
+       "/page/2/ListGroup/10"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gerhart",
+      "name_citations": [
+       "/page/2/ListGroup/10"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Owen Dooley",
+      "name_citations": [
+       "/page/2/ListGroup/10"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Dupherty",
+      "name_citations": [
+       "/page/2/ListGroup/10"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Catharine Harris",
+      "name_citations": [
+       "/page/2/ListGroup/10"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Diana Capella",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Diane Pandorch",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Brenda Garnett",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Grotthuscher",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "David Hnsigh",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Charlie Stein",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Valerie Yates",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Frances Harrogh",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Toby Fennler",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Maria Leander",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Carolyn Usher",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Raymond Bridge",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Carol McCastand",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Daniel Sude",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Helen Monyok",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Mark McFarwe",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Melinda Kassen",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Barbara Loren",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Pigeon Johnson",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Denise S. Austin",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Richard Harris",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Alexander Ballard",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Alan Longe",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Rob Scott",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Quasas",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Max Britton",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Jorgensen",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Ellie Stevens",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Patrick Murphy",
+      "name_citations": [
+       "/page/5/Text/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Christa Dilly",
+      "name_citations": [
+       "/page/5/Text/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sunny Monaco",
+      "name_citations": [
+       "/page/5/Text/2"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Lori Fuller",
+      "name_citations": [
+       "/page/5/Text/3"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Tony Gannaway",
+      "name_citations": [
+       "/page/5/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council directed staff to re-craft the ordinance with the proposed changes and second reading would be continued to a date determined by the Council Agenda Committee.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "UPDATE ON THE COMPREHENSIVE HOUSING STRATEGY",
+    "title_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received an update on the Comprehensive Housing Strategy.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [
+     "/page/7/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "REQUEST FOR INPUT FROM THE BOULDER COUNTY BOARD OF COUNTY COMMISSIONERS ON CITY AND COUNTY SUSTAINABILITY PRIORITIES AND POSSIBLE FUTURE FUNDING MECHANISMS TO MEET THOSE PRIORITIES",
+    "title_citations": [
+     "/page/7/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum suggested staff provide a concise memo with Council's comments to the County as feedback on the proposed tax.",
+    "outcome_summary_citations": [
+     "/page/8/Text/3"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/8/SectionHeader/4"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "title": "Potential Call-Ups - Site Review at 1715 and 1725 16 th STREET",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up Item 8A-1.",
+    "outcome_summary_citations": [
+     "/page/8/Text/8"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/8/SectionHeader/9"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/8/SectionHeader/9"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/8/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/8/SectionHeader/9"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/8/SectionHeader/10"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/8/SectionHeader/10"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/8/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/8/SectionHeader/10"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/8/SectionHeader/11"
+    ],
+    "section": "DELAY",
+    "section_citations": [
+     "/page/8/SectionHeader/11"
+    ],
+    "title": "DELAY",
+    "title_citations": [
+     "/page/8/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/8/Text/15"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/8/SectionHeader/14"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/8/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to cover before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on April 2, 2014 at 12:14 AM.",
+    "outcome_summary_citations": [
+     "/page/8/Text/15"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Kardishian",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Michael",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Hoss",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [
+     "/page/6/Text/10"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/6/Text/10"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Young",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

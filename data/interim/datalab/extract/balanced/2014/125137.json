@@ -1,0 +1,1362 @@
+{
+ "entry_id": 125137,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "JP519rd5LZEBvbF4pZB3kQ",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 28.0
+ },
+ "extraction": {
+  "meeting_date": "2014-03-05",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 gives March 5, 2014. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 identifies the proceedings. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chamber",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:04 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:16 PM",
+  "adjourned_time_citations": [
+   "/page/8/Text/7"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/8/Text/7. Conclusion: the value at /page/8/Text/7 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Applebaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The person calling the meeting to order is identified at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “POTENTIAL CALL-UPS - None” at /page/6/SectionHeader/15, so no call-up items are listed. Conclusion: the value at /page/6/SectionHeader/15 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Steve Sioz",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "as a retired firefighter thanking Council for recent efforts to restore pension payments.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Tiffany O'Meara",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in opposition to the proposed changes to the Green Tag Program requiring police and sight control of dogs off-leash on open space.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Alex Rollman",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in opposition to the rental property occupation limit in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Daniel Sutto",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in opposition to the proposed changes to Voice and Sight regulations regarding dogs off-leash on open space.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Terry Cannaway",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in opposition to the proposed changes to the Green Tag Program, he expressed concern regarding the total cost of implementation.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Carolyn Usher",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in opposition to the proposed changes to the Green Tag Program, she expressed concern regarding the possibility that frequent escals would be targeted when the infrequent users are more likely to be the offenders.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Nora Hartmann",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "on behalf of the Safehouses Progressive Alliance and gave statistics and information on domestic violence programs for women and children in the community.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Karen Hollweg",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "on behalf of BDDO's in support of the proposed changes to the Green Tag Program allowing off-leash dogs on open space.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Eliver Manyok",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in opposition to the proposed changes to the Green Tag Program, she was concerned about the rule revoking a green tag after two infractions.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Leslie Glustrom",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "in favor of the municipalization project and expressed concern for citizens working on the City and KCC voting group without an updated memorandum of understanding.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Denise Vaces",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "on behalf of the ACU Colorado Chapter in opposition to proposed ordinances related to social misbehavior.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lori Butler",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "on behalf of BDO's expressing concern about the Green Tag Program ordinance.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Joni Cowles",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "about a bank hit and told of the impacts of laws aimed to silence the homeless and poor.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "James Ding",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "as the president of BDO's concerned about the proposed ordinance amending the Green Tag Program and restricting off-leash access on open space areas.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Susan Levy",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "on behalf of the Boulder Valley Women's Health Center thanking Council for continued funding service funding.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jennifer Sullivan",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "in opposition to the proposed social misbehaviors ordinances.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Sarah Kratoff",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "in opposition to the proposed ordinances related to social misbehavior.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Andrea Maloney Hill",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "in opposition to the proposed changes to the Green Tag Program.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Aldona Siczek",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "in opposition to the proposed changes to the Green Tag Program.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Thomas Price Kirby",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "in opposition to video cameras installed on the municipal campus and financial disclosure requirements for Council Members.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Applebaum called the meeting to order at 6:04 PM.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard twenty open-comment speakers and provided responses.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONCURRENT AGENDA",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda Items 3A-3K with Item 3C as amended, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM NOVEMBER 7, 2013 MORNING MEETING",
+    "title_citations": [
+     "/page/2/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/Text/3"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM JANUARY 7, 2014",
+    "title_citations": [
+     "/page/2/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM JANUARY 21, 2014",
+    "title_citations": [
+     "/page/2/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item with corrections to typos in the agenda packet as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM FEBRUARY 4, 2014",
+    "title_citations": [
+     "/page/2/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "K",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE FEBRUARY 13, 2014 STUDY SESSION ESTIMATE REGARDING SEXUAL MISBEHAVIOR ON THE REGIONAL CAMPUS",
+    "title_citations": [
+     "/page/2/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "L",
+    "item_number_citations": [
+     "/page/2/Text/8"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO AMEND RESOLUTION NO. 936 AND NO. 906A",
+    "title_citations": [
+     "/page/2/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "936",
+     "906A"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO SHORT-TERM-ANCE NO. 2064 VACATING AND AUTHORIZING THE CITY MANAGER TO EXECUTE DEED OF VACATION AND TRUST IN DEED FOR SITE PROJECT KNOWN AS BILL HIGUE AND A SEPARATE 1,620 SQUARE-FOOT PORTION OF PEARL STREET RIGHT-OF-WAY GENERALLY LOCATED PART OF THE BNSF RAILWAY CROSSING NEAR THE WESTERN TERMINUS OF PEARL STREET ALONG THE FRONTAGE OF 300. PEARL STREET, AND DESIGNATED AS A MOTION TO AUTHIMIZE THE CITY MANAGER, PURSUANT TO SECTION 7-4-4, \"CONTEMPT OF CITY REAL ESTATE INTERESTS,\" TO DISPOSE OF THE VACATED 1,620 SQUARE-FOOT PORTION OF PEARL STREET AND SETTING FORTH THE AMENDMENT",
+    "title_citations": [
+     "/page/2/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "2064"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/2/Text/11"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, SECOND READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE 95LY AN ORDINANCE AMENDING TITLES 1, 4, 6 AND 8, B.R.C. 1981, TO MODIFY THE GENERAL PENALTY PROVISIONS AND AMENDING TITLES 3 AND 7 BY REPEALING SECTION 7-5-15 REGARDING THE STATION INTERFERENCE WITH VEHICLES SECTION 7-4-4 REGARDING STATION INTERFERENCE AND AMENDING THOSE PROVISIONS TO NEW SECTIONS 7-6-15 AND 7-6-16, B.R.C. 1981, AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/2/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE 95LY AN ORDINANCE AMENDING TITLE 7, \"GENERAL ORDINANCES\" CHAPTER, \"DUE DILIGENCE AGAINST GOVERNMENT OPERATIONS\" B.R.C. 1981, BY ADDING A NEW SECTION 7-7-20 PROHIBITING ILLEGAL CONDUCT ON PUBLIC PROPOSED AND AMENDING CHAPTER 2 \"GENERAL PROVISIONS\" BY AMENDING SECTION 2-1 B.R.C. 198 TO RE-ADD FOR CRIMINAL PENALTIES UNDER THE NEW SECTION 2-70 AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, AN ORDINANCE AMENDING SECTIONS 2-70-50, \"VOICE AND SIGHT CONTROL EVIDENCE TAGS,\" 2-6-1-10, \"DOG BUNTING AT LARGE PROHIBITED\" & 2-6-1-13 \"VOICE AND SIGHT CONTROL EVIDENCE TAGS UPON VIOLATIONS,\" AND ADDING A NEW SECTION 6-13-4.3, \"TERMS OF VOICE AND SIGHT CONTROL EVIDENCE TAG,\" B.R.C. 198, AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/3/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/Text/2"
+    ],
+    "section": "CONCURRENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY MANAGER'S SIGNATURE, JANE BRAFFIGAM, ON AN INTERGOVERNMENTAL AGREEMENT TO CREATE A MULTI-AGENCY GOVERNMENTAL AUTHORITY ON THE COLORADO INFORMATION SHARING CONSORTIUM (CISC)",
+    "title_citations": [
+     "/page/3/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "REPORTS AND ORATIONS",
+    "section_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "title": "REPORTS AND ORATIONS",
+    "title_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "\"There were no out-of-hours on the agenda.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council held public hearings on two items.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/Text/12"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 1989, AMENDING CHAPTER 7-6 \"PARKING INFRACTIONS,\" B.R.C. 198, BY ADDING A NEW SECTION 7-6-31 PROHIBITING PARKING ON NON-ELECTRIC VEHICLES AT ELECTRIC VEHICLE CHARGING STATIONS, AMENDING SECTION 7-6-2 BY ADDING A PENALTY OF $20 AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/3/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1989",
+     "739"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:00 PM",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/0"
+    ],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council discussed the parking penalty and Jones and Morzel agreed to amend their motion to raise it to $50; no vote outcome was recorded.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/Text/10"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "title": "SECOND READING CONSIDERATION OF MOTION TO ADOPT ORDINANCE NO. 732, AMENDING SECTION 6-3, \"BEAR RECYCLABLE AND COMPOSTABLE\" B.R.C. 1981, BY ADDING A NEW SECTION 6-3-12 REQUIRING BEAR RESTART CONTAINERS IN A DESIGNATED AREA OF THE CITY, AMENDING SECTION 6-3-2, BY ADDING NEW PROHIBITIONS, PUBLIC AND RESTRICTIVE BENEFITS FOR PUBLIC AREAS, AMENDING SECTION 6-12-5, \"CONTAINERS FOR RECYCLING OR COMPOSTING\" OR AMENDING AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/4/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "732",
+     "7962"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:02 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/2"
+    ],
+    "hearing_closed_time": "8:05 PM",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/4"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Brenda Lee",
+      "name_citations": [
+       "/page/5/Text/3"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/Text/3"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried, and the item was reported for a third reading on March 18, 2014 on the Consent Agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": null,
+    "item_number_citations": [],
+    "section": "MATTER FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "title": "MATTER FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council considered changes to the legislative agenda and received an update on human services funding.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/6/SectionHeader/3"
+    ],
+    "section": "MATTER FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO REVISE THE CITY OF BOULDER'S 2014 STATE AND FEDERAL LEGISLATIVE AGENDA",
+    "title_citations": [
+     "/page/6/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the proposed changes to the Legislative Agenda, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "MATTER FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/2"
+    ],
+    "title": "UPDATE ON HH HUMAN SERVICES FUND ALLOCATIONS",
+    "title_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received the presentation and asked questions about Human Services funding requests.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": null,
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/6/SectionHeader/12"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/6/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/6/Text/13"
+    ]
+   },
+   {
+    "item_number": null,
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/14"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/6/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council discussed posting board and commission applicant information.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/6/SectionHeader/14"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/14"
+    ],
+    "title": "POTENTIAL CALL-UPS - None",
+    "title_citations": [
+     "/page/6/SectionHeader/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/6/Text/13"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/7/Text/1"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/14"
+    ],
+    "title": "Board and Commission Applicant List Posting Request",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council directed staff to post the list of board and commission applicants on the website.",
+    "outcome_summary_citations": [
+     "/page/7/Text/1"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Vote was taken on the motion to approve the proposed changes to the Legislative Agenda. The motion carried 9-0. Vote carried 17-0.",
+    "outcome_summary_citations": [
+     "/page/7/Text/10"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [],
+    "section": "DEBATE",
+    "section_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "title": "DEBATE",
+    "title_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council discussed snow-removal penalties, the former Daily Camera building, call-up procedures, a Golden resolution, and meeting audio quality.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by motion regularly adopted on March 5, 2014 at 10:16 PM.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Pass moved, seconded by Council Member Bankobian to approve Consent Agenda Items 3A-3K with Item 3C as amended.",
+    "motion_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Pass",
+    "moved_by_citations": [
+     "/page/3/Text/7"
+    ],
+    "seconded_by": "Bankobian",
+    "seconded_by_citations": [
+     "/page/3/Text/7"
+    ],
+    "vote_text": "The motion carried 9-0 at 7:03 p.m.",
+    "vote_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/8/Text/3"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/4/Text/1"
+    ],
+    "motion_text": "Council Member Jones moved, seconded by Council Member Morzel to approve Ordinance No. 739 amending Chapter 7-6 \"Parking Infractions\" B.R.C. 1981 by adding a new Section 7-6-30 prohibiting the parking by non-electric vehicles at electric vehicle charging stations, amending Section 7-6-2 by adding a penalty of $20 and setting forth detailed definitions as amended in the staff memo and by a friendly amendment to change the fee to $30.",
+    "motion_text_citations": [
+     "/page/4/Text/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "739"
+    ],
+    "moved_by": "Jones",
+    "moved_by_citations": [
+     "/page/4/Text/1"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/1"
+    ],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/4/Text/8"
+    ],
+    "motion_text": "Council Members Jones and Morzel agreed to amend their motion to raise the penalty to $50.",
+    "motion_text_citations": [
+     "/page/4/Text/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "739"
+    ],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Council Member Morzel, to approve Ordinance No. 7962 amending Chapter 6-3, \"Trash, Recyclables and Compostables,\" B.R.C. 1981, by adding a new section 6-3-12 requiring bear-resistant containers in a designated area of the city, amending Section 6-3-2, by adding new definitions, adding administrative practices for violations, amending Section 6-12-5, \"Containers for Recycling or Composting Operations,\" by adding further related details as amended by ordinance that states the hearing officer may dismiss the matter based on evidence presented at a hearing plus in accordance with Section 14-1 of the Revised Code of Laws.",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7962"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried.",
+    "vote_text_citations": [
+     "/page/6/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/8/Text/3"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/6/Text/8"
+    ],
+    "motion_text": "Council Member Pass moved seconded by Council Member Jones to approve the proposed changes to the Legislative Agenda.",
+    "motion_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/8/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Pass",
+    "moved_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "seconded_by": "Jones",
+    "seconded_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "vote_text": "The motion carried 9-0. Vote carried 17-0.",
+    "vote_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/8/Text/3"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on March 5, 2014 at 10:16 PM.",
+    "motion_text_citations": [
+     "/page/8/Text/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on March 5, 2014 at 10:16 PM.",
+    "vote_text_citations": [
+     "/page/8/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/8/Text/3"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Applebaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakhamar",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Piass",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": "arrived at 6:13 PM",
+    "attendance_note_citations": [
+     "/page/0/Text/3"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

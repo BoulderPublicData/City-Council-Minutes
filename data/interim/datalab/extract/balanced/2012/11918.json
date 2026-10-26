@@ -1,0 +1,1528 @@
+{
+ "entry_id": 11918,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "0JJLRIuF-FlOiYyrg8P55g",
+ "page_count": 13,
+ "cost_breakdown": {
+  "final_cost_cents": 27.0
+ },
+ "extraction": {
+  "meeting_date": "2012-11-01",
+  "meeting_date_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in block /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in block /page/0/SectionHeader/0 identifies the proceedings. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that this was a special city council meeting. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was held in Council Chambers. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was called to order at 6:00 PM. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:24 PM",
+  "adjourned_time_citations": [
+   "/page/12/Text/10"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/12/Text/10"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/12/Text/10 states that the meeting was adjourned at 11:24 PM. Conclusion: the value at /page/12/Text/10 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 identifies Mayor Appelbaum as the person who called the meeting to order. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "CALL-UP OF USE REVIEW AT 4180 19TH STREET"
+  ],
+  "call_up_items_citations": [
+   "/page/11/ListGroup/7"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/11/ListGroup/7"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "Block /page/11/ListGroup/7 lists the call-up of use review at 4180 19th Street. Conclusion: the value at /page/11/ListGroup/7 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document lists one call-up item in block /page/11/ListGroup/7, and the extraction contains that one item. Conclusion: the value at /page/11/ListGroup/7 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the special November 1, 2012 city council meeting to order at 6:00 PM in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard open comment and staff and council responses.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda Items 3A through 3G, with item 3E amended to increase from 20% to 40% the proceeds to go to stores.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE SEPTEMBER 4, 2012 CITY COUNCIL MEETING MINUTES",
+    "title_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the September 4, 2012 city council meeting minutes.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/Text/2"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE OCTOBER 9, 2012 SPECIAL CITY COUNCIL MEETING MINUTES",
+    "title_citations": [
+     "/page/1/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the October 9, 2012 special city council meeting minutes.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/Text/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE OCTOBER 23, 2012 SPECIAL CITY COUNCIL MEETING MINUTES",
+    "title_citations": [
+     "/page/1/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the October 23, 2012 special city council meeting minutes.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/Text/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE A TWENTY YEAR LEASE FOR A RIGHT-OF-WAY ENCROACHMENT (BUILDING CORNICE) FOR THE PROPERTY LOCATED AT 1600 PEARL STREET",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved a twenty year lease for a right-of-way encroachment at 1600 Pearl Street.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/Text/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7870 AMENDING TITLE 6, “HEALTH, SAFETY AND SANITATION”, B.R.C. 1981, REGARDING THE ESTABLISHMENT OF A FEE ON ALL DISPOSABLE PLASTIC AND PAPER CHECKOUT BAGS DISTRIBUTED AT FOOD STORES",
+    "title_citations": [
+     "/page/1/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7870"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved item 3E with section 6-15-4 of Ordinance No. 7870 amended to increase from 20% to 40% the proceeds to go to stores; a fourth reading will be required.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/Text/7"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7878, ADOPTING SUPPLEMENT No.114, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7850, 7852, 7853, AND THE COUNCIL PROCEDURE APPENDIX AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS, AS AN AMENDMENT TO THE BOULDER REVISED CODE, 1981",
+    "title_citations": [
+     "/page/1/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7878",
+     "7850",
+     "7852",
+     "7853"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved adoption of Emergency Ordinance No. 7878 as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/Text/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY ORDINANCE NOS. 7879 AND 7880 AMENDING THE NEIGHBORHOOD PARKING PERMIT SECTION 4-23-2(A) TO CHANGE THE ORDINANCE TO REMOVE THE SUNSET PROVISION AND MAKE COMMUTER PERMITS A PERMANENT PART OF THE PROGRAM",
+    "title_citations": [
+     "/page/1/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7879",
+     "7880"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved first reading and publication by title only of Ordinance Nos. 7879 and 7880 as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "POTENTIAL CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in the call up of 8A-1.",
+    "outcome_summary_citations": [
+     "/page/2/Text/5"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE 2013 STATE AND FEDERAL LEGISLATIVE AGENDA",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the 2013 State and Federal Legislative Agenda with motorcycle noise removed and direction to raise civil unions, corporate personhood and Internet sales tax at the upcoming legislative breakfast; the motion carried 8:0 with Council Member Plass absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE NO. 7877 AMENDING CHAPTER 6-14, “MEDICAL MARIJUANA,” B.R.C. 1981, INCREASING FEES IN SECTION 4-20-64, “MEDICAL MARIJUANA BUSINESSES,” B.R.C. 1981, AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7877"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Bill Townsend",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Brooks Lustig",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Truman Bradley",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Jeff Hadden",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Anthony O. Novak",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Brian Long",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Daniel Keile Ament",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Chasten Carpenter",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Gabriel Connors",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Emergency Ordinance No. 7877 by 8:0 with Council Member Plass absent after a proposed amendment to change 500 feet to 1000 feet failed 3:5.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE BOULDER CIVIC AREA GUIDING PRINCIPLES",
+    "title_citations": [
+     "/page/8/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Elizabeth Allen",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Gabriel Connors",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kirsten Wilson",
+      "name_citations": [
+       "/page/9/ListGroup/11"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/9/ListGroup/11"
+      ]
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/9/ListGroup/11"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lawrence Anderson",
+      "name_citations": [
+       "/page/9/ListGroup/11"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/9/ListGroup/11"
+      ]
+     },
+     {
+      "name": "Ruth Blackmore",
+      "name_citations": [
+       "/page/10/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Dodone",
+      "name_citations": [
+       "/page/10/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christian Toohey",
+      "name_citations": [
+       "/page/10/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the Boulder Civic Area Guiding Principles with the understanding that they should include all of Boulder’s history and that anything built would be very \"special\"; the motion carried 8:0 with Council Member Plass absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "US Pro Cycling Challenge Update",
+    "title_citations": [
+     "/page/10/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Elizabeth Allen",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Raymond Bridge",
+      "name_citations": [
+       "/page/11/ListGroup/4"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/11/ListGroup/4"
+      ]
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/11/ListGroup/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Gwen Dooley",
+      "name_citations": [
+       "/page/11/ListGroup/4"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/11/ListGroup/4"
+      ]
+     },
+     {
+      "name": "Ruth Blackmore",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "MaryAnn Mahony",
+      "name_citations": [
+       "/page/11/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council received the US Pro Cycling Challenge update and, after the public hearing, voted 6:2 to suspend the rules and continue the meeting, with Council Member Plass absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/11/ListGroup/7"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/11/ListGroup/7"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/12/Text/0"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "CALL-UP OF USE REVIEW AT 4180 19TH STREET",
+    "title_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/12/Text/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "UPDATE ON CHAUTAUQUA GUIDING PRINCIPLES",
+    "title_citations": [
+     "/page/12/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Karakehian presented the update, and David Driskell stated that the project would be addressed December 4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/12/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/11/ListGroup/7"
+    ],
+    "title": "INCLUSIONARY HOUSING (IH) RENTAL POLICY UPDATE DISCUSSION",
+    "title_citations": [
+     "/page/12/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was not taken up at this meeting.",
+    "outcome_summary_citations": [
+     "/page/12/Text/6"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/12/SectionHeader/7"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/12/SectionHeader/7"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/12/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/12/SectionHeader/8"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/12/SectionHeader/8"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/12/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/12/Text/10"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/12/SectionHeader/9"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/12/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned on November 1, 2012 at 11:24 PM.",
+    "outcome_summary_citations": [
+     "/page/12/Text/10"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": "arrived at 6:28 PM",
+    "attendance_note_citations": [
+     "/page/0/Text/3"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Plass",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Jasmine Johnson",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban and spoke of marine pollution due to plastic bags",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Sirisha Gudavalli",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban and spoke of marine pollution due to plastic bags",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Julia Jenak",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban and spoke of marine pollution due to plastic bags",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Lizzy Dresselhaus",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Kyle Christensen",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Fred Rubin",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Remove 3E from the consent agenda, does not support bag fee",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Dan Bench",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Beekeeper, spoke of colony collapse and ban of chemicals to protect pollinators",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Lee Pappas",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jerry Allen",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke in favor of Amendment 64",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ruthie Wu",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Net Zero Club, spoke in support of bag ban and fee",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Mary Lou Chapman",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "President of Rocky Mountain Food Association, spoke against bag fee and ban, some items may cause stores to lose their food stamp license, provided federal regulation information to city attorney",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Katrina Tracy",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Boulder High sophomores, spoke in support of developing the Civic Center area. They currently do not feel safe there because of the homeless population. They want more light, benches, music, art, water features and the incorporation of Native American Indians in the theme",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Emma Alcantor",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Boulder High sophomores, spoke in support of developing the Civic Center area. They currently do not feel safe there because of the homeless population. They want more light, benches, music, art, water features and the incorporation of Native American Indians in the theme",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Gabriel Conners",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke in support of helping the bee population, giving bags to people with food stamps and open data to better streamline economic development",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/3"
+    ],
+    "motion_text": "to approve Consent Agenda Items 3A through 3G with item 3E amended by changing section 6-15-4 of Ordinance No. 7870 by increasing from 20% to 40% the proceeds to go to stores.",
+    "motion_text_citations": [
+     "/page/2/Text/3"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7870",
+     "7878",
+     "7879",
+     "7880"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "vote_text": "The motion carried 8:0 with council Member Karakehian opposed to 3E and Council Member Plass absent. The vote was taken at 6:48 PM.",
+    "vote_text_citations": [
+     "/page/2/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/12/Text/3"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Karakehian"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Plass"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/4/Text/0"
+    ],
+    "motion_text": "to approve the 2013 State and Federal Legislative Agenda as presented with motorcycle noise removed and the direction to raise the following topics at the upcoming legislative breakfast: (1) civil unions; (2) corporate personhood; and (3) Internet sales tax.",
+    "motion_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Jones",
+    "moved_by_citations": [
+     "/page/4/Text/0"
+    ],
+    "seconded_by": "Becker",
+    "seconded_by_citations": [
+     "/page/4/Text/0"
+    ],
+    "vote_text": "The motion carried 8:0 with Council Member Plass absent. The vote was taken at 7:34 PM.",
+    "vote_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/12/Text/3"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Plass"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/7/Text/9"
+    ],
+    "motion_text": "to amend section 6-14-7 (f) (1) to change 500 feet to 1000 feet.",
+    "motion_text_citations": [
+     "/page/7/Text/9"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7877"
+    ],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/7/Text/9"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/7/Text/9"
+    ],
+    "vote_text": "The motion failed 3:5 with Council Members Becker, Karakehian and Wilson in favor and Council Member Plass absent. Vote was taken at 8:40 PM.",
+    "vote_text_citations": [
+     "/page/7/Text/9"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/7/Text/9"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/7/Text/9"
+    ],
+    "no_count": 5,
+    "no_count_citations": [
+     "/page/7/Text/9"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Becker",
+     "Karakehian",
+     "Wilson"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Plass"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/7/Text/8"
+    ],
+    "motion_text": "to adopt Emergency Ordinance No. 7877 amending Chapter 6-14, \"Medical Marijuana,\" B.R.C.1981, increasing fees in Section 4-20-64 \"Medical Marijuana Businesses\" B.R.C. 1981 and setting forth related details.",
+    "motion_text_citations": [
+     "/page/7/Text/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7877"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/7/Text/8"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/7/Text/8"
+    ],
+    "vote_text": "The motion carried 8:0 with Council Member Plass absent. Vote was taken at 8:50 PM.",
+    "vote_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/12/Text/3"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/7/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Plass"
+    ]
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/10/Text/2"
+    ],
+    "motion_text": "to approve the Boulder Civic Area Guiding Principles with the understanding that it should include all of Boulder's history and that if anything was built it would be very \"special.\"",
+    "motion_text_citations": [
+     "/page/10/Text/2"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Jones",
+    "moved_by_citations": [
+     "/page/10/Text/2"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/10/Text/2"
+    ],
+    "vote_text": "The motion carried 8:0 with Council Member Plass absent. Vote was taken at 10:15 PM.",
+    "vote_text_citations": [
+     "/page/10/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/12/Text/3"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/10/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/10/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Plass"
+    ]
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/11/Text/6"
+    ],
+    "motion_text": "to suspend the rules and continue the meeting.",
+    "motion_text_citations": [
+     "/page/11/Text/6"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/11/Text/6"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/11/Text/6"
+    ],
+    "vote_text": "The motion carried 6:2 with Council Members Karakehian and Morzel opposed and Council Member Plass absent. Vote taken at 10:52 PM.",
+    "vote_text_citations": [
+     "/page/11/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/11/ListGroup/4"
+    ],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/11/Text/6"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/11/Text/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Karakehian",
+     "Morzel"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Plass"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/12/Text/10"
+    ],
+    "motion_text": "BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED ON November 1, 2012 at 11:24 PM.",
+    "motion_text_citations": [
+     "/page/12/Text/10"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/12/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/12/Text/3"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ]
+ }
+}

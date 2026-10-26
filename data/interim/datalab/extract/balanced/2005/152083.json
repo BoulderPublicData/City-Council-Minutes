@@ -1,0 +1,832 @@
+{
+ "entry_id": 152083,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "8o-n6MuzzHq8wIWpkNI2Lg",
+ "page_count": 3,
+ "cost_breakdown": {
+  "final_cost_cents": 12.0
+ },
+ "extraction": {
+  "meeting_date": "2005-11-15",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in block /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is identified as a special meeting in block /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that this was a special meeting. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was held in the Council Chambers. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "10:00a.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was called to order at 10:00a.m. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:22A.M.",
+  "adjourned_time_citations": [
+   "/page/2/Text/10"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/2/Text/10"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/2/Text/10 states that the meeting was adjourned at 10:22A.M. Conclusion: the value at /page/2/Text/10 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Ruzzin",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that Mayor Ruzzin called the meeting to order. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no call-up or call-up check-in items. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Ruzzin called the special November 15, 2005 meeting of the Boulder City Council to order at 10:00a.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/Text/6"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Board member Gray moved, seconded by Stoakes to approve the abstract and result sheets of the November 1, 2005 General Municipal Election for the City of Boulder.",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Motion to adjourn from the Boulder City Council and convene as the General Canvassing and Election Board for the City of Boulder General Coordinated Municipal Election.",
+    "title_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Seeing no objection, the Boulder City Council adjourned and the General Canvassing and Election Board convened.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Roll Call of the General Canvassing and Election Board.",
+    "title_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Those present were: Bohannan, Gray, Riggle, Ruzzin and Stoakes.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Administration of oath and signing of same by Board members.",
+    "title_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Oath was administered by Alisa Lewis, secretary to the General Canvassing and Election Board.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Consideration of a motion nominating a member to chair the Board.",
+    "title_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mark Ruzzin was appointed as Chair by acclamation.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Submission to the Board by the Secretary of the following: i. Certificate of the official ballot. ii. Certificates of the official Public Notices of the November 1, 2005 Election. iii. Certificate of election returns.",
+    "title_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Alisa Lewis submitted the above documents to the Board and read for the record the official results as follows:",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Public Hearing",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The public hearing was opened: There being no speakers the public hearing was closed.",
+    "outcome_summary_citations": [
+     "/page/1/Text/4"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Consideration of a motion that the abstract and result sheets be approved, and signing of same if approved.",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 5:0.",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Motion to adjourn from the General Canvassing and Election Board for the General Coordinated Municipal Election and reconvene as the Boulder City Council.",
+    "title_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Seeing no objection, the General Canvassing and Election Board for the General Municipal Election adjourned and the City Council re-convened.",
+    "outcome_summary_citations": [
+     "/page/1/Text/8"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE GENERAL COORDINATED MAIL BALLOT ELECTION HELD ON NOVEMBER 1, 2005:",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Swearing in of the new Councilmembers.",
+    "title_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Clerk Alisa Lewis administered the Oath to new councilmembersr Ageton, Eldridge, McGrath, Polk, and Schultheiss.",
+    "outcome_summary_citations": [
+     "/page/1/Text/10"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "Election of Mayor and Deputy Mayor",
+    "title_citations": [
+     "/page/1/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Ruzzin was appointed Mayor by acclamation; Councilmember Ageton was appointed Deputy Mayor with 5 votes.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/Text/10"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:22A.M.",
+    "outcome_summary_citations": [
+     "/page/2/Text/10"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "motion_text": "Motion to adjourn from the Boulder City Council and convene as the General Canvassing and Election Board for the City of Boulder General Coordinated Municipal Election.",
+    "motion_text_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Seeing no objection, the Boulder City Council adjourned and the General Canvassing and Election Board convened.",
+    "vote_text_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "motion_text": "Consideration of a motion nominating a member to chair the Board.",
+    "motion_text_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Mark Ruzzin was appointed as Chair by acclamation.",
+    "vote_text_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "7",
+    "agenda_item_number_citations": [],
+    "motion_text": "Board member Gray moved, seconded by Stoakes to approve the abstract and result sheets of the November 1, 2005 General Municipal Election for the City of Boulder.",
+    "motion_text_citations": [
+     "/page/1/Text/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/1/Text/6"
+    ],
+    "seconded_by": "Stoakes",
+    "seconded_by_citations": [
+     "/page/1/Text/6"
+    ],
+    "vote_text": "The motion carried 5:0.",
+    "vote_text_citations": [
+     "/page/1/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/1/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "motion_text": "Motion to adjourn from the General Canvassing and Election Board for the General Coordinated Municipal Election and reconvene as the Boulder City Council.",
+    "motion_text_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Seeing no objection, the General Canvassing and Election Board for the General Municipal Election adjourned and the City Council re-convened.",
+    "vote_text_citations": [
+     "/page/1/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/1/Text/13"
+    ],
+    "motion_text": "Councilmember Stoakes nominated Mark Ruzzin for Mayor.",
+    "motion_text_citations": [
+     "/page/1/Text/13"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Stoakes",
+    "moved_by_citations": [
+     "/page/1/Text/13"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Mayor Ruzzin was appointed Mayor by acclamation.",
+    "vote_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/2/Text/3"
+    ],
+    "motion_text": "Councilmember Schultheiss nominated Robin Bohannan.",
+    "motion_text_citations": [
+     "/page/2/Text/3"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Schultheiss",
+    "moved_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "motion_text": "Councilmember Eldridge nominated Suzy Ageton.",
+    "motion_text_citations": [
+     "/page/2/Text/4"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Councilmember Ageton was appointed Deputy Mayor with 5 votes by Ageton, Eldridge, Stoakes, Polk and Ruzzin.",
+    "vote_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/2/Text/6"
+    ],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Ageton",
+     "Eldridge",
+     "Stoakes",
+     "Polk",
+     "Ruzzin"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/2/Text/10"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:22A.M.",
+    "motion_text_citations": [
+     "/page/2/Text/10"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/2/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:22A.M.",
+    "vote_text_citations": [
+     "/page/2/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Bohannan",
+    "name_citations": [
+     "/page/2/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/2/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "McGrath",
+    "name_citations": [
+     "/page/1/Text/10"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/1/Text/10"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/2/Text/8"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/2/Text/8"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Schultheiss",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Stoakes",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  },
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  }
+ }
+}

@@ -1,0 +1,1120 @@
+{
+ "entry_id": 11840,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "j6eDUKttEjIlDztcgKbKcA",
+ "page_count": 8,
+ "cost_breakdown": {
+  "final_cost_cents": 49.0
+ },
+ "extraction": {
+  "meeting_date": "2010-01-19",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as a regular council meeting in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "council chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:55 P.M.",
+  "adjourned_time_citations": [
+   "/page/7/Text/12"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/12"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/7/Text/12. Conclusion: the value at /page/7/Text/12 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Osborne",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Mayor Osborne as presiding in /page/0/Text/3; the extracted surname follows the required member-name form. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-up check-in section states “None.” in /page/4/Text/1, so the document contains no call-up items. Conclusion: the value at /page/4/Text/1 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne called the regular January 19, 2010 council meeting to order at 6:00p.m. in the council chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council reached consensus that a staff report should return with options for a moratorium as soon as possible so that the matter is addressed prior to spring.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0 with item 3C amended and Council Members Ageton, Becker, Karakehian and Wilson opposed to item 3A.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "FOURTH READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7701 (ATTACHMENT A), REPEALING CHAPTER 9-13, INCLUSIONARY ZONING OF THE BOULDER REVISED CODE AND ADOPTING IN ITS PLACE CHAPTER 9-13, INCLUSIONARY HOUSING.",
+    "title_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7701"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved item 3A, with Council Members Ageton, Becker, Karakehian and Wilson opposed.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF AN EMERGENCY ORDINANCE ADOPTING SUPPLEMENT NO. 103, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7672, 7684, 7687, 7690, 7697, 7698, 7699, AND 7706 AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS, AS AN AMENDMENT TO THE BOULDER REVISED CODE, 1981.",
+    "title_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7672",
+     "7684",
+     "7687",
+     "7690",
+     "7697",
+     "7698",
+     "7699",
+     "7706"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved item 3B as part of the consent agenda motion.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT: 1. PROPOSED VISION AND GOALS FOR THE BOULDER RESERVOIR MASTER PLAN, AND 2. STUDY SESSION SUMMARY FROM DECEMBER 8, 2009",
+    "title_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved item 3C as amended to replace the first goal with alternate option 1 and the four bullets.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "title": "CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/4/Text/1"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7709 designating the building and site at 1017 Maxwell Avenue as an individual landmark, unanimously, 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Text/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7709 DESIGNATING THE BUILDING AND SITE AT 1017 MAXWELL AVENUE, TO BE KNOWN ALSO AS THE INGLIS HOUSE, AS AN INDIVIDUAL LANDMARK UNDER THE CITY’S HISTORIC PRESERVATION CODE. THE HEARING ON THIS ITEM WILL BE HELD UNDER THE QUASI-JUDICIAL HEARING PROCEDURES OF THE B.R.C. OWNER/APPLICANT: CINDY AND LARRY MORPHEW.",
+    "title_citations": [
+     "/page/4/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7709"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7709 designating the building and site at 1017 Maxwell Avenue as an individual landmark, unanimously, 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Brautigam indicated staff would come back to council after the community process was concluded.",
+    "outcome_summary_citations": [
+     "/page/6/Text/8"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/6/Text/8"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "CITY MANAGER’S UPDATE ON IMPLEMENTATION OF PRIORITY BASED BUDGETING",
+    "title_citations": [
+     "/page/4/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Brautigam indicated staff would come back to council after the community process was concluded.",
+    "outcome_summary_citations": [
+     "/page/6/Text/8"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/Text/0"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/7/Text/0"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/7/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/7/Text/0"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/Text/1"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/7/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council discussed committee appointments and received updates on the US 36 Tiger Grant and Jefferson Parkway.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/Text/1"
+    ],
+    "title": "ANNUAL COUNCIL COMMITTEE APPOINTMENTS DISCUSSION.",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council discussed committee liaison responsibilities and representatives, with additional discussion at the Council Retreat requested to determine representatives for some committees.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/Text/1"
+    ],
+    "title": "US 36 TIGER GRANT UPDATE. MAYOR OSBORNE",
+    "title_citations": [
+     "/page/7/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne reported no new news about the Tiger Grant, but potentially by the end of January.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/7/Text/8"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/Text/1"
+    ],
+    "title": "JEFFERSON PARKWAY UPDATE. COUNCIL MEMBER COWLES",
+    "title_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Cowles reported that a Denver Regional Council of Governments vote seemed to be moving toward parkway proponents and that he intended to participate in a late meeting Wednesday evening at DRCOG.",
+    "outcome_summary_citations": [
+     "/page/7/Text/8"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/Text/9"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/7/Text/9"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/7/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/7/Text/9"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/7/Text/10"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/7/Text/10"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/7/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/7/Text/10"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:55 P.M.",
+    "outcome_summary_citations": [
+     "/page/7/Text/12"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Amy Stein",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "expressing grave concern about the homeless issue in Boulder and recommending that council consider the issue a top priority.",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Ray Stewart",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "urgent action is needed to supply more beds in Boulder",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Jack Collom",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "opposition to boating on Boulder Reservoir",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Deborah Prowell",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "a poem about homelessness",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Terri Sternberg",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "a moratorium on camping tickets to prevent the expense on the homeless as well as the City",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Deidra Templeton",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "her primary concerns were safety, weather and trusting those around her",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Stachia Simons",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the need for the City to help the homeless help themselves",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the need for public access television",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Daniel Shaner",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "his concern about how the homeless are treated in Boulder and asked the Council to end the camping law",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the sentiments regarding a moratorium on camping",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Daniel Armstrong",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "a moratorium on the camping ordinance",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "in favor of the moratorium on camping in Boulder",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Carolyn Bninski",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "reconsider the policy of ticketing campers and arresting the homeless and instead provide better options such as church parking lots.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Ellen Stark",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the homeless and previous speakers' comments",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "David Carson",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "University Hill Revitalization",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Buddy Maiden",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "a recent ticket he received for sleeping in his vehicle",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Madelyn Clair",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the need for other towns in the County to provide overnight homeless shelters",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Mark Denney",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "a moratorium on the camping tickets",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jane Allen-Fenster",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the University Hill Revitalization issue",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Karen Worminghaus",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "how the Car Share program can aid the community and reduce carbon emissions",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "James Pribyl",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the University Hill Revitalization issue",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Richard Thuyer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the Council to support the redevelopment of the University Hill",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Michael Fitzgerald",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the numerous tickets he had received for camping in Boulder",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Adam Odoski",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the economic impacts noting that medical marijuana businesses are contributing to the local economy.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Michael Johnson",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "his experience being homeless in Boulder and supported the moratorium on the camping ordinance",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Leslie Glustrom",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "the Climate Action Plan",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "David Lee Madison",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "give the homeless community a chance and stop writing tickets",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3A through 3C",
+    "agenda_item_number_citations": [
+     "/page/3/Text/9"
+    ],
+    "motion_text": "to approve consent items 3A through 3C.",
+    "motion_text_citations": [
+     "/page/3/Text/9"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7701",
+     "7672",
+     "7684",
+     "7687",
+     "7690",
+     "7697",
+     "7698",
+     "7699",
+     "7706"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/3/Text/4"
+    ],
+    "vote_text": "The motion carried 9:0 with item 3C amended and Council Members Ageton, Becker, Karakehian and Wilson opposed to item 3A.",
+    "vote_text_citations": [
+     "/page/3/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Becker",
+     "Karakehian",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3C",
+    "agenda_item_number_citations": [
+     "/page/3/Text/5"
+    ],
+    "motion_text": "to replace the first goal on page 6 of the agenda memo and replacing it with alternate option 1 and the four bullets at the bottom of page 6 of the memo as follows:",
+    "motion_text_citations": [
+     "/page/3/Text/5"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/3/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/3/Text/5"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "to adopt Ordinance No. 7709 designating the building and site at 1017 Maxwell Avenue, to be known as the Inglis House, as an individual landmark under the City’s Historic Preservation Code.",
+    "motion_text_citations": [
+     "/page/4/Text/9"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7709"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/9"
+    ],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [
+     "/page/4/Text/9"
+    ],
+    "vote_text": "The motion carried unanimously, 9:0.",
+    "vote_text_citations": [
+     "/page/4/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:55 P.M.",
+    "motion_text_citations": [
+     "/page/7/Text/12"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

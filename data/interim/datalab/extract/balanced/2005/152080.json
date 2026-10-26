@@ -1,0 +1,1606 @@
+{
+ "entry_id": 152080,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "M1Qxbpr61PI2z6SQlStWng",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 22.0
+ },
+ "extraction": {
+  "meeting_date": "2005-05-17",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in block /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY OF BOULDER COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading is shown in block /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/3 identifies this as the regular May 17, 2005 meeting. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/3 states that the meeting was held in the Council Chambers. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/3 states that the meeting was called to order at 6:00p.m. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:00P.M.",
+  "adjourned_time_citations": [
+   "/page/6/Text/5"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/6/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/6/Text/5 states that the meeting was adjourned at 11:00P.M. Conclusion: the value at /page/6/Text/5 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Ruzzin",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/3 identifies Mayor Ruzzin as the person who called the meeting to order. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "1. SITE REVIEW FOR 4667 BROADWAY TO DEMOLISH TWO EXISTING BUILDINGS AND CONSTRUCT ONE NEW THREE-STORY SELF-STORAGE BUILDING. A PARKING REDUCTION AND VESTED RIGHTS ARE REQUESTED. WIP DATE: MAY 12, 2005. APPROVED BY PLANNING BOARD 5:1; J. SPITZER OPPOSED, S. MOLE ABSENT. LAST OPPORTUNITY FOR CALL-UP IS MAY 17, 2005.",
+   "2. SITE REVIEW FOR SINTON APARTMENTS, 1853 26TH STREET. HEIGHT MODIFICATION TO ALLOW FOR THE ADDITION OF SIXTEEN UNIT PRIVACY DECKS AND ONE COMMUNITY SUN DECK AND TRELLIS ON THE EXISTING ROOF ABOVE THE PERMITTED 35 FOOT HEIGHT THRESHOLD. WIP DATE: MAY 12, 2005. APPROVED BY PLANNING BOARD WITH CONDITIONS 6:0; S. MOLE ABSENT. LAST OPPORTUNITY FOR CALL-UP IS MAY 17, 2005."
+  ],
+  "call_up_items_citations": [
+   "/page/5/ListGroup/6",
+   "/page/5/ListGroup/8"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/5/ListGroup/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first call-up item appears in block /page/5/ListGroup/6. Conclusion: the value at /page/5/ListGroup/6 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/5/ListGroup/8"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second call-up item appears in block /page/5/ListGroup/8. Conclusion: the value at /page/5/ListGroup/8 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two potential call-up items, both present in the extraction: item 1 in /page/5/ListGroup/6 and item 2 in /page/5/ListGroup/8. Conclusion: the value at /page/5/ListGroup/6 and /page/5/ListGroup/8 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Ruzzin called the regular May 17, 2005 meeting of the Boulder City Council to order at 6:00p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Councilmember Gray presented the zero waste Community Partnership Award for 2005 which was awarded to the city by the Eco-cycle.",
+    "title_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Gray presented the zero waste Community Partnership Award for 2005 which was awarded to the city by the Eco-cycle.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Attorney Calonne clarified for the Fairview students addressing the curfew that our local ordinance does allow flexibility.",
+    "outcome_summary_citations": [
+     "/page/1/Text/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/2/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM APRIL 19, 2005.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM MAY 3, 2005.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE SUMMARY OF THE APRIL 12, 2005 CITY COUNCIL STUDY SESSION REGARDING BUDGET OVERVIEW AND STRATEGIC PLANNING AND;",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE SUMMARY FROM THE APRIL 12, 2005 STUDY SESSION ON ALCOHOL ISSUES.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2005 BUDGET FOR THE BOULDER MUNICIPAL PROPERTY AUTHORITY.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION AMENDING THE 2005 CAGID BUDGET.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION AMENDING THE 2005 UHGID BUDGET.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.H",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7422 APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2005 BUDGET.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7422"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.I",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7424 ADOPTING SUPPLEMENT No. 84, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7321, 7408, 7409 AND 7412, AS AN AMENDMENT TO THE BOULDER REVISED CODE 1981, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7424",
+     "7321",
+     "7408",
+     "7409",
+     "7412"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.J",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "ITEMS PERTAINING TO THE ANNEXATION AND INITIAL ZONING OF A 1.08 ACRE PARCEL LOCATED AT 210 ARAPAHOE. (LUR2000-00010)",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.J.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION FINDING THE ANNEXATION PETITION IN COMPLIANCE WITH STATE STATUTES AND ESTABLISHING JULY 5, 2005 AS THE DATE FOR A PUBLIC HEARING.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.J.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE TO ANNEX AND ZONE THE SUBJECT PROPERTY TO MEDIUM DENSITY RESIDENTIAL – ESTABLISHED (MR-E). APPLICANT/OWNER: THOMAS E. AND BETTY L. ELDRIDGE.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "CALL-UP CHECK IN",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "CALL-UP CHECK IN",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest expressed.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO PROVIDE DIRECTION ON DEVELOPMENT OF AN URBAN WILDLIFE MANAGEMENT PLAN AND ENDORSE THE PUBLIC PROCESS AND TIMELINE",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Mary Louise Chavers",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Billie Gutgoell",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Leslie Kinder",
+      "name_citations": [
+       "/page/3/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 6:2; Ruzzin and Schultheiss opposed, Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ]
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "DISCUSSION AND DIRECTION ON THE 2005 WEST NILE VIRUS CONTROL PLAN",
+    "title_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0; Eldridge absent.",
+    "outcome_summary_citations": [
+     "/page/4/Text/0"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "ECONOMIC VITALITY UPDATE",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Bruno announced that Sean Maher from the Boulder Economic Council will act as interim Economic Vitality Director focusing on business incentives, the client care program and supporting the natural foods cluster.",
+    "outcome_summary_citations": [
+     "/page/4/Text/6"
+    ]
+   },
+   {
+    "item_number": "6.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "UPDATE ON BEHAVIORS ASSOCIATED WITH PANHANDLING ON THE PEARL ST. MALL",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council consensus to support Task Force to address Pearl Street Mall issues.",
+    "outcome_summary_citations": [
+     "/page/5/Text/1"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/5/Text/3"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.1",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "title": "SITE REVIEW FOR 4667 BROADWAY TO DEMOLISH TWO EXISTING BUILDINGS AND CONSTRUCT ONE NEW THREE-STORY SELF-STORAGE BUILDING. A PARKING REDUCTION AND VESTED RIGHTS ARE REQUESTED. WIP DATE: MAY 12, 2005. APPROVED BY PLANNING BOARD 5:1; J. SPITZER OPPOSED, S. MOLE ABSENT. LAST OPPORTUNITY FOR CALL-UP IS MAY 17, 2005.",
+    "title_citations": [
+     "/page/5/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.2",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/5/SectionHeader/5"
+    ],
+    "title": "SITE REVIEW FOR SINTON APARTMENTS, 1853 26TH STREET. HEIGHT MODIFICATION TO ALLOW FOR THE ADDITION OF SIXTEEN UNIT PRIVACY DECKS AND ONE COMMUNITY SUN DECK AND TRELLIS ON THE EXISTING ROOF ABOVE THE PERMITTED 35 FOOT HEIGHT THRESHOLD. WIP DATE: MAY 12, 2005. APPROVED BY PLANNING BOARD WITH CONDITIONS 6:0; S. MOLE ABSENT. LAST OPPORTUNITY FOR CALL-UP IS MAY 17, 2005.",
+    "title_citations": [
+     "/page/5/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "title": "UPDATE ON WASHINGTON SCHOOL SITE",
+    "title_citations": [
+     "/page/5/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Assistant City Manager Petersen provided update on information gathered to date regarding the city's option through the MOU with BVSD in relation to the Washington Lease agreement and assessment.",
+    "outcome_summary_citations": [
+     "/page/5/Text/11"
+    ]
+   },
+   {
+    "item_number": "8.C",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/5/SectionHeader/4"
+    ],
+    "title": "COUNCIL APPOINTMENT TO THE CML EXECUTIVE COMMITTEE",
+    "title_citations": [
+     "/page/5/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0; Eldridge and Schultheiss absent.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: (15 min.) Public comment on any motions made under Matters.",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/6/Text/1"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/6/ListGroup/2"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/6/ListGroup/2"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/6/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0; Eldridge and Schultheiss absent.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/6/Text/5"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:00P.M.",
+    "outcome_summary_citations": [
+     "/page/6/Text/5"
+    ]
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Richard Reeves",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "interest in Washington elementary school – spoke of Open Studios proposal to purchase.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Paul Angel",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Homeless person that has lived in Boulder his whole life. Encouraged council to focus on behaviors not on groups or classes of people.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Carol Afleck",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "requesting that World Historic Valmont be allowed to present at the Valmont Butte Study Session on 5/31.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Nick Halsey",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "asked that a representative from the Native Americans participate in the 5/31 Study Session.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Charlotte Sorenson",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "happily announced that Senate Bill 239 which would have allowed Segway's access on any public pedestrian walkway was defeated and deemed dead.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Mollie Fager",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Executive Director of Dairy for the Arts – also interested in leasing and acquiring Washington Schools for Open Studios.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Marie Louise Chavers",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "spoke of connections program on KGNU and the fact that she has been informed that she, Robert Sharpe and Lyn Segal are being monitored and limited from speaking on programs. Applauded City Manager Frank Bruno, a man of integrity.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Richard Devin",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "in favor of purchase of Washington School and supports the Open Studios proposal.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Fred Rubin",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "proposing a senior residential project at the Washington School location – noted the numerous benefits of this project.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Robert Stemwedel Jr.",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "also speaking in support of the proposal for a senior residential project. Stressed that the city would not be asked for any subsidy or funding.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Sebastian George",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "addressing need to change the current curfew laws. The group indicated that teen curfews contradict with church, social, school, jobs, sporting events. Suggested moving curfew back by one hour or to let permits be issued.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "George Karakehian",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Owner of Art Sources on Pearl Street Mall – noted that the 1300 block, the courthouse block, has some very serious issues and requested the city support addressing those issues.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Craig Thomas",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Fairview group also addressing teen curfews. He indicated that statistics do not establish any connection to crime statistics from communities with curfews to towns without.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Chuck Gray",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Baseline on-ramp project at Baseline – opposed to two lane on ramp.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Teresa Wong",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Fairview group addressing poverty in Boulder – presented a proposal for creating low income housing in Boulder.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Nolan Rosall",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "DMC member asking Council support to form a task force to look for other methods to deal with the behavior issues present on the Pearl St. Mall.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Eddie Ermoian",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "“Fast Eddie” differentiate – vagrant transients are the problem – not the homeless. Supports DMC task force.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Judd Golden",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "ACLU urged council to revisit work done 3 years ago to provide the Aggressive Panhandling Ordinance before you decide to do this all again.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Dan Powers",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "Representing Chamber of Commerce - addressing the missing link in the Boulder Valley Comprehensive Plan - Economic issues.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Tim Plass",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "speaking as a representative of the LPAB. Spoke to two suggestions from the Chamber of Commerce that would dismantle a large portion of Boulder’s model historic preservation program. 2 Chamber proposals 1) eliminate designation of historic districts and 2) limiting landmarking to willing owners to participate in historic preservation.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "John Salvaggio",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "victim of violent behavior on Pearl St. Mall. Spoke of the unacceptable behaviors that are taking place on a daily basis on Pearl Street Mall. Asked for a stronger police presence on the Mall.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Dave Allured",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "Boulder Bicycle commuter re: Baseline/36 project. Particularly opposed to widening on 36 on ramp. Negatively impacts bicyclists and pedestrians. Asked for on street bike lane for the entire area.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "shared concerns about behaviors on Pearl Street Mall yet also concerned that we don’t become elitists – let’s not have unintended consequences. Also concerned about Baseline project.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   },
+   {
+    "name": "Homeless Boulder Man",
+    "name_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "topic": "Zero tolerance towards homeless destroys the right of the homeless and transients.",
+    "topic_citations": [
+     "/page/4/ListGroup/2"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text": "Councilmember Schultheiss moved, seconded by Stoakes to approve consent agenda items 3-A through 3-J.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Schultheiss",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by": "Stoakes",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "The motion carried 8:0, Eldridge absent.",
+    "vote_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge"
+    ]
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Ruzzin moved, seconded by Stoakes to delay consideration of the Urban Wildlife Plan and fold it into the 2006/2007 Budget.",
+    "motion_text_citations": [
+     "/page/3/Text/9"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ruzzin",
+    "moved_by_citations": [
+     "/page/3/Text/9"
+    ],
+    "seconded_by": "Stoakes",
+    "seconded_by_citations": [
+     "/page/3/Text/9"
+    ],
+    "vote_text": "The motion failed 2:6; Ruzzin and Stoakes in favor, Eldridge absent.",
+    "vote_text_citations": [
+     "/page/3/Text/9"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/3/Text/9"
+    ],
+    "yes_count": 2,
+    "yes_count_citations": [
+     "/page/3/Text/9"
+    ],
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/3/Text/9"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Ruzzin",
+     "Stoakes"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge"
+    ]
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Riggle moved, seconded by Bohannan to approve the staff recommendation option 1 on page 5A-7 asking the Manager to return with possible Budget trade-offs or a recommendation for a supplemental appropriation.",
+    "motion_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/3/Text/10"
+    ],
+    "seconded_by": "Bohannan",
+    "seconded_by_citations": [
+     "/page/3/Text/10"
+    ],
+    "vote_text": "The motion carried 6:2; Ruzzin and Schultheiss opposed, Eldridge absent.",
+    "vote_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/10"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/3/Text/10"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ruzzin",
+     "Schultheiss"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge"
+    ]
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Gray moved, seconded by Riggle to approve the 2005 West Nile Virus monitoring and control program which is similar to the 2004 program.",
+    "motion_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/4/Text/0"
+    ],
+    "seconded_by": "Riggle",
+    "seconded_by_citations": [
+     "/page/4/Text/0"
+    ],
+    "vote_text": "The motion carried 8:0; Eldridge absent.",
+    "vote_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge"
+    ]
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Gray moved, seconded by McGrath to suspend the rules and continue the meeting.",
+    "motion_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "vote_text": "The motion carried 7:1; Stoakes opposed, Eldridge absent.",
+    "vote_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Stoakes"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge"
+    ]
+   },
+   {
+    "agenda_item_number": "8.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Riggle moved, seconded by Bohannan to draft a letter of support for Shaun McGrath's nomination for the CML Executive Board.",
+    "motion_text_citations": [
+     "/page/5/Text/13"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/5/Text/13"
+    ],
+    "seconded_by": "Bohannan",
+    "seconded_by_citations": [
+     "/page/5/Text/13"
+    ],
+    "vote_text": "The motion carried 7:0; Eldridge and Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/6/Text/5"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:00P.M.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/6/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:00P.M.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Bohannan",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "McGrath",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Schultheiss",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Stoakes",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ]
+ }
+}

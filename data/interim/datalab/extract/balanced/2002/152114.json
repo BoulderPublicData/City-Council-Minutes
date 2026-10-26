@@ -1,0 +1,481 @@
+{
+ "entry_id": 152114,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "w3Guyy7pG9tnUYCRIfWplA",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 8.0
+ },
+ "extraction": {
+  "meeting_date": "2002-10-22",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states the meeting date in /page/0/SectionHeader/0.\nConclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/3"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the meeting as a special meeting in /page/0/SectionHeader/3.\nConclusion: the value at /page/0/SectionHeader/3 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies this as a special meeting in /page/0/SectionHeader/3.\nConclusion: the value at /page/0/SectionHeader/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/5"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting occurred in the Council Chambers in /page/0/Text/5.\nConclusion: the value at /page/0/Text/5 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:15 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/5"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at the extracted time in /page/0/Text/5.\nConclusion: the value at /page/0/Text/5 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:00 P.M.",
+  "adjourned_time_citations": [
+   "/page/1/Text/7"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement gives the extracted time in /page/1/Text/7.\nConclusion: the value at /page/1/Text/7 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/5"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Toor called the meeting to order in /page/0/Text/5.\nConclusion: the value at /page/0/Text/5 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no items identified as call-ups or call-up check-ins, so no list value is supported by the document.\nConclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/5"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the special October 22, 2002 meeting of the Boulder City Council to order at 6:15 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "ITEMS RELATED TO THE CITY MANAGER SELECTION PROCESS:",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "ITEMS RELATED TO THE CITY MANAGER SELECTION PROCESS:",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title": "NOMINATIONS OF CANDIDATES TO INVITE TO INTERVIEW FOR THE CITY MANAGER POSITION.",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council identified that candidates A, H, D, I, and E would be invited. However, there was a deadlock between candidates C and J.",
+    "outcome_summary_citations": [
+     "/page/0/Text/12"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "section": "ITEMS RELATED TO THE CITY MANAGER SELECTION PROCESS:",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title": "DISCUSSION OF MATTERS RELATED TO THE CITY MANAGER SELECTION PROCESS. - 8:00 P.M.",
+    "title_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Regarding the contract, Council consensus was to approve the draft contract. Discussion took place regarding the 30 day resignation notice, however and Council urged recommended remaining flexible on this point.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "3 RD QUARTER COUNCIL GOAL REPORTS - 9:00P.M.",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The goal reports were presented in the packet. There were no questions or comments from Council.",
+    "outcome_summary_citations": [
+     "/page/1/Text/5"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/Text/11"
+    ],
+    "motion_text": "Councilmember Riggle moved, seconded by Morzel, to invite 6 candidates to interview with a 1 st alternate identified.",
+    "motion_text_citations": [
+     "/page/0/Text/11"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/0/Text/11"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/0/Text/11"
+    ],
+    "vote_text": "The motion carried: 5:3, Corson, Eldridge and Havlick opposed, Mock absent.",
+    "vote_text_citations": [
+     "/page/0/Text/11"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/0/Text/11"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/0/Text/11"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Corson",
+     "Eldridge",
+     "Havlick"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock"
+    ]
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Havlick moved, seconded by Morzel, to continue the October 22 nd special meeting until 4:45 p.m. on October 29 th .",
+    "motion_text_citations": [
+     "/page/0/Text/13"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/0/Text/13"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/0/Text/13"
+    ],
+    "vote_text": "The motion carried: 8:0, Mock absent.",
+    "vote_text_citations": [
+     "/page/0/Text/13"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Text/13"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/13"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:00 P.M.",
+    "motion_text_citations": [
+     "/page/1/Text/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Mock",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  }
+ }
+}
