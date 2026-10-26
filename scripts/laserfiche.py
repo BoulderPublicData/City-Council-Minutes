@@ -14,6 +14,13 @@ Three things the portal does that a naive scraper trips over:
    POST `GeneratePDF10.aspx` → poll `DocumentService.aspx/PDFTransition` → GET
    `PDF10/<key>/<docid>`. Those PDFs are rebuilt on every request, so their hashes
    change between downloads; compare page counts/images, not hashes.
+4. **Bulk export.** The browse page's "Download selected" builds one ZIP of many
+   entries server-side, one PDF per entry named after the entry: POST
+   `ZipEntriesHandler.aspx/StartExport` → poll `CheckExportStatus` → GET
+   `ExportJobHandler.aspx/GetExportJob/?token=`. The job lives in the session that
+   started it. A batch of 25 records costs ~6–10 requests instead of ~3 per scanned
+   record, so `export_zip` is the default download path and per-entry download is
+   the fallback.
 
 The folder listing comes from the JSON endpoint the browse page itself calls,
 `FolderListingService.aspx/GetFolderListing2`.
@@ -21,8 +28,10 @@ The folder listing comes from the JSON endpoint the browse page itself calls,
 
 from __future__ import annotations
 
+import io
 import logging
 import time
+import zipfile
 from typing import Any
 
 import requests
@@ -153,6 +162,33 @@ class LaserficheClient:
                 raise LaserficheError(f"PDF build for {entry_id} never finished")
             return self._request("GET", f"PDF10/{key}/{entry_id}").content
         raise LaserficheError("unreachable")
+
+    def export_zip(self, entry_ids: list[int], poll_s: float = 10.0,
+                   max_wait_s: float = 1200.0) -> dict[str, bytes]:
+        """Export many entries as one ZIP; return {filename in zip: bytes}."""
+        self._ensure_viewer_session(entry_ids[0])
+        body = {"vdirName": "WebLink", "repoName": REPO,
+                "ids": [str(i) for i in entry_ids], "key": -1, "watermarkIdx": -1}
+        start = (self._request("POST", "ZipEntriesHandler.aspx/StartExport", json=body)
+                 .json().get("data") or {})
+        token = start.get("token")
+        if not token or start.get("errorMessage"):
+            raise LaserficheError(f"StartExport refused: {start.get('errorMessage')}")
+        waited = 0.0
+        while True:
+            time.sleep(poll_s)
+            waited += poll_s
+            status = (self._request("POST", "ZipEntriesHandler.aspx/CheckExportStatus",
+                                    json={"token": token}).json().get("data") or {})
+            if status.get("errorMessage"):
+                raise LaserficheError(f"export failed: {status['errorMessage']}")
+            if status.get("finished"):
+                break
+            if waited > max_wait_s:
+                raise LaserficheError(f"export {token} unfinished after {max_wait_s}s")
+        r = self._request("GET", f"ExportJobHandler.aspx/GetExportJob/?token={token}")
+        with zipfile.ZipFile(io.BytesIO(r.content)) as zf:
+            return {i.filename: zf.read(i) for i in zf.infolist() if not i.is_dir()}
 
     def download_pdf(self, entry_id: int, is_edoc: bool, pages: int | None) -> tuple[bytes, str]:
         """Return (pdf_bytes, method) for one document."""

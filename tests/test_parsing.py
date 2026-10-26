@@ -27,3 +27,11 @@ def test_item_key():
 def test_strip_meta():
     assert strip_meta({"a": 1, "a_citations": [], "a_meta": {}, "b": [{"c": 2, "c_meta": {}}]}) == \
         {"a": 1, "b": [{"c": 2}]}
+
+
+def test_zip_member_names_match_entry_names():
+    from scripts.fetch import name_key
+    assert name_key("Minutes - Apr-09-2007.pdf") == name_key("Minutes - Apr-09-2007")
+    assert name_key("ExportedContents/City Council Minutes - 12.01.20.PDF") == \
+        name_key("City Council Minutes - 12.01.20")
+    assert name_key("Minutes - Apr-09-2007") != name_key("Minutes - Aug-07-2007")

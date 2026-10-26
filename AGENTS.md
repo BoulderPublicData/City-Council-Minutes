@@ -48,6 +48,10 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
    `GeneratePDF10.aspx` → `DocumentService.aspx/PDFTransition` → `PDF10/<key>/<id>`
    flow, which needs the session cookie `DocView.aspx` sets. Rendered PDFs get new
    bytes every time, so their SHA-256 is not stable — compare page counts.
+   Faster: the browse page's bulk export (`ZipEntriesHandler.aspx/StartExport`) returns
+   one ZIP with a PDF per entry, ~6–10 requests per 25 records. `fetch` uses it by
+   default and falls back to per-entry downloads. The export job is bound to the
+   session that started it.
 4. **Folder layout changes.** Early years list minutes directly under the year;
    later years nest month folders (`01 JAN`, `09 SEPT`). `discover` walks recursively.
 5. **Names carry the date, inconsistently.** `Minutes - Apr-01-2003`,
