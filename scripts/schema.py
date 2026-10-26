@@ -21,8 +21,8 @@ from scripts.extraction_schema import ACTION_TYPES, MEETING_TYPES, MOTION_RESULT
 
 VOTES = ["yes", "no", "abstain", "absent"]
 VOTE_SOURCES = ["stated", "inferred"]
-VOTE_INFERENCE = ["complete_as_stated", "inferred_from_roll_call", "partial_stated_only",
-                  "inconsistent_not_inferred", "no_vote_recorded"]
+VOTE_INFERENCE = ["complete_as_stated", "inferred_from_roll_call", "inferred_with_item_exceptions",
+                  "partial_stated_only", "inconsistent_not_inferred", "no_vote_recorded"]
 
 _nullable_str = pa.Column(str, nullable=True)
 
@@ -101,6 +101,7 @@ motions = pa.DataFrameSchema({
     "no_count": pa.Column("Int64", nullable=True),
     "stated_unanimous": pa.Column(bool),
     "vote_inference": pa.Column(str, pa.Check.isin(VOTE_INFERENCE)),
+    "item_level_exceptions": _nullable_str,
     "n_yes": pa.Column(int),
     "n_no": pa.Column(int),
     "n_abstain": pa.Column(int),

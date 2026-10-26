@@ -7,6 +7,8 @@ def test_member_key_strips_titles():
     assert member_key("Mayor Pro Tem Brockett") == "Brockett"
     assert member_key("Council Member Speer") == "Speer"
     assert member_key("Brockett,") == "Brockett"
+    assert member_key("Yates - Late") == "Yates"
+    assert member_key("Folkerts (virtual)") == "Folkerts"
     assert member_key("") is None
 
 

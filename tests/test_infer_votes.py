@@ -50,3 +50,23 @@ def test_unanimous_with_named_no_is_inconsistent():
     _, label = infer_votes(NINE, [], {"vote_text": "unanimous", "stated_unanimous": True,
                                       "no_votes": ["Mock"], "result": "passed"})
     assert label == "inconsistent_not_inferred"
+
+
+def test_item_level_recusal_beside_full_tally():
+    eight = NINE[:8]
+    m = {"vote_text": "Carried 8:0 ABSTAINED: Toor, Mock", "yes_count": 8, "no_count": 0,
+         "abstained": ["Toor", "Mock"], "result": "passed"}
+    rows, label = infer_votes(eight, ["Ruzzin"], m)
+    assert label == "inferred_with_item_exceptions"
+    v = _votes(rows)
+    assert v["Toor"] == ("yes", "inferred") and v["Ruzzin"] == ("absent", "inferred")
+    from scripts.tidy import item_exceptions
+    assert item_exceptions(eight, ["Ruzzin"], m) == "Toor: abstain; Mock: abstain"
+
+
+def test_item_level_nay_beside_unanimous_tally():
+    rows, label = infer_votes(NINE, [], {"vote_text": "Carried 9:0 NAY: Mock on Item F",
+                                         "yes_count": 9, "no_count": 0, "no_votes": ["Mock"],
+                                         "result": "passed"})
+    assert label == "inferred_with_item_exceptions"
+    assert _votes(rows)["Mock"] == ("yes", "inferred")

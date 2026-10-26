@@ -30,3 +30,13 @@ def test_tidy_tables_validate(extraction_2003):
             if str(c.dtype) == "Int64":
                 df[col] = df[col].astype("Int64")
         sch.validate(df)
+
+
+def test_nested_export_has_no_nan(extraction_2003):
+    import json
+
+    from scripts.tidy import nested_meeting
+    t = tidy_one(ENTRY, extraction_2003, "balanced", "test")
+    tables = {name: pd.DataFrame(rows) for name, rows in t.items()}
+    out = json.dumps(nested_meeting(tables, 151897))
+    assert "NaN" not in out

@@ -119,10 +119,30 @@ def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any]
     consistent = (yes_count is None or yes_count == len(remaining)) and \
                  (no_count is None or no_count == n_no) and not (unanimous and n_no)
     if not consistent:
+        # Boulder's minutes put item-level exceptions beside the whole motion's tally:
+        # "Carried 9:0; NAY: Nagle on Item F", "Carried 8:0 ABSTAINED: Wallach, Winer &
+        # Yates". When the tally covers every present member with no nays, the named
+        # no/abstain votes can only be on individual items: the motion itself passed
+        # with all present voting yes. Those exceptions are reported separately.
+        voting = [m for m in present if m not in out]
+        if yes_count == len(voting) and not no_count and (no or abstain):
+            rows = [(m, "absent", "stated") for m in out]
+            rows += [(m, "yes", "inferred") for m in voting]
+            rows += [(a, "absent", "inferred") for a in roll_absent]
+            return rows, "inferred_with_item_exceptions"
         return rows, "inconsistent_not_inferred"
     rows += [(m, "yes", "inferred") for m in remaining]
     rows += [(a, "absent", "inferred") for a in roll_absent]
     return rows, "inferred_from_roll_call"
+
+
+def item_exceptions(present: list[str], absent: list[str], motion: dict[str, Any]) -> str | None:
+    """'Nagle: no; Speer: abstain' — the named votes that an item-level reading moved off
+    the motion (see `infer_votes`)."""
+    roster = present + [a for a in absent if a not in present]
+    parts = [f"{m}: no" for m in normalize_list(motion.get("no_votes"), roster)]
+    parts += [f"{m}: abstain" for m in normalize_list(motion.get("abstained"), roster)]
+    return "; ".join(parts) or None
 
 
 # ── per-document tidy ───────────────────────────────────────────────────────
@@ -206,6 +226,8 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
             "result": m.get("result") if m.get("result") in MOTION_RESULTS else "no_vote_recorded",
             "yes_count": _int(m.get("yes_count")), "no_count": _int(m.get("no_count")),
             "stated_unanimous": bool(m.get("stated_unanimous")), "vote_inference": label,
+            "item_level_exceptions": (item_exceptions(present, absent, m)
+                                      if label == "inferred_with_item_exceptions" else None),
             "n_yes": counts["yes"], "n_no": counts["no"], "n_abstain": counts["abstain"],
             "n_absent": counts["absent"],
         })
@@ -234,6 +256,17 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
 
 # ── nested export (README format, extended) ─────────────────────────────────
 
+def _denan(o: Any) -> Any:
+    """Missing values from pandas (NaN, pd.NA) → None, so the JSON has nulls."""
+    if isinstance(o, dict):
+        return {k: _denan(v) for k, v in o.items()}
+    if isinstance(o, list):
+        return [_denan(v) for v in o]
+    if o is pd.NA or (isinstance(o, float) and o != o):
+        return None
+    return o
+
+
 def nested_meeting(t: dict[str, pd.DataFrame], eid: int) -> dict[str, Any]:
     def sub(name: str) -> pd.DataFrame:
         df = t[name]
@@ -255,9 +288,20 @@ def nested_meeting(t: dict[str, pd.DataFrame], eid: int) -> dict[str, Any]:
     if len(consent_motion):
         consent.update(vote_lists(int(consent_motion.iloc[0]["motion_seq"])))
 
+    def numbers(v: Any) -> set[str]:
+        return set(re.findall(r"(?<!\d)\d{3,4}(?!\d)", v)) if isinstance(v, str) else set()
+
     hearings = []
     for it in items[items["is_public_hearing"]].itertuples():
-        hm = mots[(mots["item_key"] == it.item_key) & (mots["action_type"] != "amendment")]
+        # The hearing's decisive motion: one acting on the same ordinance/resolution
+        # number if any, else one under the same agenda item; amendments and motions
+        # with no recorded vote are passed over when a voted main motion exists.
+        nums = numbers(it.ordinance_or_resolution_numbers) | numbers(it.title)
+        by_num = mots["ordinance_or_resolution_numbers"].map(numbers).map(lambda s, nums=nums: bool(s & nums))
+        hm = mots[(by_num if by_num.any() else mots["item_key"] == it.item_key)
+                  & (mots["action_type"] != "amendment")]
+        voted = hm[hm["vote_inference"] != "no_vote_recorded"]
+        hm = voted if len(voted) else hm
         h = {"name": it.title, "description": it.outcome_summary,
              "opened": it.hearing_opened_time, "closed": it.hearing_closed_time,
              "speakers": spk[(spk["context"] == "public_hearing") &
@@ -270,7 +314,7 @@ def nested_meeting(t: dict[str, pd.DataFrame], eid: int) -> dict[str, Any]:
         hearings.append(h)
 
     oc = spk[spk["context"] == "open_comment"]
-    return {
+    return _denan({
         "date": mt["meeting_date"], "minutes_url": mt["source_url"], "entry_id": int(eid),
         "meeting_type": mt["meeting_type"],
         "attendees": att[att["status"] == "present"]["member"].tolist(),
@@ -282,7 +326,7 @@ def nested_meeting(t: dict[str, pd.DataFrame], eid: int) -> dict[str, Any]:
         "motions": [{**{k: (None if pd.isna(v) else v) for k, v in m.items()
                         if k not in ("entry_id",)}, **vote_lists(int(m["motion_seq"]))}
                     for m in mots.to_dict("records")],
-    }
+    })
 
 
 # ── driver ──────────────────────────────────────────────────────────────────

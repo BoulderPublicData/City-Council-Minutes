@@ -85,6 +85,7 @@ them can drop this table without affecting any other.
 | yes_count, no_count | int? | Only if the minutes state a count |
 | stated_unanimous | bool | The minutes say unanimous / all present / N:0 |
 | vote_inference | enum | How `member_votes` rows were obtained — see below |
+| item_level_exceptions | str | e.g. `Nagle: no; Speer: abstain` — votes the minutes name on individual items of this motion (usually the consent agenda) |
 | n_yes, n_no, n_abstain, n_absent | int | Counts of `member_votes` rows |
 
 `vote_inference`:
@@ -92,6 +93,10 @@ them can drop this table without affecting any other.
 - `complete_as_stated` — every present member's vote is named in the minutes
 - `inferred_from_roll_call` — unnamed present members filled in as `yes` from roll call
   (counts, where stated, reconcile)
+- `inferred_with_item_exceptions` — the tally covers every present member with no nays,
+  but the minutes name a nay, recusal, or abstention: those are on individual items
+  ("Carried 9:0; NAY: Nagle on Item F"). The motion row gets all-yes, inferred; the
+  item-level votes are in `item_level_exceptions`
 - `partial_stated_only` — the minutes list yes votes but omit some present members
   (likely left the dais); only stated votes kept
 - `inconsistent_not_inferred` — filling in would contradict a stated count; only stated votes kept

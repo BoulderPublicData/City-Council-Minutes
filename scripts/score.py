@@ -20,18 +20,36 @@ from __future__ import annotations
 
 import difflib
 import json
+import re
 from typing import Any
 
 import pandas as pd
 
-from scripts.config import DATA_AUDIT, DATA_INTERIM, DATALAB_EXTRACT, SAMPLE_CSV
+from scripts.config import DATA_AUDIT, DATA_INTERIM, DATA_LOOKUPS, DATALAB_EXTRACT, SAMPLE_CSV
 from scripts.gold import load_gold
-from scripts.names import member_key
+from scripts.names import member_key, snap
 from scripts.tidy import tidy_all
 
+_PLACEHOLDERS = {"none", "n/a", "na", "absent", "late", "-", ""}
 
-def _keys(names: list[str]) -> set[str]:
-    return {k for k in (member_key(n) for n in names or []) if k}
+
+def _keys(names: list[str] | None, roster: list[str] | None = None,
+          everyone: list[str] | None = None) -> set[str]:
+    """Reference names → member keys. The hand transcription has typos ("Walllach",
+    "Folerts"), placeholders ("None", "Late", "Absent") and shorthand ("All"); snap
+    names to the meeting's roll call and expand "All" to everyone present."""
+    out: set[str] = set()
+    for n in names or []:
+        token = str(n).strip().strip(".").lower()
+        if token in _PLACEHOLDERS:
+            continue
+        if token == "all":
+            out |= set(everyone or [])
+            continue
+        k = member_key(n)
+        if k:
+            out.add(snap(k, roster or [], cutoff=0.75))
+    return out
 
 
 def _prf(pred: set[str], ref: set[str]) -> tuple[float | None, float | None]:
@@ -42,11 +60,24 @@ def _prf(pred: set[str], ref: set[str]) -> tuple[float | None, float | None]:
     return p, r
 
 
-def _norm(s: str | None) -> str:
-    return " ".join((s or "").lower().split())
+def _norm(s: str | list[str] | None) -> str:
+    if isinstance(s, list):  # a few hand-typed hearing names are lists of lines
+        s = " ".join(str(x) for x in s)
+    return " ".join(s.lower().split()) if isinstance(s, str) else ""
 
 
-def _match_hearing(name: str, cands: list[dict[str, Any]]) -> dict[str, Any] | None:
+def _numbers(s: str | list[str] | None) -> set[str]:
+    return set(re.findall(r"(?<!\d)\d{3,4}(?!\d)", _norm(s)))
+
+
+def _match_hearing(name: str | list[str], cands: list[dict[str, Any]]) -> dict[str, Any] | None:
+    """Match a reference hearing to an extracted one: by ordinance/resolution number when
+    the reference names one ("Ordinance 8500"), else by title similarity."""
+    nums = _numbers(name)
+    if nums:
+        hits = [c for c in cands if nums & (_numbers(c.get("name")) | _numbers(c.get("description")))]
+        if hits:
+            return hits[0]
     best, score = None, 0.0
     for c in cands:
         r = difflib.SequenceMatcher(None, _norm(name), _norm(c.get("name"))).ratio()
@@ -64,16 +95,24 @@ def score_mode(mode: str) -> tuple[pd.DataFrame, list[str]]:
         eid = g.get("entry_id")
         if eid not in nested:
             continue
+        if nested[eid]["date"] != g["date"]:
+            notes.append(f"- `{eid}` date: ref={g['date']} | ext={nested[eid]['date']}")
         p = nested[eid]
-        att_p, att_r = _prf(set(p["attendees"]), _keys(g["attendees"]))
+        roster = p["attendees"] + p["absent"]
+
+        def ref(names: list[str] | None, p: dict[str, Any] = p, roster: list[str] = roster) -> set[str]:
+            return _keys(names, roster, p["attendees"])
+
+        ref_att = ref(g["attendees"])
+        att_p, att_r = _prf(set(p["attendees"]), ref_att)
         gc, pc = g.get("consent_agenda") or {}, p["consent_agenda"]
         row = {
             "entry_id": eid, "date": g["date"], "date_match": p["date"] == g["date"],
             "attendance_precision": att_p, "attendance_recall": att_r,
-            "attendance_exact": set(p["attendees"]) == _keys(g["attendees"]),
+            "attendance_exact": set(p["attendees"]) == ref_att,
             "consent_items_ref": len(gc.get("items") or []), "consent_items_ext": len(pc["items"]),
-            "consent_yeas_exact": set(pc["yeas"]) == _keys(gc.get("yeas")),
-            "consent_nays_exact": set(pc["nays"]) == _keys(gc.get("nays")),
+            "consent_yeas_exact": set(pc["yeas"]) == ref(gc.get("yeas")),
+            "consent_nays_exact": set(pc["nays"]) == ref(gc.get("nays")),
             "hearings_ref": len(g.get("public_hearings") or []),
             "hearings_ext": len(p["public_hearings"]),
         }
@@ -82,15 +121,16 @@ def score_mode(mode: str) -> tuple[pd.DataFrame, list[str]]:
             ph = _match_hearing(gh.get("name", ""), p["public_hearings"])
             if not ph:
                 notes.append(f"- `{eid}` {g['date']}: reference hearing not found: "
-                             f"“{(gh.get('name') or '')[:90]}”")
+                             f"“{_norm(gh.get('name'))[:90]}”")
                 continue
-            h_fields["mover"].append(member_key(gh.get("motion")) == ph["motion"])
-            h_fields["seconder"].append(member_key(gh.get("seconded")) == ph["seconded"])
-            h_fields["yeas"].append(_keys(gh.get("yeas")) == set(ph["yeas"]))
-            h_fields["nays"].append(_keys(gh.get("nays")) == set(ph["nays"]))
-            if _keys(gh.get("yeas")) != set(ph["yeas"]) or _keys(gh.get("nays")) != set(ph["nays"]):
-                notes.append(f"- `{eid}` {g['date']} hearing “{(gh.get('name') or '')[:60]}”: "
-                             f"ref yeas={sorted(_keys(gh.get('yeas')))} nays={sorted(_keys(gh.get('nays')))}"
+            ry, rn = ref(gh.get("yeas")), ref(gh.get("nays"))
+            h_fields["mover"].append(min(ref([gh.get("motion") or ""]) or {None}) == ph["motion"])
+            h_fields["seconder"].append(min(ref([gh.get("seconded") or ""]) or {None}) == ph["seconded"])
+            h_fields["yeas"].append(ry == set(ph["yeas"]))
+            h_fields["nays"].append(rn == set(ph["nays"]))
+            if ry != set(ph["yeas"]) or rn != set(ph["nays"]):
+                notes.append(f"- `{eid}` {g['date']} hearing “{_norm(gh.get('name'))[:60]}”: "
+                             f"ref yeas={sorted(ry)} nays={sorted(rn)}"
                              f" | ext yeas={sorted(ph['yeas'])} nays={sorted(ph['nays'])}")
         for k, v in h_fields.items():
             row[f"hearing_{k}_match_rate"] = sum(v) / len(v) if v else None
@@ -100,11 +140,12 @@ def score_mode(mode: str) -> tuple[pd.DataFrame, list[str]]:
         row["open_comment_recall"] = (sum(1 for n in ref_oc if difflib.get_close_matches(n, ext_oc, 1, 0.8))
                                       / len(ref_oc)) if ref_oc else None
         if not row["attendance_exact"]:
-            notes.append(f"- `{eid}` {g['date']} attendance: ref={sorted(_keys(g['attendees']))} "
+            notes.append(f"- `{eid}` {g['date']} attendance: ref={sorted(ref_att)} "
                          f"| ext={sorted(p['attendees'])}")
         if not (row["consent_yeas_exact"] and row["consent_nays_exact"]):
-            notes.append(f"- `{eid}` {g['date']} consent vote: ref yeas={sorted(_keys(gc.get('yeas')))} "
-                         f"nays={sorted(_keys(gc.get('nays')))} | ext yeas={pc['yeas']} nays={pc['nays']}")
+            notes.append(f"- `{eid}` {g['date']} consent vote: ref yeas={sorted(ref(gc.get('yeas')))} "
+                         f"nays={sorted(ref(gc.get('nays')))} | ext yeas={sorted(pc['yeas'])} "
+                         f"nays={sorted(pc['nays'])}")
         rows.append(row)
     return pd.DataFrame(rows), notes
 
@@ -174,6 +215,15 @@ def score() -> None:
                   "No reference exists before 2021, so agreement between the two modes is the "
                   "signal there. Fewer motions in one mode almost always means it missed some.", "",
                   _fmt(by_era), ""]
+    adj_path = DATA_LOOKUPS / "adjudications.csv"
+    if adj_path.exists():
+        adj = pd.read_csv(adj_path)
+        lines += ["## Disagreements checked against the minutes", "",
+                  "Each row was read in the OCR'd minutes by hand "
+                  "(`data/lookups/adjudications.csv`). `reference_error` means the extraction "
+                  "matches the minutes and the hand transcription does not.", "",
+                  _fmt(adj.groupby(["field", "verdict"]).size().rename("n").reset_index()), "",
+                  _fmt(adj), ""]
     for mode, notes in detail.items():
         lines += [f"## Disagreements to adjudicate — {mode}", ""] + (notes or ["_none_"]) + [""]
     if SAMPLE_CSV.exists():

@@ -46,7 +46,9 @@ def member_key(raw: str | None) -> str | None:
     """Last name, title-cased, with titles and punctuation removed."""
     if not raw:
         return None
-    s = _TITLES.sub(" ", raw)
+    # Drop trailing notes: "Yates - Late", "Folkerts – arrived 6:15"
+    s = re.split(r"\s+[-–—]\s+", raw.strip(), maxsplit=1)[0]
+    s = _TITLES.sub(" ", s)
     s = re.sub(r"\(.*?\)", " ", s)
     s = re.sub(r"[^A-Za-z'\-\s]", " ", s)
     tokens = [t for t in s.split() if t.lower() not in {"pro", "tem", "the", "of"}]

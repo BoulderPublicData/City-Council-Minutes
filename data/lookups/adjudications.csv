@@ -1,0 +1,13 @@
+entry_id,field,reference_says,extraction_says,minutes_say,verdict
+177597,meeting_date,2022-09-14,2021-09-14,"Roll call lists the 2021 council (Swetlick, Weaver, Young)",reference_error
+178691,meeting_date,2022-02-15,2022-01-04,"Heading: Tuesday, January 4, 2022",reference_error
+179520,meeting_date,2022-01-01,2022-03-01,"Heading: Tuesday, March 1, 2022",reference_error
+177182,attendance,omits Weaver,includes Weaver,"Mayor Weaver called the meeting to order; the members-present line lists council members only",reference_error
+177183,attendance,omits Weaver,includes Weaver,"Mayor Weaver called the meeting to order at 6:01 p.m.",reference_error
+177185,attendance,omits Weaver,includes Weaver,"Mayor presides; members-present line omits the mayor",reference_error
+177180,attendance,omits Weaver,includes Weaver,"Mayor presides; members-present line omits the mayor",reference_error
+178246,attendance,omits Joseph,includes Joseph,"Council Members present virtually: Brockett, Friend, Joseph, Nagle, …",reference_error
+181341,attendance,"omits Folkerts, Friend","includes Folkerts, Friend","Virtually present: Folkerts, Friend",reference_error
+179600,attendance,"lists ""Yates - Late""",includes Yates,"Yates arrived late; present",scorer_fixed
+178246,consent_vote,9 yeas,"9 yeas; Nagle: no on item F (item_level_exceptions)","Carried 9:0 — NAY: Nagle on Item F – carried 8:1",both_partial
+179600,consent_vote,8 yeas,not inferred (8:0 with 9 present),"Carried 8:0 — Yates had not yet arrived",extraction_conservative
