@@ -41,9 +41,10 @@ Pivot recipes (pandas, R, spreadsheets): [`docs/filter-pivot-recipes.md`](docs/f
 **About inferred votes.** Older minutes often record only a tally and the dissenters
 ("The motion carried 6:3, Havlick, Morzel and Riggle opposed"). The pipeline fills in
 the unnamed present members as `yes` from that meeting's roll call and marks each such
-row `vote_source = inferred`. It declines to infer when the counts don't reconcile
-(someone left early, say). Filter to `vote_source == "stated"` for only what the
-minutes literally say.
+row `vote_source = inferred`. When the counts don't reconcile because someone arrived
+late or left early, it uses the minutes' attendance notes only if they account for
+exactly the difference (`inference_basis = attendance_note`); otherwise it declines.
+Filter to `vote_source == "stated"` for only what the minutes literally say.
 
 ## How it works
 

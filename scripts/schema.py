@@ -9,6 +9,7 @@ stable and resolvable: `DocView.aspx?id=<entry_id>`):
     speakers      one row per public speaker (open comment or public hearing)
     motions       one row per motion × meeting
     member_votes  one row per member × motion, with vote_source = stated | inferred
+                  and, for inferred rows, inference_basis = roll_call | attendance_note
 
 See docs/data-dictionary.md for column definitions.
 """
@@ -21,8 +22,10 @@ from scripts.extraction_schema import ACTION_TYPES, MEETING_TYPES, MOTION_RESULT
 
 VOTES = ["yes", "no", "abstain", "absent"]
 VOTE_SOURCES = ["stated", "inferred"]
+INFERENCE_BASES = ["roll_call", "attendance_note"]
 VOTE_INFERENCE = ["complete_as_stated", "inferred_from_roll_call", "inferred_with_item_exceptions",
-                  "partial_stated_only", "inconsistent_not_inferred", "no_vote_recorded"]
+                  "inferred_from_attendance_note", "partial_stated_only",
+                  "inconsistent_not_inferred", "no_vote_recorded"]
 
 _nullable_str = pa.Column(str, nullable=True)
 
@@ -116,7 +119,11 @@ member_votes = pa.DataFrameSchema({
     "member": pa.Column(str),
     "vote": pa.Column(str, pa.Check.isin(VOTES)),
     "vote_source": pa.Column(str, pa.Check.isin(VOTE_SOURCES)),
-}, strict=True, unique=["entry_id", "motion_seq", "member"])
+    "inference_basis": pa.Column(str, pa.Check.isin(INFERENCE_BASES), nullable=True),
+}, strict=True, unique=["entry_id", "motion_seq", "member"],
+    # An inferred row always says what it was inferred from; a stated row never does.
+    checks=pa.Check(lambda df: (df["vote_source"] == "inferred") == df["inference_basis"].notna(),
+                    name="inference_basis_iff_inferred"))
 
 TABLES = {"meetings": meetings, "attendance": attendance, "agenda_items": agenda_items,
           "speakers": speakers, "motions": motions, "member_votes": member_votes}

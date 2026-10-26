@@ -14,6 +14,20 @@ left early and the minutes say 7:1 with eight present) or when the minutes list
 the yes votes explicitly but omit some present members; those motions are
 labeled `inconsistent_not_inferred` / `partial_stated_only` and keep only the
 stated rows.
+
+**Late arrivals and early departures.** When the tally doesn't match the roll
+call, the attendance notes ("arrived at 6:45 p.m.", "left at 9:30 p.m.", a
+"Yates - Late" marker on the roll call) can reconcile it. If the tally is lower
+than the unnamed present members by exactly the number of them noted as arriving
+late or leaving early, the others are inferred `yes` and the noted members get no
+row. If the tally is higher by exactly the number of roll-call absentees noted as
+arriving later, those members are counted present and inferred `yes`. Anything
+else still declines. A noted member seen taking part (moving or seconding this
+motion; moving, seconding, or voting yes or no by name on an earlier motion for a
+late arrival, or on a later one for an early departure) can't explain the gap, so
+their note is ignored for that motion (`away_notes`). These motions are labeled
+`inferred_from_attendance_note` and their inferred rows carry
+`inference_basis = attendance_note`.
 """
 
 from __future__ import annotations
@@ -36,7 +50,7 @@ from scripts.config import (
     PROVENANCE_CSV,
 )
 from scripts.extraction_schema import ACTION_TYPES, MEETING_TYPES, MOTION_RESULTS
-from scripts.names import member_key, normalize_list, snap
+from scripts.names import member_key, name_note, normalize_list, snap
 
 log = logging.getLogger(__name__)
 
@@ -80,9 +94,37 @@ def _int(v: Any) -> int | None:
 
 # ── vote inference ──────────────────────────────────────────────────────────
 
-def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any]
+_NEGATED = re.compile(r"\b(?:not|never)\s+(?:yet\s+)?(?:arriv\w*|join\w*|show\w*|leave|left)\b",
+                      re.IGNORECASE)
+_ARRIVED = re.compile(r"\b(arriv\w*|joined|late|tardy)\b", re.IGNORECASE)
+_LEFT = re.compile(r"\b(left|leav\w*|depart\w*|stepped (?:out|down|away))\b", re.IGNORECASE)
+
+
+def attendance_change(note: str | None) -> str | None:
+    """'arrived' / 'left' when an attendance note says the member came late or left
+    early ("arrived at 6:45 p.m.", "Late", "joined the meeting at 6:26 p.m.", "left
+    the meeting at 8:20 p.m."); None otherwise ("present virtually", "excused", "did
+    not arrive"). "Not present at roll call; arrived at 6:16 p.m." is an arrival.
+    Departure wins when a note says both."""
+    if not isinstance(note, str) or not note.strip() or _NEGATED.search(note):
+        return None
+    if _LEFT.search(note):
+        return "left"
+    if _ARRIVED.search(note):
+        return "arrived"
+    return None
+
+
+def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any],
+                notes: dict[str, str | None] | None = None
                 ) -> tuple[list[tuple[str, str, str]], str]:
-    """Return ([(member, vote, vote_source)], vote_inference_label) for one motion."""
+    """Return ([(member, vote, vote_source)], vote_inference_label) for one motion.
+
+    `notes` maps a member key to that member's roll-call attendance note; it is used
+    only when the stated tally doesn't match the roll call (see the module docstring).
+    Pass the per-motion notes from `away_notes` so that members seen acting on other
+    motions are not treated as away.
+    """
     roster = present + [a for a in absent if a not in present]
     yes = normalize_list(motion.get("yes_votes"), roster)
     no = normalize_list(motion.get("no_votes"), roster)
@@ -130,10 +172,73 @@ def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any]
             rows += [(m, "yes", "inferred") for m in voting]
             rows += [(a, "absent", "inferred") for a in roll_absent]
             return rows, "inferred_with_item_exceptions"
-        return rows, "inconsistent_not_inferred"
+        # Whoever moved or seconded this motion was in the room for it.
+        acting = {snap(member_key(motion.get(k)), roster) for k in ("moved_by", "seconded_by")}
+        moved = _reconcile_with_notes(remaining, roll_absent, yes_count, no_count, n_no, unanimous,
+                                      {m: n for m, n in (notes or {}).items() if m not in acting})
+        if moved is None:
+            return rows, "inconsistent_not_inferred"
+        voting, still_absent = moved
+        rows += [(m, "yes", "inferred") for m in voting]
+        rows += [(a, "absent", "inferred") for a in still_absent]
+        return rows, "inferred_from_attendance_note"
     rows += [(m, "yes", "inferred") for m in remaining]
     rows += [(a, "absent", "inferred") for a in roll_absent]
     return rows, "inferred_from_roll_call"
+
+
+def _reconcile_with_notes(remaining: list[str], roll_absent: list[str], yes_count: int | None,
+                          no_count: int | None, n_no: int, unanimous: bool,
+                          notes: dict[str, str | None]) -> tuple[list[str], list[str]] | None:
+    """(members to infer yes, roll-call absentees to infer absent) when the attendance
+    notes account for the whole gap between the yes tally and the roll call, else None.
+
+    Only a stated yes count is reconciled, and the stated nays must already match. The
+    count of noted members must equal the gap exactly; one more or one fewer declines,
+    because then it is not clear who voted."""
+    if yes_count is None or (no_count is not None and no_count != n_no) or (unanimous and n_no):
+        return None
+    change = {m: attendance_change(n) for m, n in notes.items()}
+    gap = len(remaining) - yes_count
+    if gap > 0:
+        away = [m for m in remaining if change.get(m) in ("arrived", "left")]
+        if len(away) == gap:
+            return [m for m in remaining if m not in away], roll_absent
+    elif gap < 0:
+        came = [a for a in roll_absent if change.get(a) == "arrived"]
+        if len(came) == -gap:
+            return remaining + came, [a for a in roll_absent if a not in came]
+    return None
+
+
+def away_notes(motions: list[dict[str, Any]], present: list[str], absent: list[str],
+               notes: dict[str, str | None]) -> list[dict[str, str | None]]:
+    """For each motion, the attendance notes that could explain a present member's
+    absence from that vote.
+
+    A member noted as arriving late has arrived by the first motion they move, second,
+    or vote yes or no on by name; one noted as leaving early hasn't left before the
+    last such motion. Their note is dropped for the motions after (late arrival) or
+    before (early departure) that evidence; the motion's own mover and seconder are
+    checked in `infer_votes`. Notes on roll-call absentees pass through unchanged."""
+    roster = present + [a for a in absent if a not in present]
+    acted = []
+    for m in motions:
+        named = set(normalize_list(m.get("yes_votes"), roster) + normalize_list(m.get("no_votes"), roster))
+        named |= {snap(member_key(m.get(k)), roster) for k in ("moved_by", "seconded_by")}
+        acted.append(named)
+    out = []
+    for i in range(len(motions)):
+        keep: dict[str, str | None] = {}
+        for mem, note in notes.items():
+            change = attendance_change(note)
+            if mem in present and change == "arrived" and any(mem in a for a in acted[:i]):
+                continue
+            if mem in present and change == "left" and any(mem in a for a in acted[i + 1:]):
+                continue
+            keep[mem] = note
+        out.append(keep)
+    return out
 
 
 def item_exceptions(present: list[str], absent: list[str], motion: dict[str, Any]) -> str | None:
@@ -176,10 +281,14 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
             if not k or k in seen_att:
                 continue
             seen_att.add(k)
+            # The extractor's note, else the note printed beside the name ("Yates - Late")
+            note = _clean(p.get("attendance_note") or p.get("note")) or \
+                name_note(str(p.get("name") or ""))
             attendance.append({"entry_id": eid, "meeting_date": meeting_date, "member": k,
                                "name_as_printed": str(p.get("name")).strip(),
                                "title": _clean(p.get("title")), "status": status,
-                               "note": _clean(p.get("attendance_note") or p.get("note"))})
+                               "note": note})
+    notes = {a["member"]: a["note"] for a in attendance if a["note"]}
 
     items, speakers = [], []
     for seq, it in enumerate(x.get("agenda_items") or [], 1):
@@ -208,10 +317,14 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
                              "topic": _clean(s.get("topic")), "position": None})
 
     motions, votes = [], []
-    for seq, m in enumerate(x.get("motions") or [], 1):
+    raw_motions = x.get("motions") or []
+    per_motion_notes = away_notes([m if isinstance(m, dict) else {} for m in raw_motions],
+                                  present, absent, notes)
+    for seq, m in enumerate(raw_motions, 1):
         if not isinstance(m, dict):
             continue
-        rows, label = infer_votes(present, absent, m)
+        rows, label = infer_votes(present, absent, m, per_motion_notes[seq - 1])
+        basis = "attendance_note" if label == "inferred_from_attendance_note" else "roll_call"
         counts = {v: sum(1 for _, vv, _ in rows if vv == v) for v in schema.VOTES}
         motions.append({
             "entry_id": eid, "motion_seq": seq,
@@ -231,7 +344,8 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
             "n_yes": counts["yes"], "n_no": counts["no"], "n_abstain": counts["abstain"],
             "n_absent": counts["absent"],
         })
-        votes += [{"entry_id": eid, "motion_seq": seq, "member": mem, "vote": v, "vote_source": src}
+        votes += [{"entry_id": eid, "motion_seq": seq, "member": mem, "vote": v, "vote_source": src,
+                   "inference_basis": basis if src == "inferred" else None}
                   for mem, v, src in rows]
 
     meeting = {

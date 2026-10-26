@@ -23,3 +23,13 @@ def test_snap_repairs_typos_to_roll_call():
 
 def test_normalize_list_dedupes_and_splits():
     assert normalize_list(["Ageton and Corson", "Corson"], ["Ageton", "Corson"]) == ["Ageton", "Corson"]
+
+
+def test_name_note_keeps_the_marker_member_key_drops():
+    from scripts.names import name_note
+    assert name_note("Yates - Late") == "Late"
+    assert name_note("Folkerts – arrived 6:15") == "arrived 6:15"
+    assert name_note("Folkerts (virtual)") == "virtual"
+    assert name_note("Jones-Karakchian") is None
+    assert name_note("Mayor Toor") is None
+    assert name_note(None) is None

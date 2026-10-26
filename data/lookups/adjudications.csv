@@ -10,5 +10,6 @@ entry_id,field,reference_says,extraction_says,minutes_say,verdict
 181341,attendance,"omits Folkerts, Friend","includes Folkerts, Friend","Virtually present: Folkerts, Friend",reference_error
 179600,attendance,"lists ""Yates - Late""",includes Yates,"Yates arrived late; present",scorer_fixed
 178246,consent_vote,9 yeas,"9 yeas; Nagle: no on item F (item_level_exceptions)","Carried 9:0 — NAY: Nagle on Item F – carried 8:1",both_partial
-179600,consent_vote,8 yeas,not inferred (8:0 with 9 present),"Carried 8:0 — Yates had not yet arrived",extraction_conservative
+179600,consent_vote,8 yeas,"8 yeas; Yates left out (inferred_from_attendance_note: ""arrived at 8:06 p.m."")","Carried 8:0 — Yates had not yet arrived",pipeline_fixed
 179146,meeting_date,2022-02-02,2022-02-01,"Heading: Tuesday, February 1, 2022 (document name says 02.02.2022)",reference_error
+177180,hearing_vote,"yeas include Nagle, omit Brockett and Weaver","8 yeas: all present but Nagle (fast: inferred_from_attendance_note; balanced: Nagle stated absent)","NOTE: Mayor Weaver announced that Council Member Nagle has left the meeting at 8:20 p.m.; Ordinances 8466 and 8462 moved/seconded with Brockett, Carried: 8:0",reference_error

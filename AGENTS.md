@@ -73,7 +73,11 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
    2021 council). Treat `accuracy.md` disagreements as things to adjudicate.
 9. **Vote inference is deterministic and flagged.** The extractor records only stated
    votes; `tidy.infer_votes` fills in the rest from the meeting's roll call and marks
-   those rows `vote_source = inferred`. It declines when counts don't reconcile.
+   those rows `vote_source = inferred`. It declines when counts don't reconcile,
+   unless the attendance notes ("arrived at 6:45 p.m.", "left at 9:30 p.m.", a
+   "Yates - Late" roll-call marker) account for exactly the difference; those rows get
+   `inference_basis = attendance_note` (otherwise `roll_call`). A noted member seen
+   moving, seconding, or voting by name around that motion doesn't count as away.
    Recusals or nays on one consent item beside a whole-agenda tally ("Carried 9:0;
    NAY: Nagle on Item F") go to `motions.item_level_exceptions`.
 10. **Long runs and the working tree.** Fetch and Datalab runs take hours and write

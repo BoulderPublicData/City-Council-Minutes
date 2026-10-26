@@ -67,13 +67,13 @@ Kept in the inventory; check whether any are not council minutes.
 
 ### How each motion's per-member votes were obtained (share of motions)
 
-| era   |   inconsistent_not_inferred |   inferred_from_roll_call |   inferred_with_item_exceptions |   no_vote_recorded |   partial_stated_only |
-|:------|----------------------------:|--------------------------:|--------------------------------:|-------------------:|----------------------:|
-| 2000s |                        0.12 |                      0.73 |                            0.01 |               0.13 |                  0.01 |
-| 2005s |                        0.07 |                      0.80 |                            0.01 |               0.08 |                  0.04 |
-| 2010s |                        0.12 |                      0.65 |                            0.02 |               0.20 |                  0.02 |
-| 2015s |                        0.00 |                      0.56 |                            0.00 |               0.44 |                  0.00 |
-| 2020s |                        0.05 |                      0.73 |                            0.03 |               0.18 |                  0.02 |
+| era   |   inconsistent_not_inferred |   inferred_from_attendance_note |   inferred_from_roll_call |   inferred_with_item_exceptions |   no_vote_recorded |   partial_stated_only |
+|:------|----------------------------:|--------------------------------:|--------------------------:|--------------------------------:|-------------------:|----------------------:|
+| 2000s |                        0.12 |                            0.00 |                      0.73 |                            0.01 |               0.13 |                  0.01 |
+| 2005s |                        0.07 |                            0.00 |                      0.80 |                            0.01 |               0.08 |                  0.04 |
+| 2010s |                        0.12 |                            0.00 |                      0.65 |                            0.02 |               0.20 |                  0.02 |
+| 2015s |                        0.00 |                            0.00 |                      0.56 |                            0.00 |               0.44 |                  0.00 |
+| 2020s |                        0.03 |                            0.01 |                      0.73 |                            0.03 |               0.18 |                  0.02 |
 
 ### Missing motion fields (share of motions)
 

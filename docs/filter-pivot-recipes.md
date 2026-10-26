@@ -38,7 +38,9 @@ votes |>
 
 Add `votes[votes["vote_source"] == "stated"]` (pandas) or
 `filter(vote_source == "stated")` (R). Inferred rows assume every present, unnamed
-member voted yes — see `docs/data-dictionary.md`.
+member voted yes — see `docs/data-dictionary.md`. To keep inferred rows but drop the
+ones that relied on late-arrival / early-departure notes, filter
+`inference_basis != "attendance_note"`.
 
 ## Split votes only (one row per motion, members as columns)
 
