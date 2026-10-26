@@ -38,8 +38,10 @@ meetings = pa.DataFrameSchema({
     "called_to_order_time": _nullable_str,
     "adjourned_time": _nullable_str,
     "presiding_officer": _nullable_str,
-    "n_members_present": pa.Column(int, pa.Check.in_range(0, 9)),
-    "n_members_absent": pa.Column(int, pa.Check.in_range(0, 9)),
+    # Nine seats, but transition meetings after an election can list outgoing and
+    # incoming members together (e.g. 2001-11-13 lists ten); the audit flags > 9.
+    "n_members_present": pa.Column(int, pa.Check.in_range(0, 12)),
+    "n_members_absent": pa.Column(int, pa.Check.in_range(0, 12)),
     "n_agenda_items": pa.Column(int),
     "n_motions": pa.Column(int),
     "page_count": pa.Column(float, nullable=True),

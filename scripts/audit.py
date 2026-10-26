@@ -103,10 +103,12 @@ def audit() -> None:
             vote_text_missing=("vote_text", lambda s: s.isna().mean())).reset_index()
         out += ["## Extracted meetings by era", "",
                 "`present_lt_5` counts meetings where fewer than five members were found present "
-                "— almost always a missed roll call, since council needs five for a quorum.", "",
+                "— almost always a missed roll call, since council needs five for a quorum. "
+                "More than nine present happens at post-election transition meetings.", "",
                 _md(era), "", "### How each motion's per-member votes were obtained (share of motions)", "",
                 _md(inf), "", "### Missing motion fields (share of motions)", "", _md(miss), ""]
-        flagged = mt[(mt["n_members_present"] < 5) | mt["date_disagrees_with_name"]]
+        flagged = mt[(mt["n_members_present"] < 5) | (mt["n_members_present"] > 9)
+                     | mt["date_disagrees_with_name"]]
         if len(flagged):
             out += ["### Meetings to check by hand", "",
                     _md(flagged[["entry_id", "meeting_date", "document_name", "n_members_present",
