@@ -17,7 +17,7 @@ import json
 import re
 from typing import Any
 
-from scripts.config import GOLD_JSON, ROOT
+from scripts.config import GOLD_JSON, INVENTORY_CSV, ROOT
 
 
 def _split_names(values: list[str]) -> list[str]:
@@ -48,6 +48,24 @@ def load_gold() -> list[dict[str, Any]]:
     return records
 
 
+def resolve_by_date(records: list[dict[str, Any]]) -> None:
+    """Two records link to a folder (Browse.aspx?id=…) rather than the document; when an
+    entry id isn't a document in the inventory, use the one document with that date."""
+    if not INVENTORY_CSV.exists():
+        return
+    import pandas as pd
+
+    inv = pd.read_csv(INVENTORY_CSV)
+    ids = set(inv["entry_id"])
+    for r in records:
+        if r.get("entry_id") in ids:
+            continue
+        same_day = inv[inv["name_date"] == r.get("date")]
+        if len(same_day) == 1:
+            r["linked_entry_id"] = r["entry_id"]
+            r["entry_id"] = int(same_day["entry_id"].iloc[0])
+
+
 def gold_entry_ids() -> list[int]:
     return [g["entry_id"] for g in load_gold() if g.get("entry_id")]
 
@@ -56,7 +74,9 @@ def write_gold() -> None:
     GOLD_JSON.parent.mkdir(parents=True, exist_ok=True)
     if GOLD_JSON.exists():
         GOLD_JSON.unlink()
-    GOLD_JSON.write_text(json.dumps(load_gold(), indent=1, ensure_ascii=False))
+    records = load_gold()
+    resolve_by_date(records)
+    GOLD_JSON.write_text(json.dumps(records, indent=1, ensure_ascii=False))
 
 
 if __name__ == "__main__":

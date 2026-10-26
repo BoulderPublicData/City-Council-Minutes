@@ -40,7 +40,9 @@ from scripts.config import (
     DATALAB_MARKDOWN,
     DATALAB_MIN_INTERVAL_S,
     DATALAB_POLL_S,
+    DATALAB_POLL_SLOW_S,
     DATALAB_RUNS_CSV,
+    DATALAB_WORKERS,
     LF_DIR,
     MANIFEST_CSV,
     SAMPLE_CSV,
@@ -101,7 +103,8 @@ def _call(method: str, url: str, **kw: Any) -> dict[str, Any]:
     raise RuntimeError(f"datalab {method} {url} kept failing")
 
 
-def _submit_and_wait(endpoint: str, data: dict[str, Any], pdf: Path | None) -> dict[str, Any]:
+def _submit_and_wait(endpoint: str, data: dict[str, Any], pdf: Path | None,
+                     poll_s: float = DATALAB_POLL_S) -> dict[str, Any]:
     files = None
     fh = None
     if pdf is not None:
@@ -115,7 +118,7 @@ def _submit_and_wait(endpoint: str, data: dict[str, Any], pdf: Path | None) -> d
     check = job["request_check_url"]
     started = time.monotonic()
     while True:
-        time.sleep(DATALAB_POLL_S)
+        time.sleep(poll_s)
         res = _call("GET", check)
         if res.get("status") == "complete" or res.get("success") is False or res.get("status") == "failed":
             break
@@ -219,6 +222,7 @@ def extract_one(row: pd.Series, mode: str = DATALAB_EXTRACTION_MODE) -> str:
     if out.exists() and json.loads(out.read_text()).get("schema_version") == SCHEMA_VERSION:
         return "skipped"
     data = {"page_schema": schema_json(), "extraction_mode": mode}
+    poll = DATALAB_POLL_SLOW_S if mode in ("balanced", "accurate") else DATALAB_POLL_S
     pdf: Path | None = None
     meta = _meta_path(row)
     checkpoint = json.loads(meta.read_text()).get("checkpoint_id") if meta.exists() else None
@@ -228,13 +232,13 @@ def extract_one(row: pd.Series, mode: str = DATALAB_EXTRACTION_MODE) -> str:
         pdf = LF_DIR / row["local_path"]
         data["mode"] = DATALAB_CONVERT_MODE
     try:
-        res = _submit_and_wait("extract", data, pdf)
+        res = _submit_and_wait("extract", data, pdf, poll)
         if res.get("success") is False and checkpoint:
             # Checkpoints expire; fall back to sending the file (re-parses, costs more)
             log.info("checkpoint for %s rejected (%s); re-sending file", row["entry_id"], res.get("error"))
             data.pop("checkpoint_id")
             data["mode"] = DATALAB_CONVERT_MODE
-            res = _submit_and_wait("extract", data, LF_DIR / row["local_path"])
+            res = _submit_and_wait("extract", data, LF_DIR / row["local_path"], poll)
     except Exception as exc:  # noqa: BLE001
         _log_run(int(row["entry_id"]), "extract", {}, mode, error=str(exc))
         raise
@@ -259,7 +263,8 @@ def extract_one(row: pd.Series, mode: str = DATALAB_EXTRACTION_MODE) -> str:
     return "extracted"
 
 
-def _run(fn, scope: str, limit: int | None, entry_ids: list[int] | None, workers: int = 3,
+def _run(fn, scope: str, limit: int | None, entry_ids: list[int] | None,
+         workers: int = DATALAB_WORKERS,
          **kw: Any) -> int:
     rows = [r for _, r in _targets(scope, limit, entry_ids).iterrows()]
     counts: dict[str, int] = {}

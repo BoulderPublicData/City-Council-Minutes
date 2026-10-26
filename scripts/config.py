@@ -66,5 +66,9 @@ LF_FAILURE_PAUSE_S = 330
 DATALAB_BASE = "https://www.datalab.to/api/v1/"
 DATALAB_CONVERT_MODE = "balanced"  # lite | fast | balanced | accurate
 DATALAB_EXTRACTION_MODE = "balanced"  # turbo | fast | balanced | accurate
-DATALAB_POLL_S = 8  # free tier allows 10 requests/minute, polls included
-DATALAB_MIN_INTERVAL_S = 7
+# Free tier: 10 requests/minute and 5 concurrent jobs. Status polls count as requests,
+# so slow jobs (balanced extraction, ~2-3 min) are polled less often; a 429 backs off.
+DATALAB_POLL_S = 5
+DATALAB_POLL_SLOW_S = 20
+DATALAB_MIN_INTERVAL_S = 3
+DATALAB_WORKERS = 5
