@@ -148,5 +148,14 @@ that drops is a regression until the minutes say otherwise.
 - Provenance is a sidecar (`data/processed/provenance.csv`) keyed on `entry_id`, not
   repeated on every row.
 - Tables validate against pandera contracts in `scripts/schema.py` before writing.
+- Size a fix before recommending it. When `sample_report.md`, an audit note or a PR proposes
+  a fix, give the number of records it would touch, from a query against the current data.
+  Spot-check five against the minutes before writing the rule into code or a brief. The
+  report once said attendance notes "could recover many" uninferred votes; the fix recovered
+  3 of 62, and the first rule was wrong on 3 of its first 6 motions.
+- Check at the grain you publish. The tables are per member × motion, so `score` compares
+  each motion's named yeas and nays with the reference, not only motion counts. A tidy
+  change isn't done until `accuracy_*.csv` is no worse. A new table needs a scored or
+  audited check at its own grain before it ships.
 - `entry_id` is the join key everywhere and resolves to
   `https://documents.bouldercolorado.gov/WebLink/DocView.aspx?id=<entry_id>&dbid=0&repo=LF8PROD2`.

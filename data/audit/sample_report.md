@@ -88,6 +88,9 @@ free-tier rate limits (5 concurrent jobs). Git LFS storage for all PDFs: ~1.8 GB
 
 ## Known limitations to decide on before the full run
 
+When a fix is proposed here, give the number of records it would touch, measured on the
+current data, so the choices can be weighed by size (AGENTS.md, Conventions).
+
 1. **Late arrivals — done, and smaller than expected.** Vote inference now reads
    `attendance.note` ("arrived at 6:45 p.m.", "left the meeting at 8:20 p.m.", a
    "Yates - Late" roll-call marker). It infers only when the notes account for exactly
