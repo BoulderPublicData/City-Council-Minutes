@@ -107,6 +107,22 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
     Because corroboration comes from other meetings, a partial run (e.g. `--entry-ids`)
     has less to go on; check that list after any run.
 
+## Checks by change type
+
+Run the cheapest check that can catch a mistake in what you changed, and say in the PR
+which one you ran. Everything below `extract` rebuilds from the cache in seconds, so
+there is no reason to skip it, and no reason to re-run a paid stage to test a tidy change.
+
+| Change touches | Run | Time | Cost |
+|---|---|---|---|
+| docs, comments | `pytest` | ~3 s | free |
+| `tidy.py`, `names.py`, `schema.py`, lookups | + `tidy --mode balanced`, `score`, `audit` (from cache) | ~30 s | free |
+| `extraction_schema.py` (bumps `SCHEMA_VERSION`) | + `extract` on the reference meetings first | minutes | **paid**: ask first (gotcha 11) |
+| `laserfiche.py`, `discover.py`, `fetch.py` | + a small `--scope sample` run | 5 min+ | portal rate limit (gotcha 2) |
+
+Compare `data/audit/accuracy_*.csv` before and after any tidy change. An agreement score
+that drops is a regression until the minutes say otherwise.
+
 ## How to…
 
 - **Pick up newly filed minutes:** `discover --refresh` (or `--refresh --years 2026`),
@@ -132,5 +148,14 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
 - Provenance is a sidecar (`data/processed/provenance.csv`) keyed on `entry_id`, not
   repeated on every row.
 - Tables validate against pandera contracts in `scripts/schema.py` before writing.
+- Size a fix before recommending it. When `sample_report.md`, an audit note or a PR proposes
+  a fix, give the number of records it would touch, from a query against the current data.
+  Spot-check five against the minutes before writing the rule into code or a brief. The
+  report once said attendance notes "could recover many" uninferred votes; the fix recovered
+  3 of 62, and the first rule was wrong on 3 of its first 6 motions.
+- Check at the grain you publish. The tables are per member × motion, so `score` compares
+  each motion's named yeas and nays with the reference, not only motion counts. A tidy
+  change isn't done until `accuracy_*.csv` is no worse. A new table needs a scored or
+  audited check at its own grain before it ships.
 - `entry_id` is the join key everywhere and resolves to
   `https://documents.bouldercolorado.gov/WebLink/DocView.aspx?id=<entry_id>&dbid=0&repo=LF8PROD2`.
