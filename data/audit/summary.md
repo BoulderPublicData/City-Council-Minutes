@@ -93,6 +93,22 @@ Kept in the inventory; check whether any are not council minutes.
 |     152022 | 2001-11-13     | Minutes - Nov-13-2001             |                  10 | False                      |
 |     179146 | 2022-02-01     | City Council Minutes - 02.02.2022 |                   9 | True                       |
 
+## Names dropped from the roll call
+
+9 names the extractor listed as council members were dropped by `tidy.non_members` (public speakers who didn't show, other boards' members). Check that none is a real council member.
+
+|   entry_id | meeting_date   | name_as_printed   | status   | note         | reason                                                                        |
+|-----------:|:---------------|:------------------|:---------|:-------------|:------------------------------------------------------------------------------|
+|      11796 | 2008-07-08     | W. JOHNSON        | absent   | ABSENT       | no council title, no action in the meeting, not on a roll call within 3 years |
+|      11796 | 2008-07-08     | E. JONES          | absent   | ABSENT       | no council title, no action in the meeting, not on a roll call within 3 years |
+|     177185 | 2021-08-03     | Michael Parrish   | absent   | NOT PRESENT  | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | Fred Bratman      | absent   | DID NOT SHOW | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | Cate Lawrence     | absent   | WITHDREW     | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | John Walker       | absent   | DID NOT SHOW | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | Kate Weiner       | absent   | DID NOT SHOW | no council title, no action in the meeting, not on a roll call within 3 years |
+|     181343 | 2022-12-01     | Christy Gunter    | absent   | not present  | no council title, no action in the meeting, not on a roll call within 3 years |
+|     181343 | 2022-12-01     | Kent Welley       | absent   | not present  | no council title, no action in the meeting, not on a roll call within 3 years |
+
 ## Datalab cost and full-run projection
 
 Spent so far (all runs, including retries and tests): **$30.42**.

@@ -28,6 +28,15 @@ late arrival, or on a later one for an early departure) can't explain the gap, s
 their note is ignored for that motion (`away_notes`). These motions are labeled
 `inferred_from_attendance_note` and their inferred rows carry
 `inference_basis = attendance_note`.
+
+**Who is on the roll call.** The extractor sometimes lists people who aren't
+council members as present or absent: public-hearing speakers marked "did not
+show", Planning Board members at a joint meeting, or the absentees of a board
+vote quoted in a call-up. `non_members` drops a roll-call name unless something
+corroborates it: a council or mayor title, moving, seconding, or voting by name
+in the meeting, or the same member on another meeting's roll call within
+`ROSTER_WINDOW_YEARS`. A title naming another body drops the name outright.
+Dropped names are written to `excluded_roll_call.csv` beside the tables.
 """
 
 from __future__ import annotations
@@ -250,24 +259,104 @@ def item_exceptions(present: list[str], absent: list[str], motion: dict[str, Any
     return "; ".join(parts) or None
 
 
+# ── roll-call plausibility ──────────────────────────────────────────────────
+
+ROSTER_WINDOW_YEARS = 3  # council terms are at most four years; elections every two
+_COUNCIL_TITLE = re.compile(r"council|mayor", re.IGNORECASE)
+_OTHER_BODY = re.compile(r"board|commission|committee|staff|clerk|attorney|manager",
+                         re.IGNORECASE)
+
+
+EXCLUDED_COLUMNS = ["entry_id", "meeting_date", "member", "name_as_printed", "title", "status",
+                    "note", "reason"]
+
+
+def _meeting_date(entry: dict[str, Any], x: dict[str, Any]) -> tuple[str | None, str | None]:
+    """(meeting_date, extracted date or None): the heading date, else the document name's."""
+    name_date = entry.get("name_date") if isinstance(entry.get("name_date"), str) else None
+    ext_date = _clean(x.get("meeting_date"))
+    if ext_date and not re.match(r"^\d{4}-\d{2}-\d{2}$", str(ext_date)):
+        ext_date = None
+    return ext_date or name_date, ext_date
+
+
+def roll_call_keys(doc: dict[str, Any]) -> set[str]:
+    """Member keys on one extraction's roll call (present and absent)."""
+    x = strip_meta(doc)
+    raws = [p for f in ("members_present", "members_absent") for p in x.get(f) or []
+            if isinstance(p, dict)]
+    return {k for k in (member_key(p.get("name")) for p in raws) if k}
+
+
+def non_members(present_raw: list[dict[str, Any]], absent_raw: list[dict[str, Any]],
+                motions: list[dict[str, Any]], nearby: set[str]) -> dict[str, str]:
+    """{member key: reason} for roll-call names that aren't council members.
+
+    `nearby` holds the member keys on the roll calls of *other* meetings within
+    `ROSTER_WINDOW_YEARS`. A name is kept when it has a council/mayor title, when it
+    moves, seconds, or is named voting in this meeting, or when its key (or a near
+    spelling, unless that spelling is already on this roll call) is in `nearby`."""
+    raws = present_raw + absent_raw
+    keys = [member_key(p.get("name")) for p in raws]
+    roster = [k for k in keys if k]
+    acted: set[str] = set()
+    for m in motions:
+        for f in ("yes_votes", "no_votes", "abstained"):
+            acted |= set(normalize_list(m.get(f), roster))
+        acted |= {snap(member_key(m.get(f)), roster) for f in ("moved_by", "seconded_by")}
+    out: dict[str, str] = {}
+    for p, k in zip(raws, keys, strict=True):
+        if not k:
+            continue
+        title = str(p.get("title") or "")
+        if _OTHER_BODY.search(title) and not _COUNCIL_TITLE.search(title):
+            out[k] = f"title names another body: {title}"
+            continue
+        if _COUNCIL_TITLE.search(title) or k in acted or k in nearby:
+            continue
+        near = snap(k, sorted(nearby))
+        if near != k and near not in roster:
+            continue  # a misspelling of a nearby member, e.g. 'Moizel' for Morzel
+        out[k] = "no council title, no action in the meeting, not on a roll call within " \
+                 f"{ROSTER_WINDOW_YEARS} years"
+    return out
+
+
 # ── per-document tidy ───────────────────────────────────────────────────────
 
 def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
-             schema_version: str) -> dict[str, list[dict[str, Any]]]:
+             schema_version: str, nearby: set[str] | None = None
+             ) -> dict[str, list[dict[str, Any]]]:
+    """Tables for one document. With `nearby` (member keys on other meetings' roll
+    calls, see `non_members`), names that aren't council members are dropped from the
+    roll call and returned under the extra key `excluded_roll_call`."""
     x = strip_meta(doc)
     eid = int(entry["entry_id"])
+    meeting_date, ext_date = _meeting_date(entry, x)
+    name_date = entry.get("name_date") if isinstance(entry.get("name_date"), str) else None
 
     present_raw = [p for p in x.get("members_present") or [] if isinstance(p, dict)]
     absent_raw = [p for p in x.get("members_absent") or [] if isinstance(p, dict)]
+    excluded: list[dict[str, Any]] = []
+    if nearby is not None:
+        drop = non_members(present_raw, absent_raw,
+                           [m for m in x.get("motions") or [] if isinstance(m, dict)], nearby)
+        for status, raws in (("present", present_raw), ("absent", absent_raw)):
+            for p in raws:
+                k = member_key(p.get("name"))
+                if k in drop:
+                    excluded.append({"entry_id": eid, "meeting_date": meeting_date, "member": k,
+                                     "name_as_printed": str(p.get("name")).strip(),
+                                     "title": _clean(p.get("title")), "status": status,
+                                     "note": _clean(p.get("attendance_note") or p.get("note")),
+                                     "reason": drop[k]})
+                    log.info("entry %s: dropped %r from the roll call (%s)", eid, p.get("name"), drop[k])
+        present_raw = [p for p in present_raw if member_key(p.get("name")) not in drop]
+        absent_raw = [p for p in absent_raw if member_key(p.get("name")) not in drop]
     present = [k for k in (member_key(p.get("name")) for p in present_raw) if k]
     absent = [k for k in (member_key(p.get("name")) for p in absent_raw) if k]
     roster = list(dict.fromkeys(present + absent))
 
-    name_date = entry.get("name_date") if isinstance(entry.get("name_date"), str) else None
-    ext_date = _clean(x.get("meeting_date"))
-    if ext_date and not re.match(r"^\d{4}-\d{2}-\d{2}$", ext_date):
-        ext_date = None
-    meeting_date = ext_date or name_date
     mtype = x.get("meeting_type") if x.get("meeting_type") in MEETING_TYPES else None
     mtype = mtype or entry.get("name_meeting_type") or "regular"
     if isinstance(mtype, float):
@@ -365,7 +454,8 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
         "_call_ups": [c for c in x.get("call_up_items") or [] if isinstance(c, str)],
     }
     return {"meetings": [meeting], "attendance": attendance, "agenda_items": items,
-            "speakers": speakers, "motions": motions, "member_votes": votes}
+            "speakers": speakers, "motions": motions, "member_votes": votes,
+            "excluded_roll_call": excluded}
 
 
 # ── nested export (README format, extended) ─────────────────────────────────
@@ -454,6 +544,7 @@ def tidy_all(mode: str = "balanced", out_dir: Path = DATA_PROCESSED) -> dict[str
     acc: dict[str, list[dict[str, Any]]] = {k: [] for k in schema.TABLES}
     prov = []
     man = pd.read_csv(MANIFEST_CSV).set_index("entry_id") if MANIFEST_CSV.exists() else None
+    docs = []
     for path in _extract_files(mode):
         rec = json.loads(path.read_text())
         eid = int(rec["entry_id"])
@@ -461,8 +552,18 @@ def tidy_all(mode: str = "balanced", out_dir: Path = DATA_PROCESSED) -> dict[str
             log.warning("entry %s not in inventory; skipping", eid)
             continue
         entry = {"entry_id": eid, **inv.loc[eid].to_dict()}
+        date, _ = _meeting_date(entry, strip_meta(rec["extraction"]))
+        docs.append((path, rec, entry, pd.Timestamp(date) if date else None,
+                     roll_call_keys(rec["extraction"])))
+    window = pd.Timedelta(days=round(365.25 * ROSTER_WINDOW_YEARS))
+    excluded: list[dict[str, Any]] = []
+    for path, rec, entry, date, _ in docs:
+        eid = entry["entry_id"]
+        nearby = set().union(*[keys for _, r, e, d, keys in docs if e["entry_id"] != eid
+                               and (date is None or d is None or abs(d - date) <= window)])
         part = tidy_one(entry, rec["extraction"], rec.get("extraction_mode", mode),
-                        rec.get("schema_version", ""))
+                        rec.get("schema_version", ""), nearby=nearby)
+        excluded.extend(part.pop("excluded_roll_call"))
         for k, rows in part.items():
             acc[k].extend(rows)
         conv = DATALAB_MARKDOWN / path.parent.name / f"{eid}.convert.json"
@@ -506,5 +607,8 @@ def tidy_all(mode: str = "balanced", out_dir: Path = DATA_PROCESSED) -> dict[str
         df.sort_values(sort).to_csv(out_dir / f"{name}.csv", index=False)
     pd.DataFrame(prov).to_csv(out_dir / "provenance.csv" if out_dir != DATA_PROCESSED
                               else PROVENANCE_CSV, index=False)
-    print("tidy: " + ", ".join(f"{k}={len(v)}" for k, v in tables.items()))
+    pd.DataFrame(excluded, columns=EXCLUDED_COLUMNS).sort_values(["entry_id", "member"]).to_csv(
+        out_dir / "excluded_roll_call.csv", index=False)
+    print("tidy: " + ", ".join(f"{k}={len(v)}" for k, v in tables.items())
+          + f"; dropped {len(excluded)} non-member roll-call names")
     return tables

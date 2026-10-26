@@ -114,6 +114,15 @@ def audit() -> None:
                     _md(flagged[["entry_id", "meeting_date", "document_name", "n_members_present",
                                  "date_disagrees_with_name"]]), ""]
 
+    xpath = DATA_PROCESSED / "excluded_roll_call.csv"
+    if xpath.exists():
+        ex = pd.read_csv(xpath)
+        out += ["## Names dropped from the roll call", "",
+                f"{len(ex)} names the extractor listed as council members were dropped by "
+                "`tidy.non_members` (public speakers who didn't show, other boards' members). "
+                "Check that none is a real council member.", "",
+                _md(ex[["entry_id", "meeting_date", "name_as_printed", "status", "note", "reason"]]), ""]
+
     # ── cost ──
     rate, text = cost_projection(inv)
     out += ["## Datalab cost and full-run projection", "", text, "", _md(rate), ""]

@@ -38,6 +38,10 @@ Caveat: roll call is taken at the start. Members who arrive late or leave early 
 noted in `note` when the minutes say so; motion-level presence is in `member_votes`.
 Vote inference reads these notes (see `inferred_from_attendance_note` below).
 
+Only council members are kept. The extractor sometimes lists other people on the roll
+call (public-hearing speakers marked "did not show", Planning Board members at a joint
+meeting); those are dropped and listed in `excluded_roll_call.csv`, below.
+
 ## agenda_items.csv — one row per agenda item × meeting
 
 | Column | Type | Description |
@@ -128,6 +132,21 @@ The original `README.md` per-meeting format (`date`, `minutes_url`, `attendees`,
 `entry_id`, `meeting_type`, `absent`, and the full `motions` list with `yeas`/`nays`/`absent`.
 In `consent_agenda` and `public_hearings`, `absent` includes abstentions, as in the
 original format.
+
+## excluded_roll_call.csv — one row per name dropped from a roll call
+
+Names the extractor put on a meeting's roll call that aren't council members. They are
+left out of `attendance`, `member_votes`, and the meeting's member counts. A name is
+kept only if something corroborates it: a council or mayor title; moving, seconding, or
+voting by name in that meeting; or the same member (or a near spelling of one not already
+on that roll call) on another meeting's roll call within 3 years. A title naming another
+body ("Planning Board Member") drops the name outright.
+
+| Column | Type | Description |
+|---|---|---|
+| entry_id, meeting_date | | The meeting |
+| member, name_as_printed, title, status, note | | As they would have appeared in `attendance` |
+| reason | str | Why the name was dropped |
 
 ## provenance.csv — one row per meeting
 

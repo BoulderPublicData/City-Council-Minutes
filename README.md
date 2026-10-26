@@ -34,6 +34,7 @@ with a reproducible pipeline.
 | `data/processed/member_votes.csv` | member × motion, with `vote_source = stated \| inferred` |
 | `data/processed/meetings.json` | meeting, nested — the original format below, extended |
 | `data/processed/provenance.csv` | meeting: PDF hash, fetch method, Datalab request ids |
+| `data/processed/excluded_roll_call.csv` | name the extractor put on a roll call that isn't a council member (dropped from the tables; kept here for review) |
 
 Column definitions: [`docs/data-dictionary.md`](docs/data-dictionary.md).
 Pivot recipes (pandas, R, spreadsheets): [`docs/filter-pivot-recipes.md`](docs/filter-pivot-recipes.md).

@@ -98,6 +98,15 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
     Unusual-but-real ones (ten members at a post-election transition meeting) are
     flagged in `data/audit/summary.md` for review instead of failing the build.
 
+13. **Not everyone on an extracted roll call is on council.** The extractor has listed
+    public-hearing speakers marked "DID NOT SHOW" (2022-04-05), the absentees of a
+    Planning Board vote quoted in a call-up (2008-07-08), and Planning Board members at a
+    joint meeting (fast mode, 2016-10-13). `tidy.non_members` drops names with no
+    corroboration (a council/mayor title, acting in the meeting, or a roll call within
+    3 years) and lists them in `excluded_roll_call.csv` and `data/audit/summary.md`.
+    Because corroboration comes from other meetings, a partial run (e.g. `--entry-ids`)
+    has less to go on; check that list after any run.
+
 ## How to…
 
 - **Pick up newly filed minutes:** `discover --refresh` (or `--refresh --years 2026`),

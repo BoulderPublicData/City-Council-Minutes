@@ -51,6 +51,15 @@ Balanced tracks the text. Fast both misses motions in long narrative minutes and
 invents them in others (likely splitting consent sub-items). Fast also counted six
 Planning Board members as council members at a 2016 joint meeting.
 
+Both modes sometimes put people who aren't on council on the roll call. `tidy` now
+drops any roll-call name that nothing corroborates (no council title, no action in the
+meeting, not on a roll call within 3 years) and lists it in
+`data/processed/excluded_roll_call.csv`. In balanced mode that is 9 names in 4 meetings:
+public speakers marked "did not show" or "withdrew" (2021-08-03, 2022-04-05,
+2022-12-01) and the absentees of a Planning Board vote quoted in a call-up (2008-07-08).
+This removed 81 spurious `absent` votes and changed no motion's inference. In fast mode
+it drops the 7 Planning Board names at the 2016 joint meeting.
+
 ## Votes
 
 - 88% of member-vote rows are `inferred`: the minutes state a tally plus dissenters,
@@ -85,7 +94,7 @@ free-tier rate limits (5 concurrent jobs). Git LFS storage for all PDFs: ~1.8 GB
    the gap between the tally and the roll call, and not when the noted member is seen
    moving, seconding, or voting by name around that motion. Rows are marked
    `inference_basis = attendance_note`. In balanced mode this recovered **3 of the 62**
-   declined motions (2022-04-05 ×2, 2022-10-06; 32 member-vote rows), all checked against
+   declined motions (2022-04-05 ×2, 2022-10-06; 24 member-vote rows), all checked against
    the minutes, and it fixed the 2022-04-05 consent vote against the reference. Fast mode
    gains 7 (also 2021-06-15 ×2, 2021-12-14, 2026-01-08), all correct. The 59 still declined are
    mostly **not** late arrivals the minutes record:

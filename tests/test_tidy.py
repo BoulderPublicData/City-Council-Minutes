@@ -92,3 +92,54 @@ def test_late_arrival_seen_acting_earlier_is_not_left_out():
                         "absent_or_not_voting": ["Eldridge", "Toor"], "result": "passed"}]}
     t = tidy_one(ENTRY, doc, "balanced", "test")
     assert [m["vote_inference"] for m in t["motions"]] == ["inconsistent_not_inferred"] * 2
+
+
+# ── roll-call plausibility ──────────────────────────────────────────────────
+
+COUNCIL_2022 = ["Brockett", "Benjamin", "Folkerts", "Friend", "Joseph", "Speer", "Wallach",
+                "Winer", "Yates"]
+
+
+def test_non_members_drops_uncorroborated_names():
+    from scripts.tidy import non_members
+    present = [{"name": n, "title": "Council Member"} for n in COUNCIL_2022]
+    absent = [{"name": "Fred Bratman", "note": "DID NOT SHOW"},
+              {"name": "Kate Weiner", "note": "DID NOT SHOW"},   # near 'Winer', who is here
+              {"name": "Joseph"}]                                # no title, but known nearby
+    drop = non_members(present, absent, [], nearby=set(COUNCIL_2022))
+    assert set(drop) == {"Bratman", "Weiner"}
+
+
+def test_non_members_keeps_misspellings_actors_and_titles():
+    from scripts.tidy import non_members
+    nearby = {"Morzel", "Corson", "Toor", "Eldridge"}
+    present = [{"name": "Corson"}, {"name": "Moizel"},              # OCR slip for Morzel
+               {"name": "Greenlee", "title": "Councilmembers"},     # titled
+               {"name": "Riggle"}]                                  # moves a motion
+    absent = [{"name": "Toor"}]
+    motions = [{"moved_by": "Riggle", "seconded_by": "Corson"}]
+    assert non_members(present, absent, motions, nearby) == {}
+
+
+def test_non_members_drops_other_bodies_by_title():
+    from scripts.tidy import non_members
+    present = [{"name": "Gray", "title": "Planning Board Member"},
+               {"name": "Brockett", "title": "Mayor"}]
+    drop = non_members(present, [], [], nearby={"Gray", "Brockett"})
+    assert set(drop) == {"Gray"} and "another body" in drop["Gray"]
+
+
+def test_tidy_one_drops_speakers_from_roll_call_and_votes():
+    doc = {"meeting_date": "2022-04-05",
+           "members_present": [{"name": n, "title": "Council Member"} for n in COUNCIL_2022],
+           "members_absent": [{"name": "John Walker", "note": "DID NOT SHOW"}],
+           "motions": [{"vote_text": "Carried 9:0", "yes_count": 9, "no_count": 0,
+                        "stated_unanimous": True, "result": "passed"}]}
+    kept = tidy_one(ENTRY, doc, "balanced", "test")  # no roster context: nothing dropped
+    assert "Walker" in {a["member"] for a in kept["attendance"]}
+    t = tidy_one(ENTRY, doc, "balanced", "test", nearby=set(COUNCIL_2022))
+    assert "Walker" not in {a["member"] for a in t["attendance"]}
+    assert "Walker" not in {v["member"] for v in t["member_votes"]}
+    assert t["meetings"][0]["n_members_absent"] == 0
+    assert [x["member"] for x in t["excluded_roll_call"]] == ["Walker"]
+    assert t["motions"][0]["vote_inference"] == "inferred_from_roll_call"
