@@ -107,6 +107,22 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
     Because corroboration comes from other meetings, a partial run (e.g. `--entry-ids`)
     has less to go on; check that list after any run.
 
+## Checks by change type
+
+Run the cheapest check that can catch a mistake in what you changed, and say in the PR
+which one you ran. Everything below `extract` rebuilds from the cache in seconds, so
+there is no reason to skip it, and no reason to re-run a paid stage to test a tidy change.
+
+| Change touches | Run | Time | Cost |
+|---|---|---|---|
+| docs, comments | `pytest` | ~3 s | free |
+| `tidy.py`, `names.py`, `schema.py`, lookups | + `tidy --mode balanced`, `score`, `audit` (from cache) | ~30 s | free |
+| `extraction_schema.py` (bumps `SCHEMA_VERSION`) | + `extract` on the reference meetings first | minutes | **paid**: ask first (gotcha 11) |
+| `laserfiche.py`, `discover.py`, `fetch.py` | + a small `--scope sample` run | 5 min+ | portal rate limit (gotcha 2) |
+
+Compare `data/audit/accuracy_*.csv` before and after any tidy change. An agreement score
+that drops is a regression until the minutes say otherwise.
+
 ## How to…
 
 - **Pick up newly filed minutes:** `discover --refresh` (or `--refresh --years 2026`),
