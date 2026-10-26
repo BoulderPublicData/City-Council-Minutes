@@ -1,0 +1,2598 @@
+{
+ "entry_id": 174987,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "V_4Sm8QQOo9DNY3wQ6UiSA",
+ "page_count": 5,
+ "cost_breakdown": {
+  "final_cost_cents": 2.25
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "motion_text": "COUNCIL MEMBER FRIEND MADE A MOTION TO AMEND THE AGENDA TO ADD ITEM 1C – DECLARATION IN HONOR OF THE BOULDER POLICE OVERSIGHT IMPLEMENTATION TEAM’S SERVICE TO THE BOULDER COMMUNITY. COUNCIL MEMBER WALLACH SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 6:11 P.M.",
+    "motion_text_citations": [
+     "/page/0/Text/5"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/0/Text/5"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "moved_by": "Council Member Friend",
+    "moved_by_citations": [
+     "/page/0/Text/5"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "seconded_by": "Council Member Wallach",
+    "seconded_by_citations": [
+     "/page/0/Text/5"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 6:11 P.M.",
+    "vote_text_citations": [
+     "/page/0/Text/5"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/5"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Text/5"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/5"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/0/Text/5"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "motion_text": "COUNCIL MEMBER YATES MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-H AND AMENDING ITEM 3G TO ADD COUNCIL MEMBER FRIEND'S AND YATES' NAMES TO THE LANGUAGE AND ALSO AMENDING ITEM 3H TO ADD COUNCIL MEMBER BROCKETT’S AND WALLACH’S NAMES TO THE LANGUAGE. COUNCIL MEMBER FRIEND SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 8:28 P.M.",
+    "motion_text_citations": [
+     "/page/1/Text/4",
+     "/page/2/SectionHeader/0"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8447",
+     "8448"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "moved_by": "Council Member Yates",
+    "moved_by_citations": [
+     "/page/1/Text/4"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "seconded_by": "Council Member Friend",
+    "seconded_by_citations": [
+     "/page/1/Text/4"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 8:28 P.M.",
+    "vote_text_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    }
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "motion_text": "COUNCIL MEMBER YATES MADE A MOTION TO ADOPT ORDINANCE 8444 DESIGNATING THE PROPERTY AT 977 9TH ST., TO BE KNOWN AS THE CASTLE HOUSE, AS AN INDIVIDUAL LANDMARK PER SECTION 9-11-5 OF THE BOULDER REVISED CODE, 1981. COUNCIL MEMBER YOUNG SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 8:47 P.M.",
+    "motion_text_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8444"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "moved_by": "Council Member Yates",
+    "moved_by_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "seconded_by": "Council Member Young",
+    "seconded_by_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 8:47 P.M.",
+    "vote_text_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    }
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "motion_text": "COUNCIL MEMBER SWETLIK MADE A MOTION TO ADOPT ORDINANCE 8445 DESIGNATING THE PROPERTY AT 90 ARAPAHOE AVE., TO BE KNOWN AS THE SILVER SADDLE MOTEL, AS AN INDIVIDUAL LANDMARK PER SECTION 9-11-5 OF THE BOULDER REVISED CODE, 1981. COUNCIL MEMBER YATES SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 9:06 P.M.",
+    "motion_text_citations": [
+     "/page/3/Text/3"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/3"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8445"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "moved_by": "Council Member Swetlik",
+    "moved_by_citations": [
+     "/page/3/Text/3"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "seconded_by": "Council Member Yates",
+    "seconded_by_citations": [
+     "/page/3/Text/3"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 9:06 P.M.",
+    "vote_text_citations": [
+     "/page/3/Text/3"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/3"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/3"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/3"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Text/3"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    }
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "motion_text": "COUNCIL MEMBER FRIEND MADE A MOTION TO ADOPT ORDINANCE 8446 DESIGNATING THE PROPERTY AT 2330 20TH ST., TO BE KNOWN AS THE BARNES-GILLARD HOUSE, AS AN INDIVIDUAL LANDMARK PER SECTION 9-11-5 OF THE BOULDER REVISED CODE, 1981. COUNCIL MEMBER XXX SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 9:16 P.M.",
+    "motion_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/10"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8446"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "moved_by": "Council Member Friend",
+    "moved_by_citations": [
+     "/page/3/Text/10"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "seconded_by": "Council Member XXX",
+    "seconded_by_citations": [
+     "/page/3/Text/10"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 9:16 P.M.",
+    "vote_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/10"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/10"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/10"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Text/10"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    }
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "motion_text": "COUNCIL MEMBER FRIEND MADE A MOTION TO EXTEND THE MEETING. COUNCIL MEMBER YATES SECONDED THE MOTION. THE MOTION PASSED 9:0 AT 11:16 P.M.",
+    "motion_text_citations": [
+     "/page/3/Text/13"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/3/Text/13"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "moved_by": "Council Member Friend",
+    "moved_by_citations": [
+     "/page/3/Text/13"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "seconded_by": "Council Member Yates",
+    "seconded_by_citations": [
+     "/page/3/Text/13"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "vote_text": "THE MOTION PASSED 9:0 AT 11:16 P.M.",
+    "vote_text_citations": [
+     "/page/3/Text/13"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/13"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/13"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/13"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Text/13"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: 'moved_by' and 'seconded_by' include the title 'Council Member' (schema requires names only), and 'XXX' is extracted literally instead of being null/empty as per instructions. Citations are complete for the 6+"
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Hillary Griffith",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Donna George",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "BVCP midterm update policy change",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Sue Ellen Harrison",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Barbara Appel",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "homelessness",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Connie Brenton",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "safety on Pearl St mall",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Tamar Larsen",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Lopa van der Mersch",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "climate change and carbon reduction",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Ellen Morris",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Alexia Parks",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Val Kindgren",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Stephan Van Der Mersch",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Mark Meyer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House and public input on Planning Board deliberations",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Dianna Gonzales-Burdin",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "democracy and online petitioning",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Brian Travis",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "crime in Whittier neighborhood",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   },
+   {
+    "name": "Rachael Mckee",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    },
+    "topic": "Marpa House",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 17 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 7 speakers are cited as /page/0/ListGroup/10, but they are actually in /page/0/ListGroup/6. The remaining 10 speakers are correctly cited as /page/1/ListGroup/0"
+    }
+   }
+  ],
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "11:35 P.M.",
+  "adjourned_time_citations": [
+   "/page/4/Text/1"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "1. Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "1. Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:01 p.m. and the agenda was amended to add Item 1C.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3",
+     "/page/0/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "1C",
+    "item_number_citations": [
+     "/page/0/Text/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "1. Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "Declaration in Honor of the Boulder Police Oversight Implementation Team's Service to the Boulder Community presented by Council Member Mary Young",
+    "title_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to add Item 1C to the agenda passed 9:0 at 6:11 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "2. Open Comment",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "2. Open Comment",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": "7:31 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/9"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": "8:08 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/1"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Hillary Griffith",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Donna George",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Sue Ellen Harrison",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Barbara Appel",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Connie Brenton",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Tamar Larsen",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Lopa van der Mersch",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Patrick Murphy",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Ellen Morris",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Alexia Parks",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Val Kindgren",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Stephan Van Der Mersch",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Mark Meyer",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Dianna Gonzales-Burdin",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Brian Travis",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     },
+     {
+      "name": "Rachael Mckee",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     }
+    ],
+    "outcome_summary": "Open Comment began at 7:31 p.m. and closed at 8:08 p.m. with 18 speakers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/9",
+     "/page/1/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "3. Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "3. Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8447",
+     "8448"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve Consent Agenda items A-H and amend items 3G and 3H passed 9:0 at 8:28 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/4",
+     "/page/2/SectionHeader/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "4. Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "4. Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the Call-Up Consideration for a Concept Plan review.",
+    "outcome_summary_citations": [
+     "/page/2/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "5. Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "5. Public Hearings",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8444",
+     "8445",
+     "8446"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/ListGroup/5",
+     "/page/2/ListGroup/12",
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": "8:43 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/8"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": "8:44 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/10"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/2/ListGroup/9"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/9"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     }
+    ],
+    "outcome_summary": "Ordinance 8444 was adopted at 8:47 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [
+     "/page/2/ListGroup/12"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "5. Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8445 designating two buildings and a portion of the property at 90 Arapahoe Ave. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981.",
+    "title_citations": [
+     "/page/2/ListGroup/12"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8445"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": "9:02 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/0"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": "9:03 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/2"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     }
+    ],
+    "outcome_summary": "Ordinance 8445 was adopted at 9:06 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "5. Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "Second reading and a motion adopt Ordinance 8446 designating the property at 2330 20th St. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8446"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": "9:13 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/7"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": "9:13 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/9"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/3/ListGroup/8"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/8"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+      }
+     }
+    ],
+    "outcome_summary": "Ordinance 8446 was adopted at 9:16 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "6. Matters from the City Manager",
+    "section_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "6. Matters from the City Manager",
+    "title_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to extend the meeting passed 9:0 at 11:16 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "7. Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "7. Matters from the City Attorney",
+    "title_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "8. Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "8. Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "9. Discussion Items",
+    "section_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "9. Discussion Items",
+    "title_citations": [
+     "/page/3/ListGroup/14"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "10. Debrief",
+    "section_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "10. Debrief",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "section": "11. Adjournment",
+    "section_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "title": "11. Adjournment",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned on March 2, 2021 at 11:35 p.m.",
+    "outcome_summary_citations": [
+     "/page/4/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct blocks. However, information accuracy is flawed: Item 1C title is incorrect (extracted as the presentation title, not the agenda item title 'Declaration in Honor...'). Item 5 is mislabeled as a single public hearing with only Ordinance 8444 details, ignoring"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "called the meeting to order at 6:01 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate for the roll call list (Text/4) and Mayor (Text/3). However, the 'title' field is incorrectly cited as Text/4 for all members; the HTML does not contain the text 'Council Member' in that block, only the names. The attendance note 'present virtually' is also not explicitly in a"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [
+   "A. Call-Up Consideration for a Concept Plan review and comment for a redevelopment of the property located at 770 28th, the existing Boulder Best Western Motel, into a mixed-use project with 90 to 95 student apartment units along with ground level restaurant or coffee shop use, common areas, and below grade parking; along with landscape and shared open space improvements to the site and the existing office building located on the east end of the property at 777 29th Street. The existing five-story office building will remain. Reviewed under case LUR2020-00060."
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/2"
+  ],
+  "call_up_items_score": {
+   "score": 5,
+   "reasoning": "The extracted value correctly identifies the single Call-Up item from the 'Call-Up Check-In' section. The citation /page/2/ListGroup/2 accurately points to the block containing this item. No other call-up items exist in the text, and no information contradicts the extraction."
+  },
+  "meeting_date": "2021-03-02",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2021-03-02' is accurate and matches the heading and footers. The citation points to the correct block containing the date. No contradictions or missing relevant blocks found."
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_score": {
+   "score": 4,
+   "reasoning": "The extracted value 'regular' is accurate as the footer explicitly states 'Regular Meeting'. However, the citation '/page/0/SectionHeader/0' points to the main title 'CITY COUNCIL MEETING', which does not contain the word 'Regular'. The correct citation should be the footer blocks (e.g., /page/0/..."
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

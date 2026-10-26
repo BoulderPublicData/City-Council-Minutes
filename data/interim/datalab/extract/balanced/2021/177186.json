@@ -1,0 +1,627 @@
+{
+ "entry_id": 177186,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "UT86JR1hD5-SanAaobmlsg",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 9.0
+ },
+ "extraction": {
+  "meeting_date": "2021-08-10",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date at /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the meeting at /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies this as a special meeting at /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states the meeting location at /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:02 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/4"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Weaver called the meeting to order at /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "6:21 p.m.",
+  "adjourned_time_citations": [
+   "/page/1/Text/6"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at /page/1/Text/6. Conclusion: the value at /page/1/Text/6 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/4"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Mayor Weaver as calling the meeting to order and adjourning it in /page/0/Text/4 and /page/1/Text/6. Conclusion: the value at /page/0/Text/4 and /page/1/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no call-up or call-up check-in items. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:02 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consent Agenda",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "1289",
+     "8483"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council rejected removal of 2A from the Consent Agenda and approved items 2A(2) and 2A(1).",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/8"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of the following items related to the annexation and initial zoning of a 308.15-acre parcel generally known as CU South at 4886 and 5278 Table Mesa Drive; 718 Marshall Road; 0 Hwy 36 (2 parcels); and 4745 W. Moorhead with an initial zoning designation of Public (P) (LUR2019-00010).",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1289",
+     "8483"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council rejected removal of 2A from the Consent Agenda and approved items 2A(2) and 2A(1).",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2A(1)",
+    "item_number_citations": [
+     "/page/1/Table/2"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 1289 finding the annexation petition to annex approximately 308.15 acres of land in compliance with state statutes and establishing September 14, 2021, as the date for a public hearing;",
+    "title_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1289"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Item 2A(1) by a vote of 6:1.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2A(2)",
+    "item_number_citations": [
+     "/page/1/Table/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only, Ordinance 8483 annexing to the City of Boulder approximately 308.15 acres of land , with an initial zoning designation of Public (“P”)",
+    "title_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8483"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Item 2A(2) by a vote of 6:1.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 6:21 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "2A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to REMOVE 2A from the Consent Agenda",
+    "motion_text_citations": [
+     "/page/0/Table/11"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Nagle",
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "1:6 – Motion DID NOT Carry – NAY - Brockett, Friend, Swetlik, Wallach, Weaver, & Young",
+    "vote_text_citations": [],
+    "result": "failed",
+    "result_citations": [],
+    "yes_count": 1,
+    "yes_count_citations": [],
+    "no_count": 6,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Brockett",
+     "Friend",
+     "Swetlik",
+     "Wallach",
+     "Weaver",
+     "Young"
+    ],
+    "abstained": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ]
+   },
+   {
+    "agenda_item_number": "2A(2)",
+    "agenda_item_number_citations": [
+     "/page/1/Table/1"
+    ],
+    "motion_text": "Motion to APPROVE Item 2A(2) as submitted on HOTLINE – Ordinance 8483",
+    "motion_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/1/Table/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8483"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/1"
+    ],
+    "vote_text": "6:1 NAY - Nagle",
+    "vote_text_citations": [
+     "/page/1/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/1/Table/1"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Nagle"
+    ],
+    "abstained": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ]
+   },
+   {
+    "agenda_item_number": "2A(1)",
+    "agenda_item_number_citations": [
+     "/page/1/Table/2"
+    ],
+    "motion_text": "Motion to APPROVE Item 2A(1) – Resolution 1289",
+    "motion_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/1/Table/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1289"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "vote_text": "6:1 NAY - Nagel",
+    "vote_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Nagel"
+    ],
+    "abstained": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ]
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 6:21 p.m.",
+    "motion_text_citations": [
+     "/page/1/Text/6"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Joseph",
+     "Yates"
+    ],
+    "absent_or_not_voting": [
+     "Joseph",
+     "Yates"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/10"
+    ],
+    "note": "due to their recusals",
+    "note_citations": [
+     "/page/0/Text/10"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/10"
+    ],
+    "note": "due to their recusals",
+    "note_citations": [
+     "/page/0/Text/10"
+    ]
+   }
+  ],
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  }
+ }
+}

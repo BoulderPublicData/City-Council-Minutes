@@ -1,0 +1,891 @@
+{
+ "entry_id": 180021,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "l1vyqvKQYZhi4HtRRXYmXw",
+ "page_count": 5,
+ "cost_breakdown": {
+  "final_cost_cents": 12.0
+ },
+ "extraction": {
+  "meeting_date": "2022-06-14",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, June 14, 2022” in /page/0/Text/3, supporting the extracted normalized date.\nConclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extraction.\nConclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies this as a special meeting in /page/0/SectionHeader/1.\nConclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state the meeting location in /page/0/Text/2.\nConclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at the extracted time in /page/0/Text/6.\nConclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:32 p.m.",
+  "adjourned_time_citations": [
+   "/page/4/Text/0"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at the extracted time in /page/4/Text/0.\nConclusion: the value at /page/4/Text/0 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state in /page/0/Text/6 that Mayor Brockett called the meeting to order.\nConclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain a “Call-Up Check-In” section at /page/0/SectionHeader/9 but list no call-up items under it. The document does not support any entries for this field.\nConclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "Boards & Commissions Mid-Year Appointments",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "6:10 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/1/Text/1"
+    ],
+    "hearing_closed_time": "6:12 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/3"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the Board and Commission Mid-year Appointments, 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8521 to amend the designated boundary to include all of Block 13 of the property at 1236 Canyon Blvd. , City of Boulder, Colorado, an individual landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981, and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8521"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:55 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/3"
+    ],
+    "hearing_closed_time": "8:22 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Kathryn Barth",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Payson Sheets",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Leonard Segel",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Yin",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Patrick O’Rourke",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Ellis",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Susan Osborne",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Robert Hohlfelder",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council defeated adoption of Ordinance 8521, 4:5; the motion to not approve and the amendment were withdrawn, and council provided direction on future landmarking consideration.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title": "Even Year Election Ballot Options Discussion",
+    "title_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council chose to move forward with Option 4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/3/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/Text/0"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:32 p.m.",
+    "outcome_summary_citations": [
+     "/page/4/Text/0"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/1/Table/8"
+    ],
+    "motion_text": "Motion to APPROVE the Board and Commission Mid-year Appointments",
+    "motion_text_citations": [
+     "/page/1/Table/8"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/1/Table/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/1/Table/8"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/1/Table/8"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/1/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/2/Table/7"
+    ],
+    "motion_text": "Motion to adopt Ordinance 8521 to amend the designated boundary to include all of Block 13 of the property at 1236 Canyon Blvd. , City of Boulder, Colorado, an individual landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981, and setting forth related details",
+    "motion_text_citations": [
+     "/page/2/Table/7"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Table/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8521"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/2/Table/7"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/2/Table/7"
+    ],
+    "vote_text": "Defeated 4:5 NAY: Joseph, Speer, Benjamin, Brockett, Folkerts",
+    "vote_text_citations": [
+     "/page/2/Table/7"
+    ],
+    "result": "failed",
+    "result_citations": [],
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/2/Table/7"
+    ],
+    "no_count": 5,
+    "no_count_citations": [
+     "/page/2/Table/7"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Joseph",
+     "Speer",
+     "Benjamin",
+     "Brockett",
+     "Folkerts"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to NOT APPROVE Ordinance 8521 amending the designated boundary to include all of Block 13 for the property at 1236 Canyon Blvd. , City of Boulder, Colorado, a landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981; but to direct Planning and Development Services staff to prioritize beginning an effort to explore designating a larger Civic Area historic district in 2023. Furthermore, council directs staff to ensure that the Landmarks Board and Parks & Recreation Advisory Board are both appropriately engaged in the park design process and that the bandshell is included in the design and continues to be a centerpiece in Central Park.",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8521"
+    ],
+    "moved_by": "Folkerts",
+    "moved_by_citations": [],
+    "seconded_by": "Joseph",
+    "seconded_by_citations": [],
+    "vote_text": "WITHDRAWN",
+    "vote_text_citations": [],
+    "result": "withdrawn",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/3/Table/0"
+    ],
+    "motion_text": "Move to AMEND motion language",
+    "motion_text_citations": [
+     "/page/3/Table/0"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Wallach",
+    "moved_by_citations": [
+     "/page/3/Table/0"
+    ],
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/3/Table/0"
+    ],
+    "vote_text": "WITHDRAWN",
+    "vote_text_citations": [
+     "/page/3/Table/0"
+    ],
+    "result": "withdrawn",
+    "result_citations": [
+     "/page/3/Table/0"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/4/Text/0"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:32 p.m.",
+    "motion_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Kathryn Barth",
+    "topic": ""
+   },
+   {
+    "name": "Payson Sheets",
+    "topic": ""
+   },
+   {
+    "name": "Leonard Segel",
+    "topic": ""
+   },
+   {
+    "name": "Deborah Yin",
+    "topic": ""
+   },
+   {
+    "name": "Patrick O’Rourke",
+    "topic": ""
+   },
+   {
+    "name": "Lynn Segal",
+    "topic": ""
+   },
+   {
+    "name": "Mary Ellis",
+    "topic": ""
+   },
+   {
+    "name": "Susan Osborne",
+    "topic": ""
+   },
+   {
+    "name": "Robert Hohlfelder",
+    "topic": ""
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

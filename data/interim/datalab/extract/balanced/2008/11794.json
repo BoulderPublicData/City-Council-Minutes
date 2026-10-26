@@ -1,0 +1,1219 @@
+{
+ "entry_id": 11794,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "oMaP7JOW_ux42Wu8NOI2YQ",
+ "page_count": 8,
+ "cost_breakdown": {
+  "final_cost_cents": 26.0
+ },
+ "extraction": {
+  "meeting_date": "2008-01-08",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY OF BOULDER COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes describe this as the regular January 8 meeting in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting occurred in the Council Chambers in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 6:00 p.m. in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:35 P. M.",
+  "adjourned_time_citations": [
+   "/page/7/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/7/Text/1. Conclusion: the value at /page/7/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor McGrath",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor McGrath called the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "2525 TAFT (VILLAGE AT BOULDER CREEK) SITE REVIEW AMENDMENT. LAST OPPORTUNITY FOR CALL-UP: 1/8/2008. WIP DATE: 12/19/2007. ACTION: 5-0, APPROVAL WITH CONDITIONS BY PLANNING BOARD."
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/11"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/11"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The potential call-up entry is stated in /page/2/ListGroup/11. Conclusion: the value at /page/2/ListGroup/11 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one potential call-up item, and it appears in /page/2/ListGroup/11. Conclusion: the value at /page/2/ListGroup/11 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor McGrath called the regular January 8, 2008 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received public participation and city manager, city attorney, and city council responses.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7572"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved consent items 3A through 3C by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM DECEMBER 18, 2007.",
+    "title_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3C; the motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "title": "THIRD READING OF ORDINANCE No. 7572 AMENDING TITLE 1, B.R.C. 1981, CONCERNING GENERAL ADMINISTRATION; AND TITLE 7, B.R.C. 1981, CONCERNING REGULATION OF VEHICLES AND TRAFFIC AND PARKING INFRACTIONS.",
+    "title_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7572"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3C; the motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING A STANDARDIZED INTERGOVERNMENTAL AGREEMENT BETWEEN THE CITY OF BOULDER AND COLORADO'S WATER/WASTE WATER AGENCY RESPONSE NETWORK (CoWARN).",
+    "title_citations": [
+     "/page/1/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of consent items 3A through 3C; the motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "title": "CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in calling up item 8A-1.",
+    "outcome_summary_citations": [
+     "/page/1/Text/11"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "PUBLIC HEARINGS: - None",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/2/SectionHeader/1"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The City Manager announced that the Blue Ribbon Commission Report notebook for the January 15 study session was distributed to council mail boxes earlier in the day.",
+    "outcome_summary_citations": [
+     "/page/2/Text/3"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council requested further assessment of the code of conduct matter by a 6:3 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "REPORT FROM ACTING CITY ATTORNEY ON CONCLUSION OF CODE OF CONDUCT INVESTIGATION INVOLVING A PLANNING BOARD MEMBER",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted a friendly amendment and approved the request for further assessment 6:3; no vote is recorded on the separate motion to accept Mr. Roys report and recommendations.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7559"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council took no action on the potential call-up, requested Washington School information, ratified committee/liaison appointments, rescheduled the February 5 meeting, and appointed the City Attorney Search Committee.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/2/Text/12"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/11"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "title": "2525 TAFT (VILLAGE AT BOULDER CREEK) SITE REVIEW AMENDMENT. LAST OPPORTUNITY FOR CALL-UP: 1/8/2008. WIP DATE: 12/19/2007. ACTION: 5-0, APPROVAL WITH CONDITIONS BY PLANNING BOARD.",
+    "title_citations": [
+     "/page/2/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/2/Text/12"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/SectionHeader/13"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "DISCUSSION ABOUT THE DESIGN OF AN OUTREACH PROCESS FOR THE WASHINGTON SCHOOL SITE.",
+    "title_citations": [
+     "/page/2/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7559"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Staff was asked to bring back information for a public hearing on January 22.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO RATIFY COUNCIL COMMITTEE/LIAISON APPOINTMENTS FOR 2008 – 2009.",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council ratified the council committee/liaison appointments for 2008 – 2009 by a 9:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "OTHER MATTERS",
+    "title_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council moved the February 5 Council meeting to February 4, appointed Appelbaum and Ageton as the City Attorney Search Committee, and concurred to discuss staff briefing requests at its upcoming retreat.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received public comment on matters.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the assessment request 6:3 and the committee/liaison appointments, meeting date change, and City Attorney Search Committee motion 9:0 each.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 12:35 P. M.",
+    "outcome_summary_citations": [
+     "/page/7/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/Text/9"
+    ],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Osborne to approve consent items 3A through 3C.",
+    "motion_text_citations": [
+     "/page/1/Text/9"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7572"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/1/Text/9"
+    ],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [
+     "/page/1/Text/9"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/1/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Text/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Text/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Council Member Morzel to request that Mr. Roy provide an assessment of Boulder Revised Code Sections 2-7-1 and 2-3-1 in addition to any other information the City Attorney may ask him to determine and have that brought back to council.",
+    "motion_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "vote_text": "The motion carried 6:3, with Council Members Ageton, McGrath and Wilson in opposition.",
+    "vote_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/2/Text/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "McGrath",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "motion_text": "Council Member Wilson offered a separate motion, seconded by Ageton to accept Mr. Roys report and recommendations for action.",
+    "motion_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/8"
+    ],
+    "motion_text": "Council Member Cowles offered a friendly amendment to the motion by the Deputy Mayor to amend the motion to clarify assessment of the Boulder Revised Code section and the information provided by Mr. Rubin and Mr. Gless and any other relevant information determined by Mr. Roy.",
+    "motion_text_citations": [
+     "/page/2/Text/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/2/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/2/Text/8"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The friendly amendment was accepted.",
+    "vote_text_citations": [
+     "/page/2/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/4/Text/3"
+    ],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Morzel to suspend the rules and continue the meeting at 10:35 p.m.",
+    "motion_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "vote_text": "The motion carried 8:1; Espinoza opposed",
+    "vote_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Espinoza"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/4/Text/5"
+    ],
+    "motion_text": "Council member Gray moved, seconded by Morzel to ratify the council committee/liaison appointments for 2008 – 2009.",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/5/Text/10"
+    ],
+    "motion_text": "Council Member Appelbaum moved, seconded by Cowles to move the February 5 Council meeting date to February 4, 2008 due to the Political Caucuses.",
+    "motion_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/5/Text/10"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/5/Text/10"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Table/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/6/Text/2"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by McGrath to appoint Appelbaum and Ageton as the City Attorney Search Committee and to authorize looking in to hiring a search firm to assist in the process.",
+    "motion_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/6/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/6/Text/2"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/6/Text/2"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 12:35 P. M.",
+    "motion_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "McGrath",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Espinoza",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Stacey Balcom",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "outlined her numerous complaints against the city since 1989",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Mary Louise Chavers",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "encouraged Boulder to consider holding a First Night Boulder, similar to First Night Missoula and First Night Boston – a festival for family and community that is alcohol free",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Bruce Robinson",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "voiced a request that the city adopt a resolution advocating the beginning of a hearing supporting the impeachment of President Bush and Vice President Cheney",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Patrick West",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "spoke in support of a resolution advocating impeachment hearings noting numerous civil rights violations",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "spoke to saving the neighborhoods from high density development",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "encouraged that council acknowledge Fred Rubin for his work relating to the conflict of interest investigation",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Maryanne Mahoney",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "provided an update and willingness to assist Denver in hosting the Democratic National Convention",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Ann Carson",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "spoke regarding the Washington Village project",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "John Russell",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "requested council consideration of a resolution supporting the establishment of a resolution supporting a Department of Peace at the National level",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Frank Spaid",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "spoke regarding the proposed development on Taft Drive expressing concern relating to impacts and potential code violations from this project",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "wants back the 1.8 million dollars from Casey Middle School and to place all other major projects on hold until we have a planning director and a city attorney",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Bruce Dierking",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "addressed the problems with the process",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Pat Shanks",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke to housing affordability as a key issue for Boulder",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Hibner",
+    "name_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "topic": "spoke in support of the motion to ask for further information from Mr. Roy in the code of conduct complaint",
+    "topic_citations": [
+     "/page/6/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Fred Rubin",
+    "name_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "topic": "stressed the importance of following through with getting additional information from Mr. Roy",
+    "topic_citations": [
+     "/page/6/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "topic": "Mr. Sopher should be removed from the Board and all decisions should be reversed",
+    "topic_citations": [
+     "/page/6/ListGroup/6"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

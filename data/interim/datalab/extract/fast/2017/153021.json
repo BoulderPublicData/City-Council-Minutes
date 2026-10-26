@@ -1,0 +1,3775 @@
+{
+ "entry_id": 153021,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "VDuMTAOWgnl6PSLl8Pyy1w",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 2.7
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "motion_text": "COUNCIL MEMBER SHOEMAKER MOVED TO REQUEST THE COLORADO PUBLIC UTILITIES COMMISSION VACATE THE HEARING OF THE CITY'S TRANSFER OF ASSETS APPLICATION PRESENTLY SCHEDULED TO BEGIN ON APRIL 26, 2017 AND STAY THE PROCEEDINGS TO PLACE EITHER OR BOTH OF EXCEL' S PROPOSALS ON THE BALLOT TO ALLOW VOTERS TO CONSIDER THE SETTLEMENT. COUNCIL MEMBER YATES SECONDED THE MOTION.",
+    "motion_text_citations": [
+     "/page/4/Text/4"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/4/Text/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "moved_by": "Shoemaker",
+    "moved_by_citations": [
+     "/page/4/Text/4"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/4/Text/4"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "vote_text": "THE MOTION FAILED 3:6 WITH COUNCIL MEMBERS APPELBAUM, BROCKETT, JONES, MORZEL, WEAVER AND YOUNG VOTING NAY AT 10:43 P.M.",
+    "vote_text_citations": [
+     "/page/4/Text/4",
+     "/page/5/SectionHeader/0"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "result": "failed",
+    "result_citations": [
+     "/page/4/Text/4"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/4/Text/4"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/4/Text/4",
+     "/page/5/SectionHeader/0"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/4/Text/4"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "no_votes": [
+     "Appelbaum",
+     "Brockett",
+     "Jones",
+     "Morzel",
+     "Weaver",
+     "Young"
+    ],
+    "no_votes_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "motion_text": "THERE BEING NO FURTHER BUSINESS TO COME BEFORE COUNCIL AT THIS TIME, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED ON APRIL 17, 2017 AT 10:43 P.M.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "moved_by": null,
+    "moved_by_citations": [],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "vote_text": null,
+    "vote_text_citations": [],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/2"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "yes_count": null,
+    "yes_count_citations": [],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "no_count": null,
+    "no_count_citations": [],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "stated_unanimous": null,
+    "stated_unanimous_citations": [],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations correctly map to source blocks. However, the extracted 'agenda_item_number' for the first motion is '2', while the HTML header for that section is '2. PUBLIC HEARING'. The motion text appears under a different context or is mislabeled in the extraction relative to the specific agenda item "
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the municipalization efforts",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Vanessa Haggans",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Lili Francklyn",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Rick Tazelaar",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Anya Aidun",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Eric Lombardi",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Howard Geller",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "issue at hand",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Natalie Breut",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Ken Regelson",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Beth Hartman",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition of municipalization",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Chris Hoffman",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Jim Hartman",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Leonard May",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Macon Cowles",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Joseph Stein",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Fran Sheets",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "David Paradis",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Brad Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Ken Bonetti",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Julie Zahniser",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Tom Asprey",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Christina Gosnell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Rebecca Dickson",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Elyssa Hofgard",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Sophie Chen",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Molly Fitzpatrick",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Regina Cowles",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Karen Conduff",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Paul Culman",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Micah Parkins",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Aidan Ferris",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Bob Morehouse",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Crystal Gray",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Anita Li",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Karey Christ-Janer",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the municipalization effort",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Sandra Laursen",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Sara Mayer",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Sierra Cantliffe",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Star Beltman",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Sarah King",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Samantha Miller",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Ray Roper",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Nick Kerwin",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Kate Paradis",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Dan Powers",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "support of putting this measure on the November ballot",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Ben Harding",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Conor May",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Jason Mendelson",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Matt Smith",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Christopher McKinny",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "take a slow approach",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Stephen Hibbs",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Karen Hollweg",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to a partnership with Xcel",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Andy Schultheiss",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "issue be placed on the ballot",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Joyce Xu",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Paige Sanderson",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "James Duncan",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Zane Selvans",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Robert Morse",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Will Toor",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "municipalization and recommended asking for a better offer than the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "William DeOreo",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "other natural sources of energy",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Frances Hartogh",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Ashley Tseng",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Steve Fenberg",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Mark Gelband",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "concerns about municipalization",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Bheema Bachus",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Allan Gardner",
+    "name_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "support of the proposed settlement",
+    "topic_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Leslie Glustrom",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Shane Davis",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "city follow the will of the people",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Brad Bender",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Christopher Worth Lundy",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "support of the municipalization process but in opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Marcia Kosar",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "concern of a smaller utility company being capable of handling problems, costs and bandwidth",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "John Tayer",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "support of the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Jim Morris",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Robi Robichaud",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Carolyn Bninski",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   },
+   {
+    "name": "Jai Rajagepal",
+    "name_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    },
+    "topic": "opposition to the proposed settlement",
+    "topic_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted field 'open_comment_speakers' incorrectly includes speakers from the 'Public Hearing' (Item 2), not 'Open Comment'. The schema requires excluding public hearing speakers. Citations point to the correct HTML blocks containing the text, but the classification of the field is wrong."
+    }
+   }
+  ],
+  "location": "Municipal Building, 1777 Broadway, Boulder, Colorado 80302",
+  "location_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted location includes the full address (city, state, zip) found in the header. The citation correctly points to the block containing this text. No contradictions or missing relevant blocks exist."
+  },
+  "adjourned_time": "10:43 P.M.",
+  "adjourned_time_citations": [
+   "/page/5/Text/2"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "section": "1. CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "title": "1. CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Jones called the meeting to order at 6:03 p.m. and Council Members Appelbaum, Brockett, Burton, Morzel, Shoemaker, Weaver, Yates and Young were present.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3",
+     "/page/0/Text/4"
+    ],
+    "outcome_summary_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "section": "2. PUBLIC HEARING",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "title": "Public Hearing and consideration of a motion to request the PUC vacate the hearing of the city's transfer of assets application, presently scheduled to begin April 26, to consider settlement",
+    "title_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "is_public_hearing_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_opened_time": "6:37 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/9"
+    ],
+    "hearing_opened_time_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_closed_time": "9:10 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/1"
+    ],
+    "hearing_closed_time_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_speakers": [
+     {
+      "name": "Patrick Murphy",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Vanessa Haggans",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Lili Francklyn",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Rick Tazelaar",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Anya Aidun",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Eric Lombardi",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Howard Geller",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Natalie Breut",
+      "name_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/10"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Ken Regelson",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Beth Hartman",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Chris Hoffman",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Jim Hartman",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Leonard May",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Macon Cowles",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Joseph Stein",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Fran Sheets",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "David Paradis",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Brad Segal",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Ken Bonetti",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Julie Zahniser",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Tom Asprey",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Christina Gosnell",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Rebecca Dickson",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Elyssa Hofgard",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Sophie Chen",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Molly Fitzpatrick",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Regina Cowles",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Karen Conduff",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Paul Culman",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Micah Parkins",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Aidan Ferris",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Bob Morehouse",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Crystal Gray",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Anita Li",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Karey Christ-Janer",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Sandra Laursen",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Nadia El Mallakh",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Sara Mayer",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Sierra Cantliffe",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Star Beltman",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Sarah King",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Samantha Miller",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Ray Roper",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Nick Kerwin",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Kate Paradis",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Ben Harding",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Conor May",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Jason Mendelson",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Matt Smith",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Christopher McKinny",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Stephen Hibbs",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Karen Hollweg",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Todd Stewart",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Andy Schultheiss",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Joyce Xu",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Paige Sanderson",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Paula Connelly",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "James Duncan",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Zane Selvans",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Robert Morse",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Will Toor",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "William DeOreo",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Frances Hartogh",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "David Brode",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Mike Dorsey",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Joe McDonald",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Ashley Tseng",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Steve Fenberg",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Mark Gelband",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Derek William Harper",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Stee Drouilhet",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Angelica Alexander",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Laura Gonzales",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Bheema Bachus",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Allan Gardner",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Howard Branz",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Lisa Widderkind",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Benton Wachter",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Leslie Glustrom",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Shane Davis",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Brad Bender",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Marcia Kohler",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Christopher Worth Lundy",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Marcia Kosar",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "neutral",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "John Tayer",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Jim Morris",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Robi Robichaud",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Carolyn Bninski",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     },
+     {
+      "name": "Jai Rajagepal",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 5,
+       "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+      }
+     }
+    ],
+    "outcome_summary": "Council Member Shoemaker moved to request the PUC vacate the hearing and stay proceedings to place proposals on the ballot; the motion failed 3:6.",
+    "outcome_summary_citations": [
+     "/page/4/Text/4",
+     "/page/5/SectionHeader/0"
+    ],
+    "outcome_summary_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "section": "3. ADJOURNMENT",
+    "section_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "title": "3. ADJOURNMENT",
+    "title_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned on April 17, 2017, at 10:43 p.m.",
+    "outcome_summary_citations": [
+     "/page/5/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 5,
+     "reasoning": "Citations are accurate and complete for all agenda items and speakers. The extracted data correctly reflects the HTML content, including the specific wording of the motion, the vote count, and the list of speakers with their positions. No contradictions found."
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Jones",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Burton",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Shoemaker",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted members match the text in /page/0/Text/4. However, the citation for Mayor Jones is incorrect; /page/0/Text/3 states 'Mayor Jones called the meeting to order' but does not list him as present in the roll call sentence found in Text/4. The schema requires names as printed in the roll/cit"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2017-04-17",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2017-04-17' is accurate and matches the heading text 'Monday, April 17, 2017' found in block /page/0/SectionHeader/0. The citation is correct and sufficient."
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:03 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Jones",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

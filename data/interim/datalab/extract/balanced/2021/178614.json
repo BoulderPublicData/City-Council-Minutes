@@ -1,0 +1,1433 @@
+{
+ "entry_id": 178614,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "w1RzLZa65mq5DOkb8us1gg",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 19.0
+ },
+ "extraction": {
+  "meeting_date": "2021-11-16",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in block /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in block /page/0/SectionHeader/1 supports the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/PageFooter/14"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/PageFooter/14"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify the meeting as a City Council Regular Meeting in block /page/0/PageFooter/14. Conclusion: the value at /page/0/PageFooter/14 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/SectionHeader/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated in block /page/0/SectionHeader/2. Conclusion: the value at /page/0/SectionHeader/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/6 states that the meeting was called to order at the extracted time. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:22 p.m.",
+  "adjourned_time_citations": [
+   "/page/5/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/5/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/5/Text/1 states that the meeting was adjourned at the extracted time. Conclusion: the value at /page/5/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Joseph",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/6 identifies Joseph as the person who called the meeting to order. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Call-up Consideration: Landmark Alteration Certificate for construction of additions, an accessory building and swimming pool at 2935 19th St., an individual landmark"
+  ],
+  "call_up_items_citations": [
+   "/page/3/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item is stated in block /page/3/ListGroup/5. Conclusion: the value at /page/3/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one call-up check-in item, shown in block /page/3/ListGroup/5, and the extraction contains that one item. Conclusion: the value at /page/3/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Pro Tem Joseph called the meeting to order at 6:00 p.m. and Council amended the agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Declaration honoring Transgender Day of Remembrance read by Mayor Pro Tem Joseph",
+    "title_citations": [
+     "/page/0/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The declaration was read by Mayor Pro Tem Joseph.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Public Hearing",
+    "section_citations": [],
+    "title": "Public Hearing",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "6:08 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/12"
+    ],
+    "hearing_closed_time": "6:15 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lila Hickey",
+      "name_citations": [
+       "/page/0/ListGroup/13"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/13"
+      ]
+     },
+     {
+      "name": "Claudia Thiem",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "Brockett was elected Mayor for a 2-year term and Friend was elected Mayor Pro Tem for a 1-year term.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2.A",
+    "item_number_citations": [],
+    "section": "Public Hearing",
+    "section_citations": [],
+    "title": "Mayor and Mayor Pro Tem Elections",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "6:08 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/12"
+    ],
+    "hearing_closed_time": "6:15 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lila Hickey",
+      "name_citations": [
+       "/page/0/ListGroup/13"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/13"
+      ]
+     },
+     {
+      "name": "Claudia Thiem",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "Brockett was elected Mayor for a 2-year term and Friend was elected Mayor Pro Tem for a 1-year term.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard open comment from 6:29 p.m. to 7:18 p.m.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consent Agenda",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted consent agenda items A-G with the option to amend item 4A; Speer recused on Item G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.A",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to approve the 2022 Council Meeting Calendar",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda with the option to amend item 4A.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.B",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Consideration to approve two Intergovernmental Agreements between the City of Boulder, The Sugarloaf Fire Protection District and the Lefthand Fire Protection District for automatic and mutual aid response",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.C",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Introduction and consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8489 supporting a Colorado Division of Parks and Wildlife State Trails Program Grant Application by the city to fund implementation of the Open Space and Mountain Parks Gunbarrel Hill Site Management Plan; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8489"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.D",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only Ordinance 8492 amending Section 3-2-5, \"Rate of Tax,\" B.R.C. 1981, implementing the voter approved change presented in Ordinance 8476 extending the Capital Improvement Tax now known as the Community, Culture, Resilience and Safety Tax; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8492",
+     "8476"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.E",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only, Ordinance 8511 approving supplemental appropriations to the 2021 Budget ; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8511"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.F",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only Ordinance 8514 amending Title 9, “Land Use Code,” adding new regulations on oil and gas operations, setting forth the process, submittal requirements, standards and review criteria, and additional items consistent with state law and as informed by neighboring communities with similar recently adopted regulation; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8514"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4.G",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/3"
+    ],
+    "title": "Consideration of a motion to accept the City Clerk’s Certification of Sufficiency of the referendum petition to Ordinance 8483 regarding the annexation of the property generally known as CU South",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8483"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted this item as part of the consent agenda; Speer recused on Item G.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/3/Text/6"
+    ]
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Call-up Consideration: Landmark Alteration Certificate for construction of additions, an accessory building and swimming pool at 2935 19th St. , an individual landmark",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/3/Text/6"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinances 8490 and 8513.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.B",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8490 designating the building and a portion of the property at 3485 Stanford Ct. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981, setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8490"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:56 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/10"
+    ],
+    "hearing_closed_time": "7:58 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/12"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8490 by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.C",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8513 designating the property at 963 7th St. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981; and setting forth related details",
+    "title_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8513"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:08 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/3"
+    ],
+    "hearing_closed_time": "8:09 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8513 by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Kurt Firnhaber, Director of Housing and Human Services, and Viki Ebner, Policy Advisor provided a presentation and answered questions from Council.",
+    "outcome_summary_citations": [
+     "/page/4/Text/9"
+    ]
+   },
+   {
+    "item_number": "7.A",
+    "item_number_citations": [],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "title": "Severe Weather Shelter Update",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Kurt Firnhaber, Director of Housing and Human Services, and Viki Ebner, Policy Advisor provided a presentation and answered questions from Council.",
+    "outcome_summary_citations": [
+     "/page/4/Text/9"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council decided to remain with virtual meetings until further review and the next COVID update.",
+    "outcome_summary_citations": [
+     "/page/4/Text/15"
+    ]
+   },
+   {
+    "item_number": "9.A",
+    "item_number_citations": [],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "title": "Discussion on future-in person meetings and 2022 meeting day",
+    "title_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council decided to remain with virtual meetings until further review and the next COVID update.",
+    "outcome_summary_citations": [
+     "/page/4/Text/15"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/SectionHeader/16"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/4/SectionHeader/16"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/4/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/4/SectionHeader/17"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/4/SectionHeader/17"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/4/SectionHeader/17"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:22 p.m.",
+    "outcome_summary_citations": [
+     "/page/5/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/Table/8"
+    ],
+    "motion_text": "Motion to AMEND the agenda to: • ADD – Item 1A – Declaration honoring Transgender Day of Remembrance • MOVE PUBLIC HEARING ITEM 5A to PUBLIC HEARING ITEM 2A – To hold Mayor and Mayor Pro Tem Elections – Which will REORDER the AGENDA • ADD – Item 9A – Discussion on future in-person meetings and 2022 meetings",
+    "motion_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text": "Carried: 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion for nominations - Mayor",
+    "motion_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend; Wallach",
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Yates – 3 Brockett – 6",
+    "vote_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion for nominations – Mayor Pro Tem",
+    "motion_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to close nominations",
+    "motion_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/1/Table/2"
+    ],
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/1/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "4",
+    "agenda_item_number_citations": [
+     "/page/3/Table/3"
+    ],
+    "motion_text": "Motion to ACCEPT the consent agenda items A-G with the option to amend item 4A.",
+    "motion_text_citations": [
+     "/page/3/Table/3"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8489",
+     "8492",
+     "8511",
+     "8514",
+     "8483"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/3/Table/3"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/3/Table/3"
+    ],
+    "vote_text": "Carried: 9:0 Speer Recused on Item G",
+    "vote_text_citations": [
+     "/page/3/Table/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Speer"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Ordinance 8490 designating the building and a portion of the property at 3485 Stanford Ct. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981, setting forth related details",
+    "motion_text_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8490"
+    ],
+    "moved_by": "Wallach",
+    "moved_by_citations": [],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [],
+    "vote_text": "Carried: 9:0",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Ordinance 8513 designating the property at 963 7th St. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981; and setting forth related details",
+    "motion_text_citations": [
+     "/page/4/Table/6"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8513"
+    ],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/4/Table/6"
+    ],
+    "seconded_by": "Folkerts",
+    "seconded_by_citations": [
+     "/page/4/Table/6"
+    ],
+    "vote_text": "Carried: 9:0",
+    "vote_text_citations": [
+     "/page/4/Table/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Table/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 10:22 p.m.",
+    "motion_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [],
+    "title": "Mayor Pro Tem",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Jacob Payne",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "housing and security",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Ambika Kamath",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Neesha Schnepf",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Eric Budd",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "energy",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Margaret LeCompte",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "CU South annexation",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Laura Tyler",
+    "name_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "topic": "CU South annexation",
+    "topic_citations": [
+     "/page/1/ListGroup/6"
+    ]
+   },
+   {
+    "name": "SarahDawn Haynes",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Robert Smoke",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "violation of camping code",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Kevin McWilliams",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Blake Stone",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Harlin Savage",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "CU South annexation",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Max Hollingsworth",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Carol Dreselly",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Alex Weinheimer",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Aidan Cook",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Ryan Schuchard",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Kristen Hess",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Dan Williams",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Heather Bowler",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "occupancy reform",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

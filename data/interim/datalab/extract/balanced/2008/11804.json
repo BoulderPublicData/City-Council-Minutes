@@ -1,0 +1,3040 @@
+{
+ "entry_id": 11804,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "H86iCWdO6keIdZWHSbhuRQ",
+ "page_count": 13,
+ "cost_breakdown": {
+  "final_cost_cents": 59.0
+ },
+ "extraction": {
+  "meeting_date": "2008-11-10",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the proceeding as “COUNCIL PROCEEDINGS” in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that this was the “special November 10, 2008 meeting” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was held “in the Council Chambers” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order “at 6:00 p.m.” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:30 P.M.",
+  "adjourned_time_citations": [
+   "/page/12/Text/2"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/12/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting “WAS ADJOURNED AT 11:30 P.M.” in /page/12/Text/2. Conclusion: the value at /page/12/Text/2 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "McGrath",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Mayor McGrath called” the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state, “There were no call-ups on this agenda” in /page/2/Text/5. Conclusion: the value at /page/2/Text/5 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "a poem entitled \"Images of the Cherokee,\" which he wrote several years ago.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jann Scott",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "programming and addressed the perception that he was profiting from this venture.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Elizabeth Allen",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "opposition to the redevelopment of the Golden Buff site review at Canyon and 28 th Street.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "his petition drive regarding banning of motorized vehicles at the Boulder Reservoir and that requested council direct staff to evaluate public health and safety implications.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Aicila Lewis",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "the recent bias/hate motivated incidents in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Audrey Fishman Franklin",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "concerns related to recent acts of violence in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Debra Ordway",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "the naked pumpkin run and raised concern about the police reaction to the race, labeling participants as sex offenders instead of ticketing them for indecent exposure.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "David Allen",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "technology resources in Boulder and urged placement of a router between CU and the city.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Detre Godinez",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "the week of October 27 siting numerous incidents that were not reported to police. She noted the climate on Campus was very bad prior to the election and spoke to the importance of community leadership.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor McGrath called the special November 10, 2008 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7624",
+     "7595",
+     "7596",
+     "7606"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM OCTOBER 7, 2008.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE SEPT. 23, 2008 STUDY SESSION SUMMARY REGARDING THE SOURCE WATER MASTER PLAN.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE OCT. 14, 2008 STUDY SESSION SUMMARY REGARDING THE DEVELOPMENT-RELATED FEE STUDIES.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO RENEW EMPLOYMENT AGREEMENT OF BOULDER MUNICIPAL COURT ASSOCIATE JUDGE JEFFREY CAHN, AWARD 2.5% SALARY INCREASE TO JUDGE CAHN, AND PROVIDE NOTIFICATION OF RENEWAL AND APPOINTMENT OF TEMPORARY JUDGES.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION AND ACTION ON PROPOSED 2008-2009 CITY OF BOULDER WORK PLAN.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7624 ADOPTING SUPPLEMENT No. 98, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7595, 7596 AND 7606, AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS TO THE BOULDER REVISED CODE, 1981.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7624",
+     "7595",
+     "7596",
+     "7606"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING THE WETLANDS MAP OF THE CITY OF BOULDER ADOPTED PURSUANT TO SUBSECTION 9-3-9(c)(4), \"WETLAND BOUNDARY DETERMINATION,\" B.R.C. 1981 BY REMOVING A PORTION OF THE WETLANDS ALONG TWOMILE CANYON CREEK ON THE PROPERTIES LOCATED AT 706 AND 714 KALMIA AVENUE; 745 AND 755 JONQUIL PLACE; AND 777, 780, 801, 824, 870 AND 900 JUNIPER AVENUE AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.H",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING AN INTERGOVERNMENTAL AGREEMENT BETWEEN THE CITY OF BOULDER AND THE CITY OF DENVER THROUGH ITS BOARD OF WATER COMMISSIONERS REGARDING RECREATIONAL USE OF A PORTION OF THE SOUTH BOULDER DIVERSION CANAL AND CONSIDERATION OF A MOTION APPROVING A LICENSE AGREEMENT TO IMPLEMENT THE INTERGOVERNMENTAL AGREEMENT REFERENCED ABOVE.",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.I",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE GRANTING THE CONTINUATION OF THE DOWNTOWN BOULDER BUSINESS IMPROVEMENT DISTRICT FROM JANUARY 1, 2010 TO DECEMBER 31, 2029 WITH SUBSEQUENT RENEWALS TO OCCUR FOR TWENTY YEARS EACH FOLLOWING THE FILING OF FUTURE PETITIONS AS PROVIDED BY CITY ORDINANCE.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/Text/5"
+    ],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/Text/5"
+    ],
+    "title": "CALL- UP CHECK IN: - There were no call-ups on this agenda",
+    "title_citations": [
+     "/page/2/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There were no call-ups on this agenda",
+    "outcome_summary_citations": [
+     "/page/2/Text/5"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7626",
+     "7627",
+     "7628",
+     "7629",
+     "226",
+     "227",
+     "228",
+     "167",
+     "168",
+     "169",
+     "129",
+     "28",
+     "29",
+     "30",
+     "7620",
+     "7621",
+     "7622",
+     "7623"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "CONSIDERATION OF THE FOLLOWING ITEMS RELATING TO THE 2009 BUDGET",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7626",
+     "7627",
+     "7628",
+     "7629"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Seth Brigham",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Arron Mansika",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Gary Horton",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Lou Della Cava",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Frances Draper",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tim Bour",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Moyski",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Catherine Hunziker",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Kelly Davis",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brett Parnes",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Alan O'Hashi",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Craig Eicher",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "to adopt Ordinance No. 7626 adopting the 2008 budget, Ordinance No, 7627 establishing the amended property tax mill levy, Ordinance No. 7628 appropriating the 2009 budget, and Ordinance No. 7629 changing certain fees; and to adjourn from council and convene as the Central Area General Improvement District Board of Directors.",
+    "outcome_summary_citations": [
+     "/page/5/Text/11"
+    ]
+   },
+   {
+    "item_number": "5.A.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "PUBLIC HEARING ON THE PROPOSED 2009 CITY OF BOULDER BUDGET; AND",
+    "title_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "5.A.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7626 THAT ADOPTS A BUDGET FOR THE CITY OF BOULDER, COLORADO, FOR THE FISCAL YEAR COMMENCING ON THE FIRST DAY OF JANUARY 2009 AND ENDING ON THE LAST DAY OF DECEMBER 2009, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7626"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "5.A.3",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7627 THAT ESTABLISHES THE 2008 CITY OF BOULDER PROPERTY TAX MILL LEVIES WHICH ARE TO BE COLLECTED BY THE COUNTY OF BOULDER, STATE OF COLORADO, WITHIN THE CITY OF BOULDER IN 2009 FOR PAYMENT OF EXPENDITURES BY THE CITY OF BOULDER, COUNTY OF BOULDER, STATE OF COLORADO, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7627"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A.4",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7628 THAT APPROPRIATES MONEY TO DEFRAY EXPENSES AND LIABILITIES OF THE CITY OF BOULDER, COLORADO, FOR THE 2009 FISCAL YEAR OF THE CITY OF BOULDER, COMMENCING ON THE FIRST DAY OF JANUARY 2009, AND ENDING ON THE LAST DAY OF DECEMBER 2009, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7628"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A.5",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7629 THAT AMENDS CHAPTERS 3-8, 3-9, 3-11, AND 4-20, B.R.C. 1981, CHANGING CERTAIN FEES AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7629"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "CONSIDERATION OF THREE RESOLUTIONS PERTAINING TO THE 2009 BUDGET OF THE CITY OF BOULDER DOWNTOWN COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FUND).",
+    "title_citations": [
+     "/page/5/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "226",
+     "227",
+     "228"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Seth Brigham",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Arron Mansika",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Gary Horton",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Lou Della Cava",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Frances Draper",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tim Bour",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Moyski",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Catherine Hunziker",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Kelly Davis",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brett Parnes",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Alan O'Hashi",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Craig Eicher",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.B.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER DOWNTOWN COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FUND), ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2009.",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "226"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "5.B.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2008 CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE FISCAL YEAR 2009, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "227"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "5.B.3",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER DOWNTOWN COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FUND) FOR THE 2009 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "228"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "CONSIDERATION OF THREE RESOLUTIONS PERTAINING TO THE 2009 BUDGET OF THE CITY OF BOULDER UNIVERSITY HILL COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FUND).",
+    "title_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "167",
+     "168",
+     "169"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Seth Brigham",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Arron Mansika",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Gary Horton",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Lou Della Cava",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Frances Draper",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tim Bour",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Moyski",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Catherine Hunziker",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Kelly Davis",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brett Parnes",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Alan O'Hashi",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Craig Eicher",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "5.C.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER UNIVERSITY HILL COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FUND), ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2009.",
+    "title_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "167"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ]
+   },
+   {
+    "item_number": "5.C.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2008 CITY OF BOULDER UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE FISCAL YEAR 2009, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/7/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "168"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C.3",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER UNIVERSITY HILL COMMERCIAL DISTRICT FUND (FORMERLY KNOWN AS THE UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FUND) FOR THE 2009 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/7/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "169"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.D",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION FORMALLY ADOPTING THE 2009 BUDGET FOR THE BOULDER MUNICIPAL PROPERTY AUTHORITY; AND",
+    "title_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "129"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Seth Brigham",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Arron Mansika",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Gary Horton",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Lou Della Cava",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Frances Draper",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tim Bour",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Moyski",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Catherine Hunziker",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Kelly Davis",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brett Parnes",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Alan O'Hashi",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Craig Eicher",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.E",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "CONSIDERATION OF THREE RESOLUTIONS PERTAINING TO THE 2009 BUDGET OF THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT FUND.",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "28",
+     "29",
+     "30"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Seth Brigham",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Arron Mansika",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Gary Horton",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Lou Della Cava",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Frances Draper",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Tim Bour",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Moyski",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Catherine Hunziker",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Kelly Davis",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brett Parnes",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sharon King",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Alan O'Hashi",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Craig Eicher",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   },
+   {
+    "item_number": "5.E.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2009.",
+    "title_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "28"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   },
+   {
+    "item_number": "5.E.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2008 CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE FISCAL YEAR 2009, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "29"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   },
+   {
+    "item_number": "5.E.3",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT FOR THE 2009 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "30"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   },
+   {
+    "item_number": "5.F",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF CHANGES TO TITLE 10, “STRUCTURES,” B.R.C. 1981, FOR THE FOLLOWING PROPOSED ORDINANCES",
+    "title_citations": [
+     "/page/8/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7620",
+     "7621",
+     "7622",
+     "7623"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Phillip Wickey",
+      "name_citations": [
+       "/page/9/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bill Roettker",
+      "name_citations": [
+       "/page/9/ListGroup/3"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/9/ListGroup/3"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   },
+   {
+    "item_number": "5.F.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "ORDINANCE No. 7620 AMENDING SECTION 10-7, “ENERGY CONSERVATION AND INSULATION CODE” BY ADDING AN ADDITIONAL ENERGY EFFICIENCY REQUIREMENT FOR COMMERCIAL BUILDINGS, AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/8/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7620"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/4"
+    ]
+   },
+   {
+    "item_number": "5.F.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "ORDINANCE NO. 7621 AMENDING CHAPTER 10-7.5, GREEN BUILDING AND GREEN POINTS PROGRAM, “B.R.C. 1981 ADDING REQUIREMENTS RELATED TO ENERGY EFFICIENCY THRESHOLDS FOR REMODELS AND ADDITIONS, DEMOLITION, BOILERS AND WINDOWS; AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/9/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7621"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/9/Text/8"
+    ]
+   },
+   {
+    "item_number": "5.F.3",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "ORDINANCE NO. 7622 AMENDING CHAPTER 10-5, “BUILDING CODE,” B.R. C. 1981 TO ADOPT MINOR CHANGES TO THE INTERNATIONAL BUILDING CODE RELATED TO THE EXPIRATION OF PERMITS AND SETTING FORTH RELATED DETAILS, AND",
+    "title_citations": [
+     "/page/9/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7622"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/9/Text/8"
+    ]
+   },
+   {
+    "item_number": "5.F.4",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "ORDINANCE NO. 7623 AMENDING CHAPTER 10-6, “ELECTRICAL CODE, “B.R.C. 1981 ADOPTING BY REFERENCE THE 2008 EDITION OF THE NATIONAL ELECTRICAL CODE WITH MODIFICATIONS, AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/9/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7623"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/9/Text/8"
+    ]
+   },
+   {
+    "item_number": "5.G",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION ACCEPTING THE FOURMILE CANYON AND WONDERLAND CREEKS FLOOD MITIGATION PLAN AS DOCUMENTED IN THE PHASE A REPORT AND AS MODIFIED BY STAFF.",
+    "title_citations": [
+     "/page/10/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Allen Goldstone",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Skip Miller",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Melissa Graesser",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dale Stetina",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Oliver Bruce",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/10/ListGroup/4"
+      ]
+     },
+     {
+      "name": "James Snow",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "John Buetow",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/10/ListGroup/4"
+      ]
+     },
+     {
+      "name": "Amir Abu-Jaber",
+      "name_citations": [
+       "/page/10/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Mayor McGrath moved, seconded by Wilson to continue this item until after a study session and possible field trip.",
+    "outcome_summary_citations": [
+     "/page/11/Text/4"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/11/SectionHeader/6"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/11/SectionHeader/6"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/11/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Brautigam provided council with information relating to the recent incidents during the week of October 27, 2008.",
+    "outcome_summary_citations": [
+     "/page/11/Text/8"
+    ]
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/11/SectionHeader/6"
+    ],
+    "title": "UPDATE ON INCIDENTS DURING WEEK OF OCTOBER 27, 2008.",
+    "title_citations": [
+     "/page/11/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Brautigam provided council with information relating to the recent incidents during the week of October 27, 2008.",
+    "outcome_summary_citations": [
+     "/page/11/Text/8"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/11/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/11/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - NONE",
+    "title_citations": [
+     "/page/11/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/11/SectionHeader/10"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/11/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council appointed Council Member Espinoza and Deputy Mayor Gray (with Council member Osborne as a back-up) to the Council Retreat Committee by acclamation.",
+    "outcome_summary_citations": [
+     "/page/11/Text/15"
+    ]
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/11/SectionHeader/10"
+    ],
+    "title": "POTENTIAL CALL-UPS: - NONE",
+    "title_citations": [
+     "/page/11/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/11/SectionHeader/16"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/11/SectionHeader/16"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: - NONE",
+    "title_citations": [
+     "/page/11/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/12/Text/0"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/12/Text/0"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: - NONE",
+    "title_citations": [
+     "/page/12/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/12/Text/2"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/12/Text/1"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/12/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:30 P.M.",
+    "outcome_summary_citations": [
+     "/page/12/Text/2"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Appelbaum to approve consent items 3A through 3I.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7624",
+     "7595",
+     "7596",
+     "7606"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Appelbaum, to adopt Ordinance Number 7626 adopting the 2008 budget, 7627 establishing the amended property tax mill levy, 7628 appropriating the 2009 budget, and 7629 changing certain fees; and to adjourn from council and convene as the Central Area General Improvement District Board of Directors.",
+    "motion_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7626",
+     "7627",
+     "7628",
+     "7629"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Appelbaum moved, seconded by Ageton to direct staff to release a Request for Proposals (RFP) for a subsidy free education channel 22 vendor to include 1) no ongoing operational funding to BCM for 2009; and 2) extending the BCM contract through January 31, 2009 in order to provide time to complete the RFP process and to establish a new contractual relationship with BCM or a new vendor.",
+    "motion_text_citations": [
+     "/page/5/Text/6"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/5/Text/6"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/5/Text/6"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles offered a friendly amendment to include the last sentence providing that the City Manager's contingency to be used to fund a pro-rated contract term ($5,000 per month) for this period.",
+    "motion_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/5/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/5/Text/7"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "This was not accepted as a friendly amendment.",
+    "vote_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Cowles, to amend the amendment to include the last sentence in the third bullet of the staff recommendation on page 6 of the memo up to 3 months.",
+    "motion_text_citations": [
+     "/page/5/Text/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/5/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/8"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/5/Text/8"
+    ],
+    "vote_text": "The motion carried 5:4; Ageton, Appelbaum, Espinoza and Wilson opposed.",
+    "vote_text_citations": [
+     "/page/5/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/5/Text/8"
+    ],
+    "no_count": 4,
+    "no_count_citations": [
+     "/page/5/Text/8"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Appelbaum",
+     "Espinoza",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Espinoza moved, seconded by McGrath to remove Economic Vitality funds from the phased funding approach.",
+    "motion_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Espinoza",
+    "moved_by_citations": [
+     "/page/5/Text/10"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/5/Text/10"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Board Member Gray moved, seconded by Osborne to adopt Resolution No. 226 concerning the City of Boulder Downtown Commercial District Fund (formerly known as the Central Area General Improvement District Fund), adopting a budget for the fiscal year beginning January 1, 2009; Resolution No. 227 establishing the 2008 City of Boulder Central Area General Improvement District Property Tax Mill Levy for payment of expenditures, in part, of the District during the fiscal year 2009, and setting forth details in relation thereto; and Resolution No. 228 appropriating money to defray the expenses and liabilities of the City of Boulder Downtown Commercial District Fund (formerly known as the Central Area General Improvement District Fund) for the 2009 fiscal year and setting forth details in relation thereto.",
+    "motion_text_citations": [],
+    "action_type": "resolution",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "226",
+     "227",
+     "228"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "A motion to adjourn from the CAGID Board of Directors and to convene as the University Hill General Improvement District (UHGID) Board of Directors was approved by acclamation.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/6/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "A motion to adjourn from the CAGID Board of Directors and to convene as the University Hill General Improvement District (UHGID) Board of Directors was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Board Member Cowles moved, seconded by Morzel to adopt Resolution No. 167 concerning the City of Boulder University Hill Commercial District Fund (formerly known as the University Hill General Improvement District Fund), adopting a budget for the fiscal year beginning January 1, 2009; Resolution No. 168 establishing the 2008 City of Boulder University Hill General Improvement District Property Tax Mill Levy for payment of expenditures, in part, of the District during the fiscal year 2009, and setting forth details in relation thereto; and Resolution No. 169 appropriating money to defray the expenses and liabilities of the City of Boulder University Hill Commercial District Fund (formerly known as the University Hill General Improvement District Fund) for the 2009 fiscal year and setting forth details in relation thereto.",
+    "motion_text_citations": [],
+    "action_type": "resolution",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "167",
+     "168",
+     "169"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "A motion to adjourn from the University Hill General Improvement District Board of Directors (UHGID) and convene as the Boulder Municipal Property Authority Board of Directors (BMPA) was approved by acclamation.",
+    "motion_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "A motion to adjourn from the University Hill General Improvement District Board of Directors (UHGID) and convene as the Boulder Municipal Property Authority Board of Directors (BMPA) was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.D",
+    "agenda_item_number_citations": [],
+    "motion_text": "Board Member Gray moved, seconded by Espinoza to adopt Resolution No. 129 formally adopting the 2009 budget for the Boulder Municipal Property Authority.",
+    "motion_text_citations": [
+     "/page/7/Text/7"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "129"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/7/Text/7"
+    ],
+    "seconded_by": "Espinoza",
+    "seconded_by_citations": [
+     "/page/7/Text/7"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/7/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/7/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.D",
+    "agenda_item_number_citations": [],
+    "motion_text": "A motion to adjourn from the Boulder Municipal Property Authority Board of Directors (BMPA) and convene as the Forest Glen Transit Pass General Improvement District Board of Directors was approved by acclamation.",
+    "motion_text_citations": [
+     "/page/7/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "A motion to adjourn from the Boulder Municipal Property Authority Board of Directors (BMPA) and convene as the Forest Glen Transit Pass General Improvement District Board of Directors was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/7/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.E",
+    "agenda_item_number_citations": [],
+    "motion_text": "Board Member Gray moved, seconded by McGrath to adopt Resolution No. 28 concerning the City of Boulder Forest Glen Transit Pass General Improvement District, adopting a budget for the fiscal year beginning January 1, 2009; Resolution No. 29 establishing the 2008 City of Boulder Forest Glen Transit Pass General Improvement District Property Tax Mill Levy for payment of expenditures, in part, of the District during the fiscal year 2009, and setting forth details in relation thereto; and Resolution No. 30 appropriating money to defray the expenses and liabilities of the city of Boulder Forest Glen Transit Pass General Improvement District for the 2009 fiscal year and setting forth details in relation thereto.",
+    "motion_text_citations": [],
+    "action_type": "resolution",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "28",
+     "29",
+     "30"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.E",
+    "agenda_item_number_citations": [],
+    "motion_text": "A motion to adjourn from the city of Boulder Forest Glen Transit Pass General Improvement District Board of Directors and reconvene as the Boulder City Council was approved by acclamation.",
+    "motion_text_citations": [
+     "/page/8/Text/6"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "A motion to adjourn from the city of Boulder Forest Glen Transit Pass General Improvement District Board of Directors and reconvene as the Boulder City Council was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/8/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.F",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Appelbaum moved, seconded by Morzel to adopt Ordinance No. 7620 amending Section 10-7, “Energy Conservation and Insulation Code” by Adding an Additional Energy Efficiency Requirement for Commercial buildings, and setting forth related details; Ordinance No. 7621 amending chapter 10-7.5, Green building and Green Points Program, “B.R.C. 1981 Adding Requirements related to Energy Efficiency Thresholds for Remodels and Additions, Demolition, Boilers and Windows; and setting forth related details, as amended; Ordinance No. 7622 amending Chapter 10-5, “Building Code,” B.R. C. 1981 to Adopt Minor changes to the International Building Code Related to the Expiration of Permits and setting forth related details; and Ordinance No. 7623 amending Chapter 10-6, “Electrical Code, “B.R.C. 1981 Adopting by Reference the 2008 edition of the National Electrical Code with modifications, and setting forth related details.",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7620",
+     "7621",
+     "7622",
+     "7623"
+    ],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.G",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Appelbaum moved, seconded by McGrath to approve the Fourmile Canyon and Wonderland Creeks Floodplain Mitigation Plan.",
+    "motion_text_citations": [
+     "/page/10/Text/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/10/Text/6"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/10/Text/6"
+    ],
+    "vote_text": "The motion was withdrawn.",
+    "vote_text_citations": [
+     "/page/11/Text/3"
+    ],
+    "result": "withdrawn",
+    "result_citations": [
+     "/page/11/Text/3"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Morzel"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.G",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor McGrath moved, seconded by Wilson to continue this item until after a study session and possible field trip.",
+    "motion_text_citations": [
+     "/page/11/Text/4"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "McGrath",
+    "moved_by_citations": [
+     "/page/11/Text/4"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/11/Text/4"
+    ],
+    "vote_text": "The motion carried 8:0, Morzel absent.",
+    "vote_text_citations": [
+     "/page/11/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/11/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/11/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Morzel"
+    ],
+    "absent_or_not_voting": [
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "5.G",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton moved, seconded by McGrath to suspend the rules and continue the meeting.",
+    "motion_text_citations": [
+     "/page/11/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/11/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/11/Text/5"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/11/Text/5"
+    ],
+    "vote_text": "The motion carried 8:0, Morzel absent.",
+    "vote_text_citations": [
+     "/page/11/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/11/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/11/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "8",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council appointed Council Member Espinoza and Deputy Mayor Gray (with Council member Osborne as a back-up) to the Council Retreat Committee by acclamation.",
+    "motion_text_citations": [
+     "/page/11/Text/15"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Council appointed Council Member Espinoza and Deputy Mayor Gray (with Council member Osborne as a back-up) to the Council Retreat Committee by acclamation.",
+    "vote_text_citations": [
+     "/page/11/Text/15"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/12/Text/2"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:30 P.M.",
+    "motion_text_citations": [
+     "/page/12/Text/2"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/12/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:30 P.M.",
+    "vote_text_citations": [
+     "/page/12/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "McGrath",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Espinoza",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

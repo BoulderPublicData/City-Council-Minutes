@@ -1,0 +1,1913 @@
+{
+ "entry_id": 11856,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "vyA6Rcfb7C7_pZbTY90rNw",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 28.0
+ },
+ "extraction": {
+  "meeting_date": "2010-08-17",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, August 17, 2010” in /page/0/Text/1, supporting the extracted normalized date. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extraction. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes describe the event as the “regular August 17, 2010 Council meeting” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting occurred “in the Council Chambers” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:04 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order “at 6:04 p.m.” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:53 P.M.",
+  "adjourned_time_citations": [
+   "/page/9/Text/11"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/Text/11"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement in /page/9/Text/11 gives the extracted time. Conclusion: the value at /page/9/Text/11 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Osborne",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Osborne called the meeting to order in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "VACATION OF A TWO SQUARE FOOT PORTION OF A SIX FOOT UTILITY AND GAS EASEMENT AT 4105 RIVERSIDE DRIVE. INFORMATION PACKET DATE: AUGUST 10, 2010. LAST OPPORTUNITY FOR CALL-UP IS AUGUST 17, 2010. STAFF LEVEL APPROVAL."
+  ],
+  "call_up_items_citations": [
+   "/page/9/ListGroup/6"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/9/ListGroup/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The listed potential call-up item in /page/9/ListGroup/6 supports the extraction. Conclusion: the value at /page/9/ListGroup/6 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The potential call-ups section contains one listed item in /page/9/ListGroup/6, matching the extraction. Conclusion: the value at /page/9/ListGroup/6 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne called the regular August 17, 2010 Council meeting to order at 6:04 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/7"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "NCAR/UCAR 50 th Anniversary Recognition.",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne read a declaration honoring NCAR/UCAR for its 50 th Anniversary and presented a Haertling plaque to the recipients.",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/Text/9"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Buy Into Boulder Declaration.",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne read a declaration encouraging residents to shop in Boulder via the “Buy Into Boulder” initiative sponsored by the Chamber of Commerce and other local partners.",
+    "outcome_summary_citations": [
+     "/page/0/Text/9"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard public participation and responses from the City Manager, City Attorney and Council.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7751"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE JULY 20, 2010 CITY COUNCIL MEETING MINUTES.",
+    "title_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE JULY 13, 2010 STUDY SESSION SUMMARY ON CROSSWALK SAFETY.",
+    "title_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE AN INTERGOVERNMENTAL AGREEMENT (IGA) BETWEEN THE CITY OF BOULDER AND THE BOULDER COUNTY CLERK AND RECORDER FOR THE CONDUCT AND ADMINISTRATION OF THE NOVEMBER 2, 2010 SPECIAL COORDINATED MUNICIPAL ELECTION.",
+    "title_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION CONCERNING THE PROPOSED CITY OF BOULDER (ACTING THROUGH ITS WATER UTILITY ENTERPRISE AND ITS WASTEWATER UTILITY ENTERPRISE) WATER AND SEWER REVENUE BONDS, SERIES 2010, IN THE AGGREGATE PRINCIPAL AMOUNT NOT TO EXCEED $10,500,000, AUTHORIZING THE OFFICIAL NOTICE OF BOND SALE WITH RESPECT TO SAID SERIES 2010 BONDS; PRESCRIBING CERTAIN DETAILS CONCERNING SAID PROPOSED SALE AND SAID SERIES 2010 BONDS; APPROVING THE FORM OF A PRELIMINARY OFFICIAL STATEMENT; AND PROVIDING THE EFFECTIVE DATE OF THIS RESOLUTION.",
+    "title_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE ONE-TIME TRANSFER OF $30,000 OF THE AVAILABLE $72,065.87 ASSET FORFEITURE FUNDS TO THE BOULDER COUNTY DRUG TASK FORCE (BCDTF) OPERATING ACCOUNT.",
+    "title_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE 7751 SUBMITTING TO THE ELECTORS OF THE CITY OF BOULDER, COLORADO, AT THE SPECIAL MUNICIPAL COORDINATED ELECTION TO BE HELD ON TUESDAY, NOVEMBER 2, 2010, THE ISSUE OF WHETHER THE CITY OF BOULDER TAXES SHOULD BE INCREASED BY UP TO $4.1 MILLION (IN THE FIRST FULL FISCAL YEAR) ANNUALLY AND BY SUCH AMOUNTS AS MAY BE COLLECTED ANNUALLY THEREAFTER BY THE IMPOSITION OF A UTILITY OCCUPATION TAX ON PUBLIC UTILITY COMPANIES THAT DELIVER ENERGY TO CUSTOMERS IN THE FORM OF ELECTRICITY AND GAS BEGINNING JANUARY 1, 2011 AND EXPIRING ON DECEMBER 31, 2015; AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7751"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE TO AMENDING SECTION 5-7-4, “ALCOHOL OFFENSES: POSSESSION AND SALE BY MINORS UNLAWFUL,” B.R.C. 1981, TO MORE CLOSELY MIRROR THE STATE STATUTE DEFINING THIS VIOLATION.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING TITLE 2, GOVERNMENT ORGANIZATION, CHAPTER 1, CITY COUNCIL, B.R.C. 1981, TO ADD A NEW SECTION ON COUNCIL MEMBER BENEFITS.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent items 3A through 3H with a change in language on item 3C; the motion carried unanimously, 8:0; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "CALL- UP CHECK IN:",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7740",
+     "7741",
+     "7742",
+     "7739",
+     "7743",
+     "7744"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the annexation motions and directed staff to prepare code changes for the RH-2 district.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF THE FOLLOWING ITEMS RELATED TO THE GAPTER ROAD NEIGHBORHOOD AND BURKE II OPEN SPACE AND MOUNTAIN PARKS PROPERTY ANNEXATIONS:",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7740",
+     "7741",
+     "7742",
+     "7739",
+     "7743",
+     "7744"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the motions 6:2, Morzel and Appelbaum opposed; Karakehian absent, including approval of Ordinance Nos. 7739, 7740, 7741, and 7742 by Emergency.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "APPROVAL OF A CHANGE TO THE BOULDER VALLEY COMPREHENSIVE PLAN PLANNING AREA DESIGNATION OF THE GAPTER ROAD NEIGHBORHOOD FROM AREA IIB TO IIA.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the change to the Boulder Valley Comprehensive Plan Planning Area designation of the Gapter Road Neighborhood from Area IIB to IIA, 6:2, Morzel and Appelbaum opposed; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCES NO. 7740, NO. 7741 AND NO. 7742 PERTAINING TO THE ANNEXATION OF 30 PROPERTIES TOTALING 30.5 ACRES WITHIN THE GAPTER ROAD NEIGHBORHOOD LOCATED AT 993 GAPTER ROAD., 980 GAPTER RD., 961 GAPTER RD., 954 GAPTER RD., 932 GAPTER RD., 931 GAPTER RD., 898 GAPTER RD., 897 GAPTER RD., 881 GAPTER RD., 880 GAPTER RD., 859 GAPTER RD., 858 GAPTER RD., 841 GAPTER RD., 819 GAPTER RD., 814 GAPTER RD., 797 GAPTER RD., 792 GAPTER RD., 777 GAPTER RD., 772 GAPTER RD., 751 GAPTER RD., 724 GAPTER RD., 723 GAPTER RD., 1225 GAPTER RD., 1156 GAPTER RD., 1112 GAPTER RD., 1084 GAPTER RD., 1064 GAPTER RD., 1051 GAPTER RD., 1040 GAPTER RD., 1010 GAPTER RD. WITH AN INITIAL ZONING DESIGNATION OF RURAL RESIDENTIAL – 2 (RR-2) AND AMENDING THE ADOPTED STREAM, WETLAND, AND WATER BODY REGULATORY MAPS.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7740",
+     "7741",
+     "7742"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinances No. 7740, No. 7741 and No. 7742 by Emergency, 6:2, Morzel and Appelbaum opposed; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7739 PERTAINING TO THE ANNEXATION OF THE BURKE II, OPEN SPACE AND MOUNTAIN PARKS DEPARTMENT PROPERTY LOCATED AT 0 BASELINE ROAD BETWEEN 55 TH STREET AND CHERRYVALE ROAD WITH AN INITIAL ZONING DESIGNATION OF PUBLIC (P) AND AMENDING THE ADOPTED STREAM, WETLAND, AND WATER BODY REGULATORY MAPS.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7739"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance No. 7739 by Emergency, 6:2, Morzel and Appelbaum opposed; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7743 PERTAINING TO THE APPROVAL OF AN INTERGOVERNMENTAL AGREEMENT BETWEEN THE CITY OF BOULDER AND THE COUNTY OF BOULDER REGARDING THE LOAN OF PUBLIC FUNDS FOR THE CONSTRUCTION OF NECESSARY WATER AND WASTEWATER UTILITIES IN GAPTER AND MCSORLEY ROADS.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7743"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance No. 7743, 6:2, Morzel and Appelbaum opposed; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7744 AMENDING SECTION 6-1-16, “DOGS RUNNING AT LARGE PROHIBITED,” B.R.C. 1981 TO ADD A PORTION OF THE BURKE II PROPERTY TO THOSE AREAS IN WHICH VOICE AND SIGHT CONTROL OF DOGS IS PERMITTED AND SETTING FORTH RELATED DETAILS./",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7744"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance No. 7744, 6:2, Morzel and Appelbaum opposed; Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "DIRECTION ON THE POTENTIAL CHANGES TO THE RH-2 Zone DISTRICT, INCLUDING:",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council directed staff to prepare code changes for the RH-2 district to amend parking requirements to a per bedroom basis, eliminate the maximum floor area requirement for single family dwellings, increase the by-right density to 14 dwelling units per acre, and implement Phase Option 2, 7:1; Cowles opposed, Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "PARKING REQUIREMENTS AND DENSITY AND FLOOR AREA CALCULATIONS.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:46 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_closed_time": "9:17 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Boselli",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gifford Miller",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Ellis",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Sanders",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pat Downey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Michael McMenamy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Burke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marta Lindrose",
+      "name_citations": [
+       "/page/5/ListGroup/7"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council directed staff to prepare code changes for the RH-2 district to amend parking requirements to a per bedroom basis, eliminate the maximum floor area requirement for single family dwellings, increase the by-right density to 14 dwelling units per acre, and implement Phase Option 2, 7:1; Cowles opposed, Karakehian absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received the clean energy study update and provided feedback to staff.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "title": "CLEAN ENERGY STUDY UPDATE.",
+    "title_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received the clean energy study update and provided feedback to staff, with Mayor Osborne requesting frequent updates at Council meetings.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY:",
+    "title_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/9/Text/3"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "title_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the item.",
+    "outcome_summary_citations": [
+     "/page/9/Text/7"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "title": "POTENTIAL CALL-UPS:",
+    "title_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the item.",
+    "outcome_summary_citations": [
+     "/page/9/Text/7"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "title": "VACATION OF A TWO SQUARE FOOT PORTION OF A SIX FOOT UTILITY AND GAS EASEMENT AT 4105 RIVERSIDE DRIVE. INFORMATION PACKET DATE: AUGUST 10, 2010. LAST OPPORTUNITY FOR CALL-UP IS AUGUST 17, 2010. STAFF LEVEL APPROVAL.",
+    "title_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the item.",
+    "outcome_summary_citations": [
+     "/page/9/Text/7"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/9/Text/8"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/9/Text/8"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/9/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/9/Text/8"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/9/Text/9"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/9/Text/9"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/9/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/9/Text/9"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/9/SectionHeader/10"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/9/SectionHeader/10"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/9/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:53 P.M.",
+    "outcome_summary_citations": [
+     "/page/9/Text/11"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Don Mock",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "congratulated NCAR/UCAR on its anniversary",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Sam Alschule",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "thanked the council for supporting the energy occupation ballot measure",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "the City’s CPCN testimony for the Smart Grid City project",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "the council compensation increase in the term of health benefits",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Elizabeth Allen",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "Steve Pomerance’s comments",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3A through 3H",
+    "agenda_item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "motion_text": "Council Member Morzel moved, seconded by Wilson to approve Consent items 3A through 3H with a change in language on item 3C. The motion carried unanimously, 8:0; Karakehian absent.",
+    "motion_text_citations": [
+     "/page/2/Text/4"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7751"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/2/Text/4"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/2/Text/4"
+    ],
+    "vote_text": "The motion carried unanimously, 8:0; Karakehian absent.",
+    "vote_text_citations": [
+     "/page/2/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Text/2"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Karakehian"
+    ]
+   },
+   {
+    "agenda_item_number": "5A and 5B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/2"
+    ],
+    "motion_text": "Council Member Becker moved, seconded by Wilson to approve the motions as presented in items 5A, page 7 and 5B, page 1 with Ordinance No. 7743 amended in Option C, removing the 10-year period for paying interest.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7740",
+     "7741",
+     "7742",
+     "7739",
+     "7743",
+     "7744"
+    ],
+    "moved_by": "Becker",
+    "moved_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "vote_text": "The motion carried 6:2, Morzel and Appelbaum opposed; Karakehian absent.",
+    "vote_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Text/2"
+    ],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 2,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Morzel",
+     "Appelbaum"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Karakehian"
+    ]
+   },
+   {
+    "agenda_item_number": "5A and 5B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/2"
+    ],
+    "motion_text": "Council Member Cowles offered a friendly amendment adding the findings on the blue sheet handout. The friendly amendment was accepted.",
+    "motion_text_citations": [
+     "/page/5/Text/3"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/5/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/5/Text/3"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Text/2"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5A and 5B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/2"
+    ],
+    "motion_text": "Council Member Becker withdrew her amendment removing the 10 year period for paying interest.",
+    "motion_text_citations": [
+     "/page/5/Text/4"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/5/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7743"
+    ],
+    "moved_by": "Becker",
+    "moved_by_citations": [
+     "/page/5/Text/4"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "withdrawn",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton moved, seconded by Morzel to direct staff to prepare code changes for the RH-2 district to:\n• Amend the parking requirements to a per bedroom basis;\n• Eliminate the maximum floor area requirement (800 square feet) for single family dwellings;\n• Increase the by-right density to 14 dwelling units per acre; and\n• Implement Phase Option 2.",
+    "motion_text_citations": [],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 7:1; Cowles opposed, Karakehian absent.",
+    "vote_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Text/2"
+    ],
+    "yes_count": 7,
+    "yes_count_citations": [],
+    "no_count": 1,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Cowles"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Karakehian"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/9/SectionHeader/10"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:53 P.M.",
+    "motion_text_citations": [
+     "/page/9/Text/11"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Text/2"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ]
+ }
+}

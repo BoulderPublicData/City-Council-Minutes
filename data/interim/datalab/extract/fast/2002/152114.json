@@ -1,0 +1,953 @@
+{
+ "entry_id": 152114,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "znrwcUwlsGC02OwpRoUqaA",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 1.5
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "motion_text": "Councilmember Riggle moved, seconded by Morzel, to invite 6 candidates to interview with a 1st alternate identified.",
+    "motion_text_citations": [
+     "/page/0/Text/11"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "action_type": "call_up",
+    "action_type_citations": [
+     "/page/0/Text/11"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "moved_by": "Councilmember Riggle",
+    "moved_by_citations": [
+     "/page/0/Text/11"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/0/Text/11"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "vote_text": "The motion carried: 5:3, Corson, Eldridge and Havlick opposed, Mock absent.",
+    "vote_text_citations": [
+     "/page/0/Text/11"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/11"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/0/Text/11"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/0/Text/11"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/0/Text/11"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "no_votes": [
+     "Corson",
+     "Eldridge",
+     "Havlick"
+    ],
+    "no_votes_citations": [
+     "/page/0/Text/11"
+    ],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "absent_or_not_voting": [
+     "Mock"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/0/Text/11"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    }
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "motion_text": "Councilmember Havlick moved, seconded by Morzel, to continue the October 22nd special meeting until 4:45 p.m. on October 29th.",
+    "motion_text_citations": [
+     "/page/0/Text/13"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [
+     "/page/0/Text/13"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "moved_by": "Councilmember Havlick",
+    "moved_by_citations": [
+     "/page/0/Text/13"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/0/Text/13"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "vote_text": "The motion carried: 8:0, Mock absent.",
+    "vote_text_citations": [
+     "/page/0/Text/13"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/13"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Text/13"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/13"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/0/Text/13"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "absent_or_not_voting": [
+     "Mock"
+    ],
+    "absent_or_not_voting_citations": [
+     "/page/0/Text/13"
+    ],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    }
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "motion_text": "BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:00 P.M.",
+    "motion_text_citations": [
+     "/page/1/Text/7"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/Text/7"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "moved_by": null,
+    "moved_by_citations": [],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "vote_text": null,
+    "vote_text_citations": [],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/7"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "yes_count": null,
+    "yes_count_citations": [],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "no_count": null,
+    "no_count_citations": [],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "stated_unanimous": null,
+    "stated_unanimous_citations": [],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations correctly map to source blocks. However, 'action_type' for the first motion is wrong (should be 'other', not 'call_up'). The adjournment motion incorrectly lists 'passed' as result and nulls for vote details, though the text implies adoption. 'stated_unanimous' is false for the 8:0 vote, a"
+    }
+   }
+  ],
+  "open_comment_speakers": [],
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/5"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "9:00 P.M.",
+  "adjourned_time_citations": [
+   "/page/1/Text/7"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "open_comment_speakers_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the meeting to order at 6:15 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    }
+   },
+   {
+    "item_number": "2.A.1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7",
+     "/page/0/SectionHeader/8",
+     "/page/0/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "title": "NOMINATIONS OF CANDIDATES TO INVITE TO INTERVIEW FOR THE CITY MANAGER POSITION.",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council invited candidates A, H, D, I, and E to interview, with a deadlock between C and J.",
+    "outcome_summary_citations": [
+     "/page/0/Text/11",
+     "/page/0/Text/12"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    }
+   },
+   {
+    "item_number": "2.A.2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7",
+     "/page/0/SectionHeader/8",
+     "/page/0/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "title": "NOMINATIONS OF CANDIDATES TO INVITE TO INTERVIEW FOR THE CITY MANAGER POSITION.",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the special meeting until 4:45 p.m. on October 29th.",
+    "outcome_summary_citations": [
+     "/page/0/Text/13"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    }
+   },
+   {
+    "item_number": "2.B",
+    "item_number_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "title": "DISCUSSION OF MATTERS RELATED TO THE CITY MANAGER SELECTION PROCESS. - 8:00 P.M.",
+    "title_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council recommended interview process changes, approved the draft contract, and discussed compensation plans.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1",
+     "/page/1/Text/2",
+     "/page/1/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    }
+   },
+   {
+    "item_number": "2.C",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "title": "3RD QUARTER COUNCIL GOAL REPORTS - 9:00P.M.",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Goal reports were presented with no questions or comments from Council.",
+    "outcome_summary_citations": [
+     "/page/1/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete. The extraction misses the 'Joint Dinner' header (SectionHeader/1), the 'SPECIAL MEETING' header (SectionHeader/3), and the 'ADJOURNMENT' item (SectionHeader/6), which are present in the '"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Corson",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the 'name' field is incomplete; the schema requires full names (e.g., 'Toor' vs 'Mayor Toor'), and the extraction only captured last names. Citations correctly point to the source block but lack specificity for individual names."
+    }
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Mock",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted value correctly identifies Councilmember Mock as absent based on the text in block /page/0/Text/6. The citation is accurate and the information is precise. No other absent members are mentioned in the provided chunk."
+    },
+    "note": "absent",
+    "note_citations": [
+     "/page/0/Text/6"
+    ],
+    "note_score": {
+     "score": 5,
+     "reasoning": "The extracted value correctly identifies Councilmember Mock as absent based on the text in block /page/0/Text/6. The citation is accurate and the information is precise. No other absent members are mentioned in the provided chunk."
+    }
+   }
+  ],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2002-10-22",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2002-10-22' is accurate and matches the heading in block /page/0/SectionHeader/0. The citation is correct and sufficient. No contradictions or missing relevant blocks found."
+  },
+  "meeting_title": "5:00 p.m. - Joint Dinner with the Boulder Housing Authority",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/3"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:15 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/5"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/5"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  }
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "entry_id": 11802,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "nOi5R-lueN1z3UkpC2HIbg",
+ "page_count": 11,
+ "cost_breakdown": {
+  "final_cost_cents": 12.375
+ },
+ "extraction": {
+  "meeting_date": "2008-05-19",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “May 19, 2008” in /page/0/SectionHeader/0, matching the extracted normalized date. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "City Council Study Session",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "study_session",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies this as a study session in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "location": "East Boulder Senior Center\n5660 Sioux Drive",
+  "location_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading lists the meeting location in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:30 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/4"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the study session convened at 6:30 p.m. in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:40 P.M.",
+  "adjourned_time_citations": [
+   "/page/10/Text/0"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/10/Text/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at 9:40 P.M. in /page/10/Text/0. Conclusion: the value at /page/10/Text/0 agrees with the extraction."
+   }
+  },
+  "presiding_officer": null,
+  "presiding_officer_citations": [],
+  "presiding_officer_meta": {
+   "extraction_status": "NOT_RESOLVABLE",
+   "reasoning": null,
+   "citations": [],
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes do not state who called the meeting to order or presided. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The document contains no items identified as call-ups or call-up check-ins. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Table/3"
+    ],
+    "section": "Agenda:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Comments from Council members",
+    "title_citations": [
+     "/page/0/Table/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/Table/3"
+    ],
+    "section": "Agenda:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Comments from City Attorney and City Manager",
+    "title_citations": [
+     "/page/0/Table/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Agenda:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Discussion & proposals to adjust goals and/or processes",
+    "title_citations": [
+     "/page/0/Table/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council generally concurred that the City Attorney should research procedural and voting options for study sessions.",
+    "outcome_summary_citations": [
+     "/page/6/Text/0"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/0/Table/3"
+    ],
+    "section": "Agenda:",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Next steps (if needed)",
+    "title_citations": [
+     "/page/0/Table/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "McGrath",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Espinoza",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  },
+  "motions": [],
+  "motions_meta": {
+   "failed": true
+  }
+ }
+}

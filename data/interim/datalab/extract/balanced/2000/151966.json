@@ -1,0 +1,1179 @@
+{
+ "entry_id": 151966,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "tNsi8wZvgE3rLUHfK_XQQw",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 24.0
+ },
+ "extraction": {
+  "meeting_date": "2000-06-20",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in block /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY OF BOULDER\nCITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading is printed in block /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 describes this as the regular June 20, 2000 meeting. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was held in the Council Chambers. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 states that the meeting was called to order at 6:00 p.m. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:34 p.m.",
+  "adjourned_time_citations": [
+   "/page/6/Text/2"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/6/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/6/Text/2 states that the meeting was adjourned at 9:34 p.m. Conclusion: the value at /page/6/Text/2 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 identifies Mayor Toor as the person who called the meeting to order. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "1. LANDMARK ALTERATION CERTIFICATE FOR 1019 SPRUCE STREET. WIP DATE: 6/15/00, LAST OPPORTUNITY FOR CALL-UP - 6/20/00. DENIED BY THE LANDMARKS BOARD 4 - 1, SALANCE DISSENTING."
+  ],
+  "call_up_items_citations": [
+   "/page/4/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up item is stated in block /page/4/ListGroup/5. Conclusion: the value at /page/4/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one potential call-up item in block /page/4/ListGroup/5, and the extraction contains that one item. Conclusion: the value at /page/4/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the regular June 20, 2000 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/5"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "SPECIAL RECOGNITION OF DOROTHY RUPERT.",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor proclaimed June 20, 2000 as Dorothy Rupert Day in Boulder in honor of her numerous contributions to the community.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Attorney and City Manager will follow-up with Staff regarding possible options.",
+    "outcome_summary_citations": [
+     "/page/1/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/4/Text/9"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/4/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7063",
+     "7061",
+     "7066"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0, Lopez absent.",
+    "outcome_summary_citations": [
+     "/page/4/Text/9"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "APPROVAL OF THE CITY COUNCIL MEETING MINUTES FROM JUNE 6, 2000.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the City Council meeting minutes from June 6, 2000 as part of the consent agenda, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "ACCEPTANCE OF THE STUDY SESSION SUMMARY ON HOUSING FROM MAY 23, 2000.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the study session summary on housing from May 23, 2000 as part of the consent agenda, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF AN EMERGENCY ORDINANCE APPROVING CERTAIN CHANGES TO THE OLD HIRE FIRE DEFINED BENEFIT PLAN (PLAN), CONTINGENT UPON FPPA APPROVAL, AND REQUESTING THE FIRE AND POLICE PENSION ASSOCIATION (FPPA) TO APPROVE SAID PLAN CHANGES.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the emergency ordinance as part of the consent agenda, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7063 AMENDING THE 2000 BUDGET TO APPROPRIATE $25,369,655 IN ESTIMATED REVENUES, WHICH IS THE PRINCIPAL AMOUNT OF THE CITY OF BOULDER (ACTING THROUGH ITS WATER UTILITY ENTERPRISE AND ITS WASTEWATER UTILITY ENTERPRISE) WATER AND SEWER REVENUE BONDS, SERIES 2000, AND A PREMIUM OF $4,655 AND $2,219,168 FROM THE WATER UTILITY FUND BALANCE FOR THE 2000 DEBT SERVICE ON THE SERIES 2000 BONDS.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7063"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Ordinance No. 7063 as part of the consent agenda, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A RESOLUTION AUTHORIZING A CITY EMPLOYEE REFERENDUM ON THE QUESTION OF WHETHER ELIGIBLE POSITIONS COVERED BY PERA AND ICMA-RC SHOULD BE INCLUDED UNDER A “MEDICARE-ONLY” COVERAGE PLAN.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the resolution as part of the consent agenda, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION OF ORDINANCE NO. 7061, AMENDING TITLE 4, “LICENSES AND PERMITS,” B.R.C. 1981, REPEALING THE FOOD SERVICE ESTABLISHMENT AND VENDING MACHINE LICENSE FEE.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7061"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Ordinance No. 7061 as part of the consent agenda, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION APPROVING: (1) SUCCESSOR INTERGOVERNMENTAL AGREEMENT TO BOULDER VALLEY TDR (TRANSFERABLE DEVELOPMENT RIGHT) COMPREHENSIVE DEVELOPMENT PLAN INTERGOVERNMENTAL AGREEMENT BETWEEN THE CITY OF BOULDER AND BOULDER COUNTY. (2) JOINT PURCHASE BY THE CITY OF BOULDER AND THE COUNTY OF BOULDER OF CONSERVATION EASEMENTS ESTABLISHING FUTURE PERMITTED DEVELOPMENT AND USES ON PORTIONS OF THE PROPERTY REFERRED TO AS “CARIBOU RANCH,” BOULDER COUNTY, COLORADO, WITH CONDITIONS SETTLING DISPUTES BETWEEN THE CITY, THE COUNTY AND THE OWNERS OF THE PROPERTY; (3) THE CITY FUNDING THE ENTIRE PURCHASE, WITH THE COUNTY REIMBURSING ITS SHARE TO THE CITY OVER FIVE YEARS; (4) AN EASEMENT TO JAMES GUERCIO OF 1.25 ACRES OF LAND ADJACENT TO CARIBOU RANCH; (5) THE MODIFICATION OF PREVIOUS AGREEMENTS WITH JAMES GUERCIO WHEREIN PORTIONS OF LAND THAT WERE TO BE DEEDED TO THE COUNTY IN FEE WILL NOW BE PROTECTED BY CONSERVATION EASEMENTS, AND PORTIONS OF LAND THAT WERE PREVIOUSLY PURCHASED AS “BUFFER LAND” WILL NOW BE PART OF THE DEVELOPMENT, BUT PROTECTED BY CONSERVATION EASEMENTS; (6) RECISSION OF UP TO 250 TDRS CONTEMPLATED BY PRIOR AGREEMENTS BETWEEN THE CITY AND THE COUNTY, PLUS (1) CONVEYANCE OF A PERPETUAL CONSERVATION EASEMENT TO THE COUNTY ON THE APPROXIMATELY 160-ACRE PARCEL AT THE SOUTHEAST CORNER OF THE INTERSECTION OF 95 TH STREET AND LOOKOUT ROAD, (2) APPROVAL OF A PROCESS FOR LOCATING TDRS IN AREA III OF THE BOULDER VALLEY WITH CITY COUNCIL APPROVAL, (3) FORBEARANCE OF OPEN SPACE ACQUISITION OF 120 ACRES LOCATED IMMEDIATELY NORTH AND EAST OF LAKE VALLEY SUBDIVISION (OUTSIDE OF THE BOULDER VALLEY COMPREHENSIVE PLAN AREA) AND AGREEMENT THAT THE COUNTY MAY LOCATE UP TO SIXTY TDRS IN THIS 120 ACRE AREA, AND (4) CITY “ASSURANCES” OF ITS CONTINUING INTENTION TO NEGOTIATE FOR AND ACQUIRE LANDS WITHIN AREA III OF THE BOULDER VALLEY AND THE “NORTHERN TIER” DESIGNATED FOR COOPERATIVE CITY/COUNTY OPEN SPACE ACQUISITION. (7) THE TRANSFERENCE OF THREE PROPERTIES AND WATER FROM THE PUBLIC WORKS DEPARTMENT TO THE OPEN SPACE DEPARTMENT WITH COMPENSATION BY OPEN SPACE TO PUBLIC WORKS AND THE GRANTING BY THE CITY TO THE COUNTY OF A CONSERVATION EASEMENT ON ONE OF THE PROPERTIES.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7066"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda, amended to include Emergency Ordinance No. 7066 for Item 3-G (1), 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council voted 8-0, Lopez absent, to respond to Denver that Boulder cannot pursue obtaining Currigan Hall at this time but supports preservation, urges consideration of other proposals, and may remain interested if no other parties are identified.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "DISCUSSION REGARDING THE STATUS OF CURRIGAN HALL.",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council voted 8-0, Lopez absent, to respond to Denver that Boulder cannot pursue obtaining Currigan Hall at this time but supports preservation, urges consideration of other proposals, and may remain interested if no other parties are identified.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The City Attorney reported the need to consider repealing the Burma selective purchasing order following the Supreme Court ruling and that his office would report back in July.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/4/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "POTENTIAL CALL-UP",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/4/Text/6"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "section": "POTENTIAL CALL-UP",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE FOR 1019 SPRUCE STREET. WIP DATE: 6/15/00, LAST OPPORTUNITY FOR CALL-UP - 6/20/00. DENIED BY THE LANDMARKS BOARD 4 - 1, SALANCE DISSENTING.",
+    "title_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/4/Text/6"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "title": "PUBLIC COMMENT: - None",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/4/SectionHeader/7"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "title": "FINAL DECISIONS",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7066"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the amended consent agenda and the motion concerning Currigan Hall, each 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/ListGroup/13"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7054 TO APPROVE AN INTERGOVERNMENTAL AGREEMENT WITH BOULDER COUNTY, CITY OF LOUISVILLE, TOWN OF SUPERIOR AND THE CITY OF BOULDER ENTITLED, \"US 36 CORRIDOR COMPREHENSIVE DEVELOPMENT PLAN\".",
+    "title_citations": [
+     "/page/4/ListGroup/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7054"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7054, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE COMMUNITY AND ENVIRONMENTAL ASSESSMENT PROCESS (CEAP) FOR THE 28 TH STREET IMPROVEMENTS FROM BASELINE ROAD TO ARAPAHOE AVENUE (SOUTH SEGMENT).",
+    "title_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Dave Allured",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Adam Krom",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/SectionHeader/2"
+      ]
+     },
+     {
+      "name": "Ricky Weiser",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Premena",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Krista Holland",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the 28 th Street CEAP (South Segment) “Hello Boulder” with consideration to suggestions raised by Council, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE VACATING SIX ACCESS EASEMENTS LOCATED WITHIN THE DEVIL’S THUMB SUBDIVISION.",
+    "title_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7065"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council introduced and ordered published by title only Ordinance No. 7065 vacating six access easements within the Devil's Thumb Subdivision, 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/Text/2"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Morzel, to approve Consent Agenda items 3-A through 3-G as amended to include Emergency Ordinance No. 7066 for Item 3-G (1).",
+    "motion_text_citations": [
+     "/page/3/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7066"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/3/Text/2"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/3/Text/2"
+    ],
+    "vote_text": "The motion carried: 8-0, Lopez absent.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Corson moved, seconded by Morzel, to respond to Denver letting them know that due to risks being higher than anticipated, City of Boulder cannot pursue obtaining Currigan Hall at this time but supports preservation of the building and urges their consideration of other proposals. Further, that if no other parties are identified, the City of Boulder may still be interested in the future.",
+    "motion_text_citations": [],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried: 8-0, Lopez absent.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "motion_text": "Councilmember Morzel moved, seconded by Corson, to adopt Ordinance No. 7054 to approve an Intergovernmental Agreement with Boulder County, City of Louisville, Town of Superior and the City of Boulder entitled, “US 36 Corridor Comprehensive Development Plan”.",
+    "motion_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7054"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/1"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/5/Text/1"
+    ],
+    "vote_text": "The motion carried:8-0, Lopez absent.",
+    "vote_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Mock moved, seconded by Corson, to approve the 28 th Street CEAP (South Segment) “Hello Boulder” with consideration to be given to suggestions raised by Council.",
+    "motion_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "vote_text": "The motion carried: 8-0, Lopez absent.",
+    "vote_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Morzel moved, seconded by Mock, to introduce and order published by title only Ordinance No. 7065 vacating six access easements located within the Devil's Thumb Subdivision.",
+    "motion_text_citations": [
+     "/page/6/Text/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7065"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/6/Text/0"
+    ],
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/6/Text/0"
+    ],
+    "vote_text": "The motion carried: 8-0, Lopez absent.",
+    "vote_text_citations": [
+     "/page/6/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/6/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:34 p.m.",
+    "motion_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/6/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Lopez",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Greg Hausen",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "encroachment of stone retaining walls in City rights-of-way. Requested that wall be allowed to remain.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Jeff Hindman",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Builder of Home addressed by speaker #1. Requesting exception be approved.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Supreme Court ruling that may affect the City's selective purchasing order with Burma.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Mandy Kretsch",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Disabled person requesting enhanced handicap provisions for 28 th Street.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Andrea Ryan",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Homeless Shelter relocation, opposed to 777 Broadway site.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Eleanor DePuy",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "opposed to 777 Broadway as relocation site for Homeless Shelter.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Eddy Eckley",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "in support of gun control.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Phyllis Olson",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "in support of the request by Greg Hausen (Speaker #1).",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "commented on the bicyclist who was run off road by RTD. He indicated that curbs are death traps for bicyclists.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Steven Peterson",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Representing owner of 1019 Spruce Street. Supported call-up of the Landmark Advisory Board denial for a landmark alteration certificate.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Ricky Weiser",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "City/County partnerships for the good using Consent Agenda Item 3G as an example with regard to the TDR agreement between City and County.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Premena",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "curb cuts and other ongoing bicycle and pedestrian safety issues.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "supports 777 Broadway location for Homeless Shelter.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ]
+ }
+}

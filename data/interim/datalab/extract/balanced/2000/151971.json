@@ -1,0 +1,2132 @@
+{
+ "entry_id": 151971,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "gMxws2LHMWjzwIJD8Rkr0Q",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 30.0
+ },
+ "extraction": {
+  "meeting_date": "2000-11-14",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states the meeting date in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the proceedings in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as a regular meeting in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was held in the Council Chambers in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time appears in the heading and accompanying text at /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:34 p.m.",
+  "adjourned_time_citations": [
+   "/page/9/Text/4"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/9/Text/4 and confirmed in /page/9/Text/5. Conclusion: the value at /page/9/Text/4 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Mayor Toor as calling the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The document contains no items identified as call-ups or call-up check-ins. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the regular November 14th, 2000 meeting of the Boulder City Council to order at 6:00p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard citizen participation and provided responses.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/9"
+    ],
+    "title": "CONSENT AGENDA:",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7094",
+     "7097",
+     "7095"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "APPROVAL OF THE CITY COUNCIL MEETING MINUTES OF OCTOBER 17, 2000.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7094 VACATING A 6-FOOT UTILITY AND SIDEWALK EASEMENT AND A 12.5-FOOT PORTION OF A PLATTED 70-FOOT DRAINAGE, FLOOD CONTROL, OPEN SPACE AND TRAIL EASEMENT LOCATED EAST OF 28 TH STREET BETWEEN KALMIA AND PALO PARKWAY.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7094"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7097 TO DISPOSE OF PARK LAND AND DESIGNATE THAT LAND AS OPEN SPACE LAND; PLACING THESE LANDS UNDER THE CONTROL OF THE DEPARTMENT OF OPEN SPACE AND MOUNTAIN PARKS; AND CHANGING THE NAME OF THE DEPARTMENT OF OPEN SPACE TO THE DEPARTMENT OF OPEN SPACE AND MOUNTAIN PARKS, WITHOUT A CHARTER CHANGE.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7097"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7095 REZONING FROM IG-D TO TB-E FOR THE PROPERTIES LOCATED ALONG THE EAST SIDE OF 48 TH STREET, ON THE NORTH SIDE OF ARAPAHOE ROAD, GENERALLY KNOWN AS THE RIVERBEND OFFICE PARK.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7095"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER: - None",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/3"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - None",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/3"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received updates on the School Issues Task Force and the South Boulder Creek Flood Plain Study.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/Text/5"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "UPDATE FROM THE SCHOOL ISSUES TASK FORCE.",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmembers Mock and Poinsatte provided Council with a brief update regarding the School Issues Task Force.",
+    "outcome_summary_citations": [
+     "/page/2/Text/5"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "SOUTH BOULDER CREEK FLOOD PLAIN STUDY UPDATE AS IT PERTAINS TO THE TECHNICAL CONTENT OF THE DRAFT PHASE A REPORT",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Morzel and Lopez, with assistance from Alan Taylor of the Public Works Department, presented Council with an update of the technical content of the draft Phase A report.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "title": "PUBLIC COMMENT: - None",
+    "title_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/8"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "title": "FINAL DECISIONS:",
+    "title_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "9-A",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The abstract and result sheets of the November 7, 2000 General Municipal Election were approved 8-0, Havlick absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "MOTION TO ADJOURN AS THE BOULDER CITY COUNCIL AND CONVENE AS THE GENERAL CANVASSING AND ELECTION BOARD FOR THE CITY OF BOULDER SPECIAL COORDINATED MUNICIPAL ELECTION.",
+    "title_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Seeing no objection, the Boulder City Council adjourned and the General Canvassing and Election Board convened.",
+    "outcome_summary_citations": [
+     "/page/3/Text/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "ROLL CALL OF THE GENERAL CANVASSING AND ELECTION BOARD.",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Those present were: Toor, Poinsatte, Corson, Mock, Morzel, Eldridge, Lopez and Riggle.",
+    "outcome_summary_citations": [
+     "/page/3/Text/6"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "ADMINISTRATION OF OATH AND SIGNING OF SAME BY BOARD MEMBERS.",
+    "title_citations": [
+     "/page/3/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Oath was administered by Alisa Lewis, secretary to the General Canvassing and Election Board.",
+    "outcome_summary_citations": [
+     "/page/3/Text/8"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION NOMINATING A MEMBER TO CHAIR THE BOARD.",
+    "title_citations": [
+     "/page/3/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Seeing no objection, Will Toor was appointed the Chair of the General Canvassing and Election Board.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "SUBMISSION TO THE BOARD BY THE SECRETARY OF THE FOLLOWING:",
+    "title_citations": [
+     "/page/3/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Board secretary Alisa Lewis submitted the above documents to the Board.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CERTIFICATES OF THE OFFICIAL BALLOTS.",
+    "title_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Board secretary Alisa Lewis submitted the above documents to the Board.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ]
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CERTIFICATES OF THE OFFICIAL PUBLIC NOTICES OF THE NOVEMBER 7, 2000 ELECTION.",
+    "title_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Board secretary Alisa Lewis submitted the above documents to the Board.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ]
+   },
+   {
+    "item_number": "III",
+    "item_number_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CERTIFICATES OF ELECTION RETURNS.",
+    "title_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Board secretary Alisa Lewis submitted the above documents to the Board.",
+    "outcome_summary_citations": [
+     "/page/3/Text/13"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "PUBLIC HEARING AND CONSIDERATION OF A MOTION THAT THE ABSTRACT AND RESULT SHEETS BE APPROVED, AND SIGNING OF SAME IF APPROVED.",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": [
+     "/page/4/Text/7"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SPECIAL COORDINATED MUNICIPAL ELECTION HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "MOTION TO ADJOURN FROM THE GENERAL CANVASSING AND ELECTION BOARD FOR THE SPECIAL MUNICIPAL ELECTION AND RECONVENE AS THE BOULDER CITY COUNCIL.",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Seeing no objection the General Canvassing and Election Board for the General Municipal Election adjourned and the Boulder City Council reconvened.",
+    "outcome_summary_citations": [
+     "/page/4/Text/9"
+    ]
+   },
+   {
+    "item_number": "9-B",
+    "item_number_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "title_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "MOTION TO ADJOURN AS THE BOULDER CITY COUNCIL AND CONVENE AS THE GENERAL CANVASSING AND ELECTION BOARD FOR THE CITY OF BOULDER PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS FOR THE FOLLOWING DISTRICTS: BEAR CREEK, DAKOTA RIDGE, FOREST GLEN, JUNIPER/KALMIA, MARTIN ACRES, NEWLANDS, AND ORCHARD.",
+    "title_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "ROLL CALL OF THE GENERAL CANVASSING AND ELECTION BOARD.",
+    "title_citations": [
+     "/page/4/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "ADMINISTRATION OF OATH AND SIGNING OF SAME BY BOARD.",
+    "title_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "CONSIDERATION OF A MOTION NOMINATING A MEMBER TO CHAIR THE BOARD.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "SUBMISSION TO THE BOARD BY THE SECRETARY OF THE FOLLOWING:",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "CERTIFICATES OF THE OFFICIAL BALLOTS.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "CERTIFICATES OF THE OFFICIAL PUBLIC NOTICE OF THE NOVEMBER 7, 2000 ELECTION",
+    "title_citations": [
+     "/page/5/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "III",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "CERTIFICATES OF ELECTION RETURNS.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "PUBLIC HEARING AND CONSIDERATION OF A MOTION THAT THE ABSTRACT AND RESULT SHEETS BE APPROVED, AND SIGNING OF SAME IF APPROVED",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": [
+     "/page/4/Text/12"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/5/SectionHeader/10"
+    ],
+    "section": "ITEMS RELATING TO THE CERTIFICATION OF THE SEVEN PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICT MAIL BALLOT ELECTIONS HELD ON NOVEMBER 7, 2000:",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "MOTION TO ADJOURN FROM THE GENERAL CANVASSING AND ELECTION BOARD FOR THE PROPOSED ECO PASS GENERAL IMPROVEMENT DISTRICTS AND RECONVENE AS THE BOULDER CITY COUNCIL.",
+    "title_citations": [
+     "/page/5/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled to 11/21/00.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "PUBLIC HEARING AND CONSIDERATION OF ADOPTION OF REVISED BOULDER VALLEY COMPREHENSIVE PLAN (BVCP) POLICIES FOR THE FIVE-YEAR UPDATE.",
+    "title_citations": [
+     "/page/5/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Judith Renfroe",
+      "name_citations": [
+       "/page/5/ListGroup/14"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/5/ListGroup/14"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved Sections 1.01 to 3.20 as amended, 7-1, Lopez opposed and Havlick absent, and tabled Sections 4.01 to 8.1 to 11/21/00, 8-0, Havlick absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "ITEMS PERTAINING TO THE ANNEXATION AND INITIAL ZONING OF 37,898 SQUARE FEET LOCATED AT 2810 JAY ROAD.",
+    "title_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7098"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the resolution and introduced and ordered published by title only Ordinance No.7098.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "section": "ITEMS PERTAINING TO THE ANNEXATION AND INITIAL ZONING OF 37,898 SQUARE FEET LOCATED AT 2810 JAY ROAD.",
+    "section_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION FINDING THE ANNEXATION PETITION IN COMPLIANCE WITH STATE STATUTES AND ESTABLISHING DECEMBER 19, 2000 AS THE DATE FOR A PUBLIC HEARING.",
+    "title_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7-0.",
+    "outcome_summary_citations": [
+     "/page/7/Text/10"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "section": "ITEMS PERTAINING TO THE ANNEXATION AND INITIAL ZONING OF 37,898 SQUARE FEET LOCATED AT 2810 JAY ROAD.",
+    "section_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "title": "INTRODUCTION, FIRST READING, AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, AN ORDINANCE TO ANNEX AND ZONE THE SUBJECT PROPERTY TO RURAL RESIDENTIAL ESTABLISHED (RR-E).",
+    "title_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7098"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "ITEMS PERTAINING TO ANNEXATION AND INITIAL ZONING OF APPROXIMATELY 1.06 ACRES LOCATED AT 4495 GARNET LANE",
+    "title_citations": [
+     "/page/8/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7099"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council introduced and ordered published by title only Ordinance No.7099; the motion carried 8-0, Havlick absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/8/ListGroup/2"
+    ],
+    "section": "ITEMS PERTAINING TO ANNEXATION AND INITIAL ZONING OF APPROXIMATELY 1.06 ACRES LOCATED AT 4495 GARNET LANE",
+    "section_citations": [
+     "/page/8/ListGroup/0"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION FINDING THE ANNEXATION PETITION IN COMPLIANCE WITH STATE STATUTES AND ESTABLISHING DECEMBER 19, 2000 AS THE DATE FOR A PUBLIC HEARING.",
+    "title_citations": [
+     "/page/8/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/8/ListGroup/2"
+    ],
+    "section": "ITEMS PERTAINING TO ANNEXATION AND INITIAL ZONING OF APPROXIMATELY 1.06 ACRES LOCATED AT 4495 GARNET LANE",
+    "section_citations": [
+     "/page/8/ListGroup/0"
+    ],
+    "title": "INTRODUCTION, FIRST READING, AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY, AN ORDINANCE TO ANNEX AND ZONE THE SUBJECT PROPERTY TO RURAL RESIDENTIAL- ESTABLISHED (RR-E), AND A MINOR AMENDMENT TO THE BOULDER VALLEY COMPREHENSIVE PLAN (BVCP) AREA I, AREA II, AREA III MAP, TO CHANGE DESIGNATION FROM AREA IIB TO IIA FOR THIS PROPERTY.",
+    "title_citations": [
+     "/page/8/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7099"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "13",
+    "item_number_citations": [
+     "/page/8/ListGroup/5"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCES FORMING THE FOREST GLEN ECO PASS GENERAL IMPROVEMENT DISTRICT.",
+    "title_citations": [
+     "/page/8/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7100"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "14",
+    "item_number_citations": [],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING AND AUTHORIZING THE ISSUANCE OF BOULDER MUNICIPAL PROPERTY AUTHORITY LEASE PURCHASE REVENUE NOTES, SERIES 2001A, IN THE AGGREGATE PRINCIPAL AMOUNT OF $545,000.00 AND APPROVING AND AUTHORIZING A LEASE PURCHASE AGREEMENT FOR THE PURCHASE OF 53.37 ACRES IN FEE TOGETHER WITH ALL MINERAL RIGHTS AND 13 SHARES OF LEFT HAND DITCH LOCATED AT NELSON ROAD AND N. 39 TH AVENUE FROM THE LAVERNE JOHNSON TRUST FOR OPEN SPACE PURPOSES.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7101"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "15",
+    "item_number_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY ORDINANCE ADOPTING SUPPLEMENT NO. 66 WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7062, 7079, 7080, AND 7081, AS AN AMENDMENT TO THE BOULDER REVISED CODE 1981, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7102",
+     "7062",
+     "7079",
+     "7080",
+     "7081"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8-0.",
+    "outcome_summary_citations": [
+     "/page/9/Text/3"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Corson , to approve Consent Agenda items 3-A through 3-D.",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7094",
+     "7097",
+     "7095"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "vote_text": "The motion carried: 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/2/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "9-A",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "motion_text": "Seeing no objection, the Boulder City Council adjourned and the General Canvassing and Election Board convened.",
+    "motion_text_citations": [
+     "/page/3/Text/4"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/3/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "9-A",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "motion_text": "Seeing no objection, Will Toor was appointed the Chair of the General Canvassing and Election Board.",
+    "motion_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "9-A",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "motion_text": "Board member Corson moved, seconded by Morzel, to approve the abstract and result sheets of the November 7, 2000 General Municipal Election for the City of Boulder.",
+    "motion_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/1/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "vote_text": "The motion carried: 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "9-A",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "motion_text": "Seeing no objection the General Canvassing and Election Board for the General Municipal Election adjourned and the Boulder City Council reconvened.",
+    "motion_text_citations": [
+     "/page/4/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Corson moved, seconded by Morzel to approve Sections 1.01 to 3.20 of revised Boulder Valley Comprehensive Plan (BVCP) policies for the five-year update as amended.",
+    "motion_text_citations": [
+     "/page/6/Text/0"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/1/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/6/Text/0"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/6/Text/0"
+    ],
+    "vote_text": "The motion carried 7-1. Lopez opposed. Havlick absent.",
+    "vote_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/6/Text/0"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Lopez"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Morzel moved, seconded by Mock to table to 11/21/00, Sections 4.01 to 8.1 of revised Boulder Valley Comprehensive Plan (BVCP) policies for the five-year update.",
+    "motion_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "vote_text": "The motion carried 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/7/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Lopez moved, seconded by Corson to consider a resolution finding the annexation petition in compliance with state statutes and establishing December 19, 2000 as the date for a public hearing..",
+    "motion_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Lopez",
+    "moved_by_citations": [
+     "/page/7/Text/10"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/7/Text/10"
+    ],
+    "vote_text": "The motion carried 7-0. Poinsatte and Havlick absent.",
+    "vote_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/7/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Poinsatte",
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Mock moved, seconded by Corson, to introduce and order published by title only Ordinance No.7098 to annex and zone the subject property to Rural Residential Established (RR-E).",
+    "motion_text_citations": [
+     "/page/7/Text/12"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7098"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/7/Text/12"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/7/Text/12"
+    ],
+    "vote_text": "The motion carried 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/7/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/7/Text/12"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/12"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/8/ListGroup/0"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Corson, to introduce and order published by title only Ordinance No.7099 to annex and zone the subject property to Rural Residential- Established (RR-E), and a minor amendment to the Boulder Valley Comprehensive Plan (BVCP) Area I, Area II, Area III map, to change designation from Area IIB to IIA for this property.",
+    "motion_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/8/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7099"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "vote_text": "The motion carried 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "13",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Corson moved, seconded by Morzel, to introduce and order published by title only Ordinance No. 7100 formingthe Forest Glen Eco Pass General Improvement District.",
+    "motion_text_citations": [
+     "/page/8/Text/6"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/8/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7100"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/8/Text/6"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/8/Text/6"
+    ],
+    "vote_text": "The motion carried 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/8/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/8/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "14",
+    "agenda_item_number_citations": [
+     "/page/9/PageFooter/10"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Lopez, to introduce and order published by title only Ordinance No. 7101 approving and authorizing the issuance of Boulder Municipal Property Authority Lease Purchase Revenue Notes, Series 2001A, in the aggregate principal amount of $545,000.00 and approving and authorizing a Lease Purchase Agreement for the purchase of 53.37 acres in fee together with all mineral rights and 13 shares of Left Hand Ditch located at Nelson Road and N. 39 th Avenue from the LaVerne Johnson Trust for Open Space purposes.",
+    "motion_text_citations": [
+     "/page/9/Text/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/9/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7101"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/9/Text/1"
+    ],
+    "seconded_by": "Lopez",
+    "seconded_by_citations": [
+     "/page/9/Text/1"
+    ],
+    "vote_text": "The motion carried 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/9/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/9/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/9/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "15",
+    "agenda_item_number_citations": [
+     "/page/9/SectionHeader/2"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Lopez, to introduce and order published by title only emergency Ordinance No. 7102 adopting Supplement No. 66 which codifies previously adopted Ordinance Nos. 7062, 7079, 7080, and 7081, as an amendment.",
+    "motion_text_citations": [
+     "/page/9/Text/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/9/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7102",
+     "7062",
+     "7079",
+     "7080",
+     "7081"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/9/Text/3"
+    ],
+    "seconded_by": "Lopez",
+    "seconded_by_citations": [
+     "/page/9/Text/3"
+    ],
+    "vote_text": "The motion carried: 8-0. Havlick absent.",
+    "vote_text_citations": [
+     "/page/9/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/9/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/9/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:34 p.m.",
+    "motion_text_citations": [
+     "/page/9/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/1/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/1/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Lopez",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Carolyn C. Bousquet",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "In favor of regulating cell phone use while driving. (Attachment)",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Edward P.Rieder",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Banked oval bicycle-drome \"velodrome.\" Purposes to build one at Valmont City Park. A non-profit org.- Boulder Community Velodrome.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jeremy Hackney",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Boulder Community Velodrome organization. Would like to work w/city to obtain the land at Valmont City Park.. Proposing a partnership w/ the city.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Premena",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Cross-walk at 29th and Pearl- appreciates it. Affordable housing and obtaining land-favors putting manufactured housing at these sites.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Donetta Hultquist",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Responding to Taggert's Phase A report.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Praise to Alisa Lewis on election process. In favor of crosswalk at 29 th and Pearl. Wants Council to focus on problems that need to be fixed- instead of wasting money.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Bill Tyree",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Flood plan comments. Doesn't address Eldorado Springs. Doesn't consider RR options as viable alternatives.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Rodney M.. Mitchell",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Eco-Pass GID. Opposed to petition process. Opposed to not being permitted to vote (lived outside city and parents owned property in a trust). Parents weren't allowed to vote either.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Traffic- congestion and general transportation issues. Feels alternative transportation has declined in City.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ricky Weiser",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Wants four-lanes on East Pearl. In favor of Consent Agenda Item 3-C. Opposed to 28 th Street project and tearing down trees to create bus lanes.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ed Zolnick",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "In favor of the Taggart report.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Linda Andes-Georges",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Would like Council to oppose the construction at Eldorado Mountain which is taking place in Jefferson County, for antenna towers.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Garland Campbell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Affordable housing issues. Opposed to city housing being removed from property tax rolls.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Robert W. Law",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Transportation issues- would like to have some “quick-fixes” for projects in progress, traffic circles and crosswalk signals.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Robert Sharp",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "In favor of re-vote in Florida. Affordable housing issues.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Susie Rankin",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Part of Global Response. Praise to Nature’s Own business donating 100% of proceeds from now until Thanksgiving.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Ruth Blackmore",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Comments on Taggart Reports (attachment). Opposed to alternatives- wants a more in-depth study done.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Opposed to development of Flatirons property. Wants an update on the CVA. In favor of Affordable housing. Opposed to 4 million dollars going into Pearl St. Mall. Wants Walnut and Canyon to be continued through at Crossroads.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ]
+ }
+}

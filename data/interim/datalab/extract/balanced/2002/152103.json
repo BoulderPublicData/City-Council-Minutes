@@ -1,0 +1,1730 @@
+{
+ "entry_id": 152103,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "d5i6pSYVpwbDgIi33bGtlg",
+ "page_count": 8,
+ "cost_breakdown": {
+  "final_cost_cents": 26.0
+ },
+ "extraction": {
+  "meeting_date": "2002-07-23",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date at /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the proceedings at /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:52 P.M.",
+  "adjourned_time_citations": [
+   "/page/7/Text/3"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/7/Text/3. Conclusion: the value at /page/7/Text/3 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Will Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Will Toor called the meeting to order at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "THE CITY MANAGER'S FINAL PROPOSAL FOR THE FAIRVIEW/LONGWOOD AVE. NEIGHBORHOOD PERMIT PARKING (NPP) ZONE. COUNCIL HAS 30 DAYS FROM RECEIPT OF THE FINAL PROPOSAL TO CALL THIS ITEM UP FOR CONSIDERATION. WIP DATE: JULY 11, 2002. DIFFERENT PROPOSAL (INCLUDES ALL OF NORTH SIDE OF GILLASPIE) APPROVED BY THE TRANSPORTATION ADVISORY BOARD (4-1) JERRY WYSS OPPOSED. LAST OPPORTUNITY FOR CALL-UP IS AUGUST 6, 2002.",
+   "LANDMARK ALTERATION CERTIFICATE FOR DEMOLITION OF THE EXISTING HOUSE AND PROPOSED LANDSCAPE PLANS FOR THE PROPERTY AT 1920 4TH STREET, IN THE WEST PEARL HISTORIC DISTRICT. WIP DATE: JULY 18, 2002. APPROVED BY THE LANDMARKS BOARD 3-0 (SALANCE AND STUTSMAN ABSENT). LAST OPPORTUNITY FOR CALL-UP IS JULY 23, 2002."
+  ],
+  "call_up_items_citations": [
+   "/page/3/ListGroup/2",
+   "/page/3/ListGroup/4"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first potential call-up item is stated at /page/3/ListGroup/2. Conclusion: the value at /page/3/ListGroup/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second potential call-up item is stated at /page/3/ListGroup/4. Conclusion: the value at /page/3/ListGroup/4 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two potential call-up items, at /page/3/ListGroup/2 and /page/3/ListGroup/4, matching the two extracted entries. Conclusion: the value at /page/3/ListGroup/2 and /page/3/ListGroup/4 agrees with the extraction."
+   }
+  },
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Havlick to approve consent items 3A through 3K.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/3/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Toor"
+    ],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Eldridge moved, seconded by Poinsatte to call-up the Fairview/Longwood NPP Zone on August 6, 2002.",
+    "motion_text_citations": [
+     "/page/3/Text/3"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/3/Text/3"
+    ],
+    "seconded_by": "Poinsatte",
+    "seconded_by_citations": [
+     "/page/3/Text/3"
+    ],
+    "vote_text": "The motion carried 6-0 with Mock, Mozel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Mozel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Corson moved, seconded by Toor to accept the recommendations included within the Middle Boulder Creek Water Source Management Work Plan with the goal to copmlete feasibility of non-motorized boating on Barker by June 1, 2003.",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by": "Toor",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text": "The motion carried 7-0 with Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/5/ListGroup/3"
+    ],
+    "motion_text": "Councilmember Ruzzin moved, seconded by Poinsatte to adopt Ordinance No. 7216 submitting to the qualified electors of the City of Boulder at a special municipal election to be held on Tuesday, the 5 th day of November, 2002, the question of authorizing the City Council to continue a 0.15 cents on each dollar sales and use tax approved by the voters in 1997 through December 31, 2014, for public safety purposes, concerning fire, police, court and prosecution services; giving approval for the collection, retention, and expenditure of the full tax proceeds and any earnings relating thereto notwithstanding any state revenue or expenditure limitation; setting forth an effective date; setting forth the ballot title; and providing further details in relation to the foregoing.",
+    "motion_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7216"
+    ],
+    "moved_by": "Ruzzin",
+    "moved_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "seconded_by": "Poinsatte",
+    "seconded_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "vote_text": "The motion carried 5-1, Riggle opposed. Havlick, Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Riggle"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick",
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "motion_text": "Councilmember Ruzzin moved, seconded by Havlick to adopt Ordinance No. 7217 submitting to the qualified electors of the City of Boulder (the “City”) at a special coordinated municipal election to be held on November 5, 2002, to increase the City’s Open Space sales and use tax by 0.15 cents per dollar starting January 1, 2003 through December 31, 2018, and to pledge the revenues derived from such tax for open space purposes; giving approval for the collection, retention, and expenditure of the full tax proceeds and any earnings relating thereto notwithstanding any state revenue or expenditure limitation; setting forth an effective date; setting forth the ballot title; and providing further details in relation to the foregoing.",
+    "motion_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7217"
+    ],
+    "moved_by": "Ruzzin",
+    "moved_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "vote_text": "The motion carried 7-0, Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Eldridge moved, seconded by Corson to adopt Ordinance No. 7220 designating the structure and a portion of its site located at 845 Walnut, also known as the Anderson-Martin House, as an individual landmark under the City of Boulder Historic Preservation Code. The hearing on this item will be held under the quasi-judicial hearing procedures of Chapter 1-3 B.R.C., 1981. Applicant: Mary Lee and Charles E. Withers.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7220"
+    ],
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "vote_text": "The motion carried 7-0, Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "13",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Eldridge moved, seconded by Corson to introduce and order published by title only Ordinance No. 7221 approving a supplemental appropriation to the 2002 Budget.",
+    "motion_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7221"
+    ],
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "vote_text": "The motion carried 7-0, Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "14",
+    "agenda_item_number_citations": [
+     "/page/6/Text/10"
+    ],
+    "motion_text": "Councilmember Havlick moved, seconded by Corson to introduce and order published by title only Emergency Ordinance No. 7222 adopting Supplement No. 73 which codifies previously adopted Ordinance Nos. 7125, 7193, 7197, 7210, 7211, 7212, 7213, 7214, and 7215 as an amendment to the Boulder Revised Code 1981, and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/6/Text/10"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7222",
+     "7125",
+     "7193",
+     "7197",
+     "7210",
+     "7211",
+     "7212",
+     "7213",
+     "7214",
+     "7215"
+    ],
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/6/Text/10"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/6/Text/10"
+    ],
+    "vote_text": "The motion carried 7-0, Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/6/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "15",
+    "agenda_item_number_citations": [
+     "/page/7/ListGroup/0"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Eldridge to introduce and order published by title only Emergency Ordinance No. 7223 approving and authorizing the issuance of Boulder Municipal Property Authority Lease Purchase Revenue Note, Series 2002A, in the aggregate principal amount of $725,000, and approving and authorizing a Lease Purchase Agreement for the purchase of 38.1 acres of land and all mineral rights located at 75 th and Arapahoe Road together with 1 1/4 shares of the Original Cottonwood Ditch and 1/4 share of the Enterprise Ditch from Edward H. Kolb, Frederick M. Kolb and John B. Kolb for Open Space and Mountain Parks purposes.",
+    "motion_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7223"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "vote_text": "The motion carried 7-0, Mock and Morzel absent.",
+    "vote_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/7/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Mock",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:52 P.M.",
+    "motion_text_citations": [
+     "/page/7/Text/3"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Will Toor called the regular July 23, 2002 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "At the request of Council, City Manager Secrist acknowledged that he is the person responsible for the decisions made related to water restrictions throughout the City.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE YOUTH OPPORTUNITIES PROGRAM ANNUAL GRANTS FUND 2002-2003 ALLOCATIONS.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE A $3,000,000 LINE OF CREDIT WITH FANNIE MAE FOR DESIGNATED AFFORDABLE HOUSING ACTIVITIES.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE AN EMPLOYMENT AGREEMENT WITH LINDA P. COOKE TO SERVE AS THE PRESIDING MUNICIPAL JUDGE.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE AN EMPLOYMENT AGREEMENT WITH CHRISTINE F. ANDERSEN TO SERVE AS THE ACTING CITY MANAGER.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION EXPRESSING THE COMMITMENT OF THE CITY OF BOULDER TO CIVIL RIGHTS AND LIBERTIES.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION SUPPORTING A COUNTY BALLOT ISSUE FOR SERVICE FOR PEOPLE WITH DEVELOPMENTAL DELAYS AND MENTAL RETARDATION.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE FIRST AMENDMENT TO THE CABLE TELEVISION FRANCHISE AGREEMENT BETWEEN THE CITY OF BOULDER AND WIDEOPENWEST, COLORADO, LLC.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7218 ADOPTING A NEW SECTION 2-3-19, “RESIDENT COMMISSIONER FOR THE HOUSING AUTHORITY,” B.R.C. 1981, SPECIFYING THAT THE PRESIDENT OF THE RESIDENT REPRESENTATIVE COUNCIL OF THE HOUSING AUTHORITY BE APPOINTED TO THE BOARD OF THE HOUSING AUTHORITY AS RESIDENT COMMISSIONER.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7218"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION GRANTING AN EASEMENT ACROSS STEINBACH OPEN SPACE AND MOUNTAIN PARKS PROPERTY FOR AN UNDERGROUND GAS UTILITY LINE TO SERVE A SINGLE-FAMILY RESIDENCE AT 8001 FAIRVIEW ROAD OWNED BY JACK PEASE.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7219 TO CONVERT 159 ACRE-FOOT UNITS OF COLORADO-BIG THOMPSON WATER OWNED BY THE CITY OF BOULDER FOR OPEN SPACE AND MOUNTAIN PARKS PURPOSES FROM TEMPORARY USE PERMITS TO THE SECTION 131 ANNUALLY RENEWABLE WATER CONTRACT.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7219"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "K",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE REALIGNMENT OF 5 TH STREET EXTENDED NORTH OF LEE HILL ROAD AND THE RELATED TRAIL AND PARKING LOT IMPROVEMENTS AND THE DISPOSITION OF APPROXIMATELY 2,000 SQUARE FEET OF OPEN SPACE LAND TO ACCOMMODATE A PORTION OF 5 TH STREET EXTENDED.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0, with Toor recused on Item 3-A and Mock and Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council concurred with the direction and next steps outlined.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "SECOND QUARTER STATUS REPORT REGARDING CITY COUNCIL TRANSPORTATION GOAL.",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Poinsatte and Havlick updated Council on the progress to date on the Transportation Goal.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "CONSIDERATION OF THE MATERIALS DEVELOPED IN PHASE 2 - POLICY REFINEMENT OF THE TRANSPORTATION MASTER PLAN UPDATE FOR REVIEW AND COMMENT.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council concurred with the direction and next steps outlined.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council concurred.",
+    "outcome_summary_citations": [
+     "/page/3/Text/7"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/Text/10"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6-0 with Mock, Mozel and Riggle absent.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "THE CITY MANAGER'S FINAL PROPOSAL FOR THE FAIRVIEW/LONGWOOD AVE. NEIGHBORHOOD PERMIT PARKING (NPP) ZONE. COUNCIL HAS 30 DAYS FROM RECEIPT OF THE FINAL PROPOSAL TO CALL THIS ITEM UP FOR CONSIDERATION. WIP DATE: JULY 11, 2002. DIFFERENT PROPOSAL (INCLUDES ALL OF NORTH SIDE OF GILLASPIE) APPROVED BY THE TRANSPORTATION ADVISORY BOARD (4-1) JERRY WYSS OPPOSED. LAST OPPORTUNITY FOR CALL-UP IS AUGUST 6, 2002.",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Eldridge moved, seconded by Poinsatte to call-up the Fairview/Longwood NPP Zone on August 6, 2002.",
+    "outcome_summary_citations": [
+     "/page/3/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE FOR DEMOLITION OF THE EXISTING HOUSE AND PROPOSED LANDSCAPE PLANS FOR THE PROPERTY AT 1920 4 TH STREET, IN THE WEST PEARL HISTORIC DISTRICT. WIP DATE: JULY 18, 2002. APPROVED BY THE LANDMARKS BOARD 3-0 (SALANCE AND STUTSMAN ABSENT). LAST OPPORTUNITY FOR CALL-UP IS JULY 23, 2002.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No Action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/3/Text/5"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "title": "PUBLIC COMMENT",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "title": "FINAL DECISIONS",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Vote was taken on the motion to approve consent items 3A through 3K.",
+    "outcome_summary_citations": [
+     "/page/3/Text/9"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION ACCEPTING THE RECOMMENDATIONS INCLUDED WITHIN THE MIDDLE BOULDER CREEK WATER SOURCE MANAGEMENT WORK PLAN.",
+    "title_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Corson moved, seconded by Toor to accept the recommendations included within the Middle Boulder Creek Water Source Management Work Plan with the goal to copmlete feasibility of non-motorized boating on Barker by June 1, 2003.",
+    "outcome_summary_citations": [
+     "/page/4/Text/5"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/5/ListGroup/3"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7216 SUBMITTING TO THE QUALIFIED ELECTORS OF THE CITY OF BOULDER AT A SPECIAL MUNICIPAL ELECTION TO BE HELD ON TUESDAY, THE 5 TH DAY OF NOVEMBER, 2002, THE QUESTION OF AUTHORIZING THE CITY COUNCIL TO CONTINUE A 0.15 CENTS ON EACH DOLLAR SALES AND USE TAX APPROVED BY THE VOTERS IN 1997 THROUGH DECEMBER 31, 2014, FOR PUBLIC SAFETY PURPOSES, CONCERNING FIRE, POLICE, COURT AND PROSECUTION SERVICES; GIVING APPROVAL FOR THE COLLECTION, RETENTION, AND EXPENDITURE OF THE FULL TAX PROCEEDS AND ANY EARNINGS RELATING THERETO NOTWITHSTANDING ANY STATE REVENUE OR EXPENDITURE LIMITATION; SETTING FORTH AN EFFECTIVE DATE; SETTING FORTH THE BALLOT TITLE; AND PROVIDING FURTHER DETAILS IN RELATION TO THE FOREGOING.",
+    "title_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7216"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Jim Crain",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Hill",
+      "name_citations": [
+       "/page/4/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ]
+     },
+     {
+      "name": "Karen Graffenberger",
+      "name_citations": [
+       "/page/4/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ]
+     },
+     {
+      "name": "Barb Odbert",
+      "name_citations": [
+       "/page/4/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/6"
+      ]
+     }
+    ],
+    "outcome_summary": "Councilmember Ruzzin moved, seconded by Poinsatte to adopt Ordinance No. 7216 submitting to the qualified electors of the City of Boulder at a special municipal election to be held on Tuesday, the 5 th day of November, 2002, the question of authorizing the City Council to continue a 0.15 cents on each dollar sales and use tax approved by the voters in 1997 through December 31, 2014, for public safety purposes, concerning fire, police, court and prosecution services; giving approval for the collection, retention, and expenditure of the full tax proceeds and any earnings relating thereto notwithstanding any state revenue or expenditure limitation; setting forth an effective date; setting forth the ballot title; and providing further details in relation to the foregoing.",
+    "outcome_summary_citations": [
+     "/page/5/Text/0"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7217 SUBMITTING TO THE QUALIFIED ELECTORS OF THE CITY OF BOULDER (THE “CITY”) AT A SPECIAL COORDINATED MUNICIPAL ELECTION TO BE HELD ON NOVEMBER 5, 2002, TO INCREASE THE CITY’S OPEN SPACE SALES AND USE TAX BY 0.15 CENTS PER DOLLAR STARTING JANUARY 1, 2003 THROUGH DECEMBER 31, 2018, AND TO PLEDGE THE REVENUES DERIVED FROM SUCH TAX FOR OPEN SPACE PURPOSES; GIVING APPROVAL FOR THE COLLECTION, RETENTION, AND EXPENDITURE OF THE FULL TAX PROCEEDS AND ANY EARNINGS RELATING THERETO NOTWITHSTANDING ANY STATE REVENUE OR EXPENDITURE LIMITATION; SETTING FORTH AN EFFECTIVE DATE; SETTING FORTH THE BALLOT TITLE; AND PROVIDING FURTHER DETAILS IN RELATION TO THE FOREGOING.",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7217"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "David Paddock",
+      "name_citations": [
+       "/page/5/ListGroup/3"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Crain",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Councilmember Ruzzin moved, seconded by Havlick to adopt Ordinance No. 7217 submitting to the qualified electors of the City of Boulder (the “City”) at a special coordinated municipal election to be held on November 5, 2002, to increase the City’s Open Space sales and use tax by 0.15 cents per dollar starting January 1, 2003 through December 31, 2018, and to pledge the revenues derived from such tax for open space purposes; giving approval for the collection, retention, and expenditure of the full tax proceeds and any earnings relating thereto notwithstanding any state revenue or expenditure limitation; setting forth an effective date; setting forth the ballot title; and providing further details in relation to the foregoing.",
+    "outcome_summary_citations": [
+     "/page/5/Text/5"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/5/ListGroup/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7220 DESIGNATING THE STRUCTURE AND A PORTION OF ITS SITE LOCATED AT 845 WALNUT, ALSO KNOWN AS THE ANDERSON-MARTIN HOUSE, AS AN INDIVIDUAL LANDMARK UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE. THE HEARING ON THIS ITEM WILL BE HELD UNDER THE QUASI-JUDICIAL HEARING PROCEDURES OF CHAPTER 1-3 B.R.C., 1981. APPLICANT: MARY LEE AND CHARLES E. WITHERS.",
+    "title_citations": [
+     "/page/5/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7220"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Eldridge moved, seconded by Corson to adopt Ordinance No. 7220 designating the structure and a portion of its site located at 845 Walnut, also known as the Anderson-Martin House, as an individual landmark under the City of Boulder Historic Preservation Code.",
+    "outcome_summary_citations": [
+     "/page/6/Text/5"
+    ]
+   },
+   {
+    "item_number": "13",
+    "item_number_citations": [],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING A SUPPLEMENTAL APPROPRIATION TO THE 2002 BUDGET.",
+    "title_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7221"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Eldridge moved, seconded by Corson to introduce and order published by title only Ordinance No. 7221 approving a supplemental appropriation to the 2002 Budget.",
+    "outcome_summary_citations": [
+     "/page/6/Text/8"
+    ]
+   },
+   {
+    "item_number": "14",
+    "item_number_citations": [
+     "/page/6/Text/10"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY ORDINANCE ADOPTING SUPPLEMENT NO. 73 WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7125, 7193, 7197, 7210, 7211, 7212, 7213, 7214, AND 7215 AS AN AMENDMENT TO THE BOULDER REVISED CODE 1981, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7125",
+     "7193",
+     "7197",
+     "7210",
+     "7211",
+     "7212",
+     "7213",
+     "7214",
+     "7215",
+     "7222"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Havlick moved, seconded by Corson to introduce and order published by title only Emergency Ordinance No. 7222 adopting Supplement No. 73 which codifies previously adopted Ordinance Nos. 7125, 7193, 7197, 7210, 7211, 7212, 7213, 7214, and 7215 as an amendment to the Boulder Revised Code 1981, and setting forth details in relation thereto.",
+    "outcome_summary_citations": [
+     "/page/6/Text/10"
+    ]
+   },
+   {
+    "item_number": "15",
+    "item_number_citations": [
+     "/page/7/ListGroup/0"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY ORDINANCE APPROVING AND AUTHORIZING THE ISSUANCE OF BOULDER MUNICIPAL PROPERTY AUTHORITY LEASE PURCHASE REVENUE NOTE, SERIES 2002A, IN THE AGGREGATE PRINCIPAL AMOUNT OF $725,000, AND APPROVING AND AUTHORIZING A LEASE PURCHASE AGREEMENT FOR THE PURCHASE OF 38.1 ACRES OF LAND AND ALL MINERAL RIGHTS LOCATED AT 75 TH AND ARAPAHOE ROAD TOGETHER WITH 1 1/4 SHARES OF THE ORIGINAL COTTONWOOD DITCH AND 1/4 SHARE OF THE ENTERPRISE DITCH FROM EDWARD H. KOLB, FREDERICK M. KOLB AND JOHN B. KOLB FOR OPEN SPACE AND MOUNTAIN PARKS PURPOSES.",
+    "title_citations": [
+     "/page/7/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7223"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Councilmember Corson moved, seconded by Eldridge to introduce and order published by title only Emergency Ordinance No. 7223 approving and authorizing the issuance of Boulder Municipal Property Authority Lease Purchase Revenue Note, Series 2002A, in the aggregate principal amount of $725,000, and approving and authorizing a Lease Purchase Agreement for the purchase of 38.1 acres of land and all mineral rights located at 75 th and Arapahoe Road together with 1 1/4 shares of the Original Cottonwood Ditch and 1/4 share of the Enterprise Ditch from Edward H. Kolb, Frederick M. Kolb and John B. Kolb for Open Space and Mountain Parks purposes.",
+    "outcome_summary_citations": [
+     "/page/7/Text/1"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/5/Text/0"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/5/Text/0"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Mock",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Randall Dubis",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Macerich",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Fred Smith",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Living Wage",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Isidore Hauser",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "The Living Wage Ordinance campaign",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jeff Ballagh",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Living Wage Ordinance",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Tracy Mott",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Living Wage Coalition",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Crossroads",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Francis Tower",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "water restrictions in Boulder",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Barb Roper",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "water restrictions in Boulder",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Betty Ball",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "civil rights and liberties Resolution",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jesse Thompson",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Annual grants program for 2002-2003",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Susie Mottashed",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "inclusion of the North side of Gillaspie Drive in the Fairview NPP Zone",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Joe Mottashed",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "call-up of the Fairview/Longwood Avenue NPP",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "John Roper",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Pleasant View Soccer Fields",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Leanne Shepherd",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Pleasant View Soccer Fields",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Bob Lapointe",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Pleasant View Soccer Fields",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Terri Snyder",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "call-up of the Fairview/Longwood Avenue NPP",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Phoebe Norton",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "extending the Public Safety Tax until 2014",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ]
+ }
+}

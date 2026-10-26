@@ -1,0 +1,2306 @@
+{
+ "entry_id": 151997,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "IQIGkEUAovPABa5RKSs2Wg",
+ "page_count": 8,
+ "cost_breakdown": {
+  "final_cost_cents": 25.0
+ },
+ "extraction": {
+  "meeting_date": "2004-11-30",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY OF BOULDER\nCOUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document heading is shown in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as special in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:53 P.M.",
+  "adjourned_time_citations": [
+   "/page/7/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/7/Text/1. Conclusion: the value at /page/7/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Ruzzin",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document states that Mayor Ruzzin called the meeting to order in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no call-up or call-up check-in entries for boards or commissions. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "motions": [
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "motion_text": "Councilmember Toor moved, seconded by McGrath to adopt Ordinance No. 7403 which adopts a budget for the City of Boulder, Colorado, for the fiscal year commencing on the first day of January, 2005 and ending on the last day of December, 2005, and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7403"
+    ],
+    "moved_by": "Toor",
+    "moved_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "vote_text": "The motion carried 6:2; Riggle and Stoakes opposed, Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Riggle",
+     "Stoakes"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/3"
+    ],
+    "motion_text": "Councilmember Riggle moved, seconded by Stoakes to introduce an ordinance to rescind the Trash Tax component from the 2005 Budget.",
+    "motion_text_citations": [
+     "/page/2/Text/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "seconded_by": "Stoakes",
+    "seconded_by_citations": [
+     "/page/2/Text/3"
+    ],
+    "vote_text": "The motion failed 3:5; Bohannan, Gray, McGrath, Ruzzin and Toor opposed; Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/2/Text/3"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/2/Text/3"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/2/Text/3"
+    ],
+    "no_count": 5,
+    "no_count_citations": [
+     "/page/2/Text/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Bohannan",
+     "Gray",
+     "McGrath",
+     "Ruzzin",
+     "Toor"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "motion_text": "Councilmember Gray moved, seconded by McGrath to adopt Ordinance No. 7404 which establishes the 2004 City of Boulder property tax mill levies which are to be collected by the County of Boulder, State of Colorado, within the City of Boulder in 2005 for payment of expenditures by the City of Boulder, County of Boulder, State of Colorado, and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/2/Text/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7404"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/2/Text/4"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/2/Text/4"
+    ],
+    "vote_text": "The motion carried 8:0; Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/2/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/5"
+    ],
+    "motion_text": "Councilmember Stoakes moved, seconded by Eldridge to adopt Ordinance No. 7405 which appropriates money to defray expenses and liabilities of the City of Boulder, Colorado, for the 2005 fiscal year of the City of Boulder, commencing on the first day of January 2005, and ending on the last day of December 2005, and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7405"
+    ],
+    "moved_by": "Stoakes",
+    "moved_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "vote_text": "The motion carried 7:1; Riggle opposed, Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/2/Text/5"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/2/Text/5"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Riggle"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "motion_text": "Councilmember Eldridge moved, seconded by Gray to adopt Ordinance No. 7406 which amends Chapters 3-8, 3-9, 3-10, 3-11 and 4-20, B.R.C. 1981, changing certain fees and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7406"
+    ],
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/2/Text/6"
+    ],
+    "vote_text": "The motion carried 6:2; Riggle and Stoakes opposed; Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/2/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/2/Text/6"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/2/Text/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Riggle",
+     "Stoakes"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Text/0"
+    ],
+    "motion_text": "Councilmember Gray moved, seconded by Stoakes to direct the City Manager to bring back funding options to restore $15,000 to the library when the city has a clear idea of the revenue picture for 2004.",
+    "motion_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "seconded_by": "Stoakes",
+    "seconded_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "vote_text": "The motion carried 6:2; Eldridge and Riggle opposed; Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/3/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/2"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Eldridge",
+     "Riggle"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "motion_text": "Councilmember Stoakes offered a friendly amendment to cut council meals as one option.",
+    "motion_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/3/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Stoakes",
+    "moved_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The friendly amendment was not accepted.",
+    "vote_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Text/4"
+    ],
+    "motion_text": "Consideration of a motion to adjourn from City Council and convene as the Boulder Municipal Property Authority Board of Directors and;",
+    "motion_text_citations": [
+     "/page/3/Text/3"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/3/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion to adjourn from City Council and convene as the Boulder Municipal Property Authority Board of Directors was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/3/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/8"
+    ],
+    "motion_text": "Councilmember Riggle moved, seconded by Gray to adopt BMPA Resolution No. 111 formally adopting the 2005 budget for the Boulder Municipal Property Authority.",
+    "motion_text_citations": [
+     "/page/3/Text/8"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "111"
+    ],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/3/Text/8"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/3/Text/8"
+    ],
+    "vote_text": "The motion carried 7:0; Schultheiss and Toor absent.",
+    "vote_text_citations": [
+     "/page/3/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss",
+     "Toor"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/3/Text/10"
+    ],
+    "motion_text": "Consideration of a motion to adjourn from the Boulder Municipal Property Authority Board of Directors and convene as the Central Area General Improvement District Board of Directors and;",
+    "motion_text_citations": [
+     "/page/3/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/3/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion to adjourn from the Boulder Municipal Property Authority Board of Directors and convene as the Central Area General Improvement District Board of Directors was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/4/Text/3"
+    ],
+    "motion_text": "Councilmember McGrath moved, seconded by Eldridge to adopt CAGID Resolution Nos. 208, 209 and 210.",
+    "motion_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/4/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "208",
+     "209",
+     "210"
+    ],
+    "moved_by": "McGrath",
+    "moved_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "vote_text": "The motion carried 8:0; Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/4/Text/5"
+    ],
+    "motion_text": "Consideration of a motion to adjourn from the Central Area General Improvement District Board of Directors and convene as the University Hill General Improvement District Board of Directors and;",
+    "motion_text_citations": [
+     "/page/4/Text/4"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion to adjourn from the Central Area General Improvement District Board of Directors and convene as the University Hill General Improvement District Board of Directors was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/5/Text/0"
+    ],
+    "motion_text": "Councilmember Stoakes moved, seconded by Eldridge to adopt UHGID Resolution Nos. 148, 149 and 150.",
+    "motion_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "148",
+     "149",
+     "150"
+    ],
+    "moved_by": "Stoakes",
+    "moved_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "vote_text": "The motion carried 7:0; Gray and Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Gray",
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/5/Text/2"
+    ],
+    "motion_text": "Consideration of a motion to adjourn from the University Hill General Improvement District Board of Directors and convene as the Forest Glen Transit Pass General Improvement District Board of Directors and;",
+    "motion_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion to adjourn from the University Hill General Improvement District Board of Directors and convene as the Forest Glen Transit Pass General Improvement District Board of Directors was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "E",
+    "agenda_item_number_citations": [
+     "/page/5/Text/7"
+    ],
+    "motion_text": "Councilmember McGrath moved, seconded by Toor to adopt FGGID Resolution Nos. 16, 17 and 18.",
+    "motion_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/5/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "16",
+     "17",
+     "18"
+    ],
+    "moved_by": "McGrath",
+    "moved_by_citations": [
+     "/page/5/Text/7"
+    ],
+    "seconded_by": "Toor",
+    "seconded_by_citations": [
+     "/page/5/Text/7"
+    ],
+    "vote_text": "The motion carried 7:0; Gray and Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Gray",
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "E",
+    "agenda_item_number_citations": [
+     "/page/5/Text/8"
+    ],
+    "motion_text": "Councilmember Gray moved, seconded by Riggle to suspend the rules and continue the meeting at 10:45p.m.",
+    "motion_text_citations": [
+     "/page/5/Text/8"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/5/Text/8"
+    ],
+    "seconded_by": "Riggle",
+    "seconded_by_citations": [
+     "/page/5/Text/8"
+    ],
+    "vote_text": "The motion carried 7:1; Eldridge opposed, Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/5/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/5/Text/8"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/5/Text/8"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Eldridge"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "E",
+    "agenda_item_number_citations": [
+     "/page/5/Text/10"
+    ],
+    "motion_text": "Consideration of a motion to adjourn from the Forest Glen Transit Pass General Improvement District Board of Directors and re-convene as City Council.",
+    "motion_text_citations": [
+     "/page/5/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion to adjourn from the Forest Glen Transit Pass General Improvement District Board of Directors and re-convene as City Council was approved by acclamation.",
+    "vote_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "F",
+    "agenda_item_number_citations": [
+     "/page/6/Text/4"
+    ],
+    "motion_text": "Councilmember Gray moved, seconded by McGrath to continue the Water Rate Structure item to the December 21, 2004 council meeting with a primary focus on WRAB discrepancy and cost estimates.",
+    "motion_text_citations": [
+     "/page/6/Text/4"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/6/Text/4"
+    ],
+    "seconded_by": "McGrath",
+    "seconded_by_citations": [
+     "/page/6/Text/4"
+    ],
+    "vote_text": "The motion carried 6:0; Eldridge, Riggle and Schultheiss absent.",
+    "vote_text_citations": [
+     "/page/6/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/6/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Eldridge",
+     "Riggle",
+     "Schultheiss"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/7/Text/1"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:53 P.M.",
+    "motion_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:53 P.M.",
+    "vote_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Ruzzin called the special November 30, 2004 meeting of the Boulder City Council to order at 6:00p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7403",
+     "7404",
+     "7405",
+     "7406",
+     "111",
+     "208",
+     "209",
+     "210",
+     "148",
+     "149",
+     "150",
+     "16",
+     "17",
+     "18"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council held public hearings on the budget and water rate structure, adopted the budget ordinances and resolutions, and continued the water rate structure item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF THE FOLLOWING ITEMS RELATING TO THE 2005 BUDGET:",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7403",
+     "7404",
+     "7405",
+     "7406"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lou Dellacava",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Earl McLaughlin",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Donald Wilson",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Gale Dunlap",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Jenkins",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Johnson",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Steve Clason",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alan Streater",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Todd Runestad",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Inta Morris",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Leslie Glustrom",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Dilling",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Pam Milmoe",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Francoise Poinsatte",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ken Regelson",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Guy Errickson",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alison Burchell",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Bruce Bland",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Lisa Morzel",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Donna Marek",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinances Nos. 7403, 7404, 7405 and 7406, rejected the motion to introduce an ordinance rescinding the Trash Tax component, and directed the City Manager to bring back library funding options.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "PUBLIC HEARING ON THE PROPOSED 2005 CITY OF BOULDER BUDGET; AND",
+    "title_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jann Scott",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lou Dellacava",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Earl McLaughlin",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Donald Wilson",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Gale Dunlap",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Jenkins",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Johnson",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Steve Clason",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alan Streater",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Todd Runestad",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Inta Morris",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Leslie Glustrom",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Dilling",
+      "name_citations": [
+       "/page/1/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Pam Milmoe",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Francoise Poinsatte",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ken Regelson",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Guy Errickson",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alison Burchell",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Bruce Bland",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Lisa Morzel",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/2/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Donna Marek",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council held a public hearing on the proposed 2005 City of Boulder budget.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7403 WHICH ADOPTS A BUDGET FOR THE CITY OF BOULDER, COLORADO, FOR THE FISCAL YEAR COMMENCING ON THE FIRST DAY OF JANUARY, 2005 AND ENDING ON THE LAST DAY OF DECEMBER, 2005, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7403"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7403.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7404 WHICH ESTABLISHES THE 2004 CITY OF BOULDER PROPERTY TAX MILL LEVIES WHICH ARE TO BE COLLECTED BY THE COUNTY OF BOULDER, STATE OF COLORADO, WITHIN THE CITY OF BOULDER IN 2005 FOR PAYMENT OF EXPENDITURES BY THE CITY OF BOULDER, COUNTY OF BOULDER, STATE OF COLORADO, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7404"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7404.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7405 WHICH APPROPRIATES MONEY TO DEFRAY EXPENSES AND LIABILITIES OF THE CITY OF BOULDER, COLORADO, FOR THE 2005 FISCAL YEAR OF THE CITY OF BOULDER, COMMENCING ON THE FIRST DAY OF JANUARY 2005, AND ENDING ON THE LAST DAY OF DECEMBER 2005, AND SETTING FORTH DETAILS IN RELATION THERETO; AND",
+    "title_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7405"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7405.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7406 WHICH AMENDS CHAPTERS 3-8, 3-9, 3-10, 3-11 AND 4-20, B.R.C. 1981, CHANGING CERTAIN FEES AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7406"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7406.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION FORMALLY ADOPTING THE 2005 BUDGET FOR THE BOULDER MUNICIPAL PROPERTY AUTHORITY.",
+    "title_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "111"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted BMPA Resolution No. 111.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF THREE RESOLUTIONS PERTAINING TO THE 2005 BUDGET OF THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FUND.",
+    "title_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "208",
+     "209",
+     "210"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted CAGID Resolution Nos. 208, 209 and 210.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2005.",
+    "title_citations": [
+     "/page/3/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted CAGID Resolution Nos. 208, 209 and 210.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2004 CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE FISCAL YEAR 2005, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted CAGID Resolution Nos. 208, 209 and 210.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT FOR THE 2005 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted CAGID Resolution Nos. 208, 209 and 210.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF THREE RESOLUTIONS PERTAINING TO THE 2005 BUDGET OF THE CITY OF BOULDER UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FUND.",
+    "title_citations": [
+     "/page/4/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "148",
+     "149",
+     "150"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted UHGID Resolution Nos. 148, 149 and 150.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2005.",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted UHGID Resolution Nos. 148, 149 and 150.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2004 CITY OF BOULDER UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE FISCAL YEAR 2005, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted UHGID Resolution Nos. 148, 149 and 150.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER UNIVERSITY HILL GENERAL IMPROVEMENT DISTRICT FOR THE 2005 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted UHGID Resolution Nos. 148, 149 and 150.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF THREE RESOLUTIONS PERTAINING TO THE 2005 BUDGET OF THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT FUND.",
+    "title_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "16",
+     "17",
+     "18"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted FGGID Resolution Nos. 16, 17 and 18.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION CONCERNING THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT, ADOPTING A BUDGET FOR THE FISCAL YEAR BEGINNING JANUARY 1, 2005.",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted FGGID Resolution Nos. 16, 17 and 18.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION ESTABLISHING THE 2004 CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT PROPERTY TAX MILL LEVY FOR PAYMENT OF EXPENDITURES, IN PART, OF THE DISTRICT DURING THE FISCAL YEAR 2005, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted FGGID Resolution Nos. 16, 17 and 18.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "A RESOLUTION APPROPRIATING MONEY TO DEFRAY THE EXPENSES AND LIABILITIES OF THE CITY OF BOULDER FOREST GLEN TRANSIT PASS GENERAL IMPROVEMENT DISTRICT FOR THE 2005 FISCAL YEAR AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted FGGID Resolution Nos. 16, 17 and 18.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO SELECT A WATER RATE STRUCTURE.",
+    "title_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Dan Powers",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Peter Mayer",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Jim Knoff",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Michael Brawner",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Bill Deoro",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Charles Bergren",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Eric Johnson",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Steve Pomerance",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Amy Livingston",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Francoise Poinsatte",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Hampton Islan",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     },
+     {
+      "name": "Elise Jones",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/2"
+      ]
+     }
+    ],
+    "outcome_summary": "Council continued the Water Rate Structure item to the December 21, 2004 council meeting with a primary focus on WRAB discrepancy and cost estimates.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/7/Text/1"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:53 P.M.",
+    "outcome_summary_citations": [
+     "/page/7/Text/1"
+    ]
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Tim Thomas",
+    "topic": "Trash Tax – indicated that if the Trash Tax is increased the funds should go to restoring services such as library hours. Stated additional oversight needed for city purchasing."
+   },
+   {
+    "name": "Jann Scott",
+    "topic": "CATV – spoke of the fundraising efforts currently planned to meet council expectations."
+   },
+   {
+    "name": "Lou Dellacava",
+    "topic": "(pooled time with Violet Schmidt) representing Boulder Tomorrow – spoke to the numerous problems related to the Trash Tax increase – process, timing, equity, noting that during a time when the Boulder economy continues to decline is not appropriate."
+   },
+   {
+    "name": "Earl McLaughlin",
+    "topic": "President of Boulder Tomorrow – spoke to the investments of Xcel Energy to bring energy efficiency. Urged council to get better information."
+   },
+   {
+    "name": "Donald Wilson",
+    "topic": "Trash Tax – indicated that the trash tax is available to the general fund. It is a huge increase and its intended use adds to staffing levels at a time when departments are cutting staff and programs. It sends the wrong message."
+   },
+   {
+    "name": "Gale Dunlap",
+    "topic": "Trash Tax proposal – blatantly acts as a disincentive to conservation and recycling (see attachment)."
+   },
+   {
+    "name": "Jane Jenkins",
+    "topic": "Representing DBI – requesting that the Trash Tax be tabled until the community has opportunity to discuss and fully understand the issue."
+   },
+   {
+    "name": "Eric Johnson",
+    "topic": "spoke in support of the tax increase noting that global warming is critical and must be addressed now. Encouraged residents and businesses to reduce waste."
+   },
+   {
+    "name": "Steve Clason",
+    "topic": "Library Commission Member – spoke to the library funding issue noting that while there is a savings from closing the library early, other negative impacts should be considered including the reduction of meeting space. Asked council to find the $15,000."
+   },
+   {
+    "name": "Alan Streater",
+    "topic": "supports trash tax – also suggested a head tax. Thanks for clearing bike paths."
+   },
+   {
+    "name": "Todd Runestad",
+    "topic": "Trash Tax – feels this is mission creep – original purpose not being maintained. Wrong time for a tax increase – felt it should be placed on a ballot."
+   },
+   {
+    "name": "Inta Morris",
+    "topic": "Rocky Mountain Climate Organization – speaking to the effects of climate change in Boulder. Less snow pack and less water will create major drought conditions. Emphasis on renewables and energy efficiencies needs to remain a priority."
+   },
+   {
+    "name": "Steve Pomerance",
+    "topic": "supports energy efficiencies but does not feel this proposal is the right way to address that project. Concerned that far more over sight is needed."
+   },
+   {
+    "name": "Leslie Glustrom",
+    "topic": "spoke to the importance of addressing green house gas emissions."
+   },
+   {
+    "name": "Dan Powers",
+    "topic": "Chamber of Commerce – requested that the Trash Tax increase be removed form consideration this evening to allow Business community to analyze the impacts."
+   },
+   {
+    "name": "Lisa Dilling",
+    "topic": "Scientist – in support of utilizing Trash Tax funds to address a critical problem."
+   },
+   {
+    "name": "Pam Milmoe",
+    "topic": "in support of utilizing the trash tax to benefit the environment. Leadership in this area is critical."
+   },
+   {
+    "name": "Francoise Poinsatte",
+    "topic": "noted that when Boulder adopted the resolution in support of the Kyoto Protocol it was clear that addressing energy conservation would be key."
+   },
+   {
+    "name": "Ken Regelson",
+    "topic": "Let's start acting locally – pass the Trash Tax."
+   },
+   {
+    "name": "Guy Errickson",
+    "topic": "supports public access TV, but noted that current program doesn't meet that definition."
+   },
+   {
+    "name": "Alison Burchell",
+    "topic": "re: trash tax - spoke to the importance of engaging in community dialogue. Indicated support of the program, but better outreach needed."
+   },
+   {
+    "name": "Bruce Bland",
+    "topic": "Urged support of the Trash Tax – echoed that better communication needed, but felt it important to take this important step to address a critical problem."
+   },
+   {
+    "name": "Lisa Morzel",
+    "topic": "spoke to the importance of supporting the Trash Tax, noting that consumers have a choice – if they reduce waste the cost can be less. Encouraged approval."
+   },
+   {
+    "name": "Donna Marek",
+    "topic": "re: Channel 54 – indicated that the contract between the city and CATV is not valid. Indicated that mismanagement is evident and urged council to remove funding for CATV from the 2005 budget."
+   },
+   {
+    "name": "Dan Powers",
+    "topic": "supported staff alternative “Tailored.”"
+   },
+   {
+    "name": "Peter Mayer",
+    "topic": "supported WRAB Water Budget proposal."
+   },
+   {
+    "name": "Jim Knoff",
+    "topic": "voiced his support for the water budget approach."
+   },
+   {
+    "name": "Michael Brawner",
+    "topic": "supported classic water budget proposal by WRAB."
+   },
+   {
+    "name": "Bill Deoro",
+    "topic": "spoke in support of the WRAB Water Budget proposal."
+   },
+   {
+    "name": "Charles Bergren",
+    "topic": "representing Gunbarrel Homeowner’s Association; they purchase water (2 million gallons) to water neighborhood park – supports WRAB “classic” approach."
+   },
+   {
+    "name": "Eric Johnson",
+    "topic": "supports “classic” WRAB water budget proposal."
+   },
+   {
+    "name": "Steve Pomerance",
+    "topic": "supports water budget approach but indicated that pricing rate structure still needs to be addressed."
+   },
+   {
+    "name": "Amy Livingston",
+    "topic": "urged council to support the “classic” water budget approach proposed by the WRAB."
+   },
+   {
+    "name": "Francoise Poinsatte",
+    "topic": "provided some background from when she was on council. Indicated support for the classic water budget approach."
+   },
+   {
+    "name": "Hampton Islan",
+    "topic": "favors the budget rate structure."
+   },
+   {
+    "name": "Elise Jones",
+    "topic": "spoke in support of the WRAB proposal for classic water budget approach."
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Bohannan",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "McGrath",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Stoakes",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Schultheiss",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ]
+ }
+}

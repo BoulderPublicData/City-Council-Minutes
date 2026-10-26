@@ -1,0 +1,1897 @@
+{
+ "entry_id": 177187,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "hN1j3JTZW3e5c_VwlgN9rA",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 22.0
+ },
+ "extraction": {
+  "meeting_date": "2021-08-17",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The date is stated in the heading at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading is stated at /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/PageFooter/15"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/PageFooter/15"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The footer identifies this as a Regular Meeting at /page/0/PageFooter/15. Conclusion: the value at /page/0/PageFooter/15 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/7/Text/3"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/7/Text/3. Conclusion: the value at /page/7/Text/3 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Weaver called the meeting to order at /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Call-up Consideration: Landmark Alteration Certificate for installation of a 11.88 kW roof mounted solar PV system at 845 14th St., a contributing property in the University Place Historic District",
+   "B. Call Up Item regarding a Three- Year Extension of Development Approval for the Use Review (LUR2016 00020) for attached residential in an industrial zoning district associated amenities located at 3289 Airport Boulevard. Velo Condos is a new neighborhood of 70 homes, planned in a five-building condominium community comprised of one, two, and three-bedroom for-sale homes that include on-site permanently affordable units and five live-work condominiums. Construction has been completed on the first three of five buildings, and the applicant has presold 50 percent of the units. The building permits are issued for the final two buildings with construction expected to begin at the end of 2021"
+  ],
+  "call_up_items_citations": [
+   "/page/3/ListGroup/3",
+   "/page/3/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first call-up item is stated at /page/3/ListGroup/3. Conclusion: the value at /page/3/ListGroup/3 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second call-up item is stated at /page/3/ListGroup/5. Conclusion: the value at /page/3/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains exactly two call-up check-in items, A and B, at /page/3/ListGroup/3 and /page/3/ListGroup/5. Conclusion: the value at /page/3/ListGroup/3 and /page/3/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "COVID Health Briefing/Response",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Presentation & Questions; Comprehensive Annual Financial Report Acceptance & Auditor Selection – REMOVED",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The item was removed from the agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/1"
+    ],
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/1/Text/1"
+    ],
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 7:52 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the consent agenda A – P, as amended to remove items 3G & 3H, by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to approve the April 6, 2021 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to approve the May 11, 2021 Special Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to approve the May 18, 2021 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to accept the July 27, 2021, Study Session Summary regarding review of the 60% Draft of the East Boulder Subcommunity Plan and 55th and Arapahoe Station Area Master Plan",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to approve the purchase of a Public Trail Easement , including access rights for open space purposes, over property located at 6901 N. Foothills Highway from Raytheon Holdings, LLC for $23,500 per acre, and with the purchase price of the easement not to exceed $235,000, subject to OSMP and CAO review and acceptance of due diligence and easement documents",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to approve and authorize the city manager to execute any documents necessary to convey a non-exclusive easement over a portion of the Burke I Open Space Property , pursuant to the disposal procedures of Article XII, Section 177, of the Boulder City Charter, to the East Boulder Ditch Company for the East Boulder Ditch Fish Passage Project",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to adopt Resolution 1290 accepting the City of Boulder’s 2020 Comprehensive Annual Financial Report (CAFR) and Independent Auditor’s Reports – REMOVED from Consent – NO VOTE",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1290"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The item was removed from consent with no vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to adopt Resolution 1291 appointing the firm of CliftonLarsonAllen to examine the financial accounts of the City of Boulder for the year ended December 31, 2021 - REMOVED from Consent – NO VOTE",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1291"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The item was removed from consent with no vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a Motion to Adopt Resolution 1292 approving the assignment to the Housing Authority of the City of Boulder, Colorado, D/B/A Boulder Housing Partners , a body corporate and politic of the State of Colorado, of $4,500,000 of the City of Boulder, Colorado’s 2021 Private Activity Bond volume cap allocation from the state ceiling for Private Activity Bonds; and authorizing the execution and delivery of an assignment and other documents in connection therewith",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1292"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a Motion to Adopt Resolution 1293 approving the assignment of $1,400,457 of the City of Boulder, Colorado’s 2021 Private Activity Bond volume cap allocation from the state ceiling for Private Activity Bonds to the Colorado Housing and Finance Authority to be issued to Thistle; and authorizing the execution and delivery of an assignment and other documents in connection therewith",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1293"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "K",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction, first reading and consideration of a motion to order published, by title only, Ordinance 8501 amending the 2014 intergovernmental agreement for hazardous materials management",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8501"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "L",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8476 submitting to the electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question of extending the 0.3 percent Sales and Use Tax for Capital Improvements for 15 years, with the proceeds thereof to be used for capital improvement projects in the City of Boulder; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details; AND IF DESIRED Second reading and consideration of a motion to adopt Ordinance 8487 submitting to the electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question to authorize the increase of debt of the city to fund capital improvements for 15 years, with the proceeds thereof to be used for capital improvement projects in the City of Boulder as set forth in the ballot; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8476",
+     "8487"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "M",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8486 submitting to the registered electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question of amending Sections 38A, 44, and 46 of the Boulder Home Rule Charter relating to the number of signatures of registered electors required on initiative, referenda and recall petitions; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8486"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "N",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Third reading and motion to adopt Ordinance 8477 submitting to the electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question of amending Section 7 of the Boulder City Charter relating to council compensation, by requiring that council compensation be paid in equal amounts throughout the year to be paid on the same schedule as other city employees, setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8477"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "O",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/1"
+    ],
+    "title": "Consideration of a motion to accept the Study Session Summary from the July 27, 2021, Study Session regarding the Boulder Parks and Recreation Master Plan Needs Assessment Results",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "P",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/1"
+    ],
+    "title": "Consideration of a motion to call a Special Council Meeting on August 24, 2021",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the item as part of the consent agenda by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "Call-up Consideration: Landmark Alteration Certificate for installation of a 11.88 kW roof mounted solar PV system at 845 14th St., a contributing property in the University Place Historic District",
+    "title_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "Call Up Item regarding a Three- Year Extension of Development Approval for the Use Review (LUR2016 00020) for attached residential in an industrial zoning district associated amenities located at 3289 Airport Boulevard. Velo Condos is a new neighborhood of 70 homes, planned in a five-building condominium community comprised of one, two, and three-bedroom for-sale homes that include on-site permanently affordable units and five live-work condominiums. Construction has been completed on the first three of five buildings, and the applicant has presold 50 percent of the units. The building permits are issued for the final two buildings with construction expected to begin at the end of 2021",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinances 8474, 8475 and 8480, each by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8474 submitting to the qualified registered electors of the City of Boulder at the municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall adopt changes to the Boulder Revised Code to require that any agreement with the University of Colorado regarding terms of annexation for the land known as CU South include certain specific details, and that the annexation agreement gain voter approval in an election prior to provision of city utilities and services other than flood control facilities to or on any portion of CU South; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8474"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:12 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/1"
+    ],
+    "hearing_closed_time": "8:41 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/3"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Sarah Dawn Haynes",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Margaret LeCompte",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gary Urling",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jim McMillan",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicholas Lenssen",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alan Delamere",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "James Morris",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steven Telleen",
+      "name_citations": [
+       "/page/4/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8474 by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8475 submitting to the qualified electors of the City of Boulder at the municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall expand access to housing by allowing all housing units to be occupied by a number of people equal to the number of legal bedrooms, plus one additional person per home, provided that relevant health and safety codes are met; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8475"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:48 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/1"
+    ],
+    "hearing_closed_time": "10:15 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Neesha Schnepf",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Fiona Pigott",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Philip Ogren",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Tanner",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Budd",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Blake Stone",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sarah Dawn Haynes",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Anna Vernier",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rebecca Davies",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nick Grossman",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chelsea Castellano",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Maria Colvin",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Theodore Koenig",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Maeve Phelan",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Diamond",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mel La",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sarah Wise",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Morteza Karimzadeh",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Farnan",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lindsay Sworski",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Macon Cowles",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pierce Delahunt",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Olivia Cecil",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Thomas Rogers",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kurt Nordback",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sara Campbell",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lila Hickey",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Joy Rohde",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ray Bambha",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Hope Michelsen",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Adalyn Fyhrie",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ana Fernandez Frank",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Joel Loomis",
+      "name_citations": [
+       "/page/5/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Parrish",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "RJ Boyle",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Schuchard",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Spalding",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bryan Bowen",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Claudia Thiem",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ora Goldman",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lincoln Miller",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eva Hamer",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alexander Sage",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8475 by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/6/Text/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8480 submitting to the qualified electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall prohibit the sale and manufacture for sale of certain fur products; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/6/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8480"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "10:18 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/5"
+    ],
+    "hearing_closed_time": "10:32 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/0"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eva Hamer",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alexander Sage",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brent Johannes",
+      "name_citations": [
+       "/page/6/ListGroup/6"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ora Goldman",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8480 by a vote of 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 10:45 p.m.",
+    "outcome_summary_citations": [
+     "/page/7/Text/3"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/Table/8"
+    ],
+    "motion_text": "Motion to AMEND the agenda to: x ADD – Item 3P - motion to call a Special Council Meeting on August 24, 2021 to approve the order of the City’s ballot measures in the 2021 Municipal Coordinated Election x REMOVE – Items 1B, 3G, & 3H from the agenda",
+    "motion_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/Table/1"
+    ],
+    "motion_text": "Motion to APPROVE the consent agenda A – P, as amended to remove items 3G & 3H",
+    "motion_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1292",
+     "Res. 1293",
+     "8501",
+     "8476",
+     "8487",
+     "8486",
+     "8477"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/4/Table/4"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8474 submitting to the qualified registered electors of the City of Boulder at the municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall adopt changes to the Boulder Revised Code to require that any agreement with the University of Colorado regarding terms of annexation for the land known as CU South include certain specific details, and that the annexation agreement gain voter approval in an election prior to provision of city utilities and services other than flood control facilities to or on any portion of CU South; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8474"
+    ],
+    "moved_by": "Nagle",
+    "moved_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8475 submitting to the qualified electors of the City of Boulder at the municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall expand access to housing by allowing all housing units to be occupied by a number of people equal to the number of legal bedrooms, plus one additional person per home, provided that relevant health and safety codes are met; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8475"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/ListGroup/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/7/Table/1"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8480 submitting to the qualified electors of the City of Boulder at the general municipal coordinated election to be held on Tuesday, November 2, 2021, the question submitted as an initiated ordinance whether the City of Boulder shall prohibit the sale and manufacture for sale of certain fur products; setting forth the ballot title; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "motion_text_citations": [
+     "/page/7/Table/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Table/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8480"
+    ],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/7/Table/1"
+    ],
+    "seconded_by": "Nagle",
+    "seconded_by_citations": [
+     "/page/7/Table/1"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/7/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/7/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 10:45 p.m.",
+    "motion_text_citations": [
+     "/page/7/Text/3"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Stephen Haydel",
+    "name_citations": [
+     "/page/0/ListGroup/14"
+    ],
+    "topic": "Vehicle Violence",
+    "topic_citations": [
+     "/page/0/ListGroup/14"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/14"
+    ],
+    "topic": "Request for news article in Daily Camera regarding “smoke free backrooms” / Online Petitioning",
+    "topic_citations": [
+     "/page/0/ListGroup/14"
+    ]
+   },
+   {
+    "name": "Shirley Jin",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Small cells",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Climate change – Carbon reduction",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Outdoor/Indoor Dining",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

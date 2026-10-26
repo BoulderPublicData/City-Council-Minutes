@@ -1,0 +1,2065 @@
+{
+ "entry_id": 194171,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "we1JL8U1Sn6RWk9VbgZSMg",
+ "page_count": 5,
+ "cost_breakdown": {
+  "final_cost_cents": 2.25
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "motion_text": "Motion to APPROVE the consent agenda items A-H",
+    "motion_text_citations": [
+     "/page/2/Table/1"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "moved_by": "Marquis",
+    "moved_by_citations": [
+     "/page/2/Table/1"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/2/Table/1"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "vote_text": "Approved 9:0",
+    "vote_text_citations": [
+     "/page/2/Table/1"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Table/1"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/1"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/1"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/Table/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "yes_votes": [
+     "Adams",
+     "Benjamin",
+     "Brockett",
+     "Folkerts",
+     "Marquis",
+     "Schuchard",
+     "Speer",
+     "Wallach",
+     "Winer"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    }
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "motion_text": "Motion to approve Site Review application under # LUR2024-00036, adopting the staff memorandum as findings of fact, including the attached analysis of review criteria, and subject to the conditions of approval recommended in the staff memorandum",
+    "motion_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "vote_text": "APPROVED AS AMENDED 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Table/1"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Table/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "yes_votes": [
+     "Adams",
+     "Benjamin",
+     "Brockett",
+     "Folkerts",
+     "Marquis",
+     "Schuchard",
+     "Speer",
+     "Wallach",
+     "Winer"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    }
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "motion_text": "Motion to adopt Ordinance 8685 granting a nine-year vested property right for the approved site-specific development plan for a property located at 1855 S. Flatiron Court, and setting forth related details",
+    "motion_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8685"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/3/Table/1"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/3/Table/1"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "vote_text": "ADOPTED 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/1"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Table/1"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/1"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/3/Table/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "yes_votes": [
+     "Adams",
+     "Benjamin",
+     "Brockett",
+     "Folkerts",
+     "Marquis",
+     "Schuchard",
+     "Speer",
+     "Wallach",
+     "Winer"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations for 'yes_votes' incorrectly point to the roll call list (Text/7) instead of the vote table. Information accuracy is flawed: 'stated_unanimous' is false (minutes say '9:0', not 'unanimous'), and 'action_type' for the first motion is 'consent_agenda' (correct) but the schema implies specific"
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Christopher Sassano",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Lia Fioroni",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Nathan Knecht",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Sage Hamilton",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "James Duncan",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "life, humanity, kindness",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Aaron Brooks",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "City Council topics",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Aiyana Rutherford",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Todd White",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "environmental",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Abel Villacorta",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Trish Emser",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Bike Bolder updates",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Carloyn Bninski",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "humanitarian crisis in Gaza",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Rafael Hernandez Guerrero",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "proportional representation",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Susan Baca",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "Sage programs",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Robin Noble",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "City Council priorities",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Leila Talore",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "sage programs",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Liat Dagan",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "ongoing disruptions during recent council meetings",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "unethical COB business practices",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   },
+   {
+    "name": "Meredith Barad",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    },
+    "topic": "thank Council for their commitment to our city",
+    "topic_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 18 Open Comment speakers and topics from the HTML. However, the citations are inaccurate: the first 9 speakers are cited to /page/0/ListGroup/12, but the HTML shows they are in /page/0/ListGroup/12 (correct) but the list continues on page 1. The extraction mis"
+    }
+   }
+  ],
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/SectionHeader/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "10:26 p.m.",
+  "adjourned_time_citations": [
+   "/page/3/Text/10"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 7:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/Text/10"
+    ],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": "7:05 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/Text/10"
+    ],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": "7:45 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/3"
+    ],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Christopher Sassano",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Lia Fioroni",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Nathan Knecht",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Sage Hamilton",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "James Duncan",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Aaron Brooks",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Aiyana Rutherford",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Todd White",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Abel Villacorta",
+      "name_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/12"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Trish Emser",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Carloyn Bninski",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Rafael Hernandez Guerrero",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Susan Baca",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Robin Noble",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Leila Talore",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Liat Dagan",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Meredith Barad",
+      "name_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/2"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     }
+    ],
+    "outcome_summary": "Public comments were taken from 7:05 p.m. to 7:45 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/10",
+     "/page/1/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8694"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to approve the consent agenda items A-H was approved 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Table/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/3",
+     "/page/2/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Site Review for the redevelopment of 1855 S. Flatiron; and Second reading and consideration of a motion to adopt Ordinance 8685 granting authority to the approving authority under Title 9, “Land Use Code,” B.R.C. 1981 to grant a 9-year vesting period for the approved site-specific development plan. Reviewed under case no. LUR2024-00036",
+    "title_citations": [
+     "/page/2/SectionHeader/4",
+     "/page/2/Text/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8685"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/2/Text/5"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/Text/9"
+    ],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": "8:39 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/9"
+    ],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": "8:45 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/0"
+    ],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/2/ListGroup/11"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/11"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+      }
+     }
+    ],
+    "outcome_summary": "The Site Review application was approved as amended 9:0 and Ordinance 8685 was adopted 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/Table/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Pam Davis, Assistant City Manager, provided a presentation and answered questions from Council.",
+    "outcome_summary_citations": [
+     "/page/3/Text/4"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/3/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/3/SectionHeader/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Debrief",
+    "section_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/3/SectionHeader/8"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Brockett at 10:26 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and complete. However, 'is_public_hearing' is incorrectly set to true for 'Open Comment' (Item 2). The text explicitly distinguishes 'Open Comment' from 'Public Hearings' (Item 5), and the schema defines public hearings as distinct agenda items. This is a semantic error in the"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Adams",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Marquis",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Schuchard",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 5,
+     "reasoning": "The extracted list of 9 members matches the HTML 'Council Members present' list exactly. However, the citation for 'Brockett' (title: Mayor) incorrectly points to the list block (/page/0/Text/7) instead of the block containing the specific text 'Mayor Brockett' (/page/0/Text/6). All other citations/"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2025-05-01",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2025-05-01' is accurate and correctly cited from the heading text. The citation block ID matches the location of the date in the HTML. No contradictions or missing relevant blocks found."
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 4,
+   "reasoning": "The extracted value 'regular' is correct as the minutes explicitly state 'Regular City Council Meeting Minutes' were accepted (Page 2). However, the citation points to the meeting title header ('CITY COUNCIL MEETING'), which does not contain the word 'Regular'. The correct citation should be the 'M'"
+  },
+  "called_to_order_time": "7:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

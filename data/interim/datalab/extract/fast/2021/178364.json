@@ -1,0 +1,1735 @@
+{
+ "entry_id": 178364,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "CSnBlxPEv77h_rwDK8uLeg",
+ "page_count": 4,
+ "cost_breakdown": {
+  "final_cost_cents": 1.8
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "motion_text": "Motion to accept Consent Agenda A - C",
+    "motion_text_citations": [
+     "/page/1/Table/0"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "ordinance_or_resolution_numbers": [
+     "1296",
+     "1297",
+     "1298",
+     "1299",
+     "8509"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Table/0"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/1/Table/0"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/1/Table/0"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Table/0"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/0"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/0"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/1/Table/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    }
+   },
+   {
+    "agenda_item_number": "4A",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "motion_text": "Motion to accept Facilities Master Plan and approve the Boulder Valley Comprehensive Plan (BVCP) Facilities Master Plan Summary",
+    "motion_text_citations": [
+     "/page/1/ListGroup/3",
+     "/page/1/Table/8"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/1/Table/8"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/1/Table/8"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/1/Table/8"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Table/8"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/8"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/8"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/1/Table/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    }
+   },
+   {
+    "agenda_item_number": "4B",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "motion_text": "Motion to adopt Ordinance 8485, a general revision of the city’s zoning map consistent with the land use designation changes adopted in the 2020 Mid-Term Update to the Boulder Valley Comprehensive Plan",
+    "motion_text_citations": [
+     "/page/1/ListGroup/9",
+     "/page/2/Table/3"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8485"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/2/Table/3"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/2/Table/3"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/2/Table/3"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Table/3"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/3"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/3"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/Table/3"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    }
+   },
+   {
+    "agenda_item_number": "4B",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "motion_text": "Motion to adopt Ordinance 8484 amending Appendix L, “Form-Based Code Areas,” and Appendix M, “Form-Based Code,” of Title 9, “Land Use Code,” B.R.C. 1981, creating a form-based code for the Alpine-Balsam Area.",
+    "motion_text_citations": [
+     "/page/1/Text/10",
+     "/page/2/Table/3"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/1/Text/10"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8484"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/2/Table/3"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/2/Table/3"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/2/Table/3"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Table/3"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/3"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/3"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/Table/3"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    }
+   },
+   {
+    "agenda_item_number": "4B",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "motion_text": "Motion to approve amendments to the Alpine-Balsam Connections Plan",
+    "motion_text_citations": [
+     "/page/1/Text/12",
+     "/page/2/Table/3"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/1/Text/12"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/2/Table/3"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/2/Table/3"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "vote_text": "9:0",
+    "vote_text_citations": [
+     "/page/2/Table/3"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Table/3"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/3"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/3"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/2/Table/3"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagle",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and point to correct blocks. However, the extracted 'yes_votes' list is inferred from the roll call (Text/7) rather than explicitly stated in the vote tables. The schema requires 'never infer votes that are not written', making the explicit list of 9 names inaccurate per the '"
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/6",
+     "/page/2/Text/1"
+    ],
+    "name_score": {
+     "score": 2,
+     "reasoning": "The extracted speaker 'Lynn Segal' is correct, but the topic is inaccurate. The HTML explicitly places Lynn Segal under 'Public Hearings' (Item 4), not 'Open Comment'. The schema requires 'open_comment_speakers' to exclude public hearing speakers. The citations correctly identify the hearing context"
+    },
+    "topic": "Public comment on the Facilities Master Plan and Boulder Valley Comprehensive Plan (BVCP) Facilities Master Plan Summary.",
+    "topic_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "topic_score": {
+     "score": 2,
+     "reasoning": "The extracted speaker 'Lynn Segal' is correct, but the topic is inaccurate. The HTML explicitly places Lynn Segal under 'Public Hearings' (Item 4), not 'Open Comment'. The schema requires 'open_comment_speakers' to exclude public hearing speakers. The citations correctly identify the hearing context"
+    }
+   }
+  ],
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "8:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/3/Text/4"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1.A",
+    "item_number_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Declaration honoring Mary Duvall upon her retirement",
+    "title_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The declaration honoring Mary Duvall was made.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Consideration of a motion to authorize the City Manager to execute an Intergovernmental Agreement with Boulder Housing Partners on City Property at Alpine-Balsam; adoption of Resolutions 1296, 1297, 1298 and 1299; and first reading of Ordinance 8509.",
+    "title_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [
+     "1296",
+     "1297",
+     "1298",
+     "1299",
+     "8509"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The motion to accept Consent Agenda A-C was approved 9-0.",
+    "outcome_summary_citations": [
+     "/page/1/Table/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Call-up check-in completed.",
+    "outcome_summary_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "4.A",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Consideration of a motion to accept the Facilities Master Plan and approve the Boulder Valley Comprehensive Plan (BVCP) Facilities Master Plan Summary",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/1/Text/5"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": "7:09 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/1/Text/5"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": "7:12 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/7"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/1/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/1/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+      }
+     }
+    ],
+    "outcome_summary": "The motion to accept the Facilities Master Plan and approve the BVCP Facilities Master Plan Summary was approved 9-0.",
+    "outcome_summary_citations": [
+     "/page/1/Table/8"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "4.B",
+    "item_number_citations": [
+     "/page/1/ListGroup/9"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8485, Ordinance 8484, and approve amendments to the Alpine-Balsam Connections Plan.",
+    "title_citations": [
+     "/page/1/ListGroup/9",
+     "/page/1/Text/10",
+     "/page/1/Text/12"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [
+     "8485",
+     "8484"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/ListGroup/9",
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/Text/0"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": "8:13 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/0"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": "8:16 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/2"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/2/Text/1"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/Text/1"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+      }
+     }
+    ],
+    "outcome_summary": "The motions to adopt Ordinance 8485, Ordinance 8484, and approve amendments to the Alpine-Balsam Connections Plan were approved 9-0.",
+    "outcome_summary_citations": [
+     "/page/2/Table/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council Boards and Commissions Subcommittee recommendations for BLA, DMC, and HAB appointments were noted; items will be placed on the October 19th meeting.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7",
+     "/page/2/Text/10"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No specific action recorded in the minutes.",
+    "outcome_summary_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council Retreat Committee discussed outreach and agenda focus.",
+    "outcome_summary_citations": [
+     "/page/2/Text/11",
+     "/page/3/Text/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No specific action recorded in the minutes.",
+    "outcome_summary_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Debrief",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No specific action recorded in the minutes.",
+    "outcome_summary_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Weaver at 8:45 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/4"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted 'agenda_items' are incomplete. Item 1.A (Declaration) is listed as item 1.A, but the HTML shows it under 'Call to Order' (Section 1), not as a separate agenda item number '1.A'. More critically, the extraction misses"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles are accurate. However, the 'attendance_note' is incorrect; the HTML states 'present virtually', not 'present virtually' as a combined phrase, and the schema requires the note to be 'participated remotely' or similar, but the extraction adds 'present' which is not in."
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2021-10-12",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2021-10-12' is accurate and directly supported by the citation '/page/0/Text/3' which states 'Tuesday, October 12, 2021'. The citation is correct, the information is accurate, and the citation is complete for this specific field."
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

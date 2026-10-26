@@ -1,0 +1,1336 @@
+{
+ "entry_id": 152003,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "74gxlmbxOBmEFzFO-5KM_g",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 20.0
+ },
+ "extraction": {
+  "meeting_date": "2001-04-03",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “APRIL 3, 2001” in /page/0/Text/1, supporting the extracted ISO date. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes call this the “regular April 3, 2001 meeting” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was held “in the Council Chambers” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 6:00 p.m. in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "8:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/5/Text/4"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/5/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement in /page/5/Text/4 states that the meeting was adjourned at 8:45 p.m. Conclusion: the value at /page/5/Text/4 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Toor called the meeting to order in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "LANDMARK ALTERATION CERTIFICATE, 1011 SPRUCE, FOR DEMOLITION OF AN EXISTING GARAGE AND SHED, AND CONSTRUCTION OF A TWO-CAR GARAGE. LAST OPPORTUNITY FOR CALL-UP: APRIL 3, 2001, WIP DATE: MARCH 15, 2001ACTION: UNANIMOUSLY APPROVED BY THE LANDMARKS PRESERVATION ADVISORY BOARD",
+   "LANDMARK ALTERATION CERTIFICATE, 943 SPRUCE, FOR DEMOLITION OF AN EXISTING GARAGE, AND CONSTRUCTION OF A TWO-CAR GARAGE. LAST OPPORTUNITY FOR CALL-UP: APRIL 3, 2001, WIP DATE: MARCH 15, 2001ACTION: CONDITIONALLY APPROVED BY THE LANDMARKS PRESERVATION ADVISORY BOARD.",
+   "LANDMARK ALTERATION CERTIFICATE, 13TH AND PEARL STREET PUBLIC RESTROOMS, FOR DEMOLITION OF AN EXISTING PUBLIC RESTROOM AND CONSTRUCTION OF A NEW PUBLIC RESTROOM AT THE NORTHEAST CORNER OF 13TH AND PEARL STREETS. LAST OPPORTUNITY FOR CALL-UP: APRIL 3, 2001, WIP DATE: MARCH 15, 2001ACTION: CONDITIONALLY APPROVED BY THE LANDMARKS PRESERVATION ADVISORY BOARD."
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/11",
+   "/page/3/Text/0",
+   "/page/3/ListGroup/2",
+   "/page/3/ListGroup/4"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/11",
+      "/page/3/Text/0"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is stated across /page/2/ListGroup/11 and /page/3/Text/0. Conclusion: the value at /page/2/ListGroup/11 and /page/3/Text/0 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The complete second call-up item appears in /page/3/ListGroup/2. Conclusion: the value at /page/3/ListGroup/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/ListGroup/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The complete third call-up item appears in /page/3/ListGroup/4. Conclusion: the value at /page/3/ListGroup/4 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains three potential call-up items, numbered 1 through 3, in /page/2/ListGroup/11, /page/3/ListGroup/2, and /page/3/ListGroup/4. Conclusion: the list is complete and agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the regular April 3, 2001 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "CITIZEN PARTICIPATION",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "CITIZEN PARTICIPATION",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard citizen participation and staff responses.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda items 3-A through 3-C, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "APPROVAL OF THE CITY COUNCIL MEETING MINUTES FROM MARCH 20, 2001.",
+    "title_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda items 3-A through 3-C, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "ACCEPTANCE OF SUMMARY FROM FEBRUARY 13, 2001 JOINT STUDY SESSION WITH THE PARKS AND RECREATION ADVISORY BOARD REGARDING THE VALMONT CITY PARK.",
+    "title_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda items 3-A through 3-C, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION AUTHORIZING THE PURCHASE OF APPROXIMATELY 64.5 ACRES IN FEE, ALONG WITH 20 SHARES OF LEFT HAND DITCH COMPANY WATER FROM SILVANO AND ELVIRA DELUCA FOR $1,395,000.00 FOR OPEN SPACE AND MOUNTAIN PARKS' PURPOSES.",
+    "title_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda items 3-A through 3-C, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Reviewed the implementation report for the University Hill Action Group recommendations. Announced that the next report would be on July 3rd.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "STATUS REPORT ON IMPLEMENTATION OF THE UNIVERSITY HILL ACTION GROUP (UHAG) RECOMMENDATIONS.",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Reviewed the implementation report for the University Hill Action Group recommendations. Announced that the next report would be on July 3rd.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council recommended a discussion on Council Committee Meeting Notice and voted to table the Loftus proposal motion to April 17, 2001.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Announced that the draft form of the City Trash ordinance is on the City Attorney website.",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Announced that the draft form of the City Trash ordinance is on the City Attorney website.",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/6"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Council Committee Meeting Notice. Council recommended that CAC set a date for a Council discussion on this issue.",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council recommended that CAC set a date for a Council discussion on this issue.",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/6"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Regarding the Loftus proposal in North Boulder, as one of the property owners the city must take action to allow the concept review process to move forward.",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council voted 5-4 to table the motion concerning the Loftus proposal to the April 17, 2001 City Council meeting.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council took no action on the potential call-ups and made CATV appointments.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM THE MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "POTENTIAL CALL-UPS:",
+    "title_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on these items.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS:",
+    "section_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE, 1011 SPRUCE, FOR DEMOLITION OF AN EXISTING GARAGE AND SHED, AND CONSTRUCTION OF A TWO-CAR GARAGE. LAST OPPORTUNITY FOR CALL-UP: APRIL 3, 2001, WIP DATE: MARCH 15, 2001ACTION: UNANIMOUSLY APPROVED BY THE LANDMARKS PRESERVATION ADVISORY BOARD",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "section": "POTENTIAL CALL-UPS:",
+    "section_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE, 943 SPRUCE, FOR DEMOLITION OF AN EXISTING GARAGE, AND CONSTRUCTION OF A TWO-CAR GARAGE. LAST OPPORTUNITY FOR CALL-UP: APRIL 3, 2001, WIP DATE: MARCH 15, 2001ACTION: CONDITIONALLY APPROVED BY THE LANDMARKS PRESERVATION ADVISORY BOARD.",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "section": "POTENTIAL CALL-UPS:",
+    "section_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE, 13TH AND PEARL STREET PUBLIC RESTROOMS, FOR DEMOLITION OF AN EXISTING PUBLIC RESTROOM AND CONSTRUCTION OF A NEW PUBLIC RESTROOM AT THE NORTHEAST CORNER OF 13TH AND PEARL STREETS. LAST OPPORTUNITY FOR CALL-UP: APRIL 3, 2001, WIP DATE: MARCH 15, 2001ACTION: CONDITIONALLY APPROVED BY THE LANDMARKS PRESERVATION ADVISORY BOARD.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "CONTINUED ANNUAL APPOINTMENTS TO BOARDS AND COMMISSIONS - CATV",
+    "title_citations": [
+     "/page/3/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adam Samuel Roth and Peter Gowen were appointed to two year terms, and Council requested that additional applicants be approached and considered at the April 17 th meeting.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "title": "PUBLIC COMMENT",
+    "title_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/3/Text/11"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "title": "FINAL DECISIONS",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Vote was taken on the motion to approve Consent Agenda Items 3-A through 3-C. The motion carried:9-0.",
+    "outcome_summary_citations": [
+     "/page/4/Text/1"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING AND AUTHORIZING THE ISSUANCE OF BOULDER MUNICIPAL PROPERTY AUTHORITY LEASE PURCHASE REVENUE NOTE, SERIES 2001B, IN THE AGGREGATE PRINCIPAL AMOUNT OF $580,000.00, AND APPROVING AND AUTHORIZING A LEASE PURCHASE AGREEMENT FOR THE PURCHASE OF APPROXIMATELY 39 ACRES IN FEE TOGETHER WITH ALL MINERAL RIGHTS AND 30 SHARES OF LEFT HAND DITCH COMPANY WATER, HESTER RESERVOIR AND COUGHLIN DITCH LOCATED NORTH OF NEBO ROAD BETWEEN FOOTHILLS HIGHWAY AND NORTH 39 TH STREET FROM THE HESTER FAMILY TRUST FOR OPEN SPACE AND MOUNTAIN PARKS' PURPOSES.",
+    "title_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7124"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted and ordered published by title only Ordinance No. 7124, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "INTRODUCTION, FIRST READING, AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY TWO ORDINANCES:",
+    "title_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7125",
+     "7126"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved first reading of Ordinance No. 7125 and Ordinance No. 7126, each 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "ADOPTING A NEW SECTION 5-4-16, B.R.C. 1981, CONCERNING THE PROHIBITION OF THE USE OF INDOOR FURNITURE IN AN OUTDOOR LOCATION.",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7125"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended, adopted and ordered published by title only Ordinance No. 7125, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "ADOPTING A NEW SECTION 5-3-11, B.R.C. 1981, CONCERNING NUISANCE PARTIES.",
+    "title_citations": [
+     "/page/4/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7126"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted and ordered published by title only Ordinance No. 7126, 9-0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY AMENDMENT TO EXISTING ORDINANCE #7032 CONCERNING THE MODIFICATION OF THE WATER AND SANITARY SEWER SERVICE ORDINANCE WITH THE BOULDER VALLEY SCHOOL DISTRICT SETTING FORTH THE PROVISION OF SUCH SERVICES TO THE NEW ENVIRONMENTAL EDUCATION FACILITY BEING CONSTRUCTED AT SOMBRERO MARSH, 6500 E. ARAPAHOE AVENUE.",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7127",
+     "7032"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council introduced and ordered published by title only Ordinance No. 7127, 9-0.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Corson, to approve Consent Agenda items 3-A through 3-C.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "The motion carried:9-0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Corson moved, seconded by Lopez to allow the Concept review process to proceed for the Loftus proposal with clarification that the Council is not taking any position regarding the project proposal.",
+    "motion_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "seconded_by": "Lopez",
+    "seconded_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "tabled",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/Text/8"
+    ],
+    "motion_text": "Councillemmber Halvic moved, seconded by Eldridge, to table the prior motion to the April 17, 2001 City Council meeting.",
+    "motion_text_citations": [
+     "/page/2/Text/8"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Halvic",
+    "moved_by_citations": [
+     "/page/2/Text/8"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/2/Text/8"
+    ],
+    "vote_text": "The motion carried: 5-4. Corson, Lopez, Poinsatte and Toor opposed.",
+    "vote_text_citations": [
+     "/page/2/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/2/Text/8"
+    ],
+    "no_count": 4,
+    "no_count_citations": [
+     "/page/2/Text/8"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Corson",
+     "Lopez",
+     "Poinsatte",
+     "Toor"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/4/Text/5"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Morzel, to adopt and order published by title only Ordinance No. 7124 approving and authorizing the issuance of Boulder Municipal Property Authority lease Purchase Revenue Note, Series 2001B, in the aggregate principal amount of $580,000.00, and approving and authorizing a Lease Purchase Agreement for the purchase of approximately 39 acres in fee together with all mineral rights and 30 shares of left hand Ditch Company water, Hester Reservoir and Coughlin Ditch located north of Nebo Road between Foothills Highway and North 39 th Street from the Hester Family Trust for Open Space and Mountain Parks' purposes.",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7124"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text": "The motion carried:9-0.",
+    "vote_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "motion_text": "Councilmember Havlick moved, seconded by Corson, to amend, adopt and order published by title only Ordinance No. 7125 concerning the prohibition of the use of indoor furniture in an outdoor location.",
+    "motion_text_citations": [
+     "/page/4/Text/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7125"
+    ],
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/4/Text/8"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/4/Text/8"
+    ],
+    "vote_text": "The motion carried: 9-0.",
+    "vote_text_citations": [
+     "/page/4/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Havlick moved, seconded by Corson, to adopt and order published by title only Ordinance No. 7126 concerning nuisance parties.",
+    "motion_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7126"
+    ],
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "vote_text": "The motion carried:9-0.",
+    "vote_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "motion_text": "Councilmember Morzel moved, seconded by Eldridge, to introduce and order published by title only Ordinance No. 7127 an Emergency Amendment to existing Ordinance #7032 concerning the modification of the water and sanitary sewer service ordinance with the Boulder Valley School District setting forth the provision of such services to the new environmental education facility being constructed at Sombrero Marsh, 6500 E. Arapahoe Avenue.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7127",
+     "7032"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "vote_text": "The motion carried: 9-0.",
+    "vote_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 8:45 p.m.",
+    "motion_text_citations": [
+     "/page/5/Text/4"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/5/Text/2"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/5/Text/2"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Lopez",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/2/Text/8"
+    ],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Michael Kennedy",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "50 year resident who was appalled by the lewd language and graphic behavior being purported on Public Access T.V. Channel 54.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Brian Hanley",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "furniture and nuisance party ordinances. Opposed to proposed ordinances as he felt they set a dangerous precedent for a problem that only exists in one area of the city.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Vinyl Slipcovers. Opposed to prohibiting outdoor couches. Also spoke in opposition to a Super Target at Crossroads.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Terry Rodrigue",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Spoke on behalf of University Hill neighborhood renovation - re: Aloha Trash program- spoke in support, noting that this will be a critical element in cleaning up \"the hill.\"",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Eleanor DePuy",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "also a University Hill resident speaking in favor of the Aloha program (attachment).",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Doug Crigler",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Goss-Grove Neighborhood Association. Spoke on behalf of association in support of the nuisance ordinance and in very strong support of the sofa ordinance.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Kenneth Wilson",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Also a member of the University Hill Neighborhood Association - applauded police enforcement efforts and supports both the sofa ordinance and the nuisance party ordinance.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Bob McFarland",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Pearl Street Mall 1) Don't mess with the sales tax and 2) keep the grass on the mall.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "commented on the guest opinion editorial by Steve Fisher. Spoke in support of his suggestions. Also opposed to the sofa ordinance and Rocky Flats designation as a wildlife refuge (should be treated as a toxic waste site).",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Edward Riedel",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Boulder Community Velodrome. Encouraged that a letter of interest be issued to allow process to move forward.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Stephen Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "concerns with the Comp Plan update process.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Jeep Campbell",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "couches and nuisance ordinances.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Ruth Blackmore",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Taggart Phase A report on South Boulder Creek Floodplain. The study is flawed and should not move on to Phase B. Announced that the County Commissioners rejected all options in the Phase A Taggart Report at today's hearing.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Crystal Gray",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "presented a slide show on the Open Space purchases currently listed on the Consent Agenda.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Ron Forthofer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke in opposition to removing any trees or grass on the Pearl Street Mall.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

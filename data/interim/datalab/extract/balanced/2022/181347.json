@@ -1,0 +1,1218 @@
+{
+ "entry_id": 181347,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "inQHxbgNIYnrJLPZRkEa3Q",
+ "page_count": 5,
+ "cost_breakdown": {
+  "final_cost_cents": 40.0
+ },
+ "extraction": {
+  "meeting_date": "2022-08-11",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/Text/3 gives the meeting date in a form corresponding to the extraction. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 agrees with the extraction. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 identifies this as a special meeting. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated at /page/0/Text/2 and agrees with the extraction. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order statement at /page/0/Text/6 agrees with the extraction. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/4/Text/6"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement at /page/4/Text/6 agrees with the extraction. Conclusion: the value at /page/4/Text/6 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order statement at /page/0/Text/6 identifies Mayor Brockett as presiding. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no section or entries for call-ups or call-up check-ins. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/11"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "COVID-19 and Hybrid Council Meeting Discussion",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council elected to return to a hybrid format in Council Chambers for the September 1st, 2022 meeting and to phase in the public returning.",
+    "outcome_summary_citations": [
+     "/page/0/Text/11"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8534",
+     "8483",
+     "8539",
+     "8540",
+     "8546",
+     "8542"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Second reading and public hearing on the following ballot items:",
+    "title_citations": [
+     "/page/0/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8534",
+     "8483",
+     "8539",
+     "8540",
+     "8546",
+     "8542"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "6:40 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/2"
+    ],
+    "hearing_closed_time": "8:08 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Leslie Glustrom",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Budd",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Andrew Harris",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sarah Dawn Haynes",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nick Grossman",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lila Hickey",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Farnan",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kevin McWilliams",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jill Grano",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Whitaker",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Sweeney-Miran",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Theodore Koenig",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathie Joyner",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Thomas Wells",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kristen Eller",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kurt Nordback",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Krista Nordback",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shari Hack",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Quigley",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jud Valeski",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rebecca Davies",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Spalding",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Andy Sayler",
+      "name_citations": [
+       "/page/2/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "RJ Boyle",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rosemary Hegarty",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mike Marsh",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Glover",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Paul Culnan",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lori Call",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Banyan",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kristian Kerr",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Max Hollingsworth",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kristen Hess",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rosie Fivian",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Celeste Landry",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Harris",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chris Nicholson",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shawn Rupp",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chelsea Castellano",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Judy Amabile",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Laura Tyler",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8534 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to repeal Ordinance 8483 regarding the annexation of CU South; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8534",
+     "8483"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/1"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8539 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 65, 102 and 130 and repeal Sections 69, 132, 133, and 134 from the Boulder Home Rule Charter if the initiative to create a library district on the Boulder County Ballot is approved at this election; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8539"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/Text/2"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8540 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5 and 9 of the Boulder Home Rule Charter to prohibit running for more than one office at an election, allow a council member whose term does not expire at the election to run for mayor in the election, fill a vacancy for the expired term, and change the swearing-in date of newly elected officials; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/1/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8540"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/Text/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8546 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the question of whether to amend Sections 5, 14 and 22 of the Boulder Home Rule Charter to change the regular municipal elections of candidates to even-numbered years beginning in 2026; implement the transition by reducing the terms of the council members elected in 2023 and 2025 to three years and increasing the term of the mayor elected in 2023 to three years; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [
+     "/page/1/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8546"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/12"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8542 submitting to the registered electors of the City of Boulder at the Special Municipal Coordinated Election to be held on Tuesday, November 8, 2022, the questions of authorizing the City Council to replace the existing utility occupation tax and climate action plan excise tax with a new climate tax beginning January 1, 2023, and expiring December 31, 2040, and authorizing debt to be repaid from such tax up to a principal amount of $52,900,000 to meet the city’s climate goals; specifying the form of the ballot and other election procedures; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8542"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Matters from Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Matters from Mayor and Members of Council",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council members Friend and Speer expressed interest in participating in the engagement sessions; Council member Benjamin deferred to them.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Text/2"
+    ],
+    "section": "Matters from Mayor and Members of Council",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Discussion on Council Member’s attendance to participate in the stakeholder engagement sessions related to the establishment of the City Day Services Shelter",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council members Friend, Speer and Benjamin expressed interest in participating in the engagement sessions. Council member Benjamin then deferred to Council members Friend and Speer.",
+    "outcome_summary_citations": [
+     "/page/4/Text/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 9:45 p.m.",
+    "outcome_summary_citations": [
+     "/page/4/Text/6"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Table/2"
+    ],
+    "motion_text": "Motion to CONTINUE the public hearing on ballot items with amendments to Ordinances 8534, 8542 and 8546",
+    "motion_text_citations": [
+     "/page/3/Table/2"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8534",
+     "8542",
+     "8546"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/3/Table/2"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/3/Table/2"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/3/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 9:45 p.m.",
+    "motion_text_citations": [
+     "/page/4/Text/6"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Leslie Glustrom",
+    "topic": ""
+   },
+   {
+    "name": "Eric Budd",
+    "topic": ""
+   },
+   {
+    "name": "Spencer Wilcox",
+    "topic": ""
+   },
+   {
+    "name": "Andrew Harris",
+    "topic": ""
+   },
+   {
+    "name": "Sarah Dawn Haynes",
+    "topic": ""
+   },
+   {
+    "name": "Nick Grossman",
+    "topic": ""
+   },
+   {
+    "name": "Lila Hickey",
+    "topic": ""
+   },
+   {
+    "name": "Katie Farnan",
+    "topic": ""
+   },
+   {
+    "name": "Kevin McWilliams",
+    "topic": ""
+   },
+   {
+    "name": "Jill Grano",
+    "topic": ""
+   },
+   {
+    "name": "Steve Whitaker",
+    "topic": ""
+   },
+   {
+    "name": "Lisa Sweeney-Miran",
+    "topic": ""
+   },
+   {
+    "name": "Theodore Koenig",
+    "topic": ""
+   },
+   {
+    "name": "Kathie Joyner",
+    "topic": ""
+   },
+   {
+    "name": "Thomas Wells",
+    "topic": ""
+   },
+   {
+    "name": "Kristen Eller",
+    "topic": ""
+   },
+   {
+    "name": "Kurt Nordback",
+    "topic": ""
+   },
+   {
+    "name": "Krista Nordback",
+    "topic": ""
+   },
+   {
+    "name": "Shari Hack",
+    "topic": ""
+   },
+   {
+    "name": "Evan Ravitz",
+    "topic": ""
+   },
+   {
+    "name": "Linda Quigley",
+    "topic": ""
+   },
+   {
+    "name": "Jud Valeski",
+    "topic": ""
+   },
+   {
+    "name": "Rebecca Davies",
+    "topic": ""
+   },
+   {
+    "name": "Lisa Spalding",
+    "topic": ""
+   },
+   {
+    "name": "Leslie Barrett",
+    "topic": ""
+   },
+   {
+    "name": "Andy Sayler",
+    "topic": ""
+   },
+   {
+    "name": "RJ Boyle",
+    "topic": ""
+   },
+   {
+    "name": "Rosemary Hegarty",
+    "topic": ""
+   },
+   {
+    "name": "Mike Marsh",
+    "topic": ""
+   },
+   {
+    "name": "David Glover",
+    "topic": ""
+   },
+   {
+    "name": "Paul Culnan",
+    "topic": ""
+   },
+   {
+    "name": "Lori Call",
+    "topic": ""
+   },
+   {
+    "name": "Jennifer Banyan",
+    "topic": ""
+   },
+   {
+    "name": "Kristian Kerr",
+    "topic": ""
+   },
+   {
+    "name": "Max Hollingsworth",
+    "topic": ""
+   },
+   {
+    "name": "Kristen Hess",
+    "topic": ""
+   },
+   {
+    "name": "Rosie Fivian",
+    "topic": ""
+   },
+   {
+    "name": "Celeste Landry",
+    "topic": ""
+   },
+   {
+    "name": "Lisa Harris",
+    "topic": ""
+   },
+   {
+    "name": "Emily Reynolds",
+    "topic": ""
+   },
+   {
+    "name": "Juan Marcano",
+    "topic": "did not show"
+   },
+   {
+    "name": "Chris Nicholson",
+    "topic": ""
+   },
+   {
+    "name": "Shawn Rupp",
+    "topic": ""
+   },
+   {
+    "name": "Chelsea Castellano",
+    "topic": ""
+   },
+   {
+    "name": "Judy Amabile",
+    "topic": ""
+   },
+   {
+    "name": "Laura Tyler",
+    "topic": ""
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "note": null,
+    "note_citations": []
+   }
+  ]
+ }
+}

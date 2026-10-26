@@ -1,0 +1,1504 @@
+{
+ "entry_id": 177180,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "ycSe_qA3gtgUn9LFBwmDYA",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 23.0
+ },
+ "extraction": {
+  "meeting_date": "2021-06-15",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, June 15, 2021” in /page/0/Text/3, supporting the extracted date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading “CITY COUNCIL MEETING” appears in /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/PageFooter/9"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/PageFooter/9"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The footer identifies this as a “Regular Meeting” in /page/0/PageFooter/9. Conclusion: the value at /page/0/PageFooter/9 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Via Video Conferencing” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the mayor called the meeting to order at 6:01 p.m. in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:48 p.m.",
+  "adjourned_time_citations": [
+   "/page/6/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/6/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at 10:48 p.m. in /page/6/Text/1. Conclusion: the value at /page/6/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Mayor Weaver called the meeting to order” in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Concept Plan Review and Comment: For the redevelopment of a 9.27 acre property located at 3320 28th St., and 3265 and 3267 30th Street as a mixed-use development that includes ground floor retail along 28th Street and the proposed Street “A” along with ground floor amenity space with upper story workforce and permanently affordable apartments. There are two options proposed: the first option includes 177 workforce apartments within five buildings and with 9,942 sf of amenity space, a shared deck and a clubhouse, and 58 permanently affordable apartments. The second option matches the first but includes additional residential units with approximately 195 workforce apartments and 64 permanently affordable apartments; it also includes a fourth story on one of the buildings with an additional roof deck. Reviewed under case no. LUR2021-00011",
+   "B. Full vacation of a 11,150 square foot and a partial vacation of a 9,153 square foot water line easement at 350 Ponca Pl. (ADR2020-00178)",
+   "C. Vacation of an approximately 4,307 square feet public utility easement at 6400 Arapahoe Ave. The vacation is associated with a water main relocation associated with TEC2020-00033. (ADR2020-00264)",
+   "D. Landmark Alteration Certificate: Consideration of a proposal to construct a 338 sq ft accessory building, in-ground pool, retaining wall and fence at 933 Mapleton Ave. a contributing property in the Mapleton Hill Historic District",
+   "E. Landmark Alteration Certificate: Consideration of a proposal for the on-site relocation of a contributing accessory building at 406 Pearl St. a non-contributing property in the West Pearl Historic District"
+  ],
+  "call_up_items_citations": [
+   "/page/3/Text/4",
+   "/page/3/Text/6",
+   "/page/3/Text/8",
+   "/page/3/Text/10",
+   "/page/4/ListGroup/0"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/Text/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item appears in /page/3/Text/4. Conclusion: the value at /page/3/Text/4 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/Text/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item appears in /page/3/Text/6. Conclusion: the value at /page/3/Text/6 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/Text/8"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item appears in /page/3/Text/8. Conclusion: the value at /page/3/Text/8 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/3/Text/10"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item appears in /page/3/Text/10. Conclusion: the value at /page/3/Text/10 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/4/ListGroup/0"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item appears in /page/4/ListGroup/0. Conclusion: the value at /page/4/ListGroup/0 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains five call-up check-in items, A through E, in /page/3/Text/4, /page/3/Text/6, /page/3/Text/8, /page/3/Text/10, and /page/4/ListGroup/0. Conclusion: the value at /page/3/Text/4, /page/3/Text/6, /page/3/Text/8, /page/3/Text/10, and /page/4/ListGroup/0 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/6"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:01 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Declaration recognizing Immigrant Heritage Month to be presented by Council Member Wallach",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Declaration recognizing “Juneteenth” to be presented by Mayor Weaver",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Declaration in honor of Tom Carr for his years of service to the City of Boulder presented by Council Member Young",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Declaration in honor of Chief Deputy City Attorney David Gehr for his years of service to the City of Boulder presented by Council Member Brockett",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/1/Text/5"
+    ],
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/1/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 7:03 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/5"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda except items C and F and declared Breena Meng and Adam Mingal the City Attorney finalists; the motion carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Motion to accept the May 25, 2021 Study Session Summary regarding 2021 Ballot Items",
+    "title_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Motion to accept the May 25, 2021 Study Session Summary regarding Municipal Funding Options",
+    "title_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Consideration of a motion to amend the Council Rules of Procedure, Council Working Agreements and Emergency Rules for Quasi-Judicial Hearings - REMOVED from Consent – NO VOTE",
+    "title_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The item was removed from Consent to allow time to consider submitted updates; no vote was taken.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to consent to the appointment , by the mayor, of two former planning board members as alternates to hear an application for annexation and initial zoning of the property located at 4886 and 5278 Table Mesa Dr, 718 Marshall Rd, 0 Hwy 36, 4745 W. Moorhead Dr, and generally known as the CU Boulder South property , (LUR2019-00010) finding that there will be two planning board member absences due to conflicts of interest and that such appointments shall be consistent with the adopted council procedural rule for such appointments",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only and adopt by emergency measure Ordinance 8468 adopting Supplement 147 which codifies previously adopted ordinances, as amendments to the Boulder Revised Code, 1981, and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8468"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of the following ordinances related to the Community Benefit Phase 2 project: 1. Introduction , first reading and consideration of a motion to order published by title only Ordinance 8469 , which proposes to amend Title 9, “Land Use Code,” by implementing Phase 2 of the Community Benefit project by adding below market rate non-residential uses as options associated with requests for additional height or floor area in specified areas and setting forth details in relation thereto, and 2. Introduction , first reading and consideration of a motion to order published by title only Ordinance 8471 , which proposes to amend Title 9, “Land Use Code,” by extending the Appendix J, “Areas Where Height Modifications May be Considered” map expiration date from August 31, 2021 to the proposed effective date of Ordinance 8469 on Jan. 1, 2022- REMOVED from Consent – NO VOTE",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8469",
+     "8471"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The item was removed from Consent without a vote, with staff to consider council concerns and present updated versions of the ordinance at the July 13, 2021 meeting.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only Ordinance 8470 amending Section 8-3-21, B.R.C. 1981, “Tents and Nets Prohibited” to extend the prohibition to all city-owned property, excluding shade structures in urban parks and recreation areas, regulating the use of propane tanks on city-owned property",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8470"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading, and consideration of a motion to order published by title only Ordinance 8472 adopting an intergovernmental agreement between Boulder County Sheriff’s Office and the City of Boulder, relating to law enforcement response, specifically the expansion of the authority to write county parking violations to all OSMP Rangers and city code enforcement officers on county and state rights-of-way adjacent to city-owned property",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8472"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading, and consideration of a motion to order published by title only Ordinance 8473 amending Sections 2-6-4, “Judges,” and 5-2-4, “General Penalties,” B.R.C. 1981, to increase the maximum penalty provisions; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8473"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the item as part of the consent agenda, which carried 9:0 as amended.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/2"
+    ],
+    "title": "Update from City Attorney Search Committee identifying City Attorney Finalists – Motion to accept candidates as finalist",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council declared Breena Meng and Adam Mingal the finalists for the City Attorney position as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/Text/4"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Concept Plan Review and Comment: For the redevelopment of a 9.27 acre property located at 3320 28th St., and 3265 and 3267 30th Street as a mixed-use development that includes ground floor retail along 28th Street and the proposed Street “A” along with ground floor amenity space with upper story workforce and permanently affordable apartments. There are two options proposed: the first option includes 177 workforce apartments within five buildings and with 9,942 sf of amenity space, a shared deck and a clubhouse, and 58 permanently affordable apartments. The second option matches the first but includes additional residential units with approximately 195 workforce apartments and 64 permanently affordable apartments; it also includes a fourth story on one of the buildings with an additional roof deck. Reviewed under case no. LUR2021-00011",
+    "title_citations": [
+     "/page/3/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council called up the item by a vote of 9:0, with a public hearing to be scheduled.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/Text/6"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Full vacation of a 11,150 square foot and a partial vacation of a 9,153 square foot water line easement at 350 Ponca Pl. (ADR2020-00178)",
+    "title_citations": [
+     "/page/3/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/3/Text/8"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Vacation of an approximately 4,307 square feet public utility easement at 6400 Arapahoe Ave. The vacation is associated with a water main relocation associated with TEC2020-00033. (ADR2020-00264)",
+    "title_citations": [
+     "/page/3/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/3/Text/10"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Landmark Alteration Certificate: Consideration of a proposal to construct a 338 sq ft accessory building, in-ground pool, retaining wall and fence at 933 Mapleton Ave. a contributing property in the Mapleton Hill Historic District",
+    "title_citations": [
+     "/page/3/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Landmark Alteration Certificate: Consideration of a proposal for the on-site relocation of a contributing accessory building at 406 Pearl St. a non-contributing property in the West Pearl Historic District",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/4/Text/1"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8466 for Landmark Designation for 96 Arapahoe Ave. (Nuzum’s Nursery)",
+    "title_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8466"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:20 p.m.",
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": "8:21 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/7"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8466 by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/ListGroup/10"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8458 amending Chapter 3-19, “Electronic Smoking Device Tax,” 4-32, “Tobacco Retailers,” 6-4, “Regulation of Smoking,” and 6-4.5, “Sale of Tobacco Products,” and Section 4-20-75, “Tobacco Retailer License Fee,” B.R.C. 1981, to clarify licensing of tobacco and electronic smoking device retailers; tax on electronic smoking devices by all businesses; and setting forth related details",
+    "title_citations": [
+     "/page/4/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8458"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:12 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/12"
+    ],
+    "hearing_closed_time": "9:38 p.m. and then again 9:46 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Bonnie Dahl",
+      "name_citations": [
+       "/page/4/ListGroup/13"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Liz Zukowski",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jordan Wellington",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Andrea Meneghel",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jason Dahl",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Colt Stander",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Ravitz",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "No motion was made; staff was directed to revisit the amendments, solicit recommendations from the Cannabis Licensing Advisory Board, and bring final recommendations back for continuation of second reading.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/5/ListGroup/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8462 amending Chapter 3-20, “Rental License Excise Tax,” and Chapter 12-2, “Landlord – Tenant Relations,” B.R.C. 1981, making changes to implement the provisions related to eviction prevention and rental assistance services; and setting forth related details",
+    "title_citations": [
+     "/page/5/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8462"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "10:37 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_closed_time": "10:43 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/7"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Julie Van Domelen",
+      "name_citations": [
+       "/page/5/ListGroup/6"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8462 by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 10:48 p.m.",
+    "outcome_summary_citations": [
+     "/page/6/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: 1. To ADD items x 1C – Declaration for Tom Carr for his years of service to the City of Boulder x 1D – Declaration for Chief Deputy City Attorney David Gehr and his years of service to the City of Boulder x 3J - Update from City Attorney Search Committee identifying City Attorney Finalists – Motion to accept candidates as finalist 2. To REORDER the Public Hearings x 5C to 5A – 2nd Rdg and motion to adopt Ord 8466 - Designating a portion of the property at 96 Arapahoe Ave. as an individual landmark – x 5A to 5B - 2nd Rdg and motion to adopt Ord 8458 - Licensing of Tobacco & Electronic Smoking Devices x 5B to 5C - 2nd Rdg and motion to adopt Ord 8462 - Changes to implement the provisions related to eviction prevention and rental assistance services",
+    "motion_text_citations": [],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8466",
+     "8458",
+     "8462"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ACCEPT the consent agenda except for items C and F and with respect to Item J, that council declare the finalists for the City Attorney position be Breena Meng and Adam Mingal",
+    "motion_text_citations": [
+     "/page/3/Table/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/3/Table/2"
+    ],
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/3/Table/2"
+    ],
+    "vote_text": "Carried 9:0 As Amended",
+    "vote_text_citations": [
+     "/page/3/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Text/5"
+    ],
+    "motion_text": "CALLED UP – Carried 9:0 Public Hearing to be scheduled",
+    "motion_text_citations": [
+     "/page/3/Text/5"
+    ],
+    "action_type": "call_up",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/3/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/4/Table/9"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8466 designating two buildings and a portion of the property at 96 Arapahoe Ave., to be known as Nuzum’s Nursery , as an individual landmark under the City of Boulder Historic Preservation Ordinance",
+    "motion_text_citations": [
+     "/page/4/Table/9"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8466"
+    ],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/4/Table/9"
+    ],
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/4/Table/9"
+    ],
+    "vote_text": "Carried: 8:0",
+    "vote_text_citations": [
+     "/page/4/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Table/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Nagle"
+    ]
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/5/Table/8"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8462 amending Chapter 3-20, “Rental License Excise Tax,” and Chapter 12-2, “Landlord – Tenant Relations,”",
+    "motion_text_citations": [
+     "/page/5/Table/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Table/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8462"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/5/Table/8"
+    ],
+    "seconded_by": "Swetlik",
+    "seconded_by_citations": [
+     "/page/5/Table/8"
+    ],
+    "vote_text": "Carried: 8:0",
+    "vote_text_citations": [
+     "/page/5/Table/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Table/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Table/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Nagle"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/6/ListGroup/0"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 10:48 p.m.",
+    "motion_text_citations": [
+     "/page/6/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/6/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Weaver",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/4/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/4/Text/8"
+    ],
+    "attendance_note": "left the meeting at 8:20 p.m.",
+    "attendance_note_citations": [
+     "/page/4/Text/8"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "topic": "Online petitioning, homelessness",
+    "topic_citations": [
+     "/page/1/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "topic": "BO economic health",
+    "topic_citations": [
+     "/page/1/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Timothy Thomas",
+    "name_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "topic": "Juneteenth, environmental health",
+    "topic_citations": [
+     "/page/1/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Lisa Spalding",
+    "name_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "topic": "Community Benefit",
+    "topic_citations": [
+     "/page/1/ListGroup/4"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "topic": "Council emails, climate change",
+    "topic_citations": [
+     "/page/1/ListGroup/4"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

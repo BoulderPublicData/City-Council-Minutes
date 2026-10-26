@@ -1,0 +1,1592 @@
+{
+ "entry_id": 152010,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "NNNjfUhru4-C6QWpRXCkPQ",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 27.0
+ },
+ "extraction": {
+  "meeting_date": "2001-02-06",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “FEBRUARY 6, 2001” in /page/0/Text/1, supporting the normalized date. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extraction. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes describe this as the “regular February 6, 2001 meeting” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was held “in the Council Chambers” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 6:00 p.m. in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:38 p.m.",
+  "adjourned_time_citations": [
+   "/page/6/Text/5"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/6/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment text states that the meeting was adjourned at 10:38 p.m. in /page/6/Text/5. Conclusion: the value at /page/6/Text/5 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Toor called the meeting to order in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The document contains no call-up or call-up check-in items from boards or commissions. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "John Bates",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "Need for Boulder Flood Awareness Day. Urged Council to establish as an annual event.(attachment)",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Susan Morris",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "Jobs Reduction Strategy- urged different approach and better process.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Doug Crigler",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "Implementation of UHAG proposals. Concerned that Goss Grove will become a \"step-child\" neighborhood.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Earl McLaughlin",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "Job reduction/down zoning of commercial properties. Recommended that an economic analysis be done and that the public be involved in the process.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Tom Russell",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "on behalf of University Hill Neighborhood Association. Spoke in support of the implementation plan proposed by UHAG.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Terry Rodrigue",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "UHAG member- also in support of implementation plan.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "Raised concerns about the invasive nature of street sweeping and ice clean-up equipment.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Vince Porreca",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "Letter distributed to Council re BVCP/ Job Reduction/ Housing production (attachment).",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Mag Curtis",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Trash in the 900 block of Euclid in the alley, the situation has greatly improved due to enforcement.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jeep Campbell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "1) Spoke in favor of the Weapons Ordinance- had concerns with the process. Suggested letting Boulder citizens speak first. 2) raised concerns that may prohibit public hearing on Homeless Shelter.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Robert Sharpe",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Citizen Participation process. Feels disappointed and feels the process could be greatly improved.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Bill Curtis",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "UHAG member- spoke in support of the changes that have already been enacted in improving the “Hill”.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Wallace Campbell",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke of injuries incurred from a Boulder Police officer during an altercation over a year ago. Looking for an investigation into the incident (attachment).",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "spoke of upcoming community events of interest.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Mike McSweeny",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Jobs Reduction, telt that this issue needs to be re-thought. Do not damage a sound business economy.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jeep Campbell",
+    "name_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "topic": "spoke in support of items 6-A and 6-B.",
+    "topic_citations": [
+     "/page/3/ListGroup/3"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the regular February 6, 2001 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/6"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "SPECIAL RECOGNITION OF MEDAL OF SCIENCE WINNERS: DR. GILBERT WHITE AND DR. SUSAN SOLOMON.",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor presented special declarations for each of the recipients of the Medal of Science and gave them each a gift thanking them for their contributions to our community as well as applauding their national achievements.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/Text/8"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "SPECIAL PRESENTATION TO BOULDER CITY ATTORNEY JOSEPH N. DE RAISMES, AS OUTSTANDING CITY ATTORNEY OF THE YEAR.",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor presented Joseph de Raismes with a plaque designating him as the Outstanding City Attorney of the Year by the Metro City Attorney's Association and thanked him for his continued excellent service to the City of Boulder.",
+    "outcome_summary_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CITIZEN PARTICIPATION",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title": "CITIZEN PARTICIPATION",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council requested further information regarding the Walter Campbell incident.",
+    "outcome_summary_citations": [
+     "/page/1/Text/3"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7115"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda Items 3-A through 3-F except item 3-C by 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM JANUARY 16, 2001.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF ORDINANCE NO. 7115 AMENDING CHAPTER 5-8, “WEAPONS,” B.R.C. 1981.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7115"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "title": "CONSIDERATION OF A 20-YEAR LEASE TO GLEN MARSHMAN, ROBERT RABINO, AND WILLIAM CONNER, FOR THE CONSTRUCTION OF ONE AIRCRAFT HANGAR AT THE BOULDER MUNICIPAL AIRPORT.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "After removal from the Consent Agenda, Council approved the 20-year lease by 5 - 3, Havlick, Morzel and Poinsatte opposed, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF AN OIL AND GAS LEASE ON 360 ACRES OF THE VAN VLEET AND JEWEL MOUNTAIN OPEN SPACE PROPERTIES INTO PLAINVIEW OIL AND GAS, INC.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF THE PURCHASE OF A CONSERVATION EASEMENT ON APPROXIMATELY 6 ACRES LOCATED AT 5672 MARSHALL DRIVE FROM JOHN AND SHARON PARKER FOR OPEN SPACE PURPOSES.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION APPROVING COMMUNITY HOUSING ASSISTANCE PROGRAM (CHAP), HOME INVESTMENT PARTNERSHIP, CASH IN LIEU, GENERAL FUND AND COMMUNITY DEVELOPMENT BLOCK GRANT (CDBG) RECOMMENDATIONS FOR THE 2001 HOUSING AND COMMUNITY DEVELOPMENT FUND ROUND.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER:",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Ron Secrist reported to Council on the implementation plan from the University Hill Action Group, and indicated that a second report would be scheduled for April 3rd",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/Text/4"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "STATUS REPORT ON IMPLEMENTATION OF THE UNIVERSITY HILL ACTION GROUP RECOMMENDATIONS.",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Ron Secrist reported to Council on the implementation plan from the University Hill Action Group, and indicated that a second report would be scheduled for April 3rd",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY - None",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/2/SectionHeader/5"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "875",
+     "876"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Resolutions No. 875 and No. 876, directed staff to examine affordable office space for Public Non-Profits, and discussed the commercial growth public process.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION SUPPORTING THE EXECUTIVE ORDER, DESIGNATING 58 MILLION ACRES OF FOREST SERVICE LAND AS ROADLESS AREAS.",
+    "title_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "875"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Resolution No. 875 by 6 - 2, Lopez absent, Eldridge and Riggle opposed.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION SUPPORTING THE ENVIRONMENTAL PROTECTION AGENCY'S FINAL RULE FOR HEAVY- DUTY DIESEL FUEL AND ENGINE EMISSIONS.",
+    "title_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "876"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Resolution No. 876 with the friendly amendment on inversions and air pollutants by 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/Text/13"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "PLIGHT OF NON-PROFIT AVAILABILITY OF OFFICE SPACE - Councilmember Corson",
+    "title_citations": [
+     "/page/2/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "After discussion, Council concurred to direct staff to define the scope of the problem of the Public Non-Profits in obtaining affordable office space and to then to identify possible approaches, perhaps through re-development projects.",
+    "outcome_summary_citations": [
+     "/page/2/Text/13"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "MANAGING COMMERCIAL GROWTH PUBLIC PROCESS.",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Target date of 2002 for completion was the Council concensus.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "PUBLIC COMMENT:",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "FINAL DECISIONS:",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "875",
+     "876"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the Consent Agenda except item 3-C by 8 - 0, adopted Resolution No. 875 by 6 - 2 and Resolution No. 876 by 8 - 0, with Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NOS. 7116 AND 7118 AMENDING THE MXR-D (MIXED DENSITY RESIDENTIAL - DEVELOPING ) AND MU-D (MIXED-USE DEVELOPING) ZONING DISTRICTS",
+    "title_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7116",
+     "7118"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Jeep Campbell",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Young",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council amended Ordinance No. 7116 by 8 - 0 and Ordinance No. 7118 by 7-1, with third readings required on February 20 th on the Consent Agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "16",
+    "item_number_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "TO ALLOW A DENSITY BONUS FOR AFFORDABLE HOUSING IN THE MXR-D ZONING DISTRICT AS FOLLOWS: TO MAINTAIN THE MAXIMUM DENSITY IN THE MXR-D ZONING DISTRICT AT 10 UNITS PER ACRE, BUT ALLOW AN INCREASE TO THE MAXIMUM DENSITY WHEN MORE AFFORDABLE HOUSING IS PROVIDED AS FOLLOWS: UP TO 15 UNITS PER ACRE WHEN AT LEAST 30% OF THE DWELLING UNITS ARE PERMANENTLY AFFORDABLE, AND UP TO 18 UNITS PER ACRE IF AT LEAST 35% OF THE UNITS ARE PERMANENTLY AFFORDABLE; AND",
+    "title_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7116"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Jeep Campbell",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Young",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council amended Ordinance No. 7116 to allow up to 20 units per acre if at least 40% of the units are permanently affordable by 8 - 0, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "ALLOW RESTAURANTS NO LARGER THAN 1,000 SQUARE FEET THROUGH USE REVIEW IN THE MU-D ZONING DISTRICT.",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7118"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended Ordinance No. 7118 to allow restaurants no larger than 1,500 square feet by-right in the MU-D zoning district by 7-1, Mock opposed, Lopez absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/9"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7117 AMENDING TITLE 9, “LAND USE REGULATIONS,” INCLUDING SECTION 9-1-3, “DEFINITIONS,” 9-3.1-1, “SCHEDULE OF PERMITTED USES OF LAND,” SECTION 9-3.2-19, “FLOOR AREA RATIOS FOR THE MU-D, RMS-X AND TB-E ZONING DISTRICTS,” SECTION 9-3.3-6, “FENCES, HEDGES AND WALLS,” SECTION 9-3.3-7, “PARKING,” SECTION 9-3.4-3, “CONDITIONAL USE STANDARDS, CRITERIA AND REVIEW,” SECTION 9-3.4-12, “ACCESSORY DWELLING UNIT,” SECTION 9-3.4-13, “OWNER’S ACCESSORY UNIT,” SECTION 9-4-2, “DEVELOPMENT REVIEW APPLICATION,” SECTION 9-4-9, “USE REVIEW,” SECTION 9-8-4, “SOLAR ACCESS AREAS ESTABLISHED,” SECTION 9-10-6, “DECLARATION OF USE,” SECTION 9-10-8, “MULTIPLE DWELLING UNITS; SPECIFIC DEFENSE,” B.R.C. 1981, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7117"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council amended Ordinance No.7117 by 6 - 1, Mock opposed, Eldridge recused and Lopez absent; a motion to restore page 10-8 (a)(5) failed 3-4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "section": "DISCUSSION ITEM:",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "CARRY OVER ISSUES FROM THE JANUARY 23RD COMPREHENSIVE PLAN STUDY SESSION: 1. PLANNING RESERVE DISCUSSION. 2. CITY LAND INVENTORY.",
+    "title_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled.",
+    "outcome_summary_citations": [
+     "/page/5/Text/8"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "section": "DISCUSSION ITEM:",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "PLANNING RESERVE DISCUSSION.",
+    "title_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled.",
+    "outcome_summary_citations": [
+     "/page/5/Text/8"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "section": "DISCUSSION ITEM:",
+    "section_citations": [
+     "/page/5/SectionHeader/6"
+    ],
+    "title": "CITY LAND INVENTORY.",
+    "title_citations": [
+     "/page/5/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Tabled.",
+    "outcome_summary_citations": [
+     "/page/5/Text/8"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/6/ListGroup/1"
+    ],
+    "section": "FIRST READINGS:",
+    "section_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE DESIGNATING THE FIRST METHODIST CHURCH OF BOULDER AND A PORTION OF ITS SITE LOCATED AT 1401-1421 SPRUCE STREET AS AN INDIVIDUAL LANDMARK UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE.",
+    "title_citations": [
+     "/page/6/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7119"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted and ordered published by title only Ordinance No. 7119 by 8-0, Lopez absent.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Lopez",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3-A through 3-F",
+    "agenda_item_number_citations": [
+     "/page/3/Text/5"
+    ],
+    "motion_text": "to approve Consent Agenda items 3-A through 3-F with the exception of item 3-C which was removed from the Consent Agenda..",
+    "motion_text_citations": [
+     "/page/3/Text/5"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7115"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [],
+    "seconded_by": "Toor",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried: 8 - 0, Lopez absent.",
+    "vote_text_citations": [
+     "/page/3/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "6-A",
+    "agenda_item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "motion_text": "to adopt Resolution No. 875 supporting the executive order, designating 58 million acres of forest service land as roadless areas.",
+    "motion_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "875"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [],
+    "seconded_by": "Toor",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried: 6 - 2, Lopez absent, Eldridge and Riggle opposed.",
+    "vote_text_citations": [
+     "/page/3/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/3/Text/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Eldridge",
+     "Riggle"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "6-B",
+    "agenda_item_number_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "motion_text": "to adopt Resolution No. 876 supporting the Environmental Protection Agency's final rule for heavy-duty diesel fuel and engine emissions as amended through a friendly amendment to add ,“Whereas, the City of Boulder is located in an airshed that is subject to frequent inversions, resulting in the concentration of air pollutants that adversely affect the health of our citizenry.”",
+    "motion_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "876"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/3/Text/6"
+    ],
+    "vote_text": "The motion carried: 8 - 0, Lopez absent.",
+    "vote_text_citations": [
+     "/page/3/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "6-C",
+    "agenda_item_number_citations": [],
+    "motion_text": "to direct staff to define the scope of the problem of the Public Non-Profits in obtaining affordable office space and to then to identify possible approaches, perhaps through re-development projects.",
+    "motion_text_citations": [
+     "/page/2/Text/13"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "9-A",
+    "agenda_item_number_citations": [],
+    "motion_text": "to “amend” Ordinance No. 7116 amending the MXR-D (Mixed Density Residential - Developing) to allow a density bonus for affordable housing in the MXR-D zoning district as follows: To maintain the maximum density in the MXR-D zoning district at 10 units per acre, but allow an increase to the maximum density when more affordable housing is provided as follows: up to 15 units per acre when at least 30% of the dwelling units are permanently affordable, and up to 18 units per acre if at least 35% of the units are permanently affordable “and up to 20 units per acre if at least 40% of the units are permanently affordable.”",
+    "motion_text_citations": [
+     "/page/4/Text/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7116"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "seconded_by": "Poinsatte",
+    "seconded_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "vote_text": "The motion carried: 8 - 0, Lopez absent.",
+    "vote_text_citations": [
+     "/page/4/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "9-B",
+    "agenda_item_number_citations": [],
+    "motion_text": "to “amend” Ordinance No. 7118 amending the MU-D (Mixed-use Developing) zoning districts to allow restaurants no larger than “1,500 square feet by- right in the MU-D zoning district.”",
+    "motion_text_citations": [
+     "/page/4/Text/4"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7118"
+    ],
+    "moved_by": "Eldridge",
+    "moved_by_citations": [
+     "/page/4/Text/4"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/4/Text/4"
+    ],
+    "vote_text": "The motion carried: 7-1, Mock opposed, Lopez absent.",
+    "vote_text_citations": [
+     "/page/4/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/4/Text/4"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/4/Text/4"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Mock"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/5/Text/2"
+    ],
+    "motion_text": "to amend Ordinance No.7117 amending Title 9, “Land Use Regulations,” including section 9-1-3, “Definitions,” 9-3.1-1, “Schedule of Permitted Uses of Land,” section 9-3.2-19, “Floor Area Ratios for the MU-D, RMS-X and TB-E zoning districts,” section 9-3.3-6, “Fences, Hedges and Walls,” section 9-3.3-7, “Parking,” section 9-3.4-3, “Conditional Use Standards, Criteria and Review,” section 9-3.4-12, “Accessory Dwelling Unit,” section 9-3.4-13, “Owner’s Accessory Unit,” section 9-4-2, “Development Review Application,” section 9-4-9, “Use Review,” section 9-8-4, “Solar Access Areas Established,” section 9-10-6, “Declaration of Use,” section 9-10-8, “Multiple Dwelling Units; Specific Defense.” B.R.C. 1981, amending the following: 1) Page 10 (f)(4) ti akkiw 90 days vefore expiration; 2) to remove Section 4 from the ordinance; and 3) on page 10-8, remove (a) (5).",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7117"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [],
+    "seconded_by": "Poinsatte",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried: 6 - 1, Mock opposed, Eldridge recused and Lopez absent.",
+    "vote_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Mock"
+    ],
+    "abstained": [
+     "Eldridge"
+    ],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/5/Text/1"
+    ],
+    "motion_text": "to restore page 10-8 (a)(5).",
+    "motion_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7117"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/5/Text/1"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/5/Text/1"
+    ],
+    "vote_text": "The motion failed 3-4. Havlick, Morzel, Poinsatte and Toor opposed.",
+    "vote_text_citations": [
+     "/page/5/Text/1"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/5/Text/1"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/5/Text/1"
+    ],
+    "no_count": 4,
+    "no_count_citations": [
+     "/page/5/Text/1"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Havlick",
+     "Morzel",
+     "Poinsatte",
+     "Toor"
+    ],
+    "abstained": [
+     "Eldridge"
+    ],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "3-C",
+    "agenda_item_number_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "motion_text": "to approve a 20-year lease to Glen Marshman, Robert Rabino, and William Conner, for the construction of one aircraft hangar at the Boulder Municipal Airport.",
+    "motion_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/5/Text/5"
+    ],
+    "vote_text": "The motion carried: 5 - 3, Havlick, Morzel and Poinsatte opposed, Lopez absent.",
+    "vote_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/5/Text/5"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Havlick",
+     "Morzel",
+     "Poinsatte"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "to adopt and order published by title only Ordinance No. 7119 designating the First Methodist Church of Boulder and a portion of its site located at 1401-1421 Spruce Street as an individual landmark under the city of Boulder historic preservation code.",
+    "motion_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7119"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "vote_text": "The motion carried: 8-0. Lopez absent.",
+    "vote_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Lopez"
+    ]
+   },
+   {
+    "agenda_item_number": "ADJOURNMENT",
+    "agenda_item_number_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:38 p.m.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/6/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ]
+ }
+}

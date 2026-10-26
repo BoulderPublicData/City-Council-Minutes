@@ -1,0 +1,1978 @@
+{
+ "entry_id": 179600,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "-WPrMvZoqSEMIF2E-n0HOA",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 19.0
+ },
+ "extraction": {
+  "meeting_date": "2022-04-05",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, April 5, 2022” in /page/0/Text/3, supporting the extracted normalized date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading “CITY COUNCIL MEETING” appears in /page/0/SectionHeader/1. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [
+   "/page/0/Text/12"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/12"
+   ],
+   "verification": {
+    "status": "FAIL_CITATIONS",
+    "feedback": "The minutes heading in /page/0/SectionHeader/1 reads “CITY COUNCIL MEETING,” which does not identify a regular, special, study session, retreat, joint, continued, adjourned, or executive-session meeting. The extraction’s “other” classification is supported, but /page/0/Text/12 does not support it. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction; the citations are wrong or insufficient."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Via Video Conferencing” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "5:32 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 5:32 p.m. in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:40 a.m.",
+  "adjourned_time_citations": [
+   "/page/7/Text/8"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/8"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at 12:40 a.m. in /page/7/Text/8. Conclusion: the value at /page/7/Text/8 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Mayor Brockett called the meeting to order” in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Use Review #LUR2021-00030 and Administrative Parking Reduction #ADR2022-00033 for existing non-residential uses at 777 Poplar Ave. within the Residential - Low 2 (RL-2) zoning district. The site is within the area originally conceived as the \"Village Center\" of the Wonderland Hill Planned Unit Development (PUD)"
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/4"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The call-up check-in item in /page/2/ListGroup/4 states the Use Review and Administrative Parking Reduction for 777 Poplar Ave. Conclusion: the value at /page/2/ListGroup/4 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains one call-up check-in item, shown in /page/2/ListGroup/4, and the extraction contains one item. Conclusion: the value at /page/2/ListGroup/4 agrees with the extraction."
+   }
+  },
+  "members_absent": [
+   {
+    "name": "Kate Weiner",
+    "note": "DID NOT SHOW"
+   },
+   {
+    "name": "Fred Bratman",
+    "note": "DID NOT SHOW"
+   },
+   {
+    "name": "John Walker",
+    "note": "DID NOT SHOW"
+   },
+   {
+    "name": "Cate Lawrence",
+    "note": "WITHDREW"
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 5:32 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Space Science Month Declaration read by council member Matt Benjamin",
+    "title_citations": [
+     "/page/0/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council member Matt Benjamin read the Space Science Month Declaration.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "NCAR Fire Update",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Nuria Rivera-Vandermyde provided an overview of the NCAR fire and the City’s response.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/Text/2"
+    ],
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/1/Text/2"
+    ],
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/1/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:52 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Consideration of a motion to approve the December 14, 2021 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Consideration of a motion to approve the January 4, 2022 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Consideration of a motion to approve the January 18, 2022 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Introduction , first reading, consideration of a motion to publish by title only, and adopt as an emergency measure Ordinance 8518 authorizing the issuance by the City of Boulder, Colorado, of its Water and Sewer Revenue Bonds, Series 2022 , in the aggregate principal amount of not to exceed $48,000,000 for the purpose of providing funds (A) to construct, acquire, improve and equip certain capital improvements to the City’s Water and Sewer system, (B) to establish a reserve fund and (C) to pay the costs of issuance of the 2022 Bonds; setting forth not-to-exceed parameters with respect to the terms of the 2022 Bonds; authorizing a competitive sale of the 2022 Bonds; providing for the payment and redemption of the 2022 Bonds from and out of the revenues derived directly or indirectly by the City from the Water and Sewer Fee billed to customers of the City’s water and sewer systems; and declaring an emergency and providing the effective date of the Ordinance as set forth in related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8518"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Table/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt, Ordinance 8500 Special Adjustment to Base for 2022 Supplemental Appropriations : ARPA, Marshall Fire and Wind Disaster Expenditures, and 2022 Community, Culture, Resilience, and Safety Tax and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8500"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Table/2"
+    ],
+    "title": "Consideration of a motion to approve Jennifer Livovich as a full voting member of the Police Oversight Panel , as outlined in Title 2, Chapter 11, “Police Oversight,” B.R.C. 1981, pertaining to the composition, duties and powers of the City organization related to civilian oversight of the police, and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Consent Agenda items A-F by a vote of 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken; Mayor Brockett recused himself from the item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/3"
+    ],
+    "title": "Use Review #LUR2021-00030 and Administrative Parking Reduction #ADR2022-00033 for existing non-residential uses at 777 Poplar Ave. within the Residential - Low 2 (RL-2) zoning district. The site is within the area originally conceived as the \"Village Center\" of the Wonderland Hill Planned Unit Development (PUD)",
+    "title_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken; Mayor Brockett recused himself from the item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1305"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Resolution 1305 forming the Boulder Public Library District as amended by a vote of 6:3.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/9"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "title": "Consideration of a motion to adopt Resolution 1305 forming the Boulder Public Library District - Joint Public Hearing with the Board of County Commissioners",
+    "title_citations": [
+     "/page/2/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1305"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:31 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/3"
+    ],
+    "hearing_closed_time": "11:25 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Barbara Croissant",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Timothy Williams",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Nudelman",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chris Barge",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rebekah Dumouchelle",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicole Perelman",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gina McAfee",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Julia Hanke",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ellie Goldberg",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Yee",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Budd",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Andrew Harris",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Henry Koren",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lila Hickey",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sarah Dawn Haynes",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gene Hayward",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gary Urling",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Cait McQuade",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Neal Anderson",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rosie Fivian",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rachel Daly",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Martus",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Amanda Groziak",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nathan Schneider",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Honora Burnett",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Loran Lattes",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Seaman",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Philip Ogren",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jason Busch",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Myer",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Richard Russell",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bill Mooz",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Margaret Clinton",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Holly Carlson",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Joanne Sullivan",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sharon Collinge",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "James Ruger",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jud Valeski",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Miho Shida",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Grant Couch",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "William Kramer",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Heidi Jakal",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Wilke",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kristen Eller",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alicia Seidle",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michelle Brokaw",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bonette Beamon",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brenda Puccio",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Schreiner",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Peter Mayer",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katharine Phenix",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alycia Murray",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steven Frost",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen Aki",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dorothy Riddle",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Joseph Gibson",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Matt Bissonette",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Angela McCormick",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Peggy Sands",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Quigley",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Beth Bennett",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Vikas Reddy",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Leslie Barrett",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Stephen Clark",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Hollweg",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Scott Malan",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Vikki Wulf",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elaine Dannemiller",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sylvia Pelcz-Larsen",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Diane Connolly",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ulla Merz",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katharine Hauge",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Daniel Miller",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Beth Byerlein",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Maureen West",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jorge Boone",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rydge Rath",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Annareli Morales",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jill Adler Grano",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jean Gehring",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Maximilian Knight",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah McNamara",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kenneth Stickney",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Adriana Paola Palacios Luna",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Helgoth",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Limbach",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ken MacClune",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shaun Oshman",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ronald Pickarski",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kelly Donovan",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nathan Seidle",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jean Aschenbrenner",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katherine Koehler",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alice Guinther",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ben Katz-Moses",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Leonard Sitongia",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chelsea Castellano",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Andy Sayler",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Sykes Wilson",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Hummer",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Claudia Hanson",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Claire Kelly",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Doug Hamilton",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Joni Teter",
+      "name_citations": [
+       "/page/7/Text/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Resolution 1305 forming the Boulder Public Library District as amended by a vote of 6:3.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/7/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 12:40 a.m., Wednesday, April 6, 2022.",
+    "outcome_summary_citations": [
+     "/page/7/Text/8"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/Table/9"
+    ],
+    "motion_text": "Motion to AMEND the agenda to: • ADD 1B – NCAR Fire Update",
+    "motion_text_citations": [
+     "/page/0/Table/9"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/7/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/0/Table/9"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/0/Table/9"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/0/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Table/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT Consent Agenda items A-F",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8518",
+     "8500"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/2/Table/2"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/2/Table/2"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/7/Table/6"
+    ],
+    "motion_text": "Motion to ADOPT Resolution 1305 Forming the Boulder Public Library District AS AMENDED to: remove Jamestown from the district boundary area, designate City Council and County Board of Trustees to appoint the Library Commission members, and tax mill levy set at 3.8, using the suggested language",
+    "motion_text_citations": [
+     "/page/7/Table/6"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/7/Table/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1305"
+    ],
+    "moved_by": "Speer",
+    "moved_by_citations": [
+     "/page/7/Table/6"
+    ],
+    "seconded_by": "Folkerts",
+    "seconded_by_citations": [
+     "/page/7/Table/6"
+    ],
+    "vote_text": "Carried 6:3 NAY: Wallach, Winer & Yates",
+    "vote_text_citations": [
+     "/page/7/Table/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/7/Table/6"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/7/Table/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Wallach",
+     "Winer",
+     "Yates"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 12:40 a.m., Wednesday, April 6, 2022.",
+    "motion_text_citations": [
+     "/page/7/Text/8"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Mayor Pro Tem",
+    "title_citations": [
+     "/page/2/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "attendance_note": "arrived at 8:06 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/8"
+    ]
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Valerie Beltran",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "decriminalization of psychedelics",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Shari Hack",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "being an NCAR evacuee",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Chester Ward",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Ron Bennett",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "renewable energy",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Chris Allred",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "nuclear war, Rocky Flats",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Lon Nelson",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Lara Parker",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Ramzy Abueita",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "decriminalization of psychedelics",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Daniel Seidman",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Annie Buckley",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Russell Chandler",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "crime at Full Cycle bike shop",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Katie Rodriguez",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "renewable energy",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Alex Elsberg",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Micki Pi",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Nicholas Broderick",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Joseph Wright",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Stephanie Hull",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "the license renewal of Fourteener",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   }
+  ]
+ }
+}

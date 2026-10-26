@@ -1,0 +1,1470 @@
+{
+ "entry_id": 179146,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "ooIaG-1CNTWlk8wOdb0bYQ",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 17.0
+ },
+ "extraction": {
+  "meeting_date": "2022-02-01",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 gives the meeting date in a form supporting the extracted normalized date. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 reads “CITY COUNCIL MEETING” and does not identify the meeting as regular, special, or another specifically enumerated kind, supporting the extracted other classification. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/1 supports the extracted meeting location. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/4"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state at /page/0/Text/4 that the mayor called the meeting to order at the extracted time. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:11 a.m.",
+  "adjourned_time_citations": [
+   "/page/4/Text/15"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/4/Text/15"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement at /page/4/Text/15 supports the extracted adjourned time. Conclusion: the value at /page/4/Text/15 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/4"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order statement at /page/0/Text/4 identifies the extracted presiding officer. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes include a “Call-Up Check-In” heading at /page/1/SectionHeader/5 but list no call-up items beneath it; the document therefore does not support any item for this field. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "occupation tax/carbon tax",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Mark Eller",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "increase at Boulder Reservoir",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "James O’Neill",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "increase at Boulder Reservoir",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "energy",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Amy Rosenblum",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "increase at Boulder Reservoir",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Larry McKeough",
+    "name_citations": [
+     "/page/0/ListGroup/11"
+    ],
+    "topic": "increase at Boulder Reservoir",
+    "topic_citations": [
+     "/page/0/ListGroup/11"
+    ]
+   },
+   {
+    "name": "Noah Greenberg",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "increase at Boulder Reservoir",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Bella Lynch",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "increase at Boulder Reservoir",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/4"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/7"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Declaration recognizing Black History Month presented by Council Member Winer",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Declaration recognizing Black History Month presented by Council Member Winer",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/1/Text/1"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:38 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/Table/4"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/Table/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to accept the Consent Agenda items A & B",
+    "outcome_summary_citations": [
+     "/page/1/Table/4"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to approve the acquisition of a conservation easement interest over approximately 0.04 acres of land to be added to the Chubb Conservation Easement and to approve an Amended and Restated Conservation Easement which allows for minor encroachments totaling approximately 100 square feet pursuant to the disposal procedures of Article XII, Section 177, of the Boulder City Charter and conditioned on a city-approved development plan for the new residence",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to accept the Consent Agenda items A & B",
+    "outcome_summary_citations": [
+     "/page/1/Table/4"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to authorize the City Manager to execute documents on behalf of the city to accept financial assistance for the Boulder Municipal Airport through the federal American Rescue Plan Act (ARPA)",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to accept the Consent Agenda items A & B",
+    "outcome_summary_citations": [
+     "/page/1/Table/4"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8496 , designating the property at 1300 Canyon Blvd. , City of Boulder, Colorado, to be known as the Midland Savings and Loan – Atrium Building, as an individual landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981; and setting forth related details",
+    "title_citations": [
+     "/page/1/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8496"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:31 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/1/Text/8"
+    ],
+    "hearing_closed_time": "7:51 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Patrick O’Rourke",
+      "name_citations": [
+       "/page/1/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dan Corson",
+      "name_citations": [
+       "/page/1/ListGroup/9"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Susan Osborne",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Yin",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathryn Barth",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karl Anuta",
+      "name_citations": [
+       "/page/2/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 9:0 AS AMENDED Item carried over for 3 rd Reading",
+    "outcome_summary_citations": [
+     "/page/2/Table/2"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8497 , designating the property at 2130 22nd St. , City of Boulder, Colorado, to be known as the Shinn-Jeskes House, as an individual landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981; and setting forth related details",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8497"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:41 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/5"
+    ],
+    "hearing_closed_time": "8:47 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/2/Text/7"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Kathryn Barth",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 9:0",
+    "outcome_summary_citations": [
+     "/page/2/Table/2"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title": "Consideration of motion to authorize the City Manager to approve the Joint Terrorism Task Force Cost Reimbursement Agreement Memorandum of understanding between Federal Bureau of Investigation and Boulder Police Department",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/3"
+    ],
+    "hearing_closed_time": "10:11 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Darren O’Connor",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Liz Marasco",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Failynski",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Harwood",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Carl Perez",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Clare O’Brien",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Austin Bennett",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Hannaslore Gerlin",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jude Landsman",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Parrish",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sam Becker",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jake Brady",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gisele Herzfeld",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Usana Klulid",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Joshua Stallings",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mylene Vilard",
+      "name_citations": [
+       "/page/3/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 6:3 NAY: Folkerts, Joseph & Speer",
+    "outcome_summary_citations": [
+     "/page/4/Table/0"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Text/4"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Downtown Boulder Station Expansion Update",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Gerrit Slatter, Principal Transportation Projects Engineer for the Transportation and Mobility Department gave a presentation on the expansion project and answered questions from council.",
+    "outcome_summary_citations": [
+     "/page/4/Text/4"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "title": "Discussion on Council and staff availability for a possible special meeting on March 22, 2022",
+    "title_citations": [
+     "/page/4/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Will be discussed at the Study Session on February 8, 2022.",
+    "outcome_summary_citations": [
+     "/page/4/Text/6"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/Text/10"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/4/SectionHeader/8"
+    ],
+    "title": "Update from the Boards and Commissions Subcommittee on proposed interview process changes/BURA appointments.",
+    "title_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Members Winer and Folkerts gave a presentation on the new interview and appointment processes for this year’s recruitment.",
+    "outcome_summary_citations": [
+     "/page/4/Text/10"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/4/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/SectionHeader/13"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/4/SectionHeader/13"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/4/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/4/Text/15"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/4/SectionHeader/14"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/4/SectionHeader/14"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 12:11 a.m., Wednesday, February 2, 2022.",
+    "outcome_summary_citations": [
+     "/page/4/Text/15"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to AMEND the agenda to: • Add 8A – Update from the Boards and Commissions Subcommittee on proposed interview process change/BURA appointments",
+    "motion_text_citations": [],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [],
+    "seconded_by": "Folkerts",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to accept the Consent Agenda items A & B",
+    "motion_text_citations": [
+     "/page/1/Table/4"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/1/Table/4"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/1/Table/4"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/1/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/1/Table/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/1/Table/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Table/2"
+    ],
+    "motion_text": "Motion to AMEND Ordinance 8496 designating the property at 1300 Canyon Blvd. , City of Boulder, Colorado, also known as the Midland Savings and Loan – Atrium Building, a landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981, and setting forth related details",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8496"
+    ],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/2/Table/2"
+    ],
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/2/Table/2"
+    ],
+    "vote_text": "Carried 9:0 AS AMENDED Item carried over for 3 rd Reading",
+    "vote_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Table/2"
+    ],
+    "motion_text": "Motion to pass as AMENDED that boundary is to come only to the eves of the building;",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8496"
+    ],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Table/2"
+    ],
+    "motion_text": "Motion to pass as AMENDED the name to Atrium only, section 6;",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8496"
+    ],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Table/2"
+    ],
+    "motion_text": "Motion to pass as AMENDED the description and intended future uses as drafted by Chris Meschuk and read by James Hewat;",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8496"
+    ],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Table/2"
+    ],
+    "motion_text": "Motion to pass as AMENDED to further revise the Landmark Boundary that on the north side the eves and on the east, the original boundary as on the map.",
+    "motion_text_citations": [
+     "/page/2/Table/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/4/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8496"
+    ],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/3/Table/0"
+    ],
+    "motion_text": "Motion to adopt Ordinance 8497 designating the property at 2130 22 nd St. , City of Boulder, Colorado, to be known as the Shinn – Jeskes House as an individual landmark under Chapter 9-11, “Historic Preservation,” B.R.C. 1981; and setting forth related details",
+    "motion_text_citations": [
+     "/page/3/Table/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8497"
+    ],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/3/Table/0"
+    ],
+    "seconded_by": "Folkerts",
+    "seconded_by_citations": [
+     "/page/3/Table/0"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/3/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Table/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/4/Table/0"
+    ],
+    "motion_text": "Motion to approve MOU between Federal Bureau of Investigation and Boulder Police Department with noted amendments to be included in the final document.",
+    "motion_text_citations": [
+     "/page/4/Table/0"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/4/Table/0"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/4/Table/0"
+    ],
+    "vote_text": "Carried 6:3 NAY: Folkerts, Joseph & Speer",
+    "vote_text_citations": [
+     "/page/4/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/4/Table/0"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/4/Table/0"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Folkerts",
+     "Joseph",
+     "Speer"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/4/Table/1"
+    ],
+    "motion_text": "Motion to EXTEND the meeting at 11:20 p.m.",
+    "motion_text_citations": [
+     "/page/4/Table/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/4/Table/1"
+    ],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/4/Table/1"
+    ],
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/4/Table/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Table/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/4/Text/15"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Brockett at 12:11 a.m., Wednesday, February 2, 2022.",
+    "motion_text_citations": [
+     "/page/4/Text/15"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/4/Text/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/5"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

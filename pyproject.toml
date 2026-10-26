@@ -1,0 +1,47 @@
+[project]
+name = "city-council-minutes"
+version = "0.2.0"
+description = "Boulder City Council signed minutes, 2000–present, liberated from Laserfiche WebLink into a harmonized dataset of meetings, attendance, agenda items, motions, and per-member votes."
+authors = [{name = "Boulder Public Data"}]
+requires-python = ">=3.11"
+readme = "README.md"
+license = "MIT"
+dependencies = [
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "pandera[pandas]>=0.20",
+    "requests>=2.31",
+    "tenacity>=8",
+    "tabulate>=0.9",
+    "pypdf>=4",
+]
+
+[project.optional-dependencies]
+publish = [
+    "datasette>=0.65",
+    "sqlite-utils>=3.36",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+city-council-minutes = "scripts.pipeline:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "B", "UP"]
+ignore = ["E501"]

@@ -1,0 +1,1779 @@
+{
+ "entry_id": 11827,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "eZZqvTxR4YfW7lwDRGFfRw",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 29.0
+ },
+ "extraction": {
+  "meeting_date": "2009-08-18",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 agrees with the extraction. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as a regular council meeting in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "council chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:05pm",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "12:59 A.M.",
+  "adjourned_time_citations": [
+   "/page/9/Text/2"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/9/Text/2. Conclusion: the value at /page/9/Text/2 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The person calling the meeting to order is identified in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "1. LANDMARK ALTERATION CERTIFICATE TO CONSTRUCT A UNIVERSALLY ACCESSIBLE CONCRETE PATH AT THE EAST SIDE OF RANGE COTTAGE PROPERTY AT 900 BASELINE ROAD IN THE CHAUTAUQUA PARK HISTORIC DISTRICT, PER SECTION 9-11-18 OF THE B.R.C. (HIS2009-00009). WIP DATE: AUGUST 13, 2009. LAST OPPORTUNITY TO CALL-UP IS AUGUST 18, 2009. APPROVED WITH CONDITIONS BY THE LANDMARKS BOARD 3-2, L. PODMAJERSKY AND L. MAY OPPOSED.",
+   "2. LANDMARK ALTERATION CERTIFICATE TO CONSTRUCT APPROXIMATELY 10,000 SQ. FT. IN ADDITIONS TO THE SIDES AND REAR OF WHITTIER SCHOOL, A LOCAL HISTORIC LANDMARK LOCATED AT 2008 PINE STREET PER SECTION 9-11-18 OF THE B.R.C. (HIS2009-00102). WIP DATE: AUGUST 13, 2009. LAST OPPORTUNITY TO CALL-UP IS AUGUST 18, 2009. APPROVED WITH CONDITIONS BY THE LANDMARKS BOARD 5-0.",
+   "3. SITE REVIEW AT 985 16TH STREET (LUR2009-00029) FOR THE RENOVATION AND EXPANSION OF AN EXISTING ROOMING (FRATERNITY) HOUSE WITH CONVERSION TO 11 APARTMENTS WITH A MIX OF 3 AND 4 BEDROOMS; ALSO INCLUDES AN APPROXIMATELY 2,286 SQ. FT. ADDITION AND A 50 PERCENT PARKING REDUCTION. WIP DATE: AUGUST 13, 2009. LAST OPPORTUNITY TO CALL-UP IS SEPTEMBER 1, 2009. APPROVED BY THE PLANNING BOARD 5-0."
+  ],
+  "call_up_items_citations": [
+   "/page/8/ListGroup/1",
+   "/page/8/ListGroup/3",
+   "/page/8/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/8/ListGroup/1"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first potential call-up item is stated in /page/8/ListGroup/1. Conclusion: the value at /page/8/ListGroup/1 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/8/ListGroup/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second potential call-up item is stated in /page/8/ListGroup/3. Conclusion: the value at /page/8/ListGroup/3 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/8/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The third potential call-up item is stated in /page/8/ListGroup/5. Conclusion: the value at /page/8/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains three potential call-up items, all represented in the extraction at /page/8/ListGroup/1, /page/8/ListGroup/3, and /page/8/ListGroup/5. Conclusion: the value at /page/8/ListGroup/1, /page/8/ListGroup/3, and /page/8/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the regular August 18, 2009 council meeting to order at 6:05pm in the council chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/Text/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA: (to include first reading of ordinances) Vote to be taken on the motion at this time.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Osborne moved, seconded by Espinoza to approve items 3A through 3H with item 3A amended and item 3H pulled by Deputy Mayor Gray.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/Text/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM JULY 21, 2009.",
+    "title_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Osborne moved, seconded by Espinoza to approve items 3A through 3H with item 3A amended and item 3H pulled by Deputy Mayor Gray.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE JULY 14, 2009 CITY COUNCIL STUDY SESSION SUMMARY ON THE RECREATION PROGRAM AND FACILITIES PLAN.",
+    "title_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE JULY 28, 2009 STUDY SESSION SUMMARY REGARDING THE CAPITAL IMPROVEMENTS PROGRAM (CIP), DEVELOPMENT EXCISE TAX/IMPACT FEES, AND UTILITY RATES.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE AN INTERGOVERNMENTAL AGREEMENT BETWEEN THE CITY OF BOULDER AND BOULDER COUNTY TO CONSTRUCT AND MAINTAIN THE FOUR MILE CREEK TRAIL.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "ITEMS RELATED TO POTENTIAL BALLOT ITEMS: 1. FOURTH READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7673 AS AMENDED THAT WOULD ASK THE VOTERS TO CONVERT THE CURRENTLY AUTHORIZED OPEN SPACE SALES TAX REVENUE BONDS TO SALES TAX REVENUE BONDS BACKED WITH A GENERAL OBLIGATION PLEDGE (PROVIDES BACKING FROM CITY PROPERTY TAXES IN THE EVENT THE DESIGNATED SALES AND USE TAX REVENUES ARE NOT SUFFICIENT FOR BOND PAYMENTS); AND 2. THIRD READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7674 AS AMENDED THAT WOULD INCREASE THE DEBT WHICH MAY BE ISSUED BY THE CITY TO FUND ONGOING OLD HIRE PENSION OBLIGATIONS FOR POLICE OFFICERS AND FIRE FIGHTERS HIRED BEFORE APRIL 8, 1978, WITH NO TAX INCREASE.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7673",
+     "7674"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "FOURTH READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7673 AS AMENDED THAT WOULD ASK THE VOTERS TO CONVERT THE CURRENTLY AUTHORIZED OPEN SPACE SALES TAX REVENUE BONDS TO SALES TAX REVENUE BONDS BACKED WITH A GENERAL OBLIGATION PLEDGE (PROVIDES BACKING FROM CITY PROPERTY TAXES IN THE EVENT THE DESIGNATED SALES AND USE TAX REVENUES ARE NOT SUFFICIENT FOR BOND PAYMENTS)",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7673"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7674 AS AMENDED THAT WOULD INCREASE THE DEBT WHICH MAY BE ISSUED BY THE CITY TO FUND ONGOING OLD HIRE PENSION OBLIGATIONS FOR POLICE OFFICERS AND FIRE FIGHTERS HIRED BEFORE APRIL 8, 1978, WITH NO TAX INCREASE.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7674"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7670 AUTHORIZING THE CITY MANAGER TO EXECUTE A DEED OF VACATION FOR A SIDEWALK EASEMENT ADJACENT TO 30 TH STREET AND NORTH OF WALNUT STREET AND ORDINANCE No. 7671 AUTHORIZING THE CITY MANAGER TO EXECUTE A DEED OF VACATION FOR A SIDEWALK EASEMENT ALONG THE NORTHERN PROPERTY LINE OF OUTLOT B AND LOT 4 OF THE TWENTY NINTH STREET SUBDIVISION (LUR2009-00023).",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7670",
+     "7671"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7681 ADOPTING SUPPLEMENT No. 101, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7650, 7651, 7652, 7653, 7654, 7655, 7658, AND 7659 AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS TO THE BOULDER REVISED CODE, 1981.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7681",
+     "7650",
+     "7651",
+     "7652",
+     "7653",
+     "7654",
+     "7655",
+     "7658",
+     "7659"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7682 AUTHORIZING THE CITY MANAGER TO EXECUTE A DEED OF VACATION TO VACATE A PORTION OF A RIGHT-OF-WAY LOCATED ADJACENT TO 2948 47 TH STREET AND CONSIDERATION OF A MOTION TO AUTHORIZE THE CITY MANAGER, PURSUANT TO SECTION 2-2-8, “CONVEYANCE OF CITY REAL PROPERTY INTERESTS,” TO DISPOSE OF THE VACATED PORTION OF 47 TH STREET RIGHT-OF-WAY LOCATED ADJACENT TO 2948 47 TH STREET AND OUTLOT A OF REPLAT A VALMONT-FOOTHILLS PARK SUBDIVISION. APPLICANT: CITY OF BOULDER, PUBLIC WORKS – TRANSPORTATION.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7682"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council directed staff to bring this item back at the next council meeting.",
+    "outcome_summary_citations": [
+     "/page/7/Text/9"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title": "CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was no interest indicated.",
+    "outcome_summary_citations": [
+     "/page/3/Text/2"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7679 SUBMITTING A BALLOT ISSUE TO THE VOTERS AT THE TUESDAY, NOVEMBER 3, 2009 ELECTION, TO INCREASE THE HOUSING EXCISE TAX TO PROVIDE AFFORDABLE HOUSING FOR LOW INCOME PEOPLE BY AMENDING CHAPTER 3-9, B.R.C., 1981; AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7679"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Dick Harris",
+      "name_citations": [
+       "/page/3/ListGroup/8"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 6:2, Ageton and Espinoza opposed.",
+    "outcome_summary_citations": [
+     "/page/3/Text/10"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "ITEMS RELATED TO 6400 ARAPAHOE, RECYCLE ROW, AND CHAPTER 3-10, \"TRASH TAX,\" B.R.C. 1981",
+    "title_citations": [
+     "/page/3/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7678",
+     "Res. 1060"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Oakleigh Thorne",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Spenser Villwock",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Judy Renfroe",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried unanimously, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO DIRECT THE CITY MANAGER TO PURCHASE THE PROPERTY AT 6400 ARAPAHOE AVE.",
+    "title_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO AUTHORIZE THE CITY MANAGER TO APPROVE AN INTERGOVERNMENTAL AGREEMENT WITH BOULDER COUNTY TO FUND THE PURCHASE OF 6400 ARAPAHOE AVE.",
+    "title_citations": [
+     "/page/3/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF FOUR ORDINANCES AMENDING SECTION 3-10-2, “IMPOSITION OF OCCUPATION TAX,” B.R.C. 1981, RAISING THE RATES OF THE TRASH TAX.",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7678"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously, 8:0.",
+    "outcome_summary_citations": [
+     "/page/4/Text/7"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION DECLARING THE CITY OF BOULDER OFFICIAL INTENT TO REIMBURSE BOULDER COUNTY FOR $5,000,000 WITH THE PROCEEDS OF A FUTURE BOND ISSUE THAT WILL OCCUR IN THE FOURTH QUARTER OF 2009 OR THE FIRST QUARTER OF 2010.",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1060"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously, 8:0.",
+    "outcome_summary_citations": [
+     "/page/4/Text/7"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "CONTINUATION OF FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING THE LAND USE CODE (TITLE 9, B.R.C.) REQUIREMENTS RELATED TO THE RESIDENTIAL LOW 1 (RL-1) ZONE DISTRICT AS PART OF THE COMPATIBLE DEVELOPMENT IN SINGLE-FAMILY NEIGHBORHOODS PROJECT. THE PUBLIC HEARING ON THIS ITEM WAS HELD ON AUGUST 4, 2009.",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7684"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 5:3; Ageton, Espinoza and Wilson opposed.",
+    "outcome_summary_citations": [
+     "/page/6/Text/12"
+    ]
+   },
+   {
+    "item_number": "1)",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Affected Properties",
+    "title_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was general council agreement to include all single-family housing in the city.",
+    "outcome_summary_citations": [
+     "/page/5/Text/10"
+    ]
+   },
+   {
+    "item_number": "2)",
+    "item_number_citations": [
+     "/page/5/SectionHeader/11"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Bulk Plane",
+    "title_citations": [
+     "/page/5/Text/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was general council agreement to include bulk planes as staff recommended.",
+    "outcome_summary_citations": [
+     "/page/5/Text/13"
+    ]
+   },
+   {
+    "item_number": "3)",
+    "item_number_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Side Wall Articulation",
+    "title_citations": [
+     "/page/6/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was general agreement that further discussion would be needed at second reading on how to best utilize side wall articulation.",
+    "outcome_summary_citations": [
+     "/page/6/Text/1"
+    ]
+   },
+   {
+    "item_number": "4)",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Building Coverage",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5)",
+    "item_number_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "FAR",
+    "title_citations": [
+     "/page/6/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was general council agreement to continue exploring options relating to FARs.",
+    "outcome_summary_citations": [
+     "/page/6/Text/9"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Brautigam answered a question from earlier in the meeting noting that Mr. Young could apply for a use review permit for the Flatirons Theatre that would cost $2,100.",
+    "outcome_summary_citations": [
+     "/page/7/Text/11"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/SectionHeader/12"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/7/SectionHeader/12"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - NONE",
+    "title_citations": [
+     "/page/7/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE TO CONSTRUCT A UNIVERSALLY ACCESSIBLE CONCRETE PATH AT THE EAST SIDE OF RANGE COTTAGE PROPERTY AT 900 BASELINE ROAD IN THE CHAUTAUQUA PARK HISTORIC DISTRICT, PER SECTION 9-11-18 OF THE B.R.C. (HIS2009-00009). WIP DATE: AUGUST 13, 2009. LAST OPPORTUNITY TO CALL-UP IS AUGUST 18, 2009. APPROVED WITH CONDITIONS BY THE LANDMARKS BOARD 3-2, L. PODMAJERSKY AND L. MAY OPPOSED.",
+    "title_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was no action on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "title": "LANDMARK ALTERATION CERTIFICATE TO CONSTRUCT APPROXIMATELY 10,000 SQ. FT. IN ADDITIONS TO THE SIDES AND REAR OF WHITTIER SCHOOL, A LOCAL HISTORIC LANDMARK LOCATED AT 2008 PINE STREET PER SECTION 9-11-18 OF THE B.R.C. (HIS2009-00102). WIP DATE: AUGUST 13, 2009. LAST OPPORTUNITY TO CALL-UP IS AUGUST 18, 2009. APPROVED WITH CONDITIONS BY THE LANDMARKS BOARD 5-0.",
+    "title_citations": [
+     "/page/8/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was no action on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/8/ListGroup/5"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "title": "SITE REVIEW AT 985 16 TH STREET (LUR2009-00029) FOR THE RENOVATION AND EXPANSION OF AN EXISTING ROOMING (FRATERNITY) HOUSE WITH CONVERSION TO 11 APARTMENTS WITH A MIX OF 3 AND 4 BEDROOMS; ALSO INCLUDES AN APPROXIMATELY 2,286 SQ. FT. ADDITION AND A 50 PERCENT PARKING REDUCTION. WIP DATE: AUGUST 13, 2009. LAST OPPORTUNITY TO CALL-UP IS SEPTEMBER 1, 2009. APPROVED BY THE PLANNING BOARD 5-0.",
+    "title_citations": [
+     "/page/8/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was no action on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/8/SectionHeader/7"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE ANNUAL EVALUATIONS OF THE CITY MANAGER, CITY ATTORNEY, AND MUNICIPAL COURT JUDGE.",
+    "title_citations": [
+     "/page/8/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/8"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/8/ListGroup/9"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/8/ListGroup/9"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS : (15 min.) Public comment on any motions made under Matters.",
+    "title_citations": [
+     "/page/8/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/9/Text/0"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/9/Text/0"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/9/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 12:59 A.M.",
+    "outcome_summary_citations": [
+     "/page/9/Text/2"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Espinoza",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Mark Young",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "struggle with the Planning department regarding Flatirons Theatre noting the use issue was keeping him from moving forward.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Drew Dolan",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "struggle with the Planning department regarding Flatirons Theatre noting the use issue was keeping him from moving forward.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Craig Lindsley",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "struggle with the Planning department regarding Flatirons Theatre noting the use issue was keeping him from moving forward.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "his platform as a city council candidate and specifically addressed Planning Board decisions.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "the council had just paid a visit to Boulder Reservoir.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Warren Hultquist",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "support of further analysis of the alternative suggestions made by Mayor Appelbaum. Specifically a tool on the web site where people could determine actual impacts to their property.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Jerry Allen",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "the Vista Village fence and questioned why no legal action had been taken against Mr. Miller after council direction in March.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Jessica Sandler",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "the East Boulder Community Park - expressed concern that staff used e-mail to discredit the proposal by misrepresenting it and requested an investigation and then a charette with all the stakeholders to find a solution.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Ne Ray Key",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "East Boulder Community Park - expressed alarm over 10,000 vehicles on 55th and whether that could be accommodated. She asked if that was what we want for Boulder Neighborhoods. Requested that council look one more time at the number of parking spaces previously approved and encourage starting with a lower number. After time additional surveys could utilized to justify any increases.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Tanya Petty",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Vista Village, asking for help in identifying who could help them pass a law that would help mobile home owners. Expressed frustration that nothing had been done regarding adverse possession or eminent domain.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Elizabeth Allen",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "Vista Village, supported her husbands comments about compatible development and the need for a more restrictive approach.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Steve Baust",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "East Boulder Recreation Center – it was clear to him that there were a number of citizens that think there are good alternatives and don't think they were heard. He supported the design charette approach in resolving the issue.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Stephen Keenan",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic": "the 30 th Street project noting that Federal dollars could be used for other projects rather than destroying trees. He also spoke to new battery technology on www.dollarcollapse.com by Ceramatec and encouraged council to work with Xcel to utilize the new technology.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ]
+   },
+   {
+    "name": "Premena",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the 47 th and Valmont item, item 3H on the agenda, and asked council not to vacate or sell the property and consider other potential uses for the property.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Nick Korda",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "concern about Western Disposal's response to a complaint about animals getting into a dumpster and its unwillingness to place a new secure dumpster in the area. He also asked council to pursue a map for residents showing where skate boarding is allowed and outlining safety requirements.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Bob Poeschl",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the 30 th Street project and raised concern that the result of the design charette did not significantly improve the plan.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Elizabeth Petty",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the Vista Village issue and requested an agreement in writing about the fence.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Marc Wind",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "support of the East Boulder Recreation Center project and indicated that sufficient parking would be needed to meet the needs of the current use of the soccer fields.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the East Boulder Recreation Center issue and noted she was in favor of sporting events but did not support additional parking. She also spoke to the 30 th Street project and the compatible development issue.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/Text/0"
+    ],
+    "motion_text": "approve items 3A through 3H with item 3A amended and item 3H pulled by Deputy Mayor Gray.",
+    "motion_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7673",
+     "7674",
+     "7670",
+     "7671",
+     "7681"
+    ],
+    "moved_by": "Osborne",
+    "moved_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "seconded_by": "Espinoza",
+    "seconded_by_citations": [
+     "/page/3/Text/0"
+    ],
+    "vote_text": "The motion carried unanimously 8:0 at 7:25 p.m.",
+    "vote_text_citations": [
+     "/page/3/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "adopt Ordinance No. 7679 submitting a ballot issue to the voters at the Tuesday, November 3, 2009 election, to increase the housing excise tax to provide affordable housing for low income people by amending Chapter 3-9, B.R.C., 1981; and setting forth related details.",
+    "motion_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/3/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7679"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/3/Text/10"
+    ],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [
+     "/page/3/Text/10"
+    ],
+    "vote_text": "The motion carried 6:2, Ageton and Espinoza opposed.",
+    "vote_text_citations": [
+     "/page/3/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/3/Text/10"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/3/Text/10"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Espinoza"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "1) direct the City Manager to purchase the property at 6400 Arapahoe Avenue; 2) to authorize the City Manager to approve an Intergovernmental Agreement with Boulder County to fund the purchase of 6400 Arapahoe; 3) to direct the City Manager to structure the financing for the property acquisition generally consistent with Scenario B in Section XII C, which would provide sufficient cash equity to consider selling a portion of the property in the future; 4) to approve trash tax Ordinance No. 7678, increasing the rates of the trash tax to the maximum level; and 5) to adopt Resolution No. 1060 to reimburse funds to the City or the County or a combination thereof for capital expenditures with the proceeds of the city’s future tax-exempt borrowing.",
+    "motion_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7678",
+     "1060"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "vote_text": "The motion carried unanimously, 8:0.",
+    "vote_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "direct staff to return at second reading with a revised ordinance that reflects the staff recommendation in the July 9, 2009 Planning Board memo.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "withdrawn",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "suspend the rules and continue the meeting at 11:02 p.m.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "vote_text": "The motion carried unanimously, 8:0.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "introduce and order published by title only Ordinance No.7684 in Attachment A on page 33, incorporating the language on pages 14 and 15 of the memo regarding side yard bulk plane and side yard wall articulation. In addition, providing direction to staff to bring back language on second reading to address: eliminating FAR averaging, including virtual floors, and other additional analysis requested by council.",
+    "motion_text_citations": [
+     "/page/6/Text/12"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7684"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/6/Text/12"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/6/Text/12"
+    ],
+    "vote_text": "The motion carried 5:3; Ageton, Espinoza and Wilson opposed.",
+    "vote_text_citations": [
+     "/page/6/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/6/Text/12"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/6/Text/12"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Espinoza",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "approve the confidential 2009 base pay increase ballot for the evaluations and not authorize any merit increase for the three council employees.",
+    "motion_text_citations": [
+     "/page/8/Text/8"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/8/Text/8"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/8/Text/8"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/8/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/8/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "motion_text": "THE MEETING WAS ADJOURNED AT 12:59 A.M.",
+    "motion_text_citations": [
+     "/page/9/Text/2"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

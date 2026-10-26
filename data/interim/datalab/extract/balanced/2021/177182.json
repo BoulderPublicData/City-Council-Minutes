@@ -1,0 +1,889 @@
+{
+ "entry_id": 177182,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "MaE_aJJeRHOV2PsSHbfNbg",
+ "page_count": 3,
+ "cost_breakdown": {
+  "final_cost_cents": 12.0
+ },
+ "extraction": {
+  "meeting_date": "2021-07-13",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, July 13, 2021” in /page/0/Text/3, supporting the extracted date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 identifies this as a special meeting. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state “Via Video Conferencing” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order statement in /page/0/Text/6 supports the extracted time. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:55 p.m.",
+  "adjourned_time_citations": [
+   "/page/2/Text/12"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/2/Text/12"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement in /page/2/Text/12 supports the extracted time. Conclusion: the value at /page/2/Text/12 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order statement in /page/0/Text/6 identifies Mayor Weaver as presiding. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Vacation of a 1,078 square-foot portion of a sanitary sewer easement and a 1,925 square-foot portion of a utility easement at 5395 Pearl Parkway (ADR2021-00071)"
+  ],
+  "call_up_items_citations": [
+   "/page/1/ListGroup/1"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/1/ListGroup/1"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The listed Up Check-In item in /page/1/ListGroup/1 supports the extracted entry. Conclusion: the value at /page/1/ListGroup/1 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The Up Check-In section contains one listed item in /page/1/ListGroup/1, matching the extraction. Conclusion: the value at /page/1/ListGroup/1 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/Table/11"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/Table/11"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/0/Table/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to ACCEPT the consent agenda with item 2A as amended",
+    "outcome_summary_citations": [
+     "/page/0/Table/11"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to amend Council Rules of Procedure, Council Working Agreements and Emergency Rules for Quasi-Judicial Hearings",
+    "title_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to ACCEPT the consent agenda with item 2A as amended",
+    "outcome_summary_citations": [
+     "/page/0/Table/11"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to authorize the city manager to approve a twenty-year lease for right-of-way encroachments (accessible ramp, steps, railing, and stairwell) located at 1148 Pearl Street",
+    "title_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to ACCEPT the consent agenda with item 2A as amended",
+    "outcome_summary_citations": [
+     "/page/0/Table/11"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion authorizing the City Manager to enter into a settlement agreement in the amount of $12,000 to resolve a notice of claim brought against the city by Yan Zhu",
+    "title_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to ACCEPT the consent agenda with item 2A as amended",
+    "outcome_summary_citations": [
+     "/page/0/Table/11"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "section": "Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "Up Check-In",
+    "title_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "Up Check-In",
+    "section_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "title": "Vacation of a 1,078 square-foot portion of a sanitary sewer easement and a 1,925 square-foot portion of a utility easement at 5395 Pearl Parkway (ADR2021-00071)",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No motion made. Council gave direction to move forward with a special Ordinance",
+    "outcome_summary_citations": [
+     "/page/2/Table/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/1/SectionHeader/3"
+    ],
+    "title": "Consideration of a Concept Plan Review for the redevelopment of a 9.27-acre property located at 3320 28th Street, and 3265 and 3267 30th Street as a mixed-use development, which includes ground floor retail along 28th Street and the proposed Street “A”, ground floor amenity space, and upper story workforce and permanently affordable apartments. There are two options proposed: the first option includes 177 workforce apartments within five buildings and with 9,942 square feet of amenity space, a shared deck and a clubhouse, and 58 permanently affordable apartments. The second option matches the first but includes additional residential units with approximately 195 workforce apartments and 64 permanently affordable apartments; it also includes a fourth story on one of the buildings with an additional roof deck. Reviewed under case no. LUR2021-00011",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:05 p.m",
+    "hearing_opened_time_citations": [
+     "/page/1/Text/7"
+    ],
+    "hearing_closed_time": "8:34 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/Text/9"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Macon Cowles",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Adalyn Fyhrie",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alice Guinther",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ginger Zukowski",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rosie Fivian",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Laura Vidal",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Scott Josebeek",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kurt Nordback",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Freirich",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Paul Cure",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Laurel Herndon",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Francoise Poinsatte",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Thomas Volckhausen",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Worth Baker",
+      "name_citations": [
+       "/page/1/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "No motion made. Council gave direction to move forward with a special Ordinance",
+    "outcome_summary_citations": [
+     "/page/2/Table/0"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/Text/3"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Community Benefit Phase 2 project discussion on next steps, including but not limited to bringing forward any revised ordinances or pursuing non-zoning related fee or tax options pertaining to development projects that request additional height, density and/or floor area",
+    "title_citations": [
+     "/page/2/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The City’s Senior Planner – Code Amendment Specialist, Karl Guiler, David Dosema of Kaiser, and Community Vitality staff, provided a presentation and outline on the project.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/2/Text/6"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Council Workplan Mid-Year Check-in",
+    "title_citations": [
+     "/page/2/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The City’s Assistant to City Council, Taylor Reimann, presented the information on the update related to major priorities/key actions identified at the 2021 retreat.",
+    "outcome_summary_citations": [
+     "/page/2/Text/6"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/2/Text/12"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned on July 13, 2021 at 10:55 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/Text/12"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [
+     "/page/0/Table/11"
+    ],
+    "motion_text": "Motion to ACCEPT the consent agenda with item 2A as amended",
+    "motion_text_citations": [
+     "/page/0/Table/11"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/0/Table/11"
+    ],
+    "seconded_by": "Friend",
+    "seconded_by_citations": [
+     "/page/0/Table/11"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/0/Table/11"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Table/11"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/11"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/2/Text/12"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned on July 13, 2021 at 10:55 p.m.",
+    "motion_text_citations": [
+     "/page/2/Text/12"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/2/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Weaver",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  }
+ }
+}

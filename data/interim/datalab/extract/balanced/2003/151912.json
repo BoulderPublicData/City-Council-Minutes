@@ -1,0 +1,1957 @@
+{
+ "entry_id": 151912,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "jelMWeRUZvgvR5_mtpF2Cw",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 29.0
+ },
+ "extraction": {
+  "meeting_date": "2003-03-04",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the proceedings in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:45 P.M.",
+  "adjourned_time_citations": [
+   "/page/8/Text/5"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/8/Text/5. Conclusion: the value at /page/8/Text/5 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Toor called the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "COMMUNITY ENVIRONMENTAL ASSESSMENT PROCESS (CEAP) FOR THE FLOOD PROTECTION LEVEE RECONSTRUCTION AND IMPROVEMENT PROJECT; BEAR CANYON CREEK - FOOTHILLS PARKWAY TO ARAPAHOE AVENUE. WIP DATE: FEBRUARY 20, 2003. APPROVED UNANIMOUSLY BY WRAB, OSBT AND THE GREENWAYS ADVISORY COMMITTEE. LAST OPPORTUNITY FOR CALL-UP IS MARCH 18, 2003.",
+   "FLOODPLAIN DEVELOPMENT PERMIT FOR CONSTRUCTION OF A SHED AT 1349 NORTH STREET, A SINGLE FAMILY RESIDENCE. WIP DATE: FEBRUARY 27, 2003. APPROVED BY PLANNING STAFF. LAST OPPORTUNITY FOR CALL-UP IS MARCH 4, 2003."
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/2",
+   "/page/2/ListGroup/4"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first call-up item appears in /page/2/ListGroup/2. Conclusion: the value at /page/2/ListGroup/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second call-up item appears in /page/2/ListGroup/4. Conclusion: the value at /page/2/ListGroup/4 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two potential call-up items, both represented in the extraction at /page/2/ListGroup/2 and /page/2/ListGroup/4. Conclusion: the value at /page/2/ListGroup/2 and /page/2/ListGroup/4 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Sierra Cole",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "traffic radar - (Photo Red light/Photo Radar) maintains that this is unconstitutional and that we are sacrificing safety for revenues.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Matthew Plummer",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Peak Association of the Arts seeking assistance from the city as it faces Chapter 11 or even Bankruptcy.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "John M.. Lewis",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Also speaking in opposition to Photo radar/Red light program siting that studies in British Columbia indicate that it does not improve safety.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Joe Sierra",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "also spoke to Photo Red light and Photo radar indicating that it can be abused as has been the case in San Diego, and also expressed that it is an invasion of privacy.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jim Jenkins",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "water rates and the importance of looking carefully at this issue. Expressed concern over the cost of Kentucky Blue Grass as opposed to other alternatives.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the regular March 4, 2003 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/Text/10"
+    ],
+    "section": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7270"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council asked for information from the January 19 th Water Rates public meeting to be included in the packet for 2 nd Reading of the Monthly Water User Charges and Conservation Measures Ordinance (Ordinance #7270) scheduled for the March 18 th council meeting.",
+    "outcome_summary_citations": [
+     "/page/0/Text/10"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA:",
+    "title_citations": [
+     "/page/1/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 8:0, Councilmember Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/8"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM FEBRUARY 11, 2003.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 8:0, Councilmember Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/8"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM FEBRUARY 18, 2003.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 8:0, Councilmember Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/8"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7266 AMENDING SECTIONS 3-5-2 AND 3-5-5, B.R.C. 1981, CONCERNING FOOD TAX REFUNDS.",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7266"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried, 8:0, Councilmember Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/8"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7268 AMENDING TITLE 4, “LICENSES AND PERMITS,” B.R.C. 1981, BY ADDING A CHAPTER 26, “CEMETERY PERMITS,” AND AMENDING TITLE 8, “PARKS, OPEN SPACE, STREETS, AND PUBLIC WAYS,” B.R.C. 1981 BY ADDING A NEW CHAPTER 8-7, “CEMETERIES.”",
+    "title_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7268"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor removed item 3D from the Consent Agenda and was continued to the March 18 th meeting.",
+    "outcome_summary_citations": [
+     "/page/1/Text/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER:",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/Text/6"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "UPDATE REGARDING THE ECONOMIC VITALITY ACTION GROUP.",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "City Manager Bruno informed Council that at the first meeting the rather narrow scope of the six month effort which is to suggest tools, strategies and alternatives that might assist in enhancing business opportunities and sales tax revenues was described to the group.",
+    "outcome_summary_citations": [
+     "/page/1/Text/6"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "RTD UPDATE.",
+    "title_citations": [
+     "/page/1/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried: 8:0, Councilmember Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - NONE",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NONE",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "title": "POTENTIAL CALL-UPS:",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/2"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "COMMUNITY ENVIRONMENTAL ASSESSMENT PROCESS (CEAP) FOR THE FLOOD PROTECTION LEVEE RECONSTRUCTION AND IMPROVEMENT PROJECT; BEAR CANYON CREEK - FOOTHILLS PARKWAY TO ARAPAHOE AVENUE. WIP DATE: FEBRUARY 20, 2003. APPROVED UNANIMOUSLY BY WRAB, OSBT AND THE GREENWAYS ADVISORY COMMITTEE. LAST OPPORTUNITY FOR CALL-UP IS MARCH 18, 2003.",
+    "title_citations": [
+     "/page/2/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "FLOODPLAIN DEVELOPMENT PERMIT FOR CONSTRUCTION OF A SHED AT 1349 NORTH STREET, A SINGLE FAMILY RESIDENCE. WIP DATE: FEBRUARY 27, 2003. APPROVED BY PLANNING STAFF. LAST OPPORTUNITY FOR CALL-UP IS MARCH 4, 2003.",
+    "title_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "title": "PUBLIC COMMENT: - NONE",
+    "title_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "NONE",
+    "outcome_summary_citations": [
+     "/page/2/ListGroup/7"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "title": "FINAL DECISIONS:",
+    "title_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved consent items 3A through 3C and the draft RTD opposition letter, each 8:0 with Morzel absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/2/ListGroup/12"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION REGARDING THE CITY'S POSITION ON THE BOULDER VALLEY SCHOOL DISTRICT'S PROPOSED SCHOOL CLOSURES AND CONSOLIDATIONS.",
+    "title_citations": [
+     "/page/2/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "924"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Lori Seward",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Laura Hanifin",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alex Hanifin",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "James Hanifin",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Lori Carlucci",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Kate Connor",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/1"
+      ]
+     },
+     {
+      "name": "John Koval",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Keith Jimmerson",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Hondorf",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Beth Hondorf",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Gretchen Lang",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Catherine Schweiger",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Karyn Robinson",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jay Robinson",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/3/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Mickie Beaver",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Richard Werner",
+      "name_citations": [
+       "/page/3/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 8:0; Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/4/Text/1"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING NEW APPENDICES TO THE MASTER JOINT USE AGREEMENT BETWEEN THE CITY OF BOULDER AND THE BOULDER VALLEY SCHOOL DISTRICT (BVSD) AND PROVIDING FOR THE EXPENDITURE OF $955,000 OF EDUCATION EXCISE TAX.",
+    "title_citations": [
+     "/page/4/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Christopher Elmore",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Monte Sutak",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Steve Christopher",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Matt Martin",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Priscilla Walker",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Larisa Kottke",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Kristin Bialick",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Kevin Nelson",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Sam Bosley",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Jon Kottke",
+      "name_citations": [
+       "/page/4/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Dorothy Myers",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Sarah Evans",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Matt Blamey",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rusty Staff",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Carl Worthington Jr.",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Sue Goodwin",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Dee Perry",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Fred Rubin",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Bud Jenkins",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Svoboda",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Lorie Albright",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Jeff Brown",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Kenneth Lish",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ron Cabrera",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Bob Carskie",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Cat Jaffee",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Kelton Lynn",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Luke Cederberg",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mason Daly",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "John Knight",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Brittany Smith",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Scott Larson",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Frank Morel",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rob Anapole",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jake Hogan",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Christa Mathison",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicky Kelly",
+      "name_citations": [
+       "/page/6/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 7:1; Havlick opposed; Morzel absent.",
+    "outcome_summary_citations": [
+     "/page/6/Text/5"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE NO. 7267 AMENDING ORDINANCE NO. 6080 (1999) DESIGNATING THE DOWNTOWN AREA AS A HISTORIC DISTRICT UNDER THE CITY OF BOULDER HISTORIC PRESERVATION CODE. THE PROPOSED AMENDMENT WILL AMEND THE BOUNDARIES OF THE DOWNTOWN HISTORIC DISTRICT TO INCLUDE THE PROPERTY AT 2121 BROADWAY.",
+    "title_citations": [
+     "/page/6/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7267",
+     "6080"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0 as amended to correct \"Hillside to Downtown\" in the ordinance ; Morzel and Riggle absent.",
+    "outcome_summary_citations": [
+     "/page/7/Text/4"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "CONSIDERATION OF A MOTION ADOPTING PROPOSED CHANGES TO THE BOULDER VALLEY COMPREHENSIVE PLAN (BVCP) AS PART OF THE 2002-2003 ANNUAL UPDATE.",
+    "title_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was continued to the March 18 th meeting.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "13",
+    "item_number_citations": [
+     "/page/7/SectionHeader/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING REVISIONS TO THE BOULDER VALLEY COMPREHENSIVE PLAN ACTION PLAN.",
+    "title_citations": [
+     "/page/7/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was continued to the March 18 th meeting.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "14",
+    "item_number_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2003 BUDGET.",
+    "title_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7269"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 6:1; Havlick opposed, Morzel and Riggle absent.",
+    "outcome_summary_citations": [
+     "/page/7/Text/12"
+    ]
+   },
+   {
+    "item_number": "15",
+    "item_number_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING SECTION 4-20-25, \"MONTHLY WATER USER CHARGES\" AND SECTION 11-1-49, \"WATER CONSERVATION MEASURES,\" B.R.C. 1981, TO INCREASE THE TREATED WATER QUANTITY CHARGE FOR INSIDE AND OUTSIDE CITY WATER AND TO ESTABLISH A SURCHARGE DURING A DROUGHT.",
+    "title_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7270"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0; Morzel and Riggle absent.",
+    "outcome_summary_citations": [
+     "/page/7/Text/14"
+    ]
+   },
+   {
+    "item_number": "16",
+    "item_number_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY ORDINANCE ADOPTING SUPPLEMENT NO. 75 WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7227, 7233, 7234, 7235, 7240, 7242, 7243, 7247, 7248, 7252, AND 7254 AS AN AMENDMENT TO THE BOULDER REVISED CODE 1981, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7271",
+     "7227",
+     "7233",
+     "7234",
+     "7235",
+     "7240",
+     "7242",
+     "7243",
+     "7247",
+     "7248",
+     "7252",
+     "7254"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0; Morzel and Riggle absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "17",
+    "item_number_citations": [
+     "/page/8/SectionHeader/2"
+    ],
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING ORDINANCE NO. 5896 (1997) BY REVISING THE IMPASSE RESOLUTION PROCEDURE UTILIZED WHEN THE CITY REACHES IMPASSE WITH ONE OF ITS BARGAINING UNITS.",
+    "title_citations": [
+     "/page/8/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7272",
+     "5896"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7:0; Morzel and Riggle absent.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/Text/3"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Mock to approve consent items 3A through 3C.",
+    "motion_text_citations": [
+     "/page/1/Text/3"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7266"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/1/Text/3"
+    ],
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/1/Text/3"
+    ],
+    "vote_text": "The motion carried, 8:0, Councilmember Morzel absent.",
+    "vote_text_citations": [
+     "/page/2/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/1/Text/9"
+    ],
+    "motion_text": "Mayor Toor moved, seconded by Havlick, to approve the draft letter of opposition to RTD regarding the proposed elimination of the Neighborhood and Business Eco pass programs.",
+    "motion_text_citations": [
+     "/page/1/Text/9"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/1/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Toor",
+    "moved_by_citations": [
+     "/page/1/Text/9"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/1/Text/9"
+    ],
+    "vote_text": "The motion carried: 8:0, Councilmember Morzel absent.",
+    "vote_text_citations": [
+     "/page/2/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/3/Text/3"
+    ],
+    "motion_text": "Councilmember Riggle moved, seconded by Ruzzin, to adopt Resolution No. 924 regarding the City's position on the Boulder Valley School District's proposed school closures and consolidations.",
+    "motion_text_citations": [
+     "/page/3/Text/3"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "924"
+    ],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/3/Text/3"
+    ],
+    "seconded_by": "Ruzzin",
+    "seconded_by_citations": [
+     "/page/3/Text/3"
+    ],
+    "vote_text": "The motion carried 8:0; Morzel absent.",
+    "vote_text_citations": [
+     "/page/4/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Toor offered a friendly amendment, accepted by the maker and seconder of the motion, to ask Boulder Valley School District to work with the City of Boulder to evaluate opportunities to use Education Excise Tax funds and to house community activities in schools to create a financially feasible way to keep Neighborhood schools open.",
+    "motion_text_citations": [
+     "/page/4/Text/0"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/4/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "924"
+    ],
+    "moved_by": "Toor",
+    "moved_by_citations": [
+     "/page/4/Text/0"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Mock moved, seconded by Ruzzin to accept staff recommendations #1 and #2 and by the first meeting in June to have #3 and #4 come back as well as an analysis of the Education Excise Tax rate and potential future needs.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "seconded_by": "Ruzzin",
+    "seconded_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "vote_text": "The motion carried 7:1; Havlick opposed; Morzel absent.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Havlick"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Havlick moved, seconded by Corson to approve Ordinance No. 7267 amending Ordinance No. 6080 (1999) designating the Downtown area as a historic district under the city of Boulder Historic Preservation Code. The proposed amendment will amend the boundaries of the Downtown Historic District to include the property at 2121 Broadway.",
+    "motion_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7267",
+     "6080"
+    ],
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "vote_text": "The motion carried 7:0 as amended to correct \"Hillside to Downtown\" in the ordinance ; Morzel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/7/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": "14",
+    "agenda_item_number_citations": [
+     "/page/7/SectionHeader/11"
+    ],
+    "motion_text": "Councilmember Ruzzin moved, seconded by Mock to introduce and order published by title only Ordinance No. 7269 approving supplemental appropriations to the 2003 Budget as amended.",
+    "motion_text_citations": [
+     "/page/7/Text/12"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/12"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7269"
+    ],
+    "moved_by": "Ruzzin",
+    "moved_by_citations": [
+     "/page/7/Text/12"
+    ],
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/7/Text/12"
+    ],
+    "vote_text": "The motion carried 6:1; Havlick opposed, Morzel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/7/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/7/Text/12"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/7/Text/12"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Havlick"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": "15",
+    "agenda_item_number_citations": [
+     "/page/7/SectionHeader/13"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Ruzzin to introduce and order published by title only Ordinance No. 7270 amending Section 4-20-25, \"Monthly Water User Charges\" and Section 11-1-49, \"Water Conservation Measures,\" B.R.C. 1981, to increase the treated water quantity charge for inside and outside city water and to establish a surcharge during a drought.",
+    "motion_text_citations": [
+     "/page/7/Text/14"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/14"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7270"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/7/Text/14"
+    ],
+    "seconded_by": "Ruzzin",
+    "seconded_by_citations": [
+     "/page/7/Text/14"
+    ],
+    "vote_text": "The motion carried 7:0; Morzel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/7/Text/14"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/7/Text/14"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/14"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": "16",
+    "agenda_item_number_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "motion_text": "Councilmember Corson moved, seconded by Havlick to introduce and order published by title only Ordinance No. 7271 adopting Supplement No. 75 which codifies previously adopted Ordinance Nos. 7227, 7233, 7234, 7235, 7240, 7242, 7243, 7247, 7248, 7252, and 7254 as an amendment to the Boulder Revised Code 1981, and setting forth details in relation thereto.",
+    "motion_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/8/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7271",
+     "7227",
+     "7233",
+     "7234",
+     "7235",
+     "7240",
+     "7242",
+     "7243",
+     "7247",
+     "7248",
+     "7252",
+     "7254"
+    ],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "vote_text": "The motion carried 7:0; Morzel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": "17",
+    "agenda_item_number_citations": [
+     "/page/8/SectionHeader/2"
+    ],
+    "motion_text": "Councilmember Ruzzin moved, seconded by Mock to introduce and order published by title only Ordinance No. 7272 amending Ordinance No. 5896 (1997) by revising the impasse resolution procedure utilized when the city reaches impasse with one of its bargaining units.",
+    "motion_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/8/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7272",
+     "5896"
+    ],
+    "moved_by": "Ruzzin",
+    "moved_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "vote_text": "The motion carried 7:0; Morzel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:45 P.M..",
+    "motion_text_citations": [
+     "/page/8/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/ListGroup/0"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ]
+ }
+}

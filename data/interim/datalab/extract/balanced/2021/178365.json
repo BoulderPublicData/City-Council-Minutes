@@ -1,0 +1,2159 @@
+{
+ "entry_id": 178365,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "4-Y5cDQ5D4wL-mBqud76dA",
+ "page_count": 8,
+ "cost_breakdown": {
+  "final_cost_cents": 22.0
+ },
+ "extraction": {
+  "meeting_date": "2021-10-19",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, October 19, 2021” in /page/0/Text/3, supporting the normalized date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/7/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/3"
+   ],
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes heading identifies a “CITY COUNCIL MEETING,” but does not state whether it is regular or another enumerated meeting type. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the mayor called the meeting to order at the extracted time in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:31 p.m.",
+  "adjourned_time_citations": [
+   "/page/7/Text/3"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement in /page/7/Text/3 supports the extracted time. Conclusion: the value at /page/7/Text/3 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/6",
+   "/page/7/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6",
+    "/page/7/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is called to order by Mayor Weaver in /page/0/Text/6, and the adjournment statement also identifies Mayor Weaver in /page/7/Text/3. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain a Call-Up Check-In heading at /page/3/SectionHeader/3 but list no call-up items beneath it. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m.; council carried the motion to add Items 8A and 8B, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/0/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:34 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/0"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consent Agenda",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Consideration of a motion to call a Special Council Meeting on October 26, 2021",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Consideration of a motion to approve the Council Boards and Commission Subcommittee’s recommended appointments to the Beverage Licensing Authority, Downtown Management Commission and Housing Advisory Board",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Consideration of a motion to approve Bwembya Chikolwa as a full voting member of the Police Oversight Panel , as outlined in Title 2, Chapter 11, “Police Oversight,” B.R.C. 1981, pertaining to the composition, duties and powers of the City organization related to civilian oversight of the police",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Consideration of a motion to authorize the city manager to execute the Colorado Opioids Settlement Memorandum of Understanding and supporting documents in order for the City of Boulder to receive its Local Governments share of settlement proceeds",
+    "title_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Consideration of a motion to adjourn as the Boulder City Council and convene as the Central Area General Improvement District (CAGID) Board of Directors; and Consideration of a motion to adopt the following resolutions pertaining to the 2022 budget of the City of Boulder Downtown Commercial District Fund (formerly known as the Central Area General Improvement District (CAGID) Fund): 1. Resolution 301, adopting the 2022 budget; 2. Resolution 302, establishing the 2021 Property Tax Mill Levy; 3. Resolution 303, appropriating money to defray the expenses and liabilities for the 2022 budget; and Consideration of a motion to adjourn as the CAGID Board of Directors and convene as the University Hill General Improvement District (UHGID) Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "301",
+     "302",
+     "303"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 301, adopting the 2022 budget;",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "301"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Resolution 302, establishing the 2021 Property Tax Mill Levy;",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "302"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Resolution 303, appropriating money to defray the expenses and liabilities for the 2022 budget; and",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "303"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Consideration of a motion to adopt the following resolutions pertaining to the 2022 budget of the City of Boulder University Hill Commercial District Fund (formerly known as the University Hill General Improvement District (UHGID) Fund) 1. Resolution 218, adopting the 2022 budget; 2. Resolution 219, establishing the 2021 Property Tax Mill Levy; 3. Resolution 220, appropriating money to defray the expenses and liabilities for the 2022 budget; and Consideration of a motion to adjourn as the UHGID Board of Directors and convene as the Boulder Municipal Property Authority Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "218",
+     "219",
+     "220"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 218, adopting the 2022 budget;",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "218"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Resolution 219, establishing the 2021 Property Tax Mill Levy;",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "219"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "title": "Resolution 220, appropriating money to defray the expenses and liabilities for the 2022 budget; and",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "220"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt Resolution 156 pertaining to the 2022 budget for the Boulder Municipal Property Authority; and Consideration of a motion to adjourn from the Boulder Municipal Property Authority (BPMA) Board of Directors and convene as the Forest Glen Transit Pass General Improvement District Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "156"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of motion to adopt the following resolutions pertaining to the 2022 budget of the City of Boulder Forest Glen Transit Pass General Improvement District Fund: 1. Resolution 69, adopting the 2022 budget; 2. Resolution 70, establishing the 2021 Property Tax Mill Levy; 3. Resolution 71, appropriating money to defray the expenses and liabilities for the 2022 budget; and Consideration of a motion to adjourn as the City of Boulder Forest Glen Transit Pass General Improvement District Board of Directors, and convene as the Boulder Junction Access Commission General Improvement District (BJAGID) – Parking Fund Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "69",
+     "70",
+     "71"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 69, adopting the 2022 budget;",
+    "title_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "69"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 70, establishing the 2021 Property Tax Mill Levy;",
+    "title_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "70"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 71, appropriating money to defray the expenses and liabilities for the 2022 budget; and",
+    "title_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "71"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt the following resolutions pertaining to the 2022 budget of the City of Boulder, Boulder Junction Access Commission General Improvement District (BJAGID) – Parking Fund: 1. Resolution 40, adopting the 2022 budget; 2. Resolution 41, establishing the 2021 Property Tax Mill Levy; 3. Resolution 42, appropriating money to defray expenses and liabilities for the 2022 budget and Consideration of a motion to adjourn as the Boulder Junction Access Commission General Improvement District (BJAGID) – Parking Fund Board of Directors, and convene as the Boulder Junction Access Commission General Improvement District (BJAGID) – Travel Demand Management Fund Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "40",
+     "41",
+     "42"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 40, adopting the 2022 budget;",
+    "title_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "40"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 41, establishing the 2021 Property Tax Mill Levy;",
+    "title_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "41"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 42, appropriating money to defray expenses and liabilities for the 2022 budget and",
+    "title_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "42"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt three resolutions pertaining to the 2022 budget of the City of Boulder, Boulder Junction Access Commission General Improvement District (BJAGID) – Travel Demand Management Fund 1. Resolution 39, adopting the 2022 budget; 2. Resolution 40, establishing the 2021 Property Tax Mill Levy 3. Resolution 41, appropriating the money to defray the expenses and liabilities 2022 budget; and Consideration of a motion to adjourn as the Boulder Junction Access Commission General Improvement District- Travel Demand Management Fund Board of Directors and reconvene as the Boulder City Council",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "39",
+     "40",
+     "41"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 39, adopting the 2022 budget;",
+    "title_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "39"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 40, establishing the 2021 Property Tax Mill Levy",
+    "title_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "40"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Resolution 41, appropriating the money to defray the expenses and liabilities 2022 budget; and",
+    "title_citations": [
+     "/page/2/ListGroup/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "41"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "K",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/2"
+    ],
+    "title": "Consideration of a motion to approve the proposed 2022 budget, operating plan, and board reappointments for the Downtown Boulder Business Improvement District",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "L",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/2"
+    ],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only Ordinance 8513 designating the property at 963 7th St. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981; and setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8513"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "M",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/2"
+    ],
+    "title": "Introduction , first reading and consideration of a motion to order published by title only Ordinance 8490 designating the building and a portion of the property at 3485 Stanford Ct. as an individual landmark per Section 9-11-5 of the Boulder Revised Code, 1981; setting forth related details",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8490"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "N",
+    "item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/Table/2"
+    ],
+    "title": "Second reading , and consideration of a motion to adopt and order published by title only Ordinance 8503 to Amend Section 7-6-27, “Special Regulations For Parking in Parks and Open Space,” BRC 1981, in order to allow changes to certain parking regulations on city Open Space",
+    "title_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8503"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the consent agenda items A - N, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Consideration of a motion to approve the selection of the City Attorney",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "6:42 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/6"
+    ],
+    "hearing_closed_time": "6:44 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/8"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council appointed Teresa Taylor Tate as City Attorney, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8504 changing licensing requirements for Marijuana Keyholders, Circuses, Carnivals and Menageries, Mobile Food Vehicles, Itinerant Merchants, Tobacco Retailers, and Secondhand Dealers and Pawnbrokers by amending Title 4, “Licenses and Permits,” Sections 6-14-8, “Requirements Related to Operation of Medical Marijuana Businesses,” 6-16-8, “Requirements Related to Operation of Recreational Marijuana Businesses,” and 9-6-6, “Mobile Food Vehicle Sales,” B.R.C. 1981; and setting forth related details",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8504"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:07 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/4/Text/2"
+    ],
+    "hearing_closed_time": "7:09 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/4"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8504, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Consideration of the following items relating to the 2022 Budget : 1. Second reading and consideration of a motion to adopt Ordinance 8505 adopting the budget for the City of Boulder, Colorado , for the fiscal year commencing on the first day of January 2022 and ending on the last day of December 2022; and setting forth related details; 2. Second reading and consideration of a motion to adopt Ordinance 8506 establishing the 2021 City of Boulder property tax mill levies which are to be collected by the County of Boulder, State of Colorado, within the City of Boulder in 2022 for payment of expenditures by the City of Boulder, County of Boulder, State of Colorado; and setting forth related details; 3. Second reading and consideration of a motion to adopt Ordinance 8507 appropriating money to defray expenses and liabilities of the City of Boulder, Colorado, for the 2022 fiscal year of the City of Boulder, commencing on the first day of January 2022 and ending on the last day of December 2022; and setting forth related details; and 4. Second reading , and consideration of a motion to adopt, Ordinance 8508 amending Chapter 4-20, “Fees,” and Section 3- 8-3, “Tax Imposed on Nonresidential and Residential Development,” B.R.C. 1981, changing certain fees; and setting forth related details",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8505",
+     "8506",
+     "8507",
+     "8508"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/3"
+    ],
+    "hearing_closed_time": "7:51 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicole Spear",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brian Marin",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kari Palazzari",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Maldon",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinances 8505, 8506, 8507 and 8508, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8505 adopting the budget for the City of Boulder, Colorado , for the fiscal year commencing on the first day of January 2022 and ending on the last day of December 2022; and setting forth related details;",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8505"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/3"
+    ],
+    "hearing_closed_time": "7:51 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicole Spear",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brian Marin",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kari Palazzari",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Maldon",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8505, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8506 establishing the 2021 City of Boulder property tax mill levies which are to be collected by the County of Boulder, State of Colorado, within the City of Boulder in 2022 for payment of expenditures by the City of Boulder, County of Boulder, State of Colorado; and setting forth related details;",
+    "title_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8506"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/3"
+    ],
+    "hearing_closed_time": "7:51 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicole Spear",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brian Marin",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kari Palazzari",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Maldon",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8506, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8507 appropriating money to defray expenses and liabilities of the City of Boulder, Colorado, for the 2022 fiscal year of the City of Boulder, commencing on the first day of January 2022 and ending on the last day of December 2022; and setting forth related details; and",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8507"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/3"
+    ],
+    "hearing_closed_time": "7:51 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicole Spear",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brian Marin",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kari Palazzari",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Maldon",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8507, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Second reading , and consideration of a motion to adopt, Ordinance 8508 amending Chapter 4-20, “Fees,” and Section 3- 8-3, “Tax Imposed on Nonresidential and Residential Development,” B.R.C. 1981, changing certain fees; and setting forth related details",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8508"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/3"
+    ],
+    "hearing_closed_time": "7:51 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/5"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nicole Spear",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brian Marin",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ryan Bonick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kari Palazzari",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Maldon",
+      "name_citations": [
+       "/page/5/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Ordinance 8508, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/6/Text/0"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/3/SectionHeader/4"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8512 granting authority to the approving authority under Title 9 , “Land Use Code,” B.R.C. 1981, to approve a development that exceeds the minimum open space per dwelling unit standards for a property in the Business Community 1 district (BC-1) located at 3320 28th Street, at Diagonal Plaza, authorizing the city manager to execute documents that will secure affordable housing on the property, and setting forth related details",
+    "title_citations": [
+     "/page/6/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8512"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:55 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/1"
+    ],
+    "hearing_closed_time": "9:05 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/3"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Evan Fredrick",
+      "name_citations": [
+       "/page/6/ListGroup/2"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council amended the title of Ordinance 8512 and adopted it with the title amendment, 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/6/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/6/Text/9"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "Council discussion on disbanding the CU South Process Subcommittee",
+    "title_citations": [
+     "/page/6/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "An item to disband the subcommittee will be brought forward at the next meeting under consent.",
+    "outcome_summary_citations": [
+     "/page/6/Text/9"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/6/Text/12"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "Council discussion on adding Gun Violence Prevention Ordinances to the workplan (to include re-adopting the Assault Weapons Ban)",
+    "title_citations": [
+     "/page/6/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council agreed that Council Member Friend will continue to work with consortium and bring forward any model ordinance language that will align with the City’s goals.",
+    "outcome_summary_citations": [
+     "/page/6/Text/12"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 9:31 p.m.",
+    "outcome_summary_citations": [
+     "/page/7/Text/3"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADD: • Item 8A - Council discussion on disbanding the CU South Process Subcommittee • Item 8B - Council discussion on adding Gun Violence Prevention Ordinances to the workplan",
+    "motion_text_citations": [
+     "/page/0/Table/9"
+    ],
+    "action_type": "approve_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/0/Table/9"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/0/Table/9"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/0/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/0/Table/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "motion_text": "Motion to accept the consent agenda items A - N",
+    "motion_text_citations": [
+     "/page/3/Table/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "301",
+     "302",
+     "303",
+     "218",
+     "219",
+     "220",
+     "156",
+     "69",
+     "70",
+     "71",
+     "40",
+     "41",
+     "42",
+     "39",
+     "8513",
+     "8490",
+     "8503"
+    ],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/3/Table/2"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/3/Table/2"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/3/Table/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Table/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Table/9"
+    ],
+    "motion_text": "Motion to appoint Teresa Taylor Tate as City Attorney",
+    "motion_text_citations": [
+     "/page/3/Table/9"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/3/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/3/Table/9"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/3/Table/9"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/3/Table/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Table/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Table/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/4/Table/5"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8504 changing licensing requirements for Marijuana Keyholders, Circuses, Carnivals and Menageries, Mobile Food Vehicles, Itinerant Merchants, Tobacco Retailers, and Secondhand Dealers and Pawnbrokers by amending Title 4, “Licenses and Permits,” Sections 6-14-8, “Requirements Related to Operation of Medical Marijuana Businesses,” 6-16-8, “Requirements Related to Operation of Recreational Marijuana Businesses,” and 9-6-6, “Mobile Food Vehicle Sales,” B.R.C. 1981",
+    "motion_text_citations": [
+     "/page/4/Table/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Table/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8504"
+    ],
+    "moved_by": "Young",
+    "moved_by_citations": [
+     "/page/4/Table/5"
+    ],
+    "seconded_by": "Brockett",
+    "seconded_by_citations": [
+     "/page/4/Table/5"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/4/Table/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Table/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/5/Table/6"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8505 the budget for the City of Boulder, Colorado, for the fiscal year commencing on the first day of January 2022 and ending on the last day of December 2022; ADOPT Ordinance 8506 establishing the 2021 City of Boulder property tax mill levies which are to be collected by the County of Boulder, State of Colorado, within the City of Boulder in 2022 for payment of expenditures by the City of Boulder, County of Boulder, State of Colorado; ADOPT Ordinance 8507 appropriating money to defray expenses and liabilities of the City of Boulder, Colorado, for the 2022 fiscal year of the City of Boulder, commencing on the first day of January 2022 and ending on the last day of December 2022; ADOPT Ordinance 8508 amending Chapter 4-20, “Fees,” and Section 3-8-3, “Tax Imposed on Nonresidential and Residential Development,” B.R.C. 1981, changing fees",
+    "motion_text_citations": [
+     "/page/5/Table/6"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Table/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8505",
+     "8506",
+     "8507",
+     "8508"
+    ],
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/5/Table/6"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/5/Table/6"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/5/Table/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Table/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Table/6"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/6/Table/4"
+    ],
+    "motion_text": "Move to AMEND on second reading the title of Ordinance 8512 to read Ordinance 8512 granting authority to the approving authority under Title 9, “Land Use Code,” B.R.C. 1981, to approve a development that DOES NOT MEET the minimum open space per dwelling unit standards for a property in the Business Community 1 district (BC-1) located at 3320 28 th Street, at Diagonal Plaza, authorizing the city manager to execute documents that will secure affordable housing on the property and Move to ADOPT 8512 with such title amendment",
+    "motion_text_citations": [
+     "/page/6/Table/4"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/6/Table/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8512"
+    ],
+    "moved_by": "Weaver",
+    "moved_by_citations": [
+     "/page/6/Table/4"
+    ],
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/6/Table/4"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/6/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/6/Table/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Table/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Weaver at 9:31 p.m.",
+    "motion_text_citations": [
+     "/page/7/Text/3"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Joseph"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Swetlik",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Brian Marron",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "Pubic Hearing item",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "Hogan Pancost",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Kim McCarthy",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "BHP/Bridge Walk",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/0/ListGroup/13"
+    ],
+    "topic": "climate change",
+    "topic_citations": [
+     "/page/0/ListGroup/13"
+    ]
+   }
+  ]
+ }
+}

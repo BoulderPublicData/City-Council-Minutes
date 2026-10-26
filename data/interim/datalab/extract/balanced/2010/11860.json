@@ -1,0 +1,551 @@
+{
+ "entry_id": 11860,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "k-u-oMlaJqJjylvBa_y6Pg",
+ "page_count": 3,
+ "cost_breakdown": {
+  "final_cost_cents": 12.0
+ },
+ "extraction": {
+  "meeting_date": "2010-10-12",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, October 12, 2010” in /page/0/Text/1, supporting the extracted date. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "SPECIAL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 identifies the meeting as a special meeting. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 identifies the meeting as a special meeting, supporting the extracted meeting type. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order sentence states that the meeting was held “in the Council Chambers” in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "8:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order sentence states that the meeting was called to order at 8:00 p.m. in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:10 P.M.",
+  "adjourned_time_citations": [
+   "/page/2/Text/9"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/2/Text/9"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement in /page/2/Text/9 states that the meeting was adjourned at 10:10 P.M. Conclusion: the value at /page/2/Text/9 agrees with the extraction."
+   }
+  },
+  "presiding_officer": null,
+  "presiding_officer_citations": [],
+  "presiding_officer_meta": {
+   "extraction_status": "NOT_RESOLVABLE",
+   "reasoning": null,
+   "citations": [],
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes identify Mayor Osborne as present in /page/0/Text/4 and later identify Susan Osborne as mayor in /page/2/Text/11, but they do not state who called the meeting to order or presided. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain no section or entries identified as call-ups or call-up check-ins. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The special meeting of the Boulder City Council was called to order at 8:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 9:0.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION PROVIDING DIRECTION ON THE AREA III – PLANNING RESERVE AS PART OF THE 2010 MAJOR UPDATE TO THE BOULDER VALLEY COMPREHENSIVE PLAN. - 8:00 P.M.",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Sally Dettetre",
+      "name_citations": [
+       "/page/0/ListGroup/15"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/15"
+      ]
+     },
+     {
+      "name": "James Richey",
+      "name_citations": [
+       "/page/0/ListGroup/15"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/15"
+      ]
+     },
+     {
+      "name": "Bruce Wilson",
+      "name_citations": [
+       "/page/0/ListGroup/15"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/15"
+      ]
+     },
+     {
+      "name": "Johnathan Smolens",
+      "name_citations": [
+       "/page/0/ListGroup/15"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Quint Redmond",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "James Harrington",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jane Scott",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Alan Villavicencio",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Dawn Elder",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Rakesh Ganeriwala",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     },
+     {
+      "name": "Susan Peterson",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Scott Berryman",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ]
+     }
+    ],
+    "outcome_summary": "Council Member Becker moved, seconded to Council Member Gray to: a) approve Option 2 as outlined in the memo to undertake revisions to the Service Area Expansion Process and part of the 2010 Major Update to the Boulder Valley Comprehensive Plan, and b) postpone consideration of a Service Area Expansion until after the 2010 Major Update is completed.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:10 P.M.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/2/Text/7"
+    ],
+    "motion_text": "Council Member Becker moved, seconded to Council Member Gray to: a) approve Option 2 as outlined in the memo to undertake revisions to the Service Area Expansion Process and part of the 2010 Major Update to the Boulder Valley Comprehensive Plan, and b) postpone consideration of a Service Area Expansion until after the 2010 Major Update is completed.",
+    "motion_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Becker",
+    "moved_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:10 P.M.",
+    "motion_text_citations": [
+     "/page/2/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/2/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:10 P.M.",
+    "vote_text_citations": [
+     "/page/2/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Sally Dettetre",
+    "topic": "read a letter by Tom Metz, one of the three owners of the St. Julien supporting Dr. Allan Villavicencio’s proposal for a Boulder Multisport Training & Sports Science Center (BMT), noting that this should be considered as a high priority by City Council and a tremendous value to the community."
+   },
+   {
+    "name": "James Richey",
+    "topic": "the swim coach of Boulder Swimming spoke to the impacts of all the closed pools in Boulder and the importance of supporting the sports. He also noted the positive reputation for promoting professional sports that will only be enhanced by such a facility."
+   },
+   {
+    "name": "Bruce Wilson",
+    "topic": "in support of the proposed Multisports Complex, agreed with previous speakers regarding the valuable service this type of facility would be for the whole community."
+   },
+   {
+    "name": "Johnathan Smolens",
+    "topic": "representing Boulder Eco Village, a group of people who are interested in using the property under discussion to develop Agriburbia."
+   },
+   {
+    "name": "Quint Redmond",
+    "topic": "TSR group out of Golden who developed the Agraburbia technology. Development of this technology will be a critical element in how future food production will exist."
+   },
+   {
+    "name": "James Harrington",
+    "topic": "Spoke of a friend who lived the proposal area and expressed concern regarding impacts to the people who live in the area need to be considered and they need to be included in the process."
+   },
+   {
+    "name": "Jane Scott",
+    "topic": "head coach for the Boulder Aquatic Masters. Spoke of the support from that group for the Multisports Complex."
+   },
+   {
+    "name": "Dr. Alan Villavicencio",
+    "topic": "pooled time for 5 minutes. He is the party that submitted the proposal for BMT a Multisports Complex. He encouraged Council not to place this on the back burner as it was completely funded by him and he expressed concern regarding the potential of a missed opportunity. Has also noted that this was not just about world class athletes it was more about solidifying the Boulder Brand and about the Boulder community. He also clarified that CU is very interested in such a facility but they do not have the land to do it."
+   },
+   {
+    "name": "Dawn Elder",
+    "topic": "mother of three from Texas who comes to Boulder every two months to train. As a tri-athlete she was surprised by the poor quality of facilities for athletes to train. Felt the project had a sense of urgency to take advantage of this proposal."
+   },
+   {
+    "name": "Rakesh Ganeriwala",
+    "topic": "A Multisports Complex facility would have far reaching effects beyond Boulder. The complex would support the Council’s Smart Energy Goals and would provide for surrounding areas as well from those who would come to train."
+   },
+   {
+    "name": "Susan Peterson",
+    "topic": "Spoke in opposition to the proposal expressing the type of proposal being presented to the Council was exactly what the current procedure was intended to prevent."
+   },
+   {
+    "name": "Scott Berryman",
+    "topic": "a former elite athlete who now works with Denver to support opportunities for kids in need, expressed the benefits of reaching out to create healthy life styles for the kids in Boulder."
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [
+     "/page/2/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/2/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [
+     "/page/2/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [
+     "/page/2/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [
+     "/page/2/Text/5"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/2/Text/5"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/2/Text/4"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/2/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

@@ -1,0 +1,1691 @@
+{
+ "entry_id": 176772,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "Hqipa5lOLxz3HFuwPXQDoQ",
+ "page_count": 7,
+ "cost_breakdown": {
+  "final_cost_cents": 19.0
+ },
+ "extraction": {
+  "meeting_date": "2021-05-04",
+  "meeting_date_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/2 gives the meeting date, and the extracted normalized date is supported. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/SectionHeader/0 supports the extracted meeting heading. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/PageFooter/13"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/PageFooter/13"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/PageFooter/13 identifies the meeting as a Regular Meeting. Conclusion: the value at /page/0/PageFooter/13 agrees with the extraction."
+   }
+  },
+  "location": "Via Video Conferencing",
+  "location_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/SectionHeader/1 supports the extracted meeting location. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/5"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/5 states the meeting was called to order at the extracted time. Conclusion: the value at /page/0/Text/5 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:38 P.M.",
+  "adjourned_time_citations": [
+   "/page/5/Text/5"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/5/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/5/Text/5 states the meeting was adjourned at the extracted time. Conclusion: the value at /page/5/Text/5 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Joseph",
+  "presiding_officer_citations": [
+   "/page/0/Text/5"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/0/Text/5 identifies Joseph as the person who called the meeting to order. Conclusion: the value at /page/0/Text/5 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. Call Up Item for Site Review and Use Review applications related to the phased redevelopment of the Shining Mountain Waldorf School located at 999 Violet Ave., 1100 Violet Ave., 1101 Union Ave, 1179 Union Ave., 0 Locust Ave., 934 Locust Ave., and 4395 Broadway"
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/3"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/2/ListGroup/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "Block /page/2/ListGroup/3 supports the extracted call-up item. Conclusion: the value at /page/2/ListGroup/3 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "Block /page/2/ListGroup/3 contains one call-up item, matching the one item in the extraction. Conclusion: the list is complete and the extraction agrees with /page/2/ListGroup/3."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/5"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Pro Tem Joseph called the meeting to order at 6:01 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/8"
+    ],
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "Declaration recognizing Older Adults Month presented by Council Member Brockett",
+    "title_citations": [
+     "/page/0/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment",
+    "section_citations": [],
+    "title": "Open Comment",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/2/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to approve April 6, 2021 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Minutes not approved due to incorrect documentation being submitted.",
+    "outcome_summary_citations": [
+     "/page/1/ListGroup/3"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "Consideration of a motion to approve April 13, 2021 Special Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "Consideration of a motion to approve April 20, 2021 Regular Meeting Minutes",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to authorize the City Manager, pursuant to section 2-2-8, “Conveyance of City Real Property Interests,” to execute a quitclaim deed to convey the vacated 9th Street, located west of and adjacent to 999 Violet Avenue, to Waldorf School Association of Boulder, Inc.",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER YATES MADE A MOTION TO APPROVE ITEM 3D AND 3E FROM THE CONSENT AGENDA.",
+    "outcome_summary_citations": [
+     "/page/2/Text/5"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Consideration of a motion to amend the Annexation Agreement for 4395 Broadway within the Residential- Low 2 (RL-2) zoning district, related to the Shining Mountain Waldorf School redevelopment, to remove a two-story maximum above basement limitation on buildings for this property (LUR2020-00050)",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER YATES MADE A MOTION TO APPROVE ITEM 3D AND 3E FROM THE CONSENT AGENDA.",
+    "outcome_summary_citations": [
+     "/page/2/Text/5"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Introduction, first reading, and consideration of a motion to order published by title only Ordinance 8457 amending Section 3-1-1, “Definitions,” and adding a new Section 3-2-10, “Market Place Sales,” B.R.C. 1981, to assist in facilitating taxation on remote sales into the city and to authorize the city manager to enter into a Sales and Use Tax System Agreement, in substantially the same form as attached to the Agenda Memorandum, for state collection of sales tax from Marketplace Facilitators; and setting forth related details",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8457"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Introduction, first reading and consideration of a motion to order published by title only, Ordinance 8460 vacating and authorizing the city manager to execute a deed of vacation for a portion of an eight-foot alley bisecting the properties at 0 Pleasant and 1155 Pleasant St. (LUR2021-00006). The vacation will allow the sale of the two parcels for the purpose of creating a contiguous building site for the development of the Hill hotel",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8460"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/2"
+    ],
+    "title": "Introduction, first reading and consideration of a motion to order published by title only, Ordinance 8461 vacating and authorizing the city manager to execute a deed of vacation for public right-of-way that bisects the northwest corner of the property at 3485 Stanford Ct., which was dedicated in 1957 for the extension of 35th Street (LUR2020-00054). This street is no longer planned or feasible given slopes and the existing development pattern",
+    "title_citations": [
+     "/page/1/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8461"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8459 vacating and authorizing the city manager to execute a deed of vacation for a public access easement at 1750 15th St. and 1580 Canyon Blvd. (case number LUR2021-00004)",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8459"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8456 to defer compliance of the Harvest of Hope Food Pantry (defined as a day shelter in the code) with the city’s development standards of Title 9, Land Use Code, for a period of three years to enable Harvest of Hope to begin needed operation of food distribution to those impacted by food insecurity at a new facility located at 4830 Pearl Street within the Industrial - General (IG) zoning district",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8456"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "K",
+    "item_number_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [],
+    "title": "Consideration of a motion to adopt Resolution 1287 supporting the Metro Denver Homeless Initiative (MDHI) Pledge to Coordination on Homelessness",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1287"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "L",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/2/Text/1"
+    ],
+    "title": "Consideration of a motion to call a Special Meeting of the Boulder City Council on May 11, 2021.",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "Call Up Item for Site Review and Use Review applications related to the phased redevelopment of the Shining Mountain Waldorf School located at 999 Violet Ave., 1100 Violet Ave., 1101 Union Ave, 1179 Union Ave., 0 Locust Ave., 934 Locust Ave., and 4395 Broadway",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "title": "Consideration of a Nonconforming Use Review (case no. LUR2020-00022) for the historic restoration and conversion of the former Marpa House group living quarters at 891 12th Street into 16 three-bedroom dwelling units with a maximum occupancy of 48 persons. The project site is zoned Residential - Low 1 (RL-1)",
+    "title_citations": [
+     "/page/2/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:22 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/2"
+    ],
+    "hearing_closed_time": "9:53 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Doug Burdin",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dianna Gonzales-Burdin",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tomozo Yano",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Raduziner",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Diana Verrilli",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kara Arnold",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Kindgren",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Callie Weiant",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ellen Morris",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Stefan Magnusson",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Candice Kasai",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Victoria Johns",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Meyer",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elene Mooney",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jay Madtson",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Marc Painter",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jordan Bunch",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sue Ellen Harrison",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rachael Mckee",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Scarboro",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Hope Michelsen",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ray Bambha",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "James Kindgren",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rishi Raj",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Laura Spalding",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kurt Fuhrman",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Zach Genn",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chad Helton",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Greg Baron",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bennett Fishbein",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Madison Kemp",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jessie Fleck",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Logan Dowell",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Zachary Ofner",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Hillary Griffith",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Garabed",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elizabeth O'Donnell",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Eli Rosenfeld",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lars Runquist",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathy Young",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sue Puterbaugh",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brad ONeil",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Anthony Burke",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Smallwood",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Liz Hanson",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Damian Lesperance",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Scott Alexander",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alexia Parkos",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lisa Spalding",
+      "name_citations": [
+       "/page/4/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Kelton",
+      "name_citations": [
+       "/page/3/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Aaron Belzer",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Stephen Clark",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rachael McKee",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Daniel Haarburger",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "No action taken.",
+    "outcome_summary_citations": [
+     "/page/5/Text/3"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "City Attorney Recruitment Subcommittee Update",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/Text/5"
+    ],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "THERE BEING NO FURTHER BUSINESS TO COME BEFORE COUNCIL AT THIS TIME, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED ON MAY 4, 2021 AT 11:38 P.M.",
+    "outcome_summary_citations": [
+     "/page/5/Text/5"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [],
+    "motion_text": "COUNCIL MEMBER WALLACH MADE A MOTION TO AMEND THE AGENDA TO UPDATE ITEM 5A NONCONFORMING USE REVIEW OF MARPA HOUSE TO INCLUDE COUNCIL DELIBERATIONS, REMOVE ITEM 6A HEALTH & SAFETY REGULATIONS IN PUBLIC SPACES AND ANNUAL HOMELESSNESS UPDATE AND ADD ITEM 8A CITY ATTORNEY RECRUITMENT SUBCOMMITTEE UPDATE. COUNCIL MEMBER SWETLIK SECONDED THE MOTION.",
+    "motion_text_citations": [
+     "/page/0/Text/7"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "WALLACH",
+    "moved_by_citations": [
+     "/page/0/Text/7"
+    ],
+    "seconded_by": "SWETLIK",
+    "seconded_by_citations": [
+     "/page/0/Text/7"
+    ],
+    "vote_text": "THE MOTION PASSED 6:0 AT 6:04 P.M. WITH MAYOR WEAVER AND COUNCIL MEMBER YATES NOT IN ATTENDANCE YET AND COUNCIL MEMBER FRIEND ABSENT.",
+    "vote_text_citations": [
+     "/page/0/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Text/7"
+    ],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/0/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "WEAVER",
+     "YATES",
+     "FRIEND"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text": "COUNCIL MEMBER BROCKETT MADE A MOTION TO APPROVE THE CONSENT AGENDA ITEMS A-L DEFERRING ITEMS 3D AND 3E UNTIL AFTER ITEM 4A. COUNCIL MEMBER YATES SECONDED THE MOTION.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8457",
+     "8460",
+     "8461",
+     "8459",
+     "8456",
+     "Res. 1287"
+    ],
+    "moved_by": "BROCKETT",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by": "YATES",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "THE MOTION PASSED 8:0 AT 6:39 P.M. WITH COUNCIL MEMBER FRIEND ABSENT.",
+    "vote_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Text/1"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "FRIEND"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/5"
+    ],
+    "motion_text": "COUNCIL MEMBER YATES MADE A MOTION TO APPROVE ITEM 3D AND 3E FROM THE CONSENT AGENDA. COUNCIL MEMBER WALLACH SECONDED THE MOTION.",
+    "motion_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "YATES",
+    "moved_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "seconded_by": "WALLACH",
+    "seconded_by_citations": [
+     "/page/2/Text/5"
+    ],
+    "vote_text": "THE MOTION PASSED 8:0 AT 6:51 P.M. WITH COUNCIL MEMBER FRIEND ABSENT.",
+    "vote_text_citations": [
+     "/page/2/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Text/5"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/2/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "FRIEND"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/5/Text/2"
+    ],
+    "motion_text": "COUNCIL MEMBER YATES MADE A MOTION TO EXTEND THE MEETING. MAYOR WEAVER SECONDED THE MOTION.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "YATES",
+    "moved_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "seconded_by": "WEAVER",
+    "seconded_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "vote_text": "THE MOTION PASSED 8:0 AT 10:59 P.M. WITH COUNCIL MEMBER FRIEND ABSENT.",
+    "vote_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/2"
+    ],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "FRIEND"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/5/Text/5"
+    ],
+    "motion_text": "THERE BEING NO FURTHER BUSINESS TO COME BEFORE COUNCIL AT THIS TIME, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED ON MAY 4, 2021 AT 11:38 P.M.",
+    "motion_text_citations": [
+     "/page/5/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/5/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/2"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/5"
+    ],
+    "title": "Mayor Pro Tem",
+    "title_citations": [
+     "/page/0/Text/5"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "name": "Nagle",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "joined the meeting at 6:35 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/6"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/6"
+    ],
+    "attendance_note": "joined the meeting at 6:26 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/6"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Friend",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Becky Farr",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "Harvest of Hope Food Pantry",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "municipalization",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "homelessness",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Robert Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "increasing police force",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "Evan Ravitz",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "online petitioning",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "DeWitt Boice",
+    "name_citations": [
+     "/page/0/ListGroup/12"
+    ],
+    "topic": "sign permit and easement issues",
+    "topic_citations": [
+     "/page/0/ListGroup/12"
+    ]
+   },
+   {
+    "name": "David Dadone",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "Boulder Museum of Contemporary Art",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Riley Mancuso",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "corruption",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ]
+ }
+}

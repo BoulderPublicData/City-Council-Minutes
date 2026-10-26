@@ -1,0 +1,1497 @@
+{
+ "entry_id": 152104,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "b8efrAMP69_tTIXVUIU0bw",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 31.0
+ },
+ "extraction": {
+  "meeting_date": "2002-06-04",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date at /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading identifies the proceedings at /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:30 P.M.",
+  "adjourned_time_citations": [
+   "/page/8/Text/4"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/8/Text/4. Conclusion: the value at /page/8/Text/4 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Will Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Will Toor as the mayor who called the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "VACATION OF A 13-FOOT BY 69-FOOT PORTION OF A 40-FOOT PLATTED LANDSCAPE BUFFER EASEMENT LOCATED ALONG THE WESTERN PORTION OF A PROPERTY LOCATED AT 3855 NORWOOD COURT. WIP DATE: MAY 23, 2002. APPROVED BY THE PLANNING DEPARTMENT. LAST OPPORTUNITY FOR CALL-UP IS JUNE 4, 2002.",
+   "SITE REVIEW #SI-95-25 TO AMEND THE CONDITIONS OF APPROVAL FOR DAKOTA RIDGE VILLAGE TO DELAY THE TIMING FOR COMPLETION OF FIFTH STREET AND TO AMEND THE NORTH BOULDER SUBCOMMUNITY PLAN TO RELOCATE THE FIFTH STREET EXTENSION TO LEE HILL APPROXIMATELY 300 FEET EAST. WIP DATE: MAY 23, 2002. APPROVED BY PLANNING BOARD (5-0; B. POMMER AND M. COWLES ABSENT). LAST OPPORTUNITY FOR CALL-UP IS JUNE 4, 2002.",
+   "COMMUNITY ENVIRONMENTAL ASSESSMENT PROCESS FOR THE YARMOUTH IMPROVEMENT PROJECT. WIP DATE MAY 23, 2002. APPROVED BY THE TRANSPORTATION ADVISORY BOARD (4-0). LAST OPPORTUNITY FOR CALL-UP IS JUNE 4, 2002."
+  ],
+  "call_up_items_citations": [
+   "/page/5/ListGroup/1",
+   "/page/5/ListGroup/3",
+   "/page/5/ListGroup/5"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/5/ListGroup/1"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first potential call-up item appears in /page/5/ListGroup/1. Conclusion: the value at /page/5/ListGroup/1 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/5/ListGroup/3"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second potential call-up item appears in /page/5/ListGroup/3. Conclusion: the value at /page/5/ListGroup/3 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/5/ListGroup/5"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The third potential call-up item appears in /page/5/ListGroup/5. Conclusion: the value at /page/5/ListGroup/5 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains three potential call-up items, and all three are extracted from /page/5/ListGroup/1, /page/5/ListGroup/3, and /page/5/ListGroup/5. Conclusion: the value at /page/5/ListGroup/1, /page/5/ListGroup/3, and /page/5/ListGroup/5 agrees with the extraction."
+   }
+  },
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/4/Text/2"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Eldridge to approve consent items 3A through 3G, with item 3-C amended to reflect a principal amount of $7,355,000.",
+    "motion_text_citations": [
+     "/page/4/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "vote_text": "The motion carried 8:0; Corson absent.",
+    "vote_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson"
+    ]
+   },
+   {
+    "agenda_item_number": "4A",
+    "agenda_item_number_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "motion_text": "Councilmember Morzel moved, seconded by Havlick, to: 1) support continuation of the IPM program for parks; 2) Recommend a study session in August or September to review the draft IPM plan for Parks, Best Management Practices and Maintenance Standards; and 3) Endorsing a continuation of the City Council moratorium on ground spraying in Civic enter Park ad the 50 ft. buffer around waterways until the study session in August or September and expanding the moratorium to include aerial spraying of trees in Civic Center park and within the waterway buffer, except with EPA Toxicity Category IV compounds.",
+    "motion_text_citations": [
+     "/page/4/Text/6"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/6"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/4/Text/6"
+    ],
+    "vote_text": "The motion carried 5:3; Corson absent.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/4/Text/6"
+    ],
+    "no_count": 3,
+    "no_count_citations": [
+     "/page/4/Text/6"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson"
+    ]
+   },
+   {
+    "agenda_item_number": "4A",
+    "agenda_item_number_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Riggle, to amend the motion to allow treatment in the creek corridors with established IPM criteria for pest management of noxious weeds.",
+    "motion_text_citations": [
+     "/page/4/Text/7"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "seconded_by": "Riggle",
+    "seconded_by_citations": [
+     "/page/4/Text/7"
+    ],
+    "vote_text": "The motion carried 5:3; Corson absent.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [],
+    "no_count": 3,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson"
+    ]
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Morzel moved, seconded by Havlick to have all councilmembers receive copies of all comments for evaluation of Council employees with anonimity of reviewers being preserved.",
+    "motion_text_citations": [
+     "/page/5/Text/10"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/5/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/10"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/5/Text/10"
+    ],
+    "vote_text": "The motion failed 4:4, with Eldridge, Riggle, Ruzzin and Toor dissenting, Corson Absent.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/6/Text/5"
+    ],
+    "yes_count": 4,
+    "yes_count_citations": [],
+    "no_count": 4,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Eldridge",
+     "Riggle",
+     "Ruzzin",
+     "Toor"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Toor moved, seconded by Eldridge to adopt Emergency Ordinance No. 7215 amending Sections 11-1-49, “Water Conservation Measures,” 11-1-50, “Special Permits,” and 11-1-51, “Enforcement,” B.R.C. 1981, to set forth measures for water conservation purposes, including restrictions on water use, and setting forth details in relation thereto as amended by staff.",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7215"
+    ],
+    "moved_by": "Toor",
+    "moved_by_citations": [],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried 7:0 as amended; Corson and Morzel absent.",
+    "vote_text_citations": [
+     "/page/7/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/7/Text/4"
+    ],
+    "motion_text": "Councilmember Poinsatte moved, seconded by Havlick to direct staff to investigate a possible ordinance regarding water block rate increases and bring back for the July 9, 2002 Council meeting.",
+    "motion_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "action_type": "direction_to_staff",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Poinsatte",
+    "moved_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "vote_text": "The motion carried 6:1, Corson and Morzel absent.",
+    "vote_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/7/Text/4"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/7/Text/4"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Toor moved, seconded by Mock to suspend the rules and continue the Council Meeting.",
+    "motion_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Toor",
+    "moved_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "seconded_by": "Mock",
+    "seconded_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "vote_text": "The motion carried 6:1, Corson and Morzel absent.",
+    "vote_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/7/Text/5"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/7/Text/5"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/7/ListGroup/6"
+    ],
+    "motion_text": "Councilmember Mock moved, seconded by Eldridge to adopt Emergency Ordinance No. 7208 granting permission to Western Disposal Company to operate a yard waste organic material composting program for two years at a property that is located on 63 rd Street between the Boulder County Recycling Center and Stazio ball fields. Applicant: City of Boulder/Western Disposal Inc.",
+    "motion_text_citations": [
+     "/page/7/Text/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7208"
+    ],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/7/Text/8"
+    ],
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/7/Text/8"
+    ],
+    "vote_text": "The motion carried 6:0; Corson, Morzel and Riggle absent.",
+    "vote_text_citations": [
+     "/page/7/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/7/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/8"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Morzel",
+     "Riggle"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "Councilmember Mock moved, seconded by Havlick authorizing and directing the disposition of a 2.23 acre parcel of land now used as the Foothills Park and Ride located at Foothills Parkway and Pearl Parkway with final disposition coming back to Council.",
+    "motion_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/8/Text/2"
+    ],
+    "seconded_by": "Havlick",
+    "seconded_by_citations": [
+     "/page/8/Text/2"
+    ],
+    "vote_text": "The motion carried 6:1; Corson and Morzel absent.",
+    "vote_text_citations": [
+     "/page/8/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [
+     "/page/8/Text/2"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/8/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Corson",
+     "Morzel"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:30 P.M.",
+    "motion_text_citations": [
+     "/page/8/Text/4"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Will Toor called the regular June 4, 2002 meeting of the Boulder City Council to order at 6:00 p.m. in the Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "CITIZEN PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard citizen participation and responded regarding the proposed water connection at 6439 Arapahoe Road.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "193",
+     "7205",
+     "7206",
+     "7207",
+     "7209",
+     "7210",
+     "7211",
+     "7212",
+     "7213",
+     "7214"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved consent items 3A through 3G, with item 3-C amended to a principal amount of $7,355,000, by 8:0; Corson absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM MAY 21, 2002.",
+    "title_citations": [
+     "/page/1/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION APPROVING AN ENDORSEMENT OF THE 9 TH AND CANYON CIVIC USE TASK FORCE’S RECOMMENDATION OF THE BOULDER HISTORY MUSEUM AS A QUALIFIED CIVIC USER FOR THE 9 TH & CANYON PROJECT. CONSIDERATION OF A MOTION TO ADJOURN FROM CITY COUNCIL AND CONVENE AS THE CENTRAL AREA GENERAL IMPROVEMENT DISTRICT (CAGID) BOARD OF DIRECTORS; AND",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF RESOLUTION NO. 193 AUTHORIZING THE ISSUANCE BY THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT OF ITS GENERAL OBLIGATION REFUNDING BONDS, SERIES 2002, IN THE AGGREGATE PRINCIPAL AMOUNT OF $7,415,000, FOR THE PURPOSE OF PROVIDING FUNDS FOR THE CURRENT REFUNDING OF THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT GENERAL OBLIGATION REFUNDING BONDS, SERIES 1992, TOGETHER WITH ALL NECESSARY, INCIDENTAL AND APPURTENANT COSTS AND EXPENSES THEREWITH; PRESCRIBING THE FORM OF SAID BONDS; PROVIDING FOR THE SALE OF SAID BONDS; ESTABLISHING CERTAIN FUNDS WITH RESPECT THERETO; PROVIDING A PLEDGE OF THE FULL FAITH AND CREDIT OF THE DISTRICT AS SECURITY FOR SAID BONDS; MAKING CERTAIN COVENANTS WITH RESPECT TO SAID BONDS; APPOINTING A PAYING AGENT FOR SAID BONDS; AND PROVIDING OTHER DETAILS IN CONNECTION WITH SAID BONDS.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "193"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda with the principal amount amended to $7,355,000.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "THIRD READING AND CONSIDERATION OF A MOTION ADOPTING THREE ORDINANCES RELATED TO THE ANNEXATION OF A TOTAL OF 10.63 ACRES LOCATED AT 3245 KALMIA AVENUE, INCLUDING ADJACENT RIGHTS-OF-WAY AND ZONING OF THE SUBJECT PROPERTY TO LOW DENSITY RESIDENTIAL- DEVELOPING (LR-D). APPLICANT: CALVARY BIBLE EVANGELICAL FREE CHURCH SCOTT ALLEN, EXECUTIVE DIRECTOR",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7205",
+     "7206",
+     "7207"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "EMERGENCY ORDINANCE No. 7205 ANNEXING TO THE CITY OF BOULDER APPROXIMATELY 0.10 ACRES OF THE KALMIA AVENUE RIGHT-OF-WAY LOCATED GENERALLY NORTH OF MOUNTAIN VIEW CEMETERY, ZONING AND INCLUDING SAID LANDS IN THE LR-D (LOW DENSITY RESIDENTIAL - DEVELOPING) ZONING CLASSIFICATION AS DESCRIBED IN CHAPTER 9-2, B.R.C. 1981; AMENDING THE ZONING DISTRICT MAP FORMING A PART OF SAID CHAPTER TO INCLUDE THE SAID PROPERTY IN THE ABOVE-MENTIONED ZONING DISTRICT; AND SETTING FORTH DETAILS IN RELATION HERETO.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7205"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "EMERGENCY ORDINANCE No. 7206 ANNEXING TO THE CITY OF BOULDER APPROXIMATELY 0.35 ACRES OF THE KALMIA AVENUE RIGHT-OF-WAY LOCATED GENERALLY NORTH OF MOUNTAIN VIEW CEMETERY, ZONING AND INCLUDING SAID LANDS IN THE LR-D (LOW DENSITY RESIDENTIAL - DEVELOPING) ZONING CLASSIFICATION AS DESCRIBED IN CHAPTER 9-2, B.R.C. 1981; AMENDING THE ZONING DISTRICT MAP FORMING A PART OF SAID CHAPTER TO INCLUDE THE SAID PROPERTY IN THE ABOVE-MENTIONED ZONING DISTRICT; AND SETTING FORTH DETAILS IN RELATION HERETO.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7206"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "EMERGENCY ORDINANCE No. 7207 ANNEXING TO THE CITY OF BOULDER APPROXIMATELY 10.18 ACRES LOCATED GENERALLY AT 3245 KALMIA AVENUE, ZONING AND INCLUDING SAID LANDS IN THE LR-D (LOW DENSITY RESIDENTIAL - DEVELOPING) ZONING CLASSIFICATION AS DESCRIBED IN CHAPTER 9-2, B.R.C. 1981; AMENDING THE ZONING DISTRICT MAP FORMING A PART OF SAID CHAPTER TO INCLUDE THE SAID PROPERTY IN THE ABOVE-MENTIONED ZONING DISTRICT; AND SETTING FORTH DETAILS IN RELATION HERETO.",
+    "title_citations": [
+     "/page/2/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7207"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7209 AUTHORIZING THE EXECUTION OF AN AGREEMENT BY THE CITY MANAGER ON BEHALF OF THE CITY WITH THE OWNER OF RSR PROPERTIES, L.L.C., GENERALLY LOCATED AT 6439 ARAPAHOE ROAD, SUCH AGREEMENT RELATING TO THE PROVISION OF OUT-OF-CITY WATER AND SEWER SERVICES BY THE CITY OF BOULDER, AND SETTING FORTH DETAILS IN RELATION THERETO. APPLICANT: R. STEFAN RINGGENBERG, RSR PROPERTIES, L.L.C.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7209"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF THREE ORDINANCES AMENDING TITLE 9, LAND USE REGULATIONS, B.R.C. 1981 AND ONE ORDINANCE AMENDING TITLE 10. HISTORIC PRESERVATION. B.R.C. 1981.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7210",
+     "7211",
+     "7212",
+     "7213"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "ORDINANCE No. 7210 AMENDING TITLE 9, “LAND USE REGULATIONS,” B.R.C. 1981 BY AMENDING THE DEFINITION OF “ADMINISTRATIVE OFFICE”; ADDING REGULATIONS RELATED TO BREEZEWAYS IN RESIDENTIAL DISTRICTS; AMENDING THE STANDARDS FOR USABLE OPEN SPACE IN SECTION 9-3.2-6 AND 9-3.2-7, B.R.C. 1981; ADDING STANDARDS TO PERMIT FLOOR AREA AVERAGING IN THE MU-D DISTRICT; ADDING RESTRICTIONS RELATED TO ACCESSORY BUILDING COVERAGE LIMITATIONS IN THE RESIDENTIAL DISTRICTS; CORRECTING AN ERROR RELATED TO FEES IN SECTION 9-4-2, B.R.C. 1981; AND ADDING A NOTICE REQUIREMENT FOR MINERAL RIGHTS OWNERS AS PART OF THE DEVELOPMENT REVIEW PROCESS; AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7210"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "ORDINANCE No. 7211 AMENDING CHAPTER 9-5, “SUBDIVISIONS,” B.R.C. 1981 BY AMENDING STANDARDS RELATED TO SOLAR ACCESS; LOT LINE ELIMINATIONS; LOT LINE ADJUSTMENTS; ADDING A MINOR SUBDIVISION PROCESS; ADDING NOTICE REQUIREMENTS FOR MINERAL ESTATES; INCREASING THE FEES FOR LOT LINE ADJUSTMENTS AND LOT LINE ELIMINATIONS; AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7211"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "ORDINANCE No. 7212 AMENDING CHAPTER 9-6.5, “INCLUSIONARY ZONING,” B.R.C 1981 BY AMENDING THE DEFINITIONS OF “INCOME ELIGIBLE HOUSEHOLD” AND “PERMANENTLY AFFORDABLE UNIT”; ADDING STANDARDS RELATED TO THE TRANSITION PROVISIONS FROM THE MODERATE INCOME HOUSING PROGRAM; THE DISTRIBUTION OF AFFORDABLE HOUSING UNIT TYPES THROUGHOUT A DEVELOPMENT; THE LENGTH OF RESIDENCY IN A UNIT BEFORE IT CAN BE RENTED; THE CONVERSION OF RENTAL DEVELOPMENTS TO OWNERSHIP UNITS; THE FAIR MARKETING OF PERMANENTLY AFFORDABLE UNITS; AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7212"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "ORDINANCE No. 7213 AMENDING CHAPTER 10-13-23, “REVIEW OF PERMITS FOR DEMOLITION, MOVING, AND REMOVAL OF BUILDINGS”, B.R.C. 1981 BY THE ADDITION OF AN APPLICATION FEE, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/4/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7213"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "SECOND READING AND CONSIDERATION OF ORDINANCE No. 7214 AMENDING TITLE 13, B.R.C. 1981, TO ADD A NEW CHAPTER 4 CONCERNING PROCEDURES FOR DEALING WITH COMPLAINTS OF ELECTION CAMPAIGN VIOLATIONS AND TO CLARIFY THE INTENT OF PUBLIC FINANCING OF ELECTIONS.",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7214"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Adopted as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the amended IPM motion and received an update on the 1041 review regarding the proposed tennis court at the Flatirons property.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "title": "UPDATE ON THE INTEGRATED PEST MANAGEMENT PROGRAM - 7:05P.M.",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the IPM motion and the amendment allowing noxious-weed treatment in creek corridors, each by 5:3; Corson absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY: - None",
+    "title_citations": [
+     "/page/4/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/4/SectionHeader/9"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council took no action on the potential call-ups and rejected the motion regarding copies of Council employee evaluation comments by 4:4.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/4/SectionHeader/10"
+    ],
+    "title": "POTENTIAL CALL-UPS:",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "VACATION OF A 13-FOOT BY 69-FOOT PORTION OF A 40-FOOT PLATTED LANDSCAPE BUFFER EASEMENT LOCATED ALONG THE WESTERN PORTION OF A PROPERTY LOCATED AT 3855 NORWOOD COURT. WIP DATE: MAY 23, 2002. APPROVED BY THE PLANNING DEPARTMENT. LAST OPPORTUNITY FOR CALL-UP IS JUNE 4, 2002.",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/5/ListGroup/3"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "SITE REVIEW #SI-95-25 TO AMEND THE CONDITIONS OF APPROVAL FOR DAKOTA RIDGE VILLAGE TO DELAY THE TIMING FOR COMPLETION OF FIFTH STREET AND TO AMEND THE NORTH BOULDER SUBCOMMUNITY PLAN TO RELOCATE THE FIFTH STREET EXTENSION TO LEE HILL APPROXIMATELY 300 FEET EAST. WIP DATE: MAY 23, 2002. APPROVED BY PLANNING BOARD (5-0; B. POMMER AND M. COWLES ABSENT). LAST OPPORTUNITY FOR CALL-UP IS JUNE 4, 2002.",
+    "title_citations": [
+     "/page/5/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/5/ListGroup/5"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "title": "COMMUNITY ENVIRONMENTAL ASSESSMENT PROCESS FOR THE YARMOUTH IMPROVEMENT PROJECT. WIP DATE MAY 23, 2002. APPROVED BY THE TRANSPORTATION ADVISORY BOARD (4-0). LAST OPPORTUNITY FOR CALL-UP IS JUNE 4, 2002.",
+    "title_citations": [
+     "/page/5/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/5/ListGroup/12"
+    ],
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/5/ListGroup/12"
+    ],
+    "title": "PUBLIC COMMENT: (15 min.) - This period allows public comment on any motions made by the Council prior to Final Decisions. - 9:45p.m.",
+    "title_citations": [
+     "/page/5/ListGroup/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard public comment on motions made prior to final decisions.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/6/ListGroup/8"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7215 AMENDING SECTIONS 11-1-49, “WATER CONSERVATION MEASURES,” 11-1-50, “SPECIAL PERMITS,” AND 11-1-51, “ENFORCEMENT,” B.R.C. 1981, TO SET FORTH MEASURES FOR WATER CONSERVATION PURPOSES, INCLUDING RESTRICTIONS ON WATER USE, AND SETTING FORTH DETAILS IN RELATION THERETO. - 10:10P.M.",
+    "title_citations": [
+     "/page/6/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7215"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Catherine Schweiger",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Barry Sidwell",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ramona Clark",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Emergency Ordinance No. 7215 as amended by staff, directed staff to investigate water block rate increases, and voted to continue the meeting.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/7/ListGroup/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE NO. 7208 GRANTING PERMISSION TO WESTERN DISPOSAL COMPANY TO OPERATE A YARD WASTE ORGANIC MATERIAL COMPOSTING PROGRAM FOR TWO YEARS AT A PROPERTY THAT IS LOCATED ON 63 RD STREET BETWEEN THE BOULDER COUNTY RECYCLING CENTER AND STAZIO BALL FIELDS. APPLICANT: CITY OF BOULDER/WESTERN DISPOSAL INC. - 11:25P.M.",
+    "title_citations": [
+     "/page/7/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7208"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Emergency Ordinance No. 7208 by 6:0; Corson, Morzel and Riggle absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/6/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION AUTHORIZING AND DIRECTING THE DISPOSITION OF A 2.23 ACRE PARCEL OF LAND NOW USED AS THE FOOTHILLS PARK AND RIDE LOCATED AT FOOTHILLS PARKWAY AND PEARL PARKWAY. - 11:27P.M.",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council authorized the disposition with final disposition coming back to Council by 6:1; Corson and Morzel absent.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Mock",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Roger Lange",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "inviting Boulder to participate in the Sunrise Stampede.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Kirk Cunningham",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "suggested 50 ft. riparian strip should prohibit any application of pesticide.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Marty Walter",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "spoke in opposition to any use of pesticides or herbicides siting that they are an environmental health hazard.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Tax Incremental Financing for Crossroads - asked whether this would really solve the erroding tax base.",
+    "topic_citations": []
+   },
+   {
+    "name": "Cosimo Krueger Cunningham",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "urged the city to take advantage of the opportunity to educate the community about toxic chemicals through the IPM Update.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Mary Louise Chavers",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Medically sensitive to toxic chemicals and is opposed to poisoning the earth.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Randall Weiner",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Urged Council to continue the moratorium and to add tree spraying and 50 ft. buffer zones to streams and riparian corridors.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ed von Bleichert",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "submitting a letter outlining possible improvements to issues surrounding pesticide use on City property.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Gary Campbell",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "re: closure of Scott Carpenter Park Pool (opposed) submitted petition to open.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jill Bielawski",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "spoke against use of avitrol to kill pigeons submitted petition containing over 700 signatures.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Deb Keammerer",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Spoke about the number of noxious weeds that thrive in our riparian areas. Urged Council to be careful when considering treatments - supported selective use of low toxic applications.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Stef Ringgenberg",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "re: item 3E, stated he spent his entire savings on locating his landscaping business at 6439 Arapahoe Road - urged consideration of allowing him to get water for his business.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   }
+  ]
+ }
+}

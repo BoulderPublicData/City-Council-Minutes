@@ -1,0 +1,477 @@
+{
+ "entry_id": 151916,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "ABDCE-VnvusbwNTee3Fn6g",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 10.0
+ },
+ "extraction": {
+  "meeting_date": "2003-11-18",
+  "meeting_date_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading and meeting description identify November 18, 2003 in /page/0/SectionHeader/0 and /page/0/Text/2. Conclusion: the value at /page/0/SectionHeader/0 and /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "meeting_title": "COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 states the meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting description in /page/0/Text/2 identifies it as a special meeting. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting description in /page/0/Text/2 states that it was held in the Council Chambers. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "10:00 a.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting description in /page/0/Text/2 states that the meeting was called to order at the extracted time. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:35 A M",
+  "adjourned_time_citations": [
+   "/page/1/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/1/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement in /page/1/Text/1 states the meeting was adjourned at the extracted time. Conclusion: the value at /page/1/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting description in /page/0/Text/2 identifies Mayor Toor as the person who called the meeting to order. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes list agenda presentations, comments, and motions, but do not identify any items as call-ups or call-up check-ins. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the special November 18, 2003 meeting of the Boulder City Council to order at 10:00 a.m. in the Council Chambers",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/5"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "PRESENTATION OF CERTIFICATES OF APPRECIATION BY DOUG YOUNG OF CONGRESSMAN UDALL'S OFFICE. - 10:00A.M.",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Doug Young of Congressman Udall's office presented Certificates of Appreciation for service to outgoing councilmembers",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/Text/7"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "PARTING COMMENTS FROM COUNCIL. - 10:12A.M.",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Parting comments were given by outgoing Councilmembers Corson, Morzel and Poinsatte",
+    "outcome_summary_citations": [
+     "/page/0/Text/7"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "section": "ORDER OF BUSINESS/PUBLIC HEARING",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title": "ORDER OF BUSINESS/PUBLIC HEARING",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "section": "ORDER OF BUSINESS/PUBLIC HEARING",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO CONTINUE THE NOVEMBER 18, 2003 10:00A.M. SPECIAL MEETING AND 6:00P.M. REGULAR MEETING OF THE BOULDER CITY COUNCIL TO 6:00P.M. ON NOVEMBER 25, 2003. - 10:30A.M.",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7-0, Havlick absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "section": "ORDER OF BUSINESS/PUBLIC HEARING",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION AMENDING RESOLUTION No. 933 DESIGNATING RUTH WRIGHT AS ADDITIONAL MEMBER ON THE GENERAL CANVASSING AND ELECTION BOARD FOR THE NOVEMBER 4, 2003 GENERAL MUNICIPAL ELECTION. - 10:30A.M.",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "933"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 7-0, Havlick absent.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Corson",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [],
+    "title": "Councilmember",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ruzzin",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Toor",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Havlick",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/0/Text/10"
+    ],
+    "motion_text": "to continue the November 18, 2003 Special meeting and 6:00p.m. regular meeting of the Boulder City Council to 6.00p.m. on November 25, 2003.",
+    "motion_text_citations": [
+     "/page/0/Text/10"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/0/Text/10"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/0/Text/10"
+    ],
+    "vote_text": "The motion carried 7-0, Havlick absent.",
+    "vote_text_citations": [
+     "/page/0/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/0/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/0/Text/12"
+    ],
+    "motion_text": "to amend Resolution No. 933 designating Ruth Wright as additional member on the General Cavassing and Election Board for the November 4, 2003 general municipal election.",
+    "motion_text_citations": [
+     "/page/0/Text/12"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "933"
+    ],
+    "moved_by": "Riggle",
+    "moved_by_citations": [
+     "/page/0/Text/12"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/0/Text/12"
+    ],
+    "vote_text": "The motion carried 7-0, Havlick absent.",
+    "vote_text_citations": [
+     "/page/0/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/0/Text/12"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Text/12"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Havlick"
+    ]
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "THE MEETING WAS ADJOURNED AT 10:35 A M",
+    "motion_text_citations": [
+     "/page/1/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "open_comment_speakers": [],
+  "open_comment_speakers_meta": {
+   "failed": true
+  }
+ }
+}

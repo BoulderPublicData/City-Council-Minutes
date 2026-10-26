@@ -1,0 +1,1556 @@
+{
+ "entry_id": 11893,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "U69MyQI6kJsQM1dunbEoPQ",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 28.0
+ },
+ "extraction": {
+  "meeting_date": "2011-11-08",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading is shown in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/4"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is identified as regular in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/4"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:08 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/4"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:53 P.M.",
+  "adjourned_time_citations": [
+   "/page/8/Text/1"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/8/Text/1. Conclusion: the value at /page/8/Text/1 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Osborne",
+  "presiding_officer_citations": [
+   "/page/0/Text/4"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Osborne called the meeting to order in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "1. COMBINED SITE AND USE REVIEW FOR DEPOT SQUARE. INFORMATION PACKET DATE: NOVEMBER 2, 2011. LAST OPPORTUNITY FOR CALL-UP IS NOVEMBER 15, 2011. APPROVED 6-0 (W. WILLIFORD RECUSED).",
+   "2. VACATION OF A 690 SQUARE FOOT PORTION OF AN EXISTING UTILITY EASEMENT AT THE CROSSROADS COMMONS SHOPPING CENTER (2905 PEARL STREET) FOR RELOCATED FIRE HYDRANT. INFORMATION PACKET DATE: NOVEMBER 2, 2011. LAST OPPORTUNITY FOR CALL-UP IS NOVEMBER 8, 2011. STAFF APPROVAL."
+  ],
+  "call_up_items_citations": [
+   "/page/6/ListGroup/7",
+   "/page/6/ListGroup/9",
+   "/page/7/SectionHeader/0"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/ListGroup/7"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first call-up item is stated in /page/6/ListGroup/7. Conclusion: the value at /page/6/ListGroup/7 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/ListGroup/9",
+      "/page/7/SectionHeader/0"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second call-up item begins in /page/6/ListGroup/9 and continues in /page/7/SectionHeader/0. Conclusion: the value at /page/6/ListGroup/9 and /page/7/SectionHeader/0 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two potential call-up items, both represented in the extraction: the first appears in /page/6/ListGroup/7 and the second spans /page/6/ListGroup/9 and /page/7/SectionHeader/0. Conclusion: the value at /page/6/ListGroup/7 and /page/6/ListGroup/9 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/4"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne called the regular November 8, 2011 City Council meeting to order at 6:08 p.m. in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/4"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/8"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Colorado Oceans Coalition Declaration.",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne read a declaration honoring the Colorado Oceans Coalition and declared November 8 as Ocean Awareness Day.",
+    "outcome_summary_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/0/Text/10"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Presentation of ICLEI Declaration: City of Boulder selected as founding member of the EcoMobility Alliance.",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Transportation Director Tracy Winfree, who just returned from the ICLEI conference in Korea, spoke to Boulder being invited to be a founding member of the EcoMobility Alliance and read a declaration congratulating Boulder as one of the founding members.",
+    "outcome_summary_citations": [
+     "/page/0/Text/10"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/0/Text/12"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Declaration honoring Mayor Susan M. Osborne.",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Deputy Mayor Wilson read a declaration honoring Mayor Susan Osborne for her service to the community and declared Thursday, November 10 as Susan Osborne Day in the City of Boulder.",
+    "outcome_summary_citations": [
+     "/page/0/Text/12"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/0/Text/14"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "Declaration honoring Council Member Crystal Gray.",
+    "title_citations": [
+     "/page/0/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne read a declaration honoring Council Member Crystal Gray for her service to the community and declared Friday, November 11 as Crystal Gray Day in the City of Boulder.",
+    "outcome_summary_citations": [
+     "/page/0/Text/14"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/15"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/15"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Seven public comments were received; the City Manager and City Attorney had no response.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/0"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/2/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Morzel moved, seconded by Becker to approve consent agenda items 3A through 3G with item 3D removed from the agenda and item 3E pulled to be considered later as a public hearing. The motion carried unanimously 9:0. - 6:55 p.m.",
+    "outcome_summary_citations": [
+     "/page/2/Text/0"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE SEPTEMBER 20, 2011 COUNCIL MEETING MINUTES.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE OCTOBER 4, 2011 COUNCIL MEETING MINUTES.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF MOTION(S) TO (A) RENEW THE EMPLOYMENT AGREEMENT OF BOULDER MUNICIPAL COURT ASSOCIATE JUDGE JEFFREY CAHN; AND (B) AWARD 1.0% MERIT INCREASE TO ASSOCIATE JUDGE CAHN.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO REMOVE SCOT WOOLLEY FROM THE ENVIRONMENTAL ADVISORY BOARD FOR NONATTENDANCE AND DECLARE THE SEAT VACANT.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Item 3D was removed from the agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION CONCERNING THE FOUR MILE CONNECTOR TRAIL IN THE WEST TRAIL STUDY AREA.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Item 3E was pulled to be considered later as a public hearing.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7821 PERTAINING TO THE APPROVAL OF AN INTERGOVERNMENTAL AGREEMENT BETWEEN THE STATE OF COLORADO AND THE CITY OF BOULDER RELATING TO WETLAND MITIGATION GENERALLY LOCATED IN THE AREA OF THE CONFLUENCE OF BOULDER CREEK AND SOUTH BOULDER CREEK FOR THE U.S. 36 CORRIDOR IMPROVEMENT PROJECT.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7821"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY ORDINANCE ADOPTING SUPPLEMENT No. 110, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7795, 7809, 7813, AND 7814 AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS, AS AN AMENDMENT TO THE BOULDER REVISED CODE, 1981.",
+    "title_citations": [
+     "/page/1/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7795",
+     "7809",
+     "7813",
+     "7814"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "section": "POTENTIAL CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "title": "POTENTIAL CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/2/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed.",
+    "outcome_summary_citations": [
+     "/page/2/Text/2"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO EXPAND THE FOREST GLEN (ECO PASS) GENERAL IMPROVEMENT DISTRICT.",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:11 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/14"
+    ],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Dick Harris",
+      "name_citations": [
+       "/page/2/ListGroup/15"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council approved the addition of thirteen properties to the Forest Gen (Eco Pass) General Improvement District unanimously 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "CONSIDERATION OF A MOTION GRANTING THE CITY MANAGER AUTHORITY TO APPROVE (A) A DEVELOPMENT AGREEMENT AND LEASE FOR THE CITY-OWNED HISTORIC DEPOT, AND (B) THE CONVEYANCE OF PROPERTY INTO THE PROPOSED CONDOMINIUM ASSOCIATION AT DEPOT SQUARE, INCLUDING TERMS IMPLEMENTING THE PROVISIONS AND GUIDING PRINCIPLES IDENTIFIED BY COUNCIL, RELATED TO THE 8.1-ACRE CITY-OWNED SITE IN BOULDER JUNCTION KNOWN AS THE “BOULDER TRANSIT VILLAGE.”",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council authorized the city manager to enter into the Historic Depot development agreement and lease and convey property into the Depot Square condominium association unanimously 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5C",
+    "item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/4"
+    ],
+    "title": "Fourmile Connector Trail (formerly item 3E on Consent)",
+    "title_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:25 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/0"
+    ],
+    "hearing_closed_time": "9:14 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/2"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Pat Billig",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rosalyn Gill",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Bruce Vaughn",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Sophia Stoller",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Susan Collins",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kevin Shuck",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brad Davidson",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Dick Harris",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Linda Jourgenson",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Sue Douglass",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Ruth Blackmore",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Shaun McGrath",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Doug Schnitzpahn",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Sue DeRose",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jason Vogel",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Mike Barrow",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mike Browning",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Stephen Keenan",
+      "name_citations": [
+       "/page/5/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "Council approved the main motion unanimously 9:0 after adopting the switchbacks amendment 7:2.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/6/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/6/ListGroup/5"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "title": "POTENTIAL CALL-UPS",
+    "title_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on either potential call-up.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/6/ListGroup/7"
+    ],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "title": "COMBINED SITE AND USE REVIEW FOR DEPOT SQUARE. INFORMATION PACKET DATE: NOVEMBER 2, 2011. LAST OPPORTUNITY FOR CALL-UP IS NOVEMBER 15, 2011. APPROVED 6-0 (W. WILLIFORD RECUSED).",
+    "title_citations": [
+     "/page/6/ListGroup/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/6/Text/8"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/6/SectionHeader/6"
+    ],
+    "title": "VACATION OF A 690 SQUARE FOOT PORTION OF AN EXISTING UTILITY EASEMENT AT THE CROSSROADS COMMONS SHOPPING CENTER (2905 PEARL STREET) FOR RELOCATED FIRE HYDRANT. INFORMATION PACKET DATE: NOVEMBER 2, 2011. LAST OPPORTUNITY FOR CALL-UP IS NOVEMBER 8, 2011. STAFF APPROVAL.",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "title": "CONSIDERATION OF A MOTION REGARDING 2011 PERFORMANCE EVALUATIONS, AND PERFORMANCE BASED SALARY ADJUSTMENTS FOR THE CITY MANAGER, CITY ATTORNEY, AND MUNICIPAL JUDGE.",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council awarded a 3.5% merit increase to the City Attorney by 8:0 with Wilson recused, a 3.5% merit increase to the City Manager unanimously 9:0, and a 3% merit increase to the Municipal Judge unanimously 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/7/Text/8"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/ListGroup/5"
+    ],
+    "title": "NOD OF FIVE TO DRAFT AMENDMENTS TO DRUG TESTING ORDINANCE.",
+    "title_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There was a nod of five from Council to direct the City Attorney to draft amendments to the drug testing ordinance.",
+    "outcome_summary_citations": [
+     "/page/7/Text/8"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/ListGroup/9"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/7/ListGroup/9"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: (15 min.) Public comment on any motions made under Matters.",
+    "title_citations": [
+     "/page/7/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/7/ListGroup/9"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/7/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the three merit increase motions made under Matters.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/8/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:53 P.M.",
+    "outcome_summary_citations": [
+     "/page/8/Text/1"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/0"
+    ],
+    "motion_text": "Council Member Morzel moved, seconded by Becker to approve consent agenda items 3A through 3G with item 3D removed from the agenda and item 3E pulled to be considered later as a public hearing.",
+    "motion_text_citations": [
+     "/page/2/Text/0"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7821"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/2/Text/0"
+    ],
+    "seconded_by": "Becker",
+    "seconded_by_citations": [
+     "/page/2/Text/0"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [
+     "/page/2/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/0"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/0"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "motion_text": "Council Member Gray moved, seconded by Ageton to approve the addition of thirteen properties to the Forest Gen (Eco Pass) General Improvement District.",
+    "motion_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "vote_text": "The motion carried unanimously 9:0 at 7:13 p.m.",
+    "vote_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/4/Text/5"
+    ],
+    "motion_text": "Council Member Gray moved, seconded by Osborne to authorize the city manager to enter into (a) a development agreement and lease for the city-owned Historic Depot substantially consistent with the provisions set forth in Attachment A, and (b) the conveyance of property into the proposed condominium association at Depot Square including terms implementing the provisions and guiding principles set forth in Attachment B, related to the 8.1 acre city-owned site in Boulder Junction known as the “Boulder Transit Village.”",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5C",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Morzel to approve the Open Space Board recommendations 1 (a) and (b). 2 and 3 with option 4 no longer considered - to read as follows: 1. Emphasize the importance of the overarching issue of “connecting” local OSMP lands with more distant OSMP and County Open Space lands for the benefit of all users in order to increase access and safety including: a. Further consideration of extending the Boulder Creek Path to the current Betasso trail-head in Boulder Canyon. b. Further consideration of an alternative connection to Betasso from the intersection of Boulder and Fourmile Canyons 2. Oppose a connector to Fourmile Canyon due to environmental, neighborhood and safety impacts. 3. Oppose a connection from the Dome area due to the environmental impacts and limited practical use. 4. Look broadly at connection opportunities and focus on cooperation with United States Forest Service, the State of Colorado, Boulder County and private landowners. 5. Not construct switchbacks on the north side of Anemone Hill connecting the Sunshine Canyon trail to the ridge loop.",
+    "motion_text_citations": [],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5C",
+    "agenda_item_number_citations": [
+     "/page/4/SectionHeader/7"
+    ],
+    "motion_text": "Council Member Appelbaum offered an amendment to the motion, seconded by Gray to take the switchbacks that connect Sunshine Canyon trail to the Ridge Loop be taken off the plan.",
+    "motion_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/6/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "vote_text": "The motion carried 7:2; Becker and Wilson opposed.",
+    "vote_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Becker",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/7/Text/4"
+    ],
+    "motion_text": "Council Member Gray moved, seconded by Karakehian to award a 3.5% merit increase to the City Attorney.",
+    "motion_text_citations": [
+     "/page/7/Text/4"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "seconded_by": "Karakehian",
+    "seconded_by_citations": [
+     "/page/7/Text/4"
+    ],
+    "vote_text": "The motion carried 8:0; Wilson recused.",
+    "vote_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [
+     "Wilson"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/7/Text/5"
+    ],
+    "motion_text": "Council Member Appelbaum moved, seconded by Wilson to award a 3.5% merit increase to the City Manager.",
+    "motion_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/7/Text/6"
+    ],
+    "motion_text": "Council Member Appelbaum moved, seconded by Ageton to award a 3% merit increase to the Municipal Judge.",
+    "motion_text_citations": [
+     "/page/7/Text/6"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/7/Text/6"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 10:53 P.M.",
+    "motion_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Brenda Lee",
+    "name_citations": [
+     "/page/0/ListGroup/16"
+    ],
+    "topic": "bears and trash in Boulder around enforcement needs and requested a stricter ordinance for bear proof containers",
+    "topic_citations": [
+     "/page/0/ListGroup/16"
+    ]
+   },
+   {
+    "name": "Tiffany O’Meara",
+    "name_citations": [
+     "/page/0/ListGroup/16"
+    ],
+    "topic": "the problem with trash in Boulder and urged stricter enforcement for bear proof containers",
+    "topic_citations": [
+     "/page/0/ListGroup/16"
+    ]
+   },
+   {
+    "name": "Sophie Ottinger",
+    "name_citations": [
+     "/page/0/ListGroup/16"
+    ],
+    "topic": "stricter enforcement for bear proof containers",
+    "topic_citations": [
+     "/page/0/ListGroup/16"
+    ]
+   },
+   {
+    "name": "Richard Demuth",
+    "name_citations": [
+     "/page/0/ListGroup/16"
+    ],
+    "topic": "vehicular violations and unlit license plates",
+    "topic_citations": [
+     "/page/0/ListGroup/16"
+    ]
+   },
+   {
+    "name": "Stephen Keenan",
+    "name_citations": [
+     "/page/0/ListGroup/16"
+    ],
+    "topic": "the passage of 2B and 2C and to the visit of the Israeli ambassador",
+    "topic_citations": [
+     "/page/0/ListGroup/16"
+    ]
+   },
+   {
+    "name": "Hugh Walton",
+    "name_citations": [
+     "/page/0/ListGroup/16"
+    ],
+    "topic": "the 1175 Lee Hill Drive proposal from BHP for Boulder homeless housing",
+    "topic_citations": [
+     "/page/0/ListGroup/16"
+    ]
+   },
+   {
+    "name": "Members of the Earth Guardians",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "thanked Mayor Osborne and Council for its support",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

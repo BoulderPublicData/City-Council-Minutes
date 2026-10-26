@@ -1,0 +1,2893 @@
+{
+ "entry_id": 181345,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "76vcewSGI6Stws5x69xweQ",
+ "page_count": 11,
+ "cost_breakdown": {
+  "final_cost_cents": 22.0
+ },
+ "extraction": {
+  "meeting_date": "2022-10-20",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives “Thursday, October 20, 2022” in /page/0/Text/3, supporting the extracted date. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 supports the extracted meeting title. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "meeting_type": "other",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/1 identifies the event as a city council meeting; “other” is the applicable enum value because the heading does not label it regular, special, or another listed type. Conclusion: the value at /page/0/SectionHeader/1 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/SectionHeader/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/2 identifies the location. Conclusion: the value at /page/0/SectionHeader/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at the extracted time in /page/0/Text/6. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/9/Text/8"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/Text/8"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was adjourned at the extracted time in /page/9/Text/8. Conclusion: the value at /page/9/Text/8 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Friend",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes identify Mayor Pro Tem Friend as calling the meeting to order in /page/0/Text/6 and as conducting the adjournment in /page/9/Text/8. Conclusion: the value at /page/0/Text/6 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes contain a “Call-Up Check-In” section at /page/5/SectionHeader/1 but list no call-up items beneath it. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "Call to Order and Roll Call:",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Pro Tem Friend called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/Text/10"
+    ],
+    "section": "Call to Order and Roll Call:",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title": "International Stuttering Awareness Day Declaration to be presented by Mayor Pro Tem Friend",
+    "title_citations": [
+     "/page/0/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "Open Comment:",
+    "section_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "title": "Open Comment:",
+    "title_citations": [
+     "/page/0/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Open Comment closed at 6:53 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/3"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to adjourn as the Boulder City Council and convene as the Central Area General Improvement District (CAGID) Board of Directors ; and Consideration of a motion to adopt the following resolutions pertaining to the 2023 budget of the City of Boulder Downtown Commercial District Fund (formally known as the Central Area General Improvement District (CAGID) Fund: 1. Resolution 305, adopting a budget for the fiscal year beginning January 1, 2023; and 2. Resolution 306, establishing the 2022 Property Tax Mill Levy 3. Resolution 307, appropriating money to defray the expenses and liabilities for the 2023 budget; and Consideration of a motion to adjourn as the Central Area General Improvement District (CAGID) Board of Directors and convene as the University Hill General Improvement District Fund (UHGID) Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "305",
+     "306",
+     "307"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 305, adopting a budget for the fiscal year beginning January 1, 2023; and",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "305"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 306, establishing the 2022 Property Tax Mill Levy",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "306"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 307, appropriating money to defray the expenses and liabilities for the 2023 budget; and",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "307"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to adopt the following resolutions pertaining to the 2023 budget of the University Hill Commercial District Fund (formally know as the University Hill General Improvement District (UHGID) Fund: 1. Resolution 221, adopting a budget for the fiscal year beginning January 1, 2023; and 2. Resolution 222, establishing 2023 Property Tax Mill Levy; and 3. Resolution 223, appropriating money to defray the expenses and liabilities for the 2023 budget; and",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "221",
+     "222",
+     "223"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 221, adopting a budget for the fiscal year beginning January 1, 2023; and",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "221"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 222, establishing 2023 Property Tax Mill Levy; and",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "222"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 223, appropriating money to defray the expenses and liabilities for the 2023 budget; and",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "223"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to adopt Resolution 1319 concerning the City of Boulder – University Hill General Improvement District, altering the meeting calendar for the University Hill Commercial Area Management Commission from a monthly meeting to a bimonthly meeting beginning October 2022. Consideration of a motion to adjourn as the University Hill Commercial District Fund Board of Directors and convene as the Boulder Municipal Property Authority (BMPA) Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "1319"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to adopt Resolution 157 pertaining to the 2023 budget for the Boulder Municipal Property Authority; and Consideration of a motion to adjourn from the Boulder Municipal Property Authority Board of Directors and convene as the Forest Glen Transit Pass General Improvement District Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "157"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of motion to adopt the following resolutions pertaining to the 2023 budget of the City of Boulder Forest Glen Transit Pass General Improvement District Fund: 1. Resolution 72, adopting a budget for the fiscal year beginning January 1, 2023; and 2. Resolution 73, establishing the 2022 Property Tax Mill Levy; and 3. Resolution 74, appropriating money to defray the expenses and liabilities for the 2023 budget; and Consideration of a motion to adjourn as the Forest Glen Transit Pass General Improvement District Fund Board of Directors and convene as the Boulder Junction Access General Improvement District (BJAGID) – Travel Demand Management Fund Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "72",
+     "73",
+     "74"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 72, adopting a budget for the fiscal year beginning January 1, 2023; and",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "72"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 73, establishing the 2022 Property Tax Mill Levy; and",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "73"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 74, appropriating money to defray the expenses and liabilities for the 2023 budget; and",
+    "title_citations": [
+     "/page/3/ListGroup/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "74"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to adopt three resolutions pertaining to the 2023 budget of the Boulder Junction Access General Improvement District – Travel Demand Management Fund: 1. Resolution 42, adopting a budget for the fiscal year beginning January 1, 2023; and 2. Resolution 43, establishing the 2022 Property Tax Mill Levy the 2023 budget; and 3. Resolution 44, appropriating money to defray the expenses and liabilities for the 2023 budget; and Consideration of a motion to adjourn as the Boulder Junction Access General Improvement District – Travel Demand Management Fund Board of Directors and convene as the Boulder Junction Access General Improvement District (BJAGID) – Parking Fund Board of Directors",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "42",
+     "43",
+     "44"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 42, adopting a budget for the fiscal year beginning January 1, 2023; and",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "42"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 43, establishing the 2022 Property Tax Mill Levy the 2023 budget; and",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "43"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 44, appropriating money to defray the expenses and liabilities for the 2023 budget; and",
+    "title_citations": [
+     "/page/3/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "44"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to adopt the following resolutions pertaining to the 2023 budget of the Boulder Junction Access General Improvement District (BJAGID) – Parking Fund: 1. Resolution 43, adopting a budget for the fiscal year beginning January 1, 2023; and 2. Resolution 44, establishing the 2022 Property Tax Mill Levy; and 3. Resolution 45, appropriating money to defray the expenses and liabilities for the 2023 budget; and Consideration of a motion to adjourn as the Boulder Junction Access Commission General Improvement District - Parking Fund Board of Directors and reconvene as the Boulder City Council",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "43",
+     "44",
+     "45"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 43, adopting a budget for the fiscal year beginning January 1, 2023; and",
+    "title_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "43"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 44, establishing the 2022 Property Tax Mill Levy; and",
+    "title_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "44"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Resolution 45, appropriating money to defray the expenses and liabilities for the 2023 budget; and",
+    "title_citations": [
+     "/page/4/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "45"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to approve the proposed 2023 budget, operating plan, and board reappointments for the Downtown Boulder Business Improvement District",
+    "title_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Introduction, first reading and consideration of a motion to order published by title only, Ordinance 8554 vacating and authorizing the city manager to execute a deed of vacation for a portion of a sidewalk easement located at 2990 Center Green Court South (case number LUR2022-00030)",
+    "title_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8554"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Motion to PASS items A-I and to CONTINUE item J",
+    "outcome_summary_citations": [
+     "/page/4/Table/4"
+    ]
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [],
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/1/SectionHeader/5"
+    ],
+    "title": "Consideration of a motion to amend the Council Rules of Procedure Section XVI. Rules of Decorum",
+    "title_citations": [
+     "/page/4/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council continued item J and unanimously directed staff to have the amendment focus more on the public facing side of Council communications more than the private aspect.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/5/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Consideration of the following items relating to the 2023 Recommended Budget:",
+    "title_citations": [
+     "/page/5/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8535",
+     "8536",
+     "8537",
+     "8538"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:17 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/6"
+    ],
+    "hearing_closed_time": "8:26 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Elaine Dannemiller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shayna Larsen",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Horrocks",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shari Hack",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Okada",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Knisely",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Olaya Garcia-Grau",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Love",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mari Madeira",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Hamers",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathryn Moller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Rhodes",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Georgia Schmid",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Holland Chanin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Isabel Rhodes-Wolin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Malden",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sara Parkinson",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sam Yu",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Connie Brenton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jan Burton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elizabeth McGuire",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kim Smouse",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ben Needham-Wood",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Elliott",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Travis LaBerge",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 6:2 NAY: Speer and Folkerts",
+    "outcome_summary_citations": [
+     "/page/7/Table/3"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8535 that adopts a budget for the City of Boulder, Colorado, for the fiscal year commencing on the first day of January 2023 and ending on the last day of December 2023 and setting forth details",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8535"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:17 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/6"
+    ],
+    "hearing_closed_time": "8:26 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Elaine Dannemiller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shayna Larsen",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Horrocks",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shari Hack",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Okada",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Knisely",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Olaya Garcia-Grau",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Love",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mari Madeira",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Hamers",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathryn Moller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Rhodes",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Georgia Schmid",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Holland Chanin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Isabel Rhodes-Wolin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Malden",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sara Parkinson",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sam Yu",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Connie Brenton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jan Burton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elizabeth McGuire",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kim Smouse",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ben Needham-Wood",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Elliott",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Travis LaBerge",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 6:2 NAY: Speer and Folkerts",
+    "outcome_summary_citations": [
+     "/page/7/Table/3"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8536 that establishes the 2021 City of Boulder property tax mill levies which are to be collected by the County of Boulder, State of Colorado, within the City of Boulder in 2023 for payment of expenditures by the City of Boulder, County of Boulder, State of Colorado and setting forth details",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8536"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:17 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/6"
+    ],
+    "hearing_closed_time": "8:26 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Elaine Dannemiller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shayna Larsen",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Horrocks",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shari Hack",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Okada",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Knisely",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Olaya Garcia-Grau",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Love",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mari Madeira",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Hamers",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathryn Moller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Rhodes",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Georgia Schmid",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Holland Chanin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Isabel Rhodes-Wolin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Malden",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sara Parkinson",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sam Yu",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Connie Brenton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jan Burton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elizabeth McGuire",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kim Smouse",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ben Needham-Wood",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Elliott",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Travis LaBerge",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 6:2 NAY: Speer and Folkerts",
+    "outcome_summary_citations": [
+     "/page/7/Table/3"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8537 that appropriates money to defray expenses and liabilities of the City of Boulder, Colorado, for the 2023 fiscal year of the City of Boulder, commencing on the first day of January 2023 and ending on the last day of December 2023 and setting forth details",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8537"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:17 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/6"
+    ],
+    "hearing_closed_time": "8:26 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Elaine Dannemiller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shayna Larsen",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Horrocks",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shari Hack",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Okada",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Knisely",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Olaya Garcia-Grau",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Love",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mari Madeira",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Hamers",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathryn Moller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Rhodes",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Georgia Schmid",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Holland Chanin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Isabel Rhodes-Wolin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Malden",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sara Parkinson",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sam Yu",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Connie Brenton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jan Burton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elizabeth McGuire",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kim Smouse",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ben Needham-Wood",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Elliott",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Travis LaBerge",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 6:2 NAY: Speer and Folkerts",
+    "outcome_summary_citations": [
+     "/page/7/Table/3"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8538 that amends Chapter 4-20 and Section 3-8-3 of the B.R.C. 1981 changing certain fees and setting forth related details",
+    "title_citations": [
+     "/page/5/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8538"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "7:17 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/6"
+    ],
+    "hearing_closed_time": "8:26 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/7/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Elaine Dannemiller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Emily Reynolds",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shayna Larsen",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Horrocks",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Shari Hack",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karen Okada",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Knisely",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Olaya Garcia-Grau",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Valerie Love",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mari Madeira",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Thomas",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Michael Hamers",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathryn Moller",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jennifer Rhodes",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Georgia Schmid",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Holland Chanin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Isabel Rhodes-Wolin",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Deborah Malden",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jonathan Singer",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sara Parkinson",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sam Yu",
+      "name_citations": [
+       "/page/6/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Connie Brenton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jan Burton",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Elizabeth McGuire",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kim Smouse",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ben Needham-Wood",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Katie Elliott",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kathleen McCormick",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Travis LaBerge",
+      "name_citations": [
+       "/page/7/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 6:2 NAY: Speer and Folkerts",
+    "outcome_summary_citations": [
+     "/page/7/Table/3"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/5/SectionHeader/2"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance 8547 amending Chapter 11-1, “Water Utility,” B.R.C. 1981, to implement policies and procedures in the event of a drought; and setting forth related details",
+    "title_citations": [
+     "/page/8/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8547"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:33 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/8/Text/3"
+    ],
+    "hearing_closed_time": "9:36 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/8/Text/8"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Carried 7:1 NAY: Wallach",
+    "outcome_summary_citations": [
+     "/page/9/Table/0"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/9/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Pro Tem Friend ask Chris Meschuk, Deputy City Manager to brief council on the status of the fire that happened earlier that afternoon.",
+    "outcome_summary_citations": [
+     "/page/9/Text/2"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/9/SectionHeader/3"
+    ],
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/9/SectionHeader/3"
+    ],
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/9/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/9/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "section": "Debrief",
+    "section_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "title": "Debrief",
+    "title_citations": [
+     "/page/9/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [],
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Pro Tem Friend at 9:45 p.m.",
+    "outcome_summary_citations": [
+     "/page/9/Text/8"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to PASS items A-I and to CONTINUE item J",
+    "motion_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "seconded_by": "Wallach",
+    "seconded_by_citations": [
+     "/page/4/Table/4"
+    ],
+    "vote_text": "Carried 8:0",
+    "vote_text_citations": [
+     "/page/4/Table/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Table/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Brockett"
+    ]
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Motion to ADOPT: 1. Ordinance 8535 that adopts a budget for the City of Boulder, Colorado, for the fiscal year commencing on the first day of January 2023 and ending on the last day of December 2023 and setting forth details 2. Ordinance 8536 that establishes the 2021 City of Boulder property tax mill levies which are to be collected by the County of Boulder, State of Colorado, within the City of Boulder in 2023 for payment of expenditures by the City of Boulder, County of Boulder, State of Colorado and setting forth details 3. Ordinance 8537 that appropriates money to defray expenses and liabilities of the City of Boulder, Colorado, for the 2023 fiscal year of the City of Boulder, commencing on the first day of January 2023 and ending on the last day of December 2023 and setting forth details 4. Ordinance 8538 that amends Chapter 4-20 and Section 3-8-3 of the B.R.C. 1981 changing certain fees and setting forth related details",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "8535",
+     "8536",
+     "8537",
+     "8538"
+    ],
+    "moved_by": "Wallach",
+    "moved_by_citations": [],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [],
+    "vote_text": "Carried 6:2 NAY: Speer and Folkerts",
+    "vote_text_citations": [
+     "/page/7/Table/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 6,
+    "yes_count_citations": [],
+    "no_count": 2,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Speer",
+     "Folkerts"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Brockett"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/9/Table/0"
+    ],
+    "motion_text": "Motion to ADOPT Ordinance 8547 amending Chapter 11-1, “Water Utility,” B.R.C. 1981, to implement policies and procedures in the event of a drought ; and setting forth related details",
+    "motion_text_citations": [
+     "/page/9/Table/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/9/Table/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "8547"
+    ],
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/9/Table/0"
+    ],
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/9/Table/0"
+    ],
+    "vote_text": "Carried 7:1 NAY: Wallach",
+    "vote_text_citations": [
+     "/page/9/Table/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/9/Table/0"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/9/Table/0"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Wallach"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Brockett"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [],
+    "motion_text": "There being no further business to come before Council at this time, by motion regularly adopted, the meeting was adjourned by Mayor Pro Tem Friend at 9:45 p.m.",
+    "motion_text_citations": [
+     "/page/9/Text/8"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Brockett"
+    ]
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Friend",
+    "name_citations": [],
+    "title": "Mayor Pro Tem",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Speer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Winer",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/1/Text/4"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "attendance_note": "joined the meeting at 6:53 p.m.",
+    "attendance_note_citations": [
+     "/page/1/Text/4"
+    ]
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/8"
+    ],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Keaton Gray",
+    "name_citations": [
+     "/page/0/ListGroup/15"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Kris Lauridsen",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Caroline Conzelman",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Holly Carlson",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Shari Hack",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Donaven Smith",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Ari Aal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Travis Hugh Culley",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Valerie Love",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Clara Elizabeth",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Valerie Beltran",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Brigitte Mars",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Malek Asfeer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Ramzy Abueita",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Patrick Murphy",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Del Jolly",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": null,
+    "topic_citations": []
+   },
+   {
+    "name": "Lori Preston",
+    "name_citations": [
+     "/page/1/ListGroup/2"
+    ],
+    "topic": null,
+    "topic_citations": []
+   }
+  ]
+ }
+}

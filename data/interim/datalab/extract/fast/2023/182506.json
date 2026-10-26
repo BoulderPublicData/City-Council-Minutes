@@ -1,0 +1,2324 @@
+{
+ "entry_id": 182506,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "doUkAiL5XwUHBd8mLSp40A",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 4.05
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "motion_text": "Motion to AMEND the agenda: To CHANGE title: Item 3H - Consideration of a motion to authorize the city attorney to appoint Special Counsel to investigate and, if necessary, prosecute a complaint related to an alleged code of conduct violation filed pursuant to Subsection 2-7-8(e)(1-6), B.R.C. 1981 AND, discussion of options regarding the police oversight panel's vote to stop work so that council can consider passing a moratorium on the panel's acceptance of new cases To ADD: Item 3M - Consideration of a motion to accept the Council Employee Evaluation Committee’s recommendations for the appointment of Jeff H. Kahn as the Interim Municipal Court Judge and directing the City Manager to negotiate an employment contract AND Item 3N - Consideration of a motion to call a Special Meeting of the City Council on June 22, 2023 To REMOVE: Item 5B - Second reading and consideration of a motion to adopt Ordinance 8577 rezoning approximately 1.01 acres of land located at 5405 Spine Road and adjacent rights-of way from the Industrial - General (IG) to the Business - Community 2 (BC-2) zoning district as described in Chapter 9-5, “Modular Zone Systems,” B.R.C. 1981, and setting forth related details. (Case no. LUR2022-00057) – MOVED to the Special Meeting of June 22nd.",
+    "motion_text_citations": [
+     "/page/0/Table/8",
+     "/page/1/Table/0"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/0/Table/8"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "ordinance_or_resolution_numbers": [
+     "8577"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/1/Table/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "moved_by": "Friend",
+    "moved_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/0/Table/8"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/8"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Table/8"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/8"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/0/Table/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "motion_text": "Consideration of a motion to accept the recommendation of the Open Space Board of Trustees, the information presented at the Open Space Board of Trustees' special meeting on May 31, 2023, and any relevant information provided by Caroline Miller at the June 15, 2023, City Council meeting, and remove Caroline Miller as a member of the Open Space Board of Trustees for nonattendance to duty and cause, declare the seat vacant, and appoint a replacement as soon as possible",
+    "motion_text_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/ListGroup/3"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "moved_by": "Benjamin",
+    "moved_by_citations": [
+     "/page/3/Text/8"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "seconded_by": "Winer",
+    "seconded_by_citations": [
+     "/page/3/Text/8"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "vote_text": "The motion was approved with a roll call vote of 8:0.",
+    "vote_text_citations": [
+     "/page/3/Text/8"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/3/Text/8"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/8"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/3/Text/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "motion_text": "Mayor Brockett motioned to have the City Attorney prepare a draft ordinance related to a partial moratorium to allow the panel to work on ordinance revisions.",
+    "motion_text_citations": [
+     "/page/4/Text/2"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/4/Text/2"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/4/Text/2"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "vote_text": "Motion approved 9:0.",
+    "vote_text_citations": [
+     "/page/4/Text/2"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/2"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/2"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/2"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/4/Text/2"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    }
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "motion_text": "Motion to ACCEPT consent agenda items 3A-F and 3I-N",
+    "motion_text_citations": [
+     "/page/6/Table/0"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/6/Table/0"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "moved_by": "Yates",
+    "moved_by_citations": [
+     "/page/6/Table/0"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "seconded_by": "Benjamin",
+    "seconded_by_citations": [
+     "/page/6/Table/0"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "vote_text": "Approved 9:0",
+    "vote_text_citations": [
+     "/page/6/Table/0"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Table/0"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Table/0"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Table/0"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/6/Table/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    }
+   },
+   {
+    "agenda_item_number": "6",
+    "agenda_item_number_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "motion_text": "REVISED Motion to conditionally approve a Landmark Alteration certificate to rehabilitate Building L, the former Nurses’ Dormitory at the Academy of Mapleton Hill at 2543 4th St. (previously addressed 311 Mapleton Ave.) a pending individual landmark, finding that the proposal meets the Standards for Issuance of a Landmark Alteration Certificate in Chapter 9-11-18, B.R.C. 1981 and is generally consistent with the General Design Guidelines provided the conditions stated by the Landmarks Board on April 12, 2023 are met",
+    "motion_text_citations": [
+     "/page/6/Table/7",
+     "/page/7/Table/0"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/6/Table/7"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "moved_by": "Brockett",
+    "moved_by_citations": [
+     "/page/6/Table/7"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "seconded_by": "Yates",
+    "seconded_by_citations": [
+     "/page/6/Table/7"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/6/Table/7"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/6/Table/7"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Table/7"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Table/7"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/6/Table/7"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and point to correct HTML blocks. Information is highly accurate, though 'stated_unanimous' is false despite 9:0 votes (should be true per schema logic). One motion (Brockett's) lacks a seconder in text but extraction correctly sets it to null. No relevant blocks are missing."
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Hope Michelsen",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Lisa Spalding",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Patrick ORourke",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "boulder bandshell",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Richard Harris",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Peter Barlerin",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Laura Harbin",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "demolition of historic structures",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Alan Delamere",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "affordable housing",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Conor Hall",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "raising minimum wage",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Matthew Miranda",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "affordable housing and raising minimum wage",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Rishi Raj",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Macon Cowles",
+    "name_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/4"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Cosima Krueger-Cunningham",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Dorothy Cohen",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Eric Budd",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Chelsea Castellano",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Katherine Bush",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Nick Grossman",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Mark Stangl",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Rosie Fivian",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   },
+   {
+    "name": "Margaret LeCompte",
+    "name_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    },
+    "topic": "occupancy and zoning",
+    "topic_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all 20 speakers and topics from the Open Comment section. However, the citations are incorrect: the first 11 speakers are cited as /page/2/ListGroup/4 (the In-Person list), while the last 9 are cited as /page/2/ListGroup/6 (the Virtual list). The extracted value's"
+    }
+   }
+  ],
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/SectionHeader/2"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "11:23 p.m.",
+  "adjourned_time_citations": [
+   "/page/7/Text/11"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Brockett called the meeting to order at 6:01 p.m. and a motion to amend the agenda was carried.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6",
+     "/page/0/Table/8"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Open Comment",
+    "section_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Open Comment",
+    "title_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": "6:23 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/2"
+    ],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": "7:10 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/0"
+    ],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [
+     {
+      "name": "Hope Michelsen",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Lisa Spalding",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Patrick ORourke",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Richard Harris",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Peter Barlerin",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Laura Harbin",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Alan Delamere",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Conor Hall",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Matthew Miranda",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Rishi Raj",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Macon Cowles",
+      "name_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/4"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Cosima Krueger-Cunningham",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Dorothy Cohen",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Eric Budd",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Chelsea Castellano",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Katherine Bush",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Nick Grossman",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Mark Stangl",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Rosie Fivian",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     },
+     {
+      "name": "Margaret LeCompte",
+      "name_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/2/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 3,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+      }
+     }
+    ],
+    "outcome_summary": "Public comments were received from 11 in-person and 11 virtual speakers regarding various city issues.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1",
+     "/page/2/ListGroup/4",
+     "/page/2/ListGroup/6",
+     "/page/3/Text/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [
+     "8578",
+     "8580",
+     "8581",
+     "8579"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Items 3G and 3H were removed from the consent agenda for discussion; 3G was approved, 3H was continued, and the remaining items (3A-F, 3I-N) were approved.",
+    "outcome_summary_citations": [
+     "/page/3/Text/2",
+     "/page/3/Text/8",
+     "/page/4/Text/3",
+     "/page/6/Table/0"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "NO ACTION was taken on the Landmark Alteration Certificate for 661 Maxwell Ave.",
+    "outcome_summary_citations": [
+     "/page/6/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "A revised motion to conditionally approve a Landmark Alteration certificate for Building L was carried.",
+    "outcome_summary_citations": [
+     "/page/6/Table/7"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Presentations and updates were provided regarding Occupancy & Zoning for Affordable Housing.",
+    "outcome_summary_citations": [
+     "/page/7/SectionHeader/3",
+     "/page/7/Text/4",
+     "/page/7/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/7/SectionHeader/7"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/SectionHeader/8"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Discussion Items",
+    "section_citations": [
+     "/page/7/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Discussion Items",
+    "title_citations": [
+     "/page/7/SectionHeader/8"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Debrief",
+    "section_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/7/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/7/SectionHeader/10"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Brockett at 11:23 p.m.",
+    "outcome_summary_citations": [
+     "/page/7/Text/11"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted 'agenda_items' incorrectly labels 'Open Comment' as a public hearing (is_public_hearing: true) and includes ordinance numbers (8578-8579) under the Consent Agenda item 3, which are actually listed as separate items (I, J, "
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Benjamin",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Folkerts",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present; recused from 3G; returned at 8:05 p.m.",
+    "attendance_note_citations": [
+     "/page/0/Text/7",
+     "/page/3/Text/4",
+     "/page/3/Text/9"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Speer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Winer",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "virtually present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/7"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/7"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    },
+    "attendance_note": "virtually present",
+    "attendance_note_citations": [
+     "/page/0/Text/7"
+    ],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extraction correctly identifies all present members and their titles from the roll call table. However, it incorrectly assigns the title 'Council Member' to Joseph and Wallach, who are listed under 'Virtually present' without a specific title in the source text. Additionally, the extraction infr"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [
+   "Landmark Alteration Certificate to demolish an existing accessory building and construct a new accessory building at 661 Maxwell Ave. in the Mapleton Hill Historic District"
+  ],
+  "call_up_items_citations": [
+   "/page/6/ListGroup/2"
+  ],
+  "call_up_items_score": {
+   "score": 5,
+   "reasoning": "The extracted value correctly identifies the content of the 'Call-Up Check-In' section (Item 4) found in block /page/6/ListGroup/2. The citation is accurate, and the text matches the source exactly. No other blocks contradict or contain relevant uncited call-up items."
+  },
+  "meeting_date": "2023-06-15",
+  "meeting_date_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2023-06-15' is accurate and matches the text 'Thursday, June 15, 2023' found in block /page/0/Text/3. The citation is correct, the information is accurate, and the citation is complete as it points to the primary source of the date."
+  },
+  "meeting_title": "CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 0,
+   "reasoning": "The extracted value 'regular' is incorrect. The HTML explicitly states 'SPECIAL MEETING' in the agenda items (e.g., Item 3N, Item 5B moved to Special Meeting) and the motion to continue to a Special Meeting. The citation points to the main header 'CITY COUNCIL MEETING' which does not specify the 'S'"
+  },
+  "called_to_order_time": "6:01 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/6"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Brockett",
+  "presiding_officer_citations": [
+   "/page/0/Text/6"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

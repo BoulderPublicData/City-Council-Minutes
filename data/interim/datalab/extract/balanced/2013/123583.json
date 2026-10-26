@@ -1,0 +1,2058 @@
+{
+ "entry_id": 123583,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "P46KGoGZQa7HiC0RHQLnrg",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 32.0
+ },
+ "extraction": {
+  "meeting_date": "2013-08-06",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the meeting date. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the meeting title. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:15 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "1:20 AM",
+  "adjourned_time_citations": [
+   "/page/9/Text/9"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/Text/9"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/9/Text/9. Conclusion: the value at /page/9/Text/9 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelhorn",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The person calling the meeting to order is identified at /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "LAND USE ALTERATION CERTIFICATE TO REMOVE AND NOT CONSTRUCT BUILDING AT 1023 WALNUT ST. IN THE DOWNTOWN HISTORIC DISTRICT AND IN ITS PLACE CONSTRUCT A NEW FOUR STORY COMMERCIAL BUILDING TO BE CONNECTED VIA A BRIDGE TO THE PROPOSED BUILDING AT 1049 PEARL ST. INFORMATION PACKET DATE: JULY 30, 2013 LAST OPPORTUNITY FOR CALL-UP: AUGUST 6, 2013",
+   "3. VACATION OF A UTILITY EASEMENT IN THE STATE OF MARYLAND SUBDIVISION INFORMATION PACKET DATE: JULY 11, 2013 LAST OPPORTUNITY FOR CALL-UP: AUGUST 1, 2013"
+  ],
+  "call_up_items_citations": [
+   "/page/8/Text/7",
+   "/page/8/Text/9"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/8/Text/7"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The first call-up item is stated at /page/8/Text/7. Conclusion: the value at /page/8/Text/7 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/8/Text/9"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The second call-up item is stated at /page/8/Text/9. Conclusion: the value at /page/8/Text/9 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains two call-up items, at /page/8/Text/7 and /page/8/Text/9, matching the two extracted entries. Conclusion: the list is complete and agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelhorn called the regular August 6, 2013 City Council meeting to order at 6:15 PM in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "II",
+    "item_number_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "section": "OPEN COMMENT AND COUNCIL STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "title": "OPEN COMMENT AND COUNCIL STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "III",
+    "item_number_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM JUNE 10, 2013",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was amended to correct the final vote.",
+    "outcome_summary_citations": [
+     "/page/1/Text/0"
+    ]
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM JUNE 12, 2013",
+    "title_citations": [
+     "/page/1/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE STUDY SESSION SUMMARY FROM JUNE 11, 2013 REGARDING THE 2013 WORK PLAN UPDATE",
+    "title_citations": [
+     "/page/1/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "D",
+    "item_number_citations": [
+     "/page/1/Text/3"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE STUDY SESSION SUMMARY FROM JULY 24, 2013 ON BOULDER'S ENERGY FUTURE MUNICIPALIZATION EXPLORATION PROJECT",
+    "title_citations": [
+     "/page/1/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "E",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION APPOINTING BKD-LLP FOR THE 2013 ANNUAL AUDIT",
+    "title_citations": [
+     "/page/1/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "F",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION ACCEPTING THE 2012 CAFR AND INDEPENDENT AUDITOR REPORTS",
+    "title_citations": [
+     "/page/1/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "G",
+    "item_number_citations": [
+     "/page/1/Text/6"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY THE ONLY AN EMERGENCY ORDINANCE ADJUTING SUPPLEMENT NO. 117, WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCES NOS. 7894, 7895, 7901, 7904, 7905, 7906 AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS, AS AN AMENDMENT TO THE BOULDER REVISED CODE, 1981",
+    "title_citations": [
+     "/page/1/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7894",
+     "7895",
+     "7901",
+     "7904",
+     "7905",
+     "7906"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council agreed to adopt B.R.C. supplements by emergency without second readings",
+    "outcome_summary_citations": [
+     "/page/1/Text/7"
+    ]
+   },
+   {
+    "item_number": "H",
+    "item_number_citations": [
+     "/page/1/Text/8"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE DISPOSAL TO THE STATE OF COLORADO, THE COLORADO DEPARTMENT OF TRANSPORTATION, OF OPEN SPACE AND MOUNTAIN PARKS LAND AND TEMPORARY EASEMENTS, INCLUDING A LAND EXCHANGE, TO ACCOMMODATE THE U.S. 30 MANAGER Lanes Project Phase 2. This is a disposal of open space land under City Charter Section 177",
+    "title_citations": [
+     "/page/1/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "I",
+    "item_number_citations": [
+     "/page/1/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE DISPOSAL OF OPEN SPACE AND MOUNTAIN PARKS LAND DESCRIBED AS TWO PERMANENT EASEMENTS ON 6,403 SQUARE FEET (1.5 ACRES) AND FOUR TEMPORARY CONSTRUCTION EASEMENTS ON 13,500 SQUARE FEET (42 ACRES) TO PUBLIC SERVICE COMPANY OF COLORADO FOR AN UNDERGROUND NATURAL GAS LINE AND A VALVE SET ON THE LEVEL MOUNTAIN OPEN SPACE LAND AT THE IMMEDIATE NORTHWEST CORNER OF STATE HIGHWAY 72 AND 93. This is a disposal of open space land under City Charter Section 177",
+    "title_citations": [
+     "/page/1/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "J",
+    "item_number_citations": [
+     "/page/2/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO CHANGE STUDY SESSIONS SCHEDULED FOR OCTOBER 9, 22 AND OCTOBER 29 TO BUSINESS MEETINGS",
+    "title_citations": [
+     "/page/1/Text/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF A MOTION TO CALL A SPECIAL MEETING OF THE BOULDER CITY COUNCIL TO CONSIDER THE HOGAN-PANCOST ANNEXATION ON OCTOBER 5, 2013",
+    "title_citations": [
+     "/page/2/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UP CHECK-IN",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title": "POTENTIAL CALL-UP CHECK-IN",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed to any of the call-up items.",
+    "outcome_summary_citations": [
+     "/page/2/Text/3"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 797 FINDING THAT THE CONDITIONS PRECEDENT TO FORMATION OF AN ELECTRIC POWER AND LIGHT UTILITY OF CHARTER SECTION 178(A) HAVE BEEN SATISFIED, AND SETTING FORTH RELATED DETAILS AND ACCEPTANCE OF THE SUMMARY OF THE JULY 22, 2013 PRESENTATION BY POWERSERVICES, INC.",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "797",
+     "7917"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/12"
+    ],
+    "hearing_closed_time": "10:05 PM",
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "John Toyes",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Angelique Espinosa",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Baird McKevitt",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Red Clark",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Hartman",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Rick Fazelee",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Debra Henson",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kathy Henson-Agnew",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Susan Kieferer",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Anita Lappe",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Jason Wiener",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Ruth Blackmore",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kathy Christ-Janer",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Leslie Gustrom",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Bill Koettker",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Denise Clark",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "John Kessel",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Leonard May",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Dave Severs",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Aspray",
+      "name_citations": [
+       "/page/4/Text/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/Text/0"
+      ]
+     },
+     {
+      "name": "Tom Wilke",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Morris",
+      "name_citations": [
+       "/page/4/Text/3"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Van Orden",
+      "name_citations": [
+       "/page/4/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Pomarance",
+      "name_citations": [
+       "/page/4/Text/5"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kate Clark",
+      "name_citations": [
+       "/page/4/Text/6"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Steven Haynes",
+      "name_citations": [
+       "/page/4/Text/7"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Ken Regelson",
+      "name_citations": [
+       "/page/4/Text/8"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "John Doherty",
+      "name_citations": [
+       "/page/4/Text/9"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/Text/9"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 62, Council Member Ageton and Karakchian opposed.",
+    "outcome_summary_citations": [
+     "/page/5/Text/0"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7918 AUTHORIZING THE ACQUISITION OF PUBLICLY INTERESTS OWNED BY PUBLIC SERVICE COMPANY OF COLORADO BY A NEW ENERGY BY NEGOTIATION AND PURCHASE THROUGH THE POWER OF EMINENT DOMAIN AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/2/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7918"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:58 PM",
+    "hearing_opened_time_citations": [
+     "/page/2/Text/12"
+    ],
+    "hearing_closed_time": "10:05 PM",
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "John Toyes",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Angelique Espinosa",
+      "name_citations": [
+       "/page/2/ListGroup/13"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Baird McKevitt",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David Red Clark",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Jim Hartman",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Rick Fazelee",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Debra Henson",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kathy Henson-Agnew",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Susan Kieferer",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Anita Lappe",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Jason Wiener",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Ruth Blackmore",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kathy Christ-Janer",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Leslie Gustrom",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Bill Koettker",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Denise Clark",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "John Kessel",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Leonard May",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Dave Severs",
+      "name_citations": [
+       "/page/3/ListGroup/0"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Aspray",
+      "name_citations": [
+       "/page/4/Text/0"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/Text/0"
+      ]
+     },
+     {
+      "name": "Tom Wilke",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Tim Morris",
+      "name_citations": [
+       "/page/4/Text/3"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Eric Van Orden",
+      "name_citations": [
+       "/page/4/Text/4"
+      ],
+      "position": "against",
+      "position_citations": []
+     },
+     {
+      "name": "Steve Pomarance",
+      "name_citations": [
+       "/page/4/Text/5"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Kate Clark",
+      "name_citations": [
+       "/page/4/Text/6"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Steven Haynes",
+      "name_citations": [
+       "/page/4/Text/7"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Ken Regelson",
+      "name_citations": [
+       "/page/4/Text/8"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "John Doherty",
+      "name_citations": [
+       "/page/4/Text/9"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/Text/9"
+      ]
+     }
+    ],
+    "outcome_summary": "The motion carried 62 with Council Member Ageton and Karakchian opposed.",
+    "outcome_summary_citations": [
+     "/page/5/Text/7"
+    ]
+   },
+   {
+    "item_number": null,
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "Second reading and consideration of a motion to adopt Ordinance No. 7919 setting the bail of title for an amendment to the Boulder Charter, amending North Reclaimed Utilities",
+    "title_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7919"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "11:46 PM",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/2"
+    ],
+    "hearing_closed_time": "12:16 AM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/4"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Hajner",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gnucskia",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mitch Parkin",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/3"
+      ]
+     },
+     {
+      "name": "Tom Wilke",
+      "name_citations": [],
+      "position": "for",
+      "position_citations": []
+     },
+     {
+      "name": "Jesse Glashorn",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/3"
+      ]
+     },
+     {
+      "name": "Karey Christ-Janer",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried with Council Member Wilson absent at 12:17 a.m.",
+    "outcome_summary_citations": [
+     "/page/7/Text/2"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/6/Text/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7920 SUBMITTING TO THE REGISTERED ELECTORS OF THE CITY OF BOULDER AT THE GENERAL MUNICIPAL COORDINATED ELECTION TO BE HELD ON TUESDAY, NOVEMBER 3, 2013, AN ALTERNATIVE BALLOT QUESTION AMENDING THE CITY CHARTER TO ADDRESS ISSUES PRESENTED BY THE PROPOSED INITIATIVE CHARTER AMENDMENT THAT ADDS A NEW SECTION 188 ON LIMITATIONS ON DEBT IN CREATION AND SAVING FOR MUNICIPAL DEBT DETAILS",
+    "title_citations": [
+     "/page/6/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7920"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "11:46 PM",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/2"
+    ],
+    "hearing_closed_time": "12:16 AM",
+    "hearing_closed_time_citations": [
+     "/page/6/Text/4"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Steve Hajner",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Gnucskia",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "against",
+      "position_citations": [
+       "/page/6/ListGroup/3"
+      ]
+     },
+     {
+      "name": "Mitch Parkin",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Wilke",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jesse Glashorn",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Karey Christ-Janer",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Angelique Espinoza",
+      "name_citations": [
+       "/page/6/ListGroup/3"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried 8-0 with Council Member Wilson absent.",
+    "outcome_summary_citations": [
+     "/page/8/Text/0"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/8/SectionHeader/1"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/8/SectionHeader/1"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/8/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "A",
+    "item_number_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "title": "Special Call-Ups",
+    "title_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": null,
+    "item_number_citations": [],
+    "section": "Special Call-Ups",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "LAND USE ALTERATION CERTIFICATE TO REMOVE AND NOT CONSTRUCT BUILDING AT 1023 WALNUT ST. IN THE DOWNTOWN HISTORIC DISTRICT AND IN ITS PLACE CONSTRUCT A NEW FOUR STORY COMMERCIAL BUILDING TO BE CONNECTED VIA A BRIDGE TO THE PROPOSED BUILDING AT 1049 PEARL ST. INFORMATION PACKET DATE: JULY 30, 2013 LAST OPPORTUNITY FOR CALL-UP: AUGUST 6, 2013",
+    "title_citations": [
+     "/page/8/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/8/Text/9"
+    ],
+    "section": "Special Call-Ups",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "VACATION OF A UTILITY EASEMENT IN THE STATE OF MARYLAND SUBDIVISION INFORMATION PACKET DATE: JULY 11, 2013 LAST OPPORTUNITY FOR CALL-UP: AUGUST 1, 2013",
+    "title_citations": [
+     "/page/8/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "title": "APPOINTMENTS TO BOARDS AND COMMISSIONS",
+    "title_citations": [
+     "/page/8/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Morgan Lummels was appointed to the Environmental Advisory Board by a 7-1 vote with Council Member Morzel voting for another nominee, Christopher Lane was appointed to BOZA by acclamation, and the appointments were ratified 8/0 with Council Member Wilson absent.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "C",
+    "item_number_citations": [
+     "/page/9/Text/4"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/SectionHeader/5"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/9/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no speakers present, Public Comment was closed, opened at 1:19 AM.",
+    "outcome_summary_citations": [
+     "/page/9/Text/4"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/9/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8/0 with Council Member Wilson absent.",
+    "outcome_summary_citations": [
+     "/page/9/Text/6"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "section": "DEBRIEF",
+    "section_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "title": "DEBRIEF - None",
+    "title_citations": [
+     "/page/9/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None",
+    "outcome_summary_citations": [
+     "/page/9/SectionHeader/7"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on August 7, 2013 at 1:20 AM.",
+    "outcome_summary_citations": [
+     "/page/9/Text/9"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "III",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "motion_text": "Council Member was moved, seconded by council Member Agosin to approve Johnson Agosin items 1A through 3K as amended.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": "Agosin",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "vote_text": "The movement for item 1A, Council Member Wilson, absent on a full call vote at the 10/1/14.",
+    "vote_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "result": "no_vote_recorded",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Wilson"
+    ]
+   },
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/4/Text/3"
+    ],
+    "motion_text": "Mayor Appelsbaum moved, seconded by Council Member Moore, to suspend the rules and continue the meeting.",
+    "motion_text_citations": [
+     "/page/4/Text/12"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelsbaum",
+    "moved_by_citations": [
+     "/page/4/Text/12"
+    ],
+    "seconded_by": "Moore",
+    "seconded_by_citations": [
+     "/page/4/Text/12"
+    ],
+    "vote_text": "The motion carried.",
+    "vote_text_citations": [
+     "/page/4/Text/12"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/5/Text/0"
+    ],
+    "motion_text": "Mayor Appelhann moved, seconded by Council Member Fless, to approve Ordinance No. 7917 finding that the conditions precedent to formation of an electric power and light utility of Charter Section 178(a) have been satisfied and setting forth related details and set place of the same on the July 22, 2015, to be acted on by Public Services, Inc. as amended in the City Attorney's Office with instruction for that reading to occur on August 20 on the Consent Agenda.",
+    "motion_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7917"
+    ],
+    "moved_by": "Appelhann",
+    "moved_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "seconded_by": "Fless",
+    "seconded_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "vote_text": "The motion carried 62, Council Member Ageton and Karakchian opposed.",
+    "vote_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Karakchian"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "2",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Coffermongel, seconded by Council Member Morzel, to approve Ordinance No. 7918 authorizing the acquisition of property interests owned by Public Service Company of Colorado d/b/a Xcel Energy by negotiation and purchase or through the power of attorney that is as amended in the packet.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7918"
+    ],
+    "moved_by": "Coffermongel",
+    "moved_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "vote_text": "The motion carried 62 with Council Member Ageton and Karakchian opposed.",
+    "vote_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Karakchian"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": null,
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Swilles moved seconded by Council Member Morzal to approve Ordinance No. 7919, setting up a ballot title for an initiative referendum to the Boulder Charter is amended to strike the short ballot title and changing the Ordinance title to be consistent with the ballot question.",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7919"
+    ],
+    "moved_by": "Swilles",
+    "moved_by_citations": [
+     "/page/6/Text/7"
+    ],
+    "seconded_by": "Morzal",
+    "seconded_by_citations": [
+     "/page/6/Text/7"
+    ],
+    "vote_text": "The motion carried with Council Member Wilson absent at 12:17 a.m.",
+    "vote_text_citations": [
+     "/page/7/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Wilson"
+    ]
+   },
+   {
+    "agenda_item_number": "7",
+    "agenda_item_number_citations": [
+     "/page/7/Text/5"
+    ],
+    "motion_text": "Mayor Appelbaum moved, seconded by Council Member Morzel, to approve Ordinance No. 7920 submitting to the registered electors of the City of Boulder in the general municipal coordinated election to be held on Tuesday, November 5, 2013, an alternative ballot question amending the City Charter to address issues presented by the proposed limited Charter amendment that adds a new section .88 on limitations on receipt and use of debt as presented in addition to with the debt limit as indicated at $217,000,000.",
+    "motion_text_citations": [
+     "/page/7/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7920"
+    ],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/7/Text/5"
+    ],
+    "vote_text": "The motion carried 8-0 with Council Member Wilson absent.",
+    "vote_text_citations": [
+     "/page/8/Text/0"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/7/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Wilson"
+    ]
+   },
+   {
+    "agenda_item_number": "7",
+    "agenda_item_number_citations": [
+     "/page/7/Text/10"
+    ],
+    "motion_text": "Council Member Cowles moved, seconded by Mayor Appelbaum, to take up agenda item 8B while staff worked on incorporating the amendments to Ordinance No. 7920.",
+    "motion_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/7/ListGroup/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/7/Text/10"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/7/Text/10"
+    ],
+    "vote_text": "The motion carried. Abs. Council Member Wilson absent. at 12:31 a.m.",
+    "vote_text_citations": [
+     "/page/7/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Wilson"
+    ]
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/9/Text/2"
+    ],
+    "motion_text": "Mayor Appelbaum moved, seconded by Council Member Axton to ratify the Board Appointments to the Board of Zoning Adjustments (BOZA) and the Environmental Advisory Board.",
+    "motion_text_citations": [
+     "/page/9/Text/2"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/9/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/9/Text/2"
+    ],
+    "seconded_by": "Axton",
+    "seconded_by_citations": [
+     "/page/9/Text/2"
+    ],
+    "vote_text": "The motion carried 8/0 with Council Member Wilson absent. at 1:20 am.",
+    "vote_text_citations": [
+     "/page/9/Text/6"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/9/Text/6"
+    ],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Wilson"
+    ]
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/9/SectionHeader/8"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on August 7, 2013 at 1:20 AM.",
+    "motion_text_citations": [
+     "/page/9/Text/9"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelhorn",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Agelon",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Coyle",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones-Karakchian",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Plass",
+    "name_citations": [
+     "/page/0/Text/3"
+    ],
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/3"
+    ],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Tim Thomas",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "Council having dinner behind closed doors in the Kitchen. He also noted that the city use pad at the St. James Hotel was being used for non-city purposes.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Brad Golden",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "against utilization of license plate recognition software. He wanted any data related to non-criminal activity to be purged immediately.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "R. Paul Williamson",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "a project called Colorado City Connector. The program would build a memorail system linking cities in Colorado using a new technology.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jeff McWhirter",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "the president of the Southeast Boulder Neighborhood Association and as a citizen against the annexation of the Hogan-Pancost property.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Steve Romancase",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "against the annexation of the Hogan-Pancost property without a change in the zoning.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Lee Berg",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "United Way thanking Boulder for its support during their many challenges.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Stacey Balcom",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "the bandshell and annual duck race.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/5"
+    ],
+    "topic": "against the annexation of the Hogan-Pancost property.",
+    "topic_citations": [
+     "/page/0/ListGroup/5"
+    ]
+   }
+  ]
+ }
+}

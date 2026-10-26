@@ -1,0 +1,1533 @@
+{
+ "entry_id": 11820,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "FH_SjPbo8OAH5MFWkwFVNg",
+ "page_count": 8,
+ "cost_breakdown": {
+  "final_cost_cents": 26.0
+ },
+ "extraction": {
+  "meeting_date": "2009-05-05",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The date is supported by /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading is supported by /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as regular in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "council chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The location is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:05 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "9:40 P. M.",
+  "adjourned_time_citations": [
+   "/page/7/Text/7"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/7/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated in /page/7/Text/7. Conclusion: the value at /page/7/Text/7 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The presiding officer is identified in /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "A. SITE AND USE REVIEW (LUR2009-00013) TO PERMIT A NEW OUTDOOR PLATFORM FOR STUDENT PRESENTATIONS AND A 1,400 SQUARE FOOT ADDITION (PREVIOUSLY APPROVED BY PLANNING BOARD AND SINCE EXPIRED) TO AN EXISTING PRIVATE SCHOOL ENTITLED BIXBY SCHOOL LOCATED AT 4760 TABLE MESA DRIVE WITHIN THE RM-1, MEDIUM DENSITY RESIDENTIAL ZONING DISTRICT. WIP DATE: APRIL 30, 2009. LAST OPPORTUNITY FOR CALL-UP IS MAY 5, 2009. APPROVED BY PLANNING BOARD 7-0.",
+   "B. SITE REVIEW AT 1043 PINE STREET (LUR2009-00001) TO MODIFY THE MAXIMUM PERMITTED HEIGHT OF THE RESIDENTIAL MIXED-1 (RMX-1) ZONE DISTRICT (35') TO CONSTRUCT A NORTH FACING SHED DORMER WITH FIVE OPERABLE WINDOWS AT THE SAME HEIGHT AS THE EXISTING RESIDENCE (40.2'). WIP DATE: APRIL 30, 2009. LAST OPPORTUNITY FOR CALL-UP IS MAY 5, 2009. APPROVED BY PLANNING BOARD 7-0.",
+   "C. SITE REVIEW AT 230 BELLEVUE DRIVE (LUR2009-00003) FOR HEIGHT MODIFICATION OF THE PROPOSED ADDITION (1,590 SQUARE FEET, INCLUDING 719 SQUARE FOOT GARAGE) TO 39.4' FROM THE MAXIMUM PERMITTED HEIGHT OF 35' WITHIN THE RESIDENTIAL LOW-1 (RL-1) ZONED DISTRICT. WIP DATE: APRIL 30, 2009. LAST OPPORTUNITY FOR CALL-UP IS MAY 5, 2009. APPROVED BY PLANNING BOARD 6-0, W. JOHNSON RECUSED."
+  ],
+  "call_up_items_citations": [
+   "/page/6/Text/2",
+   "/page/6/Text/4",
+   "/page/6/Text/6"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/Text/2"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is supported by /page/6/Text/2. Conclusion: the value at /page/6/Text/2 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/Text/4"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is supported by /page/6/Text/4. Conclusion: the value at /page/6/Text/4 agrees with the extraction."
+     }
+    },
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/6/Text/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The item is supported by /page/6/Text/6. Conclusion: the value at /page/6/Text/6 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The document contains exactly three potential call-up items, all present in the extraction, at /page/6/Text/2, /page/6/Text/4, and /page/6/Text/6. Conclusion: the value at /page/6/Text/2, /page/6/Text/4, and /page/6/Text/6 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the regular May 5, 2009 council meeting to order at 6:05 p.m. in the council chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "Presentation of Sister City Volunteer of the Year Award to Harumi Kato.",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum presented Harumi Kato with the Sister City Volunteer of the Year Award for her efforts coordinating local volunteers associated with the Sakura Project and the Yamagata Sister City committee to plant cherry trees in Boulder.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council heard public participation and staff and council responses.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/3/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0 with Appelbaum opposed to item 3G.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM APRIL 7, 2009.",
+    "title_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as amended as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE AN INTERGOVERNMENTAL AGREEMENT WITH THE CITY OF LAFAYETTE ON OWNERSHIP AND OPERATION OF A SENIOR SERVICES BUS.",
+    "title_citations": [
+     "/page/1/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE INTERLOCAL GOVERNMENT AGREEMENTS BETWEEN THE CITY OF BOULDER AND THE COUNTY OF BOULDER; CITY OF LAFAYETTE; CITY OF LONGMONT AND THE CITY OF LOUISVILLE FOR THE FY09 EDWARD BYRNE MEMORIAL JUSTICE ASSISTANCE GRANT PROGRAM.",
+    "title_citations": [
+     "/page/1/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/8"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION NO. 1051 IN SUPPORT OF ENHANCING COLLABORATIVE EFFORTS BETWEEN THE BOULDER VALLEY SCHOOL DISTRICT, THE UNIVERSITY OF COLORADO AT BOULDER, BOULDER COUNTY AND THE CITY OF BOULDER TO PROGRESS TOWARD ENVIRONMENTAL SUSTAINABILITY.",
+    "title_citations": [
+     "/page/1/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1051"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Pulled from the consent agenda and adopted as amended by an 8:0 vote after being taken up as a public hearing.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT A RESOLUTION No. 1052 FINDING THE ANNEXATION PETITION FOR TWO PARCELS LOCATED AT 5880 AND 6032 BUTTE MILL RD., WESTERN DISPOSAL SERVICES, INC. (LUR2003-00013 AND LUR2003-00037) IN COMPLIANCE WITH STATE STATUTES AND ESTABLISHING JUNE 4, 2009 AS THE DATE FOR FINAL ACTION ON THE ANNEXATION REQUEST. OWNER/APPLICANT: WESTERN DISPOSAL SERVICES, INC.",
+    "title_citations": [
+     "/page/2/ListGroup/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1052"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/0"
+    ],
+    "title": "CONSIDERATION OF A RESOLUTION No. 230 AUTHORIZING THE ISSUANCE BY THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT OF ITS GENERAL OBLIGATION REFUNDING BONDS, SERIES 2009, IN THE AGGREGATE PRINCIPAL AMOUNT OF $8,105,000, FOR THE PURPOSE OF PROVIDING FUNDS FOR THE CURRENT REFUNDING OF THE CITY OF BOULDER CENTRAL AREA GENERAL IMPROVEMENT DISTRICT GENERAL OBLIGATION BONDS, SERIES 1998, TOGETHER WITH ALL NECESSARY, INCIDENTAL AND APPURTENANT COSTS AND EXPENSES THEREWITH; PRESCRIBING THE FORM OF SAID SERIES 2009 BONDS; PROVIDING FOR THE SALE OF SAID SERIES 2009 BONDS; ESTABLISHING CERTAIN FUNDS WITH RESPECT THERETO; PROVIDING A PLEDGE OF THE FULL FAITH AND CREDIT OF THE DISTRICT AS SECURITY FOR SAID SERIES 2009 BONDS; MAKING CERTAIN COVENANTS WITH RESPECT TO SAID SERIES 2009 BONDS; APPOINTING ASSURED GUARANTY CORP, AS BOND INSURER FOR SAID SERIES 2009 BONDS; AND PROVIDING OTHER DETAILS IN CONNECTION WITH SAID SERIES 2009 BONDS.",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 230"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as amended as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/0"
+    ],
+    "title": "THIRD READING AND CONSIDERATION OF ORDINANCE No. 7655 AMENDING TITLE 9, B.R.C 1981, CREATING THE MIXED USE 4 (MU-4), RESIDENTIAL-HIGH 7 (RH-7), AND RESIDENTIAL-HIGH6 (RH-6) ZONING DISTRICTS, AMENDING STANDARDS FOR THE RESIDENTIAL HIGH 3 (RH-3) ZONING DISTRICT, AND AMENDING THE REQUIREMENTS FOR SITE REVIEW, PARKING, OPEN SPACE, REZONING, TRIP GENERATION REQUIREMENTS, AND OTHER CHANGES RELATED TO THE IMPLEMENTATION OF THE TRANSIT VILLAGE AREA PLAN (TVAP) AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/2/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7655"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was approved by 7:1 vote; Appelbaum opposed.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ]
+   },
+   {
+    "item_number": "3.H",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/0"
+    ],
+    "title": "INTRODUCTION, FIRST READING, AND CONSIDERATION OF AN EMERGENCY ORDINANCE No. 7660 ADOPTING SUPPLEMENT No. 100 WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE NOS. 7639, 7641, 7642 AND 7643 AND OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS TO THE BOULDER REVISED CODE, 1981.",
+    "title_citations": [
+     "/page/2/ListGroup/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7660",
+     "7639",
+     "7641",
+     "7642",
+     "7643"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.I",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING, AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE No. 7661 APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2009 BUDGET.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7661"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.J",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING, AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE No. 7662 ADOPTING BY REFERENCE THE 2008 MID-TERM REVIEW OF THE BOULDER VALLEY COMPREHENSIVE PLAN, AND SETTING FORTH DETAILS IN RELATION THERETO.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7662"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.K",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/3/Text/1"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY ORDINANCE No. 7663 AMENDING SECTION 9-4-4, B.R.C. 1981 TO AUTHORIZE THE CITY MANAGER TO EXTEND THE 30 DAY CALL-UP PERIOD FOR DEVELOPMENT REVIEW APPLICATIONS TO THE NEXT BUSINESS MEETING OF THE CITY COUNCIL DURING PERIODS WHEN THERE ARE MORE THAN 30 DAYS BETWEEN A CITY COUNCIL MEETING AND THE FINAL ACTION BY THE PLANNING BOARD AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7663"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Approved as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed in either of the call-up items.",
+    "outcome_summary_citations": [
+     "/page/3/Text/3"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7658 AMENDING THE REQUIREMENTS RELATED TO THE PROTECTION OF WETLANDS, INCLUDING SECTIONS 9-3-9, “WETLANDS PROTECTION,” 9-16-1, “GENERAL DEFINITIONS,” AND 4-20-53, “WETLAND PERMIT AND MAP REVISION FEES,” B.R.C. 1981, BY REPEALING, REENACTING AND ADOPTING BY REFERENCE THE WETLANDS MAPS OF THE CITY OF BOULDER AND THE WETLANDS FUNCTIONAL EVALUATIONS AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/3/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7658"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": "8:27 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/4/Text/2"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Sam Alschuler",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Barrett Weisz",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Barb Kostanick",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/4/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Gail Gordon",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "David W. Crumpacker",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Buff Elting",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mary Nakashian",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Phoebe Greyson",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bob Rubino",
+      "name_citations": [
+       "/page/4/ListGroup/1"
+      ],
+      "position": "against",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Ordinance No. 7658 was adopted by an 8:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7651 ENACTING A NEW CHAPTER 2-2.5, B.R.C. 1981 ADDRESSING CIVIL EMERGENCIES AND DISASTERS, ESTABLISHING AUTHORITY AND PROCEDURES TO TAKE SPECIFIED ACTIONS IN THE EVENT OF A DISASTER EMERGENCY AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/4/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7651"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Ordinance No. 7651 was adopted by an 8:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/5"
+    ],
+    "title": "CONTINUATION OF SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7552, ADOPTING AND APPROVING AN INTERGOVERNMENTAL AGREEMENT BETWEEN BOULDER COUNTY, THE CITY AND COUNTY OF BROOMFIELD, THE CITIES OF BOULDER, LAFAYETTE, LONGMONT, AND LOUISVILLE, AND THE TOWNS OF ERIE AND SUPERIOR, RELATING TO THE MANAGEMENT OF HAZARDOUS MATERIALS.",
+    "title_citations": [
+     "/page/5/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7552"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Substitute Ordinance No. 7552 and its Exhibit A found in Attachment B were adopted by an 8:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/5/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/5/SectionHeader/10"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/5/SectionHeader/10"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/5/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "title": "Potential Call-ups",
+    "title_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on the potential call-ups.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.A",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "title": "SITE AND USE REVIEW (LUR2009-00013) TO PERMIT A NEW OUTDOOR PLATFORM FOR STUDENT PRESENTATIONS AND A 1,400 SQUARE FOOT ADDITION (PREVIOUSLY APPROVED BY PLANNING BOARD AND SINCE EXPIRED) TO AN EXISTING PRIVATE SCHOOL ENTITLED BIXBY SCHOOL LOCATED AT 4760 TABLE MESA DRIVE WITHIN THE RM-1, MEDIUM DENSITY RESIDENTIAL ZONING DISTRICT. WIP DATE: APRIL 30, 2009. LAST OPPORTUNITY FOR CALL-UP IS MAY 5, 2009. APPROVED BY PLANNING BOARD 7-0.",
+    "title_citations": [
+     "/page/6/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.B",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "title": "SITE REVIEW AT 1043 PINE STREET (LUR2009-00001) TO MODIFY THE MAXIMUM PERMITTED HEIGHT OF THE RESIDENTIAL MIXED-1 (RMX-1) ZONE DISTRICT (35') TO CONSTRUCT A NORTH FACING SHED DORMER WITH FIVE OPERABLE WINDOWS AT THE SAME HEIGHT AS THE EXISTING RESIDENCE (40.2'). WIP DATE: APRIL 30, 2009. LAST OPPORTUNITY FOR CALL-UP IS MAY 5, 2009. APPROVED BY PLANNING BOARD 7-0.",
+    "title_citations": [
+     "/page/6/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A.C",
+    "item_number_citations": [],
+    "section": "Potential Call-ups",
+    "section_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "title": "SITE REVIEW AT 230 BELLEVUE DRIVE (LUR2009-00003) FOR HEIGHT MODIFICATION OF THE PROPOSED ADDITION (1,590 SQUARE FEET, INCLUDING 719 SQUARE FOOT GARAGE) TO 39.4' FROM THE MAXIMUM PERMITTED HEIGHT OF 35' WITHIN THE RESIDENTIAL LOW-1 (RL-1) ZONED DISTRICT. WIP DATE: APRIL 30, 2009. LAST OPPORTUNITY FOR CALL-UP IS MAY 5, 2009. APPROVED BY PLANNING BOARD 6-0, W. JOHNSON RECUSED.",
+    "title_citations": [
+     "/page/6/Text/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPOINTING ONE NEW MEMBER TO THE DOWNTOWN DESIGN ADVISORY BOARD AND ONE NEW MEMBER TO THE BOARD OF ZONING ADJUSTMENT.",
+    "title_citations": [
+     "/page/6/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council appointed Paul Saporito to the Downtown Design Advisory Board and Thomas Krueger to the Board of Zoning Adjustment by an 8:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.C",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/6/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPOINT A COUNCIL LIAISON TO THE KISUMU, KENYA SISTER CITY.",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council appointed Morzel with Gray as alternate to the Kisumu Sister City Committee and Wilson as representative to the Yamagata Sister City Committee by an 8:0 vote.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS: (15 min.) Public comment on any motions made under Matters.",
+    "title_citations": [
+     "/page/7/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/7/ListGroup/3"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/7/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Both motions on board and commission appointments and sister city representatives carried 8:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:40 P. M.",
+    "outcome_summary_citations": [
+     "/page/7/Text/7"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/Text/1"
+    ],
+    "motion_text": "Deputy Mayor Gray moved, seconded by Morzel to approve consent agenda items 3A through 3K with items 3A and 3F amended and item 3D pulled from consent and taken up as a public hearing later in the meeting.",
+    "motion_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1052",
+     "Res. 230",
+     "7655",
+     "7660",
+     "7661",
+     "7662",
+     "7663"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/3/Text/1"
+    ],
+    "vote_text": "The motion carried 8:0 with Appelbaum opposed to item 3G.",
+    "vote_text_citations": [
+     "/page/3/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/3/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Appelbaum"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Wilson moved, seconded by Osborne to adopt Ordinance No. 7658 amending the requirements related to the protection of wetlands, including Sections 9-3-9, “Wetlands Protection,” 9-16-1, “General Definitions,” and 4-20-53, “Wetland Permit and Map Revision Fees,” B.R.C. 1981, by repealing, reenacting and adopting by reference the wetlands maps of the city of Boulder and the wetlands functional evaluations and setting forth related details.",
+    "motion_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7658"
+    ],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "seconded_by": "Osborne",
+    "seconded_by_citations": [
+     "/page/4/Text/3"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/4/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/3"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Espinoza to adopt Ordinance No. 7651 enacting a new Chapter 2-2.5, B.R.C. 1981 addressing civil emergencies and disasters, establishing authority and procedures to take specified actions in the event of a disaster emergency and setting forth related details.",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7651"
+    ],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by": "Espinoza",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Gray moved, seconded by Morzel to adopt substitute Ordinance No. 7552 adopting and approving an Intergovernmental Agreement between Boulder County, the City and County of Broomfield, the Cities of Boulder, Lafayette, Longmont, and Louisville, and the Towns of Erie and Superior, relating to the management of hazardous materials; and its Exhibit A found in Attachment B.",
+    "motion_text_citations": [
+     "/page/5/Text/4"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7552"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/5/Text/4"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/5/Text/4"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/5/Text/4"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/4"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/4"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "3.D",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton moved, seconded by Gray to adopt Resolution No. 1051 in support of enhancing collaborative efforts between the Boulder Valley School District, the University of Colorado at Boulder, Boulder County and the City of Boulder to progress toward environmental sustainability; as amended to add “diverse and inclusive” prior to “work force” on page 6 of the agenda memo.",
+    "motion_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/5/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "Res. 1051"
+    ],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/5/Text/7"
+    ],
+    "seconded_by": "Gray",
+    "seconded_by_citations": [
+     "/page/5/Text/7"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [
+     "/page/5/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/5/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Appelbaum to ratify the Board and Commission appointments. Council appointed Paul Saporito to a five-year term on the Downtown Design Advisory Board and Thomas Krueger to a five-year on the Board of Zoning Adjustment.",
+    "motion_text_citations": [
+     "/page/6/Text/9"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/6/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/6/Text/9"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/6/Text/9"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.C",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Appelbaum moved, seconded by Morzel to appoint Council Member Morzel with Deputy Mayor Gray as alternate to the Kisumu Sister City Committee and appointing Council Member Wilson as representative to the Yamagata Sister City Committee.",
+    "motion_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/7/Text/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "vote_text": "The motion carried 8:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/7/SectionHeader/6"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 9:40 P. M.",
+    "motion_text_citations": [
+     "/page/7/Text/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/7/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Espinoza",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Lenna Kottke",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the opportunity to provide additional services with grant funds and urged adoption of item 3E",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Sam Alschuler",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "Orchard Grove and the angst that exists in the Park given the uncertainty of its future with the continued rent increases",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the suggestion of creating a living wage for council but why not a living wage for the community?",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "James McClements",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the proposed collaboration with CU and BVSD",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Robert Webb",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "support of developing a strategic and inclusive process for a Foothills Elementary safety plan",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Stephen Keenan",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "support for concerns expressed by the Foothills Elementary parents and neighbors",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the good job it does (noted 28 th and Pearl as an example)",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Robert Sharpe",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the challenges facing Boulder due to the changing values of the city's elected officials and corrupt city staff",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Sarah Schulte",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "how grateful they are to have such a wonderful school",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Callie Weiant",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "a work plan for the revitalization of University Hill",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Morgan Rogers",
+    "name_citations": [
+     "/page/0/ListGroup/8"
+    ],
+    "topic": "the direction of the Climate Action Plan",
+    "topic_citations": [
+     "/page/0/ListGroup/8"
+    ]
+   },
+   {
+    "name": "Michael Rowe",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "restoring the Pioneer Train",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic": "the need to delay the opening of the Comanche III Coal Plant",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ]
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

@@ -1,0 +1,1847 @@
+{
+ "entry_id": 11848,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "V9SZMeLuHHSDd01DHMoEVw",
+ "page_count": 10,
+ "cost_breakdown": {
+  "final_cost_cents": 31.0
+ },
+ "extraction": {
+  "meeting_date": "2010-05-04",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date at /page/0/Text/1. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading at /page/0/SectionHeader/0 supports the extraction. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as a regular council meeting at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "location": "council chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting location is stated at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-to-order time is stated at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:50 P.M.",
+  "adjourned_time_citations": [
+   "/page/9/ListGroup/6"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/9/ListGroup/6"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment time is stated at /page/9/ListGroup/6. Conclusion: the value at /page/9/ListGroup/6 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Osborne",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/3"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The person calling the meeting to order is identified at /page/0/Text/3. Conclusion: the value at /page/0/Text/3 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "PASS",
+    "feedback": "The call-up check-in is explicitly listed as “None” at /page/3/Text/3, supporting an empty list. Conclusion: the value at /page/3/Text/3 agrees with the extraction."
+   }
+  },
+  "open_comment_speakers": [
+   {
+    "name": "Neil Fishman",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "asked Council to boycott Arizona due to the immigration law it passed.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Erika Blum",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "of Voices of Immigrant Children for Education and Equality also asked Council to boycott Arizona and its new immigration law.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Steve Pomerance",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "member of the decarbonization tech team, commented that there had been franchise issues since 1990 and many cities operate without them. He made various points about how Xcel had been an obstacle to Boulder's energy goals.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Seth Brigham",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "expressed that he wanted his three minutes. He read a poem about homelessness.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Emily Zisette",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "with Reform Immigration for America asked Council to boycott Arizona and support comprehensive immigration reform.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "asked Council to do comprehensive testing on Boulder Reservoir and to please bring it up at the study session on May 11.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ron Forthofer",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "raised concern about criminalizing the homeless as he felt it was a impact from the failing economy. Please reconsider the ordinance or find other solutions. Negotiate with CU or BVSD about using the stadiums.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Carolyn Bninski",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "with the Rocky Mountain Peace and Justice Center asked council to designate outdoor spaces for the homeless to sleep. She also asked council to support a ballot initiative to publicly finance campaigns.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Terri Sternberg",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "read a poem about homelessness and asked about the possibility of using school gymnasiums for the homeless to sleep.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jim Hartman",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "with the decarbonization tech team commented that there was an incredible opportunity for the City to go as far and as fast as it can. He felt Xcel should join and be an equal partner. Boulder needed to keep its reputation as a world leader in climate change.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Jan Morzel",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "raised concern about Crestview East issues including sidewalks, trees and traffic calming.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Bud Wilson",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "urged Council to decarbonize Valmont and insist that Xcel walk the talk.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Ellen Stark",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "asked who took the public out of public service. She asked council to discontinue the use of pesticides and herbicides on parks. She was dismayed by the court decision on homelessness. She also urged council to support the Crestview residents.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Stachia Simons",
+    "name_citations": [
+     "/page/1/ListGroup/5"
+    ],
+    "topic": "spoke to her personal story of homelessness and wished everyone personal growth.",
+    "topic_citations": [
+     "/page/1/ListGroup/5"
+    ]
+   },
+   {
+    "name": "Amy Haywood",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "expressed that the poor are just screwed in our country. She insisted that Xcel put its profits back into the community. She also supported the Arizona boycott.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Paul Sheldon",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "with the decarbonization tech team commented that there was no spirit of partnership from Xcel.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Jim Morris",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "spoke to the environmental damage done by coal and asked council to boycott the Comanche plant. Xcel only does things when they're pushed.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Katherine Clark",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "asked council not to renew the franchise agreement.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Diana Best",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "agreed with the previous speakers' comments.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Tom Weis",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "thanked council for its hard work. Let the agreement with Xcel expire.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Fran Kornfeld",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "expressed that the City had not been innovative or creative with the homeless issue.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "Joe McDonnel",
+    "name_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "topic": "urged Council not to extend the Xcel franchise agreement.",
+    "topic_citations": [
+     "/page/2/ListGroup/0"
+    ]
+   },
+   {
+    "name": "William Griffiths",
+    "name_citations": [
+     "/page/8/ListGroup/9"
+    ],
+    "topic": "commented that Council should take more breaks. He noted that the City had more power than Xcel.",
+    "topic_citations": [
+     "/page/8/ListGroup/9"
+    ]
+   }
+  ],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/3"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne called the regular May 4, 2010 council meeting to order at 6:00p.m.in the council chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ]
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "PUBLIC SERVICE RECOGNITION WEEK DECLARATION.",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne read a declaration honoring public servants and declaring May 3 – 9, 2010 as public service recognition week in the City of Boulder.",
+    "outcome_summary_citations": [
+     "/page/0/Text/6"
+    ]
+   },
+   {
+    "item_number": "1.B",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title": "XCEL ENERGY FRANCHISE PRESENTATION.",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "section": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "title": "PUBLIC PARTICIPATION and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/1/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "CONSENT AGENDA",
+    "title_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "APPROVAL OF CITY COUNCIL MEETING MINUTES FROM APRIL 6, 2010.",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was amended.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION CALLING A SPECIAL MEETING ON TUESDAY, MAY 25, 2010 FOR THE BOULDER VALLEY COMPREHENSIVE PLAN DISCUSSION AND CALLING A SPECIAL MEETING ON SUNDAY AND MONDAY, MAY 16 AND 17 FOR CITY COUNCIL INTERVIEWS AND RELATED EVENTS WITH CITY ATTORNEY CANDIDATES.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE SUMMARY OF THE APRIL 13, 2010 STUDY SESSION ON BOULDER’S LONG-TERM ENERGY STRATEGY, RENEWABLE ENERGY CREDITS AND THE XCEL FRANCHISE.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ADOPT AN EMERGENCY ORDINANCE AUTHORIZING THE ISSUANCE BY THE CITY OF BOULDER, COLORADO, OF ITS STORM WATER AND FLOOD MANAGEMENT REVENUE REFUNDING BONDS, SERIES 2010, IN AN AGGREGATE PRINCIPAL AMOUNT OF $_____, FOR THE PURPOSE OF PROVIDING FUNDS FOR THE CURRENT REFUNDING OF THE CITY’S STORM WATER AND FLOOD MANAGEMENT REVENUE REFUNDING AND IMPROVEMENT BONDS, SERIES 1998 AND PAYING THE COSTS OF ISSUANCE OF THE SERIES 2010 BONDS; PRESCRIBING THE FORM OF THE SERIES 2010 REFUNDING BONDS AND PROVIDING FOR THE SALE OF SAID SERIES 2010 REFUNDING BONDS; PROVIDING FOR THE PAYMENT AND REDEMPTION OF SAID SERIES 2010 REFUNDING BONDS FROM AND OUT OF THE STORM WATER AND FLOOD MANAGEMENT FEE; PROVIDING OTHER DETAILS AND APPROVING OTHER DOCUMENTS IN CONNECTION WITH SAID SERIES 2010 REFUNDING BONDS; AND DECLARING AN EMERGENCY AND PROVIDING THE EFFECTIVE DATE HEREOF.",
+    "title_citations": [
+     "/page/3/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was amended.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1"
+    ]
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF EMERGENCY ORDINANCE No. 7718 ADOPTING SUPPLEMENT No. 104 WHICH CODIFIES PREVIOUSLY ADOPTED ORDINANCE No. 7701, AND INCLUDES OTHER MISCELLANEOUS CORRECTIONS AND AMENDMENTS TO THE BOULDER REVISED CODE, 1981.",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7718",
+     "7701"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING SUPPLEMENTAL APPROPRIATIONS TO THE 2010 BUDGET.",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7719 AMENDING SECTION 5-6-10, “CAMPING OR LODGING ON PUBLIC PROPERTY WITHOUT CONSENT,” B.R.C. 1981, BY REMOVING THE AUTHORITY OF THE CITY MANAGER TO ISSUE PERMITS FOR CAMPING ON PUBLIC PROPERTY.",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7719"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "3.H",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/SectionHeader/7"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING THE BOULDER REVISED CODE DEFINITION SECTION FROM “VOICE CONTROL” TO “VOICE AND SIGHT CONTROL.”",
+    "title_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/3/ListGroup/2"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/3/Text/3"
+    ],
+    "section": "CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/3/Text/3"
+    ],
+    "title": "CALL- UP CHECK IN",
+    "title_citations": [
+     "/page/3/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/3/Text/3"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/1"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7716 AMENDING TITLE 6 BY THE ADDITION OF A NEW CHAPTER 6-14, “MEDICAL MARIJUANA,” B.R.C. 1981; TERMINATING INTERIM REGULATIONS ADOPTED BY ORDINANCE No. 7707; ADDING A NEW SECTION 4-20-64, “MEDICAL MARIJUANA DISPENSARIES,” TO CHAPTER 4-20, “FEES,” B.R.C.1981; AMENDING TITLE 5 BY ADDING CRIMES RELATED TO ANTI-PERSONNEL DEVICES; AND SETTING FORTH RELATED DETAILS.",
+    "title_citations": [
+     "/page/4/ListGroup/2"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7716",
+     "7707"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": "9:30 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/1"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Ed Withers",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Bradley Melshenker",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mark Young",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Ian Barringer",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Luecke",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Martha M. Henze",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Pierre Werner",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Liz Brown",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Carl Savitz",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nick Williams",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Alex Bowman",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Brook Wise",
+      "name_citations": [
+       "/page/4/ListGroup/4"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Andy Mattison",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Tom Pianko",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Buckie Miner",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "William Giffiths",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Riah McBee",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Mina Temby",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Matthew Arnold",
+      "name_citations": [
+       "/page/5/ListGroup/0"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "The motion carried unanimously 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/8/ListGroup/11"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY",
+    "title_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/8/ListGroup/11"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council ratified the appointment unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/14"
+    ]
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/8/ListGroup/11"
+    ],
+    "title": "DISCUSSION REGARDING THE BOULDER URBAN RENEWAL AUTHORITY BOARD APPOINTMENT.",
+    "title_citations": [
+     "/page/8/SectionHeader/12"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council ratified the appointment unanimously 9:0.",
+    "outcome_summary_citations": [
+     "/page/8/Text/14"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS",
+    "title_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/9/ListGroup/6"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS",
+    "title_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/9/ListGroup/6"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:50 P.M.",
+    "outcome_summary_citations": [
+     "/page/9/ListGroup/6"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "motion_text": "Deputy Mayor Wilson moved, seconded by Morzel to approve consent items 3A through 3H with amendments to items 3A and 3D.",
+    "motion_text_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7718",
+     "7719"
+    ],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/ListGroup/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Gray moved, seconded by Morzel to adopt Ordinance No. 7716 amending Title 6 by the addition of a new chapter 6-14, \"Medical Marijuana,\" B.R.C. 1981; terminating interim regulations adopted by Ordinance No. 7707; adding a new section 4-20-64, \"Medical Marijuana Dispensaries,\" to Chapter 4-20, \"Fees,\" B.R.C.1981; amending Title 5 by adding crimes related to anti-personnel devices; and setting forth related details. The motion included the errata sheet amending page 37, line 17 – page 38, line 2 to substitute the following: Section 2. Chapter 4-20 \"Fees,\" B.R.C. 1981 is amended by the addition of a new section 4-2064, to read: 4-20-64 Medical Marijuana Businesses. Application and license fees for medical marijuana businesses shall be up to the following amounts: (a) Application fee | $3,000.00 (b) Criminal background check fee, per year | Actual Costs (c) License fee, per year | $23,000.00 (d) Renewal application fee, per year | $21,000.00 (e) Renewal license fee, per year | $1,000.00 The actual amount of the application and license fees shall be set by the City Manager up to the maximums provided above based on the anticipated direct and indirect costs to the City of preparing to issue licenses, processing applications, and monitoring compliance of medical marijuana business. The application fee and costs paid are non-refundable. The license fee may be refunded if the license application is denied. Neither the application fee nor the license/renewal fee will be refunded in the instance of revocation.",
+    "motion_text_citations": [],
+    "action_type": "ordinance",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716",
+     "7707"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Becker moved, seconded by Wilson to remove the underline on page 30, lines 15-17. The following sentence in section (f) deleted: “Provided however, deliver of medical marijuana from the licensed premises to a patient may be permitted in the event a patient has an emergency need for medical marijuana prior to 7 a.m. of the following day. In such case, the delivery shall be no more medical marijuana than is required to meet the need of the patient to address the emergency.”",
+    "motion_text_citations": [],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Becker",
+    "moved_by_citations": [],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton moved, seconded by Cowles to delete Sections 3 and 4 of the ordinance on page 38 of the memo and introduce and order published by title only a new Ordinance No. 7723 as presented in the green supplemental handout provided by the City Attorney, amending Title 5 “General Offenses,” B.R.C. 1981 by adding crimes related to anti-personnel devices, and setting forth related details.",
+    "motion_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7716",
+     "7723"
+    ],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "seconded_by": "Cowles",
+    "seconded_by_citations": [
+     "/page/6/Text/5"
+    ],
+    "vote_text": "The motion carried unanimously 9:0; 10:05 p.m.",
+    "vote_text_citations": [
+     "/page/6/Text/5"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/5"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Becker to amend section (i) by deleting “or Offset” in the subject and removing “...Certified Renewable Energy Credits (“RECs”) or carbon offsets. For purposes of this section RECs or offsets means independently certified carbon credits established through programs such as Green E. The new section (i) now reads: Renewable Energy Usage Required. Every medical marijuana business that grows medical marijuana on premise shall directly offset 100% of its electricity consumption through the purchase of renewable energy in the form of Windsource, a verified subscription in a Community Solar Garden or renewable energy generated on site, or an equivalent that is subject to approval by the city.",
+    "motion_text_citations": [],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Becker",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Appelbaum offered a friendly amendment to eliminate Green E and the Colorado Carbon Fund on line 26 of page 30.",
+    "motion_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/6/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/6/Text/8"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The friendly amendment was accepted.",
+    "vote_text_citations": [
+     "/page/6/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Gray offered a friendly amendment to amend line 26 to read “...Community Solar Garden or renewable energy generated on site.",
+    "motion_text_citations": [
+     "/page/6/Text/9"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/6/Text/9"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/6/Text/9"
+    ],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The friendly amendment was accepted.",
+    "vote_text_citations": [
+     "/page/6/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Appelbaum moved, seconded by Morzel to amend Section (a) subsection (2) on page 21 of the memo by deleting “is located as allowed in Ordinance No. 7707” and inserting “was established as a greenhouse/nursery use and prior to “commenced operation..”",
+    "motion_text_citations": [
+     "/page/6/Text/14"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/6/Text/14"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/6/Text/14"
+    ],
+    "vote_text": "The motion carried unanimously 9:0; 10:15 p.m.",
+    "vote_text_citations": [
+     "/page/6/Text/14"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/14"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/14"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Ageton to suspend the rules and continue the meeting at 10:35 p.m.",
+    "motion_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/7/Text/1"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [
+     "/page/7/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/7/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/7/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Becker to incorporate the yellow supplemental handout provided by the City Attorney amending page 32, line 18 of “Records of Sources of Medical Marijuana” by adding a new subsection (e) to 6-14-9: 6-14-9 Right of Entry – Records To Be Maintained. (e) Reporting of Source, Quantity and Sales. The records to be maintained by each licensee shall include the source and quantity of any marijuana distributed, produced or possessed upon the licensed premises. Such reports shall include without limitation for both acquisitions from wholesalers and transactions to patients or caregivers the following: 1. Name and address of seller or purchaser; 2. Date, weight, type of marijuana and dollar amount or other consideration of transaction; and 3. For wholesale transactions, the Colorado, and city if any, sales and use tax license number of the seller. And deleting Section 6-14-12(b) on page 34, lines 6-8 as shown on the yellow handout provided by the City Attorney.",
+    "motion_text_citations": [],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Becker",
+    "seconded_by_citations": [],
+    "vote_text": "The motion carried unanimously 9:0, 10:48 p.m.",
+    "vote_text_citations": [
+     "/page/7/Text/8"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Wilson to incorporate the blue supplemental handout provided by the City Attorney amending page 32, line 18 by adding a new Subsection (e) to 6-14-9: 6-14-9 Right of Entry – Records To Be Maintained. (e) Reporting of Energy Use and Renewable Energy Credit (REC) Purchases. The records to be maintained by each licensee that grows medical marijuana shall include without limitation records showing on a monthly basis the use and source of energy and the number of certified Renewable Energy Credits (RECs) purchased, or the subscription level for another renewable energy acquisition program approved by the city manager. Such records shall include all statements, reports or receipts to verify the items included in the report of the licensee. By acceptance of the medical marijuana business license from the city, the licensee grants permission to providers of the energy or point of origin of the RECs or other renewable energy acquisition program to disclose the records of the licensee to the city.",
+    "motion_text_citations": [],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/7/Text/10"
+    ],
+    "vote_text": "The motion carried unanimously 9:0.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Cowles moved, seconded by Morzel to amend page 28, line 21 by adding “except that this limitation shall not apply in Industrial Zones.”",
+    "motion_text_citations": [
+     "/page/7/Text/15"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Cowles",
+    "moved_by_citations": [
+     "/page/7/Text/15"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/7/Text/15"
+    ],
+    "vote_text": "The motion carried 8:1, Osborne opposed.",
+    "vote_text_citations": [
+     "/page/7/Text/15"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/7/Text/15"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/7/Text/15"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Osborne"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton moved, seconded by Morzel to suspend the rules and continue the meeting at 11:00 p.m.",
+    "motion_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "action_type": "other",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "vote_text": "The motion carried 7:2; Cowles and Karakehian opposed.",
+    "vote_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "no_count": 2,
+    "no_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Cowles",
+     "Karakehian"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Gray moved, seconded by Morzel to amend page 28, lines 14 and 16 in section (e) subsection (1) inserting “and for personal service uses, within 500’ of a City Parks and Recreation park or center, excluding the Boulder Creek Path, Pearl Street Mall and Flatirons Golf Course.”",
+    "motion_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/8/Text/3"
+    ],
+    "vote_text": "The motion failed 3:6; Gray, Morzel and Osborne in favor.",
+    "vote_text_citations": [
+     "/page/8/Text/3"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/8/Text/3"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/8/Text/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Gray",
+     "Morzel",
+     "Osborne"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Wilson moved, seconded by Becker to strike the last sentence in (e) (1) on page 28 of the memo that reads “This restriction shall not apply to any applicant who applied for a business license for a medical marijuana business prior to November 5, 2009, such license was approved and the business has continuously operated such business since December 1, 2009.",
+    "motion_text_citations": [
+     "/page/8/Text/5"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7716"
+    ],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/8/Text/5"
+    ],
+    "seconded_by": "Becker",
+    "seconded_by_citations": [
+     "/page/8/Text/5"
+    ],
+    "vote_text": "The motion failed 4:5; Ageton, Appelbaum, Cowles, Karakehian and Morzel opposed.",
+    "vote_text_citations": [
+     "/page/8/Text/5"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/8/Text/5"
+    ],
+    "yes_count": 4,
+    "yes_count_citations": [
+     "/page/8/Text/5"
+    ],
+    "no_count": 5,
+    "no_count_citations": [
+     "/page/8/Text/5"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Appelbaum",
+     "Cowles",
+     "Karakehian",
+     "Morzel"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Mayor Osborne appointed Council Member Becker to the Boulder Urban Renewal Authority Board.",
+    "motion_text_citations": [
+     "/page/8/Text/13"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "Council ratified the appointment unanimously 9:0.",
+    "vote_text_citations": [
+     "/page/8/Text/14"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "8",
+    "agenda_item_number_citations": [],
+    "motion_text": "There was a motion to revisit the Crestview East annexation issues related to sidewalks and trees.",
+    "motion_text_citations": [
+     "/page/9/Text/4"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/9/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": "The motion failed 3:6; Gray, Cowles and Morzel in favor.",
+    "vote_text_citations": [
+     "/page/9/Text/4"
+    ],
+    "result": "failed",
+    "result_citations": [
+     "/page/9/Text/4"
+    ],
+    "yes_count": 3,
+    "yes_count_citations": [
+     "/page/9/Text/4"
+    ],
+    "no_count": 6,
+    "no_count_citations": [
+     "/page/9/Text/4"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [
+     "Gray",
+     "Cowles",
+     "Morzel"
+    ],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:50 P.M.",
+    "motion_text_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/9/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [],
+  "members_absent_meta": {
+   "failed": true
+  }
+ }
+}

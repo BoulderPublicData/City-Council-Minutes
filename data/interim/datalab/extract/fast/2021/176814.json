@@ -1,0 +1,1378 @@
+{
+ "entry_id": 176814,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "pfnAbtA02upWNbkeGfNhHw",
+ "page_count": 2,
+ "cost_breakdown": {
+  "final_cost_cents": 0.9
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "1",
+    "agenda_item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "agenda_item_number_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "motion_text": "Mayor Weaver asked for a motion to AMEND the agenda to: 1. Add Item 1A – A Declaration for Asian American and Pacific Islander Heritage Month 2. Move Item 1A - COVID Public Health Briefing/Response to Item 1B 3. Move Item 1B - Discussion on returning to in-person city services to Item 1C",
+    "motion_text_citations": [
+     "/page/0/Table/5"
+    ],
+    "motion_text_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "action_type": "amendment",
+    "action_type_citations": [
+     "/page/0/Table/5"
+    ],
+    "action_type_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "moved_by": "Mayor Weaver",
+    "moved_by_citations": [
+     "/page/0/Table/5"
+    ],
+    "moved_by_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "seconded_by": "Swetlick/Joseph",
+    "seconded_by_citations": [
+     "/page/0/Table/5"
+    ],
+    "seconded_by_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "vote_text": "Carried 9:0",
+    "vote_text_citations": [
+     "/page/0/Table/5"
+    ],
+    "vote_text_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/0/Table/5"
+    ],
+    "result_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/0/Table/5"
+    ],
+    "yes_count_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/0/Table/5"
+    ],
+    "no_count_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/0/Table/5"
+    ],
+    "stated_unanimous_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "yes_votes": [
+     "Brockett",
+     "Friend",
+     "Joseph",
+     "Nagel",
+     "Swetlick",
+     "Wallach",
+     "Weaver",
+     "Yates",
+     "Young"
+    ],
+    "yes_votes_citations": [
+     "/page/0/Text/4"
+    ],
+    "yes_votes_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 4,
+     "reasoning": "The extracted motion correctly identifies the amendment details, mover, seconder, and vote result from the table. However, the 'yes_votes' list is inferred from the 'members_present' list rather than explicitly stated in the minutes as voting yes. The schema requires 'yes_votes' to be empty if not '"
+    }
+   }
+  ],
+  "open_comment_speakers": [],
+  "location": "City of Boulder, Via Video Conferencing",
+  "location_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "location_score": {
+   "score": 4,
+   "reasoning": "The extracted location 'City of Boulder, Via Video Conferencing' is partially inaccurate. The HTML explicitly states 'Via Video Conferencing' in the header, but does not list a physical address like 'City of Boulder'. The citation points to the correct block containing the location info, but the 'C'"
+  },
+  "adjourned_time": "11:40 p.m.",
+  "adjourned_time_citations": [
+   "/page/1/Text/1"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "open_comment_speakers_citations": [],
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Call to Order and Roll Call",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Weaver called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "1A",
+    "item_number_citations": [
+     "/page/0/Table/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "A Declaration for Asian American and Pacific Islander Heritage Month",
+    "title_citations": [
+     "/page/0/Table/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Adam Swetlik read a declaration for Asian American and Pacific Islander Heritage Month.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "1B",
+    "item_number_citations": [
+     "/page/0/Table/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "COVID Public Health Briefing/Response",
+    "title_citations": [
+     "/page/0/Table/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Item moved to Item 1C.",
+    "outcome_summary_citations": [
+     "/page/0/Table/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "1C",
+    "item_number_citations": [
+     "/page/0/Table/5"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Call to Order and Roll Call",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Discussion on returning to in-person city services",
+    "title_citations": [
+     "/page/0/Table/5"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Item moved to Item 1C.",
+    "outcome_summary_citations": [
+     "/page/0/Table/5"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Consent Agenda",
+    "section_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Consent Agenda",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Call-Up Check-In",
+    "section_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Call-Up Check-In",
+    "title_citations": [
+     "/page/0/SectionHeader/8"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Public Hearings",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Public Hearings",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Matters from the City Manager",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Matters from the City Manager",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Health and Safety Regulations in Public Spaces and Annual Homelessness Update",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Matters from the City Attorney",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Matters from the City Attorney",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Matters from the Mayor and Members of Council",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "7.A",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Review of Recommendations from Council Subcommittee on Engagement and a Welcoming Council Environment",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "7.B",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Matters from the Mayor and Members of Council",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "City Attorney Recruitment Subcommittee Update",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Debrief",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Debrief",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": [],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "section": "Adjournment",
+    "section_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "title": "Adjournment",
+    "title_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by Mayor Weaver at 11:40 p.m.",
+    "outcome_summary_citations": [
+     "/page/1/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 3,
+     "reasoning": "Citations are accurate and map correctly to the HTML blocks. However, the extracted agenda items are incomplete; items 1A, 1B, and 1C are listed as sub-items of the agenda amendment motion but are not properly nested under the 'Call to Order' section in the extraction logic, and the 'Consent Agenda'"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Brockett",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Friend",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Joseph",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Nagel",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Swetlick",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Wallach",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Weaver",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Yates",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   },
+   {
+    "name": "Young",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "title": "Council Member",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    },
+    "attendance_note": "present virtually",
+    "attendance_note_citations": [
+     "/page/0/Text/4"
+    ],
+    "attendance_note_score": {
+     "score": 3,
+     "reasoning": "The extracted members and 'present virtually' note match the HTML text in block /page/0/Text/4. However, the extraction incorrectly assigns 'title' and 'attendance_note' to every member; the HTML only states 'Council Members present virtually' as a group, not individual titles or notes for each name"
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [],
+  "call_up_items_citations": [],
+  "meeting_date": "2021-05-11",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2021-05-11' is accurate and matches the heading in block /page/0/SectionHeader/1. The citation is correct and sufficient. No contradictions or missing relevant blocks found."
+  },
+  "meeting_title": "SPECIAL CITY COUNCIL MEETING",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "special",
+  "meeting_type_citations": [
+   "/page/0/SectionHeader/1"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/3"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Weaver",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

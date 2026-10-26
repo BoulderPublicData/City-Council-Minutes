@@ -1,0 +1,2270 @@
+{
+ "entry_id": 152003,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "fast",
+ "request_id": "iRXYGkXYq81BfhpUTNBN1A",
+ "page_count": 6,
+ "cost_breakdown": {
+  "final_cost_cents": 2.7
+ },
+ "extraction": {
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "motion_text": "Councilmember Mock moved, seconded by Corson, to approve Consent Agenda items 3-A through 3-C.",
+    "motion_text_citations": [
+     "/page/2/Text/1"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "action_type": "consent_agenda",
+    "action_type_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/2/Text/1"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "vote_text": "Vote was taken on the motion to approve Consent Agenda Items 3-A through 3-C. The motion carried:9-0.",
+    "vote_text_citations": [
+     "/page/4/Text/1"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/1"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/1"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/1"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/1"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    }
+   },
+   {
+    "agenda_item_number": "5",
+    "agenda_item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "motion_text": "Councilmember Corson moved, seconded by Lopez to allow the Concept review process to proceed for the Loftus proposal with clarification that the Council is not taking any position regarding the project proposal.",
+    "motion_text_citations": [
+     "/page/2/Text/7"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "moved_by": "Corson",
+    "moved_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "seconded_by": "Lopez",
+    "seconded_by_citations": [
+     "/page/2/Text/7"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "vote_text": "Councillemmber Halvic moved, seconded by Eldridge, to table the prior motion to the April 17, 2001 City Council meeting. The motion carried: 5-4. Corson, Lopez, Poinsatte and Toor opposed.",
+    "vote_text_citations": [
+     "/page/2/Text/8"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/2/Text/8"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/2/Text/8"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_count": 4,
+    "no_count_citations": [
+     "/page/2/Text/8"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [
+     "/page/2/Text/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_votes": [
+     "Corson",
+     "Lopez",
+     "Poinsatte",
+     "Toor"
+    ],
+    "no_votes_citations": [
+     "/page/2/Text/8"
+    ],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    }
+   },
+   {
+    "agenda_item_number": "9",
+    "agenda_item_number_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "motion_text": "Councilmember Mock moved, seconded by Morzel, to adopt and order published by title only Ordinance No. 7124 approving and authorizing the issuance of Boulder Municipal Property Authority lease Purchase Revenue Note, Series 2001B, in the aggregate principal amount of $580,000.00, and approving and authorizing a Lease Purchase Agreement for the purchase of approximately 39 acres in fee together with all mineral rights and 30 shares of left hand Ditch Company water, Hester Reservoir and Coughlin Ditch located north of Nebo Road between Foothills Highway and North 39th Street from the Hester Family Trust for Open Space and Mountain Parks' purposes.",
+    "motion_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "ordinance_or_resolution_numbers": [
+     "7124"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "moved_by": "Mock",
+    "moved_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/4/Text/5"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "vote_text": "The motion carried:9-0.",
+    "vote_text_citations": [
+     "/page/4/Text/5"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/5"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/5"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/5"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    }
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "motion_text": "Councilmember Havlick moved, seconded by Corson, to amend, adopt and order published by title only Ordinance No. 7125 concerning the prohibition of the use of indoor furniture in an outdoor location.",
+    "motion_text_citations": [
+     "/page/4/Text/8"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/ListGroup/7"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "ordinance_or_resolution_numbers": [
+     "7125"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/Text/8"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/4/Text/8"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/4/Text/8"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "vote_text": "The motion carried: 9-0.",
+    "vote_text_citations": [
+     "/page/4/Text/8"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/4/Text/8"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/8"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/8"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/4/Text/8"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    }
+   },
+   {
+    "agenda_item_number": "10",
+    "agenda_item_number_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "motion_text": "Councilmember Havlick moved, seconded by Corson, to adopt and order published by title only Ordinance No. 7126 concerning nuisance parties.",
+    "motion_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/4/ListGroup/9"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "ordinance_or_resolution_numbers": [
+     "7126"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "moved_by": "Havlick",
+    "moved_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "seconded_by": "Corson",
+    "seconded_by_citations": [
+     "/page/5/Text/0"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "vote_text": "The motion carried:9-0.",
+    "vote_text_citations": [
+     "/page/5/Text/0"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/0"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/0"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/5/Text/0"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    }
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "agenda_item_number_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "motion_text": "Councilmember Morzel moved, seconded by Eldridge, to introduce and order published by title only Ordinance No. 7127 an Emergency Amendment to existing Ordinance #7032 concerning the modification of the water and sanitary sewer service ordinance with the Boulder Valley School District setting forth the provision of such services to the new environmental education facility being constructed at Sombrero Marsh, 6500 E. Arapahoe Avenue.",
+    "motion_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "motion_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "action_type_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "ordinance_or_resolution_numbers": [
+     "7127",
+     "7032"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/Text/2"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "moved_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "seconded_by": "Eldridge",
+    "seconded_by_citations": [
+     "/page/5/Text/2"
+    ],
+    "seconded_by_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "vote_text": "The motion carried: 9-0.",
+    "vote_text_citations": [
+     "/page/5/Text/2"
+    ],
+    "vote_text_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "result": "passed",
+    "result_citations": [
+     "/page/5/Text/2"
+    ],
+    "result_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "yes_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/2"
+    ],
+    "no_count_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [
+     "/page/5/Text/2"
+    ],
+    "stated_unanimous_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "yes_votes": [],
+    "yes_votes_citations": [],
+    "yes_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "no_votes": [],
+    "no_votes_citations": [],
+    "no_votes_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "abstained": [],
+    "abstained_citations": [],
+    "abstained_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    },
+    "absent_or_not_voting": [],
+    "absent_or_not_voting_citations": [],
+    "absent_or_not_voting_score": {
+     "score": 3,
+     "reasoning": "The extraction correctly identifies motions and votes. However, the citation for the second motion (agenda item 5) incorrectly points to the SectionHeader instead of the Text block containing the motion text. Additionally, the 'stated_unanimous' flag is set to true for the item 5 motion, which is a "
+    }
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Dr. Michael Kennedy",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "50 year resident who was appalled by the lewd language and graphic behavior being purported on Public Access T.V. Channel 54.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Brian Hanley",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "furniture and nuisance party ordinances. Opposed to proposed ordinances as he felt they set a dangerous precedent for a problem that only exists in one area of the city.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Rob Smoke",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Vinyl Slipcovers. Opposed to prohibiting outdoor couches. Also spoke in opposition to a Super Target at Crossroads.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Terry Rodrigue",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Spoke on behalf of University Hill neighborhood renovation - re: Aloha Trash program- spoke in support, noting that this will be a critical element in cleaning up \"the hill.\"",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Eleanor DePuy",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "also a University Hill resident speaking in favor of the Aloha program (attachment).",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Doug Crigler",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Goss-Grove Neighborhood Association. Spoke on behalf of association in support of the nuisance ordinance and in very strong support of the sofa ordinance.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Kenneth Wilson",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Also a member of the University Hill Neighborhood Association - applauded police enforcement efforts and supports both the sofa ordinance and the nuisance party ordinance.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Bob McFarland",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Pearl Street Mall 1) Don't mess with the sales tax and 2) keep the grass on the mall.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Lynn Segal",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "commented on the guest opinion editorial by Steve Fisher. Spoke in support of his suggestions. Also opposed to the sofa ordinance and Rocky Flats designation as a wildlife refuge (should be treated as a toxic waste site).",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Edward Riedel",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Boulder Community Velodrome. Encouraged that a letter of interest be issued to allow process to move forward.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Stephen Pomerance",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "concerns with the Comp Plan update process.",
+    "topic_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Jeep Campbell",
+    "name_citations": [
+     "/page/0/ListGroup/6"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "couches and nuisance ordinances. Spoke in favor of empowering neighborhoods to protect quality of life.",
+    "topic_citations": [
+     "/page/0/ListGroup/6",
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Ruth Blackmore",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "Taggart Phase A report on South Boulder Creek Floodplain. The study is flawed and should not move on to Phase B. Announced that the County Commissioners rejected all options in the Phase A Taggart Report at today's hearing.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Crystal Gray",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "presented a slide show on the Open Space purchases currently listed on the Consent Agenda.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   },
+   {
+    "name": "Ron Forthofer",
+    "name_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    },
+    "topic": "spoke in opposition to removing any trees or grass on the Pearl Street Mall.",
+    "topic_citations": [
+     "/page/1/ListGroup/0"
+    ],
+    "topic_score": {
+     "score": 4,
+     "reasoning": "The extracted speakers and topics are accurate and match the HTML content. However, the citations are incorrect. The speakers are located in list items within `ListGroup/6` (page 0) and `ListGroup/0` (page 1), but the citations incorrectly point to the parent `ListGroup` blocks themselves rather the"
+    }
+   }
+  ],
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/3"
+  ],
+  "location_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "adjourned_time": "8:45 p.m.",
+  "adjourned_time_citations": [
+   "/page/5/Text/4"
+  ],
+  "adjourned_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "1. CALL TO ORDER AND ROLL CALL - 6:00 p.m.",
+    "title_citations": [
+     "/page/0/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Toor called the meeting to order at 6:00 p.m.",
+    "outcome_summary_citations": [
+     "/page/0/Text/3"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "CITIZEN PARTICIPATION",
+    "section_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "2. CITIZEN PARTICIPATION - 6:00 p.m.",
+    "title_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": "6:00 p.m.",
+    "hearing_opened_time_citations": [
+     "/page/0/SectionHeader/5"
+    ],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": "6:45 p.m.",
+    "hearing_closed_time_citations": [
+     "/page/1/SectionHeader/1"
+    ],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [
+     {
+      "name": "Dr. Michael Kennedy",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Brian Hanley",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Rob Smoke",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Terry Rodrigue",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Eleanor DePuy",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Doug Crigler",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Kenneth Wilson",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Bob McFarland",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Lynn Segal",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Edward Riedel",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Stephen Pomerance",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "unstated",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Jeep Campbell",
+      "name_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/0/ListGroup/6"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Ruth Blackmore",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Crystal Gray",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "for",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     },
+     {
+      "name": "Ron Forthofer",
+      "name_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "name_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      },
+      "position": "against",
+      "position_citations": [
+       "/page/1/ListGroup/0"
+      ],
+      "position_score": {
+       "score": 4,
+       "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+      }
+     }
+    ],
+    "outcome_summary": "Citizens spoke on various topics including CATV, ordinances, and neighborhood improvements.",
+    "outcome_summary_citations": [
+     "/page/0/ListGroup/6",
+     "/page/1/ListGroup/0"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "3. CONSENT AGENDA - 6:49 p.m.",
+    "title_citations": [
+     "/page/1/SectionHeader/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda items 3-A through 3-C.",
+    "outcome_summary_citations": [
+     "/page/2/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "4. MATTERS FROM THE CITY MANAGER - 6:50 p.m.",
+    "title_citations": [
+     "/page/2/SectionHeader/2"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council reviewed the University Hill Action Group implementation report.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "5. MATTERS FROM THE CITY ATTORNEY - 7:10 p.m.",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council tabled the motion to allow the Concept review process to proceed for the Loftus proposal.",
+    "outcome_summary_citations": [
+     "/page/2/Text/8"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "MATTERS FROM THE MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "6. MATTERS FROM THE MAYOR AND MEMBERS OF COUNCIL - 7:30 p.m.",
+    "title_citations": [
+     "/page/2/SectionHeader/9"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on several call-up items and annual appointments were made.",
+    "outcome_summary_citations": [
+     "/page/3/Text/1",
+     "/page/3/Text/3",
+     "/page/3/Text/5",
+     "/page/3/Text/9"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "PUBLIC COMMENT",
+    "section_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "7. PUBLIC COMMENT - 7:54 p.m.",
+    "title_citations": [
+     "/page/3/ListGroup/10"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "No public comment was received.",
+    "outcome_summary_citations": [
+     "/page/3/Text/11"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "FINAL DECISIONS",
+    "section_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "8. FINAL DECISIONS - 7:55 p.m.",
+    "title_citations": [
+     "/page/4/ListGroup/0"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [],
+    "ordinance_or_resolution_numbers_citations": [],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Consent Agenda Items 3-A through 3-C.",
+    "outcome_summary_citations": [
+     "/page/4/Text/1"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "9. INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE APPROVING AND AUTHORIZING THE ISSUANCE OF BOULDER MUNICIPAL PROPERTY AUTHORITY LEASE PURCHASE REVENUE NOTE, SERIES 2001B...",
+    "title_citations": [
+     "/page/4/ListGroup/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7124"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/Text/5"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted and ordered published by title only Ordinance No. 7124.",
+    "outcome_summary_citations": [
+     "/page/4/Text/5"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "10. INTRODUCTION, FIRST READING, AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY TWO ORDINANCES:",
+    "title_citations": [
+     "/page/4/ListGroup/6"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7125",
+     "7126"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/4/Text/8",
+     "/page/5/Text/0"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted and ordered published by title only Ordinance No. 7125 and 7126.",
+    "outcome_summary_citations": [
+     "/page/4/Text/8",
+     "/page/5/Text/0"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "item_number_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "section": "FIRST READINGS",
+    "section_citations": [
+     "/page/4/SectionHeader/3"
+    ],
+    "section_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "title": "11. INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN EMERGENCY AMENDMENT TO EXISTING ORDINANCE #7032...",
+    "title_citations": [
+     "/page/5/ListGroup/1"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "ordinance_or_resolution_numbers": [
+     "7127"
+    ],
+    "ordinance_or_resolution_numbers_citations": [
+     "/page/5/Text/2"
+    ],
+    "ordinance_or_resolution_numbers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "is_public_hearing_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_opened_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_closed_time_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers": [],
+    "outcome_summary": "Council introduced and ordered published by title only Ordinance No. 7127.",
+    "outcome_summary_citations": [
+     "/page/5/Text/2"
+    ],
+    "outcome_summary_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    },
+    "hearing_speakers_citations": [],
+    "hearing_speakers_score": {
+     "score": 4,
+     "reasoning": "Citations are accurate and map to correct HTML blocks. However, the extracted data incorrectly marks 'Citizen Participation' as a public hearing (is_public_hearing: true) and assigns positions to speakers where the text only describes their stance without explicit 'for/against' labels. Additionally,"
+    }
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Toor",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Mayor",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Corson",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Eldridge",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Havlick",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Lopez",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Mock",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Poinsatte",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   },
+   {
+    "name": "Riggle",
+    "name_citations": [
+     "/page/0/Text/4"
+    ],
+    "name_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "title": "Councilmember",
+    "title_citations": [
+     "/page/0/Text/4"
+    ],
+    "title_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    },
+    "attendance_note": "",
+    "attendance_note_citations": [],
+    "attendance_note_score": {
+     "score": 4,
+     "reasoning": "The extracted members and titles match the HTML text exactly. However, the extraction incorrectly assigns the title 'Councilmember' to Mayor Toor, who is explicitly titled 'Mayor' in the source. All citations point to the same block (/page/0/Text/4) which contains the full list, making the citation "
+    }
+   }
+  ],
+  "members_absent": [],
+  "call_up_items": [
+   "LANDMARK ALTERATION CERTIFICATE, 1011 SPRUCE, FOR DEMOLITION OF AN EXISTING GARAGE AND SHED, AND CONSTRUCTION OF A TWO-CAR GARAGE.",
+   "LANDMARK ALTERATION CERTIFICATE, 943 SPRUCE, FOR DEMOLITION OF AN EXISTING GARAGE, AND CONSTRUCTION OF A TWO-CAR GARAGE.",
+   "LANDMARK ALTERATION CERTIFICATE, 13TH AND PEARL STREET PUBLIC RESTROOMS, FOR DEMOLITION OF AN EXISTING PUBLIC RESTROOM AND CONSTRUCTION OF A NEW PUBLIC RESTROOM AT THE NORTHEAST CORNER OF 13TH AND PEARL STREETS."
+  ],
+  "call_up_items_citations": [
+   "/page/2/ListGroup/11",
+   "/page/3/ListGroup/2",
+   "/page/3/ListGroup/4"
+  ],
+  "call_up_items_score": {
+   "score": 5,
+   "reasoning": "The extracted items accurately reflect the Landmark Alteration Certificates listed under 'POTENTIAL CALL-UPS' (Page 2) and subsequent items (Page 3). Citations correctly point to the specific list groups containing these items. No relevant call-up items were missed in the extraction."
+  },
+  "meeting_date": "2001-04-03",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_score": {
+   "score": 5,
+   "reasoning": "The extracted date '2001-04-03' is accurate and matches the text in block /page/0/Text/1 ('APRIL 3, 2001'). The citation is correct. The date is also confirmed in footers on subsequent pages, but the primary citation is sufficient."
+  },
+  "meeting_title": "CITY OF BOULDER CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/3"
+  ],
+  "meeting_type_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/SectionHeader/2"
+  ],
+  "called_to_order_time_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "presiding_officer": "Mayor Toor",
+  "presiding_officer_citations": [
+   "/page/0/Text/3"
+  ],
+  "presiding_officer_score": {
+   "score": 5,
+   "reasoning": "The extracted value appears verbatim in the cited text."
+  },
+  "members_absent_citations": []
+ }
+}

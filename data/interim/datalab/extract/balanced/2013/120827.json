@@ -1,0 +1,1276 @@
+{
+ "entry_id": 120827,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "ho6B-PFkFjF4ooFrbopYSQ",
+ "page_count": 9,
+ "cost_breakdown": {
+  "final_cost_cents": 22.0
+ },
+ "extraction": {
+  "meeting_date": "2013-04-02",
+  "meeting_date_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading states “Tuesday, April 2, 2013” in /page/0/SectionHeader/0, supporting the extracted normalized date. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading reads “CITY COUNCIL PROCEEDINGS” in /page/0/SectionHeader/0. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/2"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The meeting is described as a “regular” meeting in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/2"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting occurred “in Council Chambers” in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:05 PM",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 6:05 PM in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "10:57 PM",
+  "adjourned_time_citations": [
+   "/page/8/Text/7"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/8/Text/7"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement gives 10:57 PM in /page/8/Text/7. Conclusion: the value at /page/8/Text/7 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Appelbaum",
+  "presiding_officer_citations": [
+   "/page/0/Text/2"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Appelbaum called the meeting to order in /page/0/Text/2. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "call_up_items": null,
+  "call_up_items_meta": {
+   "verification": {
+    "status": "FAIL_UNRESOLVABLE",
+    "feedback": "The minutes explicitly state “POTENTIAL CALL-UP CHECK IN - None” in /page/2/ListGroup/3 and “POTENTIAL CALL-UPS - None” in /page/7/SectionHeader/2; no call-up items are listed. Conclusion: the document does not support a value for this field."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/2"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Appelbaum called the regular April 2, 2013 City Council meeting to order at 6:05 PM in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/2"
+    ]
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/1"
+    ],
+    "title": "CLIMATE CHANGE PRESENTATION BY DR. KEVIN TRENBERTH, CLIMATE ANALYST AT NCAR PROVIDED A PRESENTATION ON THE EFFECTS OF GLOBAL WARMING",
+    "title_citations": [
+     "/page/0/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Dr. Kevin Trenberth, Climate Analyst, gave a brief presentation on fossil fuels and their impacts on global warming.",
+    "outcome_summary_citations": [
+     "/page/0/Text/5"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council and staff responded to public comments about marijuana regulations, expanding the smoking ban, and police resources.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSENT AGENDA",
+    "title_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved consent agenda items 3A through 3G with 3G amended, 3B pulled, Wilson opposed to 3G and Becker abstaining from 3C; the motion carried 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO APPROVE THE CITY COUNCIL MEETING MINUTES FROM DECEMBER 18, 2012",
+    "title_citations": [
+     "/page/1/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the December 18, 2012 meeting minutes as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE FEBRUARY 12, 2013 JOINT CITY COUNCIL/LANDMARKS BOARD STUDY SESSION SUMMARY ON THE HISTORIC PRESERVATION PLAN",
+    "title_citations": [
+     "/page/1/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was pulled and Council Member Karakehian requested that comments related to the history of the Pearl Street Mall be included.",
+    "outcome_summary_citations": [
+     "/page/1/Text/12"
+    ]
+   },
+   {
+    "item_number": "3.C",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/1/SectionHeader/9"
+    ],
+    "title": "CONSIDERATION OF A MOTION TO ACCEPT THE FEBRUARY 26, 2013 STUDY SESSION SUMMARY ON BOULDER’S ENERGY FUTURE: NEXT STEPS IN EXPLORING MUNICIPALIZATION",
+    "title_citations": [
+     "/page/1/SectionHeader/13"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council accepted the February 26, 2013 study session summary as part of the consent agenda, with Becker abstaining.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.D",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "CONSIDERATION OF A MOTION AUTHORIZING THE CITY MANAGER TO CONVEY A 513 SQUARE FOOT STORMWATER MANAGEMENT IMPROVEMENT AND DRAINAGE EASEMENT TO NORTH BROADWAY CENTER, LLC, LOCATED WITHIN THE FOUR MILE CANYON CREEK CHANNEL NORTH OF THE PROPERTY IDENTIFIED AS 4474 BROADWAY",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the easement conveyance as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.E",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "CONSIDERATION OF RESOLUTION No. 1123 APPROVING THE PURCHASE OF TWO PARCELS OF VACANT LAND TOTALING 29.3 ACRES ADJACENT TO OPEN SPACE AND MOUNTAIN PARKS LAND GENERALLY LOCATED AT 5770 BASELINE RD. FROM GRANITE INVESTORS AND OPAL INVESTORS FOR THE PRICE OF $500,000 FOR OPEN SPACE AND MOUNTAIN PARKS PURPOSES",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1123"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved Resolution No. 1123 as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.F",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "CONSIDERATION OF THE FOLLOWING ORDINANCES RELATING TO BOULDER JUNCTION:",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7896",
+     "7897"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted the Boulder Junction ordinances as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.F.1",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7896 VACATING AND AUTHORIZING THE CITY MANAGER TO EXECUTE A DEED OF VACATION OF A PORTION OF A SURFACE ROADWAY EASEMENT GENERALLY LOCATED WEST OF THE TERMINUS OF OLD PEARL STREET AND NORTH OF THE INTERSECTION OF PEARL PARKWAY AND THE BNSF RAILWAY COMPANY CROSSING, AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7896"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7896 as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.F.2",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7897 VACATING AND AUTHORIZING THE CITY MANAGER TO EXECUTE A DEED OF VACATION OF A PORTION OF A SURFACE ROADWAY EASEMENT GENERALLY LOCATED AT THE INTERSECTION OF PEARL PARKWAY AND THE BNSF RAILWAY COMPANY CROSSING, AND SETTING FORTH RELATED DETAILS",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7897"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council adopted Ordinance No. 7897 as part of the consent agenda.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "3.G",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/2"
+    ],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY ORDINANCE NO. 7897 INTERPRETING SECTION 178 OF THE BOULDER HOME RULE CHARTER REGARDING VERIFICATION BY A THIRD-PARTY INDEPENDENT EXPERT",
+    "title_citations": [
+     "/page/2/ListGroup/0"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7897"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council approved the first-reading item as amended as part of the consent agenda, with Wilson opposed.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "section": "POTENTIAL CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "title": "POTENTIAL CALL- UP CHECK IN - None",
+    "title_citations": [
+     "/page/2/ListGroup/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "PUBLIC HEARINGS",
+    "title_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF RESOLUTION NO. 1122 APPROVING THE 2012 CITY OF BOULDER MULTI-HAZARD MITIGATION PLAN UPDATE",
+    "title_citations": [
+     "/page/3/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1122"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:14 PM",
+    "hearing_opened_time_citations": [
+     "/page/3/Text/11"
+    ],
+    "hearing_closed_time": "8:15 PM",
+    "hearing_closed_time_citations": [
+     "/page/3/Text/13"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Ed Byrne",
+      "name_citations": [
+       "/page/3/ListGroup/12"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council adopted Resolution 1122 approving the 2012 City of Boulder Multi-Hazard Mitigation Plan Update, with the motion carrying 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "CONSIDERATION OF A MOTION APPROVING THE MANAGEMENT OF THUNDERBIRD LAKE WATER LEVELS",
+    "title_citations": [
+     "/page/3/SectionHeader/16"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "8:38 PM",
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": "8:38 PM",
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council voted 9:0 to support maintaining Thunderbird Lake at natural surface water level without regular potable water additions and utilizing Adaptive Management Practices.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.C",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7895 AMENDING TITLE 9, “LAND USE REGULATION,” B.R.C. 1981, TO CLARIFY THE INCLUSIONARY HOUSING PROGRAM BY ADDING REQUIREMENTS RELATED TO OFF-SITE UNITS, TIMING OF CONSTRUCTION, FLOOR AREA CALCULATION OF ATTACHED AND DETACHED UNITS AND LOCATION OF AFFORDABLE UNITS",
+    "title_citations": [
+     "/page/4/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7895"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:28 PM",
+    "hearing_opened_time_citations": [
+     "/page/5/Text/8"
+    ],
+    "hearing_closed_time": "9:32 PM",
+    "hearing_closed_time_citations": [
+     "/page/5/Text/10"
+    ],
+    "hearing_speakers": [
+     {
+      "name": "Ed Byrne",
+      "name_citations": [],
+      "position": "against",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council amended and adopted Ordinance No. 7895 as reflected in Attachment B, with the motion carrying 9:0.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.D",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/0"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7892 ADDING A NEW CHAPTER 5-10, “MARIJUANA OFFENSES,” B.R.C. 1981 PROHIBITING PUBLIC CONSUMPTION OF MARIJUANA AND POSSESSION OF MARIJUANA BY MINORS",
+    "title_citations": [
+     "/page/6/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7892",
+     "7895"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": "9:53 PM",
+    "hearing_opened_time_citations": [
+     "/page/6/Text/6"
+    ],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council voted 9:0 to continue Ordinance No. 7895 to third reading.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER",
+    "title_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/6/SectionHeader/9"
+    ],
+    "title": "UPDATE FROM THE CITY MANAGER REGARDING THE CREATION OF A WORKING GROUP TO STUDY POTENTIAL ALTERNATIVES TO MUNICIPALIZATION",
+    "title_citations": [
+     "/page/6/SectionHeader/10"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council received an update on the working group to study potential alternatives to municipalization.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY - None",
+    "title_citations": [
+     "/page/7/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "title_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "POTENTIAL CALL-UPS - None",
+    "title_citations": [
+     "/page/7/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "8.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/7/SectionHeader/1"
+    ],
+    "title": "CITY COUNCIL EMPLOYEE EVALUATION PROCESS CHECK-IN",
+    "title_citations": [
+     "/page/7/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "A majority supported use of a consultant for the Council employee evaluation process by a show of hands.",
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/8/Text/2"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/8/Text/2"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS - None",
+    "title_citations": [
+     "/page/8/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/8/Text/3"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/8/Text/3"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS - None",
+    "title_citations": [
+     "/page/8/Text/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "section": "DEBRIEF",
+    "section_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "title": "DEBRIEF",
+    "title_citations": [
+     "/page/8/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Members Ageton and Cowles complimented staff on the presentation of materials for the meeting.",
+    "outcome_summary_citations": [
+     "/page/8/Text/5"
+    ]
+   },
+   {
+    "item_number": "12",
+    "item_number_citations": [],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The meeting was adjourned by motion regularly adopted on April 2, 2013 at 10:57 PM.",
+    "outcome_summary_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Council Member Becker",
+    "note": "excused"
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Jones",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Plass",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Rick Tazelaar",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of municipalization.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Julie Zahniser",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of clean energy and municipalization.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Ruth Blackmore",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of municipalization.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Chris Hoffman",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of municipalization and third party verification.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Leslie Glustrom",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of municipalization. She expressed doubt that Xcel Energy would negotiate in good faith.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Karey Christ-Janer",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of municipalization and in support of the Xcel working group. She encouraged Council to keep an open mind during the whole process.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Mary Anne Righi",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke about being homeless and the need for Boulder to offer a shelter for women.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Stephen Keenan",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke about clean energy and in opposition of fracking.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "William Mentzer",
+    "name_citations": [
+     "/page/0/ListGroup/7"
+    ],
+    "topic": "Spoke in favor of a smoking ban in the parks in and around the Boulder Public Library for both tobacco and marijuana.",
+    "topic_citations": [
+     "/page/0/ListGroup/7"
+    ]
+   },
+   {
+    "name": "Jim Hartman",
+    "name_citations": [
+     "/page/1/Text/0"
+    ],
+    "topic": "Spoke in favor of municipalization and third party verification.",
+    "topic_citations": [
+     "/page/1/Text/0"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3A through 3G",
+    "agenda_item_number_citations": [
+     "/page/2/Text/2"
+    ],
+    "motion_text": "to approve Consent agenda items 3A through 3G with 3G amended, 3B pulled and Council Member Beck abstaining from 3C.",
+    "motion_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Becker",
+    "moved_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/2/Text/2"
+    ],
+    "vote_text": "The motion carried 9:0 with Council Member Wilson opposed to 3G and Becker abstaining from 3C.",
+    "vote_text_citations": [
+     "/page/2/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/2"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Wilson"
+    ],
+    "abstained": [
+     "Becker"
+    ],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "A",
+    "agenda_item_number_citations": [
+     "/page/3/Text/15"
+    ],
+    "motion_text": "to adopt Resolution 1122 approving the 2012 City of Boulder Multi-Hazard Mitigation Plan Update.",
+    "motion_text_citations": [
+     "/page/3/Text/15"
+    ],
+    "action_type": "resolution",
+    "action_type_citations": [
+     "/page/3/Text/15"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "1122"
+    ],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/3/Text/15"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/3/Text/15"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/3/Text/15"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/3/Text/15"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/3/Text/15"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "B",
+    "agenda_item_number_citations": [
+     "/page/4/Text/10"
+    ],
+    "motion_text": "to support a recommendation to maintain Thunderbird Lake at natural surface water level, without the addition of regular potable water and to utilize Adaptive Management Practices to control water quality, visual quality and aquatic species, to preserve the open water levels generally consistent with the 2012 water quality and water levels.",
+    "motion_text_citations": [
+     "/page/4/Text/10"
+    ],
+    "action_type": "other",
+    "action_type_citations": [
+     "/page/4/Text/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/4/Text/10"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/4/Text/10"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/4/Text/10"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/4/Text/10"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/4/Text/10"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "C",
+    "agenda_item_number_citations": [
+     "/page/5/Text/13"
+    ],
+    "motion_text": "to amend and adopt Ordinance No. 7895, as reflected in Attachment B, amending Title 9, “Land Use Regulation,” B.R.C. 1981, to clarify the inclusionary Housing program by adding requirements related to off-site units, timing of construction, floor area calculation of attached and detached units, and location of affordable units.",
+    "motion_text_citations": [
+     "/page/5/Text/13"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7895"
+    ],
+    "moved_by": "Plass",
+    "moved_by_citations": [
+     "/page/5/Text/13"
+    ],
+    "seconded_by": "Jones",
+    "seconded_by_citations": [
+     "/page/5/Text/13"
+    ],
+    "vote_text": "The motion carried: 9:0.",
+    "vote_text_citations": [
+     "/page/5/Text/13"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/5/Text/13"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/5/Text/13"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "D",
+    "agenda_item_number_citations": [
+     "/page/6/Text/7"
+    ],
+    "motion_text": "to continue Ordinance No. 7895 to third reading.",
+    "motion_text_citations": [
+     "/page/6/Text/7"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7895"
+    ],
+    "moved_by": "Appelbaum",
+    "moved_by_citations": [
+     "/page/6/Text/7"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/6/Text/7"
+    ],
+    "vote_text": "The motion carried: 9:0.",
+    "vote_text_citations": [
+     "/page/6/Text/7"
+    ],
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/7"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/7"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "12",
+    "agenda_item_number_citations": [
+     "/page/8/SectionHeader/6"
+    ],
+    "motion_text": "BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED on April 2, 2013 at 10:57 PM.",
+    "motion_text_citations": [
+     "/page/8/Text/7"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/8/Text/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [
+     "/page/1/Text/1"
+    ],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ]
+ }
+}

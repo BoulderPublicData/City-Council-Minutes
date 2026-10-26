@@ -1,0 +1,1445 @@
+{
+ "entry_id": 11889,
+ "schema_version": "2026-10-25.1",
+ "extraction_mode": "balanced",
+ "request_id": "b8zcr-XSQ-5LoNFfocNbBg",
+ "page_count": 12,
+ "cost_breakdown": {
+  "final_cost_cents": 31.0
+ },
+ "extraction": {
+  "meeting_date": "2011-09-20",
+  "meeting_date_citations": [
+   "/page/0/Text/1"
+  ],
+  "meeting_date_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/1"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading gives the meeting date in /page/0/Text/1, supporting the extracted normalized date. Conclusion: the value at /page/0/Text/1 agrees with the extraction."
+   }
+  },
+  "meeting_title": "CITY COUNCIL PROCEEDINGS",
+  "meeting_title_citations": [
+   "/page/0/SectionHeader/0"
+  ],
+  "meeting_title_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/SectionHeader/0"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The heading in /page/0/SectionHeader/0 supports the extraction. Conclusion: the value at /page/0/SectionHeader/0 agrees with the extraction."
+   }
+  },
+  "meeting_type": "regular",
+  "meeting_type_citations": [
+   "/page/0/Text/4"
+  ],
+  "meeting_type_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes describe this as the regular September 20, 2011 City Council meeting in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "location": "Council Chambers",
+  "location_citations": [
+   "/page/0/Text/4"
+  ],
+  "location_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting occurred in Council Chambers in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "called_to_order_time": "6:00 p.m.",
+  "called_to_order_time_citations": [
+   "/page/0/Text/2"
+  ],
+  "called_to_order_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/2"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that the meeting was called to order at 6:00 p.m. in /page/0/Text/2 and /page/0/Text/4. Conclusion: the value at /page/0/Text/2 agrees with the extraction."
+   }
+  },
+  "adjourned_time": "11:58 P.M.",
+  "adjourned_time_citations": [
+   "/page/11/Text/5"
+  ],
+  "adjourned_time_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/11/Text/5"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The adjournment statement gives the time in /page/11/Text/5. Conclusion: the value at /page/11/Text/5 agrees with the extraction."
+   }
+  },
+  "presiding_officer": "Mayor Osborne",
+  "presiding_officer_citations": [
+   "/page/0/Text/4"
+  ],
+  "presiding_officer_meta": {
+   "extraction_status": "EXTRACTED",
+   "reasoning": null,
+   "citations": [
+    "/page/0/Text/4"
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The minutes state that Mayor Osborne called the meeting to order in /page/0/Text/4. Conclusion: the value at /page/0/Text/4 agrees with the extraction."
+   }
+  },
+  "call_up_items": [
+   "7. CONCEPTUAL LANDMARK ALTERATION CERTIFICATE FOR THE GENERAL LOCATION, MASS, SCALE, AND HEIGHT OF THE PROPOSED NEW BUILDING ON 1048 PEARL STREET AND 1023 WALNUT AVENUE IN THE DOWNTOWN HISTORIC DISTRICT (DAILY CAMERA BUILDING), PER SECTION 9-11-8 OF THE BOULDER REVISED CODE (HIS2011-00139) INFORMATION PACKET DATE: SEPTEMBER 14, 2011. LAST OPPORTUNITY FOR CALL-UP IS SEPTEMBER 20, 2011. CONDITIONALLY APPROVED BY THE LANDMARKS BOARD 5-0."
+  ],
+  "call_up_items_citations": [
+   "/page/10/ListGroup/6"
+  ],
+  "call_up_items_meta": {
+   "items": [
+    {
+     "extraction_status": "EXTRACTED",
+     "reasoning": null,
+     "citations": [
+      "/page/10/ListGroup/6"
+     ],
+     "verification": {
+      "status": "PASS",
+      "feedback": "The listed potential call-up item is fully stated in /page/10/ListGroup/6. Conclusion: the value at /page/10/ListGroup/6 agrees with the extraction."
+     }
+    }
+   ],
+   "verification": {
+    "status": "PASS",
+    "feedback": "The potential call-ups list contains one item, and that item appears in /page/10/ListGroup/6. Conclusion: the value at /page/10/ListGroup/6 agrees with the extraction."
+   }
+  },
+  "agenda_items": [
+   {
+    "item_number": "1",
+    "item_number_citations": [
+     "/page/0/Text/4"
+    ],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "CALL TO ORDER AND ROLL CALL",
+    "title_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne called the regular September 20, 2011 City Council meeting to order at 6:00 p.m. in Council Chambers.",
+    "outcome_summary_citations": [
+     "/page/0/Text/4"
+    ]
+   },
+   {
+    "item_number": "1.A",
+    "item_number_citations": [],
+    "section": "CALL TO ORDER AND ROLL CALL",
+    "section_citations": [
+     "/page/0/SectionHeader/3"
+    ],
+    "title": "COLORADO COMPANIES TO WATCH DECLARATION.",
+    "title_citations": [
+     "/page/0/SectionHeader/7"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Mayor Osborne read a declaration honoring the Boulder recipients of the Colorado Companies to Watch Awards and declared October 1 through 31 as Colorado Companies To Watch Month.",
+    "outcome_summary_citations": [
+     "/page/0/Text/8"
+    ]
+   },
+   {
+    "item_number": "2",
+    "item_number_citations": [],
+    "section": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "section_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "title": "OPEN COMMENT and COUNCIL/STAFF RESPONSE",
+    "title_citations": [
+     "/page/0/SectionHeader/9"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Several Council Members requested that staff develop an email list to help notify residents of any Council discussions on the item and any associated materials.",
+    "outcome_summary_citations": [
+     "/page/2/Text/4"
+    ]
+   },
+   {
+    "item_number": "3",
+    "item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "section": "CONSENT AGENDA",
+    "section_citations": [
+     "/page/2/Text/9"
+    ],
+    "title": "CONSENT AGENDA:",
+    "title_citations": [
+     "/page/2/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Gray moved, seconded by Wilson to approve Consent agenda item 3B with item 3A removed from the agenda.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "3.A",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE AMENDING CHAPTER 9-3 \"OVERLAY DISTRICTS\" AND SECTION 9-16-1 \"DEFINITIONS,\" B.R.C. 1981 TO AMEND FLOODPLAIN REGULATIONS IN ORDER TO PROTECT CRITICAL FACILITIES AND MOBILE POPULATIONS IN THE 500- AND 100-YEAR FLOODPLAINS.",
+    "title_citations": [
+     "/page/2/SectionHeader/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "This item was pulled from the agenda and will be rescheduled at a later date.",
+    "outcome_summary_citations": [
+     "/page/2/Text/7"
+    ]
+   },
+   {
+    "item_number": "3.B",
+    "item_number_citations": [],
+    "section": "CONSENT AGENDA",
+    "section_citations": [],
+    "title": "INTRODUCTION, FIRST READING AND CONSIDERATION OF A MOTION TO ORDER PUBLISHED BY TITLE ONLY AN ORDINANCE REPEALING AND RE-ENACTING SECTION 11-1-19, \"WATER AND DITCH RIGHTS,\" B.R.C. 1981, TO ADDRESS AGREEMENTS FOR RIGHT OF FIRST REFUSAL, PURCHASE AND SALE OF WATER OR DITCH RIGHTS AND RESULTING ADJUSTMENT OF WATER BUDGET.",
+    "title_citations": [
+     "/page/2/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Gray moved, seconded by Wilson to approve Consent agenda item 3B with item 3A removed from the agenda.",
+    "outcome_summary_citations": [
+     "/page/2/Text/9"
+    ]
+   },
+   {
+    "item_number": "4",
+    "item_number_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "section": "POTENTIAL CALL- UP CHECK IN",
+    "section_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "title": "POTENTIAL CALL- UP CHECK IN:",
+    "title_citations": [
+     "/page/2/SectionHeader/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No interest was expressed.",
+    "outcome_summary_citations": [
+     "/page/3/Text/0"
+    ]
+   },
+   {
+    "item_number": "5",
+    "item_number_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "PUBLIC HEARINGS:",
+    "title_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": null,
+    "outcome_summary_citations": []
+   },
+   {
+    "item_number": "5.A",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE No. 7813 AMENDING TITLE 9, LAND USE CODE, B.R.C. 1981:",
+    "title_citations": [
+     "/page/3/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7813"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Elizabeth Allen",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Sean Maher",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Rich Majors",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Adrian Sopher",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Nolan Rosall",
+      "name_citations": [
+       "/page/5/ListGroup/5"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/5/ListGroup/5"
+      ]
+     },
+     {
+      "name": "Stephen Keenan",
+      "name_citations": [],
+      "position": "unstated",
+      "position_citations": []
+     }
+    ],
+    "outcome_summary": "Council Member Becker moved, seconded by Karakehian to adopt Ordinance No. 7813 section 9-8-2, Table 8-2 \"Floor Area Ratio Additions\" adding a floor area addition for commercial uses in the DT-5 zone district.",
+    "outcome_summary_citations": [
+     "/page/6/Text/1"
+    ]
+   },
+   {
+    "item_number": "5.A.1",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "SECTION 9-7-1 TABLE 7-1 “FORM AND BULK STANDARDS” ADDING A 65-FOOT SUPPLEMENTAL SETBACK FOR ZONE DISTRICTS DOWNTOWN-5 (DT-5) AND PUBLIC (P) ALONG CANYON BLVD. FROM 9 TH TO 16 TH STREETS.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7813"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Gray moved, seconded by Appelbaum to amend ordinance No. 7813 to include 9-7-1, Table 7-1 \"Form and Bulk Standards\" adding a 65 foot supplemental setback for zone districts Downtown 5 (DT-5) and Public (P) along Canyon Boulevard from 9th to 16th Streets.",
+    "outcome_summary_citations": [
+     "/page/6/Text/2"
+    ]
+   },
+   {
+    "item_number": "5.A.2",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "SECTION 9-8-2 TABLE 8-2 “FLOOR AREA RATIO ADDITIONS” ADDING A FLOOR AREA ADDITION FOR COMMERCIAL USES IN THE DT-5 ZONE DISTRICT.",
+    "title_citations": [
+     "/page/3/ListGroup/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7813"
+    ],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Becker moved, seconded by Karakehian to adopt Ordinance No. 7813 section 9-8-2, Table 8-2 \"Floor Area Ratio Additions\" adding a floor area addition for commercial uses in the DT-5 zone district.",
+    "outcome_summary_citations": [
+     "/page/6/Text/1"
+    ]
+   },
+   {
+    "item_number": "5.B",
+    "item_number_citations": [],
+    "section": "PUBLIC HEARINGS",
+    "section_citations": [
+     "/page/3/SectionHeader/2"
+    ],
+    "title": "SECOND READING AND CONSIDERATION OF A MOTION TO ADOPT ORDINANCE NO. 7814 TO AMEND PROVISIONS OF CHAPTER 6-14 “MEDICAL MARIJUANA,” B.R.C. 1981.",
+    "title_citations": [
+     "/page/6/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7814"
+    ],
+    "is_public_hearing": true,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [
+     {
+      "name": "Carl Savitz",
+      "name_citations": [
+       "/page/6/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Kelly Moore",
+      "name_citations": [
+       "/page/6/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Daniel Williams",
+      "name_citations": [
+       "/page/6/ListGroup/8"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/6/ListGroup/8"
+      ]
+     },
+     {
+      "name": "Truman Bradley",
+      "name_citations": [
+       "/page/6/ListGroup/8"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Diana Caile",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/1"
+      ]
+     },
+     {
+      "name": "Nancy West McGuire",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Diane C Zarkowski",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Jay Czarkowski",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Gavin Reinhart",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Stephen Keenan",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "unstated",
+      "position_citations": []
+     },
+     {
+      "name": "Chris Woods",
+      "name_citations": [
+       "/page/7/ListGroup/1"
+      ],
+      "position": "for",
+      "position_citations": [
+       "/page/7/ListGroup/1"
+      ]
+     }
+    ],
+    "outcome_summary": "Council Member Osborne moved, seconded by Appelbaum to adopt Ordinance No. 7814 to amend provisions of Chapter 6-14 \"Medical Marijuana,\" B.R.C. 1981.",
+    "outcome_summary_citations": [
+     "/page/7/Text/8"
+    ]
+   },
+   {
+    "item_number": "6",
+    "item_number_citations": [
+     "/page/10/Text/1"
+    ],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/8/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY MANAGER:",
+    "title_citations": [
+     "/page/8/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council agreed that further discussion was desired and the item was continued to a study session at 6 p.m.",
+    "outcome_summary_citations": [
+     "/page/10/Text/1"
+    ]
+   },
+   {
+    "item_number": "6.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM THE CITY MANAGER",
+    "section_citations": [
+     "/page/8/SectionHeader/2"
+    ],
+    "title": "MOTION TO RECEIVE THE 2010-2012 AFFORDABLE HOUSING TASK FORCE REPORT.",
+    "title_citations": [
+     "/page/8/SectionHeader/3"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council agreed that further discussion was desired and the item was continued to a study session at 6 p.m.",
+    "outcome_summary_citations": [
+     "/page/10/Text/1"
+    ]
+   },
+   {
+    "item_number": "7",
+    "item_number_citations": [
+     "/page/10/SectionHeader/2"
+    ],
+    "section": "MATTERS FROM THE CITY ATTORNEY",
+    "section_citations": [
+     "/page/10/SectionHeader/2"
+    ],
+    "title": "MATTERS FROM THE CITY ATTORNEY:",
+    "title_citations": [
+     "/page/10/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/10/Text/3"
+    ]
+   },
+   {
+    "item_number": "8",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "title": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL:",
+    "title_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Members Appelbaum and Ageton volunteered to be on the Council Retreat Committee.",
+    "outcome_summary_citations": [
+     "/page/10/Text/14"
+    ]
+   },
+   {
+    "item_number": "8.A",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "title": "POTENTIAL CALL-UPS:",
+    "title_citations": [
+     "/page/10/SectionHeader/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/10/Text/7"
+    ]
+   },
+   {
+    "item_number": "8.A.7",
+    "item_number_citations": [],
+    "section": "POTENTIAL CALL-UPS",
+    "section_citations": [
+     "/page/10/SectionHeader/5"
+    ],
+    "title": "CONCEPTUAL LANDMARK ALTERATION CERTIFICATE FOR THE GENERAL LOCATION, MASS, SCALE, AND HEIGHT OF THE PROPOSED NEW BUILDING ON 1048 PEARL STREET AND 1023 WALNUT AVENUE IN THE DOWNTOWN HISTORIC DISTRICT (DAILY CAMERA BUILDING), PER SECTION 9-11-8 OF THE BOULDER REVISED CODE (HIS2011-00139) INFORMATION PACKET DATE: SEPTEMBER 14, 2011. LAST OPPORTUNITY FOR CALL-UP IS SEPTEMBER 20, 2011. CONDITIONALLY APPROVED BY THE LANDMARKS BOARD 5-0.",
+    "title_citations": [
+     "/page/10/ListGroup/6"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "No action was taken on this item.",
+    "outcome_summary_citations": [
+     "/page/10/Text/7"
+    ]
+   },
+   {
+    "item_number": "8.B",
+    "item_number_citations": [],
+    "section": "MATTERS FROM MAYOR AND MEMBERS OF COUNCIL",
+    "section_citations": [
+     "/page/10/SectionHeader/4"
+    ],
+    "title": "2011 MID-YEAR APPOINTMENTS TO BOARDS AND COMMISSIONS.",
+    "title_citations": [
+     "/page/10/SectionHeader/8"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "Council Member Wilson moved, seconded by Morzel to ratify the appointments to Boards and Commissions.",
+    "outcome_summary_citations": [
+     "/page/10/Text/11"
+    ]
+   },
+   {
+    "item_number": "9",
+    "item_number_citations": [
+     "/page/11/SectionHeader/0"
+    ],
+    "section": "PUBLIC COMMENT ON MATTERS",
+    "section_citations": [
+     "/page/11/SectionHeader/0"
+    ],
+    "title": "PUBLIC COMMENT ON MATTERS:",
+    "title_citations": [
+     "/page/11/SectionHeader/0"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "None.",
+    "outcome_summary_citations": [
+     "/page/11/Text/1"
+    ]
+   },
+   {
+    "item_number": "10",
+    "item_number_citations": [
+     "/page/11/SectionHeader/2"
+    ],
+    "section": "FINAL DECISIONS ON MATTERS",
+    "section_citations": [
+     "/page/11/SectionHeader/2"
+    ],
+    "title": "FINAL DECISIONS ON MATTERS: Action on motions made under Matters.",
+    "title_citations": [
+     "/page/11/SectionHeader/2"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "The motion carried 8:0, Becker Absent.",
+    "outcome_summary_citations": [
+     "/page/11/Text/3"
+    ]
+   },
+   {
+    "item_number": "11",
+    "item_number_citations": [
+     "/page/11/Text/5"
+    ],
+    "section": "ADJOURNMENT",
+    "section_citations": [
+     "/page/11/SectionHeader/4"
+    ],
+    "title": "ADJOURNMENT",
+    "title_citations": [
+     "/page/11/SectionHeader/4"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "is_public_hearing": false,
+    "is_public_hearing_citations": [],
+    "hearing_opened_time": null,
+    "hearing_opened_time_citations": [],
+    "hearing_closed_time": null,
+    "hearing_closed_time_citations": [],
+    "hearing_speakers": [],
+    "outcome_summary": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:58 P.M.",
+    "outcome_summary_citations": [
+     "/page/11/Text/5"
+    ]
+   }
+  ],
+  "motions": [
+   {
+    "agenda_item_number": "3",
+    "agenda_item_number_citations": [
+     "/page/2/Text/9"
+    ],
+    "motion_text": "Council Member Gray moved, seconded by Wilson to approve Consent agenda item 3B with item 3A removed from the agenda.",
+    "motion_text_citations": [
+     "/page/2/Text/9"
+    ],
+    "action_type": "consent_agenda",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/2/Text/9"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/2/Text/9"
+    ],
+    "vote_text": "The motion carried 9:0.",
+    "vote_text_citations": [
+     "/page/2/Text/9"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/2/Text/9"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/2/Text/9"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Becker moved, seconded by Karakehian to adopt Ordinance No. 7813 section 9-8-2, Table 8-2 \"Floor Area Ratio Additions\" adding a floor area addition for commercial uses in the DT-5 zone district.",
+    "motion_text_citations": [
+     "/page/6/Text/1"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/6/Text/1"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7813"
+    ],
+    "moved_by": "Becker",
+    "moved_by_citations": [
+     "/page/6/Text/1"
+    ],
+    "seconded_by": "Karakehian",
+    "seconded_by_citations": [
+     "/page/6/Text/1"
+    ],
+    "vote_text": "The motion carried 9:0; 9:45 p.m.",
+    "vote_text_citations": [
+     "/page/6/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 9,
+    "yes_count_citations": [
+     "/page/6/Text/1"
+    ],
+    "no_count": 0,
+    "no_count_citations": [
+     "/page/6/Text/1"
+    ],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Gray moved, seconded by Appelbaum to amend ordinance No. 7813 to include 9-7-1, Table 7-1 \"Form and Bulk Standards\" adding a 65 foot supplemental setback for zone districts Downtown 5 (DT-5) and Public (P) along Canyon Boulevard from 9th to 16th Streets.",
+    "motion_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "action_type": "amendment",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [
+     "7813"
+    ],
+    "moved_by": "Gray",
+    "moved_by_citations": [
+     "/page/6/Text/2"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/6/Text/2"
+    ],
+    "vote_text": "The motion carried 5:4; Ageton, Becker, Karakehian and Wilson opposed.",
+    "vote_text_citations": [
+     "/page/6/Text/2"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 5,
+    "yes_count_citations": [
+     "/page/6/Text/2"
+    ],
+    "no_count": 4,
+    "no_count_citations": [
+     "/page/6/Text/2"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Ageton",
+     "Becker",
+     "Karakehian",
+     "Wilson"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": []
+   },
+   {
+    "agenda_item_number": "5.A",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Morzel moved, seconded by Ageton to suspend the rules and continue the meeting at 10:35 p.m.",
+    "motion_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Morzel",
+    "moved_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "seconded_by": "Ageton",
+    "seconded_by_citations": [
+     "/page/6/Text/3"
+    ],
+    "vote_text": "The motion carried 7:1; Karakehian opposed, Becker absent.",
+    "vote_text_citations": [
+     "/page/6/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/6/Text/3"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Karakehian"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Becker"
+    ]
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Osborne moved, seconded by Appelbaum to adopt Ordinance No. 7814 to amend provisions of Chapter 6-14 \"Medical Marijuana,\" B.R.C. 1981.",
+    "motion_text_citations": [
+     "/page/7/Text/8"
+    ],
+    "action_type": "ordinance",
+    "action_type_citations": [
+     "/page/7/Text/8"
+    ],
+    "ordinance_or_resolution_numbers": [
+     "7814"
+    ],
+    "moved_by": "Osborne",
+    "moved_by_citations": [
+     "/page/7/Text/8"
+    ],
+    "seconded_by": "Appelbaum",
+    "seconded_by_citations": [
+     "/page/7/Text/8"
+    ],
+    "vote_text": "The motion carried 8:0; Becker absent.",
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [
+     "/page/7/Text/8"
+    ],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Becker"
+    ]
+   },
+   {
+    "agenda_item_number": "5.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Ageton moved, seconded by Wilson to suspend the rules and continue the meeting at 11:00 p.m.",
+    "motion_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "action_type": "continue_or_postpone",
+    "action_type_citations": [],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Ageton",
+    "moved_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "seconded_by": "Wilson",
+    "seconded_by_citations": [
+     "/page/8/Text/1"
+    ],
+    "vote_text": "The motion carried 7:1; Karakehian opposed, Becker absent.",
+    "vote_text_citations": [
+     "/page/8/Text/1"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 7,
+    "yes_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "no_count": 1,
+    "no_count_citations": [
+     "/page/8/Text/1"
+    ],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [
+     "Karakehian"
+    ],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Becker"
+    ]
+   },
+   {
+    "agenda_item_number": "8.B",
+    "agenda_item_number_citations": [],
+    "motion_text": "Council Member Wilson moved, seconded by Morzel to ratify the appointments to Boards and Commissions.",
+    "motion_text_citations": [
+     "/page/10/Text/11"
+    ],
+    "action_type": "appointment",
+    "action_type_citations": [
+     "/page/10/Text/11"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": "Wilson",
+    "moved_by_citations": [
+     "/page/10/Text/11"
+    ],
+    "seconded_by": "Morzel",
+    "seconded_by_citations": [
+     "/page/10/Text/11"
+    ],
+    "vote_text": "The motion carried 8:0, Becker Absent.",
+    "vote_text_citations": [
+     "/page/11/Text/3"
+    ],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": 8,
+    "yes_count_citations": [],
+    "no_count": 0,
+    "no_count_citations": [],
+    "stated_unanimous": true,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": [
+     "Becker"
+    ]
+   },
+   {
+    "agenda_item_number": "11",
+    "agenda_item_number_citations": [
+     "/page/11/Text/5"
+    ],
+    "motion_text": "There being no further business to come before Council at this time, BY MOTION REGULARLY ADOPTED, THE MEETING WAS ADJOURNED AT 11:58 P.M.",
+    "motion_text_citations": [
+     "/page/11/Text/5"
+    ],
+    "action_type": "adjourn",
+    "action_type_citations": [
+     "/page/11/Text/5"
+    ],
+    "ordinance_or_resolution_numbers": [],
+    "moved_by": null,
+    "moved_by_citations": [],
+    "seconded_by": null,
+    "seconded_by_citations": [],
+    "vote_text": null,
+    "vote_text_citations": [],
+    "result": "passed",
+    "result_citations": [],
+    "yes_count": null,
+    "yes_count_citations": [],
+    "no_count": null,
+    "no_count_citations": [],
+    "stated_unanimous": false,
+    "stated_unanimous_citations": [],
+    "yes_votes": [],
+    "no_votes": [],
+    "abstained": [],
+    "absent_or_not_voting": []
+   }
+  ],
+  "members_present": [
+   {
+    "name": "Osborne",
+    "name_citations": [],
+    "title": "Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Wilson",
+    "name_citations": [],
+    "title": "Deputy Mayor",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Ageton",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Appelbaum",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Cowles",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Gray",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Karakehian",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   },
+   {
+    "name": "Morzel",
+    "name_citations": [],
+    "title": "Council Member",
+    "title_citations": [],
+    "attendance_note": null,
+    "attendance_note_citations": []
+   }
+  ],
+  "members_absent": [
+   {
+    "name": "Becker",
+    "name_citations": [],
+    "note": null,
+    "note_citations": []
+   }
+  ],
+  "open_comment_speakers": [
+   {
+    "name": "Shannon Burke",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "urged Council to pass a ban or place a fee on single use plastic bags.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Elizabeth Allen",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "spoke in support of the call-up on the agenda and agreed with the Landmarks Board conditions.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Earl McGowen",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "spoke to the mobile home recommendations in the Affordable Housing Task Force recommendations.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "William DeOreo",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "suggested a couple changes to the water and ditch rights memo but supported each of the consent items on the agenda.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "David Diamond",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "urged Council to ban all plastic bag use in stores and place a fee on paper bags.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Louie McKee",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "spoke in opposition to the Boulder Housing Partners process related to the north Boulder supportive housing project.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Joshua Brown",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "also urged a ban on plastic bags and a fee on paper bag use in Boulder.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Karie Koplar",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "spoke in opposition to the BHP homeless supportive housing project and raised concern about the zoning.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Martin Hammer",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "also spoke in opposition to the BHP homeless supportive housing project and lack of public input and process.",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Ari Rubin",
+    "name_citations": [
+     "/page/0/ListGroup/10"
+    ],
+    "topic": "opposed taxpayer dollars being used to",
+    "topic_citations": [
+     "/page/0/ListGroup/10"
+    ]
+   },
+   {
+    "name": "Richard Demuth",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "raised concern about license plate violations in Boulder and also spoke to his recent suspension from the Boulder Library.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Stephen Keenan",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "raised concern about the city purchasing obsolete poles and wires if proceeding with municipalization.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Diane Soucheray",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "also raised concern about the homeless supportive housing proposed in north Boulder.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Larry Sutton",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "spoke in support of the supportive housing project in north Boulder and did not think there was an overconcentration of homeless in the area.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Peter Richards",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "raised concern about a 7-11 going in at 13 th & College on University Hill and did not feel it fit into the historic character of the Hill area.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "John Moore",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "raised concern about the homeless supportive housing project in north Boulder and the lack of public process and community input.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Paul Ward",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "raised concern about the homeless supportive housing project in north Boulder and the lack of public process and community input.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Eric Shannon",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "raised concern about the homeless supportive housing project in north Boulder and the lack of public process and community input.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Karey Christ-Janer",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "supported Boulder's efforts but did not support measures 2B and 2C.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   },
+   {
+    "name": "Sam Alschuler",
+    "name_citations": [
+     "/page/1/ListGroup/1"
+    ],
+    "topic": "supported the Affordable Housing Task Force recommendations and urged consideration of resident owned mobile home parks.",
+    "topic_citations": [
+     "/page/1/ListGroup/1"
+    ]
+   }
+  ]
+ }
+}
