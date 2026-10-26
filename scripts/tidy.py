@@ -14,6 +14,29 @@ left early and the minutes say 7:1 with eight present) or when the minutes list
 the yes votes explicitly but omit some present members; those motions are
 labeled `inconsistent_not_inferred` / `partial_stated_only` and keep only the
 stated rows.
+
+**Late arrivals and early departures.** When the tally doesn't match the roll
+call, the attendance notes ("arrived at 6:45 p.m.", "left at 9:30 p.m.", a
+"Yates - Late" marker on the roll call) can reconcile it. If the tally is lower
+than the unnamed present members by exactly the number of them noted as arriving
+late or leaving early, the others are inferred `yes` and the noted members get no
+row. If the tally is higher by exactly the number of roll-call absentees noted as
+arriving later, those members are counted present and inferred `yes`. Anything
+else still declines. A noted member seen taking part (moving or seconding this
+motion; moving, seconding, or voting yes or no by name on an earlier motion for a
+late arrival, or on a later one for an early departure) can't explain the gap, so
+their note is ignored for that motion (`away_notes`). These motions are labeled
+`inferred_from_attendance_note` and their inferred rows carry
+`inference_basis = attendance_note`.
+
+**Who is on the roll call.** The extractor sometimes lists people who aren't
+council members as present or absent: public-hearing speakers marked "did not
+show", Planning Board members at a joint meeting, or the absentees of a board
+vote quoted in a call-up. `non_members` drops a roll-call name unless something
+corroborates it: a council or mayor title, moving, seconding, or voting by name
+in the meeting, or the same member on another meeting's roll call within
+`ROSTER_WINDOW_YEARS`. A title naming another body drops the name outright.
+Dropped names are written to `excluded_roll_call.csv` beside the tables.
 """
 
 from __future__ import annotations
@@ -36,7 +59,7 @@ from scripts.config import (
     PROVENANCE_CSV,
 )
 from scripts.extraction_schema import ACTION_TYPES, MEETING_TYPES, MOTION_RESULTS
-from scripts.names import member_key, normalize_list, snap
+from scripts.names import member_key, name_note, normalize_list, snap
 
 log = logging.getLogger(__name__)
 
@@ -80,9 +103,37 @@ def _int(v: Any) -> int | None:
 
 # ── vote inference ──────────────────────────────────────────────────────────
 
-def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any]
+_NEGATED = re.compile(r"\b(?:not|never)\s+(?:yet\s+)?(?:arriv\w*|join\w*|show\w*|leave|left)\b",
+                      re.IGNORECASE)
+_ARRIVED = re.compile(r"\b(arriv\w*|joined|late|tardy)\b", re.IGNORECASE)
+_LEFT = re.compile(r"\b(left|leav\w*|depart\w*|stepped (?:out|down|away))\b", re.IGNORECASE)
+
+
+def attendance_change(note: str | None) -> str | None:
+    """'arrived' / 'left' when an attendance note says the member came late or left
+    early ("arrived at 6:45 p.m.", "Late", "joined the meeting at 6:26 p.m.", "left
+    the meeting at 8:20 p.m."); None otherwise ("present virtually", "excused", "did
+    not arrive"). "Not present at roll call; arrived at 6:16 p.m." is an arrival.
+    Departure wins when a note says both."""
+    if not isinstance(note, str) or not note.strip() or _NEGATED.search(note):
+        return None
+    if _LEFT.search(note):
+        return "left"
+    if _ARRIVED.search(note):
+        return "arrived"
+    return None
+
+
+def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any],
+                notes: dict[str, str | None] | None = None
                 ) -> tuple[list[tuple[str, str, str]], str]:
-    """Return ([(member, vote, vote_source)], vote_inference_label) for one motion."""
+    """Return ([(member, vote, vote_source)], vote_inference_label) for one motion.
+
+    `notes` maps a member key to that member's roll-call attendance note; it is used
+    only when the stated tally doesn't match the roll call (see the module docstring).
+    Pass the per-motion notes from `away_notes` so that members seen acting on other
+    motions are not treated as away.
+    """
     roster = present + [a for a in absent if a not in present]
     yes = normalize_list(motion.get("yes_votes"), roster)
     no = normalize_list(motion.get("no_votes"), roster)
@@ -130,10 +181,73 @@ def infer_votes(present: list[str], absent: list[str], motion: dict[str, Any]
             rows += [(m, "yes", "inferred") for m in voting]
             rows += [(a, "absent", "inferred") for a in roll_absent]
             return rows, "inferred_with_item_exceptions"
-        return rows, "inconsistent_not_inferred"
+        # Whoever moved or seconded this motion was in the room for it.
+        acting = {snap(member_key(motion.get(k)), roster) for k in ("moved_by", "seconded_by")}
+        moved = _reconcile_with_notes(remaining, roll_absent, yes_count, no_count, n_no, unanimous,
+                                      {m: n for m, n in (notes or {}).items() if m not in acting})
+        if moved is None:
+            return rows, "inconsistent_not_inferred"
+        voting, still_absent = moved
+        rows += [(m, "yes", "inferred") for m in voting]
+        rows += [(a, "absent", "inferred") for a in still_absent]
+        return rows, "inferred_from_attendance_note"
     rows += [(m, "yes", "inferred") for m in remaining]
     rows += [(a, "absent", "inferred") for a in roll_absent]
     return rows, "inferred_from_roll_call"
+
+
+def _reconcile_with_notes(remaining: list[str], roll_absent: list[str], yes_count: int | None,
+                          no_count: int | None, n_no: int, unanimous: bool,
+                          notes: dict[str, str | None]) -> tuple[list[str], list[str]] | None:
+    """(members to infer yes, roll-call absentees to infer absent) when the attendance
+    notes account for the whole gap between the yes tally and the roll call, else None.
+
+    Only a stated yes count is reconciled, and the stated nays must already match. The
+    count of noted members must equal the gap exactly; one more or one fewer declines,
+    because then it is not clear who voted."""
+    if yes_count is None or (no_count is not None and no_count != n_no) or (unanimous and n_no):
+        return None
+    change = {m: attendance_change(n) for m, n in notes.items()}
+    gap = len(remaining) - yes_count
+    if gap > 0:
+        away = [m for m in remaining if change.get(m) in ("arrived", "left")]
+        if len(away) == gap:
+            return [m for m in remaining if m not in away], roll_absent
+    elif gap < 0:
+        came = [a for a in roll_absent if change.get(a) == "arrived"]
+        if len(came) == -gap:
+            return remaining + came, [a for a in roll_absent if a not in came]
+    return None
+
+
+def away_notes(motions: list[dict[str, Any]], present: list[str], absent: list[str],
+               notes: dict[str, str | None]) -> list[dict[str, str | None]]:
+    """For each motion, the attendance notes that could explain a present member's
+    absence from that vote.
+
+    A member noted as arriving late has arrived by the first motion they move, second,
+    or vote yes or no on by name; one noted as leaving early hasn't left before the
+    last such motion. Their note is dropped for the motions after (late arrival) or
+    before (early departure) that evidence; the motion's own mover and seconder are
+    checked in `infer_votes`. Notes on roll-call absentees pass through unchanged."""
+    roster = present + [a for a in absent if a not in present]
+    acted = []
+    for m in motions:
+        named = set(normalize_list(m.get("yes_votes"), roster) + normalize_list(m.get("no_votes"), roster))
+        named |= {snap(member_key(m.get(k)), roster) for k in ("moved_by", "seconded_by")}
+        acted.append(named)
+    out = []
+    for i in range(len(motions)):
+        keep: dict[str, str | None] = {}
+        for mem, note in notes.items():
+            change = attendance_change(note)
+            if mem in present and change == "arrived" and any(mem in a for a in acted[:i]):
+                continue
+            if mem in present and change == "left" and any(mem in a for a in acted[i + 1:]):
+                continue
+            keep[mem] = note
+        out.append(keep)
+    return out
 
 
 def item_exceptions(present: list[str], absent: list[str], motion: dict[str, Any]) -> str | None:
@@ -145,24 +259,104 @@ def item_exceptions(present: list[str], absent: list[str], motion: dict[str, Any
     return "; ".join(parts) or None
 
 
+# ── roll-call plausibility ──────────────────────────────────────────────────
+
+ROSTER_WINDOW_YEARS = 3  # council terms are at most four years; elections every two
+_COUNCIL_TITLE = re.compile(r"council|mayor", re.IGNORECASE)
+_OTHER_BODY = re.compile(r"board|commission|committee|staff|clerk|attorney|manager",
+                         re.IGNORECASE)
+
+
+EXCLUDED_COLUMNS = ["entry_id", "meeting_date", "member", "name_as_printed", "title", "status",
+                    "note", "reason"]
+
+
+def _meeting_date(entry: dict[str, Any], x: dict[str, Any]) -> tuple[str | None, str | None]:
+    """(meeting_date, extracted date or None): the heading date, else the document name's."""
+    name_date = entry.get("name_date") if isinstance(entry.get("name_date"), str) else None
+    ext_date = _clean(x.get("meeting_date"))
+    if ext_date and not re.match(r"^\d{4}-\d{2}-\d{2}$", str(ext_date)):
+        ext_date = None
+    return ext_date or name_date, ext_date
+
+
+def roll_call_keys(doc: dict[str, Any]) -> set[str]:
+    """Member keys on one extraction's roll call (present and absent)."""
+    x = strip_meta(doc)
+    raws = [p for f in ("members_present", "members_absent") for p in x.get(f) or []
+            if isinstance(p, dict)]
+    return {k for k in (member_key(p.get("name")) for p in raws) if k}
+
+
+def non_members(present_raw: list[dict[str, Any]], absent_raw: list[dict[str, Any]],
+                motions: list[dict[str, Any]], nearby: set[str]) -> dict[str, str]:
+    """{member key: reason} for roll-call names that aren't council members.
+
+    `nearby` holds the member keys on the roll calls of *other* meetings within
+    `ROSTER_WINDOW_YEARS`. A name is kept when it has a council/mayor title, when it
+    moves, seconds, or is named voting in this meeting, or when its key (or a near
+    spelling, unless that spelling is already on this roll call) is in `nearby`."""
+    raws = present_raw + absent_raw
+    keys = [member_key(p.get("name")) for p in raws]
+    roster = [k for k in keys if k]
+    acted: set[str] = set()
+    for m in motions:
+        for f in ("yes_votes", "no_votes", "abstained"):
+            acted |= set(normalize_list(m.get(f), roster))
+        acted |= {snap(member_key(m.get(f)), roster) for f in ("moved_by", "seconded_by")}
+    out: dict[str, str] = {}
+    for p, k in zip(raws, keys, strict=True):
+        if not k:
+            continue
+        title = str(p.get("title") or "")
+        if _OTHER_BODY.search(title) and not _COUNCIL_TITLE.search(title):
+            out[k] = f"title names another body: {title}"
+            continue
+        if _COUNCIL_TITLE.search(title) or k in acted or k in nearby:
+            continue
+        near = snap(k, sorted(nearby))
+        if near != k and near not in roster:
+            continue  # a misspelling of a nearby member, e.g. 'Moizel' for Morzel
+        out[k] = "no council title, no action in the meeting, not on a roll call within " \
+                 f"{ROSTER_WINDOW_YEARS} years"
+    return out
+
+
 # ── per-document tidy ───────────────────────────────────────────────────────
 
 def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
-             schema_version: str) -> dict[str, list[dict[str, Any]]]:
+             schema_version: str, nearby: set[str] | None = None
+             ) -> dict[str, list[dict[str, Any]]]:
+    """Tables for one document. With `nearby` (member keys on other meetings' roll
+    calls, see `non_members`), names that aren't council members are dropped from the
+    roll call and returned under the extra key `excluded_roll_call`."""
     x = strip_meta(doc)
     eid = int(entry["entry_id"])
+    meeting_date, ext_date = _meeting_date(entry, x)
+    name_date = entry.get("name_date") if isinstance(entry.get("name_date"), str) else None
 
     present_raw = [p for p in x.get("members_present") or [] if isinstance(p, dict)]
     absent_raw = [p for p in x.get("members_absent") or [] if isinstance(p, dict)]
+    excluded: list[dict[str, Any]] = []
+    if nearby is not None:
+        drop = non_members(present_raw, absent_raw,
+                           [m for m in x.get("motions") or [] if isinstance(m, dict)], nearby)
+        for status, raws in (("present", present_raw), ("absent", absent_raw)):
+            for p in raws:
+                k = member_key(p.get("name"))
+                if k in drop:
+                    excluded.append({"entry_id": eid, "meeting_date": meeting_date, "member": k,
+                                     "name_as_printed": str(p.get("name")).strip(),
+                                     "title": _clean(p.get("title")), "status": status,
+                                     "note": _clean(p.get("attendance_note") or p.get("note")),
+                                     "reason": drop[k]})
+                    log.info("entry %s: dropped %r from the roll call (%s)", eid, p.get("name"), drop[k])
+        present_raw = [p for p in present_raw if member_key(p.get("name")) not in drop]
+        absent_raw = [p for p in absent_raw if member_key(p.get("name")) not in drop]
     present = [k for k in (member_key(p.get("name")) for p in present_raw) if k]
     absent = [k for k in (member_key(p.get("name")) for p in absent_raw) if k]
     roster = list(dict.fromkeys(present + absent))
 
-    name_date = entry.get("name_date") if isinstance(entry.get("name_date"), str) else None
-    ext_date = _clean(x.get("meeting_date"))
-    if ext_date and not re.match(r"^\d{4}-\d{2}-\d{2}$", ext_date):
-        ext_date = None
-    meeting_date = ext_date or name_date
     mtype = x.get("meeting_type") if x.get("meeting_type") in MEETING_TYPES else None
     mtype = mtype or entry.get("name_meeting_type") or "regular"
     if isinstance(mtype, float):
@@ -176,10 +370,14 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
             if not k or k in seen_att:
                 continue
             seen_att.add(k)
+            # The extractor's note, else the note printed beside the name ("Yates - Late")
+            note = _clean(p.get("attendance_note") or p.get("note")) or \
+                name_note(str(p.get("name") or ""))
             attendance.append({"entry_id": eid, "meeting_date": meeting_date, "member": k,
                                "name_as_printed": str(p.get("name")).strip(),
                                "title": _clean(p.get("title")), "status": status,
-                               "note": _clean(p.get("attendance_note") or p.get("note"))})
+                               "note": note})
+    notes = {a["member"]: a["note"] for a in attendance if a["note"]}
 
     items, speakers = [], []
     for seq, it in enumerate(x.get("agenda_items") or [], 1):
@@ -208,10 +406,14 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
                              "topic": _clean(s.get("topic")), "position": None})
 
     motions, votes = [], []
-    for seq, m in enumerate(x.get("motions") or [], 1):
+    raw_motions = x.get("motions") or []
+    per_motion_notes = away_notes([m if isinstance(m, dict) else {} for m in raw_motions],
+                                  present, absent, notes)
+    for seq, m in enumerate(raw_motions, 1):
         if not isinstance(m, dict):
             continue
-        rows, label = infer_votes(present, absent, m)
+        rows, label = infer_votes(present, absent, m, per_motion_notes[seq - 1])
+        basis = "attendance_note" if label == "inferred_from_attendance_note" else "roll_call"
         counts = {v: sum(1 for _, vv, _ in rows if vv == v) for v in schema.VOTES}
         motions.append({
             "entry_id": eid, "motion_seq": seq,
@@ -231,7 +433,8 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
             "n_yes": counts["yes"], "n_no": counts["no"], "n_abstain": counts["abstain"],
             "n_absent": counts["absent"],
         })
-        votes += [{"entry_id": eid, "motion_seq": seq, "member": mem, "vote": v, "vote_source": src}
+        votes += [{"entry_id": eid, "motion_seq": seq, "member": mem, "vote": v, "vote_source": src,
+                   "inference_basis": basis if src == "inferred" else None}
                   for mem, v, src in rows]
 
     meeting = {
@@ -251,7 +454,8 @@ def tidy_one(entry: dict[str, Any], doc: dict[str, Any], extraction_mode: str,
         "_call_ups": [c for c in x.get("call_up_items") or [] if isinstance(c, str)],
     }
     return {"meetings": [meeting], "attendance": attendance, "agenda_items": items,
-            "speakers": speakers, "motions": motions, "member_votes": votes}
+            "speakers": speakers, "motions": motions, "member_votes": votes,
+            "excluded_roll_call": excluded}
 
 
 # ── nested export (README format, extended) ─────────────────────────────────
@@ -340,6 +544,7 @@ def tidy_all(mode: str = "balanced", out_dir: Path = DATA_PROCESSED) -> dict[str
     acc: dict[str, list[dict[str, Any]]] = {k: [] for k in schema.TABLES}
     prov = []
     man = pd.read_csv(MANIFEST_CSV).set_index("entry_id") if MANIFEST_CSV.exists() else None
+    docs = []
     for path in _extract_files(mode):
         rec = json.loads(path.read_text())
         eid = int(rec["entry_id"])
@@ -347,8 +552,18 @@ def tidy_all(mode: str = "balanced", out_dir: Path = DATA_PROCESSED) -> dict[str
             log.warning("entry %s not in inventory; skipping", eid)
             continue
         entry = {"entry_id": eid, **inv.loc[eid].to_dict()}
+        date, _ = _meeting_date(entry, strip_meta(rec["extraction"]))
+        docs.append((path, rec, entry, pd.Timestamp(date) if date else None,
+                     roll_call_keys(rec["extraction"])))
+    window = pd.Timedelta(days=round(365.25 * ROSTER_WINDOW_YEARS))
+    excluded: list[dict[str, Any]] = []
+    for path, rec, entry, date, _ in docs:
+        eid = entry["entry_id"]
+        nearby = set().union(*[keys for _, r, e, d, keys in docs if e["entry_id"] != eid
+                               and (date is None or d is None or abs(d - date) <= window)])
         part = tidy_one(entry, rec["extraction"], rec.get("extraction_mode", mode),
-                        rec.get("schema_version", ""))
+                        rec.get("schema_version", ""), nearby=nearby)
+        excluded.extend(part.pop("excluded_roll_call"))
         for k, rows in part.items():
             acc[k].extend(rows)
         conv = DATALAB_MARKDOWN / path.parent.name / f"{eid}.convert.json"
@@ -392,5 +607,8 @@ def tidy_all(mode: str = "balanced", out_dir: Path = DATA_PROCESSED) -> dict[str
         df.sort_values(sort).to_csv(out_dir / f"{name}.csv", index=False)
     pd.DataFrame(prov).to_csv(out_dir / "provenance.csv" if out_dir != DATA_PROCESSED
                               else PROVENANCE_CSV, index=False)
-    print("tidy: " + ", ".join(f"{k}={len(v)}" for k, v in tables.items()))
+    pd.DataFrame(excluded, columns=EXCLUDED_COLUMNS).sort_values(["entry_id", "member"]).to_csv(
+        out_dir / "excluded_roll_call.csv", index=False)
+    print("tidy: " + ", ".join(f"{k}={len(v)}" for k, v in tables.items())
+          + f"; dropped {len(excluded)} non-member roll-call names")
     return tables

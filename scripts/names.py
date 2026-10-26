@@ -42,12 +42,29 @@ def split_names(text: str | None) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
+_NOTE_DASH = re.compile(r"\s+[-–—]\s+")
+
+
+def name_note(raw: str | None) -> str | None:
+    """The note printed beside a roll-call name, if any: 'Yates - Late' → 'Late',
+    'Folkerts – arrived 6:15' → 'arrived 6:15', 'Folkerts (virtual)' → 'virtual'.
+    `member_key` drops these notes; tidy keeps them as the attendance note so vote
+    inference can see late arrivals."""
+    if not raw:
+        return None
+    parts = _NOTE_DASH.split(raw.strip(), maxsplit=1)
+    if len(parts) == 2 and parts[1].strip():
+        return parts[1].strip()
+    paren = re.search(r"\(([^)]*)\)", parts[0])
+    return (paren.group(1).strip() or None) if paren else None
+
+
 def member_key(raw: str | None) -> str | None:
     """Last name, title-cased, with titles and punctuation removed."""
     if not raw:
         return None
-    # Drop trailing notes: "Yates - Late", "Folkerts – arrived 6:15"
-    s = re.split(r"\s+[-–—]\s+", raw.strip(), maxsplit=1)[0]
+    # Drop trailing notes: "Yates - Late", "Folkerts – arrived 6:15" (see `name_note`)
+    s = _NOTE_DASH.split(raw.strip(), maxsplit=1)[0]
     s = _TITLES.sub(" ", s)
     s = re.sub(r"\(.*?\)", " ", s)
     s = re.sub(r"[^A-Za-z'\-\s]", " ", s)

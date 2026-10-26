@@ -67,13 +67,13 @@ Kept in the inventory; check whether any are not council minutes.
 
 ### How each motion's per-member votes were obtained (share of motions)
 
-| era   |   inconsistent_not_inferred |   inferred_from_roll_call |   inferred_with_item_exceptions |   no_vote_recorded |   partial_stated_only |
-|:------|----------------------------:|--------------------------:|--------------------------------:|-------------------:|----------------------:|
-| 2000s |                        0.12 |                      0.73 |                            0.01 |               0.13 |                  0.01 |
-| 2005s |                        0.07 |                      0.80 |                            0.01 |               0.08 |                  0.04 |
-| 2010s |                        0.12 |                      0.65 |                            0.02 |               0.20 |                  0.02 |
-| 2015s |                        0.00 |                      0.56 |                            0.00 |               0.44 |                  0.00 |
-| 2020s |                        0.05 |                      0.73 |                            0.03 |               0.18 |                  0.02 |
+| era   |   inconsistent_not_inferred |   inferred_from_attendance_note |   inferred_from_roll_call |   inferred_with_item_exceptions |   no_vote_recorded |   partial_stated_only |
+|:------|----------------------------:|--------------------------------:|--------------------------:|--------------------------------:|-------------------:|----------------------:|
+| 2000s |                        0.12 |                            0.00 |                      0.73 |                            0.01 |               0.13 |                  0.01 |
+| 2005s |                        0.07 |                            0.00 |                      0.80 |                            0.01 |               0.08 |                  0.04 |
+| 2010s |                        0.12 |                            0.00 |                      0.65 |                            0.02 |               0.20 |                  0.02 |
+| 2015s |                        0.00 |                            0.00 |                      0.56 |                            0.00 |               0.44 |                  0.00 |
+| 2020s |                        0.03 |                            0.01 |                      0.73 |                            0.03 |               0.18 |                  0.02 |
 
 ### Missing motion fields (share of motions)
 
@@ -92,6 +92,22 @@ Kept in the inventory; check whether any are not council minutes.
 |     126340 | 2014-08-01     | City Council Minutes - 2014-08-05 |                   9 | True                       |
 |     152022 | 2001-11-13     | Minutes - Nov-13-2001             |                  10 | False                      |
 |     179146 | 2022-02-01     | City Council Minutes - 02.02.2022 |                   9 | True                       |
+
+## Names dropped from the roll call
+
+9 names the extractor listed as council members were dropped by `tidy.non_members` (public speakers who didn't show, other boards' members). Check that none is a real council member.
+
+|   entry_id | meeting_date   | name_as_printed   | status   | note         | reason                                                                        |
+|-----------:|:---------------|:------------------|:---------|:-------------|:------------------------------------------------------------------------------|
+|      11796 | 2008-07-08     | W. JOHNSON        | absent   | ABSENT       | no council title, no action in the meeting, not on a roll call within 3 years |
+|      11796 | 2008-07-08     | E. JONES          | absent   | ABSENT       | no council title, no action in the meeting, not on a roll call within 3 years |
+|     177185 | 2021-08-03     | Michael Parrish   | absent   | NOT PRESENT  | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | Fred Bratman      | absent   | DID NOT SHOW | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | Cate Lawrence     | absent   | WITHDREW     | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | John Walker       | absent   | DID NOT SHOW | no council title, no action in the meeting, not on a roll call within 3 years |
+|     179600 | 2022-04-05     | Kate Weiner       | absent   | DID NOT SHOW | no council title, no action in the meeting, not on a roll call within 3 years |
+|     181343 | 2022-12-01     | Christy Gunter    | absent   | not present  | no council title, no action in the meeting, not on a roll call within 3 years |
+|     181343 | 2022-12-01     | Kent Welley       | absent   | not present  | no council title, no action in the meeting, not on a roll call within 3 years |
 
 ## Datalab cost and full-run projection
 

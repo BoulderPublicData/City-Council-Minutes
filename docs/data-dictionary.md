@@ -32,10 +32,15 @@ minutes unless noted. Times are strings as printed (e.g. `6:03 p.m.`).
 | name_as_printed | str | Exactly as in the minutes |
 | title | str | Mayor / Mayor Pro Tem / Council Member, as printed |
 | status | enum | `present` or `absent` at roll call |
-| note | str | e.g. "arrived at 6:45 p.m.", "excused", "participated remotely" |
+| note | str | e.g. "arrived at 6:45 p.m.", "excused", "participated remotely". When the extractor gives no note, a note printed beside the name on the roll call ("Yates - Late") is kept here |
 
 Caveat: roll call is taken at the start. Members who arrive late or leave early are
 noted in `note` when the minutes say so; motion-level presence is in `member_votes`.
+Vote inference reads these notes (see `inferred_from_attendance_note` below).
+
+Only council members are kept. The extractor sometimes lists other people on the roll
+call (public-hearing speakers marked "did not show", Planning Board members at a joint
+meeting); those are dropped and listed in `excluded_roll_call.csv`, below.
 
 ## agenda_items.csv — one row per agenda item × meeting
 
@@ -97,6 +102,14 @@ them can drop this table without affecting any other.
   but the minutes name a nay, recusal, or abstention: those are on individual items
   ("Carried 9:0; NAY: Nagle on Item F"). The motion row gets all-yes, inferred; the
   item-level votes are in `item_level_exceptions`
+- `inferred_from_attendance_note` — the tally doesn't match the roll call, and the
+  attendance notes account for the whole difference. Either the tally is lower by
+  exactly the number of unnamed present members noted as arriving late or leaving
+  early (they get no row; the others are inferred `yes`), or it is higher by exactly
+  the number of roll-call absentees noted as arriving later (they are inferred `yes`).
+  A noted member who moved or seconded the motion, or who moved, seconded, or voted yes
+  or no by name on an earlier motion (late arrival) or a later one (early departure),
+  doesn't count as away. Any other mismatch stays `inconsistent_not_inferred`
 - `partial_stated_only` — the minutes list yes votes but omit some present members
   (likely left the dais); only stated votes kept
 - `inconsistent_not_inferred` — filling in would contradict a stated count; only stated votes kept
@@ -109,7 +122,8 @@ them can drop this table without affecting any other.
 | motion_seq | int | Joins to `motions` with `entry_id` |
 | member | str | Canonical last name |
 | vote | enum | yes, no, abstain, absent |
-| vote_source | enum | `stated` (named in the vote sentence) or `inferred` (from roll call) |
+| vote_source | enum | `stated` (named in the vote sentence) or `inferred` |
+| inference_basis | enum? | Inferred rows only: `roll_call` (filled in from the roll call; counts reconcile) or `attendance_note` (counts reconciled using late-arrival / early-departure notes; the motion is `inferred_from_attendance_note`). Empty for stated rows |
 
 ## meetings.json — nested, one object per meeting
 
@@ -118,6 +132,21 @@ The original `README.md` per-meeting format (`date`, `minutes_url`, `attendees`,
 `entry_id`, `meeting_type`, `absent`, and the full `motions` list with `yeas`/`nays`/`absent`.
 In `consent_agenda` and `public_hearings`, `absent` includes abstentions, as in the
 original format.
+
+## excluded_roll_call.csv — one row per name dropped from a roll call
+
+Names the extractor put on a meeting's roll call that aren't council members. They are
+left out of `attendance`, `member_votes`, and the meeting's member counts. A name is
+kept only if something corroborates it: a council or mayor title; moving, seconding, or
+voting by name in that meeting; or the same member (or a near spelling of one not already
+on that roll call) on another meeting's roll call within 3 years. A title naming another
+body ("Planning Board Member") drops the name outright.
+
+| Column | Type | Description |
+|---|---|---|
+| entry_id, meeting_date | | The meeting |
+| member, name_as_printed, title, status, note | | As they would have appeared in `attendance` |
+| reason | str | Why the name was dropped |
 
 ## provenance.csv — one row per meeting
 

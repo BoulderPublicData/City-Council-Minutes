@@ -34,6 +34,7 @@ with a reproducible pipeline.
 | `data/processed/member_votes.csv` | member × motion, with `vote_source = stated \| inferred` |
 | `data/processed/meetings.json` | meeting, nested — the original format below, extended |
 | `data/processed/provenance.csv` | meeting: PDF hash, fetch method, Datalab request ids |
+| `data/processed/excluded_roll_call.csv` | name the extractor put on a roll call that isn't a council member (dropped from the tables; kept here for review) |
 
 Column definitions: [`docs/data-dictionary.md`](docs/data-dictionary.md).
 Pivot recipes (pandas, R, spreadsheets): [`docs/filter-pivot-recipes.md`](docs/filter-pivot-recipes.md).
@@ -41,9 +42,10 @@ Pivot recipes (pandas, R, spreadsheets): [`docs/filter-pivot-recipes.md`](docs/f
 **About inferred votes.** Older minutes often record only a tally and the dissenters
 ("The motion carried 6:3, Havlick, Morzel and Riggle opposed"). The pipeline fills in
 the unnamed present members as `yes` from that meeting's roll call and marks each such
-row `vote_source = inferred`. It declines to infer when the counts don't reconcile
-(someone left early, say). Filter to `vote_source == "stated"` for only what the
-minutes literally say.
+row `vote_source = inferred`. When the counts don't reconcile because someone arrived
+late or left early, it uses the minutes' attendance notes only if they account for
+exactly the difference (`inference_basis = attendance_note`); otherwise it declines.
+Filter to `vote_source == "stated"` for only what the minutes literally say.
 
 ## How it works
 

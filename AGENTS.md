@@ -73,7 +73,11 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
    2021 council). Treat `accuracy.md` disagreements as things to adjudicate.
 9. **Vote inference is deterministic and flagged.** The extractor records only stated
    votes; `tidy.infer_votes` fills in the rest from the meeting's roll call and marks
-   those rows `vote_source = inferred`. It declines when counts don't reconcile.
+   those rows `vote_source = inferred`. It declines when counts don't reconcile,
+   unless the attendance notes ("arrived at 6:45 p.m.", "left at 9:30 p.m.", a
+   "Yates - Late" roll-call marker) account for exactly the difference; those rows get
+   `inference_basis = attendance_note` (otherwise `roll_call`). A noted member seen
+   moving, seconding, or voting by name around that motion doesn't count as away.
    Recusals or nays on one consent item beside a whole-agenda tally ("Carried 9:0;
    NAY: Nagle on Item F") go to `motions.item_level_exceptions`.
 10. **Long runs and the working tree.** Fetch and Datalab runs take hours and write
@@ -93,6 +97,15 @@ Each stage is idempotent and resumable; run them with `uv run python -m scripts 
 12. **Contract vs. plausibility.** `scripts/schema.py` rejects only impossible values.
     Unusual-but-real ones (ten members at a post-election transition meeting) are
     flagged in `data/audit/summary.md` for review instead of failing the build.
+
+13. **Not everyone on an extracted roll call is on council.** The extractor has listed
+    public-hearing speakers marked "DID NOT SHOW" (2022-04-05), the absentees of a
+    Planning Board vote quoted in a call-up (2008-07-08), and Planning Board members at a
+    joint meeting (fast mode, 2016-10-13). `tidy.non_members` drops names with no
+    corroboration (a council/mayor title, acting in the meeting, or a roll call within
+    3 years) and lists them in `excluded_roll_call.csv` and `data/audit/summary.md`.
+    Because corroboration comes from other meetings, a partial run (e.g. `--entry-ids`)
+    has less to go on; check that list after any run.
 
 ## How to…
 
