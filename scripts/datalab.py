@@ -178,7 +178,11 @@ def _targets(scope: str, limit: int | None, entry_ids: list[int] | None) -> pd.D
         man = man[man["entry_id"].isin(gold_entry_ids())]
     if entry_ids:
         man = man[man["entry_id"].isin(entry_ids)]
-    man = man.sort_values("entry_id")
+    # Paid work runs in decision order: the hand-transcribed reference meetings first, so
+    # accuracy can still be scored if the Datalab billing limit stops the run part-way.
+    gold = set(gold_entry_ids())
+    man = man.assign(_not_ref=~man["entry_id"].isin(gold)).sort_values(["_not_ref", "entry_id"])
+    man = man.drop(columns="_not_ref")
     return man.head(limit) if limit else man
 
 
