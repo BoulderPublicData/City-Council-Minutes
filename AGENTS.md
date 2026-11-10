@@ -123,6 +123,13 @@ there is no reason to skip it, and no reason to re-run a paid stage to test a ti
 Compare `data/audit/accuracy_*.csv` before and after any tidy change. An agreement score
 that drops is a regression until the minutes say otherwise.
 
+## Working in a cloud session
+
+- **Delegated agents: push at milestones.** A brief for a subagent should say "commit and push after each milestone", so its work survives an interruption.
+- **Usage limits.** If a subagent stops on a usage limit, the notification gives the reset time. Schedule a check-in at that time (`send_later`), and resume the agent with `SendMessage` then, instead of waiting for someone to notice. Two agents sat idle for 7 h and 9 h before this was written down.
+- **Stopping background jobs.** Stop a background task with the task-stop tool and its task ID. If you must match by name, bracket the first letter (`pkill -f "[s]cripts fetch"`) so the pattern doesn't match its own shell.
+- **After a PR merges.** GitHub deletes the branch. Reset the session branch and drop the stale tracking ref: `git fetch origin main && git checkout -B claude/<branch> origin/main && git remote prune origin`. Otherwise the stop hook reports commits that are already on `main`.
+
 ## How to…
 
 - **Pick up newly filed minutes:** `discover --refresh` (or `--refresh --years 2026`),
